@@ -47,6 +47,19 @@ class Crawler:
             self.file_handling.save_file(html, raw_html_path + header)
             sleep(1)
 
+    def save_doc_length(self, folder='test-collection'):
+        gram_path = 'files/' + folder + '/gram_1/'
+        doc_length_file = 'files/' + folder + '/doc_length'
+        docs = self.file_handling.get_all_files(gram_path)
+        data = ''
+        print('\n' + self.utility.line_break + '\n' +\
+            'Saving document length to .' + doc_length_file)
+        for d in docs:
+            unigrams = self.file_handling.read_file_lines(gram_path + d)
+            doc_length = len(unigrams)
+            data += d + ' ' + str(doc_length) + '\n'
+        self.file_handling.save_file(data, doc_length_file)
+
     def run(self, folder='test-collection', urls=[]):
         self.file_handling.create_folder('files/' + folder)
         self.crawl_urls(folder, urls)
