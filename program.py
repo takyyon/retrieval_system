@@ -12,7 +12,8 @@ class Program:
     def run(self):
         # self.crawler.run()
         # self.gram.run()
-        self.indexer.run()
+        # self.indexer.run()
+        self.crawler.save_doc_length()
 
 program = Program()
 program.run()
