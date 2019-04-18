@@ -13,6 +13,9 @@ make it more customizable
 """
 class Utility:
     
+    def __init__(self):
+        self.line_break = '************************'
+
     def process_url(self, url, html):
         """
         Process a URL to get all the Links available on the page
@@ -146,3 +149,6 @@ class Utility:
         for k in keys:
             idict[k] = value
         return idict
+
+    def get_random_string(self):
+        return ''.join(random.choice('abcdnefiwnfnwe356435234fgrbeirfnd23435t') for _ in range(10))
