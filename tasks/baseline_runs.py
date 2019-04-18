@@ -97,6 +97,7 @@ class Baseline_Runs:
                 score *= (prob_relevant[i]/non_prob_relevant[i])
         return score
 
+    # https://web.cs.dal.ca/~anwar/ir/lecturenotes/l4.pdf
     def run_binary_independence_model(self, queries, folder='test-collection'):
         bim_path = 'files/' + folder + '/binary_independence_model/'
         unigram_path = 'files/' + folder + '/gram_1'
@@ -131,6 +132,7 @@ class Baseline_Runs:
             total += tf_idf
         return tf_idf
 
+    # http://www.tfidf.com/
     def run_tf_idf(self, queries, folder='test-collection'):
         tf_idf_path = 'files/' + folder + '/tf_idf/'
         unigram_path = 'files/' + folder + '/gram_1'
