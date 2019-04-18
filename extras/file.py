@@ -56,6 +56,8 @@ class FileHandling:
             filenames  = []
             for root, dirs, files in os.walk(folder):
                 for filename in files:
+                    if filename.startswith('.'):
+                        continue
                     filenames.append(filename)
 
             return filenames
