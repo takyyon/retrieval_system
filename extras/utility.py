@@ -118,7 +118,7 @@ class Utility:
         # punctation removed
         data = re.sub(r'\W+', ' ',  data)       
         # lowercase
-        return data.lower()
+        return data.lower().strip()
 
     """
     Tokenize the data using NLTK Library
@@ -138,7 +138,8 @@ class Utility:
         ngrams = nltk.ngrams(data.split(), grams)
         processed_ngrams = []
         for ng in ngrams:
-            processed_ngrams.append(sorted(ng))
+            if len(ng) > 0:
+                processed_ngrams.append(ng)
         return processed_ngrams
 
     """

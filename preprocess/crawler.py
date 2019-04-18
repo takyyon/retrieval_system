@@ -23,14 +23,14 @@ class Crawler:
             content = self.utility.getAllHTMLTags(html_content, tag)
             data = ''
             for c in content:
-                data += self.utility.parse(c.get_text()).lower() + ' '
-            tokenized_data = self.utility.tokenize(data)
+                data += self.utility.parse(c.get_text()) + ' '
+            tokenized_data = self.utility.tokenize(data).strip()
             print('Saving Document content...')
             self.file_handling.save_file(tokenized_data, content_path + d)
     
     def get_header(self, html):
         headers = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
-        for header in headers
+        for header in headers:
             content = self.utility.getAllHTMLTags(html_content, header)
             if len(content) > 0:
                 return content[0]
@@ -47,7 +47,7 @@ class Crawler:
             self.file_handling.save_file(html, raw_html_path + header)
             sleep(1)
 
-    def run(self, folder, urls):
+    def run(self, folder='test-collection', urls=[]):
         self.file_handling.create_folder('files/' + folder)
         self.crawl_urls(folder, urls)
         self.save_document_content(folder, 'p')
