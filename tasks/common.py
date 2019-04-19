@@ -24,8 +24,9 @@ class Common:
     def get_doc_length_path(self, stem_folder, folder):
         return 'files/' + folder + '/' + ('stem_' if len(stem_folder) > 0 else '') + 'doc_length'
 
-    def get_score_path(self, stem_folder, score, folder):
-        return 'files/' + folder + '/' + stem_folder + score
+    def get_score_path(self, stem_folder, score, folder, filter_queries = False):
+        filtered = 'filtered-' if filter_queries else ''
+        return 'files/' + folder + '/' + stem_folder + filtered  + score
 
     def get_ngram_path(self, stem_folder, gram, folder):
         return 'files/' + folder + '/' + stem_folder + 'gram-' + str(gram)
@@ -60,8 +61,8 @@ class Common:
 
     def filter_stopwords_in_queries(self, stopwords, queries):
         filtered_queries = []
-        for q in query:
-            filtered_query = self.filter_stopwords(self, stopwords, q)
+        for q in queries:
+            filtered_query = self.filter_stopwords(stopwords, q)
             filtered_queries.append(filtered_query)
         return filtered_queries
 
