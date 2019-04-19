@@ -1,3 +1,319 @@
 Snippets for the query:  code optimization for space efficiency
 ************************
-No snippets found for the query..
+Total Hits:  6
+************************
+
+************************
+Document:  CACM-2495.html
+************************
+
+
+Adapting Optimal Code Generation for Arithmetic
+Expressions to the Instruction Sets Available 
+on Present-Day Computers
+
+CACM June, 1973
+
+Stockhausen, P. F.
+
+arithmetic expressions, code generation, compilers,
+object-<B>code optimization</B>, register assignment, 
+trees
+
+4.12 5.24 5.32
+
+CA730605 JB January 23, 1978  2:24 PM
+
+2495	5	2495
+2495	5	2495
+2495	5	2495
+
+
+************************
+
+************************
+Document:  CACM-1886.html
+************************
+
+
+Generation of Optimal Code for Expressions via Factorization
+
+Given a set of expressions which are to be
+compiled, methods are presented for increasing the 
+efficiency of the object code produced by first factoring
+the expressions, i.e. finding a set of subexpressions 
+each of which occurs in two or more other expressions
+or subexpressions.  Once all the factors have been 
+ascertained, a sequencing procedure is applied which
+orders the factors and expressions such that all 
+information is computed in the correct sequence and factors
+need be retained in memory a minimal amount 
+of time.  An assignment algorithm is then executed in
+order to minimize the total number of temporary 
+storage cells required to hold the results of evaluating
+the factors.  In order to make these techniques 
+computationally feasible, heuristic procedures are
+applied, and hence global optimal results are not 
+necessarily generated.  The factorization algorithms
+are also applicable to the problem of factoring 
+Boolean switching expressions and of factoring polynomials
+encountered in symbol manipulating systems.
+
+CACM June, 1969
+
+Breuer, M. A.
+
+factorization algorithms, <B>code optimization</B>, sequencing
+of operations, detection of common subexpressions, 
+factorization of Boolean expressions
+
+4.12 6.1
+
+CA690607JB February 17, 1978  10:57 AM
+
+1030	4	1886
+1886	4	1886
+1939	4	1886
+1886	5	1886
+1886	5	1886
+1886	5	1886
+2175	5	1886
+678	5	1886
+1551	6	1886
+1613	6	1886
+1886	6	1886
+
+
+************************
+
+************************
+Document:  CACM-2701.html
+************************
+
+
+A Fast and Usually Linear Algorithm for Global
+Flow Analysis (Abstract only--Complete paper JACM 
+23,1 January, 1976)
+
+A new algorithm for global flow analysis on
+reducible graphs is presented. The algorithm is 
+shown to treat a very general class of function spaces.
+ For a graph of e edges, the algorithm has a 
+worst case time bound of O(e log e) function operations.
+ It is also shown that in programming terms, 
+the number of operations is proportional to e plus the
+number of exits from program loops.  Consequently 
+a restriction to one-entry one-exit control structures
+linearity.  The algorithm can be extended to yet 
+larger classes of function spaces and graphs by relaxing
+the time bound.  Examples are given of code 
+improvement problems which can be solved using the algorithm.
+
+CACM December, 1975
+
+Graham, S. L.
+Wegman, M.
+
+global flow analysis, data flow, <B>code optimization</B>,
+common subexpression elimination, live-dead 
+analysis, information propagation, flow graph, reducibility,
+go-to-less programming, depth-first search, 
+path compression
+
+4.12 5.24 5.25 5.32
+
+CA751206 JB January 5, 1978  4:08 PM
+
+2701	5	2701
+2701	5	2701
+2701	5	2701
+
+
+************************
+
+************************
+Document:  CACM-3054.html
+************************
+
+
+Implementing Quicksort Programs
+
+This paper is a practical study of how to
+implement the Quicksort sorting algorithm and its 
+best variants on real computers, including how to apply
+various <B>code optimization</B> techniques.  A detailed 
+implementation combining the most effective improvements
+to Quicksort is given, along with a discussion 
+of how to implement it in assembly language.  Analytic
+results describing the performance of the programs 
+are summarized.  A variety of special situations are considered
+from a practical standpoint to illustrate 
+Quicksort's wide applicability as an internal sorting
+method which requires negligible extra storage. 
+
+CACM October, 1978
+
+Sedgewick, R.
+
+Quicksort, analysis of algorithms, code optimization, sorting
+
+4.0 4.6 5.25 5.31 5.5
+
+CA781007 DH January 29, 1979  5:40 PM
+
+1175	4	3054
+1919	4	3054
+1919	4	3054
+1919	4	3054
+1969	4	3054
+1969	4	3054
+1997	4	3054
+1997	4	3054
+2118	4	3054
+2191	4	3054
+2191	4	3054
+2216	4	3054
+2216	4	3054
+2216	4	3054
+2227	4	3054
+2319	4	3054
+2388	4	3054
+2388	4	3054
+2348	4	3054
+2582	4	3054
+2669	4	3054
+2679	4	3054
+2679	4	3054
+2679	4	3054
+2679	4	3054
+2783	4	3054
+2783	4	3054
+2784	4	3054
+3054	4	3054
+3054	4	3054
+3054	4	3054
+3054	4	3054
+3054	4	3054
+3054	4	3054
+3054	4	3054
+3054	4	3054
+3054	4	3054
+3054	4	3054
+3054	4	3054
+3054	4	3054
+3121	4	3054
+3121	4	3054
+864	4	3054
+1175	5	3054
+1880	5	3054
+1919	5	3054
+1969	5	3054
+1980	5	3054
+1997	5	3054
+307	5	3054
+308	5	3054
+309	5	3054
+2017	5	3054
+2679	5	3054
+3054	5	3054
+3054	5	3054
+3054	5	3054
+776	5	3054
+
+
+************************
+
+************************
+Document:  CACM-3080.html
+************************
+
+
+Proving the Correctness of Heuristically Optimized Code 
+
+A system for proving that programs written
+in a high level language are correctly translated 
+to a low level language is described.  A primary use of
+the system is as a post optimization step in code 
+generation.  The low level language programs need not
+be generated by a compiler and in fact could be 
+hand coded.  Examples of the usefulness of such a system
+are given.  Some interesting results are the 
+ability to handle programs that implement recursion by
+bypassing the start of the program, and the detection 
+and pinpointing of a wide class of errors in the low
+level language programs.  The examples demonstrate 
+that optimization of the genre of this paper can result
+in substantially faster operation and the saving 
+of memory in terms of program and stack sizes.
+
+CACM July, 1978
+
+Samet, H.
+
+Compilers, correctness, <B>code optimization</B>,
+debugging, program verification, Lisp
+
+4.12 4.21 4.22 5.24
+
+CA780708 DH February 7, 1979  3:53 PM
+
+1024	4	3080
+1051	4	3080
+1102	4	3080
+1132	4	3080
+1390	4	3080
+1486	4	3080
+1549	4	3080
+1706	4	3080
+1826	4	3080
+1878	4	3080
+378	4	3080
+2060	4	3080
+2155	4	3080
+2168	4	3080
+2719	4	3080
+2723	4	3080
+2838	4	3080
+2842	4	3080
+2855	4	3080
+2879	4	3080
+3077	4	3080
+3080	4	3080
+3080	4	3080
+3106	4	3080
+627	4	3080
+106	4	3080
+210	5	3080
+2850	5	3080
+3080	5	3080
+3080	5	3080
+3080	5	3080
+
+
+************************
+
+************************
+Document:  CACM-1795.html
+************************
+
+
+Optimal Code for Serial and Parallel Computation
+
+CACM December, 1969
+
+Fateman, R. J.
+
+<B>code optimization</B>, sequencing of operations,
+detection of common subexpressions
+
+4.12
+
+CA691217 JB February 15, 1978  1:59 PM
+
+1795	5	1795
+1795	5	1795
+1795	5	1795
+
+
+************************
+

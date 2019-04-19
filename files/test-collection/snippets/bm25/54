@@ -1,3 +1,933 @@
 Snippets for the query:  Anything dealing with star height of regular languages or regular expressions or regular events.
 ************************
-No snippets found for the query..
+Total Hits:  12
+************************
+
+************************
+Document:  CACM-1366.html
+************************
+
+
+Computer Simulation-Discussion of the
+Technique and Comparison of Languages 
+
+The purpose of this paper is to present a comparison
+of some computer simulation languages 
+and of some of the involved in comparing software packages
+for digital computers are discussed in Part 
+I.  The issue is obvious: users of digital computers
+must choose from available <B>languages or</B> write their 
+own.  Substantial costs can occur, particularly in training,
+implementation and computer time if an inappropriate 
+language is chosenore and more computer simulation
+languages are being developed: comparisons and 
+evaluations of existing languages are useful for designers
+and implementers as well as users.  The second 
+part is devoted to computer simulation and simulation
+languages.  The computational characteristics of 
+simulation are discussed with  special attention being
+paid to a distinction between continuous and discrete 
+change models.  Part III presents a detailed comparison
+of six simulation languages and packages: SIMSCRIPT, 
+CLP, CSL, GASP, CPSS and SOL.  The characteristics of
+each are summarized in a series of tables.  The 
+implications of this analysis for designers of languages,
+for users, and for implementers are developed. 
+ The conclusion of the paper is that the packages now
+available for computer simulation offer features 
+which none of the more general-purpose packages do and
+that analysis of strengths and weaknesses of each 
+suggests ways in which both current and future simulation
+languages and packages can be improved.
+
+CACM October, 1966
+
+Teichroew, D.
+Lubin, J. F.
+
+CA661001 JB March 2, 1978  4:23 PM
+
+1366	5	1366
+1366	5	1366
+1366	5	1366
+1503	5	1366
+1781	5	1366
+1860	5	1366
+2091	5	1366
+123	6	1366
+196	6	1366
+919	6	1366
+990	6	1366
+1007	6	1366
+1046	6	1366
+1131	6	1366
+1139	6	1366
+1140	6	1366
+1149	6	1366
+1198	6	1366
+1215	6	1366
+1223	6	1366
+1265	6	1366
+1303	6	1366
+1323	6	1366
+1358	6	1366
+1366	6	1366
+1366	6	1366
+1366	6	1366
+1366	6	1366
+1389	6	1366
+1421	6	1366
+1421	6	1366
+1460	6	1366
+1462	6	1366
+1463	6	1366
+1467	6	1366
+1468	6	1366
+1477	6	1366
+1477	6	1366
+1491	6	1366
+1491	6	1366
+1496	6	1366
+1496	6	1366
+1531	6	1366
+1535	6	1366
+1565	6	1366
+1601	6	1366
+1602	6	1366
+1613	6	1366
+1614	6	1366
+1626	6	1366
+1626	6	1366
+1641	6	1366
+1641	6	1366
+1785	6	1366
+1786	6	1366
+1787	6	1366
+1788	6	1366
+205	6	1366
+224	6	1366
+249	6	1366
+288	6	1366
+316	6	1366
+378	6	1366
+381	6	1366
+398	6	1366
+11	6	1366
+404	6	1366
+410	6	1366
+463	6	1366
+464	6	1366
+483	6	1366
+3184	6	1366
+3184	6	1366
+3188	6	1366
+584	6	1366
+600	6	1366
+680	6	1366
+691	6	1366
+763	6	1366
+799	6	1366
+
+
+************************
+
+************************
+Document:  CACM-1324.html
+************************
+
+
+Answering English questions by Computer: A Survey
+
+Fifteen experimental English language question-answering
+systems which are programmed and operating 
+are described and reviewed.  The systems range from a conversation
+machine to programs which make sentences 
+about pictures and systems which translate from English
+into logical calculi.  Systems are classified 
+as list-structured data-based, graphic data-based, text-based
+and inferential.  Principles and methods 
+of operations are detailed and discussed.  It is concluded
+that the data-base question-answer has passed 
+from initial research into the early developmental
+phase.  The most difficult and important research 
+questions for the advancement of general-purpose language
+processors are seen to be concerned with measuring, 
+<B>dealing with</B> ambiguities, translating into formal
+languages and searching large tree structures.
+
+CACM January, 1965
+
+Simmons, R. F.
+
+CA650113 JB March 8, 1978  2:21 PM
+
+1324	4	1324
+1324	4	1324
+1324	4	1324
+892	4	1324
+931	4	1324
+1155	5	1324
+1324	5	1324
+1324	5	1324
+1324	5	1324
+1456	5	1324
+1468	5	1324
+1515	5	1324
+1699	5	1324
+1856	5	1324
+2127	5	1324
+634	5	1324
+652	5	1324
+653	5	1324
+1155	6	1324
+1155	6	1324
+1194	6	1324
+1225	6	1324
+1324	6	1324
+1324	6	1324
+1324	6	1324
+1324	6	1324
+1324	6	1324
+1324	6	1324
+1324	6	1324
+1487	6	1324
+1527	6	1324
+1553	6	1324
+1681	6	1324
+1781	6	1324
+1856	6	1324
+
+
+************************
+
+************************
+Document:  CACM-2906.html
+************************
+
+
+A Very High Level Programming Language for Data Processing Applications
+
+Application development today is too labor-in tensive.
+ In recent years, very high-level languages 
+have been increasingly explored as a solution to this
+problem.  The Business Definition Language (BDL) 
+is such a language, one aimed at business data processing
+problems.  The concepts in BDL mimic those 
+which have evolved through the years in businesses using
+manual methods.  This results in three different 
+sub<B>languages or</B> components: one for defining the business
+forms, one for describing the business organization, 
+and one for writing calculations.
+
+CACM November, 1977
+
+Hammer, M.
+owe, W. G.
+Kruskal, V. J.
+Wladawsky, I.
+
+very high level language, nonprocedural language,
+data flow language, business application, business 
+data processing, structured programming, modular programming,
+format specification, and design methodology
+
+3.50 4.22 4.32
+
+CA771110 JB December 27, 1977  7:06 AM
+
+1135	4	2906
+1136	4	2906
+493	4	2906
+2710	4	2906
+2765	4	2906
+2888	4	2906
+2906	4	2906
+729	4	2906
+2906	5	2906
+2906	5	2906
+2906	5	2906
+616	5	2906
+
+
+************************
+
+************************
+Document:  CACM-1612.html
+************************
+
+
+Top-to-bottom Parsing Rehabilitated?
+
+This note is concerned with the efficiency
+of the Top-to-Bottom parsing algorithm as used in 
+connection with programming language grammars.  It is
+shown, for instance, that retracing of unprofitable 
+paths can often be eliminated by a suitable rearrangement
+of the productions defining the grammar.  The 
+essential weakness of the method is in <B>dealing with</B> complicated
+syntactic structures which are in practice 
+only sparsely occupied, e.g., arithmetic expressions.
+
+CACM April, 1967
+
+Brooker, R. A.
+
+CA670403 JB February 28, 1978  11:32 AM
+
+1612	4	1612
+1781	4	1612
+1945	4	1612
+1139	5	1612
+1612	5	1612
+1612	5	1612
+1612	5	1612
+
+
+************************
+
+************************
+Document:  CACM-2704.html
+************************
+
+
+Exception Handling: Issues and a Proposed Notation
+
+This paper defines exception conditions, discusses
+the requirements exception handling language 
+features must satisfy, and proposes some new language
+features for <B>dealing with</B> exceptions in an orderly 
+and reliable way.  The proposed language features serve
+to highlight exception handling issues by showing 
+how deficiencies in current approaches can be remedied.
+
+CACM December, 1975
+
+Goodenough, J. B.
+
+multilevel exit, goto statement, error conditions,
+structured programming, ON conditions, programming 
+languages
+
+4.22
+
+CA751203 JB January 5, 1978  4:47 PM
+
+1397	4	2704
+1828	4	2704
+1854	4	2704
+1877	4	2704
+1960	4	2704
+2150	4	2704
+2317	4	2704
+2319	4	2704
+2377	4	2704
+2342	4	2704
+2376	4	2704
+2379	4	2704
+2424	4	2704
+2482	4	2704
+2618	4	2704
+2632	4	2704
+2704	4	2704
+2704	4	2704
+2704	4	2704
+2704	4	2704
+2704	4	2704
+2704	4	2704
+2723	4	2704
+2738	4	2704
+2738	4	2704
+2740	4	2704
+2741	4	2704
+2770	4	2704
+2866	4	2704
+2867	4	2704
+2867	4	2704
+2869	4	2704
+2902	4	2704
+2941	4	2704
+2958	4	2704
+3004	4	2704
+3030	4	2704
+3053	4	2704
+3184	4	2704
+1247	5	2704
+1552	5	2704
+1749	5	2704
+2356	5	2704
+2379	5	2704
+2673	5	2704
+2704	5	2704
+2704	5	2704
+2704	5	2704
+2945	5	2704
+3150	5	2704
+1947	6	2704
+2060	6	2704
+2704	6	2704
+2704	6	2704
+2842	6	2704
+2870	6	2704
+2939	6	2704
+2940	6	2704
+2941	6	2704
+2943	6	2704
+3073	6	2704
+3148	6	2704
+
+
+************************
+
+************************
+Document:  CACM-2921.html
+************************
+
+
+Regular Right Part Grammars and Their Parsers
+
+This paper in troduces an alternative to context-free
+grammars called regular right part (RRP) 
+grammars, which resemble PASCAL syntax diagrams.  Formally,
+RRP grammars have production right parts, 
+which are nondeterministic finite state machines (FSMs),
+and, as a special case, <B>regular expressions</B>, 
+since these can be converted to FSMs.  RRP grammars
+describe the syntax of programming languages more 
+concisely and more understandably than is possible with
+CF grammars.  Also in troduced is a class of parsers, 
+RRP LR(m, k) parsers, which includes the CF LR(k) parsers
+and provides the same advantages.  Informally, 
+an RRP LR(m, k) parser can determine the right end of
+each handle by considering at most k symbols to 
+the right of the handle and the left end, after the
+right end has been found, by considering at most 
+m symbols to the left of the handle.  A mechanism for
+determining the left end is required because there 
+is no bound on the length of the handle.
+
+CACM October, 1977
+
+LaLonde, W. R.
+
+finite state machines (automata), regular expressions,
+syntax diagrams,LR(k) grammars, parser construction, 
+parsing, programming languages, language generation,
+formal definition, compilers, translators, scanners
+
+4.2 5.21 5.23
+
+CA771005 JB December 27, 1977  11:01 AM
+
+1989	4	2921
+2060	4	2921
+2179	4	2921
+2581	4	2921
+2698	4	2921
+2739	4	2921
+2795	4	2921
+2921	4	2921
+2921	4	2921
+3087	4	2921
+3154	4	2921
+1989	5	2921
+2110	5	2921
+2921	5	2921
+2921	5	2921
+2921	5	2921
+
+
+************************
+
+************************
+Document:  CACM-3096.html
+************************
+
+
+An Optimal Method for Deletion in One-Sided Height-Balanced Trees
+
+A one-sided height-balanced tree is a binary
+tree in which every node's right subtree has a 
+height which is equal to or exactly one greater than the
+<B>height of</B> its left subtree.  It has an advantage 
+over the more general AVL tree in that only one bit
+of balancing information is required (two bits are 
+required for the ACL tree).  It is shown that deletion of
+an arbitrary node of such a tree can be accomplished 
+in O(logn) operations, where n is the number of nodes
+in the tree.  Moreover the method is optimal in 
+the sense that its complexity cannot be reduced in order
+of magnitude.  This result, coupled with earlier 
+results by Hirschberg, indicates that, of the three basic
+problems of insertion, deletion, and retrieval, 
+only insertion is adversely affected by this modification of an AVL tree.   
+
+CACM June, 1978
+
+Zweben, S.
+McDonald, M.
+
+Balanced, binary, search, trees
+
+3.73 3.74 4.34 5.25 5.31
+
+CA780601 DH February 26, 1979  12:48 PM
+
+2839	4	3096
+3009	4	3096
+3042	4	3096
+3042	4	3096
+3065	4	3096
+3096	4	3096
+3096	4	3096
+3096	4	3096
+3163	4	3096
+3163	4	3096
+3163	4	3096
+2839	5	3096
+2889	5	3096
+3009	5	3096
+3065	5	3096
+3096	5	3096
+3096	5	3096
+3096	5	3096
+3163	5	3096
+2839	6	3096
+2839	6	3096
+2889	6	3096
+3009	6	3096
+3065	6	3096
+3096	6	3096
+3096	6	3096
+
+
+************************
+
+************************
+Document:  CACM-2650.html
+************************
+
+
+Order-n Correction for Regular Languages
+
+A method is presented for calculating a string
+B, belonging to a given regular language L, 
+which is "nearest" (in number of edit operations) to a
+given input string a.  B is viewed as a reasonable 
+"correction" for the possibly erroneous string a, where
+a was originally intended to be a string of L. 
+ The calculation of B by the method presented requires
+time proportional to |a|, the number of characters 
+in a.  The method should find applications in information
+retrieval, artificial intelligence, and spelling 
+correction systems.
+
+CACM May, 1974
+
+Wagner, R. A.
+
+error correction, <B>regular languages</B>, regular events,
+finite state automata, compiler error recovery, 
+spelling correction, string best match problem, correction,
+corrector, errors, nondeterministic finite-state 
+automata
+
+4.12 4.20 5.22 5.23 5.42
+
+CA740503 JB January 17, 1978  4:26 PM
+
+1179	4	2650
+1225	4	2650
+1288	4	2650
+1350	4	2650
+1544	4	2650
+1646	4	2650
+1646	4	2650
+1781	4	2650
+1846	4	2650
+1945	4	2650
+2111	4	2650
+2534	4	2650
+2534	4	2650
+2556	4	2650
+2556	4	2650
+2630	4	2650
+2650	4	2650
+2650	4	2650
+2650	4	2650
+2650	4	2650
+2698	4	2650
+2708	4	2650
+2708	4	2650
+2887	4	2650
+3093	4	2650
+2111	5	2650
+2650	5	2650
+2650	5	2650
+2650	5	2650
+576	5	2650
+680	5	2650
+830	5	2650
+
+
+************************
+
+************************
+Document:  CACM-1846.html
+************************
+
+
+On Simulating Networks of Parallel Processes
+in Which Simultaneous Events May Occur
+
+Some of the problems of simulating discrete
+event systems, particularly computer systems, on 
+a conventional digital computer are dealt with.  The
+systems are assumed to be described as a network 
+of interconnected sequential processes.  Briefly reviewed
+are the common techniques used to handle such 
+simulations when simultaneous events do not occur, can
+be ignored, or can be handled by simple priority 
+rules.  Following this, the problem of <B>dealing with</B> simultaneous
+events in separate processes is introduced. 
+ An abstraction of this problem is developed which admits
+solution for a majority of commonly encountered
+problems.  The technique will either find a method of
+simulating the parallel events or report that none 
+can be found.  In some of the latter cases it is shown
+to be possible to find a solution by extending 
+the information available to the solution technique, but
+in many cases the technique becomes computationally 
+unfeasible when the additional information is provided.
+
+CACM September, 1969
+
+Parnas, D. L.
+
+simulation, parallel processes, simultaneous events,
+picture processing, computer system simulation
+
+3.19 3.24 4.24 5.9 6.9
+
+CA690910 JB February 15, 1978  4:21 PM
+
+1541	4	1846
+1805	4	1846
+1846	4	1846
+1846	4	1846
+1846	4	1846
+1846	4	1846
+1846	4	1846
+1892	4	1846
+2060	4	1846
+2188	4	1846
+2218	4	1846
+2218	4	1846
+2317	4	1846
+2630	4	1846
+2650	4	1846
+3112	4	1846
+1380	5	1846
+1424	5	1846
+1484	5	1846
+1572	5	1846
+1846	5	1846
+1846	5	1846
+1846	5	1846
+576	5	1846
+3064	5	1846
+1846	6	1846
+1939	6	1846
+2742	6	1846
+2767	6	1846
+2936	6	1846
+
+
+************************
+
+************************
+Document:  CACM-1665.html
+************************
+
+
+Automatic Generation of Efficient Lexical
+Processors Using Finite State Techniques
+
+The practical application of the theory of
+finite-state automata to automatically generate 
+lexical processors is dealt with in this tutorial article
+by the use of the AED RWORD system, developed 
+at M. as part of the AED-1 system.  This system
+accepts as input description of the multicharacter 
+items or of words allowable in a language given in terms
+of a subset of <B>regular expressions</B>. The output 
+of the system is a lexical processor which reads a string
+of characters and combines them into the items 
+as defined by the regular expressions.  Each output
+item is identified by a code number together with 
+a pointer to a block of storage containing the characters
+and character count in the item.  The processors 
+produced by the system are based on finite-state machines.
+ Each state of a "machine" corresponds to 
+a unique condition in the lexical processing of a character
+string.  At each state a character is read, 
+and the machine changes to a new state.  At each transition
+appropriate actions are taken based on the 
+particular character read.  The system has been in operation
+since 1966, and processors generated have 
+compared favorably in speed to carefully hand-coded programs
+to accomplish the same task.  Lexical processors 
+for AED-O and MAD are among the many which have been
+produced.  The techniques employed are independent 
+of the nature of the items being evaluated.  If the
+word "events" is substituted for character string, 
+these processors may be described as generalized decision-making
+mechanisms based upon an ordered sequence 
+of events.  This allows the system to be used in a
+range of applications outside the area of lexical 
+processing.  However convenient these advantages may
+be, speed is the most important consideration.  
+In designing a system for automatic generation of a
+lexical processor, the goal was a processor which 
+completely eliminated backup or rereading, which was nearly
+as fast as hand-coded processors, which would 
+analyze the language and detect errors, and
+which would be convenient and easy to use.
+
+CACM December, 1968
+
+Johnson, W. L.
+Porter, J. H.
+Ackley, S. I.
+Ross, D. T.
+
+character string, compiler, finite-state automata, finite-state
+machine, lexical processor, nondeterministic 
+machine, parsing, plex structure, regular expressions,sequential
+machine, syntactic analysis
+
+3.63 3.75 4.12 5.22 5.24 5.31
+
+CA681201 JB February 21, 1978  2:19 PM
+
+1051	4	1665
+1139	4	1665
+1265	4	1665
+1323	4	1665
+1358	4	1665
+1380	4	1665
+1552	4	1665
+1665	4	1665
+1665	4	1665
+1665	4	1665
+1665	4	1665
+1768	4	1665
+1781	4	1665
+1787	4	1665
+1787	4	1665
+1824	4	1665
+1825	4	1665
+1836	4	1665
+1860	4	1665
+1861	4	1665
+1989	4	1665
+2015	4	1665
+2110	4	1665
+2112	4	1665
+2127	4	1665
+2155	4	1665
+2187	4	1665
+2317	4	1665
+2534	4	1665
+2541	4	1665
+2545	4	1665
+2698	4	1665
+2698	4	1665
+2733	4	1665
+2733	4	1665
+2820	4	1665
+3073	4	1665
+3155	4	1665
+763	4	1665
+1665	5	1665
+1665	5	1665
+1665	5	1665
+1781	5	1665
+378	5	1665
+2746	5	1665
+631	5	1665
+799	5	1665
+1665	6	1665
+1739	6	1665
+2139	6	1665
+2545	6	1665
+2786	6	1665
+
+
+************************
+
+
+
+Automatic Generation of Efficient Lexical
+Processors Using Finite State Techniques
+
+The practical application of the theory of
+finite-state automata to automatically generate 
+lexical processors is dealt with in this tutorial article
+by the use of the AED RWORD system, developed 
+at M. as part of the AED-1 system.  This system
+accepts as input description of the multicharacter 
+items or of words allowable in a language given in terms
+of a subset <B>of regular</B> expressions. The output 
+of the system is a lexical processor which reads a string
+of characters and combines them into the items 
+as defined by the regular expressions.  Each output
+item is identified by a code number together with 
+a pointer to a block of storage containing the characters
+and character count in the item.  The processors 
+produced by the system are based on finite-state machines.
+ Each state of a "machine" corresponds to 
+a unique condition in the lexical processing of a character
+string.  At each state a character is read, 
+and the machine changes to a new state.  At each transition
+appropriate actions are taken based on the 
+particular character read.  The system has been in operation
+since 1966, and processors generated have 
+compared favorably in speed to carefully hand-coded programs
+to accomplish the same task.  Lexical processors 
+for AED-O and MAD are among the many which have been
+produced.  The techniques employed are independent 
+of the nature of the items being evaluated.  If the
+word "events" is substituted for character string, 
+these processors may be described as generalized decision-making
+mechanisms based upon an ordered sequence 
+of events.  This allows the system to be used in a
+range of applications outside the area of lexical 
+processing.  However convenient these advantages may
+be, speed is the most important consideration.  
+In designing a system for automatic generation of a
+lexical processor, the goal was a processor which 
+completely eliminated backup or rereading, which was nearly
+as fast as hand-coded processors, which would 
+analyze the language and detect errors, and
+which would be convenient and easy to use.
+
+CACM December, 1968
+
+Johnson, W. L.
+Porter, J. H.
+Ackley, S. I.
+Ross, D. T.
+
+character string, compiler, finite-state automata, finite-state
+machine, lexical processor, nondeterministic 
+machine, parsing, plex structure, regular expressions,sequential
+machine, syntactic analysis
+
+3.63 3.75 4.12 5.22 5.24 5.31
+
+CA681201 JB February 21, 1978  2:19 PM
+
+1051	4	1665
+1139	4	1665
+1265	4	1665
+1323	4	1665
+1358	4	1665
+1380	4	1665
+1552	4	1665
+1665	4	1665
+1665	4	1665
+1665	4	1665
+1665	4	1665
+1768	4	1665
+1781	4	1665
+1787	4	1665
+1787	4	1665
+1824	4	1665
+1825	4	1665
+1836	4	1665
+1860	4	1665
+1861	4	1665
+1989	4	1665
+2015	4	1665
+2110	4	1665
+2112	4	1665
+2127	4	1665
+2155	4	1665
+2187	4	1665
+2317	4	1665
+2534	4	1665
+2541	4	1665
+2545	4	1665
+2698	4	1665
+2698	4	1665
+2733	4	1665
+2733	4	1665
+2820	4	1665
+3073	4	1665
+3155	4	1665
+763	4	1665
+1665	5	1665
+1665	5	1665
+1665	5	1665
+1781	5	1665
+378	5	1665
+2746	5	1665
+631	5	1665
+799	5	1665
+1665	6	1665
+1739	6	1665
+2139	6	1665
+2545	6	1665
+2786	6	1665
+
+
+************************
+
+************************
+Document:  CACM-2450.html
+************************
+
+
+Empirical Working Set Behavior
+
+The working set model for program behavior
+has been proposed in recent years as a basis for 
+the design of scheduling and paging algorithms.  Although
+the words "working set" are now commonly encountered 
+in the literature <B>dealing with</B> resource allocation, there
+is a dearth of published data on program measurements, 
+in the hope that workers in the field might find experimental
+evidence upon which to substantiate and 
+base theoretical work.
+
+CACM September, 1973
+
+Rodriguez-Rosell, J.
+
+virtual memory, paging, working set,
+software measurement, program behavior
+
+4.3
+
+CA730905 JB January 23, 1978  9:22 AM
+
+2373	4	2450
+2374	4	2450
+2380	4	2450
+2450	4	2450
+2450	4	2450
+2595	4	2450
+2996	4	2450
+3006	4	2450
+3006	4	2450
+3067	4	2450
+3067	4	2450
+2373	5	2450
+2374	5	2450
+2450	5	2450
+2450	5	2450
+2450	5	2450
+
+
+************************
+

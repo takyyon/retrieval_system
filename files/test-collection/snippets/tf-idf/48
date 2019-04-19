@@ -1,3 +1,145 @@
 Snippets for the query:  The role of information retrieval in knowledge based systems (i.e., expert systems).
 ************************
-No snippets found for the query..
+Total Hits:  3
+************************
+
+************************
+Document:  CACM-2307.html
+************************
+
+
+Dynamic Document Processing
+
+The current role of computers in automatic
+document processing is briefly outlined, and some 
+reasons are given why the early promise of library automation
+and of the mechanization of documentation 
+processes has not been fulfilled.  A new dynamic document
+environment is then outlined in which clustered
+files are searched and information is retrieved following
+an interactive user-controlled search process. 
+ Methods are described for an automatic query modification
+based on user needs, and for a continuous 
+reorganization of the stored information as a function of
+earlier file processing and of normal collection 
+growth.  The proposed procedures provide powerful tools
+for <B>information retrieval</B> and for the control 
+of dynamic library collections in which new items
+are continually added and old ones are retired.
+
+CACM July, 1972
+
+Salton, G.
+
+automatic indexing, automatic search and retrieval,
+iterative searching, mechanized library processing, 
+collection growth, collection retirement, feedback search
+
+3.62 3.71 3.73 3.74
+
+CA720721 JB January 30, 1978  10:59 AM
+
+2307	5	2307
+2307	5	2307
+2307	5	2307
+
+
+************************
+
+
+
+Dynamic Document Processing
+
+The current <B>role of</B> computers in automatic
+document processing is briefly outlined, and some 
+reasons are given why the early promise of library automation
+and of the mechanization of documentation 
+processes has not been fulfilled.  A new dynamic document
+environment is then outlined in which clustered
+files are searched and information is retrieved following
+an interactive user-controlled search process. 
+ Methods are described for an automatic query modification
+based on user needs, and for a continuous 
+reorganization of the stored information as a function of
+earlier file processing and of normal collection 
+growth.  The proposed procedures provide powerful tools
+for information retrieval and for the control 
+of dynamic library collections in which new items
+are continually added and old ones are retired.
+
+CACM July, 1972
+
+Salton, G.
+
+automatic indexing, automatic search and retrieval,
+iterative searching, mechanized library processing, 
+collection growth, collection retirement, feedback search
+
+3.62 3.71 3.73 3.74
+
+CA720721 JB January 30, 1978  10:59 AM
+
+2307	5	2307
+2307	5	2307
+2307	5	2307
+
+
+************************
+
+************************
+Document:  CACM-3134.html
+************************
+
+
+The Use of Normal Multiplication Tables
+for Information Storage and Retrieval
+
+This paper describes a method for the organization and retrieval of attribute 
+based information systems, using the normal multiplication table as a directory
+for the information system.  Algorithms for the organization an
+d retrieval <B>of information</B> are described.  This method is particularly
+suitable for queries requesting a group of information items,
+ all of which possess a particular set of attributes (and possibly
+some other attributes as well).  Several examples are given; the
+results with respect to the number of disk accesses and disk space
+are compared to other common approaches.  Algorithms evaluating
+the appropriateness of the above approach to a given information system
+are described.  For a certain class of information systems,
+the normal multiplication table method yields far more rapid retrieval
+with a more economical space requirement than conventional systems.  
+Moreover this method incorporates an improved modification of the inverted 
+file technique.
+
+CACM March, 1979
+
+Motzkin, D.
+
+Information retrieval, inverted files, multiattribute retrieval,
+multilist file, normal multiplication table, queries,
+rapid retrieval, space economy
+
+3.70 3.73 3.79
+
+CA790305 DH May 21, 1979  9:46 AM
+
+2140	4	3134
+2452	4	3134
+2575	4	3134
+2765	4	3134
+2901	4	3134
+2966	4	3134
+3134	4	3134
+3134	4	3134
+3134	4	3134
+3134	4	3134
+1976	5	3134
+2160	5	3134
+2524	5	3134
+2990	5	3134
+3134	5	3134
+3134	5	3134
+3134	5	3134
+
+
+************************
+

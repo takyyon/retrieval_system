@@ -1,3 +1,96 @@
 Snippets for the query:  mathematical induction, group theory, integers modulo m, probability, binomial coefficients, binomial theorem, homomorphism, morphism, transitivity, relations, relation matrix. Syracuse University, 313 Link Hall, Syracuse, N. 13210
 ************************
-No snippets found for the query..
+Total Hits:  2
+************************
+
+************************
+Document:  CACM-2229.html
+************************
+
+
+Construction of Rational and Negative Powers of a Formal Series
+
+Some methods are described for the generation
+of fractional and negative powers of any formal 
+series, such as Poisson series or Chebyshev series.  It
+is shown that, with the use of the three elementary 
+operations of addition, subtraction, and multiplication,
+all rational (positive and negative) powers 
+of a series can be constructed.  There are basically two
+approaches: the binomial theorem and the iteration 
+methods.  Both methods are described here, and the relationship
+between them is pointed out.  Some well-known 
+classical formulas are obtained as particular cases,
+and it is shown how the convergence properties of 
+these formulas can be improved with very little additional
+computations.  Finally, at the end of the 
+article, some numerical experiments are described
+with Chebyshev series and with Fourier series.
+
+CACM January, 1971
+
+Brucke, R. A.
+
+series expansion, series inversion, root extraction,
+<B>binomial theorem,</B> Newton iterations, Chebyshev 
+series, Poisson series, Fourier series
+
+3.11 3.15 3.21 5.0
+
+CA710105 JB February 8, 1978  10:57 AM
+
+1396	4	2229
+2229	4	2229
+1365	5	2229
+2229	5	2229
+2229	5	2229
+2229	5	2229
+
+
+************************
+
+************************
+Document:  CACM-1948.html
+************************
+
+
+Computers in Group Theory: a Survey
+
+Computers are being applied to an increasingly
+diverse range of problems in group theory.  
+The most important areas of application at present are
+coset enumeration, subgroup lattices, automorphism 
+groups of finite groups, character tables, and commutator
+calculus.  Group theory programs range from 
+simple combinatorial or numerical programs to large
+symbol manipulation systems.  In this survey the 
+more important algorithms in use are described and contrasted,
+and results which have been obtained using 
+existing programs are indicated.  An extensive bibliography is included.
+
+CACM January, 1969
+
+Cannon, J. J.
+
+<B>group theory,</B> coset enumeration, subgroup lattices,
+automorphism groups, character tables, commutator 
+calculus, topology, crystallography, permutation groups,
+Abelian groups, discrete mathematics, non-numerical 
+programming, symbol manipulation, survey
+
+1.3 3.15 5.39
+
+CA690101 JB February 20, 1978  1:27 PM
+
+1567	4	1948
+1948	4	1948
+1948	4	1948
+1391	5	1948
+1559	5	1948
+1948	5	1948
+1948	5	1948
+1948	5	1948
+
+
+************************
+

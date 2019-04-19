@@ -43,7 +43,9 @@ class Query_Highlight:
         len_left = query_len - len_checked - len(query)
         beg = self.find_index(term_index - len_checked - self.threshold_length, content)
         end = self.find_index(term_index + len_left + self.threshold_length, content, True)
-        return [content[beg:end]]
+        return [content[beg:term_index] + '<B>' +\
+            content[term_index:term_index + len(query)] + '</B>' +\
+            content[term_index + len(query): end]]
 
     def get_total_hits(self, result):
         total = 0
@@ -87,14 +89,14 @@ class Query_Highlight:
         return summary        
     
     def highlight_query(self, stem, index, query, folder, score):
-        top_docs = self.baseline_runs.read_top_documents_for_score(stem, folder, index,\
-            self.common.top_doc_count, score)
-        trigrams = self.utility.get_and_process_ngrams(query, 3)
+        top_docs = self.common.read_top_documents_for_score(stem=stem, folder=folder, query_index=index,\
+            top=self.common.top_doc_count, score=score)
+        ngrams = self.utility.get_and_process_ngrams(query, 2)
         query_len = len(query)
         result = {}
         len_checked = 0
         print('\nProcessing ' + query + '...')
-        for gram in trigrams:
+        for gram in ngrams:
             temp_query = ' '.join(gram)
             for temp in top_docs:
                 d = temp['doc']

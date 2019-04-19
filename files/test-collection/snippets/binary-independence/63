@@ -1,3 +1,449 @@
 Snippets for the query:  List all articles on EL1 and ECL (EL1 may be given as EL/1; I don't remember how they did it.
 ************************
-No snippets found for the query..
+Total Hits:  6
+************************
+
+************************
+Document:  CACM-1614.html
+************************
+
+
+A Proposal for Definitions in ALGOL
+
+An extension to ALGOL is proposed for adding
+new data types and operators to the language. 
+ Definitions may occur in any block heading and terminate
+with the block.  They are an integral part 
+of the program and are not fixed in the language.  Even
+the behavior of existing operators <B>may be</B> redefined. 
+ The processing of text containing defined contexts features
+a "replacement rule" that eliminates unnecessary 
+iterations and temporary storage.  Examples of definition sets
+are given for real and complex matrices, 
+complex numbers, file processing, and list manipulation.
+
+CACM April, 1967
+
+Galler, B. A.
+Perlis, A. J.
+
+CA670401 JB February 28, 1978  11:43 AM
+
+1086	4	1614
+1132	4	1614
+1234	4	1614
+1263	4	1614
+1265	4	1614
+1270	4	1614
+1323	4	1614
+1358	4	1614
+1379	4	1614
+1380	4	1614
+1453	4	1614
+1464	4	1614
+1484	4	1614
+1491	4	1614
+1498	4	1614
+1613	4	1614
+1614	4	1614
+1614	4	1614
+1781	4	1614
+1825	4	1614
+1860	4	1614
+2083	4	1614
+2178	4	1614
+2179	4	1614
+2252	4	1614
+2253	4	1614
+2325	4	1614
+2341	4	1614
+2546	4	1614
+2557	4	1614
+2645	4	1614
+2652	4	1614
+2684	4	1614
+2842	4	1614
+2929	4	1614
+2934	4	1614
+3069	4	1614
+669	4	1614
+679	4	1614
+691	4	1614
+761	4	1614
+949	4	1614
+989	4	1614
+1614	5	1614
+1614	5	1614
+1614	5	1614
+1693	5	1614
+1781	5	1614
+1824	5	1614
+1861	5	1614
+2126	5	1614
+437	5	1614
+3184	5	1614
+823	6	1614
+123	6	1614
+196	6	1614
+196	6	1614
+919	6	1614
+990	6	1614
+1007	6	1614
+1046	6	1614
+1131	6	1614
+1139	6	1614
+1140	6	1614
+1149	6	1614
+1198	6	1614
+1215	6	1614
+1223	6	1614
+1265	6	1614
+1303	6	1614
+1323	6	1614
+1358	6	1614
+1358	6	1614
+1366	6	1614
+1421	6	1614
+1421	6	1614
+1460	6	1614
+1462	6	1614
+1463	6	1614
+1467	6	1614
+1468	6	1614
+1477	6	1614
+1477	6	1614
+1491	6	1614
+1491	6	1614
+1496	6	1614
+1531	6	1614
+1535	6	1614
+1565	6	1614
+1601	6	1614
+1602	6	1614
+1613	6	1614
+1614	6	1614
+1614	6	1614
+1614	6	1614
+1614	6	1614
+1614	6	1614
+1626	6	1614
+1641	6	1614
+1693	6	1614
+1781	6	1614
+1781	6	1614
+1787	6	1614
+1788	6	1614
+205	6	1614
+224	6	1614
+249	6	1614
+288	6	1614
+316	6	1614
+381	6	1614
+398	6	1614
+11	6	1614
+404	6	1614
+404	6	1614
+404	6	1614
+408	6	1614
+410	6	1614
+463	6	1614
+464	6	1614
+483	6	1614
+3184	6	1614
+3188	6	1614
+584	6	1614
+600	6	1614
+680	6	1614
+691	6	1614
+763	6	1614
+799	6	1614
+
+
+************************
+
+************************
+Document:  CACM-1754.html
+************************
+
+
+Dynamic Storage Allocation Systems
+
+In many recent computer system designs, hardware
+facilities have been provided for easing the 
+problems of storage allocation.  A method of characterizing
+dynamic storage allocation systems-according 
+to the functional capabilities provided and the underlying
+techniques used-is presented.  The basic purpose 
+of the paper is to provide a useful perspective from
+which the utility of various hardware facilities 
+<B>may be</B> assessed.  A brief survey of storage allocation
+facilities in several representative computer 
+systems is included as an appendix.
+
+CACM May, 1968
+
+Randell, B.
+Kuehner, C. J.
+
+segmentation, paging, multiprogramming, storage
+allocation, storage management, virtual memories, 
+storage fragmentation, storage hierarchies, addressing mechanisms
+
+4.30 6.20
+
+CA680502 JB February 23, 1978  9:49 AM
+
+1754	4	1754
+1754	4	1754
+2358	4	1754
+488	4	1754
+274	5	1754
+1754	5	1754
+1754	5	1754
+1754	5	1754
+1879	5	1754
+1884	5	1754
+1901	5	1754
+376	5	1754
+2095	5	1754
+2277	5	1754
+2297	5	1754
+2365	5	1754
+168	6	1754
+185	6	1754
+987	6	1754
+1728	6	1754
+1728	6	1754
+1751	6	1754
+1751	6	1754
+1751	6	1754
+1754	6	1754
+1754	6	1754
+1754	6	1754
+1754	6	1754
+1754	6	1754
+1754	6	1754
+1754	6	1754
+1879	6	1754
+1924	6	1754
+2362	6	1754
+
+
+************************
+
+************************
+Document:  CACM-1179.html
+************************
+
+
+PUFFT-The Purdue University Fast FORTRAN Translator
+
+A core resident, compile-and-go system designed
+for the IBM 7090/7094 computer is described. 
+ In little more than half of the 32k word core memory
+PUFFT provides a monitor for job sequencing, a 
+translator for the full FORTRAN IV language, the FORTRAN
+subroutine library, an input--output system 
+for use at compile time and at execute time, and a rather
+elaborate diagnostic message writing routine. 
+ Batches of small- and medium-sized FORTRAN IV source
+language programs are processed at very high speeds. 
+ Language compatibility has been maintained so that
+programs <B>may be</B> debugged in the PUFFT system and 
+then recompiled and run in the IBJOB-IBFTC system supplied by the manufacturer.
+
+CACM November, 1965
+
+Rosen, S.
+Spurgeon, A.
+Donnelly, J. K.
+
+CA651102 JB March 6, 1978  6:17 PM
+
+1134	4	1179
+1179	4	1179
+1179	4	1179
+1288	4	1179
+1544	4	1179
+1646	4	1179
+1861	4	1179
+2111	4	1179
+2534	4	1179
+2556	4	1179
+2650	4	1179
+1179	5	1179
+1179	5	1179
+1179	5	1179
+1646	5	1179
+1647	5	1179
+408	5	1179
+830	5	1179
+830	6	1179
+987	6	1179
+1072	6	1179
+1179	6	1179
+1179	6	1179
+1647	6	1179
+224	6	1179
+680	6	1179
+
+
+************************
+
+************************
+Document:  CACM-1454.html
+************************
+
+
+A Simple User-Oriented Compiler Source Language
+for Programming Automatic Test Equipment
+
+For the nonprogrammer, difficulty in using
+a language increases rapidly with the number of 
+nonproblem-oriented conventions.  A simple language, even
+if inelegant, which considers the user's background 
+as part of the problem <B>may be</B> more effective than a source
+language containing subtle and more powerful 
+capabilities.  The language described in this paper is
+used to write computer programs which test electronic 
+equipment.  Because this testing process contains few
+complex ideas, there is little need for the elegance 
+and redundancy of a highly syntax-oriented language.
+ A simple and direct language will suffice for the 
+problem.  The eventual users of this language are military
+depot personnel who cannot he expected to 
+have computer programming skill or significant programming
+training.  For this nonprogramming-oriented 
+user, it was essential to create a language using familiar
+engineering statements; programming-oriented 
+conventions would have unnecessarily complicated his task.
+
+CACM April, 1966
+
+Scheff, B. H.
+
+CA660401 JB March 3, 1978  11:09 AM
+
+1454	5	1454
+1454	5	1454
+1454	5	1454
+
+
+************************
+
+************************
+Document:  CACM-3002.html
+************************
+
+
+A Record and File Partitioning Model
+
+One of the main objectives in the design of
+a file system is the reduction of storage and data 
+transfer costs.  This paper presents a model in which
+several  requests access the file system, and each 
+request requires information from one or more variable
+length data-items.  The probabilities of access 
+and the distribution of each data-item's length are assumed
+to be known, and to be mutually independent. 
+The file system uses one or more storage devices, and
+each record <B>may be</B> partitioned into subrecords 
+that are stored on different devices.  One of the subrecords
+is designated as the primary record; when 
+a request for a record is made, the primary record is
+first accessed, and other subrecords are accessed 
+only if the pertinent information is not stored in the
+primary record.  The model that is presented in 
+this paper, both as a nonlinear programming model and
+a mixed integer programming model, is a very general 
+one; several types of file systems may be derived from
+it by an appropriate selection of its parameters. 
+ This model has already been used in the optimization of
+library routines' storage at a large scale operating 
+system.
+
+CACM January, 1977
+
+Babad, J. M.
+
+file system, file design, file partitioning, record partitioning
+
+3.73
+
+CA770103 JB January 3, 1978  12:28 AM
+
+3002	5	3002
+3002	5	3002
+3002	5	3002
+3168	5	3002
+2965	6	3002
+3002	6	3002
+
+
+************************
+
+************************
+Document:  CACM-1390.html
+************************
+
+
+CONVERT
+
+A programming language is described which
+is applicable to problems conveniently described 
+by transformation rules.  By this is meant that patterns
+<B>may be</B> prescribed, each being associated with 
+a skeleton, so that a series of such pairs may be searched
+until a pattern is found which matches an 
+expression to be transformed.  The conditions for a match
+are governed by a code which also allows subexpressions 
+to be identified and eventually substituted into the
+corresponding skeleton.  The primitive patterns 
+and primitive skeletons are described, as well as the
+principle which allow their elaboration in to more 
+complicated patterns and skeletons.  The advantages of the
+language are that it allows one to apply transformation 
+rules to lists and arrays as easily as strings, that both
+patterns and skeletons may be defined recursively, 
+and that as a consequence programs may be stated quite concisely.
+
+CACM August, 1966
+
+Guzman, A.
+McIntosh, H. V.
+
+CA660808 JB March 2, 1978  7:32 PM
+
+1024	4	1390
+1051	4	1390
+1102	4	1390
+1132	4	1390
+1390	4	1390
+1486	4	1390
+1549	4	1390
+1706	4	1390
+1826	4	1390
+1878	4	1390
+378	4	1390
+2060	4	1390
+2155	4	1390
+2168	4	1390
+2719	4	1390
+2723	4	1390
+2838	4	1390
+2842	4	1390
+2855	4	1390
+2879	4	1390
+3077	4	1390
+3080	4	1390
+3106	4	1390
+627	4	1390
+106	4	1390
+210	5	1390
+1390	5	1390
+1390	5	1390
+1390	5	1390
+
+
+************************
+

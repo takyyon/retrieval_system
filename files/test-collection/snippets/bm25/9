@@ -1,42 +1,202 @@
 Snippets for the query:  Parallel languages; languages for parallel computation
 ************************
-Total Hits:  2
+Total Hits:  8
 ************************
 
 ************************
-Document:  CACM-2266.html
+Document:  CACM-1098.html
 ************************
 
 
-A Highly Parallel Algorithm for Approximating
-All Zeros of a Polynomial with Only Real Zeros
+A Comparison of List-Processing Computer Languages
+(Including a Detailed Comparison of COMIT, 
+IPL-V, LISP 1.5, and SLIP)
 
-An algorithm is described based on Newton's
-method which simultaneously approximates all zeros 
-of a polynomial with only real zeros.  The algorithm, which
-is conceptually suitable for parallel computation, 
-determines its own starting values so that convergence
-to the zeros is guaranteed.  Multiple zeros and 
-their multiplicity are readily determined.  At no
-point in the method is polynomial deflation used.
+A detailed comparison is presented of COMIT,
+IPL-V, LISP 1.5 and SLIP - four well-known computer 
+programming languages which, among them, exhibit all the
+principal characteristics of existing list-processing 
+languages.  Important common features of list-processing
+languages are reviewed: forms of data structures 
+which are manipulated, necessity for dynamic allocation
+of storage, use of pushdown stores, and use of 
+recursive operations.  Principal differences between the
+four languages under consideration are detailed: 
+representations of data, both by the programmer and within
+the machine; methods for storage allocation; 
+programming formalisms and special processes available,
+including arithmetic facilities; and usability 
+in terms of availability, documentation, learning aids
+and debugging facilities.  A rough comparison 
+shows that all the languages discussed have approximately
+the same speed.  Finally, the authors give 
+some heuristics to aid in the selection of one of these
+<B>languages for</B> use in particular problem applications, 
+concluding that no one of the languages considered is
+distinctly superior in all possible list-processing 
+applications.
 
-CACM November, 1972
+CACM April, 1964
 
-Patrick, M. L.
+Bobrow, D. G.
+Raphael, B.
 
-parallel numerical algorithms, real polynomials,
-real zeros, Newton's method, starting values, 
-guaranteed convergence
+CA640410 JB March 10, 1978  1:37 AM
 
-5.15
+1024	4	1098
+1051	4	1098
+1098	4	1098
+1214	4	1098
+1380	4	1098
+1388	4	1098
+1393	4	1098
+1485	4	1098
+1487	4	1098
+1549	4	1098
+1570	4	1098
+1878	4	1098
+1946	4	1098
+1957	4	1098
+2168	4	1098
+2723	4	1098
+2857	4	1098
+3112	4	1098
+1098	5	1098
+1098	5	1098
+1098	5	1098
+1570	5	1098
+1945	5	1098
+2314	5	1098
+731	5	1098
+823	6	1098
+914	6	1098
+915	6	1098
+917	6	1098
+984	6	1098
+989	6	1098
+990	6	1098
+1012	6	1098
+1084	6	1098
+1098	6	1098
+1098	6	1098
+1098	6	1098
+1122	6	1098
+1138	6	1098
+1139	6	1098
+1141	6	1098
+1200	6	1098
+1223	6	1098
+1265	6	1098
+1336	6	1098
+1396	6	1098
+1455	6	1098
+1477	6	1098
+1487	6	1098
+1491	6	1098
+1496	6	1098
+1626	6	1098
+2082	6	1098
+2148	6	1098
+483	6	1098
+584	6	1098
+669	6	1098
+680	6	1098
+731	6	1098
+763	6	1098
 
-CA721103 JB January 27, 1978  2:35 PM
 
-2266	5	2266
-2266	5	2266
-2266	5	2266
-2660	5	2266
-2266	6	2266
+************************
+
+************************
+Document:  CACM-2785.html
+************************
+
+
+Glypnir-A Programming Language for Illiac IV
+
+GLYPNIR is one of the earliest existing languages
+designed for programming the Illiac IV computer. 
+The syntax of the language is based on ALGOL 60, but has
+been extended to allow the programmer explicitly 
+to specify the parallelism of his algorithm in terms of 64-word
+vectors.  This paper describes the characteristics, 
+goals and philosophy of the language, and discusses some
+of the problems associated with parallel computer 
+architectures.
+
+CACM March, 1975
+
+Lawrie, D. H.
+Layman, T.
+Baer, D.
+Randal, J. M.
+
+GLYPNIR, Illiac IV, Programming language,
+<B>parallel computation</B>, parallel architecture
+
+4.2 4.21 4.22
+
+CA750303JB January 9, 1978  4:57 PM
+
+2785	4	2785
+2785	4	2785
+2876	4	2785
+2433	5	2785
+2685	5	2785
+2785	5	2785
+2785	5	2785
+2785	5	2785
+
+
+************************
+
+************************
+Document:  CACM-2195.html
+************************
+
+
+On the Optimal Detection of Curves in Noisy Pictures
+
+A technique for recognizing systems of lines
+is presented.  In this technique the heuristic 
+of the problem is not embedded in the recognition algorithm
+but is expressed in a figure of merit.   
+A multistage decision process is then able to recognize
+in the input picture the optimal system of lines 
+according to the given figure of merit.  Due to the
+global approach, greater flexibility and adequacy 
+in the particular problem is achieved.  The relation
+between the structure of the figure of merit and 
+the complexity of the optimization process is then discussed.
+ The method described is suitable <B>for parallel</B> 
+processing because the operations relative to each
+state can be computed in parallel, and the number
+of stages is equal to the length N of the curves (or
+to log2 N if the approximate method is used).
+
+CACM May, 1971
+
+Montanari, U.
+
+picture processing, picture recognition, picture
+description, curve detection, line detection, 
+edge detection,optimal detection, heuristic methods,
+global recognition, parallel processing, dynamic 
+programming, interaction graph, secondary optimization problem
+
+3.63 3.66 5.42
+
+CA710504 JB February 3, 1978  2:49 PM
+
+1663	4	2195
+2195	4	2195
+2679	4	2195
+1190	5	2195
+2195	5	2195
+2195	5	2195
+2195	5	2195
+2883	5	2195
+2195	6	2195
 
 
 ************************
@@ -48,7 +208,7 @@ Document:  CACM-2851.html
 
 Formal Verification of Parallel Programs
 
-Two formal models for parallel computation
+Two formal models <B>for parallel</B> computation
 are presented: an abstract conceptual model and 
 a parallel-program model.  The former model does not
 distinguish between control and data states.  The 
@@ -109,6 +269,216 @@ CA760702 JB January 4, 1978  1:20 PM
 2851	5	2851
 2851	5	2851
 2851	5	2851
+
+
+************************
+
+
+
+Formal Verification of Parallel Programs
+
+Two formal models for <B>parallel computation</B>
+are presented: an abstract conceptual model and 
+a parallel-program model.  The former model does not
+distinguish between control and data states.  The 
+latter model includes the capability for the representation
+of an infinite set of control states by allowing 
+there to be arbitrarily many instruction pointers (or
+processes) executing the program.  An induction 
+principle is presented which treats the control and
+data state sets on the same ground.  Through the 
+use of "place variables," it is observed that certain
+correctness conditions can be expressed without 
+enumeration of the set of all possible control states.
+ Examples are presented in which the induction 
+principle is used to demonstrate proofs of mutual exclusion.
+ It is shown that assertions-oriented proof 
+methods are special cases of the induction principle.
+A special case of the assertions method, which 
+is called parallel place assertions, is shown to be
+incomplete.  A formalization of "deadlock" is then 
+presented. The concept of a "norm" is introduced, which
+yields an extension, to the deadlock problem, 
+of Floyd's technique for proving termination.  Also discussed
+is an extension of the program model which 
+allows each process to have its own local variables
+and permits shared global variables.  Correctness 
+of certain forms of implementation is also discussed.
+ An Appendix is included which relates this work 
+to previous work on the satisfiability of certain logical formulas.
+
+CACM July, 1976
+
+Keller, R. M.
+
+parallel program, correctness, verification,
+assertions, deadlock, mutual exclusion, Petrinet
+
+4.6 5.2 6.9 8.1
+
+CA760702 JB January 4, 1978  1:20 PM
+
+2228	4	2851
+2280	4	2851
+2379	4	2851
+2320	4	2851
+2482	4	2851
+2597	4	2851
+2740	4	2851
+2777	4	2851
+2851	4	2851
+2851	4	2851
+2895	4	2851
+2912	4	2851
+2920	4	2851
+2946	4	2851
+3128	4	2851
+1877	5	2851
+2150	5	2851
+2851	5	2851
+2851	5	2851
+2851	5	2851
+
+
+************************
+
+************************
+Document:  CACM-2266.html
+************************
+
+
+A Highly Parallel Algorithm for Approximating
+All Zeros of a Polynomial with Only Real Zeros
+
+An algorithm is described based on Newton's
+method which simultaneously approximates all zeros 
+of a polynomial with only real zeros.  The algorithm, which
+is conceptually suitable <B>for parallel</B> computation, 
+determines its own starting values so that convergence
+to the zeros is guaranteed.  Multiple zeros and 
+their multiplicity are readily determined.  At no
+point in the method is polynomial deflation used.
+
+CACM November, 1972
+
+Patrick, M. L.
+
+parallel numerical algorithms, real polynomials,
+real zeros, Newton's method, starting values, 
+guaranteed convergence
+
+5.15
+
+CA721103 JB January 27, 1978  2:35 PM
+
+2266	5	2266
+2266	5	2266
+2266	5	2266
+2660	5	2266
+2266	6	2266
+
+
+************************
+
+
+
+A Highly Parallel Algorithm for Approximating
+All Zeros of a Polynomial with Only Real Zeros
+
+An algorithm is described based on Newton's
+method which simultaneously approximates all zeros 
+of a polynomial with only real zeros.  The algorithm, which
+is conceptually suitable for <B>parallel computation</B>, 
+determines its own starting values so that convergence
+to the zeros is guaranteed.  Multiple zeros and 
+their multiplicity are readily determined.  At no
+point in the method is polynomial deflation used.
+
+CACM November, 1972
+
+Patrick, M. L.
+
+parallel numerical algorithms, real polynomials,
+real zeros, Newton's method, starting values, 
+guaranteed convergence
+
+5.15
+
+CA721103 JB January 27, 1978  2:35 PM
+
+2266	5	2266
+2266	5	2266
+2266	5	2266
+2660	5	2266
+2266	6	2266
+
+
+************************
+
+************************
+Document:  CACM-2289.html
+************************
+
+
+Cellular Arrays for the Solution of Graph Problems
+
+A cellular array is a two-dimensional, checkerboard
+type interconnection of identical modules 
+(or cells), where each cell contains a few bits of
+memory and a small amount of combinational logic, 
+and communicates mainly with its immediate neighbors
+in the array.  The chief computational advantage 
+offered by cellular arrays is the improvement in speed
+achieved by virtue of the possibilities <B>for parallel</B> 
+processing.  In this paper it is shown that cellular
+arrays are inherently well suited for the solution 
+of many graph problems.  For example, the adjacency
+matrix of a graph is easily mapped onto an array; 
+each matrix element is stored in one cell of the array,
+and typical row and column operations are readily 
+implemented by simple cell logic.  A major challenge
+in the effective use of cellular arrays for the 
+solution of graph problems is the determination of algorithms
+that exploit the possibilities for parallelism, 
+especially for problems whose solutions appear to be inherently
+serial.  In particular, several parallelized 
+algorithms are presented for the solution of certain
+spanning tree, distance, and path problems, with 
+direct applications to wire routing, PERT chart analysis,
+and the analysis of many types of networks. 
+ These algorithms exhibit a computation time that in
+many cases grows at a rate not exceeding log2 n, 
+where n is the number of nodes in the graph.  Straightforward
+cellular implementations of the well-known 
+serial algorithms for these problems require about n
+steps, and noncellular implementations require from 
+n^2 to n^3 steps.
+
+CACM September, 1972
+
+Levitt, K. N.
+Kautz, W. H.
+
+graph theory, cellular logic-in-memory arrays,
+parallel processing, special purpose computers, 
+algorithms for distance and spanning tree problems
+
+5.32 6.22 6.5
+
+CA720901 JB January 30, 1978  9:16 AM
+
+2289	5	2289
+2289	5	2289
+2289	5	2289
+3075	5	2289
+3156	5	2289
+2289	6	2289
+2289	6	2289
+2557	6	2289
+2664	6	2289
+2714	6	2289
+2973	6	2289
+3075	6	2289
 
 
 ************************

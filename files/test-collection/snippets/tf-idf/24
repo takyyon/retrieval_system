@@ -1,6 +1,427 @@
 Snippets for the query:  Performance evaluation and modelling of computer systems
 ************************
-Total Hits:  2
+Total Hits:  19
+************************
+
+************************
+Document:  CACM-3068.html
+************************
+
+
+A Model for Verification of Data Security in Operating Systems
+
+Program verification applied to kernel architectures
+forms a promising method for providing 
+uncircumventably secure, shared <B>computer systems</B>.  A
+precise definition of data security is developed 
+here in terms of a general model for operating systems.
+ This model is suitable as a basis for verifying 
+many of those properties of an operating system which
+are necessary to assure reliable enforcement of 
+security.  The application of this approach to the
+UCLA secure operating system is also discussed. 
+
+CACM September, 1978
+
+Popek, G..
+Farber, D.
+
+Operating systems, security, protection, program verification
+
+4.35 5.24
+
+CA780904 DH February 5, 1979  2:40 PM
+
+2021	4	3068
+2222	4	3068
+2227	4	3068
+2315	4	3068
+2326	4	3068
+2470	4	3068
+2732	4	3068
+2865	4	3068
+2896	4	3068
+2943	4	3068
+3014	4	3068
+3068	4	3068
+3068	4	3068
+3077	4	3068
+3143	4	3068
+1834	5	3068
+2869	5	3068
+3068	5	3068
+3068	5	3068
+3068	5	3068
+3105	5	3068
+1471	6	3068
+2625	6	3068
+2632	6	3068
+2868	6	3068
+2939	6	3068
+3068	6	3068
+
+
+************************
+
+************************
+Document:  CACM-3026.html
+************************
+
+
+The Evolution of the Sperry Univac 1100
+Series: A His tory, Analysis, and Projection
+
+The 1100 series systems are Sperry Univac's
+large-scale main frame <B>computer systems</B>.  Beginning 
+with the 1107 in 1962, the 1100 series has progressed
+through a succession of eight compatible computer 
+models to the latest system, the 1100/80, introduced
+in 1977.  The 1100 series hardware architecture 
+is based on a 36-bit word, ones complement structure
+which obtains one operand from storage and one from 
+a high-speed register, or two operands from high-speed
+registers.  The 1100 Operating System is designed 
+to support a symmetrical multiprocessor configuration
+simultaneously providing multiprogrammed batch, 
+timesharing, and transaction environments.
+
+CACM January, 1978
+
+Borgherson, B.
+Hanson, M.
+Hartley, P.
+
+1100 computer series, computer architecture, multiprocessing
+languages, data management systems, 
+end user facilities, executive control software
+
+1.3 4.0 4.20 4.30 4.32 4.33 4.35 6.0 6.21 6.30
+
+CA780104 JB March 28, 1978  5:38 PM
+
+3026	5	3026
+3026	5	3026
+3026	5	3026
+
+
+************************
+
+************************
+Document:  CACM-3025.html
+************************
+
+
+The Evolution of the DEC system 10
+
+The DEC system 10, also known as the PDP-10, evolved
+from the PDP-6 (circa 1963) over five generations 
+of implementations to presently include systems covering
+a price range of five to one.  The origin and 
+evolution of the hardware, operating system, and languages
+are described in terms of technological change, 
+user requirements, and user developments. The PDP-10's
+contributions to computing technology include: 
+accelerating the transition from batch oriented to time
+sharing computing systems; transferring hardware 
+technology within DEC (and elsewhere) to minicomputer
+design and manufacturing; supporting minicomputer 
+hardware and software development; and serving as a
+model for single user and timeshared interactive 
+minicomputer/micro<B>computer systems</B>.
+
+CACM January, 1978
+
+Bell, C.
+Kotok, A.
+Hastings, T.
+Hill, R.
+
+computer structures, architecture, operating system, timesharing
+
+4.32 6.21 6.3
+
+CA780105 JB March 28, 1978  5:31 PM
+
+2411	4	3025
+2709	4	3025
+2889	4	3025
+2937	4	3025
+2989	4	3025
+3005	4	3025
+3025	4	3025
+3025	4	3025
+3101	4	3025
+2138	5	3025
+2989	5	3025
+3025	5	3025
+3025	5	3025
+3025	5	3025
+
+
+************************
+
+************************
+Document:  CACM-2624.html
+************************
+
+
+Formal Requirements for Virtualizable Third Generation Architectures
+
+Virtual machine systems have been implemented
+on a limited number of third generation computer 
+systems, e.g. CP-67 on the IBM 360/67.  From previous
+empirical studies, it is known that certain third 
+generation <B>computer systems</B>, e.g. the DEC PDP-10, cannot
+support a virtual machine system.  In this paper, 
+model of a third-generation-like computer system is
+developed.  Formal techniques are used to derive 
+precise sufficient conditions to test whether such
+an architecture can support virtual machines.
+
+CACM July, 1974
+
+Popek, G. J.
+Goldberg, R. P.
+
+operating system, third generation architecture,
+sensitive instruction, formal requirements, abstract 
+model, proof, virtual machine, virtual memory,
+hypervisor, virtual machine monitor
+
+4.32 4.35 5.21 5.22
+
+CA740707 JB January 17, 1978  11:19 AM
+
+2624	5	2624
+2624	5	2624
+2624	5	2624
+3144	5	2624
+1471	6	2624
+2298	6	2624
+2491	6	2624
+2597	6	2624
+2624	6	2624
+2625	6	2624
+2632	6	2624
+
+
+************************
+
+************************
+Document:  CACM-2812.html
+************************
+
+
+Computer-Aided Analysis and Design of Information Systems
+
+This paper describes the use <B>of computer</B>-aided
+analysis for the design and development of an 
+integrated financial management system by the Navy Material
+Command Support Activity (NMCSA).  Computer-aided 
+analysis consists of a set of procedures and computer
+programs specifically designed to aid in the process 
+of applications software design, computer selection
+and performance evaluation.  There are four major 
+components: Problem Statement Language, Problem Statement
+Analyzer, Generator of Alternative Designs, 
+and Performance Evaluator. The statement of requirements
+was written in ADS (Accurately Defined Systems) 
+and analyzed by a Problem Statement Analyzer for ADS.
+ The ADS problem definition was supplemented with 
+additional information in order to create a complete
+problem definition.  The analyzed problem statement 
+was translated to the form necessary for use by the
+SODA (Systems Optimization and Design Algorithm)
+program for the generation of alternative specifications
+of program modules and logical database structures.
+
+CACM December, 1976
+
+Nunamaker, J. F. Jr.
+Konsynski, B. R. Jr.
+Ho, T.
+Singer, C.
+
+computer-aided analysis, information systems, logical
+system design, problem statement language, 
+problem statement analyzer, physical system design,
+accurately defined systems, systems optimization 
+and design algorithm
+
+2.44 3.50 4.33 4.9 8.1
+
+CA761203 JB January 3, 1978  2:31 PM
+
+2812	5	2812
+2812	5	2812
+2812	5	2812
+
+
+************************
+
+************************
+Document:  CACM-2985.html
+************************
+
+
+Effects of Chargeout on User/Manager Attitudes
+
+The relationship of in ternal pricing systems
+for computer services (chargeout systems) and 
+user management attitudes about their computer-based
+information systems is investigated. Evidence is 
+provided that the relationship conforms to a general
+pattern that would be expected from the hypothesis 
+of the four stages of EDP growth [15].  The results also
+indicate that the chargeout systems characteristic 
+of advanced EDP stage environments are associated with
+relatively high levels of positive user attitudes 
+and marked increases in EDP training for users. Both factors
+are important to the user/manager involvement 
+necessary for effective control <B>of computer</B>-based systems.
+ Development and main tenance of computer-based 
+systems is asserted to be a category of organizational
+change.  A "felt need" for the change on the part 
+of the user/manager is prerequisite to any change taking
+place.  The research methods of behavioral science 
+are applied to investigate the user/manager
+environment and the effects of chargeout.
+
+CACM March, 1977
+
+Nolan, R. L.
+
+computer management, computer budget,
+chargeout, stage hypothesis, control
+
+2.41 2.43 3.50
+
+CA770307 JB December 29, 1977  6:43 AM
+
+2977	4	2985
+2985	4	2985
+3011	4	2985
+3035	4	2985
+2485	5	2985
+2985	5	2985
+2985	5	2985
+2985	5	2985
+
+
+************************
+
+************************
+Document:  CACM-1341.html
+************************
+
+
+Levels of Computer Systems
+
+In building current <B>computer systems</B>, we tend
+to break them down into "levels" of control, 
+command and communication; in using the system, we break
+our problems down correspondingly.  The continued 
+use of such a structure raises questions about its effects
+on the usefulness of future systems, particularly 
+with regard to such trends as time sharing, parallel
+programming, and, eventually, systems which learn. 
+ In this essay some of these questions are posed, and
+the general attitude we must take in pursuing the 
+problem further is discussed.
+
+CACM December, 1966
+
+Bryant, P.
+
+CA661208 JB March 2, 1978  2:29 PM
+
+1341	5	1341
+1341	5	1341
+1341	5	1341
+
+
+************************
+
+************************
+Document:  CACM-1808.html
+************************
+
+
+Advanced Cryptographic Techniques for Computers
+
+Cryptographic techniques which can be used to
+maintain the confidentiality of information processed 
+by computers are dealt with.  Special emphasis is paid
+to the unique characteristics <B>of computer</B> files 
+that make many cryptographic methods of little use.
+ Relative security, costs, and preferred methods 
+are included in this paper.
+
+CACM December, 1969
+
+Van Tassel, D.
+
+cryptographic, cryptanalysis, ciphers secrecy systems,
+security systems, confidential information 
+processing
+
+1.3 2.12 2.19 3.73 3.81 4.41
+
+CA691204 JB February 15, 1978  4:20 PM
+
+1808	5	1808
+1808	5	1808
+1808	5	1808
+
+
+************************
+
+************************
+Document:  CACM-1978.html
+************************
+
+
+The Use of Interactive Graphics To Solve Numerical Problems
+
+With the advent of on-line (time-sharing) <B>computer systems</B>
+and graphic terminals, we have available a new dimension
+in numerical problem solving capabilities.  Rather than simply use
+the new power to achieve fast turnaround, we can develop interactive
+routines which are easy to use and also take advantage of the
+insight and visual capabilities of the human problem solver.  Several
+on-line systems for general purpose mathematical problem solving
+have already been implemented as well as some special purpose
+systems for solving problems in a particular area such as ordinary
+differential equations.  The advantage of restricting the problem
+area is that the interface with a user can be greatly simplified.
+In this paper we discuss some of the advantages accrued by such
+systems and design considerations for interactive routines.  Furthermore,
+an implementation of an on-line least squares data-fitting
+program, PEG, is presented with results obtained from empirical
+data.  In conclusion, area for future work in this field are discussed.
+
+CACM October, 1970
+
+Smith, L. B.
+
+interactive graphics, computer graphics, graphics, least squares,
+data-fitting, interactive computing, on-line mathematics
+
+1.3 3.1 5.13 5.5
+
+CA701012 JB February 10, 1978  9:14 AM
+
+1978	4	1978
+1978	4	1978
+1978	4	1978
+1307	5	1978
+1589	5	1978
+1813	5	1978
+1978	5	1978
+1978	5	1978
+1978	5	1978
+
+
 ************************
 
 ************************
@@ -13,7 +434,54 @@ Memory Management and Response Time
 This paper presents a computationally tractable
 methodology for including accurately the effects 
 of finite memory size and workload memory requirements
-in queueing network models of computer systems. 
+in queueing network models of <B>computer systems</B>. 
+ Empirical analyses and analytic studies based on applying
+this methodology to an actual multiaccess 
+in teractive system are reported.  Relations between workload
+variables such as memory requirement distribution 
+and job swap time, and performance measures such as response
+time and memory utilization are graphically 
+displayed. A multiphase, analytically soluble model is
+proposed as being broadly applicable to the analysis 
+of in teractive computer systems which use nonpaged memories.
+
+CACM March, 1977
+
+Brown, R. M.
+Browne, J. C.
+Chandy, K. M.
+
+memory management, system performance, queueing
+network models, in teractive computer systems
+
+4.32
+
+CA770304 JB December 30, 1977  12:51 AM
+
+2988	4	2988
+1750	5	2988
+2988	5	2988
+2988	5	2988
+2988	5	2988
+3059	5	2988
+3070	5	2988
+1805	6	2988
+2454	6	2988
+2741	6	2988
+2988	6	2988
+2988	6	2988
+
+
+************************
+
+
+
+Memory Management and Response Time
+
+This paper presents a computationally tractable
+methodology for including accurately the effects 
+of finite memory size and workload memory requirements
+in queueing network models <B>of computer</B> systems. 
  Empirical analyses and analytic studies based on applying
 this methodology to an actual multiaccess 
 in teractive system are reported.  Relations between workload
@@ -54,6 +522,250 @@ CA770304 JB December 30, 1977  12:51 AM
 ************************
 
 ************************
+Document:  CACM-1071.html
+************************
+
+
+Computer-Usage Accounting for Generalized Time-Sharing Systems
+
+The current development of general time-sharing
+systems requires a revision of accounting procedures 
+for computer usage. Since time-sharing system users
+operate concurrently, it is necessary to be more 
+precise as to the amount <B>of computer</B> time and storage
+space that a user actually utilizes.  The various 
+cost factors which should be considered for computer usage
+accounting in generalized time-sharing systems 
+are discussed.
+
+CACM May, 1964
+
+Rosenberg, A. M.
+
+CA640518 JB March 9, 1978  11:40 PM
+
+1071	4	1071
+1071	5	1071
+1071	5	1071
+1071	5	1071
+3196	5	1071
+
+
+************************
+
+************************
+Document:  CACM-1747.html
+************************
+
+
+Three Criteria for Designing Computing Systems to Facilitate Debugging
+
+The designer of a computing system should adopt
+explicit criteria for accepting or rejecting 
+proposed system features.  Three possible criteria of this
+kind are input recordability, input specifiability, 
+and asynchronous reproducibility of output.  These criteria
+imply that a user can, if he desires, either 
+know or control all the influences affecting the content
+and extent of his computer's output.  To define 
+the scope of the criteria, the notion of an abstract
+machine of a programming language and the notion 
+of a virtual computer are explained.  Examples of applications
+of the criteria concern the reading of 
+a time-of-day clock,  the synchronization of parallel
+processes, protection in multiprogrammed systems, 
+and the assignment of capability indexes.
+
+CACM May, 1968
+
+Van Horn, E. C.
+
+computer design, computer design criteria, computer
+systems, <B>computer systems</B> design, input equipment, 
+input equipment design, operating systems, operating
+systems design, multiprogramming, multiprogrammed 
+systems, multiprogrammed system design, virtual computers,
+programming languages, programming language 
+design, program semantics, programming language semantics,
+determinism, reproducibility, repeatability, 
+deterministic computers, protection, memory protection,
+information security, information privacy, computing 
+reliability, debugging, program debugging, program testing,
+parallel processing, parallel programming, 
+multiprocessing
+
+2.11 4.12 4.13 4.20 4.30 4.42 4.43 5.24 6.20 6.35
+
+CA680509 JB February 23, 1978  9:06 AM
+
+1458	4	1747
+1523	4	1747
+1603	4	1747
+1698	4	1747
+1747	4	1747
+1748	4	1747
+1854	4	1747
+1877	4	1747
+1960	4	1747
+2377	4	1747
+2378	4	1747
+2497	4	1747
+2558	4	1747
+2625	4	1747
+2632	4	1747
+2840	4	1747
+2941	4	1747
+3105	4	1747
+3144	4	1747
+1471	5	1747
+1747	5	1747
+1747	5	1747
+1747	5	1747
+2151	5	1747
+1653	6	1747
+1747	6	1747
+1860	6	1747
+
+
+************************
+
+************************
+Document:  CACM-1196.html
+************************
+
+
+Applications of Differential Equations in General Problem Solving
+
+A large class of problems leading to digital
+computer processing can be formulated in terms 
+of the numerical solution of systems of ordinary differential
+equations.  Powerful methods are in existence 
+for the solution of such systems.  A good general purpose
+routine for the solution of such systems furnishes 
+a powerful tool for processing many problems.  This is
+true from the point of view of ease of programming, 
+ease of debugging, and minimization <B>of computer</B> time.
+ A number of examples are discussed in detail.
+
+CACM September, 1965
+
+Klopfenstein, R. W.
+
+CA650910 JB March 6, 1978  7:16 PM
+
+1196	5	1196
+1196	5	1196
+1196	5	1196
+
+
+************************
+
+************************
+Document:  CACM-3072.html
+************************
+
+
+Feedback Coupled Resource Allocation Policies
+in the Multiprogramming- Multiprocessor Computer 
+System
+
+Model studies of some integrated, feedback-driven
+scheduling systems for multiprogrammed- multiprocessor 
+<B>computer systems</B> are presented.  The basic control variables
+used are the data-flow rates for the processes 
+executing on the CPU.  The model systems feature simulated
+continuous-flow and preempt-resume scheduling 
+of input-output activity.  Attention is given to the
+amount of memory resource required for effective 
+processing of the I/O activity (buffer space assignment).
+ The model studies used both distribution-driven 
+and trace-driven techniques.  Even relatively simple dynamic
+schedulers are shown to improve system performance 
+(as measured by user CPU time) over that given by optimal
+or near-optimal static schedulers imbeded 
+in identical system structures and workload environments.
+ The improvement is greatest under a heavy 
+I/O demand workload.
+
+CACM August, 1978
+
+Brice, R.
+Browne, J.
+
+Integrated schedulers, feedback scheduling,
+multiprogramming systems, I/O system scheduling
+
+4.32 4.35
+
+CA780806 DH February 5, 1979  4:01 PM
+
+2571	4	3072
+2628	4	3072
+2891	4	3072
+2950	4	3072
+3072	4	3072
+3072	4	3072
+3072	4	3072
+3072	4	3072
+3119	4	3072
+1713	5	3072
+2219	5	3072
+2245	5	3072
+2375	5	3072
+3072	5	3072
+3072	5	3072
+3072	5	3072
+
+
+************************
+
+************************
+Document:  CACM-1750.html
+************************
+
+
+Considerations in the Design of a Multiple
+Computer System with Extended Core Storage
+
+The use of large quantities of addressable
+(but not executable) fast random access memory to 
+heighten the multiprogramming performance of a multicomputer system
+is discussed.  The general design 
+of the hardware arrangement and the software components
+and functions of such a system are based on a 
+planned configuration of dual CDC 6600's that share one
+million words of extended core storage.  In the 
+generalization of such a design, special emphasis is
+placed on estimating expected gains when compared 
+with the traditional configuration of separate and independent
+computers without extended core storage. 
+ An observation is made on the use of conventional, slower
+speed, random access storage devices in place 
+of the faster memory.
+
+CACM May, 1968
+
+Fuchel, K.
+Heller, S.
+
+multiple <B>computer systems</B>, extended core storage,
+multiprogrammed operating systems, multiprocessor 
+operating systems, control data corporation 6600, operating system with ECS
+
+4.30 4.32
+
+CA680506 JB February 23, 1978  9:27 AM
+
+1750	5	1750
+1750	5	1750
+1750	5	1750
+2988	5	1750
+1750	6	1750
+
+
+************************
+
+************************
 Document:  CACM-0417.html
 ************************
 
@@ -71,7 +783,7 @@ the least burden on the new technology and for
 achieving a favorable legal climate for it generally.
  Computer specialists also are alerted to potential 
 opportunities to interpret to lawyers the technical aspects
-of computer systems involved in legal situations.
+<B>of computer</B> systems involved in legal situations.
 
 CACM December, 1962
 
@@ -82,6 +794,73 @@ CA621222 JB March 17, 1978  4:37 PM
 417	5	417
 417	5	417
 417	5	417
+
+
+************************
+
+
+
+Legal Implications of Computer Use
+
+This paper points out a variety of ways computer
+systems used in business and industry can 
+be involved in legal entanglements and suggests that
+computer specialists have a responsibility to call 
+for assistance in forestalling or minimizing those entanglements
+during the planning stage.  Techniques 
+are suggested for making legal clearance effective with
+the least burden on the new technology and for 
+achieving a favorable legal climate for it generally.
+ Computer specialists also are alerted to potential 
+opportunities to interpret to lawyers the technical aspects
+of <B>computer systems</B> involved in legal situations.
+
+CACM December, 1962
+
+Freed, R. N.
+
+CA621222 JB March 17, 1978  4:37 PM
+
+417	5	417
+417	5	417
+417	5	417
+
+
+************************
+
+************************
+Document:  CACM-3136.html
+************************
+
+
+Price/Performance Patterns of U. Computer Systems
+
+Econometric models of the U. computer market have been developed to study 
+the relationships between system price and hardware performance.  Single
+measures of price/performance such as "Grosch's Law" are shown to
+be so over simplified as to be meaningless.  Multiple-regression models
+predicting system cost as a function of several hardware
+characteristics do, however, reveal a market dichotomy.  On one hand there
+exists a stable, price predictable market for larger, general
+purpose <B>computer systems</B>.  The other market is the developing one
+for small business computer systems, a market which is relatively
+unstable with low price predictability. 
+
+CACM April, 1979
+
+Cale, E.
+Gremillion, L.
+McKenney, J.
+
+Price/performance, Grosch's law, U. computer market
+
+2.0 2.11 6.21
+
+CA790402 DH May 21, 1979  1:09 PM
+
+3136	5	3136
+3136	5	3136
+3136	5	3136
 
 
 ************************

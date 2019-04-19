@@ -1,3 +1,584 @@
 Snippets for the query:  Number-theoretic algorithms, especially involving prime number series, sieves, and Chinese Remainder theorem.
 ************************
-No snippets found for the query..
+Total Hits:  11
+************************
+
+************************
+Document:  CACM-2089.html
+************************
+
+
+Prime Number (Algorithm 310 $A1))
+
+CACM March, 1970
+
+Rapp, D. G.
+Scott, L. D.
+
+<B>prime number</B>s, generator
+
+5.0
+
+CA700309 JB February 13, 1978  3:45 PM
+
+2089	5	2089
+2089	5	2089
+2089	5	2089
+
+
+************************
+
+************************
+Document:  CACM-2927.html
+************************
+
+
+Some New Upper Bounds on the Generation of Prime Numbers
+
+Given an integer N, what is the computational
+complexity of finding all the primes less than 
+N?  A modified sieve of Eratosthenes using doubly linked
+lists yields an algorithm of O(N) arithmetic 
+complexity.  This upper bound is shown to be equivalent
+to the theoretical lower bound for sieve methods 
+without preprocessing.  Use of preprocessing techniques
+involving space-time and additive-multiplicative 
+tradeoffs reduces this upper bound to O(N/log logN)
+and the bit complexity to O(N logN log log logN). 
+ A storage requirement is described using O(N logN/log logN) bits as well.
+
+CACM September, 1977
+
+Mairson, H. G.
+
+computational complexity, sieve, <B>prime number</B> generation,
+number theory, linked list, preprocessing, 
+balancing
+
+5.25 5.39
+
+CA770907 JB December 27, 1977  12:55 PM
+
+1841	4	2927
+1841	4	2927
+1967	4	2927
+2120	4	2927
+2120	4	2927
+2927	4	2927
+2927	4	2927
+2927	4	2927
+2927	4	2927
+2927	4	2927
+1537	5	2927
+1538	5	2927
+1539	5	2927
+1841	5	2927
+1840	5	2927
+2927	5	2927
+2927	5	2927
+2927	5	2927
+3037	5	2927
+2732	6	2927
+2927	6	2927
+
+
+************************
+
+************************
+Document:  CACM-1691.html
+************************
+
+
+A Comparison of the Correlational Behavior
+of Random Number Generators for the IBM 360
+
+Hutchinson states that the "new" (prime modulo)
+multiplicative congruential pseudorandom generator, 
+attributed to D. H. Lehmer, has passed the usual statistical
+tests for random number generators.  It 
+is here empirically shown that generators of this type
+can produce sequences whose autocorrelation functions 
+up to lag 50 exhibit evidence of nonrandomness for many
+multiplicative constants.  An alternative generator 
+proposed by Tausworthe, which uses irreducible polynomials
+over the field of characteristic two, is shown 
+to be free from this defect.  The applicability of these
+two generators to the IBM 360 is then discussed. 
+ Since computer word size can affect a generator's statistical
+behavior the older mixed and simple congruential 
+generators, although extensively tested on computers
+having 36 or more bits per word, may not be optimum 
+generators for the IBM 360.
+
+CACM September, 1968
+
+Whittlesey, J. R.
+
+random numbers, pseudorandom number generators, autocorrelation
+function, serial correlation, digital 
+shift-register generators, linear recurrence modulo
+two, irreducible polynomials, primitive trinomials 
+modulo two, congruential generators, <B>prime number</B>s,
+statistical tests for randomness, IBM 360, 32-bit 
+versus 36-bit word size
+
+5.5
+
+CA680910 JB February 21, 1978  4:44 PM
+
+1674	4	1691
+1691	4	1691
+1691	4	1691
+1691	4	1691
+1293	5	1691
+1420	5	1691
+1631	5	1691
+1691	5	1691
+1691	5	1691
+1691	5	1691
+2115	5	1691
+2122	5	1691
+1674	6	1691
+1691	6	1691
+1691	6	1691
+1930	6	1691
+
+
+************************
+
+************************
+Document:  CACM-2770.html
+************************
+
+
+The Quadratic Hash Method When the Table Size Is Not a Prime Number
+
+Previous work on quadratic hash methods is
+limited mainly to the case where the table size 
+is a <B>prime number</B>.  Here, certain results are derived for
+composite numbers.  It is shown that all composite 
+numbers containing at least the square of one of the component
+primes have full-period integer-coefficient 
+quadratic hash functions.
+
+CACM April, 1975
+
+Batagelj, V.
+
+quadratic search, hash code, scatter storage, table size
+
+3.74 4.10
+
+CA750407 JB January 9, 1978  3:54 PM
+
+1860	4	2770
+1973	4	2770
+1973	4	2770
+1992	4	2770
+2018	4	2770
+2018	4	2770
+2033	4	2770
+2060	4	2770
+2107	4	2770
+2109	4	2770
+2203	4	2770
+2203	4	2770
+2251	4	2770
+2251	4	2770
+2251	4	2770
+2251	4	2770
+2534	4	2770
+2543	4	2770
+2543	4	2770
+2543	4	2770
+2559	4	2770
+2573	4	2770
+2573	4	2770
+2704	4	2770
+2770	4	2770
+2770	4	2770
+2770	4	2770
+2770	4	2770
+2770	4	2770
+2770	4	2770
+2770	4	2770
+2974	4	2770
+3053	4	2770
+3053	4	2770
+3053	4	2770
+3053	4	2770
+3083	4	2770
+1786	5	2770
+1869	5	2770
+1973	5	2770
+1992	5	2770
+2018	5	2770
+2109	5	2770
+2673	5	2770
+2770	5	2770
+2770	5	2770
+2770	5	2770
+3053	5	2770
+1329	6	2770
+1785	6	2770
+1973	6	2770
+1992	6	2770
+2107	6	2770
+2109	6	2770
+2412	6	2770
+2543	6	2770
+2673	6	2770
+2707	6	2770
+2770	6	2770
+
+
+************************
+
+************************
+Document:  CACM-3021.html
+************************
+
+
+A Method for Obtaining Digital Signatures and Public-Key Cryptosystems
+
+An encryption method is presented with the novel
+property that publicly revealing an encryption 
+key does not thereby reveal the corresponding decryption
+key.  This has two important consequences: (1) 
+Couriers or other secure means are not needed to transmit
+keys, since a message can be enciphered using 
+an encryption key publicly revealed by the intended recipient.
+ Only he can decipher the message, since 
+only he knows the corresponding decryption key.  (2)
+A message can be "signed" using a privately held 
+decryption key.  Anyone can verify this signature using
+the corresponding publicly revealed encryption 
+key.  Signatures cannot be forged, and a signer cannot
+later deny the validity of his signature.  This 
+has obvious applications in "electronic mail" and "electronic
+funds transfer" systems.  A message is 
+encrypted by representing it as a number M, raising
+M to a publicly specified power e, and then taking 
+the remainder when the result is divided by the publicly
+specified product, n, of two large secret prime 
+numbers p and q.  Decryption is similar;only a different,
+secret, power d is used, where e * d = 1 (mod(p-1) 
+* (q-1)).  the security of the system rests in part on
+the difficulty of factoring the published divisor, 
+n.
+
+CACM February, 1978
+
+Rivest, R.
+Shamir, A.
+Adleman, L.
+
+digital signatures, public-key cryptosystems,
+privacy, authentication, security, factorization, 
+<B>prime number</B>, electronic mail, message-passing,
+electronic funds transfer, cryptography.
+
+2.12 3.15 3.50 3.81 5.25
+
+CA780202 JB March 28, 1978  4:40 PM
+
+3021	4	3021
+3158	4	3021
+3021	5	3021
+3021	5	3021
+3021	5	3021
+3038	5	3021
+3111	5	3021
+3177	5	3021
+3021	6	3021
+3021	6	3021
+3021	6	3021
+
+
+************************
+
+************************
+Document:  CACM-1967.html
+************************
+
+
+An Improved Algorithm to Produce Complex Primes (Algorithm 401 $A1))
+
+CACM November, 1970
+
+Bratley, P.
+
+number theory, <B>prime number</B>s, complex numbers
+
+5.39
+
+CA701112 JB February 9, 1978  4:28 PM
+
+1841	4	1967
+1967	4	1967
+1967	4	1967
+2120	4	1967
+2927	4	1967
+1539	5	1967
+1967	5	1967
+1967	5	1967
+1967	5	1967
+2120	5	1967
+
+
+************************
+
+************************
+Document:  CACM-2109.html
+************************
+
+
+The Use of Quadratic Residue Research
+
+A quadratic residue search method has previously been suggested
+to avoid the clustering usually encountered when hash address collisions
+occur and linear search methods are used.  The search size, because
+of the property of quadratic residues, is limited to one half of
+the storage table.  It is shown that for some classes of <B>prime number</B>s
+the complement of the set of quadratic residues can easily be determined and 
+hence the entire table of size p, where p is that prime number, can be searched.
+
+CACM February, 1970
+
+Radke, C. E.
+
+quadratic residue, search method, hash addressing, address
+clustering, scatter storage, file searching, file
+addressing, hash coding, quadratic search,
+random search, storage layout, searching
+
+3.7 3.73 3.74
+
+CA700206 JB February 14, 1978  10:30 AM
+
+1676	4	2109
+1682	4	2109
+1728	4	2109
+1860	4	2109
+1860	4	2109
+1973	4	2109
+1973	4	2109
+1992	4	2109
+2018	4	2109
+2018	4	2109
+2032	4	2109
+2033	4	2109
+2033	4	2109
+2107	4	2109
+2107	4	2109
+2109	4	2109
+2109	4	2109
+2203	4	2109
+2203	4	2109
+2251	4	2109
+2251	4	2109
+2359	4	2109
+2524	4	2109
+2543	4	2109
+2543	4	2109
+2552	4	2109
+2559	4	2109
+2573	4	2109
+2770	4	2109
+2991	4	2109
+3053	4	2109
+1785	5	2109
+1786	5	2109
+1973	5	2109
+2018	5	2109
+2109	5	2109
+2109	5	2109
+2109	5	2109
+2203	5	2109
+2251	5	2109
+2543	5	2109
+2770	5	2109
+2974	5	2109
+3053	5	2109
+911	6	2109
+1329	6	2109
+1785	6	2109
+1785	6	2109
+1785	6	2109
+1785	6	2109
+1785	6	2109
+1785	6	2109
+1786	6	2109
+1786	6	2109
+1786	6	2109
+1786	6	2109
+1786	6	2109
+1786	6	2109
+1869	6	2109
+1973	6	2109
+1973	6	2109
+1973	6	2109
+1973	6	2109
+1992	6	2109
+1992	6	2109
+332	6	2109
+2018	6	2109
+2018	6	2109
+2107	6	2109
+2107	6	2109
+2107	6	2109
+2107	6	2109
+2107	6	2109
+2109	6	2109
+2109	6	2109
+2109	6	2109
+2109	6	2109
+2109	6	2109
+2109	6	2109
+2109	6	2109
+2109	6	2109
+2251	6	2109
+2412	6	2109
+2543	6	2109
+2673	6	2109
+2673	6	2109
+2707	6	2109
+2770	6	2109
+492	6	2109
+
+
+************************
+
+************************
+Document:  CACM-1840.html
+************************
+
+
+An Efficient Prime Number Generator (Algorithm 357 [A1])
+
+CACM October, 1969
+
+Singleton, R. C.
+
+<B>prime number</B>s, factoring, number theory
+
+3.15 5.30
+
+CA691006 JB February 15, 1978  3:23 PM
+
+1840	5	1840
+1840	5	1840
+1840	5	1840
+2927	5	1840
+1537	6	1840
+1539	6	1840
+1538	6	1840
+1840	6	1840
+1841	6	1840
+
+
+************************
+
+************************
+Document:  CACM-2206.html
+************************
+
+
+Exact Solution of Linear Equations Using
+Residue Arithmetic [F4] (Algorithm 406)
+
+CACM March, 1971
+
+Howell, J.
+
+residue arithmetic, symmetric residue, modulus,
+mixed-radix representation, symmetric mixed-radix 
+representation, mixed-radix conversion, <B>prime number</B>,
+linear equations, Gaussian elimination, matrix 
+inversion, determinant, adjoint matrix, ill-condition
+
+3.15 5.14
+
+CA710306 JB February 3, 1978  4:23 PM
+
+2206	5	2206
+2206	5	2206
+2206	5	2206
+
+
+************************
+
+************************
+Document:  CACM-2507.html
+************************
+
+
+Exact Solution of Linear Equations Using
+Residue Arithmetic (Algorithm R406)
+
+CACM May, 1973
+
+Howell, J.
+
+residue arithmetic, symmetric residue, modulus,
+mixed-radix representation, symmetric mixed-radix 
+representation, mixed radix conversion, <B>prime number</B>,
+linear equations, Gaussian elimination, matrix 
+inversion, determinant, adjoint matrix, ill-condition
+
+3.5 5.14
+
+CA730513 JB January 23, 1978  4:34 PM
+
+2507	5	2507
+2507	5	2507
+2507	5	2507
+
+
+************************
+
+************************
+Document:  CACM-1841.html
+************************
+
+
+A Prime Number Generator Using The
+Treesort Principle (Algorithm 356 [A1])
+
+CACM October, 1969
+
+Singleton, R. C.
+
+<B>prime number</B>s, number theory, sorting
+
+3.15 5.30 5.31
+
+CA691005 JB February 15, 1978  3:25 PM
+
+1841	4	1841
+1841	4	1841
+1841	4	1841
+1967	4	1841
+2120	4	1841
+2120	4	1841
+2927	4	1841
+2927	4	1841
+1539	5	1841
+1841	5	1841
+1841	5	1841
+1841	5	1841
+1841	5	1841
+377	5	1841
+2927	5	1841
+1537	6	1841
+1539	6	1841
+1539	6	1841
+1538	6	1841
+1840	6	1841
+1841	6	1841
+1841	6	1841
+377	6	1841
+
+
+************************
+

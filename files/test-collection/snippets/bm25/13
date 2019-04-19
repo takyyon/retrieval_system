@@ -1,3 +1,1281 @@
 Snippets for the query:  find all discussions of optimal implementations of sort algorithms for database management applications
 ************************
-No snippets found for the query..
+Total Hits:  21
+************************
+
+************************
+Document:  CACM-3166.html
+************************
+
+
+Computing Standard Deviations: Accuracy
+
+Four <B>algorithms for</B> the numerical computation
+of the standard deviation of (unweighted) sampled data
+are analyzed.  Two of the algorithms are well-known in the statistical
+and computational literature; the other two are new algorithms
+specifically intended for automatic computation.  Our discussion is 
+expository, with emphasis on reaching a suitable definition of
+"accuracy."  Each of the four algorithms is analyzed for the conditions
+under which it will be accurate.  We conclude that all four
+algorithms will provide accurate answers for many problems, but two
+of the algorithms, one new, one old, are substantially more accurate
+on difficult problems than are the other two.
+
+CACM September, 1979
+
+Chan, T.
+Lewis, J.
+
+Mean, standard deviation, least squares, updating
+estimates, rounding error analysis, condition number.
+
+5.5 5.11 5.19
+
+CA790907 DB January 16, 1980  4:23 PM
+
+1619	4	3166
+2731	4	3166
+3159	4	3166
+3159	4	3166
+3166	4	3166
+3166	4	3166
+3166	4	3166
+3166	4	3166
+3166	4	3166
+3167	4	3166
+3167	4	3166
+1411	5	3166
+2731	5	3166
+2799	5	3166
+3159	5	3166
+3166	5	3166
+3166	5	3166
+3166	5	3166
+3167	5	3166
+2731	6	3166
+2799	6	3166
+3166	6	3166
+
+
+************************
+
+************************
+Document:  CACM-2337.html
+************************
+
+
+A Sorting Problem and Its Complexity
+
+A technique for proving min-max norms <B>of sort</B>ing
+algorithms is given.  One new algorithm for 
+finding the minimum and maximum elements of a set with
+fewest comparisons is proved optimal with this 
+technique.
+
+CACM June, 1972
+
+Pohl, I.
+
+sorting, computational complexity, computational combinatorics
+
+5.29 5.31
+
+CA720608 JB January 30, 1978  4:15 PM
+
+2337	5	2337
+2337	5	2337
+2337	5	2337
+
+
+************************
+
+************************
+Document:  CACM-2263.html
+************************
+
+
+The Conversion of Limited-Entry Decision Tables
+to Optimal and Near-Optimal Flowcharts: Two New 
+Algorithms
+
+Two new <B>algorithms for</B> deriving optimal and
+near-optimal flowcharts from limited entry decision 
+tables are presented.  Both take into account rule frequencies
+and the time needed to test conditions. 
+ One of the algorithms, called the optimum-finding algorithm,
+leads to a flowchart which truly minimizes 
+execution time for a decision table in which simple rules
+are already contracted to complex rules.  The 
+other one, called the optimum-approaching algorithm, requires
+many fewer calculations but does not necessarily 
+produce the optimum flowchart.  The algorithms are first
+derived for treating decision tables not containing 
+an ELSE-rule, but the optimum-approaching algorithm
+is shown to be equally valid for tables including 
+such a rule.  Both algorithms are compared with existing
+ones and are applied to a somewhat large decision 
+table derived from a real case.  From this comparison two
+conclusions are drawn.  (1) The optimum-approaching 
+algorithm will usually lead to better results than comparable
+existing ones and will not require more, 
+but usually less, computation time.(2) In general, the
+greater computation effort needed for applying 
+the optimum-finding algorithm will not be justified
+by the small reduction in execution time obtained.
+
+CACM November, 1972
+
+Verhelst, M.
+
+decision table, flowcharting, preprocessor, optimal programs, search
+
+3.50 3.59 4.19 4.29 4.49 5.31
+
+CA721106 JB January 27, 1978  2:10 PM
+
+2263	5	2263
+2263	5	2263
+2263	5	2263
+2598	5	2263
+2691	5	2263
+2726	5	2263
+3113	5	2263
+1172	6	2263
+1172	6	2263
+1327	6	2263
+1354	6	2263
+1354	6	2263
+1488	6	2263
+1489	6	2263
+1548	6	2263
+1548	6	2263
+2220	6	2263
+2220	6	2263
+2221	6	2263
+2263	6	2263
+2263	6	2263
+2263	6	2263
+2263	6	2263
+2453	6	2263
+2598	6	2263
+2691	6	2263
+2691	6	2263
+2856	6	2263
+
+
+************************
+
+************************
+Document:  CACM-3131.html
+************************
+
+
+FOCUS Microcomputer Number System
+
+FOCUS is a number system and supporting computational
+algorithms especially useful for microcomputer control and other
+signal processing applications.  FOCUS has the wide-ranging
+character of floating-point numbers with a uniformity of state distributions
+that give FOCUS better than a twofold accuracy advantage
+over an equal word length floating-point system.  FOCUS computations
+are typically five times faster than single precision fixed-point
+or integer arithmetic for a mixture of operations, comparable in
+speed with hardware arithmetic for many applications.  Algorithms
+for 8-bit and 16-bit <B>implementations of</B> FOCUS are included.
+
+CACM March, 1979
+
+Edgar, A.
+Lee, S.
+
+Number representation, logarithmic arithmetic, computational
+speed, computational accuracy, microcomputer applications  
+
+3.24 3.80 4.0 4.22 5.11
+
+CA790302 DH April 12, 1979  11:12 AM
+
+3131	4	3131
+3131	4	3131
+1148	5	3131
+3131	5	3131
+3131	5	3131
+3131	5	3131
+893	5	3131
+
+
+************************
+
+************************
+Document:  CACM-1905.html
+************************
+
+
+The Simplex Method of Linear Programming Using LU Decomposition
+
+Standard computer <B>implementations of</B> Dantzig's
+simplex method for linear programming are based 
+upon forming the inverse of the basic matrix and updating
+the inverse after every step of the method. 
+ These implementations have bad round-off error properties.
+ This paper gives the theoretical background 
+for an implementation which is based upon the LU decomposition,
+computed with row interchanges, of the 
+basic matrix.  The implementation is slow, but has good
+round-off error behavior.  The implementation 
+appears as CACM Algorithm 350.
+
+CACM May, 1969
+
+Bartels, R. H.
+Goulub, G. H.
+
+simplex method, linear programming, LU decomposition,
+round-off errors, computational stability
+
+5.41
+
+CA690504 JB February 17, 1978  3:49 PM
+
+1905	4	1905
+1744	5	1905
+1905	5	1905
+1905	5	1905
+1905	5	1905
+
+
+************************
+
+************************
+Document:  CACM-2174.html
+************************
+
+
+The Stable Marriage Problem
+
+The original work of Gale and Shapley on an assignment
+method using the stable marriage criterion 
+has been extended to <B>find all</B> the stable marriage assignments.
+ The algorithm derived for finding all 
+the stable marriage assignments is proved to satisfy
+all the conditions of the problem.  Algorithm 411 
+applies to this paper.
+
+CACM July, 1971
+
+McVitie, D. G.
+Wilson,L. B.
+
+assignment problems, assignment procedures, combinatorics,
+discrete mathematics, operational research, 
+stable marriage problem, university entrance
+
+5.30
+
+CA710708 JB February 2, 1978  4:40 PM
+
+2174	4	2174
+2173	5	2174
+2174	5	2174
+2174	5	2174
+2174	5	2174
+
+
+************************
+
+************************
+Document:  CACM-2146.html
+************************
+
+
+Optimizing the Polyphase Sort
+
+Various dispersion <B>algorithms for</B> the polyphase
+sorting procedure are examinedhe optimum 
+algorithm based on minimizing the total number of unit
+strings read is displayed.  The logic of this 
+algorithm is rather complicated; hence, several other
+new dispersion algorithms with more straightforward 
+logic are presented.  Of the simple dispersion algorithms
+discussed, the  Horizontal is best.  It does 
+approximately one-fourth to one and one-half percent
+less reading and writing than most algorithms in 
+use today.  An additional two and one-fourth to three
+percent improvement can be achieved by utilizing 
+the Modified Optimum Algorithm.  This algorithm is relatively
+straightforward, but it requires a fairly 
+close estimate of the total number of unit strings before the dispersion begins.
+
+CACM November, 1971
+
+Shell, D. L.
+
+sorting, polyphase sorting, dispersion algorithms,
+optimum dispersion algorithm, repetition operator
+
+5.31
+
+CA711103 JB February 2, 1978  11:39 AM
+
+1117	4	2146
+1117	4	2146
+2017	4	2146
+2017	4	2146
+2017	4	2146
+2146	4	2146
+2146	4	2146
+2146	4	2146
+2146	4	2146
+479	4	2146
+677	4	2146
+860	4	2146
+861	4	2146
+862	4	2146
+863	4	2146
+299	5	2146
+2146	5	2146
+2146	5	2146
+2146	5	2146
+862	5	2146
+863	5	2146
+861	5	2146
+
+
+************************
+
+************************
+Document:  CACM-3163.html
+************************
+
+
+An Optimal Insertion Algorithm for One-Sided
+Height-Balanced BInary Search Trees
+
+An algorithm for inserting an element into a one-sided height-balanced
+(OSHB) binary search tree is presented.  The algorithm operates in time 
+O(log n), where n is the number of nodes in
+the tree.  This represents an improvement over the best previous
+ly known insertion algorithms of Hirschberg and Kosaraju, which require
+time O(log 2n).  Moreover, the O(log n) complexity is optimal. Earlier 
+results have shown that deletion in such a structure can
+also be performed in O(log n) time.  Thus the result of this paper
+gives a negative answer to the question of whether such trees should
+be the first examples of their kind, where deletion has a smaller time 
+complexity than insertion.  Furthermore, it can now be concluded
+that insertion, deletion, and retrieval in OSHB trees can
+be performed in the same time as the corresponding operations for
+the more general AVL trees, to within a constant factor.  However,
+the insertion and deletion <B>algorithms for</B> OSHB trees appear much
+more complicated than the corresponding algorithms for AVL trees.
+
+CACM September, 1979
+
+Raiha,K.
+Zweben, S.
+
+Insertion, one-sided height-balanced trees, height-balanced
+trees, binary trees, search trees.
+
+3.73. 3.74 4.34 5.25 5.31
+
+CA790904 DB January 14, 1980  11:47 AM
+
+2839	4	3163
+3009	4	3163
+3042	4	3163
+3042	4	3163
+3065	4	3163
+3065	4	3163
+3096	4	3163
+3096	4	3163
+3096	4	3163
+3163	4	3163
+3163	4	3163
+3163	4	3163
+3163	4	3163
+3163	4	3163
+2839	5	3163
+2889	5	3163
+3009	5	3163
+3065	5	3163
+3096	5	3163
+3163	5	3163
+3163	5	3163
+3163	5	3163
+
+
+************************
+
+************************
+Document:  CACM-2272.html
+************************
+
+
+Sorting by Natural Selection
+
+A family <B>of sort</B>ing algorithms is proposed,
+the members of which make fuller use of the memory 
+space and thus yield longer sorted strings.  Extensive
+simulation results are presented, and various 
+implications and further applications are discussed.
+
+CACM October, 1972
+
+Frazer, W. D.
+Wong, C. K.
+
+algorithms, sorting by replacement selection, expected string length
+
+5.31
+
+CA721006 JB January 27, 1978  2:54 PM
+
+1638	4	2272
+1867	4	2272
+2176	4	2272
+2272	4	2272
+2272	4	2272
+1638	5	2272
+2272	5	2272
+2272	5	2272
+2272	5	2272
+677	5	2272
+
+
+************************
+
+************************
+Document:  CACM-2957.html
+************************
+
+
+Database Abstractions: Aggregation
+
+Aggregation is in troduced as an abstraction
+which is important in conceptualizing the real 
+world.  Aggregation transforms a relationship between
+objects into a higher-level object.  A new data 
+type, called aggregation, is developed which, under
+certain criteria of "well-definedness," specifies 
+aggregation abstractions.  Relational databases defined
+as collections of aggregates are structured as 
+a hierarchy on n-ary relations.  To main tain well-definedness,
+update operations on such databases must 
+preserve two invariants.  Well-defined relations are
+distinct from relations in third normal form.  It 
+is shown that these notions are complementary and both are
+important in database design.  A top-down 
+methodology <B>for database</B> design is described which separates
+decisions concerning aggregate structure 
+from decisions concerning key identification.  It is
+suggested that aggregate types, and other types 
+which support real-world abstractions without in troducing
+implementation detail, should be incorporated 
+into programming languages.
+
+CACM June, 1977
+
+Smith, J. M.
+Smith, D. C. P.
+
+data abstraction, relational database, data type,
+aggregation, database design, data structure, 
+knowledge representation, data definition language
+
+3.65 3.69 3.79 4.29 4.33 4.34
+
+CA770606 JB December 29, 1977  12:33 AM
+
+2155	4	2957
+2406	4	2957
+2710	4	2957
+2715	4	2957
+2716	4	2957
+2717	4	2957
+2718	4	2957
+2765	4	2957
+2817	4	2957
+2888	4	2957
+2901	4	2957
+2957	4	2957
+2959	4	2957
+2965	4	2957
+3087	4	2957
+3154	4	2957
+2046	5	2957
+2957	5	2957
+2957	5	2957
+2957	5	2957
+3049	5	2957
+2956	6	2957
+2958	6	2957
+2957	6	2957
+2960	6	2957
+
+
+************************
+
+************************
+Document:  CACM-2819.html
+************************
+
+
+Experiments in Text File Compression
+
+A system for the compression of data files,
+viewed as strings of characters, is presented. 
+ The method is general, and applies equally well to
+English, to PL/I, or to digital data.  The system 
+consists of an encoder, an analysis program, and a decoder.
+  Two <B>algorithms for</B> encoding a string differ 
+slightly from earlier proposals.  The analysis program attempts
+to find an optimal set of codes for representing 
+substrings of the file.  Four new algorithms for this
+operation are described and compared.  Various 
+parameters in the algorithms are optimized to obtain
+a high degree of compression for sample texts.
+
+CACM November, 1976
+
+Rubin, F.
+
+text compression, data file compaction, Huffman
+codes, N-gram encoding, comparison of algorithms
+
+3.7 3.73 4.33
+
+CA761104 JB January 3, 1978  3:26 PM
+
+2530	4	2819
+2623	4	2819
+2819	4	2819
+2537	5	2819
+2819	5	2819
+2819	5	2819
+2819	5	2819
+
+
+************************
+
+************************
+Document:  CACM-2856.html
+************************
+
+
+The Synthetic Approach to Decision Table Conversion
+
+Previous approaches to the problem of automatically
+converting decision tables to computer 
+programs have been based on decomposition.  At any
+stage, one condition is selected for testing, and 
+two smaller problems (decision tables with one less
+condition) are created.  An optimal program (with 
+respect to average execution time or storage space, for
+example) is located only through implicit enumeration 
+of all possible decision trees using a technique such
+as branch-and-bound.  The new approach described 
+in this paper uses dynamic programming to synthesize
+an optimal decision tree from which a program can 
+be created.  Using this approach, the efficiency of creating
+an optimal program is increased substantially, 
+permitting generation <B>of optimal</B> programs for decision
+tables with as many as ten to twelve conditions.
+
+CACM June, 1976
+
+Schumacher, H.
+Sevcik, K. C.
+
+decision tables, decision trees, dynamic programming, optimal programs
+
+3.50 4.12 5.30 8.3
+
+CA760606 JB January 4, 1978  1:50 PM
+
+1354	4	2856
+1354	4	2856
+1488	4	2856
+1684	4	2856
+2053	4	2856
+2053	4	2856
+2053	4	2856
+2220	4	2856
+2220	4	2856
+2220	4	2856
+2221	4	2856
+2273	4	2856
+2273	4	2856
+2273	4	2856
+2273	4	2856
+2273	4	2856
+2453	4	2856
+2453	4	2856
+2453	4	2856
+2453	4	2856
+2517	4	2856
+2598	4	2856
+2598	4	2856
+2598	4	2856
+2726	4	2856
+2726	4	2856
+2726	4	2856
+2726	4	2856
+2845	4	2856
+2856	4	2856
+2856	4	2856
+2856	4	2856
+2856	4	2856
+2856	4	2856
+2856	4	2856
+2856	4	2856
+3034	4	2856
+3113	4	2856
+3113	4	2856
+1172	5	2856
+1327	5	2856
+1354	5	2856
+2053	5	2856
+2220	5	2856
+2453	5	2856
+2598	5	2856
+2856	5	2856
+2856	5	2856
+2856	5	2856
+3033	5	2856
+3113	5	2856
+1354	6	2856
+2263	6	2856
+2598	6	2856
+2691	6	2856
+2856	6	2856
+2856	6	2856
+
+
+************************
+
+************************
+Document:  CACM-3087.html
+************************
+
+
+An English Language Question Answering System
+for a Large Relational Database
+
+By typing requests in English, casual users
+will be able to obtain explicit answers from a 
+large relational database of aircraft flight and maintenance
+data using a system called PLANES.  The 
+design and implementation of this system is described and
+illustrated with detailed examples of the operation 
+of system components and examples of overall system
+operation.  The language processing portion of the 
+system uses a number of augmented transition networks,
+each of which matches phrases with a specific 
+meaning, along with context registers (his tory keepers)
+and concept case frames; these are used for judging 
+meaningfulness of questions, generating dialogue for clarifying
+partially understood questions, and resolving 
+ellipsis and pronoun reference problems.  Other system components
+construct a formal query for the relational 
+database, and optimize the order of searching relations.
+ Methods are discussed for handling vague or 
+complex questions and for providing browsing ability.
+ Also included are <B>discussions of</B> important issues 
+in programming natural language systems for limited domains,
+and the relationship of this system to others. 
+
+CACM July, 1978
+
+Waltz, D.
+
+Question answering, relational database, natural language,
+database front end, artificial intelligence, 
+dialogue, query generation, information retrieval, natural language programming 
+
+3.42 3.60 3.69 3.74 3.79
+
+CA780701 DH February 8, 1979  4:26 PM
+
+2155	4	3087
+2406	4	3087
+2581	4	3087
+2710	4	3087
+2715	4	3087
+2716	4	3087
+2717	4	3087
+2718	4	3087
+2739	4	3087
+2765	4	3087
+2795	4	3087
+2817	4	3087
+2888	4	3087
+2901	4	3087
+2921	4	3087
+2957	4	3087
+2959	4	3087
+2965	4	3087
+3087	4	3087
+3087	4	3087
+3154	4	3087
+1989	5	3087
+2046	5	3087
+3087	5	3087
+3087	5	3087
+3087	5	3087
+
+
+************************
+
+************************
+Document:  CACM-3057.html
+************************
+
+
+Optimal His togram Matching by Monotone Gray Level Transformation
+
+This paper investigates the problem <B>of optimal</B>
+his togram matching using monotone gray level 
+transformation, which always assigns all picture points
+of a given gray level i to another gray level 
+T(i) such that if i > j, then T(i) > T(j).  The objective
+is to find a transformed digital picture of 
+a given picture such that the sum of absolute errors
+between the gray level his togram of the transformed 
+picture and that of a reference picture is minimized.
+ This is equivalent to placing k1 linearly ordered 
+objects of different sized one by one into k2 linearly ordered
+boxes of assorted sizes, such that the 
+accumulated error of space under packed or overpacked
+in the boxes is minimized; the placement function 
+is monotonic, which ensures a polynomial time solution
+to this problem.  A tree search algorithm for 
+optimal his togram matching is presented which has time
+complexity O(k1 x k2).  If the monotone property 
+is dropped, then the problem becomes NP-complete,
+even if it is restricted to k2 = 2. 
+
+CACM October, 1978
+
+Chang, S.
+Wong, Y.
+
+Optimal his togram matching, gray level transformation,
+packing problem, tree searching algorithm, 
+picture processing
+
+3.24 5.25 5.42
+
+CA781004 DH January 29, 1979  6:08 PM
+
+3057	5	3057
+3057	5	3057
+3057	5	3057
+
+
+************************
+
+************************
+Document:  CACM-3132.html
+************************
+
+
+Experiments with Some Algorithms that Find
+Central Solutions for Pattern Classification
+
+In two-class pattern recognition, it is a standard
+technique to have an algorithm finding hyperplanes
+which separates the two classes in a linearly separable training
+set.  The traditional methods find a hyperplane which separates all
+points in the other, but such a hyperplane is not necessarily centered
+in the empty space between the two classes.  Since a central
+hyperplane does not favor one class or the other, it should have
+a lower error rate in classifying new points and is therefore better
+than a noncentral hyperplane.  Six <B>algorithms for</B> finding central
+hyperplanes are tested on three data sets.  Although frequently
+used practice, the modified relaxation algorithm is very poor. 
+Three algorithms which are defined in the paper are found to be
+quite good.
+
+CACM March, 1979
+
+Slagle, J.
+
+Pattern recognition, pattern classification, linear discriminants, central
+hyperplanes, centering, centrality criteria, dead zone, hyperplane,
+linearly separable, relaxation algorithm, accelerated relaxation
+
+3.62 3.63
+
+CA790303 DH April 12, 1979  3:20 PM
+
+3132	4	3132
+2215	5	3132
+3132	5	3132
+3132	5	3132
+3132	5	3132
+
+
+************************
+
+************************
+Document:  CACM-1961.html
+************************
+
+
+An Efficient Search Algorithm to Find the Elementary Circuits of a Graph
+
+A theoretically most efficient search algorithm is presented
+which uses an exhaustive search to <B>find all</B> of the elementary
+circuits of a graph.  The algorithm can be easily modified to find all
+of the elementary circuits with a particular attribute such as
+length.  A rigorous proof of the algorithm is given as well as an example
+of its application.  Empirical bounds are presented relating
+the speed of the algorithm to the number of vertices and the number
+of arcs.  The speed is also related to the number of circuits
+in the graph to give a relation between speed and complexity.
+Extensions to undirected and s-graphs are discussed.
+
+CACM December, 1970
+
+Tiernan, J. C.
+
+algorithm, graph theory, circuit search
+algorithm, path search algorithm, searching
+
+3.74 5.32
+
+CA701202 JB February 9, 1978 4:12 PM
+
+1847	4	1961
+1961	4	1961
+1961	4	1961
+1961	4	1961
+2052	4	1961
+2177	4	1961
+2763	4	1961
+1369	5	1961
+1504	5	1961
+1847	5	1961
+1961	5	1961
+1961	5	1961
+1961	5	1961
+2430	5	1961
+1961	6	1961
+
+
+************************
+
+************************
+Document:  CACM-1999.html
+************************
+
+
+Optimal Starting Approximations for Generating
+Square Root for Slow or No Divide
+
+On machine with slow or no division, it is preferable to
+use an iterative scheme for the square root different from
+the classical Heron scheme.  The problem <B>of optimal</B> initial 
+approximants is considered, and some optimal polynomial initial 
+approximations are tabulated.
+
+CACM September, 1970
+
+Wilson, M. W.
+
+square root, Newton-Raphson iteration, optimal approximants
+
+5.13
+
+CA700906 JB February 10, 1978  1:33 PM
+
+1832	4	1999
+1999	4	1999
+2159	4	1999
+1932	5	1999
+1999	5	1999
+1999	5	1999
+1999	5	1999
+
+
+************************
+
+************************
+Document:  CACM-2289.html
+************************
+
+
+Cellular Arrays for the Solution of Graph Problems
+
+A cellular array is a two-dimensional, checkerboard
+type interconnection of identical modules 
+(or cells), where each cell contains a few bits of
+memory and a small amount of combinational logic, 
+and communicates mainly with its immediate neighbors
+in the array.  The chief computational advantage 
+offered by cellular arrays is the improvement in speed
+achieved by virtue of the possibilities for parallel 
+processing.  In this paper it is shown that cellular
+arrays are inherently well suited for the solution 
+of many graph problems.  For example, the adjacency
+matrix of a graph is easily mapped onto an array; 
+each matrix element is stored in one cell of the array,
+and typical row and column operations are readily 
+implemented by simple cell logic.  A major challenge
+in the effective use of cellular arrays for the 
+solution of graph problems is the determination of algorithms
+that exploit the possibilities for parallelism, 
+especially for problems whose solutions appear to be inherently
+serial.  In particular, several parallelized 
+algorithms are presented for the solution of certain
+spanning tree, distance, and path problems, with 
+direct applications to wire routing, PERT chart analysis,
+and the analysis of many types of networks. 
+ These algorithms exhibit a computation time that in
+many cases grows at a rate not exceeding log2 n, 
+where n is the number of nodes in the graph.  Straightforward
+cellular implementations of the well-known 
+serial <B>algorithms for</B> these problems require about n
+steps, and noncellular implementations require from 
+n^2 to n^3 steps.
+
+CACM September, 1972
+
+Levitt, K. N.
+Kautz, W. H.
+
+graph theory, cellular logic-in-memory arrays,
+parallel processing, special purpose computers, 
+algorithms for distance and spanning tree problems
+
+5.32 6.22 6.5
+
+CA720901 JB January 30, 1978  9:16 AM
+
+2289	5	2289
+2289	5	2289
+2289	5	2289
+3075	5	2289
+3156	5	2289
+2289	6	2289
+2289	6	2289
+2557	6	2289
+2664	6	2289
+2714	6	2289
+2973	6	2289
+3075	6	2289
+
+
+************************
+
+
+
+Cellular Arrays for the Solution of Graph Problems
+
+A cellular array is a two-dimensional, checkerboard
+type interconnection of identical modules 
+(or cells), where each cell contains a few bits of
+memory and a small amount of combinational logic, 
+and communicates mainly with its immediate neighbors
+in the array.  The chief computational advantage 
+offered by cellular arrays is the improvement in speed
+achieved by virtue of the possibilities for parallel 
+processing.  In this paper it is shown that cellular
+arrays are inherently well suited for the solution 
+of many graph problems.  For example, the adjacency
+matrix of a graph is easily mapped onto an array; 
+each matrix element is stored in one cell of the array,
+and typical row and column operations are readily 
+implemented by simple cell logic.  A major challenge
+in the effective use of cellular arrays for the 
+solution of graph problems is the determination of algorithms
+that exploit the possibilities for parallelism, 
+especially for problems whose solutions appear to be inherently
+serial.  In particular, several parallelized 
+algorithms are presented for the solution of certain
+spanning tree, distance, and path problems, with 
+direct applications to wire routing, PERT chart analysis,
+and the analysis of many types of networks. 
+ These algorithms exhibit a computation time that in
+many cases grows at a rate not exceeding log2 n, 
+where n is the number of nodes in the graph.  Straightforward
+cellular <B>implementations of</B> the well-known 
+serial algorithms for these problems require about n
+steps, and noncellular implementations require from 
+n^2 to n^3 steps.
+
+CACM September, 1972
+
+Levitt, K. N.
+Kautz, W. H.
+
+graph theory, cellular logic-in-memory arrays,
+parallel processing, special purpose computers, 
+algorithms for distance and spanning tree problems
+
+5.32 6.22 6.5
+
+CA720901 JB January 30, 1978  9:16 AM
+
+2289	5	2289
+2289	5	2289
+2289	5	2289
+3075	5	2289
+3156	5	2289
+2289	6	2289
+2289	6	2289
+2557	6	2289
+2664	6	2289
+2714	6	2289
+2973	6	2289
+3075	6	2289
+
+
+************************
+
+************************
+Document:  CACM-3112.html
+************************
+
+
+List Processing in Real Time on a Serial Computer
+
+A real-time list processing system is one
+in which the time required by the elementary list 
+operations (e.g. CONS, CAR, CDR, RPLACA, REPLACD, EQ,
+and ATOM in LISP) is bounded by a (small) constant. 
+ Classical <B>implementations of</B> list processing systems
+lack this property because allocating a list cell 
+from the heap may cause a garbage collection, which process
+requires time proportional to the heap size 
+to finish.  A real-time list processing system is presented
+which continuously reclaims garbage, including 
+directed cycles, while linearizing and compacting the
+accessible cells into contiguous locations to avoid 
+fragmenting the free storage pool.  The program is small
+and requires no time-sharing interrupts, making 
+it suitable for microcode.  Finally, the system requires
+the same average time, and not more than twice 
+the space, of a classical implementation, and those
+space requirements can be reduced to approximately 
+classical proportions by compact list representation.
+ Arrays of different sizes, a program stack, and 
+hash linking are simple extensions to our system, and
+reference counting is found to be inferior for 
+many applications.
+
+CACM April, 1978
+
+Baker, H.
+
+Real-time, compacting,garbage collection, list processing,
+virtual memory, file or database management, 
+storage management, storage allocation, LISP, CDR-coding, reference counting.  
+
+3.50 3.60 3.73 3.80 4.13 4.22 4.32 4.33 4.35 4.49
+
+CA780404 DH February 26,1979  4:32 PM
+
+1024	4	3112
+1050	4	3112
+1051	4	3112
+1098	4	3112
+1214	4	3112
+1380	4	3112
+1388	4	3112
+1393	4	3112
+1393	4	3112
+1485	4	3112
+1487	4	3112
+1541	4	3112
+1549	4	3112
+1549	4	3112
+1570	4	3112
+1846	4	3112
+1878	4	3112
+1946	4	3112
+1957	4	3112
+1972	4	3112
+2023	4	3112
+2060	4	3112
+2156	4	3112
+2156	4	3112
+2168	4	3112
+2168	4	3112
+2218	4	3112
+2361	4	3112
+2438	4	3112
+2513	4	3112
+2625	4	3112
+2723	4	3112
+2723	4	3112
+2736	4	3112
+2736	4	3112
+2833	4	3112
+2833	4	3112
+2838	4	3112
+2845	4	3112
+2855	4	3112
+2855	4	3112
+2855	4	3112
+2857	4	3112
+2896	4	3112
+2922	4	3112
+2944	4	3112
+3039	4	3112
+3074	4	3112
+3074	4	3112
+3074	4	3112
+3081	4	3112
+3101	4	3112
+3106	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+627	4	3112
+106	5	3112
+1380	5	3112
+1826	5	3112
+1972	5	3112
+2438	5	3112
+2723	5	3112
+2736	5	3112
+2833	5	3112
+2838	5	3112
+3112	5	3112
+3112	5	3112
+3112	5	3112
+731	5	3112
+
+
+************************
+
+
+
+List Processing in Real Time on a Serial Computer
+
+A real-time list processing system is one
+in which the time required by the elementary list 
+operations (e.g. CONS, CAR, CDR, RPLACA, REPLACD, EQ,
+and ATOM in LISP) is bounded by a (small) constant. 
+ Classical implementations of list processing systems
+lack this property because allocating a list cell 
+from the heap may cause a garbage collection, which process
+requires time proportional to the heap size 
+to finish.  A real-time list processing system is presented
+which continuously reclaims garbage, including 
+directed cycles, while linearizing and compacting the
+accessible cells into contiguous locations to avoid 
+fragmenting the free storage pool.  The program is small
+and requires no time-sharing interrupts, making 
+it suitable for microcode.  Finally, the system requires
+the same average time, and not more than twice 
+the space, of a classical implementation, and those
+space requirements can be reduced to approximately 
+classical proportions by compact list representation.
+ Arrays of different sizes, a program stack, and 
+hash linking are simple extensions to our system, and
+reference counting is found to be inferior for 
+many applications.
+
+CACM April, 1978
+
+Baker, H.
+
+Real-time, compacting,garbage collection, list processing,
+virtual memory, file or <B>database management</B>, 
+storage management, storage allocation, LISP, CDR-coding, reference counting.  
+
+3.50 3.60 3.73 3.80 4.13 4.22 4.32 4.33 4.35 4.49
+
+CA780404 DH February 26,1979  4:32 PM
+
+1024	4	3112
+1050	4	3112
+1051	4	3112
+1098	4	3112
+1214	4	3112
+1380	4	3112
+1388	4	3112
+1393	4	3112
+1393	4	3112
+1485	4	3112
+1487	4	3112
+1541	4	3112
+1549	4	3112
+1549	4	3112
+1570	4	3112
+1846	4	3112
+1878	4	3112
+1946	4	3112
+1957	4	3112
+1972	4	3112
+2023	4	3112
+2060	4	3112
+2156	4	3112
+2156	4	3112
+2168	4	3112
+2168	4	3112
+2218	4	3112
+2361	4	3112
+2438	4	3112
+2513	4	3112
+2625	4	3112
+2723	4	3112
+2723	4	3112
+2736	4	3112
+2736	4	3112
+2833	4	3112
+2833	4	3112
+2838	4	3112
+2845	4	3112
+2855	4	3112
+2855	4	3112
+2855	4	3112
+2857	4	3112
+2896	4	3112
+2922	4	3112
+2944	4	3112
+3039	4	3112
+3074	4	3112
+3074	4	3112
+3074	4	3112
+3081	4	3112
+3101	4	3112
+3106	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+3112	4	3112
+627	4	3112
+106	5	3112
+1380	5	3112
+1826	5	3112
+1972	5	3112
+2438	5	3112
+2723	5	3112
+2736	5	3112
+2833	5	3112
+2838	5	3112
+3112	5	3112
+3112	5	3112
+3112	5	3112
+731	5	3112
+
+
+************************
+

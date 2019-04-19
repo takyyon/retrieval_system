@@ -1,3 +1,866 @@
 Snippets for the query:  Hardware and software relating to database management systems. Database packages, back end computers, special associative hardware with microcomputers attached to disk heads or things like RAP, relational or network (CODASYL) or hierarchical models, systems like SYSTEM R, IMS, ADABAS, TOTAL, etc.
 ************************
-No snippets found for the query..
+Total Hits:  16
+************************
+
+************************
+Document:  CACM-2967.html
+************************
+
+
+A Comparison of <B>Hardware and</B> Software Associative
+Memories in the Context of Computer Graphics
+
+The Associative Processing of Line Drawings (APLD)
+System utilizes a hardware associative memory 
+and creates, modifies, deletes, stores, and retrieves
+two-dimensional line drawings consisting of poin ts,
+lines, rectangles, and triangles. The APLD functions
+were duplicated on the TX-2 computer at M.'s 
+Lincoln Laboratory under the LEAP Language and Data
+Structure,  A comparison of the hardware approach 
+with the software simulation illustrates the advantages
+of the hardware associative memory in three areas: 
+(1) processing speed, (2) storage requirements, and (3)
+flexibility.  The major problem areas of hardware 
+associative memory technology, namely input/output
+and cost effectiveness, are also addressed.
+
+CACM May, 1977
+
+Stillman, N. J.
+Berra, P. B.
+
+associative memory, associative processor, content-addressable
+memory, graphics, information retrieval, 
+data structures, software evaluation, hardware evaluation,
+parallel processing, database management
+
+3.71 3.72 3.73 3.74 4.34 4.6 6.22 8.2
+
+CA770505 JB December 29, 1977  2:07 AM
+
+2719	4	2967
+2967	4	2967
+2151	5	2967
+2967	5	2967
+2967	5	2967
+2967	5	2967
+
+
+************************
+
+
+
+A Comparison of Hardware and Software Associative
+Memories in the Context of Computer Graphics
+
+The Associative Processing of Line Drawings (APLD)
+System utilizes a hardware associative memory 
+and creates, modifies, deletes, stores, and retrieves
+two-dimensional line drawings consisting of poin ts,
+lines, rectangles, and triangles. The APLD functions
+were duplicated on the TX-2 computer at M.'s 
+Lincoln Laboratory under the LEAP Language and Data
+Structure,  A comparison of the hardware approach 
+with the software simulation illustrates the advantages
+of the hardware associative memory in three areas: 
+(1) processing speed, (2) storage requirements, and (3)
+flexibility.  The major problem areas of hardware 
+associative memory technology, namely input/output
+and cost effectiveness, are also addressed.
+
+CACM May, 1977
+
+Stillman, N. J.
+Berra, P. B.
+
+associative memory, associative processor, content-addressable
+memory, graphics, information retrieval, 
+data structures, software evaluation, hardware evaluation,
+parallel processing, <B>database management</B>
+
+3.71 3.72 3.73 3.74 4.34 4.6 6.22 8.2
+
+CA770505 JB December 29, 1977  2:07 AM
+
+2719	4	2967
+2967	4	2967
+2151	5	2967
+2967	5	2967
+2967	5	2967
+2967	5	2967
+
+
+************************
+
+************************
+Document:  CACM-1199.html
+************************
+
+
+A Computer Center Simulation Project
+
+Today's computation centers are based on rapidly
+changing technologies of hardware <B>and software</B> 
+systems.  It is difficult, therefore, to base decisions
+on experience; in most instances, the benefits 
+of comparable experience for a given problem situation
+are not available.  In this paper, a mathematical 
+model of the Lockheed Central Computer Center is formulated
+that describes the operation of a computation 
+center in terms of information nets, decision processes,
+and control functions.  Experiments performed 
+with this model, the results of the experiments,
+and the application of the results are discussed.
+
+CACM September, 1965
+
+Hutchinson, G. K.
+
+CA650907JB March 6, 1978  7:29 PM
+
+1199	5	1199
+1199	5	1199
+1199	5	1199
+
+
+************************
+
+************************
+Document:  CACM-3025.html
+************************
+
+
+The Evolution of the DEC system 10
+
+The DEC system 10, also known as the PDP-10, evolved
+from the PDP-6 (circa 1963) over five generations 
+of implementations to presently include systems covering
+a price range of five to one.  The origin and 
+evolution of the hardware, operating system, and languages
+are described in terms of technological change, 
+user requirements, and user developments. The PDP-10's
+contributions to computing technology include: 
+accelerating the transition from batch oriented to time
+sharing computing systems; transferring hardware 
+technology within DEC (and elsewhere) to minicomputer
+design and manufacturing; supporting minicomputer 
+hardware <B>and software</B> development; and serving as a
+model for single user and timeshared interactive 
+minicomputer/microcomputer systems.
+
+CACM January, 1978
+
+Bell, C.
+Kotok, A.
+Hastings, T.
+Hill, R.
+
+computer structures, architecture, operating system, timesharing
+
+4.32 6.21 6.3
+
+CA780105 JB March 28, 1978  5:31 PM
+
+2411	4	3025
+2709	4	3025
+2889	4	3025
+2937	4	3025
+2989	4	3025
+3005	4	3025
+3025	4	3025
+3025	4	3025
+3101	4	3025
+2138	5	3025
+2989	5	3025
+3025	5	3025
+3025	5	3025
+3025	5	3025
+
+
+************************
+
+************************
+Document:  CACM-2379.html
+************************
+
+
+The Design of the Venus Operating System
+
+The Venus Operating System is an experimental
+multiprogramming system which supports five or 
+six concurrent users on a small computer.  The system was
+produced to test the effect of machine architecture 
+on complexity of software.  The system is defined by
+a combination of microprograms <B>and software</B>.  The 
+microprogram defines a machine with some unusual architectural
+feature; the software exploits these features 
+to define the operating system as simply as possible.
+ In this paper the development of the system is 
+described, with particular emphasis on the principles which guided the design.
+
+CACM March, 1972
+
+Liskov, B. H.
+
+operating systems, system design, levels of abstraction,
+machine architecture, microprogramming, 
+segments, semaphores, multiprogramming, virtual machines,
+processes, process communication, virtual devices, 
+data sharing, resource management, deadlock
+
+4.30 4.32 4.41 6.21
+
+CA720302 JB January 31, 1978  3:16 PM
+
+1828	4	2379
+1854	4	2379
+1877	4	2379
+1960	4	2379
+2150	4	2379
+2228	4	2379
+2280	4	2379
+2280	4	2379
+2317	4	2379
+2319	4	2379
+2377	4	2379
+2342	4	2379
+2376	4	2379
+2379	4	2379
+2379	4	2379
+2379	4	2379
+2424	4	2379
+2482	4	2379
+2482	4	2379
+2482	4	2379
+2500	4	2379
+2618	4	2379
+2632	4	2379
+2704	4	2379
+2723	4	2379
+2738	4	2379
+2740	4	2379
+2740	4	2379
+2741	4	2379
+2851	4	2379
+2867	4	2379
+2920	4	2379
+3184	4	2379
+1749	5	2379
+1877	5	2379
+2228	5	2379
+2379	5	2379
+2379	5	2379
+2379	5	2379
+2704	5	2379
+2867	5	2379
+1247	6	2379
+1552	6	2379
+1749	6	2379
+1749	6	2379
+2247	6	2379
+2356	6	2379
+2379	6	2379
+2379	6	2379
+2673	6	2379
+
+
+************************
+
+************************
+Document:  CACM-2424.html
+************************
+
+
+Dynamic Verification of Operating System Decisions
+
+Dynamic verification of a decision implies
+that every time the decision is made there is a 
+consistency check performed on the decision using independent
+hardware <B>and software</B>.  The dynamic verification 
+of operating system decisions is used on the PRIME system
+being designed and constructed at the University 
+of California, Berkeley.  PRIME is an experimental time-sharing
+which is to have the properties of continuous 
+availability, data privacy, and cost effectiveness.
+ The technique of dynamic verification allows the 
+construction of an operating system which does not make certain
+decisions improperly even in the presence 
+of a single hardware or software fault.  Furthermore,
+multiple faults lead to unreliable operation only 
+if the faults happen to reinforce each other.  On PRIME,
+dynamic verification is used to ensure that 
+one user's information cannot become available to another
+user gratuitously even in the presence of a 
+single hardware or software fault.the amount of additional
+hardware and software required for dynamic 
+verification can be modest.
+
+CACM November, 1973
+
+Fabry, R. S.
+
+operating systems, data security, fault tolerance,
+software reliability, data privacy, program 
+verification, modular computer systems
+
+4.32
+
+CA731102 JB January 20, 1978  10:56 AM
+
+1828	4	2424
+1854	4	2424
+1877	4	2424
+1960	4	2424
+2150	4	2424
+2317	4	2424
+2319	4	2424
+2377	4	2424
+2342	4	2424
+2376	4	2424
+2379	4	2424
+2424	4	2424
+2482	4	2424
+2618	4	2424
+2632	4	2424
+2704	4	2424
+2723	4	2424
+2738	4	2424
+2740	4	2424
+2741	4	2424
+2867	4	2424
+3184	4	2424
+1749	5	2424
+2424	5	2424
+2424	5	2424
+2424	5	2424
+
+
+************************
+
+************************
+Document:  CACM-2211.html
+************************
+
+
+Scanned-Display Computer Graphics
+
+A television-like scanned-display system has
+been successfully implemented on a Honeywell DDP-224 
+computer installation.  The scanned image is stored
+in the core memory of the computer, <B>and software</B> 
+scan conversion is used to convert the rectangular coordinates
+of a point to the appropriate word and 
+bit in an output display array in core storage.  Results
+thus far indicate that flicker-free displays 
+of large amounts of data are possible with reasonably
+fast graphical interaction.  A scanned image of 
+size 240 X 254 points is displayed at a 30 frame-per-second rate.
+
+CACM March, 1971
+
+Noll, A. M.
+
+computer graphics, scanned-display, scan conversion, raster displays
+
+4.41 6.35
+
+CA710301 JB February 3, 1978  4:53 PM
+
+1891	4	2211
+2211	4	2211
+2211	4	2211
+2421	4	2211
+2674	4	2211
+2687	4	2211
+1554	5	2211
+1741	5	2211
+2211	5	2211
+2211	5	2211
+2211	5	2211
+2421	5	2211
+1741	6	2211
+2211	6	2211
+
+
+************************
+
+************************
+Document:  CACM-1518.html
+************************
+
+
+An Experimental Model of System/360
+
+The problem of predicting the performance of
+modern computer systems is formidable.  One general 
+technique which can ease this problem is macroscopic simulation.
+ This paper reports on the applicability 
+of that technique to System/360.  The paper describes
+an experimental model of System/360-its hardware, 
+software, and its environment.  The measures of system performance
+produced by the model consist of statistics 
+<B>relating to</B> turnaround time, throughput, hardware utilization,
+software utilization, and queueing processes. 
+ The model is mechanized in SIMSCRIPT and consists of
+some 1750 statements.  An auxiliary programs, the 
+Job Generator, creates automatically the properties
+of System/360 jobs that get simulated.
+
+CACM November, 1967
+
+Katz, J. H.
+
+CA671102 JB February 26,1978  3:20 PM
+
+1518	5	1518
+1518	5	1518
+1518	5	1518
+1805	5	1518
+1912	5	1518
+1518	6	1518
+1518	6	1518
+1572	6	1518
+1748	6	1518
+
+
+************************
+
+************************
+Document:  CACM-2680.html
+************************
+
+
+Optimal Space Allocation on Disk Storage Devices
+
+When the amount of space required for file storage
+exceeds the amount which can be kept on-line, 
+decisions must be made as to which files are to be permanently
+resident and which mountable.  These decisions 
+will affect the number of mount requests issued to the
+operators.  This is often a bottleneck in a computing 
+facility, and reducing the number of mounts thus decreases
+turnaround time.  An optimization model for 
+the assignment of files <B>to disk</B> packs, and packs to either
+resident or nonresident status is presented. 
+ Heuristics are suggested for those cases in which
+it is inefficient to compute the actual optimum.
+
+CACM March, 1974
+
+Morgan, H. L.
+
+disk analysis, disk optimization, disk files,file
+systems, file scheduling, space allocation, 
+memory hierarchy
+
+3.72 3.73 4.39
+
+CA740303 JB January 18, 1978  12:32 PM
+
+2680	5	2680
+2680	5	2680
+2680	5	2680
+
+
+************************
+
+************************
+Document:  CACM-2718.html
+************************
+
+
+A Preliminary System for the Design of DBTG Data Structures
+
+The functional approach <B>to database</B> design is
+introduced.  In this approach the goal of design 
+is to derive a data structure which is capable of supporting
+a set of anticipated queries rather than 
+a structure which "models the business" in some other
+way. An operational computer program is described 
+which utilizers the functional approach to design data
+structures conforming to the Data Base Task Group 
+specifications.  The automatic programming technology
+utilized by this program, although typically used 
+to generate procedure, is here used to generate declaratives.
+
+CACM October, 1975
+
+Gerritsen, R.
+
+network model of databases, Data Base Task Group, database
+design, data structure, automatic programming, 
+translation, nonprocedural languages
+
+3.5 3.64 3.7 4.2 5.23
+
+CA751001 JB January 6, 1978  2:02 PM
+
+2155	4	2718
+2406	4	2718
+2710	4	2718
+2715	4	2718
+2716	4	2718
+2717	4	2718
+2718	4	2718
+2765	4	2718
+2817	4	2718
+2888	4	2718
+2901	4	2718
+2957	4	2718
+2959	4	2718
+2965	4	2718
+3087	4	2718
+3154	4	2718
+2046	5	2718
+2718	5	2718
+2718	5	2718
+2718	5	2718
+3147	5	2718
+2718	6	2718
+
+
+************************
+
+************************
+Document:  CACM-2516.html
+************************
+
+
+Hierarchical Storage in Information Retrieval
+
+A probabilistic analysis is employed to determine
+the effect of hierarchical storage organizations 
+on information retrieval operations.  The data storage
+hardware is assumed to consist on n-levels of 
+linearly connected memory <B>hardware with</B> increasing data
+access times and increasing data storage capabilities. 
+ A system might, for example, consist of fast semiconductor
+memory, computer core memory, extended core 
+storage, disk memory, and data cells.  Equations are derived
+to predict the effect of such a system on 
+data access times using sequential files, random access files,
+and structured files employing multiple-hierarchical 
+linked lists.
+
+CACM May, 1973
+
+Salasin, J.
+
+information retrieval, hierarchical storage
+
+3.70 3.72 3.73 3.74 3.79 3.90 6.20 6.34
+
+CA730504 JB January 24, 1978  8:48 AM
+
+2516	5	2516
+2516	5	2516
+2516	5	2516
+
+
+************************
+
+************************
+Document:  CACM-3030.html
+************************
+
+
+An Example of Hierarchical Design and Proof
+
+Hierarchical programming is being increasingly
+recognized as helpful in the construction of 
+large programs.  Users of hierarchical techniques claim
+or predict substantial increases in productivity 
+and in the reliability of the programs produced.  In this
+paper we describe a formal method f<B>or hierarchical</B> 
+program specification, implementation, and proof.  We
+apply this method to a significant list processing 
+problem and also discuss a number of extensions to current
+programming languages that ease hierarchical 
+program design and proof.
+
+CACM December, 1978
+
+Spitzen, J.
+Levitt, K.
+Robinson, L.
+
+Program verification, specification, data abstraction,
+software modules, hierarchical structures
+
+4.0 4.6 5.21 5.24
+
+CA781209 DH January 16, 19794:43 PM  
+
+2480	4	3030
+2704	4	3030
+2723	4	3030
+2738	4	3030
+2738	4	3030
+2866	4	3030
+2867	4	3030
+2869	4	3030
+2941	4	3030
+2941	4	3030
+2956	4	3030
+2958	4	3030
+2981	4	3030
+3004	4	3030
+3004	4	3030
+3030	4	3030
+3030	4	3030
+3030	4	3030
+3030	4	3030
+3030	4	3030
+3030	4	3030
+3031	4	3030
+3049	4	3030
+3077	4	3030
+3104	4	3030
+3155	4	3030
+2247	5	3030
+2356	5	3030
+2457	5	3030
+2651	5	3030
+2958	5	3030
+2972	5	3030
+3030	5	3030
+3030	5	3030
+3030	5	3030
+
+
+************************
+
+************************
+Document:  CACM-2151.html
+************************
+
+
+User Program Measurement in a Time-Shared Environment
+
+A general discussion of the measurement of
+software systems is followed by a description of 
+a hardware <B>and software</B> scheme for measuring user programs
+in a time-shared environment.  The TX-2 computer 
+at MIT Lincoln Laboratory was used for the implementation
+of such a system and the characteristics of 
+this implementation are reported.  A scenario showing
+the system in use is presented.  Finally, it is 
+shown how other time-sharing systems may provide similar measuring facilities.
+
+CACM October, 1971
+
+Nemeth, A. G.
+Rovner, P. D.
+
+operating systems, multiprogramming systems, time-sharing
+systems, software measurement, user program 
+measurement, measurement technology, TX-2 computer,
+virtual computers, performance improvement
+
+4.30 4.32 4.42 4.43
+
+CA711005 JB February 2, 1978  1:05 PM
+
+1957	4	2151
+2151	4	2151
+2151	4	2151
+2151	4	2151
+2318	4	2151
+3103	4	2151
+3148	4	2151
+1653	5	2151
+1747	5	2151
+1860	5	2151
+2151	5	2151
+2151	5	2151
+2151	5	2151
+2719	5	2151
+2967	5	2151
+1626	6	2151
+210	6	2151
+2151	6	2151
+2151	6	2151
+2167	6	2151
+2210	6	2151
+2645	6	2151
+2657	6	2151
+
+
+************************
+
+************************
+Document:  CACM-1590.html
+************************
+
+
+Pitch Period Determination of Speech Sounds
+
+A computer procedure which determines pitch
+periods by the recognition of the peak structure 
+of the speech waveform is described.  Speech sounds were
+sampled by a microphone and an analog-to-digital 
+converter <B>attached to</B> an interconnected IBM 7090-PDP-1
+system.  These utterances were recorded at the 
+normal noise level of the computer room but were not
+band-compressed or phase-distorted in any manner. 
+ A sequence of operations defined on the speech wave selects
+a list of points along the waveform as candidates 
+for pitch markers.  These markers are validated by
+an error detection and correction procedurebout 
+95 percent of the pitch periods were recognized correctly
+within 1 to 2 times real-time on the IBM 7090.
+
+CACM June,1967
+
+Reddy, D. R.
+
+CA670602 JB February 28, 1978  9:42 AM
+
+1590	5	1590
+1590	5	1590
+1590	5	1590
+
+
+************************
+
+************************
+Document:  CACM-2738.html
+************************
+
+
+Use of the Concept of Transparency in the
+Design of Hierarchically Structured Systems
+
+This paper deals with the design of hierarchically
+structured programming systems.  It develops 
+a method for evaluating the cost of requiring programmers
+to work with an abstraction of a real machine. 
+ A number of examples from hardware <B>and software</B>
+are given as illustrations of the method.
+
+CACM July, 1975
+
+Parnas, D. L.
+Siewiorek, D. P.
+
+hierarchical systems, bottom up design, levels
+of abstraction, synchronization primitives
+
+4.20 4.30 6.1 6.20
+
+CA750704 DMM January 31, 1978  3:46 PM
+
+1828	4	2738
+1854	4	2738
+1877	4	2738
+1960	4	2738
+2150	4	2738
+2317	4	2738
+2319	4	2738
+2319	4	2738
+2377	4	2738
+2378	4	2738
+2342	4	2738
+2376	4	2738
+2379	4	2738
+2320	4	2738
+2424	4	2738
+2482	4	2738
+2480	4	2738
+2618	4	2738
+2632	4	2738
+2632	4	2738
+2704	4	2738
+2704	4	2738
+2723	4	2738
+2738	4	2738
+2738	4	2738
+2738	4	2738
+2738	4	2738
+2738	4	2738
+2740	4	2738
+2740	4	2738
+2741	4	2738
+2866	4	2738
+2867	4	2738
+2867	4	2738
+2868	4	2738
+2869	4	2738
+2941	4	2738
+2958	4	2738
+3004	4	2738
+3004	4	2738
+3030	4	2738
+3030	4	2738
+3127	4	2738
+3155	4	2738
+3184	4	2738
+1749	5	2738
+2080	5	2738
+2247	5	2738
+2356	5	2738
+2738	5	2738
+2738	5	2738
+2738	5	2738
+2777	5	2738
+2972	5	2738
+970	6	2738
+2204	6	2738
+2597	6	2738
+2732	6	2738
+2738	6	2738
+
+
+************************
+
+************************
+Document:  CACM-1711.html
+************************
+
+
+When Your Computer Needs a Lawyer
+
+Possible liability for negligence, for other
+torts (such as slander of credit) and for liability 
+under theories of express or implied warranty (guarantees)
+are discussed, and legal complications are 
+explained, so that users, operators, owners, and leasors
+of computers may be alerted to potential legal 
+problems. Focus is also on trouble spots in contracting
+for data processing services, in automating record 
+keeping operations, in deciding whether or not to automate
+certain operations, and in complying with 
+statutes and regulation <B>relating to</B> record keeping.
+ Information is given on patents, copyrights and 
+trade secret protection for programs, and the problem
+of using copyrighted material in information storage 
+and retrieval systems, including the pending
+copyright and patent revision bills.
+
+CACM August, 1968
+
+Banzhaf III, J. F.
+
+law, legal, lawyer, liability, torts, negligence,
+contracts, warrantees, guarantees, accounting, 
+regulations, simulation, income tax, copyrights, patents,
+trade secrets, standard of care, slander of 
+credit, crime, criminals, record keeping records, evidence, copying
+
+1.3 2.11 2.12 2.2 3.33
+
+CA680803 JB February 22, 1978  11:12 AM
+
+1711	4	1711
+1711	4	1711
+997	5	1711
+1001	5	1711
+1711	5	1711
+1711	5	1711
+1711	5	1711
+
+
+************************
+

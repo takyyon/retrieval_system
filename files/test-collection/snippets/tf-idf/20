@@ -1,3 +1,287 @@
 Snippets for the query:  computational complexity, intractability, class-complete reductions, algorithms and efficiency
 ************************
-No snippets found for the query..
+Total Hits:  5
+************************
+
+************************
+Document:  CACM-1270.html
+************************
+
+
+On ALGOL Education: Automatic Grading Programs
+
+Two ALGOL grader programs are presented for
+the computer evaluation of student ALGOL programs. 
+One is for a beginner's program; it furnishes random data
+and checks answers. The other provides a searching 
+test of the reliability <B>and efficiency</B> of an integration
+procedure.  There is a statement of the essential 
+properties of a computer system, in order that
+grader programs can be effectively used.
+
+CACM May, 1965
+
+Forsythe, G. E.
+Wirth, N.
+
+CA650501 JB March 7, 1978  3:16 PM
+
+1086	4	1270
+1132	4	1270
+1234	4	1270
+1263	4	1270
+1265	4	1270
+1270	4	1270
+1270	4	1270
+1323	4	1270
+1358	4	1270
+1379	4	1270
+1380	4	1270
+1453	4	1270
+1464	4	1270
+1484	4	1270
+1491	4	1270
+1498	4	1270
+1613	4	1270
+1614	4	1270
+1781	4	1270
+1825	4	1270
+1860	4	1270
+1902	4	1270
+2083	4	1270
+2178	4	1270
+2179	4	1270
+2252	4	1270
+2325	4	1270
+2341	4	1270
+2546	4	1270
+2645	4	1270
+2652	4	1270
+2684	4	1270
+2842	4	1270
+2929	4	1270
+2934	4	1270
+3069	4	1270
+669	4	1270
+679	4	1270
+691	4	1270
+761	4	1270
+949	4	1270
+989	4	1270
+145	5	1270
+1270	5	1270
+1270	5	1270
+1270	5	1270
+1413	5	1270
+1902	5	1270
+3184	5	1270
+145	6	1270
+1205	6	1270
+1270	6	1270
+1270	6	1270
+
+
+************************
+
+************************
+Document:  CACM-2892.html
+************************
+
+
+A Study of Line Overhead in the Arpanet
+
+The form, extent, and effect of the communication line
+overhead in the ARPANET are considered. 
+ The source of this over head is separated into various
+levels of protocol hierarchy and the characteristics 
+of each level are summarized.  Then the line efficiency
+for various models of system use is studied. 
+ Some measurements of line efficiency for the ARPANET are
+presented and by extrapolation these measurements 
+are used to anticipate overhead in a heavily loaded network.
+Similar results are derived for a recently 
+proposed network protocol and compared with those for the current system.
+
+CACM January, 1976
+
+Kleinrock, L.
+Naylor, W. E.
+Opderbeck, H.
+
+ARPANET, computer communication networks, interprocess
+communication, measurement, packet switching, 
+performance evaluation <B>and efficiency</B>, resource sharing
+
+3.81 4.39 4.6 4.9
+
+CA760101 JB January 5, 1978  10:49 AM
+
+2892	5	2892
+2892	5	2892
+2892	5	2892
+
+
+************************
+
+************************
+Document:  CACM-3070.html
+************************
+
+
+Hybrid Simulation Models of Computer Systems
+
+This paper describes the structure and operation
+of a hybrid simulation model in which both 
+discrete-event simulation and analytic techniques are
+combined to produce efficient yet accurate system 
+models.  In an example based on a simple hypothetical
+computer system, discrete-event simulation is used 
+to model the arrival and activation of jobs, and a
+central-server queueing network models the use of 
+system processors.  The accuracy <B>and efficiency</B> of the
+hybrid technique are demonstrated by comparing 
+the result and computational costs of the hybrid model of
+the example with those of an equivalent simulation-only 
+model.  
+
+CACM September, 1978
+
+Schwetman, H.
+
+Performance evaluation, simulation, queueing
+network models, central server model
+
+4.32 4.35 8.1
+
+CA780902 DH February 5, 1979  3:32 PM
+
+2712	4	3070
+2741	4	3070
+3016	4	3070
+3059	4	3070
+3070	4	3070
+3070	4	3070
+3070	4	3070
+3070	4	3070
+3153	4	3070
+1805	5	3070
+2454	5	3070
+2741	5	3070
+2988	5	3070
+3070	5	3070
+3070	5	3070
+3070	5	3070
+
+
+************************
+
+************************
+Document:  CACM-2569.html
+************************
+
+
+Computer Generation of Gamma Random Variates
+with Non-integral Shape Parameters
+
+When the shape parameter, a, is integral,
+generating gamma random variables with a digital 
+computer is straightforward.  There is no simple method
+for generating gamma random variates with non-integral 
+shape parameters.  A common procedure is to approximately
+generate such random variables by use of the 
+so-called probability switch method.  Another procedure,
+which is exact, is due to Johnk.  This paper 
+presents a rejection method for exactly generating
+gamma random variables when a is greater than 1.  
+The efficiency of the rejection method is shown to
+be better than the efficiency of Johnk's method.  
+The paper concludes that when a is non-integral the following
+mix of procedures yields the best combination 
+of accuracy <B>and efficiency</B>: (1) when a is less than
+1, use Johnk's method; (2) when 1 is less than a 
+and a is less than 5, use the rejection method; (3) when
+a is greater than 5, use the probability switch 
+method.
+
+CACM December,1974
+
+Wallace, N. D.
+
+simulation, gamma random variables,
+probability distribution, random numbers
+
+5.5 8.1
+
+CA741205 JB January 16, 1978  9:35 AM
+
+2569	5	2569
+2569	5	2569
+2569	5	2569
+2847	5	2569
+2928	5	2569
+3046	5	2569
+3098	5	2569
+3107	5	2569
+1751	6	2569
+2277	6	2569
+2380	6	2569
+2522	6	2569
+2569	6	2569
+2569	6	2569
+2569	6	2569
+2569	6	2569
+2569	6	2569
+2847	6	2569
+2847	6	2569
+3098	6	2569
+
+
+************************
+
+************************
+Document:  CACM-1930.html
+************************
+
+
+Extremely Portable Random Number Generator
+
+Extremely portable subroutines are sometimes
+needed for which moderate quality <B>and efficiency</B> 
+suffice.  Typically, this occurs for library functions
+(like random number generation and in core sorting) 
+which are not entirely universal or are not used in a
+standardized way.  The literature on random number 
+generators does not seem to contain an algorithm that
+meets requirements of this sort.  An extremely 
+portable 8-line FORTRAN program is provided which based
+on an important paper by Coveyou and MacPherson 
+(1967)sing their methods, Fourier analysis is applied
+to the probability function for the consecutive 
+n-tuples provided by our generator (with n less than
+or equal to 4).  While the small modulus which must 
+be used to maintain portability prevents the quality
+of the generator from being high, the generator 
+compares well with the bounds established in the above mentioned paper.
+
+CACM February, 1969
+
+Kruskal, J. B.
+
+random number generators, random numbers, random
+number analysis, random generators, linear sequential 
+generators, random number program, pseudo random numbers 
+
+4.49 5.19 5.5
+
+CA690208 JB February 20, 1978  10:43 AM
+
+1930	5	1930
+1930	5	1930
+1930	5	1930
+2115	5	1930
+1691	6	1930
+1930	6	1930
+
+
+************************
+

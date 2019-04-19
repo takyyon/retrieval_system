@@ -1,6 +1,1215 @@
 Snippets for the query:  Computer performance evaluation techniques using pattern recognition and clustering. LA 70803
 ************************
-Total Hits:  1
+Total Hits:  32
+************************
+
+************************
+Document:  CACM-2641.html
+************************
+
+
+A Minimal Spanning Tree clustering Method [Z] (Algorithm A479)
+
+CACM June, 1974
+
+Page, R. L.
+
+clustering, <B>pattern recognition</B>, feature
+selection, minimal spanning trees
+
+3.63 5.39 5.5
+
+CA740605 JB January 17, 1978  3:06 PM
+
+2641	4	2641
+2363	5	2641
+2641	5	2641
+2641	5	2641
+2641	5	2641
+
+
+************************
+
+************************
+Document:  CACM-1726.html
+************************
+
+
+Preliminary Investigation of Techniques
+for Automated Reading of Unformatted Text
+
+Methods for converting unstructured printed
+material into computer code are experimentally 
+investigated.  An operator-controlled mode, depending
+on human demarcation of the various regions of 
+the page for guiding the scanner, is implemented by
+means of a joystick and a CRT display.  This mode, 
+for which some performance figures are obtained, is thought
+to be suitable for processing very complicated 
+material, such as technical journals.  For simpler material,
+for instance the "claims" sections of patents, 
+and in applications where the utmost accuracy is not necessary,
+an unsupervised mode is advocated.  Here, 
+the textual portions of the page are located during
+a rapid prescan by a rudimentary form of frequency 
+analysis.  These areas are then rescanned at a higher
+resolution suitable for character recognition. 
+ Error rates of the order of 0.1 percent are obtained in
+a simple problem involving photographs of telephone 
+company meter boards.  Other matters related to the
+design of a general purpose page reader, such as 
+the segmentation of printed text, the possibility of
+time-sharing the scanner, interactive man-machine 
+operation, and the facsimile reproduction of illustrations, are discussed.
+
+CACM July, 1968
+
+Nagy, G.
+
+<B>pattern recognition</B>, character recognition, text
+reading, information retrieval, unformatted text 
+operator-controlled reader, online reader,
+text-image discrimination, reading machine
+
+3.63 3.79 3.89 6.29 6.35
+
+CA680703 JB February 22, 1978  2:52 PM
+
+1726	5	1726
+1726	5	1726
+1726	5	1726
+2370	5	1726
+1726	6	1726
+
+
+************************
+
+************************
+Document:  CACM-3048.html
+************************
+
+
+Performance Evaluation of Highly Concurrent
+Computers by Deterministic Simulation
+
+Simulation is presented as a practical technique
+for <B>performance evaluation</B> of alternative 
+configurations of highly concurrent computers.  A technique
+is described for constructing a detailed 
+deterministic simulation model of a system.  In the model
+a control stream replaces the instruction and 
+data streams of the real system.  Simulation of the
+system model yields the timing and resource usage 
+statistics needed for performance evaluation, without
+the necessity of emulating the system.  As a case 
+study, the implementation of a simulator of a model
+of the CPU-memory subsystem of the IBM 360/91 is 
+described.  The results of evaluating some alternative
+system designs are discussed.  The experiments 
+reveal that, for the case study, the major bottlenecks
+in the system are the memory unit and the fixed 
+point unit.  Further, it appears that many of the sophisticated
+pipelining and buffering technique simplemented 
+in the architecture of the IBM 360/91 are of little
+value when high-speed (cache) memory is used, as 
+in the IBM 360/195.
+
+CACM November, 1978
+
+Kumar, B.
+Davidson, E.
+
+Performance evaluation, deterministic simulation,
+control stream, concurrent computers
+
+6.20 8.1
+
+CA781103 DH January 26, 1979  11:26 AM
+
+3048	5	3048
+3048	5	3048
+3048	5	3048
+
+
+************************
+
+************************
+Document:  CACM-2892.html
+************************
+
+
+A Study of Line Overhead in the Arpanet
+
+The form, extent, and effect of the communication line
+overhead in the ARPANET are considered. 
+ The source of this over head is separated into various
+levels of protocol hierarchy and the characteristics 
+of each level are summarized.  Then the line efficiency
+for various models of system use is studied. 
+ Some measurements of line efficiency for the ARPANET are
+presented and by extrapolation these measurements 
+are used to anticipate overhead in a heavily loaded network.
+Similar results are derived for a recently 
+proposed network protocol and compared with those for the current system.
+
+CACM January, 1976
+
+Kleinrock, L.
+Naylor, W. E.
+Opderbeck, H.
+
+ARPANET, computer communication networks, interprocess
+communication, measurement, packet switching, 
+<B>performance evaluation</B> and efficiency, resource sharing
+
+3.81 4.39 4.6 4.9
+
+CA760101 JB January 5, 1978  10:49 AM
+
+2892	5	2892
+2892	5	2892
+2892	5	2892
+
+
+************************
+
+************************
+Document:  CACM-2910.html
+************************
+
+
+Equivalence of Hough Curve Detection to Template Matching
+
+CACM November, 1977
+
+Stockman, G. C.
+
+picture processing, <B>pattern recognition</B>, curve
+detection, Hough transformation, template matching
+
+3.63 6.9
+
+CA771106 JB December 27, 1977  7:23 AM
+
+2788	4	2910
+2910	4	2910
+2910	4	2910
+2400	5	2910
+2788	5	2910
+2910	5	2910
+2910	5	2910
+2910	5	2910
+
+
+************************
+
+************************
+Document:  CACM-2571.html
+************************
+
+
+An Analytic Model of the Hasp Execution Task Monitor
+
+The HASP Execution Task Monitor periodically
+rearranges the OS/360 dispatching chain to give 
+tasks preemptive execution priority in inverse order to
+that of their cpu utilization history.  The effect 
+is to keep the I/O bound tasks active and to prevent
+cpu bound tasks from locking out other tasks.  This 
+paper develops a simple model of the Execution Task
+Monitor and employs it to study the effectiveness 
+of the monitor in improving system performance.  A
+modified strategy monitor control is investigated 
+for the case of task execution in a memory hierarchy of varying speeds.
+
+CACM December, 1974
+
+Strauss, J. C.
+
+Hasp, OS/360, dispatching, scheduling, modeling, <B>performance evaluation</B>
+
+4.32 8.1
+
+CA741203 JB January 16, 1978  9:51 AM
+
+2571	4	2571
+3072	4	2571
+3119	4	2571
+2245	5	2571
+2571	5	2571
+2571	5	2571
+2571	5	2571
+
+
+************************
+
+************************
+Document:  CACM-2310.html
+************************
+
+
+Language Analysis in the Humanities
+
+The use of the computer in the language-oriented
+humanities for exhaustive listing of detail 
+(as in indices and concordances) is widespread and accepted
+as desirable.  The implications of the computer 
+for a "science" of the humanities-a science entailing
+gathering data for the construction and testing 
+of models-are neither widely recognized nor accepted.
+ This paper argues that the computer's  major role 
+as to language analysis in the humanities will be the
+establishing of such a sciencehus, for those 
+areas of the humanities for which rigor and precision
+are necessary (e.g. analyzing literature or teaching 
+a student to write a composition) the computer
+can be a critically important facilitator.
+
+CACM July, 1972
+
+Sedelow, S. Y.
+
+language analysis, humanities, science of the humanities,
+<B>pattern recognition</B>, pattern generation, 
+interdisciplinary cooperation
+
+1.3 2.19 3.42 3.43
+
+CA720718 JB January 30, 1978  11:19 AM
+
+2127	4	2310
+2309	4	2310
+2310	4	2310
+2396	4	2310
+1856	5	2310
+2310	5	2310
+2310	5	2310
+2310	5	2310
+
+
+************************
+
+************************
+Document:  CACM-3149.html
+************************
+
+
+The Cyclic Order Property of Vertices as an Aid in Scene Analysis
+
+A cyclic-order property is defined for bodies bounded by smooth-curved faces.
+The property is shown to be useful for analyzing pictures of such bodies,
+particularly when the line data extracted from the pictures are imperfect.
+This property augments previously known grammatical rules that
+determine the existence of three-dimensional bodies corresponding
+to given two-dimensional line-structure data.
+
+CACM June, 1979
+
+Shapira, R.
+Freeman, H.
+
+Scene analysis, cyclic order, artificial intelligence,
+three-dimensional reconstruction
+, picture processing, computer graphics, <B>pattern recognition</B>.
+
+3.2 3.6 8.2
+
+CA790605 DH August 22, 1979  1:36 PM
+
+3149	5	3149
+3149	5	3149
+3149	5	3149
+
+
+************************
+
+************************
+Document:  CACM-2231.html
+************************
+
+
+The Reconstruction of Binary Patterns from Their Projections
+
+Given the horizontal and vertical projections
+of a finite binary pattern f, can we construct 
+the original pattern f?  In this paper we give a characterization
+of patterns that are reconstructable 
+from their projection.  Three algorithms are developed
+to reconstruct both unambiguous and ambiguous 
+patterns.  It is shown that an unambiguous pattern can
+be perfectly reconstructed in time m X n and that 
+a pattern similar to an ambiguous pattern can also be constructed
+in time m X n, where m, n are the dimensions 
+of the pattern frame.
+
+CACM January, 1971
+
+Chang, S.
+
+pattern reconstruction, image reconstruction, data
+compression, <B>pattern recognition</B>, integral geometry
+
+3.63 5.30
+
+CA710103 JB February 8, 1978  12:33 PM
+
+2142	5	2231
+2231	5	2231
+2231	5	2231
+2231	5	2231
+2529	5	2231
+1929	6	2231
+2231	6	2231
+2231	6	2231
+
+
+************************
+
+************************
+Document:  CACM-2811.html
+************************
+
+
+Structural Pattern Recognition Of Carotid Pulse
+Waves Using A General Waveform Parsing System
+
+A general waveform parsing system with application
+to structural <B>pattern recognition</B> of carotid 
+pulse waves is described.  The carotid arterial pulse
+wave is of medical importance because of variation 
+in its structure induced by arterial aging and cardiovascular
+disease.  The syntax-driven waveform analysis 
+system has been applied with good results to these pulse
+waves to detect and measure structural variations. 
+ The waveform parsing system is modeled on a compiler-compiler
+system and allows the user to enter application 
+specific information as data.  It is thus general
+enough to be applicable to other waveforms.
+
+CACM December, 1976
+
+Stockman, G.
+Kanal, L.
+Kyle, M. C.
+
+structural pattern recognition, parsing, waveform analysis, pulse waves
+
+3.12 3.34 3.63 4.12
+
+CA761204 JB January 3, 1978  1:43 PM
+
+2811	5	2811
+2811	5	2811
+2811	5	2811
+
+
+************************
+
+************************
+Document:  CACM-3132.html
+************************
+
+
+Experiments with Some Algorithms that Find
+Central Solutions for Pattern Classification
+
+In two-class <B>pattern recognition</B>, it is a standard
+technique to have an algorithm finding hyperplanes
+which separates the two classes in a linearly separable training
+set.  The traditional methods find a hyperplane which separates all
+points in the other, but such a hyperplane is not necessarily centered
+in the empty space between the two classes.  Since a central
+hyperplane does not favor one class or the other, it should have
+a lower error rate in classifying new points and is therefore better
+than a noncentral hyperplane.  Six algorithms for finding central
+hyperplanes are tested on three data sets.  Although frequently
+used practice, the modified relaxation algorithm is very poor. 
+Three algorithms which are defined in the paper are found to be
+quite good.
+
+CACM March, 1979
+
+Slagle, J.
+
+Pattern recognition, pattern classification, linear discriminants, central
+hyperplanes, centering, centrality criteria, dead zone, hyperplane,
+linearly separable, relaxation algorithm, accelerated relaxation
+
+3.62 3.63
+
+CA790303 DH April 12, 1979  3:20 PM
+
+3132	4	3132
+2215	5	3132
+3132	5	3132
+3132	5	3132
+3132	5	3132
+
+
+************************
+
+************************
+Document:  CACM-2370.html
+************************
+
+
+An Experimental Laboratory for Pattern Recognition and Signal Processing
+
+An interactive computer-controlled scanning
+and display system has been in operation at the 
+IBM Thomas J. Watson Research Center for three years.
+ The system includes two flying-spot scanners and 
+a TV camera specially interfaced to a process control
+digital computer, dot-mode and vector displays, 
+analog input and output facilities, and a variety of
+other experimental equipment.  The system design 
+and programming support are described and typical applications
+in scanner control, optical character 
+recognition,and image processing are presented.
+
+CACM April, 1972
+
+Herbst, N. M.
+Will, P. M.
+
+scanners, pseudorandom displays, interactive
+terminal, image processing, <B>pattern recognition</B>
+
+4.41 6.35
+
+CA720403 JB January 31, 1978  1:47 PM
+
+2370	4	2370
+1726	5	2370
+2370	5	2370
+2370	5	2370
+2370	5	2370
+
+
+************************
+
+************************
+Document:  CACM-2984.html
+************************
+
+
+Cost/Utilization: A Measure of System Performance
+
+A method is presented for evaluating computer
+system performance in terms of a cost/utilization 
+factor and a measure of imbalance.  These coefficients
+indicate the extent to which the total system 
+cost is effectively utilized.  The method includes a
+technique for the visual representation of system 
+performance.
+
+CACM March, 1977
+
+Borovits, I.
+Ein-Dor, P.
+
+computer system, <B>performance evaluation</B>, cost/utilization, system balance
+
+2.44
+
+CA770308 JB December 29, 1977  6:41 AM
+
+2705	4	2984
+2984	4	2984
+1908	5	2984
+2984	5	2984
+2984	5	2984
+2984	5	2984
+
+
+************************
+
+************************
+Document:  CACM-3119.html
+************************
+
+
+The Impact of Distributions and Disciplines
+on Multiple Processor Systems
+
+Simple queueing models are used to study the performance tradeoffs of 
+multiple processor systems.  Issues considered include the impact of CPU
+service disciplines and distributions, level of multiprogramming,
+multitasking, and job priorities. 
+
+CACM January, 1979
+
+Sauer, C.
+Chandy, K.
+
+Multiprogramming, multiprocessing, scheduling disciplines,
+<B>performance evaluation</B>, queueing models
+
+4.32 4.6 6.2 8.1
+
+CA790104 DH April 10, 1979  12:10 PM
+
+2571	4	3119
+2918	4	3119
+3032	4	3119
+3072	4	3119
+3119	4	3119
+3119	4	3119
+3119	4	3119
+3119	4	3119
+2245	5	3119
+2798	5	3119
+2849	5	3119
+2859	5	3119
+3119	5	3119
+3119	5	3119
+3119	5	3119
+
+
+************************
+
+************************
+Document:  CACM-2883.html
+************************
+
+
+An Application of Heuristic Search Methods to Edge and Contour Detection
+
+This paper presents a method for detecting edges
+and contours in noisy pictures.  The properties 
+of an edge are embedded in a figure of merit and the edge
+detection problem becomes the problem of minimizing 
+the given figure of merit.  This problem can be represented
+as a shortest path problem on a graph and 
+can be solved using well-known graph search algorithms.
+ The relations between this representation of 
+the minimization problem and a dynamic programming approach
+are discussed, showing that the graph search 
+method can lead to substantial improvements in computing
+time.  Moreover, if heuristic search methods 
+are used, the computing time will depend on the amount
+of noise in the picture.  Some experimental results 
+are given; these show how various information about the
+shape of the contour of an object can be embedded
+in the figure of merit, thus allowing the extraction
+of contours from noisy picture and the separation 
+of touching objects.
+
+CACM February, 1976
+
+Martelli, A.
+
+picture processing, <B>pattern recognition</B>, edge
+detection, contour detection, contour following, 
+optimization problems, dynamic programming, shortest
+path, heuristic search methods, problem solving 
+methods
+
+3.63 3.64 3.66 5.42
+
+CA760204 JB January 5, 1978  9:30 AM
+
+2883	4	2883
+2195	5	2883
+2883	5	2883
+2883	5	2883
+2883	5	2883
+
+
+************************
+
+************************
+Document:  CACM-2812.html
+************************
+
+
+Computer-Aided Analysis and Design of Information Systems
+
+This paper describes the use of computer-aided
+analysis for the design and development of an 
+integrated financial management system by the Navy Material
+Command Support Activity (NMCSA).  Computer-aided 
+analysis consists of a set of procedures and computer
+programs specifically designed to aid in the process 
+of applications software design, computer selection
+and <B>performance evaluation</B>.  There are four major 
+components: Problem Statement Language, Problem Statement
+Analyzer, Generator of Alternative Designs, 
+and Performance Evaluator. The statement of requirements
+was written in ADS (Accurately Defined Systems) 
+and analyzed by a Problem Statement Analyzer for ADS.
+ The ADS problem definition was supplemented with 
+additional information in order to create a complete
+problem definition.  The analyzed problem statement 
+was translated to the form necessary for use by the
+SODA (Systems Optimization and Design Algorithm)
+program for the generation of alternative specifications
+of program modules and logical database structures.
+
+CACM December, 1976
+
+Nunamaker, J. F. Jr.
+Konsynski, B. R. Jr.
+Ho, T.
+Singer, C.
+
+computer-aided analysis, information systems, logical
+system design, problem statement language, 
+problem statement analyzer, physical system design,
+accurately defined systems, systems optimization 
+and design algorithm
+
+2.44 3.50 4.33 4.9 8.1
+
+CA761203 JB January 3, 1978  2:31 PM
+
+2812	5	2812
+2812	5	2812
+2812	5	2812
+
+
+************************
+
+************************
+Document:  CACM-3013.html
+************************
+
+
+Some New Methods of Detecting Step Edges in Digital Pictures
+
+This note describes two operators that respond
+to step edges, but not to ramps.  The first 
+is similar to the digital Laplacian, but uses the max, rather
+than the sum, of the x and y second differences. 
+ The second uses the difference between the mean and
+median gray levels in a neighborhood.  The outputs 
+obtained from these operators applied to a set of test
+pictures are compared with each other and with 
+the standard digital Laplacian and gradient.  A third
+operator, which uses the distance between the center 
+and centroid of a neighborhood as an edge value, is also
+briefly considered; it turns out to be equivalent 
+to one of the standard digital approximations to the gradient.
+
+CACM February,1978
+
+Schachter, B.
+Rosenfeld, A.
+
+image processing, <B>pattern recognition</B>, edge detection
+
+3.63
+
+CA780210 JB March 28, 1978  1:56 PM
+
+3013	5	3013
+3013	5	3013
+3013	5	3013
+
+
+************************
+
+************************
+Document:  CACM-3135.html
+************************
+
+
+Detection of Three-Dimensional Patterns of Atoms in Chemical Structures
+
+An algorithm for detecting occurrences of a three-dimensional pattern of
+objects within a larger structure is presented.  The search technique
+presented uses the geometric structure of the pattern to define
+characteristics demanded of candidates for matching. This is useful
+in cases where the properties of each atom, considered individually,
+do not adequately limit the number of sets of possible matchings.
+Several applications of this technique in the field of chemistry
+are: (1) in pharmacology: searching for a common constellation
+of atoms in molecules possessing similar biological activities;
+(2) in X-ray crystallography: fitting a structure or a structural fragment
+to a set of peaks in the electron-density distribution of
+a Fourier map; (3) in chemical documentation; retrieving from
+a file the structures containing specified substructures.
+
+CACM April, 1979
+
+Lesk, A.
+
+Three-dimensional <B>pattern recognition</B>, chemical
+structure search, information retrieval, crystal
+-structure analysis, drug analysis and design
+
+3.13 3.63 3.74
+
+CA790401 DH May 21, 1979  10:50 AM
+
+2521	5	3135
+3135	5	3135
+3135	5	3135
+3135	5	3135
+2028	6	3135
+2031	6	3135
+3135	6	3135
+
+
+************************
+
+************************
+Document:  CACM-0827.html
+************************
+
+
+Disk File Sorting
+
+Sorting <B>techniques using</B> an IBM 1401 with
+a random access storage device are evaluated.
+
+CACM June, 1963
+
+Schick, T.
+
+CA630622 JB March 14, 1978  10:02 AM
+
+827	5	827
+827	5	827
+827	5	827
+
+
+************************
+
+************************
+Document:  CACM-2980.html
+************************
+
+
+The Editing  of Picture Segmentations Using Local Analysis of Graphs
+
+A major problem in picture processing is the
+elimination of the large number of spurious regions 
+that result from an initial segmentation by region growing
+techniques.  Such regions have been eliminated 
+either on the basis of semantic information or on the
+basis of size and contrast.  A scheme is presented 
+which performs eliminations on the basis of local properties
+of the region adjacency graph.  The scheme 
+is based on definitions of graph properties which are
+satisfied when a spurious region is present; then 
+editing is equivalent to fast graph operations.  A number of examples are shown.
+
+CACM April, 1977
+
+Tanimoto, S. L.
+Pavlidis, T.
+
+picture processing, <B>pattern recognition</B>, segmentation, region editing 
+
+3.63
+
+CA770402 JB December 29, 1977  6:22 AM
+
+2980	4	2980
+2523	5	2980
+2980	5	2980
+2980	5	2980
+2980	5	2980
+
+
+************************
+
+************************
+Document:  CACM-2400.html
+************************
+
+
+Use of the Hough Transformation ToDetect Lines and Curves in Pictures
+
+Hough has proposed an interesting and computationally
+efficient procedure for detecting lines 
+in pictures.  This paper points out that the use of angle-radius
+rather than slope-intercept parameters 
+simplifies the computation further.  It also shows
+how the method can be used for more general curve 
+fitting, and gives alternative interpretations
+that explain the source of its efficiency.
+
+CACM January, 1972
+
+Duda, R. O.
+Hart, P. E.
+
+picture processing, <B>pattern recognition</B>, line detection,
+curve detection, colinear points, point-line 
+transformation, Hough transformation
+
+3.63
+
+CA720103 JB February 1, 1978  9:36 AM
+
+2400	5	2400
+2400	5	2400
+2400	5	2400
+2788	5	2400
+2910	5	2400
+2400	6	2400
+2400	6	2400
+2788	6	2400
+
+
+************************
+
+************************
+Document:  CACM-2402.html
+************************
+
+
+Pictorial Pattern Recognition and the
+Phase Problem of X-ray Crystallography
+
+The availability of interactive, three-dimensional,
+computer graphics systems coupled to powerful 
+digital computers encourages the development of algorithms
+adapted to this environment.  Pictorial pattern 
+recognition techniques make possible a number of approaches
+to X-ray structure determination based on 
+molecular model building, i.e. the use of chemical information
+to frame "structural hypotheses" which 
+can computationally be tested and refined by reference
+to the experimental data.  Application of standard 
+<B>pattern recognition</B> algorithms is hindered by the fact
+that the cross-correlation between a model and 
+the correct structure cannot be computed because of
+a fundamental incompleteness in the measured data. 
+ However, it is possible to compute an upper bound to such
+a cross-correlation.  A simple example demonstrates 
+that this information can be the basis of a technique
+for structure determination that can make effective 
+use of an interactive graphics system. Model building
+by cross-correlations has intrinsic advantages 
+over usual crystallographic techniques based on the
+autocorrelation or Patterson function, especially 
+for large structures.  This is significant, for crystallography
+of biological macromolecules hasbeen 
+and will continue to be a field of intense interest.
+
+CACM January, 1972
+
+Lesk, A. M.
+
+pictorial pattern recognition, phase problem,
+X-ray crystallography, interactive graphics
+
+3.13 3.17 3.63
+
+CA720101 JB February 1, 1978  9:53 AM
+
+2402	5	2402
+2402	5	2402
+2402	5	2402
+
+
+************************
+
+************************
+Document:  CACM-2215.html
+************************
+
+
+Application of Game Tree Searching Techniques
+to Sequential Pattern Recognition
+
+A sequential <B>pattern recognition</B> (SPR) procedure
+does not test all the features of a pattern 
+at once.  Instead, it selects a feature to be tested.  After
+receiving the result of that test, the procedure 
+either classifies the unknown pattern or selects another
+feature to be tested, etc.  Medical diagnosis 
+is an example of SPR.  In this paper the authors suggest
+that SPR be viewed as a one-person game played 
+against nature (chance).  Virtually all the powerful techniques
+developed for searching two-person, strictly 
+competitive game trees can easily be incorporated either
+directly or by analogy into SPR procedures. 
+ In particular, one can incorporate the "mini average
+backing-up procedure" and the "gamma procedure," 
+which are the analogues of the "minimax backing-up procedure"
+and the "alpha-beta procedure," respectively. 
+ Some computer simulated experiments in character recognition
+are presented.  The results indicate that 
+the approach is promising.
+
+CACM February, 1971
+
+Slagle, J. R.
+Lee, R. C. T.
+
+sequential pattern recognition, game tree searching,
+game against nature, gamma procedure, mini average 
+backing-up procedure, dynamic programming, branch-and-bound
+approach, optimal solution
+
+3.60 3.63 5.42
+
+CA710206 JB February 8, 1978  8:56 AM
+
+2215	4	2215
+2096	5	2215
+2215	5	2215
+2215	5	2215
+2215	5	2215
+3132	5	2215
+2215	6	2215
+
+
+************************
+
+************************
+Document:  CACM-1170.html
+************************
+
+
+Analyzing English Syntax with a Pattern-Learning Parser
+
+A dependency analysis system based on pattern
+<B>recognition and</B> learning logic was developed 
+to infer word classes and rules of syntactic combination
+from experience with text which had been analyzed. 
+ The characteristics used to form word classes are the
+depth in the dependency tree of each word, the 
+direction of its governor and the same features for
+each of its immediate neighbors. Syntactic rules 
+of combination show the relation of a word to its governor
+in the depth pattern of the sentence.  The 
+system was tested on 400 elementary basic English sentences
+including 300 used earlier by Knowlton in 
+a different learning parser of all 400 sentences.  After
+experience with 300 sentences it was able to 
+generalize with 77 percent accuracy to the next 100.
+ In accumulative learning trials after the first 
+200 sentences it averaged a probability of .9 for accurately
+parsing each new sentence it encountered. 
+ It was concluded that the system is adequate for learning
+to parse the bulk of basic English but that 
+further development is required before conclusions about
+its application to ordinary English can be stored. 
+ The system is operational and available on
+the ARPA/SDC time-shared computing system.
+
+CACM November, 1965
+
+McConlogue, K.
+Simmons, R. F.
+
+CA651111 JB March 6, 1978  4:45 PM
+
+1170	5	1170
+1170	5	1170
+1170	5	1170
+
+
+************************
+
+************************
+Document:  CACM-2019.html
+************************
+
+
+Normalization Techniques for Hand printed Numerals
+
+Family of pattern standardization
+techniques based on geometrical projection is applied to a file of
+digitized hand printed numerals obtained from sales clerks. The
+principle involves transforming a quadrilateral specified in terms
+of the convex hull of each pattern into a square. The amount of
+overlap within each class of characters versus the amount between classes
+is used to evaluate the degree of normalization achieved with respect to other 
+published methods including size and shear normalization through moments.
+
+CACM August, 1970
+
+Nagy, G.
+Tuong, N.
+
+<B>pattern recognition</B>, character recognition, normalization,
+projective transformation, central projection, hand
+printed characters, handwriting, linear transformation,
+size normalization, mapping, pattern preprocessor
+
+3.63 5.14
+
+CA700802 JB February 10, 1978  4:03 PM
+
+2019	5	2019
+2019	5	2019
+2019	5	2019
+
+
+************************
+
+************************
+Document:  CACM-2542.html
+************************
+
+
+A Software Design and Evaluation System
+
+A critical failure of current software system
+design and implementation methodology is that 
+the performance of a proposed design is not evaluated
+before it is actually implemented.  In this paper 
+the reasons for this failure are explored, and a new methodology
+which overcomes many of the difficulties 
+is proposed.  A system which integrates <B>performance evaluation</B>
+with design and implementation is described. 
+ This system is based on a simple, high level language
+which is used to describe the evolving system 
+at all stages of its development.  The source language
+description is used as direct input to performance 
+analysis and simulation routines.  Using the performance
+information obtained from these routines as 
+feedback, the problems which adversely affect performance
+are detected early enough so that they can 
+be corrected without costly major reimplementation of the proposed system.
+
+CACM February, 1973
+
+Graham, R. M.
+Clancy, G. J. Jr.
+DeVaney, D. B.
+
+operating system development, language processing
+software evaluation, compilers, system programming, 
+supervisory systems, debugging, program maintenance,
+modeling, system integration, simulation
+
+4.0 4.12 4.22 4.30 4.42 4.43 8.1
+
+CA730206 JB January 24, 1978  2:07 PM
+
+2542	5	2542
+2542	5	2542
+2542	5	2542
+
+
+************************
+
+************************
+Document:  CACM-2113.html
+************************
+
+
+The Multistore Parser for Hierarchical Syntactic Structures
+
+A syntactic parser is described for hierarchical concatenation patterns
+that are presented to the analyzer in the form of linear strings.  Particular
+emphasis is given to the system of "significant addresses" by means
+of which processing times for large-scale matching procedures
+can be substantially reduced.  The description makes frequent use
+of examples taken from the fully operational implementation of the
+parser in an experimental English sentence analyzer.  By structuring
+an area of the computer's central core storage in such a way
+that the individual locations of bytes and bits come to represent the
+data involved in the matching procedure, the shifting of information
+is reduced to a minimum, and the searching of lists is eliminated
+altogether.  The matches are traced by means of binary masks
+and the state of single bits determines the operational flow of the
+procedure.  The method could be implemented with any interpretive
+grammar, provided it can be expressed by the functional classification
+of the items composing the input hierarchical structures.
+
+CACM February, 1970
+
+von Glasersfeld, E.
+
+parsing, syntactic analysis, natural-language analysis, linguistic data
+processing, computational linguistics, correlational grammar, structure
+recognition, <B>pattern recognition</B>, matching procedures, tree-structure 
+interpretation, machine translation, automatic abstracting
+
+3.42 3.49 3.63 3.70 3.71
+
+CA700202 JB February 14, 1978  12:57 PM 
+
+2113	5	2113
+2113	5	2113
+2113	5	2113
+
+
+************************
+
+************************
+Document:  CACM-0462.html
+************************
+
+
+Computer Pattern Recognition Techniques: Electrocardiographic Diagnosis
+
+The use of programmed digital computers as general
+pattern classification and recognition devices 
+is one phase of the current lively interest in artificial
+intelligence.  It is important to choose a 
+class of signals which is, at present, undergoing a
+good deal of visual inspection by trained people 
+for the purpose of <B>pattern recognition</B>.  In this way
+comparisons between machine and human performance 
+may be obtained.  A practical result also serves as additional
+motivation.  Clinical electrocardiograms 
+make up such a class of signals.  The approach to the
+problem presented here centers upon the use of 
+multiple adaptive matched filters that classify normalized
+signals.  The present report fives some of 
+the background for the application of this method.
+
+CACM October, 1962
+
+Stark,L.
+Okajima, M.
+Whipple, G. H.
+
+CA621018 JB March 17, 1978  7:04 PM
+
+1325	5	462
+462	5	462
+462	5	462
+462	5	462
+462	6	462
+
+
+************************
+
+************************
+Document:  CACM-3089.html
+************************
+
+
+Performance of Rollback Recovery Systems under Intermittent Failures
+
+A mathematical model of a transaction-oriented
+system under intermittent failures is proposed. 
+ The system is assumed to operate with a checkpointing
+and rollback/recovery method to ensure reliable 
+information processing.  The model is used to derive the
+principal performance measures, including availability, 
+response time, and the system saturation point.   
+
+CACM June, 1978
+
+Gelenbe, E.
+Derochette, D.
+
+Database reliability, file systems, checkpoints, recovery
+procedures, checking techniques, reliability 
+and system <B>performance evaluation</B>
+
+3.72 3.73 4.33 4.35 4.6 5.5 8.1
+
+CA780608 DH February 9, 1979  10:26 AM
+
+3089	4	3089
+2599	5	3089
+3089	5	3089
+3089	5	3089
+3089	5	3089
+
+
 ************************
 
 ************************
@@ -13,7 +1222,7 @@ Pattern Width at a Given Angle
 That the pattern feature "width as a function
 of angle" possesses several possible interpretations 
 is demonstrated in this paper, which is a review of
-the width concept in pattern recognition and the 
+the width concept in pattern <B>recognition and</B> the 
 geometrical concept itself.  The object of the work
 is to clarify how the word description can be made 
 precise so that computer algorithms for feature extraction
@@ -47,6 +1256,83 @@ CA710102 JB February 8, 1978  12:49 PM
 2232	5	2232
 2232	5	2232
 2232	5	2232
+
+
+************************
+
+
+
+Pattern Width at a Given Angle
+
+That the pattern feature "width as a function
+of angle" possesses several possible interpretations 
+is demonstrated in this paper, which is a review of
+the width concept in <B>pattern recognition</B> and the 
+geometrical concept itself.  The object of the work
+is to clarify how the word description can be made 
+precise so that computer algorithms for feature extraction
+may be obtained; the focus is on the theoretical 
+subject matter.  The results consist of a set-theoretic
+definition of width-at-angle, a theorem relating 
+it to the pattern boundary radius vector, and descriptions
+of alternate widths.  All widths are calculated 
+for an illustrative example; graphical and tabular comparisons
+are given.  Substantial variation in width-at-angle 
+magnitude is found.  The principal conclusion is that
+the set-theoretic width-at-angle is a useful pattern 
+feature when it can be easily computed.  Further investigation
+of the information contained in only part 
+of a width function is recommended for cases where
+computation of width-at-angle is difficult.
+
+CACM January, 1971
+
+Klinger, A.
+
+feature extraction, pattern recognition,figure
+properties, picture processing, integral geometry, 
+width-at-angle, extent, integral projections,
+linear pattern measures, width functions
+
+3.60 3.62 3.63 5.12
+
+CA710102 JB February 8, 1978  12:49 PM
+
+2232	5	2232
+2232	5	2232
+2232	5	2232
+
+
+************************
+
+************************
+Document:  CACM-2788.html
+************************
+
+
+Finding Circles by an Array of Accumulators
+
+CACM February, 1975
+
+Kimme, C.
+Balard, D.
+Sklansky, J.
+
+picture processing, <B>pattern recognition</B>, curve detection,line fitting
+
+3.63
+
+CA750211 JB January 10, 1978  9:15 AM
+
+2788	4	2788
+2910	4	2788
+2400	5	2788
+2788	5	2788
+2788	5	2788
+2788	5	2788
+2910	5	2788
+2400	6	2788
+2788	6	2788
 
 
 ************************

@@ -1,3 +1,2084 @@
 Snippets for the query:  Dictionary construction and accessing methods for fast retrieval of words or lexical items or morphologically related information. Hashing or indexing methods are usually applied to English spelling or natural language problems.
 ************************
-No snippets found for the query..
+Total Hits:  39
+************************
+
+************************
+Document:  CACM-2705.html
+************************
+
+
+Programming Languages, Natural Languages, and Mathematics
+
+Some social aspects of programming are illuminated
+through analogies with similar aspects of 
+mathematics and <B>natural language</B>s.  The split between
+pure and applied mathematics is found similarly 
+in programming. The development of natural languages toward
+flexion less, word-order based language types 
+speaks for programming language design based on general,
+abstract constructs.  By analogy with incidents 
+of the history of artificial, auxiliary languages it
+is suggested that Fortran and Cobol will remain 
+dominant for a long time to come.  The most promising
+avenues for further work of wide influence are 
+seen to be high quality program literature (i.e. programs)
+of general utility and studies of questions 
+related to program style.
+
+CACM December, 1975
+
+Naur, P.
+
+analogies related to social aspects,pure and applied
+mathematics, language quality, language development, 
+artificial auxiliary languages, literature, style,
+descriptive and prescriptive attitudes
+
+4.20
+
+CA751202 JB January 6, 1978  8:30 AM
+
+2705	4	2705
+2705	4	2705
+2984	4	2705
+3101	4	2705
+1908	5	2705
+2705	5	2705
+2705	5	2705
+2705	5	2705
+3185	5	2705
+
+
+************************
+
+************************
+Document:  CACM-1886.html
+************************
+
+
+Generation of Optimal Code for Expressions via Factorization
+
+Given a set of expressions which are to be
+compiled, <B>methods are</B> presented for increasing the 
+efficiency of the object code produced by first factoring
+the expressions, i.e. finding a set of subexpressions 
+each of which occurs in two or more other expressions
+or subexpressions.  Once all the factors have been 
+ascertained, a sequencing procedure is applied which
+orders the factors and expressions such that all 
+information is computed in the correct sequence and factors
+need be retained in memory a minimal amount 
+of time.  An assignment algorithm is then executed in
+order to minimize the total number of temporary 
+storage cells required to hold the results of evaluating
+the factors.  In order to make these techniques 
+computationally feasible, heuristic procedures are
+applied, and hence global optimal results are not 
+necessarily generated.  The factorization algorithms
+are also applicable to the problem of factoring 
+Boolean switching expressions and of factoring polynomials
+encountered in symbol manipulating systems.
+
+CACM June, 1969
+
+Breuer, M. A.
+
+factorization algorithms, code optimization, sequencing
+of operations, detection of common subexpressions, 
+factorization of Boolean expressions
+
+4.12 6.1
+
+CA690607JB February 17, 1978  10:57 AM
+
+1030	4	1886
+1886	4	1886
+1939	4	1886
+1886	5	1886
+1886	5	1886
+1886	5	1886
+2175	5	1886
+678	5	1886
+1551	6	1886
+1613	6	1886
+1886	6	1886
+
+
+************************
+
+************************
+Document:  CACM-2127.html
+************************
+
+
+Natural Language Question-Answering Systems: 1969
+
+Recent experiments in programming natural
+language question-answering systems are reviewed
+to summarize the methods that have been developed for syntactic, semantic,
+and logical analysis of English strings.  It is concluded
+that at least minimally effective techniques have been devised for
+answering questions from <B>natural language</B> subsets in small scale
+experimental systems and that a useful paradigm has evolved to guide
+research efforts in the field.  Current approaches to semantic
+analysis and logical inference are seen to be effective beginnings
+but of questionable generality with respect either to subtle aspects of 
+meaning or to applications over large subsets of English. 
+Generalizing from current small-scale experiments to language-processing 
+systems based on dictionaries with thousands of entries-with
+correspondingly large grammars and semantic systems-may entail
+a new order of complexity and require the invention and development
+of entirely different approaches to semantic analysis and questions answering.
+
+CACM January, 1970
+
+Simmons, R. F.
+
+question-answering, natural language, artificial intelligence,language
+processing, fact retrieval, semantics 
+
+3.6 3.64 3.7 3.74
+
+CA700104 JB February 14, 1978  2:10 PM
+
+1155	4	2127
+1400	4	2127
+1456	4	2127
+1468	4	2127
+1515	4	2127
+1515	4	2127
+1553	4	2127
+1665	4	2127
+1699	4	2127
+1768	4	2127
+1787	4	2127
+1824	4	2127
+1825	4	2127
+1836	4	2127
+1856	4	2127
+1861	4	2127
+1945	4	2127
+2015	4	2127
+2096	4	2127
+2092	4	2127
+2110	4	2127
+2127	4	2127
+2127	4	2127
+2127	4	2127
+2127	4	2127
+2127	4	2127
+2127	4	2127
+2187	4	2127
+2210	4	2127
+2309	4	2127
+2310	4	2127
+2317	4	2127
+2396	4	2127
+2396	4	2127
+2545	4	2127
+2698	4	2127
+2730	4	2127
+2733	4	2127
+1155	5	2127
+1324	5	2127
+1487	5	2127
+1527	5	2127
+1781	5	2127
+1856	5	2127
+2127	5	2127
+2127	5	2127
+2127	5	2127
+2178	5	2127
+2396	5	2127
+2561	5	2127
+1303	6	2127
+1323	6	2127
+1487	6	2127
+1856	6	2127
+2059	6	2127
+2092	6	2127
+2127	6	2127
+2127	6	2127
+2127	6	2127
+3184	6	2127
+
+
+************************
+
+************************
+Document:  CACM-1700.html
+************************
+
+
+PEEKABIT, Computer Offspring of Punched
+Card PEEKABOO, for Natural Language Searching
+
+The "peekaboo" idea from punched card information
+retrieval methods has been mated with the 
+idea of superimposed punching to produce a programming
+technique which cuts computer run time in half 
+on a test search of 33,000 subject index entries.  A search
+program using the device has been operational 
+since late 1963.  As an item is entered in the store,
+an 18-byte mask is created from the item's meaningful 
+words using the inclusive OR operation.  If, at search
+time, the logical product (using the AND operation) 
+of this mask and a similarly constructed question mask
+is not equal to the question mask, then one or 
+more question words are not present in the store item.
+ An equality is in conclusive; the words of the 
+store item must be unpacked and compared with question
+words.  The present store is made up of over 600,000 
+subject index entries estimated to average 60 characters
+each.  Longer texts, such as abstracts, could 
+be handled by multiple masks.
+
+CACM September,1968
+
+Hutton, F. C.
+
+peekaboo, superimposed coding, <B>natural language</B>
+searching text searching, information compaction, 
+computer search technique
+
+3.74
+
+CA680901 JB February 22, 1978  9:38 AM
+
+1700	5	1700
+1700	5	1700
+1700	5	1700
+
+
+************************
+
+************************
+Document:  CACM-2267.html
+************************
+
+
+Algorithms To Reveal Properties of Floating-Point Arithmetic
+
+Two algorithms are presented in the form of
+Fortran subroutines.  Each subroutine computes 
+the radix and number of digits of the floating-point
+numbers and whether rounding or chopping is done 
+by the machine on which it is run.  The <B>methods are</B>
+shown to work on any "reasonable" floating-point 
+computer.
+
+CACM November, 1972
+
+Malcolm, M. A.
+
+floating-point arithmetic, high-level
+languages, philosophy of language design
+
+4.9 5.19
+
+CA721102 JB January 27, 1978  2:39 PM
+
+2267	5	2267
+2267	5	2267
+2267	5	2267
+2647	5	2267
+2792	5	2267
+2267	6	2267
+2267	6	2267
+2647	6	2267
+
+
+************************
+
+************************
+Document:  CACM-1441.html
+************************
+
+
+Methods of Numerical Integration Applied to
+a System Having Trivial Function Evaluations
+
+A study has been made to determine which methods
+of numerical integration require the least 
+computation time for a given amount of truncation error
+when <B>applied to</B> a particular system of ordinary 
+differential equations where function evaluations are
+relatively trivial.  Recent methods due to Butcher 
+and Gear are compared with classic Runge-Kutta, Kutta-Nystrom
+and Adams methods.  Some of the newer one-step 
+methods due to Butcher are found to be slightly superior,
+but no one method is found to have any great 
+advantage over the others in the application to this particular problem.
+
+CACM April, 1966
+
+Waters, J.
+
+CA660408 JB March 3, 1978  10:37 AM
+
+1441	5	1441
+1441	5	1441
+1441	5	1441
+
+
+************************
+
+************************
+Document:  CACM-0144.html
+************************
+
+
+Do It by the Numbers-Digital Shorthand
+
+Present communications systems transmit single
+characters in groups of coded pulses between 
+simple terminal equipments.  Since English words form only
+a sparse set of all possible alphabetic combinations, 
+present <B>methods are</B> inefficient when computer systems
+are substituted for these terminals.  Using numeric 
+representations of entire words or common phrases (rather
+than character-by-character representations) 
+requires approximately one-third of present transmission
+time.  This saving is reflected in overall costs. 
+ Other benefits accrue in code and language translation
+schemes. Provision is made for transmission of 
+purely numeric and/or binary streams, and for single
+character-transmission of non-dictionary words such 
+as the names of people or places.
+
+CACM October, 1960 
+
+Bemer, R. W.
+
+CA601004 JB March 20, 1978  8:27 PM
+
+144	5	144
+144	5	144
+144	5	144
+
+
+************************
+
+
+
+Do It by the Numbers-Digital Shorthand
+
+Present communications systems transmit single
+characters in groups of coded pulses between 
+simple terminal equipments.  Since English words form only
+a sparse set of all possible alphabetic combinations, 
+present methods are inefficient when computer systems
+are substituted for these terminals.  Using numeric 
+representations of entire <B>words or</B> common phrases (rather
+than character-by-character representations) 
+requires approximately one-third of present transmission
+time.  This saving is reflected in overall costs. 
+ Other benefits accrue in code and language translation
+schemes. Provision is made for transmission of 
+purely numeric and/or binary streams, and for single
+character-transmission of non-dictionary words such 
+as the names of people or places.
+
+CACM October, 1960 
+
+Bemer, R. W.
+
+CA601004 JB March 20, 1978  8:27 PM
+
+144	5	144
+144	5	144
+144	5	144
+
+
+************************
+
+************************
+Document:  CACM-2683.html
+************************
+
+
+The Synthesis of Loop Predicates
+
+Current <B>methods for</B> mechanical program verification
+require a complete predicate specification 
+on each loop.  Because this is tedious and error prone,
+producing a program with complete, correct predicates 
+is reasonably difficult and would be facilitated by machine
+assistance.  This paper discusses techniques 
+for mechanically synthesizing loop predicates.  Two classes
+of techniques are considered: (1) heuristic 
+methods which derive loop predicates from boundary conditions
+and/or partially specified inductive assertions: 
+(2) extraction methods which use input predicates and
+appropriate weak interpretations to obtain certain 
+classes of loop predicates by an evaluation on the weak interpretation.
+
+CACM March, 1974
+
+Wegbreit, B.
+
+program verification, loop predicates, inductive
+assertions, synthesis of loop predicates, weak 
+interpretations, well-founded sets, property extraction, theorem proving
+
+3.64 4.19 4.22 5.24
+
+CA740206 JB January 18, 1978  12:55 PM 
+
+2683	5	2683
+2683	5	2683
+2683	5	2683
+2874	5	2683
+3104	5	2683
+1682	6	2683
+2227	6	2683
+2317	6	2683
+2457	6	2683
+2683	6	2683
+2683	6	2683
+2871	6	2683
+521	6	2683
+
+
+************************
+
+************************
+Document:  CACM-1856.html
+************************
+
+
+The Teachable Language Comprehender: 
+A Simulation Program and Theory of Language
+
+The Teachable Language Comprehender (TLC) is
+a program designed to be capable of being taught 
+to "comprehend" English text.  When text which the program
+has not seen before is input to it, it comprehends 
+that text by correctly relating each (explicit or implicit)
+assertion of the new text to a large memory. 
+ This memory is a "semantic network" representing factual
+assertions about the world.  The program also 
+creates copies of the parts of its memory which have
+been found to relate to the new text, adapting and 
+combining these copies to represent the meaning of the
+new text.  By this means, the meaning of all text 
+the program successfully comprehends is encoded into
+the same format as that of the memory.  In this 
+form it can be added into the memory.  Both factual
+assertions for the memory and the capabilities for 
+correctly relating text to the memory's prior content
+are to be taught to the program as they are needed. 
+ TLC presently contains a relatively small number of
+examples of such assertions and capabilities, but 
+within the system, notations for expressing either of these
+are provided.  Thus the program now corresponds 
+to a general process for comprehending language, and
+it provides a methodology for adding the additional 
+information this process requires to actually comprehend
+text of any particular kind.  The memory structure 
+and comprehension process of TLC allow new factual assertions
+and capabilities for relating text to such 
+stored assertions to generalize automatically.  That
+is, once such an assertion or capability is put 
+into the system, it becomes available to help comprehend
+a great many other sentences in the future. 
+ Thus the addition of a single factual assertion or
+linguistic capability will often provide a large 
+increment in TLC's effective knowledge of the world and
+in its overall ability to comprehend text.  The 
+program's strategy is presented as a general theory of language comprehension.
+
+CACM August,1969
+
+Quillian, M. R.
+
+<B>natural language</B> processing, natural language comprehension,
+teachable computer program, psychological 
+simulation, human memory simulation, computer
+linguistics, linguistic performance theory
+
+3.36 3.42 3.62 3.65 3.74
+
+CA690807 JB February 15, 1978  5:46 PM
+
+1155	4	1856
+1350	4	1856
+1456	4	1856
+1468	4	1856
+1515	4	1856
+1659	4	1856
+1699	4	1856
+1856	4	1856
+1856	4	1856
+1856	4	1856
+2050	4	1856
+2127	4	1856
+1225	5	1856
+1324	5	1856
+1553	5	1856
+1856	5	1856
+1856	5	1856
+1856	5	1856
+2127	5	1856
+2309	5	1856
+2310	5	1856
+2396	5	1856
+1155	6	1856
+1324	6	1856
+1487	6	1856
+1487	6	1856
+1527	6	1856
+1781	6	1856
+1856	6	1856
+1856	6	1856
+1856	6	1856
+1856	6	1856
+2092	6	1856
+2127	6	1856
+2398	6	1856
+
+
+************************
+
+************************
+Document:  CACM-3046.html
+************************
+
+
+Computer Generation of Gamma Random Variables - II
+
+A rejection method is proposed for generating
+gamma variates with nonintegral shape parameter 
+a, a > 1. This method is similar to other methods given
+by Fishman, Wallace, and Tadikamalla and is faster 
+than these <B>methods for</B> a> 2.  The core storage requirements
+and the programming effort for the proposed 
+method are similar to those of Wallace's or Tadikamalla's
+methods.  The computational times for the proposed 
+method remain fairly constant for medium and large
+values of a and are superior to times obtained by 
+Ahrens and Dieter's method for all values of a.  The
+proposed method is simpler than Ahrens and Dieter's 
+method.
+
+CACM November, 1978
+
+Tadikamalla, P.
+
+Gamma variables, rejection method, computer methods
+
+5.5 8.1
+
+CA781105 DH January 26, 1979  11:02 AM
+
+2847	4	3046
+2928	4	3046
+3046	4	3046
+3046	4	3046
+3046	4	3046
+3098	4	3046
+3098	4	3046
+3107	4	3046
+2569	5	3046
+2847	5	3046
+3046	5	3046
+3046	5	3046
+3046	5	3046
+3098	5	3046
+
+
+************************
+
+************************
+Document:  CACM-2310.html
+************************
+
+
+Language Analysis in the Humanities
+
+The use of the computer in the language-oriented
+humanities for exhaustive listing of detail 
+(as in indices and concordances) is widespread and accepted
+as desirable.  The implications of the computer 
+for a "science" of the humanities-a science entailing
+gathering data for the <B>construction and</B> testing 
+of models-are neither widely recognized nor accepted.
+ This paper argues that the computer's  major role 
+as to language analysis in the humanities will be the
+establishing of such a sciencehus, for those 
+areas of the humanities for which rigor and precision
+are necessary (e.g. analyzing literature or teaching 
+a student to write a composition) the computer
+can be a critically important facilitator.
+
+CACM July, 1972
+
+Sedelow, S. Y.
+
+language analysis, humanities, science of the humanities,
+pattern recognition, pattern generation, 
+interdisciplinary cooperation
+
+1.3 2.19 3.42 3.43
+
+CA720718 JB January 30, 1978  11:19 AM
+
+2127	4	2310
+2309	4	2310
+2310	4	2310
+2396	4	2310
+1856	5	2310
+2310	5	2310
+2310	5	2310
+2310	5	2310
+
+
+************************
+
+************************
+Document:  CACM-1619.html
+************************
+
+
+Error-Free Methods for Statistical Computations
+
+Neely has discussed computational error generated
+by some algorithms used to compute various 
+statistics.  In the present paper <B>methods are</B> described
+which are error-free, simple in concept, and 
+usually less costly in machine time than those mentioned by Neely.
+
+CACM March, 1967
+
+Rodden, B. E.
+
+CA670310 JB February 28, 1978  1:02 PM
+
+1619	4	1619
+3166	4	1619
+1411	5	1619
+1619	5	1619
+1619	5	1619
+1619	5	1619
+
+
+************************
+
+************************
+Document:  CACM-2486.html
+************************
+
+
+Computer Photocomposition of Technical Text
+
+In computer assisted typesetting by means of
+photocomposition, special problems arise in highly 
+technical material such as mathematical formulas.  New
+solutions to several of these problems have been 
+devised in the information system of the American Institute
+of Physics.  They include: the representation 
+of special characters (foreign alphabets, mathematical
+symbols, etc.) not available on input keyboards 
+or on the photocomposer; the generation of such symbols,
+e.g. by overprinting; the precise positioning 
+of accent marks (floating diacritics); line breaks,
+i.e. <B>words or</B> formulas placed partly at the end of 
+one line and partly at the beginning of the next;
+and certain aspects of error correction.
+
+CACM June, 1973
+
+Alt, F. L.
+Yuni Kirk, J.
+
+photocomposition, typesetting, printing, graphics, text processing
+
+3.79 3.82
+
+CA730614 JB January 23, 1978  1:30 PM
+
+2486	5	2486
+2486	5	2486
+2486	5	2486
+
+
+************************
+
+************************
+Document:  CACM-2437.html
+************************
+
+
+General Performance Analysis of Key-to-Address
+Transformation Methods Using an Abstract File 
+Concept
+
+This paper presents a new approach to the analysis
+of performance of the various key-to-address 
+transformation methods.  In this approach the keys in
+a file are assumed to have been selected from the 
+key space according to a certain probabilistic selection
+algorithm.  All files with the same number of 
+keys selected from this key space will be suitably weighted
+in accordance with the algorithm, and the 
+average performance of the transformation methods on
+these files will be used as the potential of these 
+methods.  Using this analysis, methods with the same overall
+performance can be classified and key distributions 
+partial to certain transformations can be identified.
+ All this can be done analytically.  The approach 
+is <B>applied to</B> a group of transformation methods
+using files whose keys are selected randomly.
+
+CACM October, 1973
+
+Lum, V. Y.
+
+hashing, hashing techniques, hashing methods, hash coding,
+key transformation, key-to-address transformation, 
+direct addressing, randomizing, random access, scatter
+storage, information retrieval, hashing analysis, 
+randomization performance analysis
+
+3.7 3.72 3.73 3.74 3.79 4.9 5.9
+
+CA731003 JB January 20, 1978  11:51 AM
+
+2258	4	2437
+2319	4	2437
+2313	4	2437
+2359	4	2437
+2437	4	2437
+2552	4	2437
+2781	4	2437
+2860	4	2437
+2991	4	2437
+2203	5	2437
+2437	5	2437
+2437	5	2437
+2437	5	2437
+
+
+************************
+
+************************
+Document:  CACM-1681.html
+************************
+
+
+Easy English,a Language for Information
+Retrieval Through a Remote Typewriter Console
+
+Easy English is a natural command language
+designed to simplify communication between man and 
+machine through remote typewriter console.  It has been developed
+for <B>retrieval of</B> documents from a computerized 
+data base, the Moore School Information Systems Laboratory
+files.  Requests are formulated in a standardized 
+syntactical form (examples of which are presented), and
+this form is then transformed into an equivalent 
+query expressed in the retrieval system's original Symbolic
+Command Language, which is briefly described. 
+ Operation of easy English is detailed by illustration
+of the transformations performed upon a sample 
+request up to the point at which the request string
+is sent to the system.  A macro flowchart of Easy 
+English is included, and an Appendix provides
+the printout of a retrieval demonstration.
+
+CACM October, 1968
+
+Rubinoff, M.
+Bergman, S.
+Cautin, H.
+Rapp, F.
+
+natural language communication, on-line searching,
+remote console communication, information retrieval, 
+man-machine communication, remote terminal communication,
+translator, document retrieval, conversational 
+mode, information retrieval language, symbolic command language
+
+3.74 3.81 4.19
+
+CA681006 JB February 21, 1978  3:59 PM
+
+1681	4	1681
+1699	4	1681
+1194	5	1681
+1681	5	1681
+1681	5	1681
+1681	5	1681
+1699	5	1681
+1194	6	1681
+1324	6	1681
+1681	6	1681
+
+
+************************
+
+
+
+Easy English,a Language for Information
+Retrieval Through a Remote Typewriter Console
+
+Easy English is a natural command language
+designed to simplify communication between man and 
+machine through remote typewriter console.  It has been developed
+for retrieval of documents from a computerized 
+data base, the Moore School Information Systems Laboratory
+files.  Requests are formulated in a standardized 
+syntactical form (examples of which are presented), and
+this form is then transformed into an equivalent 
+query expressed in the retrieval system's original Symbolic
+Command Language, which is briefly described. 
+ Operation of easy English is detailed by illustration
+of the transformations performed upon a sample 
+request up to the point at which the request string
+is sent to the system.  A macro flowchart of Easy 
+English is included, and an Appendix provides
+the printout of a retrieval demonstration.
+
+CACM October, 1968
+
+Rubinoff, M.
+Bergman, S.
+Cautin, H.
+Rapp, F.
+
+<B>natural language</B> communication, on-line searching,
+remote console communication, information retrieval, 
+man-machine communication, remote terminal communication,
+translator, document retrieval, conversational 
+mode, information retrieval language, symbolic command language
+
+3.74 3.81 4.19
+
+CA681006 JB February 21, 1978  3:59 PM
+
+1681	4	1681
+1699	4	1681
+1194	5	1681
+1681	5	1681
+1681	5	1681
+1681	5	1681
+1699	5	1681
+1194	6	1681
+1324	6	1681
+1681	6	1681
+
+
+************************
+
+************************
+Document:  CACM-1665.html
+************************
+
+
+Automatic Generation of Efficient Lexical
+Processors Using Finite State Techniques
+
+The practical application of the theory of
+finite-state automata to automatically generate 
+lexical processors is dealt with in this tutorial article
+by the use of the AED RWORD system, developed 
+at M. as part of the AED-1 system.  This system
+accepts as input description of the multicharacter 
+<B>items or</B> of words allowable in a language given in terms
+of a subset of regular expressions. The output 
+of the system is a lexical processor which reads a string
+of characters and combines them into the items 
+as defined by the regular expressions.  Each output
+item is identified by a code number together with 
+a pointer to a block of storage containing the characters
+and character count in the item.  The processors 
+produced by the system are based on finite-state machines.
+ Each state of a "machine" corresponds to 
+a unique condition in the lexical processing of a character
+string.  At each state a character is read, 
+and the machine changes to a new state.  At each transition
+appropriate actions are taken based on the 
+particular character read.  The system has been in operation
+since 1966, and processors generated have 
+compared favorably in speed to carefully hand-coded programs
+to accomplish the same task.  Lexical processors 
+for AED-O and MAD are among the many which have been
+produced.  The techniques employed are independent 
+of the nature of the items being evaluated.  If the
+word "events" is substituted for character string, 
+these processors may be described as generalized decision-making
+mechanisms based upon an ordered sequence 
+of events.  This allows the system to be used in a
+range of applications outside the area of lexical 
+processing.  However convenient these advantages may
+be, speed is the most important consideration.  
+In designing a system for automatic generation of a
+lexical processor, the goal was a processor which 
+completely eliminated backup or rereading, which was nearly
+as fast as hand-coded processors, which would 
+analyze the language and detect errors, and
+which would be convenient and easy to use.
+
+CACM December, 1968
+
+Johnson, W. L.
+Porter, J. H.
+Ackley, S. I.
+Ross, D. T.
+
+character string, compiler, finite-state automata, finite-state
+machine, lexical processor, nondeterministic 
+machine, parsing, plex structure, regular expressions,sequential
+machine, syntactic analysis
+
+3.63 3.75 4.12 5.22 5.24 5.31
+
+CA681201 JB February 21, 1978  2:19 PM
+
+1051	4	1665
+1139	4	1665
+1265	4	1665
+1323	4	1665
+1358	4	1665
+1380	4	1665
+1552	4	1665
+1665	4	1665
+1665	4	1665
+1665	4	1665
+1665	4	1665
+1768	4	1665
+1781	4	1665
+1787	4	1665
+1787	4	1665
+1824	4	1665
+1825	4	1665
+1836	4	1665
+1860	4	1665
+1861	4	1665
+1989	4	1665
+2015	4	1665
+2110	4	1665
+2112	4	1665
+2127	4	1665
+2155	4	1665
+2187	4	1665
+2317	4	1665
+2534	4	1665
+2541	4	1665
+2545	4	1665
+2698	4	1665
+2698	4	1665
+2733	4	1665
+2733	4	1665
+2820	4	1665
+3073	4	1665
+3155	4	1665
+763	4	1665
+1665	5	1665
+1665	5	1665
+1665	5	1665
+1781	5	1665
+378	5	1665
+2746	5	1665
+631	5	1665
+799	5	1665
+1665	6	1665
+1739	6	1665
+2139	6	1665
+2545	6	1665
+2786	6	1665
+
+
+************************
+
+
+
+Automatic Generation of Efficient Lexical
+Processors Using Finite State Techniques
+
+The practical application of the theory of
+finite-state automata to automatically generate 
+lexical processors is dealt with in this tutorial article
+by the use of the AED RWORD system, developed 
+at M. as part of the AED-1 system.  This system
+accepts as input description of the multicharacter 
+items or <B>of words</B> allowable in a language given in terms
+of a subset of regular expressions. The output 
+of the system is a lexical processor which reads a string
+of characters and combines them into the items 
+as defined by the regular expressions.  Each output
+item is identified by a code number together with 
+a pointer to a block of storage containing the characters
+and character count in the item.  The processors 
+produced by the system are based on finite-state machines.
+ Each state of a "machine" corresponds to 
+a unique condition in the lexical processing of a character
+string.  At each state a character is read, 
+and the machine changes to a new state.  At each transition
+appropriate actions are taken based on the 
+particular character read.  The system has been in operation
+since 1966, and processors generated have 
+compared favorably in speed to carefully hand-coded programs
+to accomplish the same task.  Lexical processors 
+for AED-O and MAD are among the many which have been
+produced.  The techniques employed are independent 
+of the nature of the items being evaluated.  If the
+word "events" is substituted for character string, 
+these processors may be described as generalized decision-making
+mechanisms based upon an ordered sequence 
+of events.  This allows the system to be used in a
+range of applications outside the area of lexical 
+processing.  However convenient these advantages may
+be, speed is the most important consideration.  
+In designing a system for automatic generation of a
+lexical processor, the goal was a processor which 
+completely eliminated backup or rereading, which was nearly
+as fast as hand-coded processors, which would 
+analyze the language and detect errors, and
+which would be convenient and easy to use.
+
+CACM December, 1968
+
+Johnson, W. L.
+Porter, J. H.
+Ackley, S. I.
+Ross, D. T.
+
+character string, compiler, finite-state automata, finite-state
+machine, lexical processor, nondeterministic 
+machine, parsing, plex structure, regular expressions,sequential
+machine, syntactic analysis
+
+3.63 3.75 4.12 5.22 5.24 5.31
+
+CA681201 JB February 21, 1978  2:19 PM
+
+1051	4	1665
+1139	4	1665
+1265	4	1665
+1323	4	1665
+1358	4	1665
+1380	4	1665
+1552	4	1665
+1665	4	1665
+1665	4	1665
+1665	4	1665
+1665	4	1665
+1768	4	1665
+1781	4	1665
+1787	4	1665
+1787	4	1665
+1824	4	1665
+1825	4	1665
+1836	4	1665
+1860	4	1665
+1861	4	1665
+1989	4	1665
+2015	4	1665
+2110	4	1665
+2112	4	1665
+2127	4	1665
+2155	4	1665
+2187	4	1665
+2317	4	1665
+2534	4	1665
+2541	4	1665
+2545	4	1665
+2698	4	1665
+2698	4	1665
+2733	4	1665
+2733	4	1665
+2820	4	1665
+3073	4	1665
+3155	4	1665
+763	4	1665
+1665	5	1665
+1665	5	1665
+1665	5	1665
+1781	5	1665
+378	5	1665
+2746	5	1665
+631	5	1665
+799	5	1665
+1665	6	1665
+1739	6	1665
+2139	6	1665
+2545	6	1665
+2786	6	1665
+
+
+************************
+
+************************
+Document:  CACM-2210.html
+************************
+
+
+Toward Automatic Program Synthesis
+
+An elementary outline of the theorem-proving
+approach to automatic program synthesis is given, 
+without dwelling on technical details.  The method is
+illustrated by the automatic construction of both 
+recursive and iterative programs operating on natural
+numbers,lists, and trees,  In order to construct 
+a program satisfying certain specifications a theorem
+induced by those specifications is proved, and 
+the desired program is extracted from the proof.  The
+same technique is <B>applied to</B> transform recursively 
+defined functions into iterative programs, frequently
+with a major gain inefficiency.  It is emphasized 
+that in order to construct a program with loops or with
+recursion, the principle of mathematical induction 
+must be applied. The relation between the version of
+the induction rule used and the form of the program 
+constructed is explored in some detail.
+
+CACM March, 1971
+
+Manna, Z.
+Waldinger, R. J.
+
+artificial intelligence, answer extraction, automatic
+program synthesis, mathematical induction 
+principle, problem solving, theorem proving
+
+3.64 5.23 5.24
+
+CA710302 JB February 3, 1978  4:48 PM
+
+1515	4	2210
+2096	4	2210
+2127	4	2210
+2210	4	2210
+1155	5	2210
+2210	5	2210
+2210	5	2210
+2210	5	2210
+2657	5	2210
+2719	5	2210
+1626	6	2210
+210	6	2210
+2151	6	2210
+2167	6	2210
+2210	6	2210
+2210	6	2210
+2645	6	2210
+2657	6	2210
+
+
+************************
+
+************************
+Document:  CACM-1554.html
+************************
+
+
+A Computer Technique for Displaying n-Dimensional Hyperobjects
+
+A digital computer and automatic plotter have
+been used to generate three-dimensional stereoscopic 
+movies of the three-dimensional parallel and perspective
+projections of four-dimensional hyperobjects 
+rotating in four-dimensional space.  The observed projections
+and their motions were a direct extension
+of three-dimensional experience, but no profound "feeling"
+or insight into the fourth spatial dimension 
+was obtained.  The technique can be generalized to n-dimensions
+and <B>applied to</B> any n-dimensional hyperobject 
+or hypersurface.
+
+CACM August, 1967
+
+Noll, A. M.
+
+CA670801 JB February 27, 1978  4:48 PM
+
+1554	5	1554
+1554	5	1554
+1554	5	1554
+2211	5	1554
+1554	6	1554
+1741	6	1554
+
+
+************************
+
+************************
+Document:  CACM-2998.html
+************************
+
+
+An Empirical Study of List Structure in Lisp
+
+Static measurements of the list structure of
+five large Lisp programs are reported and analyzed 
+in this paper.  These measurements reveal substantial
+regularity, or predictability, among poin ters to 
+atoms and especially among poin ters to lists.  Pointers
+to atoms are found to obey, roughly, Zipf's law, 
+which governs word frequencies in <B>natural language</B>s; poin ters
+to lists usually poin t to a location physically 
+nearby in memory.  The use of such regularities in the
+space-efficient representation of list structure 
+is discussed.  Linearization of lists, whereby successive
+cdrs (or cars) are placed in consecutive memory 
+locations whenever possible, greatly strengthens the
+observed regularity of list structure.  It is shown 
+that under some reasonable assumptions, the entropy or
+information content of a car-cdr pair in the programs 
+measured is about 10 to 15 bits before linearization,
+and about 7 to 12 bits after.
+
+CACM February, 1977
+
+Clark, D. W.
+Green, C. C.
+
+list structure measurement, Lisp, list structure
+regularity, poin ter compression, Zipf's law, list 
+linearization, poin ter entropy
+
+3.69 4.29 4.34 4.6 5.6
+
+CA770202 JB December 30, 1977  2:55 AM
+
+2855	5	2998
+2944	5	2998
+2998	5	2998
+2998	5	2998
+2998	5	2998
+3106	5	2998
+1549	6	2998
+1549	6	2998
+1826	6	2998
+210	6	2998
+210	6	2998
+1972	6	2998
+1972	6	2998
+2513	6	2998
+2665	6	2998
+2766	6	2998
+2766	6	2998
+2833	6	2998
+2833	6	2998
+2855	6	2998
+2954	6	2998
+2998	6	2998
+2998	6	2998
+2998	6	2998
+
+
+************************
+
+************************
+Document:  CACM-2646.html
+************************
+
+
+A Model for Masking Rotational Latency by Dynamic Disk Allocation
+
+This paper presents the background and algorithms
+for masking the rotational latency of a disk 
+or drum.  It discusses the anticipatory input and output
+of blocks of data to buffer and primary memories 
+for a mono-programmed computer system.  A basic permutation
+algorithm and several variations are given. 
+  Because of the anticipatory nature of the I/O scheduling,
+these algorithms are restricted to classes 
+of programs with predictable behavior.  While the methods
+are not restricted to numerical computations, 
+matrix and partial differential equation <B>methods are</B>
+typical examples of their use.  It is shown that 
+latency may be masked using a small amount of buffer
+memory.  The methods discussed are independent of 
+the overall size of the data base being considered.
+
+CACM May, 1974
+
+Gold, D. E.
+Kuck, D. J.
+
+buffer memory, memory hierarchy, permutation algorithm,
+rotational latency, staging, storage allocation
+
+4.41 6.20
+
+CA740507 JB January 17, 1978  3:59 PM
+
+2646	5	2646
+2646	5	2646
+2646	5	2646
+
+
+************************
+
+************************
+Document:  CACM-2494.html
+************************
+
+
+A Computer Generated Aid for Cluster Analysis
+
+A computer generated graphic method, which
+can be used in conjunction with any hierarchical 
+scheme of cluster analysis, is described and illustrated.
+ The graphic principle used is the representation 
+of the elements of a data matrix of similarities or dissimilarities
+by computer printed symbols (of character 
+overstrikes) of various shades of darkness, where a
+dark symbol corresponds to a small dissimilarity. 
+ The plots, <B>applied to</B> a data matrix before clustering
+and to the rearranged matrix after clustering, 
+show at a glance whether clustering brought forth any
+distinctive clusters.  A well-known set of data 
+consisting of the correlations of 24 psychological tests
+is used to illustrate the comparison of groupings 
+by four methods of factor analysis and two methods of cluster analysis.
+
+CACM June, 1973
+
+Ling, R. F.
+
+computer graphics, cluster analysis, numerical
+taxonomy, hierarchical clustering, factor analysis
+
+3.10 3.30 3.36 4.49
+
+CA730606 JB January 23, 1978  2:20 PM
+
+2494	5	2494
+2494	5	2494
+2494	5	2494
+
+
+************************
+
+************************
+Document:  CACM-2795.html
+************************
+
+
+Sentence Paraphrasing from a Conceptual Base
+
+A model of <B>natural language</B> based on an underlying
+language-free representation of meaning 
+is described.  A program based on this model is able
+to produce sentence paraphrases which demonstrate 
+understanding with respect to a given context.  This
+generator operates in conjunction with a natural 
+language analyzer and a combined memory and inference model.
+ In generating sentences from meaning structures, 
+the program employs both the information retrieval and
+deduction capabilities of the memory model.  The 
+model encompasses several diverse classes of linguistic
+knowledge, which include: (1) executable tests 
+of conceptual properties stored in discrimination nets;
+(2) information relating conceptual to syntactic 
+roles, stored in a word-sense dictionary, and (3) surface
+grammatical knowledge, stored in a formal grammar.
+
+CACM February, 1975
+
+Goldman, N. M.
+
+artificial intelligence, natural language processing,
+language generation, models of cognitive 
+processes, semantic representation
+
+3.42 3.60 3.65
+
+CA750204 JB January 12, 1978  8:43 AM
+
+1885	4	2795
+2581	4	2795
+2739	4	2795
+2795	4	2795
+2795	4	2795
+2795	4	2795
+2921	4	2795
+3087	4	2795
+1928	5	2795
+1989	5	2795
+2274	5	2795
+2795	5	2795
+2795	5	2795
+2795	5	2795
+
+
+************************
+
+************************
+Document:  CACM-3087.html
+************************
+
+
+An English Language Question Answering System
+for a Large Relational Database
+
+By typing requests in English, casual users
+will be able to obtain explicit answers from a 
+large relational database of aircraft flight and maintenance
+data using a system called PLANES.  The 
+design and implementation of this system is described and
+illustrated with detailed examples of the operation 
+of system components and examples of overall system
+operation.  The language processing portion of the 
+system uses a number of augmented transition networks,
+each of which matches phrases with a specific 
+meaning, along with context registers (his tory keepers)
+and concept case frames; these are used for judging 
+meaningfulness of questions, generating dialogue for clarifying
+partially understood questions, and resolving 
+ellipsis and pronoun reference problems.  Other system components
+construct a formal query for the relational 
+database, and optimize the order of searching relations.
+ Methods are discussed for handling vague or 
+complex questions and for providing browsing ability.
+ Also included are discussions of important issues 
+in programming <B>natural language</B> systems for limited domains,
+and the relationship of this system to others. 
+
+CACM July, 1978
+
+Waltz, D.
+
+Question answering, relational database, natural language,
+database front end, artificial intelligence, 
+dialogue, query generation, information retrieval, natural language programming 
+
+3.42 3.60 3.69 3.74 3.79
+
+CA780701 DH February 8, 1979  4:26 PM
+
+2155	4	3087
+2406	4	3087
+2581	4	3087
+2710	4	3087
+2715	4	3087
+2716	4	3087
+2717	4	3087
+2718	4	3087
+2739	4	3087
+2765	4	3087
+2795	4	3087
+2817	4	3087
+2888	4	3087
+2901	4	3087
+2921	4	3087
+2957	4	3087
+2959	4	3087
+2965	4	3087
+3087	4	3087
+3087	4	3087
+3154	4	3087
+1989	5	3087
+2046	5	3087
+3087	5	3087
+3087	5	3087
+3087	5	3087
+
+
+************************
+
+************************
+Document:  CACM-2523.html
+************************
+
+
+A Region Coloring Technique for Scene Analysis
+
+A method of converting a picture into a "cartoon"
+or "map" whose regions correspond to differently 
+textured regions is described.  Texture edges in the
+picture are detected, and solid regions surrounded 
+by these (usually broken) edges are "colored in" using
+a propagation process.  The resulting map is cleaned 
+by comparing the region colors with the textures of
+the corresponding regions in the picture, and also 
+by merging some regions with others according to criteria
+based on topology and size.  The method has 
+been <B>applied to</B> the construction of cloud cover maps
+from cloud cover pictures obtained by satellites.
+
+CACM April, 1973
+
+Strong III, J. P.
+Rosenfeld, A.
+
+picture processing, scene analysis, edge detection
+
+3.63 8.2
+
+CA730405 JB January 24, 1978  9:48 AM
+
+2523	5	2523
+2523	5	2523
+2523	5	2523
+2980	5	2523
+2523	6	2523
+
+
+************************
+
+************************
+Document:  CACM-2953.html
+************************
+
+
+Notes on Recursion Elimination
+
+Various methods of recursion elimination are
+<B>applied to</B> the schematic recursive procedure: 
+proc S(x); px then N(x); S(fx); S(gx); M(x) fi.  Procedures
+with this general form arise in connection 
+with tree traversal and sorting algorithms.  Each method
+of recursion removal involves the use of one 
+or more stacks, and the solutions are compared
+on the basis of their running time.
+
+CACM June, 1977
+
+Bird, R. S.
+
+recursion elimination, optimization of programs,
+stacks, trees, sorting algorithms, computational 
+induction
+
+4.0 4.2 5.20 5.24 5.25 5.31
+
+CA770610 JB December 28, 1977  12:50 PM
+
+2953	5	2953
+2953	5	2953
+2953	5	2953
+3020	5	2953
+2953	6	2953
+
+
+************************
+
+************************
+Document:  CACM-2989.html
+************************
+
+
+Empirical Evaluation of Some Features
+of Instruction Set Processor Architectures
+
+This paper presents <B>methods for</B> empirical evaluation
+of features of Instruction Set Processors 
+(ISPs).  ISP features are evaluated in terms of the time
+used or saved by having or not having the feature. 
+ The methods are based on analysis of traces of program
+executions.  The concept of a register life is 
+in troduced, and used to answer questions like: How many
+registers are used simultaneously? How many would 
+be sufficient all of the time? Most of the time? What
+would the overhead be if the number of registers 
+were reduced? What are registers used for during their
+lives? The paper also discusses the problem of 
+detecting desirable but non-existing instructions. Other
+problems are briefly discussed.  Experimental 
+results are presented, obtained by analyzing 41
+programs running on the DEC system 10 ISP.
+
+CACM March, 1977
+
+Lunde, A.
+
+computer architecture, program behavior, instruction
+sets, op code utilization, register structures, 
+register utilization, simultaneous register
+lives, instruction tracing, execution time
+
+6.20 6.21 6.33
+
+CA770303 JB December 30, 1977  1:00 AM
+
+1653	4	2989
+2411	4	2989
+2709	4	2989
+2889	4	2989
+2937	4	2989
+2989	4	2989
+2989	4	2989
+3005	4	2989
+3025	4	2989
+3101	4	2989
+1069	5	2989
+2138	5	2989
+2989	5	2989
+2989	5	2989
+2989	5	2989
+3025	5	2989
+2138	6	2989
+2989	6	2989
+
+
+************************
+
+
+
+Empirical Evaluation of Some Features
+of Instruction Set Processor Architectures
+
+This paper presents methods for empirical evaluation
+of features of Instruction Set Processors 
+(ISPs).  ISP features are evaluated in terms of the time
+used or saved by having or not having the feature. 
+ The <B>methods are</B> based on analysis of traces of program
+executions.  The concept of a register life is 
+in troduced, and used to answer questions like: How many
+registers are used simultaneously? How many would 
+be sufficient all of the time? Most of the time? What
+would the overhead be if the number of registers 
+were reduced? What are registers used for during their
+lives? The paper also discusses the problem of 
+detecting desirable but non-existing instructions. Other
+problems are briefly discussed.  Experimental 
+results are presented, obtained by analyzing 41
+programs running on the DEC system 10 ISP.
+
+CACM March, 1977
+
+Lunde, A.
+
+computer architecture, program behavior, instruction
+sets, op code utilization, register structures, 
+register utilization, simultaneous register
+lives, instruction tracing, execution time
+
+6.20 6.21 6.33
+
+CA770303 JB December 30, 1977  1:00 AM
+
+1653	4	2989
+2411	4	2989
+2709	4	2989
+2889	4	2989
+2937	4	2989
+2989	4	2989
+2989	4	2989
+3005	4	2989
+3025	4	2989
+3101	4	2989
+1069	5	2989
+2138	5	2989
+2989	5	2989
+2989	5	2989
+2989	5	2989
+3025	5	2989
+2138	6	2989
+2989	6	2989
+
+
+************************
+
+************************
+Document:  CACM-2050.html
+************************
+
+
+Automatic Parsing for Content Analysis
+
+Although automatic syntactic and semantic analysis is not yet possible for
+all of an unrestricted <B>natural language</B> text, some applications, of which 
+content analysis is one, do not have such a stringent coverage requirement.
+Preliminary studies show that the Harvard Syntactic Analyzer can
+produce correct and unambiguous identification of the subject and
+object of certain verbs for approximately half of the relevant occurrences. 
+This provides a degree of coverage for content analysis variables which 
+compares favorably to manual methods, in variables which compares favorably 
+to manual methods, in which only a sample of the total available text is 
+normally processed.
+
+CACM June, 1970
+
+Damerau, F. J.
+
+Content analysis, parsing, syntactic analysis, natural language processing,
+information retrieval, language analysis, text processing
+
+3.42 3.71
+
+CA700605 JB February 13, 1978  11:43 AM
+
+1350	4	2050
+1659	4	2050
+1856	4	2050
+2050	4	2050
+1225	5	2050
+2050	5	2050
+2050	5	2050
+2050	5	2050
+
+
+************************
+
+************************
+Document:  CACM-2753.html
+************************
+
+
+A Heuristic Problem Solving Design System
+for Equipment or Furniture Layouts
+
+The Designer Problem Solver (DPS) demonstrates
+that the computer can perform simple design 
+tasks.  In particular, it designs furniture and equipment
+layouts.  This task was chosen because it is 
+simple, well defined, and characteristic of many design
+tasks in architecture, engineering, urban planning, 
+and natural resource management.  These space planning
+tasks usually involve manipulating two-dimensional 
+representations of objects to create feasible or optimal
+solutions for problems involving topological 
+and metric spatial constraints.  The paper describes
+extensive tests performed on the program.  DPS is 
+a heuristic problem solver with a planning phase prefixed
+to it.  It uses the planning process to give 
+it a sense of direction, diagnostic procedures to locate
+difficulties, and remedial actions to recover 
+from difficulties.  It uses a convex polygon representation
+to accurately describe the objects and the 
+layout.  This representation allows topological and
+metric constraints to be tested and the design to 
+be easily updated.  DPS has been <B>applied to</B> 50 problems.
+ While it is slow and limited in scope, the 
+ideas behind it are general.  It demonstrates the need
+for selectivity in controlling search and the 
+methods used to achieve it: task-specific information,
+planning, diagnostic procedures, remedial actions, 
+and selective alternative generators.
+
+CACM May, 1975
+
+Pfefferkorn, C. E.
+
+artificial intelligence, computer-aided design,
+design synthesis, diagnostic search, heuristics, 
+planning, problem solving, representations, search strategies,
+space planning, spatial representations
+
+3.20 3.25 3.64 3.66
+
+CA750514 JB January 9, 1978  2:10 PM
+
+1531	4	2753
+2707	4	2753
+2753	4	2753
+1185	5	2753
+2753	5	2753
+2753	5	2753
+2753	5	2753
+
+
+************************
+
+************************
+Document:  CACM-1885.html
+************************
+
+
+A Computer System for Transformational Grammar
+
+A comprehensive system for transformational
+grammar has been designed and implemented on the 
+IBM 360/67 computer.  The system deals with the transformational
+model of syntax, along the lines of 
+Chomsky's Aspects of the Theory of Syntax. The major
+innovations include a full,formal description of 
+the syntax of a transformational grammar, a directed random
+phrase structure generator, a lexical insertion 
+algorithm, an extended definition of analysis, and
+a simple problem-oriented programming language in 
+which the algorithm for application of transformations
+can be expressed.  In this paper we present the 
+system as a whole, first discussing the general attitudes underlying
+the development of the system, then 
+outlining the system and discussing its more important
+special features.  References are given to papers 
+which consider some particular aspect of the system in detail.
+
+CACM June, 1969
+
+Friedman, J.
+
+transformational grammar, <B>natural language</B> syntax,
+language processing, language analysis, sentence 
+generation, lexical insertion, computational linguistics, syntax
+
+3.42
+
+CA690608 JB February 17, 1978  10:36 AM
+
+1885	4	1885
+2795	4	1885
+1885	5	1885
+1885	5	1885
+1885	5	1885
+1928	5	1885
+
+
+************************
+
+************************
+Document:  CACM-0095.html
+************************
+
+
+Elimination of Special Functions from Differential Equations
+
+A set of ordinary differential equations which
+contains mathematical functions requiring the 
+use of subroutines for numerical solution by electronic
+computer, tabular data for numerical solution 
+by hand calculation or function generators when analog
+<B>methods are</B> applied can sometimes be expanded 
+to an equivalent set of equations which do not contain
+the functions.  This is practical if these functions 
+satisfy sufficiently simple differential equations. 
+Thus among those functions which can be eliminated 
+by this procedure are the trigonometric, inverse trigonometric,
+exponential, and many other transcendental 
+functions.
+
+CACM March, 1959
+
+Powers, J. E.
+
+CA590301 JB March 22, 1978  8:08 PM
+
+95	5	95
+95	5	95
+95	5	95
+
+
+************************
+
+************************
+Document:  CACM-1725.html
+************************
+
+
+A Simple Proof of Lewin's Ordered-Retrieval
+Theorem for Associative Memories
+
+An efficient method of ordered <B>retrieval of</B> binary
+words from an associative memory, as described
+by Lewin, is based on the use of special readout circuits
+which indicate the digit values present in 
+the individual digit columns of the memory.  Thus the
+circuits indicate whether the individual digit 
+columns contain digits of both values, or of only one
+value, or contain no digits at all (i.e. that the 
+memory is empty).  The use of these circuits, which
+in this paper are termed column value indicators, 
+reduces considerably the number of memory accesses necessary
+to retrieve in order a number of distinct 
+words from the memory.  Lewin proves that, for the readout
+by the described method of m distinct binary 
+words, 2m - 1 memory accesses are necessary.  (Thus he
+proves that the number of necessary memory accesses 
+of his method, unlike those of other methods, is independent
+of the word length.)  In this paper a very 
+simple proof of this theorem derived from some elementary
+aspects of the structure of sets of binary 
+numbers is presented.
+
+CACM July, 1968
+
+Wolinsky, A.
+
+associative memories, content-addressed memories,
+ordered lists, ordered information retrieval, 
+ordered retrieval theorem, column digit values, digit
+value variety, column sensing arrangement, digit 
+value readout, digit variety readout, memory access, memory
+access frequency, ordered retrieval efficiency, 
+access frequency proof, retrieval theorem proof
+
+3.74 3.79 5.29 5.31 6.31 6.36
+
+CA680704 JB February 22, 1978  12:24 PM
+
+1725	5	1725
+1725	5	1725
+1725	5	1725
+
+
+************************
+
+************************
+Document:  CACM-2229.html
+************************
+
+
+Construction of Rational and Negative Powers of a Formal Series
+
+Some <B>methods are</B> described for the generation
+of fractional and negative powers of any formal 
+series, such as Poisson series or Chebyshev series.  It
+is shown that, with the use of the three elementary 
+operations of addition, subtraction, and multiplication,
+all rational (positive and negative) powers 
+of a series can be constructed.  There are basically two
+approaches: the binomial theorem and the iteration 
+methods.  Both methods are described here, and the relationship
+between them is pointed out.  Some well-known 
+classical formulas are obtained as particular cases,
+and it is shown how the convergence properties of 
+these formulas can be improved with very little additional
+computations.  Finally, at the end of the 
+article, some numerical experiments are described
+with Chebyshev series and with Fourier series.
+
+CACM January, 1971
+
+Brucke, R. A.
+
+series expansion, series inversion, root extraction,
+binomial theorem, Newton iterations, Chebyshev 
+series, Poisson series, Fourier series
+
+3.11 3.15 3.21 5.0
+
+CA710105 JB February 8, 1978  10:57 AM
+
+1396	4	2229
+2229	4	2229
+1365	5	2229
+2229	5	2229
+2229	5	2229
+2229	5	2229
+
+
+************************
+
+************************
+Document:  CACM-1438.html
+************************
+
+
+A Method for Locating Zeros of Complex Functions
+
+A method for computing the index, or winding
+number, is developed and <B>applied to</B> the problem 
+of finding zeros of functions from the plane into the plane.
+
+CACM April, 1966
+
+Cain Jr., G. L.
+
+CA660411 JB March 3, 1978  10:23 AM
+
+1438	5	1438
+1438	5	1438
+1438	5	1438
+
+
+************************
+
+************************
+Document:  CACM-1527.html
+************************
+
+
+A Grammar Base Question Answering Procedure
+
+The subject of this paper is a procedure for
+the automatic <B>retrieval of</B> certain segments of 
+stored information, either explicitly or implicitly represented,
+through questions posed in natural language 
+sentences.  This procedure makes use of a sentence recognition
+device for the class of grammars which 
+will correctly decide between the grammatical and ungrammatical
+sentences of a natural language.  It 
+is possible to make use of a recognition device of this
+sort for the following reason: Much data is fully 
+expressible as a set of sentences in a natural language,
+a set which can be exhaustively and exclusively 
+generated by a grammar.  Based upon the rules of this grammar,
+a sentence recognizer will evaluate sentences, 
+questions in the normal situation.  Since the recognition
+function succeeds just in case the posed question 
+is drawn from the set of sentences expressing the data,
+or, more correctly, is grammatical in terms of 
+the grammar for this set of sentences, sentence recognition
+itself is a procedure for retrieving information. 
+ When the recognition function succeeds, its
+value represents the requested information.
+
+CACM October, 1967
+
+Rosenbaum, P.
+
+CA671006 JB February 27, 1978  2:14 PM
+
+1527	5	1527
+1527	5	1527
+1527	5	1527
+2092	5	1527
+2127	5	1527
+1155	6	1527
+1324	6	1527
+1487	6	1527
+1527	6	1527
+1527	6	1527
+1781	6	1527
+1856	6	1527
+
+
+************************
+
+
+
+A Grammar Base Question Answering Procedure
+
+The subject of this paper is a procedure for
+the automatic retrieval of certain segments of 
+stored information, either explicitly or implicitly represented,
+through questions posed in <B>natural language</B> 
+sentences.  This procedure makes use of a sentence recognition
+device for the class of grammars which 
+will correctly decide between the grammatical and ungrammatical
+sentences of a natural language.  It 
+is possible to make use of a recognition device of this
+sort for the following reason: Much data is fully 
+expressible as a set of sentences in a natural language,
+a set which can be exhaustively and exclusively 
+generated by a grammar.  Based upon the rules of this grammar,
+a sentence recognizer will evaluate sentences, 
+questions in the normal situation.  Since the recognition
+function succeeds just in case the posed question 
+is drawn from the set of sentences expressing the data,
+or, more correctly, is grammatical in terms of 
+the grammar for this set of sentences, sentence recognition
+itself is a procedure for retrieving information. 
+ When the recognition function succeeds, its
+value represents the requested information.
+
+CACM October, 1967
+
+Rosenbaum, P.
+
+CA671006 JB February 27, 1978  2:14 PM
+
+1527	5	1527
+1527	5	1527
+1527	5	1527
+2092	5	1527
+2127	5	1527
+1155	6	1527
+1324	6	1527
+1487	6	1527
+1527	6	1527
+1527	6	1527
+1781	6	1527
+1856	6	1527
+
+
+************************
+

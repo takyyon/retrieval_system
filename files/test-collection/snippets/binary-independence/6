@@ -1,3 +1,339 @@
 Snippets for the query:  I am interested in distributed algorithms - concurrent programs in which processes communicate and synchronize by using message passing. Areas of particular interest include fault-tolerance and techniques for understanding the correctness of these algorithms.
 ************************
-No snippets found for the query..
+Total Hits:  7
+************************
+
+************************
+Document:  CACM-1485.html
+************************
+
+
+The Structure of Programming Languages
+
+In this paper the major components of every
+programming language are identified as: (1) the 
+elementary program statement, (2) mechanisms for linking
+elementary statements together, (3) the means 
+by which a program can obtain data inputs.  Several
+alternative forms of each <B>of these</B> components are 
+also described, compared and evaluated.  Many examples,
+frequently from list processing languages, illustrate 
+the forms described.  The advantages, disadvantages and
+factors influencing the choice of a form of component 
+for a language are discussed, and the paper concludes
+with the suggestion that programming languages 
+evolve toward one which will permit all the most convenient
+ways of structuring programs, organizing 
+systems and referencing data.
+
+CACM February, 1966
+
+Raphael, B.
+
+CA660202 JB March 3, 1978  3:46 PM
+
+1024	4	1485
+1051	4	1485
+1098	4	1485
+1214	4	1485
+1380	4	1485
+1388	4	1485
+1393	4	1485
+1485	4	1485
+1487	4	1485
+1549	4	1485
+1570	4	1485
+1878	4	1485
+1946	4	1485
+1957	4	1485
+2168	4	1485
+2723	4	1485
+2857	4	1485
+3112	4	1485
+1485	5	1485
+1485	5	1485
+1485	5	1485
+731	5	1485
+
+
+************************
+
+************************
+Document:  CACM-0963.html
+************************
+
+
+Relative Effects of Central Processor and Input-Output
+Speeds Upon Throughput on the Large Computer
+
+Presented in this paper is a technique for
+determining the relative effects of the internal 
+speed of the computer and the speed of the input-output
+units upon the overall speed of the system. Equations 
+are derived which permit the determination <B>of these</B>
+effects from hardware usage measurements.
+
+CACM December, 1964
+
+White, P.
+
+CA641208 JB March 9, 1978  3:34 PM
+
+963	5	963
+963	5	963
+963	5	963
+1653	5	963
+963	6	963
+1069	6	963
+1417	6	963
+
+
+************************
+
+************************
+Document:  CACM-3124.html
+************************
+
+
+Recursive Data Structures in APL
+
+A mathematical study of three approaches for defining nested
+arrays in APL is presented.  Theorems exhibiting the relationships
+between the definitional systems are given and illustrated through graph
+representations.  One of the approaches is used to define an
+APL array to be a recursive data structure equivalent to a tree structure
+<B>in which</B> all data is stored at the leaves as homogeneous
+arrays of numbers and characters.  An extension of APL is proposed that
+includes new primitive functions to manipulate the nesting
+level of arrays and new operators to assist in the
+construction of data-driven algorithms.  
+
+CACM February, 1979
+
+Gull,W.
+Jenkins, M.
+
+Nested arrays, APL arrays, recursive data structures,
+trees, data-driven algorithms, theory of arrays
+
+4.22 5.29
+
+CA790203 DH April 10, 1979  3:41 PM
+
+2060	4	3124
+2294	4	3124
+2470	4	3124
+3124	4	3124
+1469	5	3124
+3124	5	3124
+3124	5	3124
+3124	5	3124
+
+
+************************
+
+************************
+Document:  CACM-1427.html
+************************
+
+
+Simulation of Radioisotope Scans by Computer
+
+In radioisotope scanning, a field which is assuming
+increasing importance in medical diagnosis, 
+the scan is a two-dimensional pattern made up of dots.
+ <B>Areas of</B> increased source activity are represented 
+on the scan by areas of increased dot density.  To study
+the output of scanners with various characteristics, 
+a program which simulates radioisotope scans has been
+written  for a PDP-1 computer with auxiliary disk 
+storage and cathode ray tube display.  Past and present
+research using the output of the simulator has 
+shown the flexibility of the system to be important.
+ The structure of this program can be useful in 
+the simulation of the output of any quantum-limited system.
+
+CACM May, 1966
+
+Pizer, S. M.
+
+CA660510 JB March 3, 1978  9:47 AM
+
+1427	5	1427
+1427	5	1427
+1427	5	1427
+
+
+************************
+
+************************
+Document:  CACM-3144.html
+************************
+
+
+A Model for and DIscussion of Multi-Interpreter Systems
+
+A multi-interpreter system is a system <B>in which</B> programs execute
+by virtue of being interpreted by other programs, which themselves may
+either be interpreted (i.e. nested interpreters) or run directly on
+the host machine.  The model reveals the anatomy of interpreters
+and how these differ from procedures, and exhibits links
+to protection domains and multiprocessor architectures.
+
+CACM May, 1979
+
+Manthey, M.
+
+Interpreters, transfer-of-control, hierarchies
+
+4.13 3.65
+
+CA790505 DH August 21, 19791:14 PM
+
+1458	4	3144
+1523	4	3144
+1603	4	3144
+1698	4	3144
+1747	4	3144
+1748	4	3144
+1854	4	3144
+1877	4	3144
+1960	4	3144
+2377	4	3144
+2378	4	3144
+2497	4	3144
+2558	4	3144
+2625	4	3144
+2626	4	3144
+2632	4	3144
+2748	4	3144
+2840	4	3144
+2865	4	3144
+2866	4	3144
+2868	4	3144
+2868	4	3144
+2870	4	3144
+2876	4	3144
+2898	4	3144
+2941	4	3144
+2972	4	3144
+3043	4	3144
+3105	4	3144
+3105	4	3144
+3105	4	3144
+3128	4	3144
+3144	4	3144
+3144	4	3144
+3144	4	3144
+3144	4	3144
+3144	4	3144
+3144	4	3144
+3144	4	3144
+1471	5	3144
+2298	5	3144
+2491	5	3144
+2597	5	3144
+2624	5	3144
+2625	5	3144
+2632	5	3144
+3144	5	3144
+3144	5	3144
+3144	5	3144
+
+
+************************
+
+************************
+Document:  CACM-3002.html
+************************
+
+
+A Record and File Partitioning Model
+
+One of the main objectives in the design of
+a file system is the reduction of storage and data 
+transfer costs.  This paper presents a model <B>in which</B>
+several  requests access the file system, and each 
+request requires information from one or more variable
+length data-items.  The probabilities of access 
+and the distribution of each data-item's length are assumed
+to be known, and to be mutually independent. 
+The file system uses one or more storage devices, and
+each record may be partitioned into subrecords 
+that are stored on different devices.  One of the subrecords
+is designated as the primary record; when 
+a request for a record is made, the primary record is
+first accessed, and other subrecords are accessed 
+only if the pertinent information is not stored in the
+primary record.  The model that is presented in 
+this paper, both as a nonlinear programming model and
+a mixed integer programming model, is a very general 
+one; several types of file systems may be derived from
+it by an appropriate selection of its parameters. 
+ This model has already been used in the optimization of
+library routines' storage at a large scale operating 
+system.
+
+CACM January, 1977
+
+Babad, J. M.
+
+file system, file design, file partitioning, record partitioning
+
+3.73
+
+CA770103 JB January 3, 1978  12:28 AM
+
+3002	5	3002
+3002	5	3002
+3002	5	3002
+3168	5	3002
+2965	6	3002
+3002	6	3002
+
+
+************************
+
+************************
+Document:  CACM-2307.html
+************************
+
+
+Dynamic Document Processing
+
+The current role of computers in automatic
+document processing is briefly outlined, and some 
+reasons are given why the early promise of library automation
+and of the mechanization of documentation 
+processes has not been fulfilled.  A new dynamic document
+environment is then outlined <B>in which</B> clustered
+files are searched and information is retrieved following
+an interactive user-controlled search process. 
+ Methods are described for an automatic query modification
+based on user needs, and for a continuous 
+reorganization of the stored information as a function of
+earlier file processing and of normal collection 
+growth.  The proposed procedures provide powerful tools
+for information retrieval and for the control 
+of dynamic library collections in which new items
+are continually added and old ones are retired.
+
+CACM July, 1972
+
+Salton, G.
+
+automatic indexing, automatic search and retrieval,
+iterative searching, mechanized library processing, 
+collection growth, collection retirement, feedback search
+
+3.62 3.71 3.73 3.74
+
+CA720721 JB January 30, 1978  10:59 AM
+
+2307	5	2307
+2307	5	2307
+2307	5	2307
+
+
+************************
+

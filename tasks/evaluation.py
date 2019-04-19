@@ -90,7 +90,7 @@ class Evaluation:
         query_specific_scores = {}
         for i in range(len(queries)):
             q = queries[i]
-            top_docs = self.baseline_runs.read_top_documents_for_score(stem, folder, i,\
+            top_docs = self.common.read_top_documents_for_score(stem, folder, i,\
                 self.common.top_doc_count, score)
             snippets = self.query_highlight.read_snippets_summary(stem, i, folder, score)
             retrieved_docs = self.filter_retrieved_docs(top_docs)

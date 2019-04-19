@@ -31,8 +31,8 @@ class Program:
         # self.query_highlight.highlight_queries('binary-independence') 
         # queries = self.common.process_test_queries()
         # self.evaluation.run()
-        # self.baseline_runs.run(query_expansion=True)
-        self.spell_checker.run(queries=['portabe comptrs', 'preervd desriptoy'])
+        self.baseline_runs.run(query_expansion=False)
+        # self.spell_checker.run(queries=['portabe comptrs', 'preervd desriptoy'])
 
 program = Program()
 program.run()

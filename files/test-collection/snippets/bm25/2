@@ -1,3 +1,1090 @@
 Snippets for the query:  Intermediate languages used in construction of multi-targeted compilers; TCOLL
 ************************
-No snippets found for the query..
+Total Hits:  20
+************************
+
+************************
+Document:  CACM-0303.html
+************************
+
+
+Some Basic Terminology Connected With
+Mechanical Languages and Their Processors
+
+The suggestions in this paper are part of the
+terminology <B>used in</B> work for the University of 
+Pennsylvania's Office of computer Research and Education.
+ The work is jointly supported by the National 
+Science Foundation and the Air Force Office of Scientific Research.
+
+CACM August, 1961
+
+Gorn, S.
+
+CA610801 JB March 16, 1978  10:16 PM
+
+249	5	303
+303	5	303
+303	5	303
+303	5	303
+438	5	303
+3185	5	303
+196	6	303
+224	6	303
+249	6	303
+303	6	303
+303	6	303
+303	6	303
+51	6	303
+77	6	303
+438	6	303
+
+
+************************
+
+************************
+Document:  CACM-1788.html
+************************
+
+
+Toward a General Processor for Programming Languages
+
+Many efforts have been made to develop a better
+way of implementing a higher level programming 
+language than by the <B>construction of</B> a whole new compiler,
+but so far none has proved generally satisfactory. 
+ In this paper, it is contended that a programming
+language is best described functionally as a body 
+of macro instructions, and that the macro call constitutes
+a canonical form in terms of which a programming 
+notation may be described.  A supporting discussion of the
+logical and his torical role of the macro instruction 
+is presented.  Also discussed are the conflict between
+machine independence and object program efficiency, 
+and the question of where the greatest difficulties
+lie in compiler construction.
+
+CACM January, 1968
+
+Halpern, M. J.
+
+programming language translator, programming language
+processor, general translator, general processor, 
+macro instruction processor; meta processor, meta language
+translator, meta language processor, compiler-compiler, 
+writing system, translator writing system
+
+4.10 4.11 4.12 4.20
+
+CA680106 JB February 23, 1978  2:42 PM
+
+1358	4	1788
+1565	4	1788
+1781	4	1788
+1781	4	1788
+1788	4	1788
+1788	4	1788
+1788	4	1788
+1788	4	1788
+1006	5	1788
+1007	5	1788
+205	5	1788
+1781	5	1788
+1788	5	1788
+1788	5	1788
+1788	5	1788
+3189	5	1788
+123	6	1788
+196	6	1788
+919	6	1788
+990	6	1788
+1007	6	1788
+1046	6	1788
+1131	6	1788
+1139	6	1788
+1140	6	1788
+1149	6	1788
+1198	6	1788
+1215	6	1788
+1223	6	1788
+1265	6	1788
+1303	6	1788
+1323	6	1788
+1358	6	1788
+1366	6	1788
+1421	6	1788
+1460	6	1788
+1462	6	1788
+1463	6	1788
+1467	6	1788
+1468	6	1788
+1477	6	1788
+1491	6	1788
+1496	6	1788
+1531	6	1788
+1535	6	1788
+1565	6	1788
+1601	6	1788
+1602	6	1788
+1613	6	1788
+1614	6	1788
+1626	6	1788
+1641	6	1788
+1787	6	1788
+1788	6	1788
+205	6	1788
+224	6	1788
+249	6	1788
+288	6	1788
+316	6	1788
+381	6	1788
+398	6	1788
+11	6	1788
+404	6	1788
+410	6	1788
+463	6	1788
+464	6	1788
+483	6	1788
+3184	6	1788
+3188	6	1788
+584	6	1788
+600	6	1788
+680	6	1788
+691	6	1788
+763	6	1788
+799	6	1788
+
+
+************************
+
+************************
+Document:  CACM-1314.html
+************************
+
+
+The Organization of Symbol Tables
+
+An efficient symbol table organization is an
+important feature in the design of any compiler. 
+ During the <B>construction of</B> the Virginia ALGOL 60 compiler
+for the Burroughs B205, the primary consideration 
+in the symbol table design was that the recognition of
+identifiers and reserved words should be as rapid 
+as possible.  The general features of the technique are described.
+
+CACM February, 1965
+
+Batson, A.
+
+CA650210 JB March 7, 1978  11:01 PM
+
+1314	5	1314
+1314	5	1314
+1314	5	1314
+2033	5	1314
+1314	6	1314
+1785	6	1314
+1786	6	1314
+
+
+************************
+
+************************
+Document:  CACM-2870.html
+************************
+
+
+A Lattice Model of Secure Information Flow
+
+This paper investigates mechanisms that guarantee
+secure information flow in a computer system. 
+These mechanisms are examined within a mathematical framework
+suitable for formulating the requirements 
+of secure information flow among security classes. The
+central component of the model is a lattice structure 
+derived from the security classes and justified by the semantics
+of information flow.  The lattice properties 
+permit concise formulations of the security requirements
+of different existing systems and facilitate 
+the <B>construction of</B> mechanisms that enforce security.
+ The model provides a unifying view of all systems 
+that restrict information flow, enables a classification
+of them according to security objectives, and 
+suggests some new approaches.  It also leads to the construction
+of automatic program certification mechanisms 
+for verifying the secure flow of information through a program.
+
+CACM May, 1976
+
+Denning, D. E.
+
+protection, security, information flow, security
+class, lattice, program certification
+
+4.35
+
+CA760501 JB January 4, 1978  4:10 PM
+
+2436	4	2870
+2626	4	2870
+2868	4	2870
+2868	4	2870
+2870	4	2870
+2870	4	2870
+2870	4	2870
+2876	4	2870
+3105	4	2870
+3144	4	2870
+953	5	2870
+2377	5	2870
+2632	5	2870
+2870	5	2870
+2870	5	2870
+2870	5	2870
+2945	5	2870
+3128	5	2870
+1947	6	2870
+2150	6	2870
+2376	6	2870
+2436	6	2870
+2597	6	2870
+2704	6	2870
+2865	6	2870
+2866	6	2870
+2870	6	2870
+2870	6	2870
+2912	6	2870
+3082	6	2870
+
+
+************************
+
+************************
+Document:  CACM-2873.html
+************************
+
+
+LG: A Language for Analytic Geometry
+
+A conversational programming language for analytic
+geometry is described, together with some 
+aspects of its implementation.  The language allows
+the flexible definition of geometric objects and 
+elements, computes their parameters, and displays the results.
+It also provides the capability of specifying 
+a geometric figure via a collection of parameters and
+displaying various loci corresponding to these 
+parameters. A third characteristic consists of the possibility
+of using this language to design other 
+user oriented languages.  LG has been specifically designed
+for use by nonprogrammers; it is easy to 
+learn and very close to the natural language <B>used in</B> geometry.
+
+CACM April, 1976
+
+Raymond, J.
+
+interactive programming, problem oriented languages,
+computer graphics, interpreters, analytic 
+geometry
+
+3.20 4.13 4.22 4.9
+
+CA760403 JB January 4, 1978  4:26 PM
+
+2873	5	2873
+2873	5	2873
+2873	5	2873
+
+
+************************
+
+************************
+Document:  CACM-3099.html
+************************
+
+
+New Sufficient Optimality Conditions for
+Integer Programming and their Application
+
+The purpose of this report is to present a
+new class of sufficient optimality conditions for 
+pure and mixed integer programming problems.  Some of
+the sets of sufficient conditions presented can 
+be thought of as generalizations of optimality conditions
+based on primal-dual complementarity in linear 
+programming.  These sufficient conditions are particularly
+useful for the <B>construction of</B> difficult integer 
+programming problems with known optimal solutions.  These
+problems may then be used to test and/or "benchmark" 
+integer programming codes.
+
+CACM May, 1978
+
+Fleisher, J.
+Meyer, R.
+
+Integer programming, optimality conditions, test
+problem construction, Kuhn-Tucker conditions, 
+greatest common divisor 
+
+3.15 5.39 5.49
+
+CA780508 DH February 26, 1979  1:19 PM
+
+2028	4	3099
+2521	4	3099
+3099	4	3099
+3099	4	3099
+3138	4	3099
+1313	5	3099
+2031	5	3099
+3099	5	3099
+3099	5	3099
+3099	5	3099
+
+
+************************
+
+************************
+Document:  CACM-3124.html
+************************
+
+
+Recursive Data Structures in APL
+
+A mathematical study of three approaches for defining nested
+arrays in APL is presented.  Theorems exhibiting the relationships
+between the definitional systems are given and illustrated through graph
+representations.  One of the approaches is used to define an
+APL array to be a recursive data structure equivalent to a tree structure
+in which all data is stored at the leaves as homogeneous
+arrays of numbers and characters.  An extension of APL is proposed that
+includes new primitive functions to manipulate the nesting
+level of arrays and new operators to assist in the
+<B>construction of</B> data-driven algorithms.  
+
+CACM February, 1979
+
+Gull,W.
+Jenkins, M.
+
+Nested arrays, APL arrays, recursive data structures,
+trees, data-driven algorithms, theory of arrays
+
+4.22 5.29
+
+CA790203 DH April 10, 1979  3:41 PM
+
+2060	4	3124
+2294	4	3124
+2470	4	3124
+3124	4	3124
+1469	5	3124
+3124	5	3124
+3124	5	3124
+3124	5	3124
+
+
+************************
+
+************************
+Document:  CACM-1723.html
+************************
+
+
+Computer Construction of Project Networks
+
+Project networks are <B>used in</B> PERT and CPM.
+ An algorithm is given for constructing project 
+networks directly from the project precedence relations.
+ The algorithm creates "dummy" activities and 
+topologically orders the arcs and nodes.  The number of
+nodes created is minimal for the given precedence 
+relations.  It has been experimentally programmed
+in FORTRAN II for the IBM 7094.
+
+CACM July, 1968
+
+Fisher, A. C.
+Liebman, J. S.
+Nemhauser, G. L.
+
+project networks, PERT, CPM, topological
+ordering, network construction by computer
+
+5.32
+
+CA680706 JB February 22, 1978  12:07 PM
+
+1723	4	1723
+758	4	1723
+1723	5	1723
+1723	5	1723
+1723	5	1723
+2515	5	1723
+441	5	1723
+1723	6	1723
+
+
+************************
+
+************************
+Document:  CACM-0857.html
+************************
+
+
+Sorting Nonredundant Files-Techniques Used in the FACT Compiler
+
+Some typical file structures, including some
+called "non-redundant," are examined,and the 
+methods <B>used in</B> FACT to sort such files are discussed.
+
+CACM May, 1963
+
+Glore, J. B.
+
+CA630510 JB March 14, 1978  11:16 AM
+
+2017	5	857
+857	5	857
+857	5	857
+857	5	857
+849	6	857
+850	6	857
+851	6	857
+852	6	857
+853	6	857
+854	6	857
+855	6	857
+856	6	857
+857	6	857
+858	6	857
+859	6	857
+860	6	857
+861	6	857
+862	6	857
+863	6	857
+864	6	857
+865	6	857
+866	6	857
+
+
+************************
+
+************************
+Document:  CACM-2470.html
+************************
+
+
+Fen-An Axiomatic Basis for Program Semantics
+
+A formal system is presented which abstracts
+the notions of data item, function, and relation. 
+ It is argued that the system is more suitable than set
+theory (or its derivatives) for the concise and 
+accurate description of program semantics.  It is shown
+how the system can be used to build composite 
+data types out of simper ones with the operations of rowing,
+structuring, and uniting.  It is also demonstrated 
+that completely new primitive types can be introduced
+into languages through the mechanism of singleton 
+data types.  Both deterministic and nondeterministic
+functions are shown to be definable in the system. 
+ It is described how the local environment can be modeled
+as a data item and how imperative statements 
+can be considered functions on the environment.  The
+nature of recursive functions is briefly discussed, 
+and a technique is presented by which they can be introduced
+into the system.  The technique is contrasted 
+with the use of the paradoxical combinator, Y.  The
+questions of local and global environments and of 
+various modes of function calling and parameter passing
+are touched upon. The theory is applied to the 
+proof of several elementary theorems concerning the semantics
+of the assignment, conditional, and iterative 
+statements.  An appendix is included which presents in
+detail the formal system governing webs and fen, 
+the abstractions <B>used in</B>formally in the body of the paper.
+
+CACM August, 1973
+
+MacLennan, B. J.
+
+semantics, formal systems, lambda-calculus, extensible
+languages, data types, modes, axioms, correctness, 
+formal language definition, formal description, data structures,
+description languages, models of computation
+
+4.22 5.21 5.24 5.26
+
+CA730804 JB January 23, 1978  11:01 AM
+
+1469	4	2470
+1486	4	2470
+1491	4	2470
+1781	4	2470
+2021	4	2470
+2060	4	2470
+2178	4	2470
+2222	4	2470
+2227	4	2470
+2294	4	2470
+2315	4	2470
+2326	4	2470
+2326	4	2470
+2470	4	2470
+2470	4	2470
+2470	4	2470
+2470	4	2470
+2684	4	2470
+2732	4	2470
+2865	4	2470
+2896	4	2470
+2943	4	2470
+3014	4	2470
+3044	4	2470
+3068	4	2470
+3077	4	2470
+3124	4	2470
+3143	4	2470
+1303	5	2470
+1469	5	2470
+1834	5	2470
+2264	5	2470
+2470	5	2470
+2470	5	2470
+2470	5	2470
+
+
+************************
+
+************************
+Document:  CACM-3030.html
+************************
+
+
+An Example of Hierarchical Design and Proof
+
+Hierarchical programming is being increasingly
+recognized as helpful in the <B>construction of</B> 
+large programs.  Users of hierarchical techniques claim
+or predict substantial increases in productivity 
+and in the reliability of the programs produced.  In this
+paper we describe a formal method for hierarchical 
+program specification, implementation, and proof.  We
+apply this method to a significant list processing 
+problem and also discuss a number of extensions to current
+programming languages that ease hierarchical 
+program design and proof.
+
+CACM December, 1978
+
+Spitzen, J.
+Levitt, K.
+Robinson, L.
+
+Program verification, specification, data abstraction,
+software modules, hierarchical structures
+
+4.0 4.6 5.21 5.24
+
+CA781209 DH January 16, 19794:43 PM  
+
+2480	4	3030
+2704	4	3030
+2723	4	3030
+2738	4	3030
+2738	4	3030
+2866	4	3030
+2867	4	3030
+2869	4	3030
+2941	4	3030
+2941	4	3030
+2956	4	3030
+2958	4	3030
+2981	4	3030
+3004	4	3030
+3004	4	3030
+3030	4	3030
+3030	4	3030
+3030	4	3030
+3030	4	3030
+3030	4	3030
+3030	4	3030
+3031	4	3030
+3049	4	3030
+3077	4	3030
+3104	4	3030
+3155	4	3030
+2247	5	3030
+2356	5	3030
+2457	5	3030
+2651	5	3030
+2958	5	3030
+2972	5	3030
+3030	5	3030
+3030	5	3030
+3030	5	3030
+
+
+************************
+
+************************
+Document:  CACM-2424.html
+************************
+
+
+Dynamic Verification of Operating System Decisions
+
+Dynamic verification of a decision implies
+that every time the decision is made there is a 
+consistency check performed on the decision using independent
+hardware and software.  The dynamic verification 
+of operating system decisions is used on the PRIME system
+being designed and constructed at the University 
+of California, Berkeley.  PRIME is an experimental time-sharing
+which is to have the properties of continuous 
+availability, data privacy, and cost effectiveness.
+ The technique of dynamic verification allows the 
+<B>construction of</B> an operating system which does not make certain
+decisions improperly even in the presence 
+of a single hardware or software fault.  Furthermore,
+multiple faults lead to unreliable operation only 
+if the faults happen to reinforce each other.  On PRIME,
+dynamic verification is used to ensure that 
+one user's information cannot become available to another
+user gratuitously even in the presence of a 
+single hardware or software fault.the amount of additional
+hardware and software required for dynamic 
+verification can be modest.
+
+CACM November, 1973
+
+Fabry, R. S.
+
+operating systems, data security, fault tolerance,
+software reliability, data privacy, program 
+verification, modular computer systems
+
+4.32
+
+CA731102 JB January 20, 1978  10:56 AM
+
+1828	4	2424
+1854	4	2424
+1877	4	2424
+1960	4	2424
+2150	4	2424
+2317	4	2424
+2319	4	2424
+2377	4	2424
+2342	4	2424
+2376	4	2424
+2379	4	2424
+2424	4	2424
+2482	4	2424
+2618	4	2424
+2632	4	2424
+2704	4	2424
+2723	4	2424
+2738	4	2424
+2740	4	2424
+2741	4	2424
+2867	4	2424
+3184	4	2424
+1749	5	2424
+2424	5	2424
+2424	5	2424
+2424	5	2424
+
+
+************************
+
+************************
+Document:  CACM-1696.html
+************************
+
+
+An Algorithm for Identifying the Ergodic Subchains
+and Transient States of a Stochastic Matrix
+
+An algorithm for identifying the ergodic subchains
+and transient states of a stochastic matrix
+is presented.  Applications in Markov renewal programming
+and in the <B>construction of</B> variable length 
+codes are reviewed, and an updating procedure for dealing
+with certain sequences of stochastic matrices 
+is discussed.  Computation times are investigated experimentally
+and compared with those of another recently 
+propose method.
+
+CACM September, 1968
+
+Fox, B. L.
+Landi, D. M.
+
+stochastic matrix, ergodic, chain identification
+
+5.39 5.5
+
+CA680905 JB February 22, 1978  9:04 AM
+
+1696	5	1696
+1696	5	1696
+1696	5	1696
+
+
+************************
+
+************************
+Document:  CACM-1933.html
+************************
+
+
+Coding the Lehmer Pseudo-random Number Generator
+
+An algorithm and coding technique is presented
+for quick evaluation of the Lehmer pseudo-random 
+number generator modulo 2**31 - 1, a prime Mersenne
+number with produces 2**31 - 2 numbers, on a p-bit 
+(greater than 31) computer.  The computation method is
+extendible to limited problems in modular arithmetic. 
+ Prime factorization for 2**61 - 2 and a primitive root
+for 2**61 - 1, the next largest prime Mersenne 
+number, are given for possible <B>construction of</B> a pseudo-random
+number generator of increased cycle length.
+
+CACM February, 1969
+
+Payne, W. H.
+Rabung, J. R.
+Bogyo, T. P.
+
+pseudo-random number, random number, modular arithmetic,
+uniform probability density, uniform frequency 
+function, simulation, prime factorization, primitive roots
+
+CA690205 JB February 20, 1978  11:07 AM
+
+1933	5	1933
+1933	5	1933
+1933	5	1933
+
+
+************************
+
+************************
+Document:  CACM-2523.html
+************************
+
+
+A Region Coloring Technique for Scene Analysis
+
+A method of converting a picture into a "cartoon"
+or "map" whose regions correspond to differently 
+textured regions is described.  Texture edges in the
+picture are detected, and solid regions surrounded 
+by these (usually broken) edges are "colored in" using
+a propagation process.  The resulting map is cleaned 
+by comparing the region colors with the textures of
+the corresponding regions in the picture, and also 
+by merging some regions with others according to criteria
+based on topology and size.  The method has 
+been applied to the <B>construction of</B> cloud cover maps
+from cloud cover pictures obtained by satellites.
+
+CACM April, 1973
+
+Strong III, J. P.
+Rosenfeld, A.
+
+picture processing, scene analysis, edge detection
+
+3.63 8.2
+
+CA730405 JB January 24, 1978  9:48 AM
+
+2523	5	2523
+2523	5	2523
+2523	5	2523
+2980	5	2523
+2523	6	2523
+
+
+************************
+
+************************
+Document:  CACM-0058.html
+************************
+
+
+LEM-1, Small Size General Purpose Digital
+Computer Using Magnetic (Ferrite) Elements
+
+The paper examines some of the questions of
+development and <B>construction of</B> a general purpose 
+digital computer using contactless magnetic (ferrite)
+and capacitive "DEZU" (long duration capacitive 
+memory) elements, developed at the Laboratory of Electrical
+Modeling VINITYI AN SSSR, under the supervision 
+of Professor L. Gutenmacher.
+
+CACM October, 1959
+
+Machmudov, U. A.
+
+CA591001 JB March 22, 1978  4:21 PM
+
+215	5	58
+58	5	58
+58	5	58
+58	5	58
+58	6	58
+
+
+************************
+
+************************
+Document:  CACM-2867.html
+************************
+
+
+Modularization and Hierarchy in a Family of Operating Systems
+
+This paper describes the design philosophy
+<B>used in</B> the construction of a family of operating 
+systems. It is shown that the concepts of module and
+level do not coincide in a hierarchy of functions. 
+ Family members can share much software as a result
+of the implementation of run-time modules at the 
+lowest system level.
+
+CACM May, 1976
+
+Habermann,A. N.
+Flon, L.
+Cooprider, L.
+
+incremental machine design, module,
+data type, address space, virtual memory
+
+4.0 4.30 4.35
+
+CA760504 JB January 4, 1978  3:33 PM
+
+1828	4	2867
+1854	4	2867
+1877	4	2867
+1960	4	2867
+2150	4	2867
+2317	4	2867
+2319	4	2867
+2377	4	2867
+2342	4	2867
+2376	4	2867
+2379	4	2867
+2424	4	2867
+2482	4	2867
+2480	4	2867
+2618	4	2867
+2632	4	2867
+2704	4	2867
+2704	4	2867
+2723	4	2867
+2738	4	2867
+2738	4	2867
+2740	4	2867
+2741	4	2867
+2867	4	2867
+2867	4	2867
+2867	4	2867
+3004	4	2867
+3030	4	2867
+3155	4	2867
+3184	4	2867
+1749	5	2867
+2247	5	2867
+2379	5	2867
+2867	5	2867
+2867	5	2867
+2867	5	2867
+
+
+************************
+
+
+
+Modularization and Hierarchy in a Family of Operating Systems
+
+This paper describes the design philosophy
+used in the <B>construction of</B> a family of operating 
+systems. It is shown that the concepts of module and
+level do not coincide in a hierarchy of functions. 
+ Family members can share much software as a result
+of the implementation of run-time modules at the 
+lowest system level.
+
+CACM May, 1976
+
+Habermann,A. N.
+Flon, L.
+Cooprider, L.
+
+incremental machine design, module,
+data type, address space, virtual memory
+
+4.0 4.30 4.35
+
+CA760504 JB January 4, 1978  3:33 PM
+
+1828	4	2867
+1854	4	2867
+1877	4	2867
+1960	4	2867
+2150	4	2867
+2317	4	2867
+2319	4	2867
+2377	4	2867
+2342	4	2867
+2376	4	2867
+2379	4	2867
+2424	4	2867
+2482	4	2867
+2480	4	2867
+2618	4	2867
+2632	4	2867
+2704	4	2867
+2704	4	2867
+2723	4	2867
+2738	4	2867
+2738	4	2867
+2740	4	2867
+2741	4	2867
+2867	4	2867
+2867	4	2867
+2867	4	2867
+3004	4	2867
+3030	4	2867
+3155	4	2867
+3184	4	2867
+1749	5	2867
+2247	5	2867
+2379	5	2867
+2867	5	2867
+2867	5	2867
+2867	5	2867
+
+
+************************
+
+************************
+Document:  CACM-1003.html
+************************
+
+
+A Computer Analysis Method For Thermal Diffusion in Biochemical Systems
+
+In the thermal detection of rapid biochemical
+reactions it is necessary to correct the temperature 
+data for transient heat conduction losses in a cylindrical
+calorimeter.  To handle the complexities arising 
+from varying thermal-relaxation times of concentric insulating
+layers, a computer program was developed 
+which gives the temperature distribution of the system
+as a function of radius and time.  This distribution 
+is corrected at each step by a subroutine which calculates
+the instantaneous chemical state of there 
+action, as well as the heat produced by this reaction.
+ The program is based on a direct statement of 
+Fourier's law of heat conduction and the chemical rate
+equation to provide a "bookkeeping law" to follow 
+the reactants and the flow of heat packets, in such a
+way that the computer continually stores the heat 
+distribution.  A computer analysis method is here regarded
+as one in which the physical laws of a process 
+are used explicitly in the program. Usually this results
+in by passing much of the mathematical procedures 
+conventionally used.  The program was tested against
+some known exact solutions of the heat equation 
+and gave identical results, and compared well with experimental
+data of a known biochemical reaction. 
+ The <B>construction of</B> computer programs based on the direct
+statement of the physical laws is a principle 
+of general applicability which has been applied
+to several other physical phenomena.
+
+CACM September, 1964
+
+Davids, N.
+Berger, R. L.
+
+CA640908 JB March 9, 1978  5:13 PM
+
+1003	5	1003
+1003	5	1003
+1003	5	1003
+
+
+************************
+
+************************
+Document:  CACM-2210.html
+************************
+
+
+Toward Automatic Program Synthesis
+
+An elementary outline of the theorem-proving
+approach to automatic program synthesis is given, 
+without dwelling on technical details.  The method is
+illustrated by the automatic <B>construction of</B> both 
+recursive and iterative programs operating on natural
+numbers,lists, and trees,  In order to construct 
+a program satisfying certain specifications a theorem
+induced by those specifications is proved, and 
+the desired program is extracted from the proof.  The
+same technique is applied to transform recursively 
+defined functions into iterative programs, frequently
+with a major gain inefficiency.  It is emphasized 
+that in order to construct a program with loops or with
+recursion, the principle of mathematical induction 
+must be applied. The relation between the version of
+the induction rule used and the form of the program 
+constructed is explored in some detail.
+
+CACM March, 1971
+
+Manna, Z.
+Waldinger, R. J.
+
+artificial intelligence, answer extraction, automatic
+program synthesis, mathematical induction 
+principle, problem solving, theorem proving
+
+3.64 5.23 5.24
+
+CA710302 JB February 3, 1978  4:48 PM
+
+1515	4	2210
+2096	4	2210
+2127	4	2210
+2210	4	2210
+1155	5	2210
+2210	5	2210
+2210	5	2210
+2210	5	2210
+2657	5	2210
+2719	5	2210
+1626	6	2210
+210	6	2210
+2151	6	2210
+2167	6	2210
+2210	6	2210
+2210	6	2210
+2645	6	2210
+2657	6	2210
+
+
+************************
+

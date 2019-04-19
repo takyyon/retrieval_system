@@ -2,7 +2,7 @@ from extras import *
 from common import Common
 from indexer import Indexer
 import math
-from .query_expansion import Query_Expansion
+from .query_expansion import *
 import operator
 
 class Baseline_Runs:
@@ -164,21 +164,6 @@ class Baseline_Runs:
             data += id + '  Q0  ' + str(score[0]) + '  ' + str(score[1]) + '  ' + score_type + '\n'
         self.file_handling.save_file(data, filename)
 
-    def read_top_documents_for_score(self, stem = False, folder='test-collection', query_index = 0,\
-        top = 100, score='bm25'):
-        self.stem_folder = 'stem-' if stem else ''
-        model_file_path = self.common.get_score_path(self.stem_folder, score, folder) + '/' + str(query_index)
-        lines = self.file_handling.read_file_lines(model_file_path)
-        top_docs = []
-        i = 0
-        for l in lines:
-            if i == top:
-                break
-            data = l.split()
-            top_docs.append({'doc': data[2], 'score': data[3]})
-            i += 1
-        return top_docs
-
     def run_models(self, queries, folder):
         self.run_bm25(queries, folder)
         self.run_tf_idf(queries, folder)
@@ -195,6 +180,8 @@ class Baseline_Runs:
             if query_expansion:
                 queries = self.query_expansion_object.expand_queries_using_stemming(queries[:])
                 # query stemming expansion
+            else:
+                queries = self.query_expansion_object.expand_queries_using_pseduo_relevance(queries[:])
 
         if self.filter_queries:
             stopwords = self.common.get_stopwords()

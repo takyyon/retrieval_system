@@ -1,3 +1,303 @@
 Snippets for the query:  Algorithms or statistical packages for ANOVA, regression using least squares or generalized linear models. System design, capabilities, statistical formula are of interest. Student's t test, Wilcoxon and sign tests, multivariate and univariate components can be included.
 ************************
-No snippets found for the query..
+Total Hits:  7
+************************
+
+************************
+Document:  CACM-1469.html
+************************
+
+
+The Next 700 Programming Languages 
+
+A family of unimplemented computing languages
+is described that is intended to span differences 
+of application area by a unified framework.  This framework
+dictates the rules about the uses of user-coined 
+names, and the conventions about characterizing functional
+relationships.  Within this framework the 
+design of a specific language splits into two independent
+parts.  One is the choice of written appearances 
+of programs (or more generally, their physical representation).
+ The other is the choice of the abstract 
+entities (such as numbers, character-strings, lists
+of them, functional relations among them) that can 
+be referred to in the language.  The system is biased
+towards "expressions" rather than "statements." 
+ It includes a nonprocedural(purely functional) subsystem
+that aims to expand the class of users' needs 
+that <B>can be</B> met by a single print-instruction, without sacrificing
+the important properties that make 
+conventional right-hand-side expressions easy to construct and understand.
+
+CACM March, 1966
+
+Landin, P. J.
+
+CA660303 JB March 3, 1978  2:05 PM
+
+1469	4	1469
+1486	4	1469
+1491	4	1469
+1781	4	1469
+2178	4	1469
+2326	4	1469
+2470	4	1469
+2684	4	1469
+3044	4	1469
+1303	5	1469
+1469	5	1469
+1469	5	1469
+1469	5	1469
+2060	5	1469
+2294	5	1469
+2470	5	1469
+3124	5	1469
+1303	6	1469
+1380	6	1469
+1421	6	1469
+1469	6	1469
+1469	6	1469
+1469	6	1469
+1469	6	1469
+1477	6	1469
+1491	6	1469
+210	6	1469
+1834	6	1469
+1869	6	1469
+2060	6	1469
+2110	6	1469
+2264	6	1469
+
+
+************************
+
+************************
+Document:  CACM-2219.html
+************************
+
+
+A Policy-Driven Scheduler for a Time-Sharing System
+
+The service received by a process from a time-sharing
+operating system <B>can be</B> characterized 
+by a resource count SUM{w[i]R[ij]} where R[ij] is the
+number of units of service received by process 
+i from resource i and w[i] is the cost per unit of the
+service.  Each class of users can be characterized 
+by a policy function which specifies the amount of service
+a user who belongs to this class should receive 
+as a function of time.  Priority changes dynamically
+as a function of the difference between the service 
+promised to the user by the policy function and the service
+he actually receives.  A scheduling and swapping 
+algorithm which keeps the resource count of each process
+above its policy function will provide the specified 
+level of service.  Overhead can be reduced by avoiding
+swaps of process which have received at least 
+his level of service.  The algorithm has been implemented
+in a general purpose operating system, and 
+it has provided significantly better service to interactive
+and to batch jobs than the previous scheduler.
+
+CACM February, 1971
+
+Bernstein, A. J.
+Sharp, J. C.
+
+scheduler, time-sharing, operating system,
+resource allocation and swapping
+
+4.32
+
+CA710202 JB February 8, 1978  9:54 AM
+
+2219	4	2219
+2344	4	2219
+1938	5	2219
+2219	5	2219
+2219	5	2219
+2219	5	2219
+2950	5	2219
+3072	5	2219
+1713	6	2219
+2219	6	2219
+2219	6	2219
+2245	6	2219
+2375	6	2219
+
+
+************************
+
+************************
+Document:  CACM-2670.html
+************************
+
+
+Efficient Implementation of a Variable Projection
+Algorithm for Nonlinear Least Squares Problems
+
+Nonlinear <B>least squares</B> frequently arise for which
+the variables to be solved for can be separated 
+into a linear and a nonlinear part.  A variable projection
+algorithm has been developed recently which 
+is designed to take advantage of the structure of a problem
+whose variables separate in this way.  This 
+paper gives a slightly more efficient and slightly more
+general version of this algorithm than has appeared 
+earlier.
+
+CACM March, 1974
+
+Krogh, F. T.
+
+nonlinear least squares, parameter estimation, variable projection
+
+5.14 5.15
+
+CA740313 JB January 18, 1978  10:49 AM
+
+2670	5	2670
+2670	5	2670
+2670	5	2670
+
+
+************************
+
+
+
+Efficient Implementation of a Variable Projection
+Algorithm for Nonlinear Least Squares Problems
+
+Nonlinear least squares frequently arise for which
+the variables to be solved for <B>can be</B> separated 
+into a linear and a nonlinear part.  A variable projection
+algorithm has been developed recently which 
+is designed to take advantage of the structure of a problem
+whose variables separate in this way.  This 
+paper gives a slightly more efficient and slightly more
+general version of this algorithm than has appeared 
+earlier.
+
+CACM March, 1974
+
+Krogh, F. T.
+
+nonlinear least squares, parameter estimation, variable projection
+
+5.14 5.15
+
+CA740313 JB January 18, 1978  10:49 AM
+
+2670	5	2670
+2670	5	2670
+2670	5	2670
+
+
+************************
+
+************************
+Document:  CACM-2666.html
+************************
+
+
+On Lions' Counter Example for Gotlieb's Method
+for the Construction of School Timetables
+
+The timetable problem is an essentially discrete
+problem. Although the discrete problem may 
+have no feasible solution, there may exist a solution
+to the equivalent continuous problem.  An example 
+is given, for which the nondiscrete solution <B>can be</B>
+interpreted as a set of timetables, differing from 
+week to week, which together satisfy the long-term
+requirements of the timetable problem.
+
+CACM April, 1974
+
+Smith, G.
+Sefton, I. M.
+
+combinatorial, multi-index problem, necessary
+conditions, schedule, school timetable, timetable
+
+3.51 5.39
+
+CA740404 JB January 18, 1978  10:02 AM
+
+2666	5	2666
+2666	5	2666
+2666	5	2666
+
+
+************************
+
+************************
+Document:  CACM-1008.html
+************************
+
+
+Scheduling Meetings with a Computer
+
+Computer scheduling of papers as it was developed
+for the 1960 meeting of the Federation of 
+American Societies for Experimental Biology (FASEB) is described.
+ The FASEB meeting is the largest scientific 
+meeting held in the United States each year.  The technique
+developed for FASEB <B>can be</B> applied to schedule 
+any meeting with parallel sessions.
+
+CACM September, 1964
+
+Schultz, C. K.
+Brooks, A.
+Schwartz, P.
+
+CA640903 JB March 9, 1978  6:16 PM
+
+1008	5	1008
+1008	5	1008
+1008	5	1008
+2052	5	1008
+1008	6	1008
+1013	6	1008
+1504	6	1008
+1540	6	1008
+
+
+************************
+
+************************
+Document:  CACM-1427.html
+************************
+
+
+Simulation of Radioisotope Scans by Computer
+
+In radioisotope scanning, a field which is assuming
+increasing importance in medical diagnosis, 
+the scan is a two-dimensional pattern made up of dots.
+ Areas of increased source activity are represented 
+on the scan by areas of increased dot density.  To study
+the output of scanners with various characteristics, 
+a program which simulates radioisotope scans has been
+written  for a PDP-1 computer with auxiliary disk 
+storage and cathode ray tube display.  Past and present
+research using the output of the simulator has 
+shown the flexibility of the system to be important.
+ The structure of this program <B>can be</B> useful in 
+the simulation of the output of any quantum-limited system.
+
+CACM May, 1966
+
+Pizer, S. M.
+
+CA660510 JB March 3, 1978  9:47 AM
+
+1427	5	1427
+1427	5	1427
+1427	5	1427
+
+
+************************
+

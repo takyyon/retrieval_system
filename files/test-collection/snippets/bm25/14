@@ -1,6 +1,6 @@
 Snippets for the query:  Find all discussions of horizontal microcode optimization with special emphasis on optimization of loops and global optimization.
 ************************
-Total Hits:  2
+Total Hits:  17
 ************************
 
 ************************
@@ -11,7 +11,49 @@ Document:  CACM-0695.html
 Use of the Disk File on Stretch
 
 The paper begins by briefly describing the
-Stretch (IBM 7030) computer with special emphasis 
+Stretch (IBM 7030) computer <B>with special</B> emphasis 
+given to the organization and operation of its input-output
+equipment.  Physical characteristics of the 
+two-disk system (4,194,304 72-bit words, 8 usec-per-word
+transmission rate, etc.) are noted.  Timing 
+limitations due to arm motion and disk rotation are discussed.
+ Applications of disk usage are discussed 
+separately for problem programs and for systems programs
+such as compilers and the supervisory program. 
+Approximately 260,000 words of disk storage are reserved
+for the storage of systems programs and the 
+subroutine library.  Problem programs, however, are not
+currently filed on the disk.  Certain programming 
+techniques are discussed for transmitting words between
+disk and core storage with minimum delaying and 
+interruption of the arithmetic unit.  Dumps on disk are
+considered for both recovery from computer malfunction 
+and for mathematical or physical developments during
+the calculation.  Some comments are made regarding 
+the reliability, economics, utility and weaknesses or
+limitations of the disk system.  Several possible 
+future applications are noted which appear to have disk connotations.
+
+CACM October, 1963
+
+Carlson, B. G.
+Voorhes, E. A.
+
+CA631030 JB March 13, 1978  4:28 PM
+
+695	5	695
+695	5	695
+695	5	695
+
+
+************************
+
+
+
+Use of the Disk File on Stretch
+
+The paper begins by briefly describing the
+Stretch (IBM 7030) computer with <B>special emphasis</B> 
 given to the organization and operation of its input-output
 equipment.  Physical characteristics of the 
 two-disk system (4,194,304 72-bit words, 8 usec-per-word
@@ -49,6 +91,314 @@ CA631030 JB March 13, 1978  4:28 PM
 ************************
 
 ************************
+Document:  CACM-2903.html
+************************
+
+
+Improving Programs by the Introduction of Recursion
+
+A new technique of program transformation,
+called "recursion in troduction," is described and 
+applied to two algorithms which solve pattern matching problems.
+ By using recursion in troduction, algorithms 
+which manipulate a stack are first translated into
+recursive algorithms in which no stack operations 
+occur.  These algorithms are then subjected to a second
+transformation, a method of recursion elimination 
+called "tabulation," to produce programs with a very
+efficient running time.  In particular, it is shown 
+how the fast linear pattern matching algorithm of Knuth,
+Morris, and Pratt can be derived in a few steps 
+from a simple nonlinear stack algorithm.
+
+CACM November, 1977
+
+Bird, R. S.
+
+program transformation, <B>optimization of</B> programs,
+recursion elimination, pattern matching algorithms, 
+stacks, computational induction
+
+4.0 4.2 5.20 5.24 5.25
+
+CA771113 JB December 27, 1977  6:29 AM
+
+2326	4	2903
+2457	4	2903
+2842	4	2903
+2903	4	2903
+2192	5	2903
+2903	5	2903
+2903	5	2903
+2903	5	2903
+
+
+************************
+
+************************
+Document:  CACM-2904.html
+************************
+
+
+An Algorithm for Reduction of Operator Strength
+
+A simple algorithm which uses an indexed temporary
+table to perform reduction of operator strength 
+in strongly connected regions is presented.  Several extensions,
+including linear function test replacement, 
+are discussed.  These algorithms should fit well into an
+integrated package of local optimization algorithms.
+
+CACM November, 1977
+
+Cocke, J.
+
+compilers, <B>optimization of</B> compiled code, program analysis,
+operator strength reduction, test replacement, 
+strongly connected region
+
+4.12 5.24 5.32
+
+CA771112 JB December 27, 1977  6:34 AM
+
+2904	5	2904
+2904	5	2904
+2904	5	2904
+
+
+************************
+
+************************
+Document:  CACM-0104.html
+************************
+
+
+Digital Simulation of Discrete Flow Systems*
+
+The discrete flow systems discussed are characterized
+by the movement of randomly arriving 
+items along interacting channels.  Programing a digital
+computer to simulate such systems utilizes some 
+techniques not common in other approaches to physical
+problems.  The principal portion of the paper is 
+a discussion of two simulation studies that illustrate
+some of the programming problems involved. One 
+is of an extensive package-handling plant, with the
+objective being <B>optimization of</B> parameters such as 
+storage capacities and processing rates.  In the other,
+air traffic flow and control procedures are simulated 
+to compare the effects of alternative control decisions.
+
+CACM December, 1960
+
+Moore, C. J.
+Lewis, T. S.
+
+CA601212 JB March 20, 1978  6:27 PM
+
+104	5	104
+104	5	104
+104	5	104
+
+
+************************
+
+************************
+Document:  CACM-1195.html
+************************
+
+
+UPLIFTS-University of Pittsburgh Linear File Tandem System
+
+A series of computer programs has been developed
+and is now operational for processing the 
+National Aeronautics and Space Administration linear file
+system on an IBM 1401-7090 combined data processing 
+system.  The program are note-worthy in that they create
+fixed length logical records and fixed length 
+blocks from variable length source data, and format
+the output for <B>optimization of</B> processing on the 
+IBM 7090 system.  The programs are completely self-checking
+and test for both validity and accuracy of 
+the input materials as provided by the National
+Aeronautics and Space Administration.
+
+CACM September, 1965
+
+Canter, J. D.
+Donaghey, C. E.
+
+CA650911 JB March 6, 1978  7:10 PM
+
+1195	5	1195
+1195	5	1195
+1195	5	1195
+
+
+************************
+
+************************
+Document:  CACM-1750.html
+************************
+
+
+Considerations in the Design of a Multiple
+Computer System with Extended Core Storage
+
+The use of large quantities of addressable
+(but not executable) fast random access memory to 
+heighten the multiprogramming performance of a multicomputer system
+is discussed.  The general design 
+of the hardware arrangement and the software components
+and functions of such a system are based on a 
+planned configuration of dual CDC 6600's that share one
+million words of extended core storage.  In the 
+generalization of such a design, <B>special emphasis</B> is
+placed on estimating expected gains when compared 
+with the traditional configuration of separate and independent
+computers without extended core storage. 
+ An observation is made on the use of conventional, slower
+speed, random access storage devices in place 
+of the faster memory.
+
+CACM May, 1968
+
+Fuchel, K.
+Heller, S.
+
+multiple computer systems, extended core storage,
+multiprogrammed operating systems, multiprocessor 
+operating systems, control data corporation 6600, operating system with ECS
+
+4.30 4.32
+
+CA680506 JB February 23, 1978  9:27 AM
+
+1750	5	1750
+1750	5	1750
+1750	5	1750
+2988	5	1750
+1750	6	1750
+
+
+************************
+
+************************
+Document:  CACM-2456.html
+************************
+
+
+On the Capabilities of While, Repeat, and Exit Statements
+
+A well-formed program is defined as a program
+in which <B>loops and</B> if statements are properly 
+nested and can be entered only at their beginning.  A
+corresponding definition is given for a well-formed 
+flowchart.  It is shown that a program is well formed if
+and only if it can be written with if, repeat, 
+and multi-level exit statements for sequence control. 
+It is also shown that if,while, and repeat statements 
+with single-level exit do not suffice.  It is also shown
+that any flowcharts can be converted to a well-formed 
+flowchart by node splitting.  Practical implications are discussed.
+
+CACM August, 1973
+
+Peterson, W. W.
+Kasami, T.
+Tokura, N.
+
+well-formed program, while statement, repeat statement,
+exit statement, go to statement, flowchart, 
+node splitting, software reliability
+
+4.39 4.49 5.29
+
+CA730818 JB January 23, 1978  10:20 AM
+
+2456	5	2456
+2456	5	2456
+2456	5	2456
+2709	5	2456
+3004	5	2456
+3121	5	2456
+1312	6	2456
+1425	6	2456
+1425	6	2456
+308	6	2456
+309	6	2456
+2138	6	2456
+2204	6	2456
+2247	6	2456
+2356	6	2456
+2456	6	2456
+2456	6	2456
+2456	6	2456
+2477	6	2456
+2709	6	2456
+3186	6	2456
+
+
+************************
+
+************************
+Document:  CACM-3166.html
+************************
+
+
+Computing Standard Deviations: Accuracy
+
+Four algorithms for the numerical computation
+of the standard deviation of (unweighted) sampled data
+are analyzed.  Two of the algorithms are well-known in the statistical
+and computational literature; the other two are new algorithms
+specifically intended for automatic computation.  Our discussion is 
+expository, with <B>emphasis on</B> reaching a suitable definition of
+"accuracy."  Each of the four algorithms is analyzed for the conditions
+under which it will be accurate.  We conclude that all four
+algorithms will provide accurate answers for many problems, but two
+of the algorithms, one new, one old, are substantially more accurate
+on difficult problems than are the other two.
+
+CACM September, 1979
+
+Chan, T.
+Lewis, J.
+
+Mean, standard deviation, least squares, updating
+estimates, rounding error analysis, condition number.
+
+5.5 5.11 5.19
+
+CA790907 DB January 16, 1980  4:23 PM
+
+1619	4	3166
+2731	4	3166
+3159	4	3166
+3159	4	3166
+3166	4	3166
+3166	4	3166
+3166	4	3166
+3166	4	3166
+3166	4	3166
+3167	4	3166
+3167	4	3166
+1411	5	3166
+2731	5	3166
+2799	5	3166
+3159	5	3166
+3166	5	3166
+3166	5	3166
+3166	5	3166
+3167	5	3166
+2731	6	3166
+2799	6	3166
+3166	6	3166
+
+
+************************
+
+************************
 Document:  CACM-2065.html
 ************************
 
@@ -56,7 +406,7 @@ Document:  CACM-2065.html
 A Programming System for the On-line Analysis of Biomedical Images
 
 A preliminary description of the software for a computer-display
-system is given with special emphasis on the  man-machine interaction. This 
+system is given with <B>special emphasis</B> on the  man-machine interaction. This 
 system is intended for a wide variety of biomedical applications.
 As an example, the methods are applied to the karyotyping of chromosomes.  The 
 system is separated into four programming tasks: picture transformations, file 
@@ -84,6 +434,308 @@ CA700501 JB February 13, 1978  2:27 PM
 2065	5	2065
 2065	5	2065
 2065	5	2065
+
+
+************************
+
+
+
+A Programming System for the On-line Analysis of Biomedical Images
+
+A preliminary description of the software for a computer-display
+system is given with special <B>emphasis on</B> the  man-machine interaction. This 
+system is intended for a wide variety of biomedical applications.
+As an example, the methods are applied to the karyotyping of chromosomes.  The 
+system is separated into four programming tasks: picture transformations, file 
+maintenance, picture structuring, and display management.  Picture structuring
+is considered as the vehicle for man-machine communication.
+A prototype data format for pictures, called a picture-form, is developed.
+Structure operators are defined which manipulate picture-forms to produce 
+new pictures-forms.  Many of the ideas are taken from the symbolic mathematical 
+laboratory at MIT conceived by Marvin Minsky.
+
+CACM May, 1970
+
+Hodes, L.
+
+image processing, biomedical image processing, on-line image processing,
+semiautomatic image processing, data structure, structure operators,
+picture processing, biomedical picture processing, on-line picture
+processing, semiautomatic picture processing, semiautomatic
+karyotyping, karyotyping, list processing picture processing
+
+3.12 3.34 3.63 4.39 6.29
+
+CA700501 JB February 13, 1978  2:27 PM
+
+2065	5	2065
+2065	5	2065
+2065	5	2065
+
+
+************************
+
+
+
+A Programming System for the On-line Analysis of Biomedical Images
+
+A preliminary description of the software for a computer-display
+system is given <B>with special</B> emphasis on the  man-machine interaction. This 
+system is intended for a wide variety of biomedical applications.
+As an example, the methods are applied to the karyotyping of chromosomes.  The 
+system is separated into four programming tasks: picture transformations, file 
+maintenance, picture structuring, and display management.  Picture structuring
+is considered as the vehicle for man-machine communication.
+A prototype data format for pictures, called a picture-form, is developed.
+Structure operators are defined which manipulate picture-forms to produce 
+new pictures-forms.  Many of the ideas are taken from the symbolic mathematical 
+laboratory at MIT conceived by Marvin Minsky.
+
+CACM May, 1970
+
+Hodes, L.
+
+image processing, biomedical image processing, on-line image processing,
+semiautomatic image processing, data structure, structure operators,
+picture processing, biomedical picture processing, on-line picture
+processing, semiautomatic picture processing, semiautomatic
+karyotyping, karyotyping, list processing picture processing
+
+3.12 3.34 3.63 4.39 6.29
+
+CA700501 JB February 13, 1978  2:27 PM
+
+2065	5	2065
+2065	5	2065
+2065	5	2065
+
+
+************************
+
+************************
+Document:  CACM-2953.html
+************************
+
+
+Notes on Recursion Elimination
+
+Various methods of recursion elimination are
+applied to the schematic recursive procedure: 
+proc S(x); px then N(x); S(fx); S(gx); M(x) fi.  Procedures
+with this general form arise in connection 
+with tree traversal and sorting algorithms.  Each method
+of recursion removal involves the use of one 
+or more stacks, and the solutions are compared
+on the basis of their running time.
+
+CACM June, 1977
+
+Bird, R. S.
+
+recursion elimination, <B>optimization of</B> programs,
+stacks, trees, sorting algorithms, computational 
+induction
+
+4.0 4.2 5.20 5.24 5.25 5.31
+
+CA770610 JB December 28, 1977  12:50 PM
+
+2953	5	2953
+2953	5	2953
+2953	5	2953
+3020	5	2953
+2953	6	2953
+
+
+************************
+
+************************
+Document:  CACM-3080.html
+************************
+
+
+Proving the Correctness of Heuristically Optimized Code 
+
+A system for proving that programs written
+in a high level language are correctly translated 
+to a low level language is described.  A primary use of
+the system is as a post optimization step in code 
+generation.  The low level language programs need not
+be generated by a compiler and in fact could be 
+hand coded.  Examples of the usefulness of such a system
+are given.  Some interesting results are the 
+ability to handle programs that implement recursion by
+bypassing the start of the program, and the detection 
+and pinpointing of a wide class of errors in the low
+level language programs.  The examples demonstrate 
+that <B>optimization of</B> the genre of this paper can result
+in substantially faster operation and the saving 
+of memory in terms of program and stack sizes.
+
+CACM July, 1978
+
+Samet, H.
+
+Compilers, correctness, code optimization,
+debugging, program verification, Lisp
+
+4.12 4.21 4.22 5.24
+
+CA780708 DH February 7, 1979  3:53 PM
+
+1024	4	3080
+1051	4	3080
+1102	4	3080
+1132	4	3080
+1390	4	3080
+1486	4	3080
+1549	4	3080
+1706	4	3080
+1826	4	3080
+1878	4	3080
+378	4	3080
+2060	4	3080
+2155	4	3080
+2168	4	3080
+2719	4	3080
+2723	4	3080
+2838	4	3080
+2842	4	3080
+2855	4	3080
+2879	4	3080
+3077	4	3080
+3080	4	3080
+3080	4	3080
+3106	4	3080
+627	4	3080
+106	4	3080
+210	5	3080
+2850	5	3080
+3080	5	3080
+3080	5	3080
+3080	5	3080
+
+
+************************
+
+************************
+Document:  CACM-1410.html
+************************
+
+
+Interarrival Statistics for Time Sharing Systems
+
+The <B>optimization of</B> time-shared system performance
+requires the description of the stochastic 
+processes governing the user inputs and the program activity.
+ This paper provides a statistical description 
+of the user input process in the SDC-ARPA general-purpose
+Time-Sharing System (TSS).  The input process 
+is assumed to be stationary, and to be defined by the
+interarrival time distribution.  The data obtained 
+appear to justify satisfactorily the common assumption
+that the interarrival times are serially independent. 
+ The data do not appear to justify, except as a very
+rough approximation, the usual assumption off an 
+exponential distribution for interarrival time.  A much
+more satisfactory approximation to the data can 
+be obtained with a biphase or triphase hyperexponential distribution.
+
+CACM July, 1966
+
+Coffman, E. G.
+Wood, R. C.
+
+CA660704 JB March 2, 1978  9:45 PM
+
+1410	5	1410
+1410	5	1410
+1410	5	1410
+1604	5	1410
+1951	5	1410
+2373	5	1410
+1224	6	1410
+1410	6	1410
+1410	6	1410
+1410	6	1410
+1604	6	1410
+1751	6	1410
+1810	6	1410
+1951	6	1410
+2374	6	1410
+
+
+************************
+
+************************
+Document:  CACM-3125.html
+************************
+
+
+Global Optimization by Suppression of Partial Redundancies
+
+The elimination of redundant computations and the moving of invariant
+computations out <B>of loops</B> are often done separately, with invariants 
+moved outward loop by loop.  We propose to do both at once and
+to move each expression directly to the entrance of the outermost
+loop in which it is invariant.  This is done by solving a more
+general problem, i.e. the elimination of computations performed
+twice on a given execution path.  Such computations are termed partially
+redundant.  Moreover, the algorithm does not require any graphical
+information or restrictions on the shape of the program graph.
+Testing this algorithm has shown that its execution cost is nearly
+linear with the size of the program, and that it leads
+to a smaller optimizer that requires less execution time.
+
+CACM February, 1979
+
+Morel, E.
+Renvoise, C.
+
+Optimizer, optimization, compiler, compilation,
+redundancy elimination, invariant
+ computation elimination, partial redundancy,
+data flow analysis, Boolean systems
+
+4.12 5.21 5.24
+
+CA790204 DH April 10, 1979  4:19 PM
+
+3125	5	3125
+3125	5	3125
+3125	5	3125
+
+
+************************
+
+************************
+Document:  CACM-2304.html
+************************
+
+
+A Western View of Computer History
+
+Many U. histories of the digital computer
+field have tended to be impersonal, with heavy 
+<B>emphasis on</B> eastern universities and commercial developments.
+ This article records the events of the 
+early years in a personal way.  The people, organizations,
+technologies, and computers of the 1945-55 
+period in the western part of the United Statesare described as they happened.
+
+CACM July, 1972
+
+Sprague, R. E.
+
+history, computer history
+
+1.2 6.0
+
+CA720724 JB January 30, 1978  10:40 AM
+
+2304	5	2304
+2304	5	2304
+2304	5	2304
 
 
 ************************

@@ -1,3 +1,1863 @@
 Snippets for the query:  Algorithms or statistical packages for ANOVA, regression using least squares or generalized linear models. System design, capabilities, statistical formula are of interest. Student's t test, Wilcoxon and sign tests, multivariate and univariate components can be included.
 ************************
-No snippets found for the query..
+Total Hits:  40
+************************
+
+************************
+Document:  CACM-2488.html
+************************
+
+
+Least Squares Piecewise Cubic Curve Fitting
+
+The matrices involved in a linear <B>least squares</B>
+formulation are determined for the problem 
+of fitting piecewise cubic functions, those possessing
+a continuous derivative, to arrays of planar data.
+
+CACM June, 1973
+
+Ferguson, J.
+Staley, P. A.
+
+curve fitting, data reduction, function
+approximation, approximation splines
+
+5.13
+
+CA730612 JB January 23, 1978  1:47 PM
+
+2488	5	2488
+2488	5	2488
+2488	5	2488
+
+
+************************
+
+************************
+Document:  CACM-1695.html
+************************
+
+
+PLEXUS-An On-Line System for Modeling Neural Networks
+
+A description is presented of PLEXUS, a system
+which enables a user to construct and specify 
+a neural network, to analyze the output data produced
+by the network, and to store and retrieve networks 
+and data from a library.  The system, operated entirely
+from a digital display unit, interacts directly 
+with the user and permits easy and rapid transitions
+between the various phases of the modeling process. 
+ PLEXUS is designed to complement neurophysiological research
+so that the systematic development of neural 
+models <B>can be</B> coordinated with experimental work.  PLEXUS
+networks are built up from components representing 
+individual neurons, external stimuli, and interconnecting
+fibers, each component being of a relatively 
+detailed nature.  Provision is also made for the use of
+experimental data as input to a network.  Convenient 
+means for specification and modification of a network and
+extensive error-checking capabilities are provided. 
+Data resulting from the simulation of a network may be
+analyzed by a variety of techniques ranging from 
+examinations of the gross characteristics of the data to
+the determination of detailed statistical properties.
+
+CACM September, 1968
+
+Dill, J. C.
+Randall, D. L.
+Richer, I.
+
+biological modeling, data analysis, discrete system
+simulation, library systems, modeling, network 
+simulation, neural networks, neurophysiological
+models, on-line simulation, simulation
+
+3.12 3.19 3.29 3.65
+
+CA680906 JB February 22, 1978  8:56 AM
+
+1695	5	1695
+1695	5	1695
+1695	5	1695
+
+
+************************
+
+************************
+Document:  CACM-1554.html
+************************
+
+
+A Computer Technique for Displaying n-Dimensional Hyperobjects
+
+A digital computer and automatic plotter have
+been used to generate three-dimensional stereoscopic 
+movies of the three-dimensional parallel and perspective
+projections of four-dimensional hyperobjects 
+rotating in four-dimensional space.  The observed projections
+and their motions were a direct extension
+of three-dimensional experience, but no profound "feeling"
+or insight into the fourth spatial dimension 
+was obtained.  The technique <B>can be</B> generalized to n-dimensions
+and applied to any n-dimensional hyperobject 
+or hypersurface.
+
+CACM August, 1967
+
+Noll, A. M.
+
+CA670801 JB February 27, 1978  4:48 PM
+
+1554	5	1554
+1554	5	1554
+1554	5	1554
+2211	5	1554
+1554	6	1554
+1741	6	1554
+
+
+************************
+
+************************
+Document:  CACM-1443.html
+************************
+
+
+A Method for Finding the Least Squares Estimate
+of the Intersection Point of Two Helices in Space
+
+When the helical trajectories of two charged
+particles moving away from a common point in a 
+magnetic field are reconstructed from measurements on
+the tracks, the reconstructed tracks are perturbed 
+by measurement and other errors and do not, in general,
+intersect.  A method is given for adjusting the 
+reconstructed tracks in a <B>least squares</B> manner so that they do intersect.
+
+CACM April, 1966
+
+Royston, R. J.
+Gregory, J.
+
+CA660406 JB March 3, 1978  10:42 AM
+
+1443	5	1443
+1443	5	1443
+1443	5	1443
+
+
+************************
+
+************************
+Document:  CACM-3166.html
+************************
+
+
+Computing Standard Deviations: Accuracy
+
+Four algorithms for the numerical computation
+of the standard deviation of (unweighted) sampled data
+are analyzed.  Two of the algorithms are well-known in the statistical
+and computational literature; the other two are new algorithms
+specifically intended for automatic computation.  Our discussion is 
+expository, with emphasis on reaching a suitable definition of
+"accuracy."  Each of the four algorithms is analyzed for the conditions
+under which it will be accurate.  We conclude that all four
+algorithms will provide accurate answers for many problems, but two
+of the algorithms, one new, one old, are substantially more accurate
+on difficult problems than are the other two.
+
+CACM September, 1979
+
+Chan, T.
+Lewis, J.
+
+Mean, standard deviation, <B>least squares</B>, updating
+estimates, rounding error analysis, condition number.
+
+5.5 5.11 5.19
+
+CA790907 DB January 16, 1980  4:23 PM
+
+1619	4	3166
+2731	4	3166
+3159	4	3166
+3159	4	3166
+3166	4	3166
+3166	4	3166
+3166	4	3166
+3166	4	3166
+3166	4	3166
+3167	4	3166
+3167	4	3166
+1411	5	3166
+2731	5	3166
+2799	5	3166
+3159	5	3166
+3166	5	3166
+3166	5	3166
+3166	5	3166
+3167	5	3166
+2731	6	3166
+2799	6	3166
+3166	6	3166
+
+
+************************
+
+************************
+Document:  CACM-2786.html
+************************
+
+
+A System for Typesetting Mathematics
+
+This paper describes the design and implementation
+of a system for typesetting mathematics. 
+ The language has been designed to be easy to learn
+and to use by people (for example, secretaries and 
+mathematical typists) who know neither mathematics nor
+typesetting.  Experience indicates that the language 
+<B>can be</B> learned in an hour or so, for it has few rules
+and fewer exceptions.  For typical expressions, 
+the size and font changes, positioning, line drawing, and
+the like necessary to print according to mathematical 
+conventions are all done automatically.  For example,
+the input sum from i=o to infinity x sub i=pi over 
+2 produces (formula).  The syntax of the language is specified
+by a small context-free grammar; a compiler-compiler 
+is used to make a compiler that translates this language
+into typesetting commands.  Output maybe produced 
+on either a phototypesetter or on a terminal with forward
+and reverse half-line motions.  The system 
+interfaces directly with text formatting programs, so
+mixtures of text and mathematics may be handled 
+simply.  This paper was typeset by the authors using the system described 
+
+CACM March, 1975
+
+Kernighan, B. W.
+Cherry, L. L.
+
+typesetting, photocomposition,compiler-compiler,
+graphics, printing, text processing.
+
+4.12 4.22 8.2
+
+CA750302 JB January 10, 1978  8:56 AM
+
+2626	4	2786
+2786	4	2786
+2840	4	2786
+2919	4	2786
+3017	4	2786
+3110	4	2786
+3174	4	2786
+2629	5	2786
+2733	5	2786
+2746	5	2786
+2786	5	2786
+2786	5	2786
+2786	5	2786
+1665	6	2786
+1739	6	2786
+1781	6	2786
+2139	6	2786
+2179	6	2786
+2423	6	2786
+2545	6	2786
+2786	6	2786
+2786	6	2786
+799	6	2786
+
+
+************************
+
+************************
+Document:  CACM-2101.html
+************************
+
+
+Least Squares Fit By f(x) = Acos(Bx+C) (Algorithm 376 $E2))
+
+CACM February, 1970
+
+Spath, H.
+
+nonlinear <B>least squares</B> fit
+
+5.15
+
+CA700214 JB February 14, 1978  9:47 AM
+
+2101	4	2101
+2102	4	2101
+1639	5	2101
+2101	5	2101
+2101	5	2101
+2101	5	2101
+
+
+************************
+
+************************
+Document:  CACM-1816.html
+************************
+
+
+Generalized Least Squares Fit By Orthogonal
+Polynomials (Algorithm 296 [E2])
+
+CACM November, 1969
+
+Watson, W. T.
+
+<B>least squares</B>, curve fitting, orthogonal polynomials,
+three-term recurrence, polynomial regression, 
+approximation, Forsythe's method
+
+5.13 5.5
+
+CA691114 JB February 15, 1978  12:06 PM
+
+1816	4	1816
+125	5	1816
+1816	5	1816
+1816	5	1816
+1816	5	1816
+
+
+************************
+
+************************
+Document:  CACM-2986.html
+************************
+
+
+Operations on Sparse Relations
+
+Various computations on relations, Boolean matrices,
+or directed graphs, such as the computation 
+of precedence relations for a context-free grammar, <B>can be</B>
+done by a practical algorithm that is asymptotically 
+faster than those in common use.  For example, how to compute
+operator precedence or Wirth-Weber precedence 
+relations in O(n^2) steps is shown, as well as how to
+compute linear precedence functions in O(n^2) steps 
+is shown, as well as how to compute linear precedence
+functions in O(n) steps, where n is the size of 
+a grammer.  The heart of the algorithms is a general
+theorem giving sufficient conditions under which 
+an expression whose operands are sparse relations and
+whose operators are composition, transitive closure, 
+union, and inverse, can be computed efficiently.
+
+CACM March, 1977
+
+Hunt, H. B. III
+Szymanski, T. G.
+Ullman, J. D.
+
+computational complexity, sparse relation, Boolean
+matrix, directed graph, Wirth-Weber precedence 
+relation, linear precedence function, SLR
+grammar, T-canonical precedence relation
+
+4.12 5.23 5.25
+
+CA770306 JB December 29, 1977  8:05 AM
+
+1542	4	2986
+1683	4	2986
+1693	4	2986
+1781	4	2986
+1787	4	2986
+1836	4	2986
+1945	4	2986
+2060	4	2986
+2061	4	2986
+2082	4	2986
+2091	4	2986
+2152	4	2986
+2179	4	2986
+2221	4	2986
+2340	4	2986
+2340	4	2986
+2340	4	2986
+2356	4	2986
+2546	4	2986
+2603	4	2986
+2698	4	2986
+2708	4	2986
+2733	4	2986
+2824	4	2986
+2824	4	2986
+2824	4	2986
+2982	4	2986
+2982	4	2986
+2982	4	2986
+2986	4	2986
+2986	4	2986
+2986	4	2986
+2986	4	2986
+2986	4	2986
+3045	4	2986
+3093	4	2986
+3093	4	2986
+3094	4	2986
+1491	5	2986
+1683	5	2986
+1836	5	2986
+2179	5	2986
+2340	5	2986
+2986	5	2986
+2986	5	2986
+2986	5	2986
+
+
+************************
+
+************************
+Document:  CACM-2767.html
+************************
+
+
+A Comparison of Simulation Event List Algorithms
+
+Four algorithms are considered which <B>can be</B> used
+to schedule events in a general purpose discrete 
+simulation system.  Two of the algorithms are new, one
+is based on an end-order tree structure for event 
+notices, and another uses an indexed linear list. The algorithms
+are tested with a set of typical stochastic 
+scheduling distributions especially chosen to show
+the advantages and limitations of the algorithms. 
+ The end-order tree algorithm is shown to be an advantageous,
+immediate replacement for the algorithm 
+in use with current simulation languages.  The most
+promising algorithm uses the indexed list concept. 
+ It will require an adaptive routine before it can
+be employed in general purpose simulators,but its 
+performance is such that further study would be fruitful.
+
+CACM April, 1975
+
+Vaucher, J. G.
+Duval, P.
+
+simulation, time flow mechanisms, event list algorithm,
+simulation, time flow mechanisms, event 
+list algorithm, simulation executive, event scheduling
+routine, discrete system simulation, sorting
+
+3.74 4.22 8.1
+
+CA750410 JB January 9, 1978  3:43 PM
+
+2767	4	2767
+3064	4	2767
+1939	5	2767
+2767	5	2767
+2767	5	2767
+2767	5	2767
+2844	5	2767
+2936	5	2767
+3051	5	2767
+3064	5	2767
+3109	5	2767
+970	6	2767
+1059	6	2767
+1846	6	2767
+1939	6	2767
+2742	6	2767
+2742	6	2767
+2742	6	2767
+2767	6	2767
+2767	6	2767
+2767	6	2767
+2767	6	2767
+2767	6	2767
+2844	6	2767
+2844	6	2767
+2936	6	2767
+
+
+************************
+
+************************
+Document:  CACM-3008.html
+************************
+
+
+Preserving Average Proximity in Arrays
+
+Programmers and data structure designers are often
+forced to choose between alternative structures. 
+ In storing these structures, preserving logical adjacencies
+or "proximity" is usually an important consideration. 
+ The combinatorial problem of storing arrays as various
+kinds of list structures is examined.  Embeddings 
+of graphs are used to model the loss of proximity involved
+in such storage schemes, and an elementary 
+proof that arrays cannot be stored as linear lists with
+bounded loss of proximity is presented.  Average 
+loss of proximity is then considered, and it is shown
+that arrays cannot be stored as linear lists with 
+only bounded loss of average proximity, but <B>can be</B> so
+stored in binary trees.  The former result implies, 
+for instance, that row major order is an asymptotically
+optimal storage strategy for arrays.
+
+CACM March, 1978
+
+DeMillo, R.
+Eisenstat, S.
+Lipton, R.
+
+arrays, graph embedding, linear lists,
+proximity, average proximity, trees
+
+4.34 5.24 5.25 5.32
+
+CA780305 JB March 28, 1978  1:07 PM
+
+1050	4	3008
+1102	4	3008
+378	4	3008
+3008	4	3008
+731	4	3008
+798	4	3008
+209	5	3008
+3008	5	3008
+3008	5	3008
+3008	5	3008
+
+
+************************
+
+
+
+Preserving Average Proximity in Arrays
+
+Programmers and data structure designers <B>are of</B>ten
+forced to choose between alternative structures. 
+ In storing these structures, preserving logical adjacencies
+or "proximity" is usually an important consideration. 
+ The combinatorial problem of storing arrays as various
+kinds of list structures is examined.  Embeddings 
+of graphs are used to model the loss of proximity involved
+in such storage schemes, and an elementary 
+proof that arrays cannot be stored as linear lists with
+bounded loss of proximity is presented.  Average 
+loss of proximity is then considered, and it is shown
+that arrays cannot be stored as linear lists with 
+only bounded loss of average proximity, but can be so
+stored in binary trees.  The former result implies, 
+for instance, that row major order is an asymptotically
+optimal storage strategy for arrays.
+
+CACM March, 1978
+
+DeMillo, R.
+Eisenstat, S.
+Lipton, R.
+
+arrays, graph embedding, linear lists,
+proximity, average proximity, trees
+
+4.34 5.24 5.25 5.32
+
+CA780305 JB March 28, 1978  1:07 PM
+
+1050	4	3008
+1102	4	3008
+378	4	3008
+3008	4	3008
+731	4	3008
+798	4	3008
+209	5	3008
+3008	5	3008
+3008	5	3008
+3008	5	3008
+
+
+************************
+
+************************
+Document:  CACM-1519.html
+************************
+
+
+GEORGE 3-A General Purpose Time Sharing and Operating System
+
+An Operating System is described which will
+run on a wide variety of configurations of the 
+I. 1900, and can handle a large number of online console
+users while at the same time running several 
+off line (background) jobs.  The system is not oriented
+towards either mode and <B>can be</B> either a batch 
+processing system (such as the ATLAS Supervisor, IBSYS,
+or GECOS), or a multiaccess system (resembling, 
+to the user, CTSS or MULTICS), or both simultaneously,
+depending on the installation, which can adjust 
+the Schedulers.  Both online users and off line jobs use
+a common Command Language.  The system includes 
+a Multilevel device-independent File Store.
+
+CACM November, 1967
+
+Oestreicher, M. D.
+Bailey, M. J.
+Strauss, J. I.
+
+CA671101 JB February 27, 1978  1:47 PM
+
+1519	5	1519
+1519	5	1519
+1519	5	1519
+
+
+************************
+
+************************
+Document:  CACM-1169.html
+************************
+
+
+An Algorithm for Minimizing Backboard Wiring Functions
+
+A partially exhaustive algorithm is presented
+for solving the following problem arising from 
+automatic layout of a computer.  Given an ordered set
+E1, E2,..., EN of N computer components, for each 
+permutation of the elements E1, E2.., EN, there is attached
+a value of an integer function F.  The algorithm 
+finds a local minimum of F by evaluating the set {Delta
+F} of the increments corresponding to a certain 
+set of exchanges of two elementshen the exchange
+corresponding to the least negative increment of 
+{Delta F} is performed.  The process is iterated and stopped
+when the set of the increments is a positive 
+or empty set, which, it is proved, corresponds to a
+minimum.  The procedure is similar to the Downhill 
+Method for finding the minimum of a real function F(P),
+and <B>can be</B> applied to other placement problems. 
+ Experimental results are presented with backboards formed
+by many elements and different initial placements.
+
+CACM November, 1965
+
+Pomentale, T.
+
+CA651112 JB March 6, 1978  4:35 PM
+
+1169	5	1169
+1169	5	1169
+1169	5	1169
+
+
+************************
+
+************************
+Document:  CACM-1975.html
+************************
+
+
+A Multiple-Precision Division Algorithm
+
+A generalized division algorithm for use with positive integral operands is 
+presented.  Depending upon the algebraic relationship of the first
+two ciphers of the divisor, one or at most two adjustments to the original 
+divisor and dividend must be performed before the division operation <B>can be</B> 
+initiated. The uniqueness of this method will cause each trial cipher in the 
+quotient to be either equal to or one greater than its final replacement.
+
+CACM November, 1970
+
+Mifsud, C. J.
+
+multiple-precision, division, adjustment, generalize
+
+3.15 4.0 5.1
+
+CA701103 JB February 10, 1978  8:45 AM
+
+1258	4	1975
+1292	4	1975
+1497	4	1975
+1497	4	1975
+1593	4	1975
+1975	4	1975
+1975	4	1975
+1975	4	1975
+2605	4	1975
+1026	5	1975
+1292	5	1975
+1497	5	1975
+1975	5	1975
+1975	5	1975
+1975	5	1975
+2432	5	1975
+1975	6	1975
+
+
+************************
+
+************************
+Document:  CACM-2903.html
+************************
+
+
+Improving Programs by the Introduction of Recursion
+
+A new technique of program transformation,
+called "recursion in troduction," is described and 
+applied to two algorithms which solve pattern matching problems.
+ By using recursion in troduction, algorithms 
+which manipulate a stack are first translated into
+recursive algorithms in which no stack operations 
+occur.  These algorithms are then subjected to a second
+transformation, a method of recursion elimination 
+called "tabulation," to produce programs with a very
+efficient running time.  In particular, it is shown 
+how the fast linear pattern matching algorithm of Knuth,
+Morris, and Pratt <B>can be</B> derived in a few steps 
+from a simple nonlinear stack algorithm.
+
+CACM November, 1977
+
+Bird, R. S.
+
+program transformation, optimization of programs,
+recursion elimination, pattern matching algorithms, 
+stacks, computational induction
+
+4.0 4.2 5.20 5.24 5.25
+
+CA771113 JB December 27, 1977  6:29 AM
+
+2326	4	2903
+2457	4	2903
+2842	4	2903
+2903	4	2903
+2192	5	2903
+2903	5	2903
+2903	5	2903
+2903	5	2903
+
+
+************************
+
+************************
+Document:  CACM-1423.html
+************************
+
+
+A Simple Algorithm for Computing the Generalized Inverse of a Matrix
+
+The generalized inverse of a matrix is important
+in analysis because it provides an extension 
+of the concept of an inverse which applies to all matrices.
+ It also has many applications in numerical 
+analysis, but it is not widely used because the existing
+algorithms are fairly complicated and require 
+considerable storage space.  A simple extension has
+been found to the conventional orthogonalization 
+method for inverting non-singular matrices, which gives
+the generalized inverse with little extra effort 
+and with no additional storage requirements.  The algorithm
+gives the generalized inverse for any m by 
+n matrix A, including the special case when m+n and A
+is non-singular and the case when m>n and rank(A) 
+= n.  In the first case the algorithm gives the ordinary
+inverse of A.  In the second case the algorithm 
+yields the ordinary <B>least squares</B> transformation matrix
+INV(A'A)A' and has the advantage of avoiding 
+the loss of significance which results in forming the product A'A explicitly.
+
+CACM May, 1966
+
+Rust, R.
+Burrus, W. R.
+Schneeberger, C.
+
+CA660514 JB March 3, 1978  9:22 AM
+
+1423	5	1423
+1423	5	1423
+1423	5	1423
+
+
+************************
+
+************************
+Document:  CACM-1698.html
+************************
+
+
+A Statistical Model for Console Behavior in Multiuser Computers
+
+The ability of a computer system to communicate
+with the outside world efficiently is as important 
+as its ability to perform computations efficiently. 
+It is quite difficult to characterize a particular 
+user, but rather easy to characterize the entire user community.
+ Based on the properties of this community 
+we have postulated a hypothetical "virtual console."
+ No claim is made that a virtual console behaves 
+like any actual console, but the entire collection of
+virtual consoles models the collection of actual 
+consoles.  Using the model we answer questions like: 
+How many processes are suspended waiting for console 
+input?  What is the maximum rate at which a process can
+execute?  What bounds <B>can be</B> set on overall buffer 
+requirements?  Answers to these and similar questions
+are needed in certain aspects of operating system 
+design.
+
+CACM September, 1968
+
+Denning, P. J.
+
+statistical models for input-output, operating
+system design, input-output design
+
+4.30 4.41 5.5
+
+CA680903 JB February 22, 1978  9:21 AM
+
+1458	4	1698
+1523	4	1698
+1603	4	1698
+1698	4	1698
+1747	4	1698
+1748	4	1698
+1854	4	1698
+1877	4	1698
+1960	4	1698
+2377	4	1698
+2378	4	1698
+2497	4	1698
+2558	4	1698
+2625	4	1698
+2632	4	1698
+2840	4	1698
+2941	4	1698
+3105	4	1698
+3144	4	1698
+1471	5	1698
+1698	5	1698
+1698	5	1698
+1698	5	1698
+
+
+************************
+
+************************
+Document:  CACM-3142.html
+************************
+
+
+Consumer Difficulties With Computerized Transactions: 
+An Empirical Investigation
+
+The prevalence with which errors may be encountered by the 
+end targets of a computerized process is assessed.  How many and
+what type of errors occur?  How easily are they corrected?  What
+is the reaction of consumers to errors-to a failure to correct
+them?  What <B>can be</B> learned by designers of large management packages
+from such data? Results show that with the present state of the
+art, approximately 40 percent of individuals (or households) having
+average contacts with different types of accounts experience one
+or more errors per year.  Eighty percent relate to billing.  Attempts
+to correct errors often turned out to be difficult and not always
+successful. There appears to be some conflict between computer-using
+organizations and their public.  Also the role of poor man
+agement packages including poor software is indicated.  While most
+management systems may be adequate, results of the survey raise
+concerns about the timeliness and the number of designs of very
+large linked program packages (as EFT for instance).  
+
+CACM May, 1979
+
+Sterling, T.
+
+Errors, systems errors, billing errors, management systems, consumers
+
+2.0 2.1 2.12 2.2 3.50 3.52 3.55 4.19 4.6
+
+CA790503 DH June 5, 1979  3:21 PM
+
+3142	4	3142
+3142	4	3142
+3179	4	3142
+3178	4	3142
+3182	4	3142
+3183	4	3142
+2583	5	3142
+3076	5	3142
+3142	5	3142
+3142	5	3142
+3142	5	3142
+3178	5	3142
+3076	6	3142
+3140	6	3142
+3142	6	3142
+3179	6	3142
+3180	6	3142
+3181	6	3142
+3182	6	3142
+
+
+************************
+
+************************
+Document:  CACM-2849.html
+************************
+
+
+Ethernet: Distributed Packet Switching for Local Computer Networks
+
+Ethernet is a branching broadcast communication
+system for carrying digital data packets among 
+locally distributed computing stations. The packet
+transport mechanism provided by Ethernet has been 
+used to build systems which <B>can be</B> viewed as either local
+computer networks or loosely coupled multiprocessors. 
+ An Ethernet's shared communication facility, its Ether,
+is a passive broadcast medium with no central 
+control.  Coordination of access to the Ether for packet
+broadcasts is distributed among the contending 
+transmitting stations using controlled statistical arbitration.
+ Switching of packets to their destinations 
+on the Ether is distributed among the receiving stations
+using packet address recognition.  Design principles 
+and implementation are described, based on experience
+with an operating Ethernet of 100 nodes along a 
+kilometer of coaxial cable.  A model for estimating performance
+under heavy loads and a packet protocol 
+for error controlled communication are included for completeness.
+
+CACM July, 1976
+
+Metcalfe, R. M.
+Boggs, D. R.
+
+computer networks, packet switching, multiprocessing,
+distributed control, distributed computing, 
+broadcast communication, statistical arbitration
+
+3.81 4.32 6.35
+
+CA760704 JB January 4, 1978  12:49 PM
+
+2849	4	2849
+2371	5	2849
+2849	5	2849
+2849	5	2849
+2849	5	2849
+3032	5	2849
+3119	5	2849
+2245	6	2849
+2798	6	2849
+2849	6	2849
+2849	6	2849
+2859	6	2849
+
+
+************************
+
+************************
+Document:  CACM-2970.html
+************************
+
+
+Achieving Specific Accuracy in Simulation Output Analysis
+
+This paper extends the use of the regenerative
+property of queueing systems in the analysis 
+of simulation output.  In particular, it describes a
+sequential estimation method which when used with 
+the regenerative property allows results to be obtained
+with specified statistical accuracy.  This method 
+includes a test to check the normality assumption on
+which the sequential procedure relies.  The paper 
+illustrates the method using the empty and idle state
+as the regenerative state.  A second example then 
+describes how using the most frequently entered state
+as the regenerative state reduces the chance of 
+making a costly error in a preliminary simulation run.
+ The paper also described how a variance reduction 
+method due to Page [9] <B>can be</B> used to obtain a specified
+accuracy with considerably fewer job completions 
+than are required when no variance reduction technique is applied.
+
+CACM May, 1977
+
+Fishman, G. S.
+
+confidence in terval, ratio estimator, regenerative
+property, sequential estimator, simulation, 
+stopping rule, variance reduction
+
+5.5 8.1
+
+CA770502 JB December 29, 1977  2:43 AM
+
+2970	5	2970
+2970	5	2970
+2970	5	2970
+
+
+************************
+
+************************
+Document:  CACM-1609.html
+************************
+
+
+Scheduling University Course Examinations by Computer
+
+A new approach to the problem of scheduling
+course examinations is presented.  In principle, 
+an examination schedule which requires a minimum number
+of examination periods and satisfies the constraint 
+that no student be required to take two examinations
+simultaneously <B>can be</B> found in two steps.  First, 
+course which may have their examinations scheduled at
+the same period are grouped together in all possible 
+ways.  Then a minimum number of these groups, such that
+each course is included at least once, are selected. 
+ By removing multiple occurrences of courses and then scheduling
+each group at a different period a minimal 
+schedule can be obtained.  Known algorithms for carrying
+out these procedures are prohibitively expensive. 
+ Approximations to the ideal procedure outlined above are
+given which yield nonminimal but feasible schedules 
+with a very small expenditure of time.  Results of experiments
+using these techniques are given.  These 
+are encouraging and indicate that further experimentation would be worthwhile.
+
+CACM April, 1967
+
+Hall Jr., A. D.
+Acton, F. S.
+
+CA670406 JB February 28, 1978  11:22 AM
+
+1609	4	1609
+2052	4	1609
+1013	5	1609
+1609	5	1609
+1609	5	1609
+1609	5	1609
+
+
+************************
+
+************************
+Document:  CACM-2634.html
+************************
+
+
+An Evaluation of Statistical Software in the Social Sciences 
+
+Several hundred college and university computer
+installations now offer various types of statistical 
+<B>packages for</B> general use.  Among those most widely available
+are OSIRIS, SPSS, BMD, DATA-TEXT, and TSAR. 
+ In order to provide users with a basis for selection
+and use, tests were made for each of these systems, 
+and the results are summarized as to cost and performance.
+
+CACM June, 1974
+
+Slysz, W. D.
+
+statistical computation, statistical software,
+descriptive statistics, bivariate tables, Pearson 
+correlation, regression, factor analysis, one-way analysis of variance
+
+1.3 3.30 4.19 4.22 4.49 5.5
+
+CA740612 JB January 17, 1978  2:54 PM
+
+2634	5	2634
+2634	5	2634
+2634	5	2634
+
+
+************************
+
+************************
+Document:  CACM-1366.html
+************************
+
+
+Computer Simulation-Discussion of the
+Technique and Comparison of Languages 
+
+The purpose of this paper is to present a comparison
+of some computer simulation languages 
+and of some of the involved in comparing software packages
+for digital computers are discussed in Part 
+I.  The issue is obvious: users of digital computers
+must choose from available languages or write their 
+own.  Substantial costs can occur, particularly in training,
+implementation and computer time if an inappropriate 
+language is chosenore and more computer simulation
+languages are being developed: comparisons and 
+evaluations of existing languages are useful for designers
+and implementers as well as users.  The second 
+part is devoted to computer simulation and simulation
+languages.  The computational characteristics of 
+simulation are discussed with  special attention being
+paid to a distinction between continuous and discrete 
+change models.  Part III presents a detailed comparison
+of six simulation languages and packages: SIMSCRIPT, 
+CLP, CSL, GASP, CPSS and SOL.  The characteristics of
+each are summarized in a series of tables.  The 
+implications of this analysis for designers of languages,
+for users, and for implementers are developed. 
+ The conclusion of the paper is that the packages now
+available for computer simulation offer features 
+which none of the more general-purpose packages do and
+that analysis of strengths and weaknesses of each 
+suggests ways in which both current and future simulation
+languages and packages <B>can be</B> improved.
+
+CACM October, 1966
+
+Teichroew, D.
+Lubin, J. F.
+
+CA661001 JB March 2, 1978  4:23 PM
+
+1366	5	1366
+1366	5	1366
+1366	5	1366
+1503	5	1366
+1781	5	1366
+1860	5	1366
+2091	5	1366
+123	6	1366
+196	6	1366
+919	6	1366
+990	6	1366
+1007	6	1366
+1046	6	1366
+1131	6	1366
+1139	6	1366
+1140	6	1366
+1149	6	1366
+1198	6	1366
+1215	6	1366
+1223	6	1366
+1265	6	1366
+1303	6	1366
+1323	6	1366
+1358	6	1366
+1366	6	1366
+1366	6	1366
+1366	6	1366
+1366	6	1366
+1389	6	1366
+1421	6	1366
+1421	6	1366
+1460	6	1366
+1462	6	1366
+1463	6	1366
+1467	6	1366
+1468	6	1366
+1477	6	1366
+1477	6	1366
+1491	6	1366
+1491	6	1366
+1496	6	1366
+1496	6	1366
+1531	6	1366
+1535	6	1366
+1565	6	1366
+1601	6	1366
+1602	6	1366
+1613	6	1366
+1614	6	1366
+1626	6	1366
+1626	6	1366
+1641	6	1366
+1641	6	1366
+1785	6	1366
+1786	6	1366
+1787	6	1366
+1788	6	1366
+205	6	1366
+224	6	1366
+249	6	1366
+288	6	1366
+316	6	1366
+378	6	1366
+381	6	1366
+398	6	1366
+11	6	1366
+404	6	1366
+410	6	1366
+463	6	1366
+464	6	1366
+483	6	1366
+3184	6	1366
+3184	6	1366
+3188	6	1366
+584	6	1366
+600	6	1366
+680	6	1366
+691	6	1366
+763	6	1366
+799	6	1366
+
+
+************************
+
+************************
+Document:  CACM-2771.html
+************************
+
+
+The Synthesis of Solids Bounded by Many Faces
+
+A technique is presented which allows a class
+of solid objects to be synthesized and stored 
+using a computer.  Synthesis begins with primitive solids
+like a cube, wedge, or cylinder.  Any solid 
+<B>can be</B> moved, scaled, or rotated.  Solids may also be
+added together or subtracted.  Two algorithms to 
+perform addition are described.  For practical designers,
+the technique has the advantage that operations 
+are concise, readily composed, and are given in terms
+of easily imagined solidsuite short sequences 
+of operations suffice to build up complex solids bounded by many faces.
+
+CACM April, 1975
+
+Braid, I. C.
+
+computational geometry, computer-aided design,
+graphics, machined components, polyhedra, shape 
+synthesis, three-dimensional modeling
+
+3.2 8.2
+
+CA750406 JB January 9, 1978  3:59 PM
+
+2771	5	2771
+2771	5	2771
+2771	5	2771
+2827	5	2771
+3116	5	2771
+2751	6	2771
+2771	6	2771
+2771	6	2771
+
+
+************************
+
+************************
+Document:  CACM-1344.html
+************************
+
+
+Statistical Computations Based Upon Algebraically Specified Models
+
+Based upon a machine-readable statistical model
+and related symbolic specifications, an efficient 
+method of performing calculations f<B>or statistical</B> models
+of a balanced complete nature is presented. 
+ Fixes, mixed, and random analysis of variance models
+are considered.  A procedure for obtaining variance 
+components and calculated F statistics for the model terms is included.
+
+CACM December, 1966
+
+Schlater, J. E.
+Hemerle, W. J.
+
+CA661206 JB March 2, 1978  2:33 PM
+
+1344	5	1344
+1344	5	1344
+1344	5	1344
+
+
+************************
+
+************************
+Document:  CACM-1978.html
+************************
+
+
+The Use of Interactive Graphics To Solve Numerical Problems
+
+With the advent of on-line (time-sharing) computer systems
+and graphic terminals, we have available a new dimension
+in numerical problem solving capabilities.  Rather than simply use
+the new power to achieve fast turnaround, we can develop interactive
+routines which are easy to use and also take advantage of the
+insight and visual capabilities of the human problem solver.  Several
+on-line systems for general purpose mathematical problem solving
+have already been implemented as well as some special purpose
+systems for solving problems in a particular area such as ordinary
+differential equations.  The advantage of restricting the problem
+area is that the interface with a user <B>can be</B> greatly simplified.
+In this paper we discuss some of the advantages accrued by such
+systems and design considerations for interactive routines.  Furthermore,
+an implementation of an on-line least squares data-fitting
+program, PEG, is presented with results obtained from empirical
+data.  In conclusion, area for future work in this field are discussed.
+
+CACM October, 1970
+
+Smith, L. B.
+
+interactive graphics, computer graphics, graphics, least squares,
+data-fitting, interactive computing, on-line mathematics
+
+1.3 3.1 5.13 5.5
+
+CA701012 JB February 10, 1978  9:14 AM
+
+1978	4	1978
+1978	4	1978
+1978	4	1978
+1307	5	1978
+1589	5	1978
+1813	5	1978
+1978	5	1978
+1978	5	1978
+1978	5	1978
+
+
+************************
+
+
+
+The Use of Interactive Graphics To Solve Numerical Problems
+
+With the advent of on-line (time-sharing) computer systems
+and graphic terminals, we have available a new dimension
+in numerical problem solving capabilities.  Rather than simply use
+the new power to achieve fast turnaround, we can develop interactive
+routines which are easy to use and also take advantage of the
+insight and visual capabilities of the human problem solver.  Several
+on-line systems for general purpose mathematical problem solving
+have already been implemented as well as some special purpose
+systems for solving problems in a particular area such as ordinary
+differential equations.  The advantage of restricting the problem
+area is that the interface with a user can be greatly simplified.
+In this paper we discuss some of the advantages accrued by such
+systems and design considerations for interactive routines.  Furthermore,
+an implementation of an on-line <B>least squares</B> data-fitting
+program, PEG, is presented with results obtained from empirical
+data.  In conclusion, area for future work in this field are discussed.
+
+CACM October, 1970
+
+Smith, L. B.
+
+interactive graphics, computer graphics, graphics, least squares,
+data-fitting, interactive computing, on-line mathematics
+
+1.3 3.1 5.13 5.5
+
+CA701012 JB February 10, 1978  9:14 AM
+
+1978	4	1978
+1978	4	1978
+1978	4	1978
+1307	5	1978
+1589	5	1978
+1813	5	1978
+1978	5	1978
+1978	5	1978
+1978	5	1978
+
+
+************************
+
+************************
+Document:  CACM-3138.html
+************************
+
+
+A Mathematical Programming Updating Method Using Modified
+Givens Transformations and Applied to LP Problems
+
+An efficient and numerically stable method is presented for the problem of
+updating an orthogonal decomposition of a matrix of column (or row) vectors.
+The fundamental idea is to add a column (or row) analogous
+to adding an additional row of data in a linear <B>least squares</B> problem.
+A column (or row) is dropped by a formal scaling with the
+imaginary unit,  -1, followed by least squares addition of the column
+(or row).  The elimination process for the procedure is successive
+ssive application of the Givens transformation in modified (more efficient)
+form.  These ideas are illustrated with an implementation
+of the revised simplex method.  The algorithm is a general purpose
+one that does not account for any particular structure or sparsity
+in the equations.  Some suggested computational tests for determining
+signs of various controlling parameters in the revised simplex
+algorithm are mentioned.  A simple means of constructing
+test cases and some sample computing times are presented. 
+
+CACM April, 1979
+
+Hanson, R.
+Wisniewski, J.
+
+Linear programming, numerical linear algebra, modified Givens transformations,
+linear programming test cases
+
+5 5.4 5.41 5.1 5.14
+
+CA790404 DH May 21, 1979  2:06 PM
+
+3099	4	3138
+3138	4	3138
+1313	5	3138
+3138	5	3138
+3138	5	3138
+3138	5	3138
+
+
+************************
+
+************************
+Document:  CACM-2779.html
+************************
+
+
+Discrete Least Squares Polynomial Fits
+
+The recurrence relation between orthogonal polynomials
+is widely used for discrete <B>least squares</B> 
+data fitting.  A variant of the classical algorithm
+which has better numerical properties is presented 
+and the reason for its improved performance is explained.
+
+CACM March, 1975
+
+Shampine, L. F.
+
+orthogonal polynomials, data fitting, least squares,
+recurrence relation between orthogonal polynomials, 
+residual
+
+5.11 5.13
+
+CA750309 JB January 9, 1978  4:29 PM
+
+2779	5	2779
+2779	5	2779
+2779	5	2779
+
+
+************************
+
+************************
+Document:  CACM-3156.html
+************************
+
+
+Computing Connected Components on Parallel Computers
+
+We present a parallel algorithm which uses n2 processors to find the connected
+components of an undirected graph with n vertices in time O(log2n).  An
+O(log2n) time bound also <B>can be</B> achieved using only n$n/$log2n)) processors.
+The algorithm can be used to find the transitive closure
+of a symmetric Boolean matrix.  We assume that the processors have
+access to a common memory.  Simultaneous access to the same location
+is permitted for fetch instructions but not for store instructions.
+
+CACM August, 1979
+
+Hirschberg, D.
+Chandra, A.
+Sarwate, D.
+
+Graph theory, parallel processing, algorithms,
+transitive closure, connected component
+
+5.25 5.32 6.22
+
+CA790802 DB January 4, 1980  12:18 PM
+
+3075	4	3156
+3156	4	3156
+3156	4	3156
+3156	4	3156
+2289	5	3156
+2973	5	3156
+3075	5	3156
+3156	5	3156
+3156	5	3156
+3156	5	3156
+
+
+************************
+
+************************
+Document:  CACM-0981.html
+************************
+
+
+Rounding Problems in Commercial Data Processing
+
+A common requirement in commercial data processing
+is that the sum of a set of numbers, rounded 
+in a generally understood manner, be equal to the sum
+of the numbers rounded individually.  Four rounding 
+procedures are described to accomplish this.  The particular
+procedure that is appropriate depends upon 
+whether the numbers being accumulated can vary in sign,
+whether their sum can vary in sign, and whether 
+the last number being summed <B>can be</B> recognized as such prior to its rounding.
+
+CACM November, 1964
+
+Kelley, T. B.
+
+CA641102 JB March 9, 1978  4:25 PM
+
+981	5	981
+981	5	981
+981	5	981
+
+
+************************
+
+************************
+Document:  CACM-2670.html
+************************
+
+
+Efficient Implementation of a Variable Projection
+Algorithm for Nonlinear Least Squares Problems
+
+Nonlinear <B>least squares</B> frequently arise for which
+the variables to be solved for can be separated 
+into a linear and a nonlinear part.  A variable projection
+algorithm has been developed recently which 
+is designed to take advantage of the structure of a problem
+whose variables separate in this way.  This 
+paper gives a slightly more efficient and slightly more
+general version of this algorithm than has appeared 
+earlier.
+
+CACM March, 1974
+
+Krogh, F. T.
+
+nonlinear least squares, parameter estimation, variable projection
+
+5.14 5.15
+
+CA740313 JB January 18, 1978  10:49 AM
+
+2670	5	2670
+2670	5	2670
+2670	5	2670
+
+
+************************
+
+
+
+Efficient Implementation of a Variable Projection
+Algorithm for Nonlinear Least Squares Problems
+
+Nonlinear least squares frequently arise for which
+the variables to be solved for <B>can be</B> separated 
+into a linear and a nonlinear part.  A variable projection
+algorithm has been developed recently which 
+is designed to take advantage of the structure of a problem
+whose variables separate in this way.  This 
+paper gives a slightly more efficient and slightly more
+general version of this algorithm than has appeared 
+earlier.
+
+CACM March, 1974
+
+Krogh, F. T.
+
+nonlinear least squares, parameter estimation, variable projection
+
+5.14 5.15
+
+CA740313 JB January 18, 1978  10:49 AM
+
+2670	5	2670
+2670	5	2670
+2670	5	2670
+
+
+************************
+
+************************
+Document:  CACM-2145.html
+************************
+
+
+Automation of Etching-Pattern Layout
+
+HELP (Heuristic Etching-Pattern Layout Program)
+is an application program developed to computerize 
+the tedious and error-prone although vitally important
+wiring design of printed circuit boards.  HELP 
+helps automate a design stage one step closer to production
+than logical design.  It <B>can be</B> used to design 
+wiring patterns of two-layer circuit boards on which
+ICs in dual-in-line packages as well as discrete 
+components such as transistors and resistors have been
+placed.  HELP employs two methods of wiring.  
+One is the heuristic method, which simulates human
+approaches to wiring design, and the other is the 
+theoretically interesting but time-consuming method of
+maze-running, based on the Lee's algorithm.  HELP 
+performs more than 90 percent of required wiring by
+the heuristic path with respect to a performance 
+function for each point-to-point, and point-to-line
+connection.  It can bring the number of successful 
+wiring connections very close to 100 percent.
+
+CACM November, 1971
+
+Aramaki, I.
+Kawabata, T.
+Kazuhiko, A.
+
+heuristic etching-pattern layout, wiring design of
+printed circuit board, maze-running, Lee's algorithm
+
+3.24 3.66 4.9 6.9
+
+CA711104 JB February 2, 1978  10:58 AM
+
+2145	5	2145
+2145	5	2145
+2145	5	2145
+
+
+************************
+
+************************
+Document:  CACM-2994.html
+************************
+
+
+A Linear Algorithm for Incremental Digital Display of Circular Arcs
+
+Circular arcs <B>can be</B> drawn on an incremental
+display device such as a cathode ray tube, digital 
+plotter, or matrix prin ter using only sign testing and
+elementary addition and subtraction.  This paper 
+describes methodology for producing dot or
+step patterns closet to the true circle.
+
+CACM February, 1977
+
+Bresenham, J.
+
+graphics, circle drawing, step generation, dot
+generation, incremental digital plotting, raster 
+display, integer arithmetic, circle algorithm
+
+4.41 8.2
+
+CA770207 JB December 30, 1977  2:16 AM
+
+2994	5	2994
+2994	5	2994
+2994	5	2994
+
+
+************************
+
+************************
+Document:  CACM-2695.html
+************************
+
+
+Tridiagonalization by Permutations
+
+Tridiagonalizing a matrix by similarity transformations
+is an important computational tool 
+in numerical linear algebra. Consider the class of sparse
+matrices which <B>can be</B> tridiagonalized using 
+only row and corresponding column permutations.  The
+advantages of using such a transformation include 
+the absence of round-off errors and improved computation time
+when compared with standard transformations. 
+ A graph theoretic algorithm which examines an arbitrary
+n x n matrix and determines whether or not it 
+can be permuted into tridiagonal form is given.  The
+algorithm requires no arithmetic while the number 
+of comparisons, the number of assignments, and the number
+of increments are linear in n.  This compares 
+very favorably with standard transformation methods.
+ If the matrix is permutable into tridiagonal form, 
+the algorithm gives the explicit tridiagonal form.
+ Otherwise, early rejection will occur.
+
+CACM January, 1974
+
+Gibbs, N. E.
+Poole, W. G. Jr.
+
+tridiagonal matrix, permutation, algorithm,
+eigenvalues, graph, bandwidth, sparse matrix
+
+5.14 5.32
+
+CA740104 JB January 18, 1978  2:31 PM
+
+2695	5	2695
+2695	5	2695
+2695	5	2695
+
+
+************************
+
+************************
+Document:  CACM-1650.html
+************************
+
+
+A Unifying Computational Method for the
+Analysis of Complete Factorial Experiments
+
+A computational method which may be used for
+the calculation of sums of squares in the analysis 
+of variance of complete factorial experiments and in
+the computation of main effect or interaction means 
+is described.  The method is elucidated as unifying since
+one method <B>can be</B> used for a variety of purposes 
+each previously requiring different methods.  The programming
+advantages of such a method are obvious. 
+ The following variants are discussed: (1) the standard
+analysis of variance; (2) analyses omitting certain 
+levels of one or more factors; (3) separate analyses
+for some levels of a factor or for combinations 
+of levels of more than one factor.  These are performed
+simultaneously; (4) the calculation of main effect 
+or interaction means.  The mean expects the data in standard
+order and it leaves the data in that order 
+so that many analyses of the same data can be performed
+without rearrangement.  The total sum of squares, 
+excluding a replication sum of squares, is partitioned
+into all polynomial partitions and their interactions 
+each with one degree of freedom.  This is so even
+if factors have unequally spaced factor levels.
+
+CACM January, 1967
+
+Cooper, B. E.
+
+CA670105 JB February 28, 1978  4:49 PM
+
+1650	5	1650
+1650	5	1650
+1650	5	1650
+
+
+************************
+
+************************
+Document:  CACM-1644.html
+************************
+
+
+On the Computation of Least Squares Polynomials
+
+Rounding error accumulated during digital computation
+of a <B>least squares</B> polynomial makes the 
+computed polynomial only an approximation to the true least
+square polynomial.  A simple method for adjust ing 
+the constant term of the computed polynomial to get
+a better approximation to the true least squares 
+polynomial is described.
+
+CACM January, 1967
+
+Goldberg, M.
+
+CA670111 JB February 28, 1978  4:24 PM
+
+1644	5	1644
+1644	5	1644
+1644	5	1644
+
+
+************************
+
+************************
+Document:  CACM-2665.html
+************************
+
+
+Copying List Structures Using Bounded Workspace
+
+Two new algorithms are presented for list structure
+copying using bounded workspace.  The first, 
+of primarily theoretical interest, shows that without
+cell tag bits the task <B>can be</B> performed in time 
+n^2.  The second algorithm, assuming one tag bit in
+each cell, delivers attractive practical speed.  
+Any noncyclic structure is copied in linear speed, while
+cyclic structures are copied in average time 
+less than nlogn.  No foreknowledge of cycle absence
+is necessary to achieve linear speed.  A variation 
+of the second algorithm solves an open problem concerning
+list structure marking.  That result demonstrates 
+that marking can be done in average time nlogn without
+the aid of supplemental tag bits or stacks.
+
+CACM April, 1974
+
+Lindstrom, G.
+
+list processing, copying, marking, space complexity
+
+4.34 5.25
+
+CA740405 JB January 18, 1978  9:55 AM
+
+1869	4	2665
+2513	4	2665
+2665	4	2665
+2665	4	2665
+2723	4	2665
+2855	4	2665
+3106	4	2665
+1383	5	2665
+1549	5	2665
+2665	5	2665
+2665	5	2665
+2665	5	2665
+2766	5	2665
+2954	5	2665
+3106	5	2665
+1549	6	2665
+210	6	2665
+1972	6	2665
+2665	6	2665
+2665	6	2665
+2665	6	2665
+2766	6	2665
+2766	6	2665
+2855	6	2665
+2954	6	2665
+2998	6	2665
+
+
+************************
+

@@ -1,136 +1,176 @@
 Snippets for the query:  The use of computer science principles (e.g. data structures, numerical methods) in generating optimization (e.g. linear programming) algorithms. This includes issues of the Khachian (Russian, ellipsoidal) algorithm and complexity of such algorithms.
 ************************
-Total Hits:  6
+Total Hits:  92
 ************************
 
 ************************
-Document:  CACM-3103.html
+Document:  CACM-1353.html
 ************************
 
 
-Automatic Data Structure Selection: An Example and Overview
+Techniques for Automatic Tolerance Control in Linear Programming
 
-The use of several levels of abstraction has
-proved to be very helpful in constructing and 
-maintaining programs.  When programs are designed with abstract
-data types such as sets and lists, programmer 
-time can be saved by automating the process of filling
-in low-level implementation details.  In the past, 
-programming systems have provided only a single general
-purpose implementation for an abstract type. 
- Thus the programs produced using abstract types were
-then inefficient in space or time.  In this paper 
-a system for automatically choosing efficient implementations
-for abstract types from a library of implementations 
-is discussed.  This process is discussed in detail for
-an example program.  General issues in data structure 
-selection are also reviewed. 
+In this technical note, the numerical steps
+for the simplex method of linear programming are 
+reviewed and the tolerances needed in the numerical procedure
+are defined.  Objective criteria are given 
+for accomplishing the numerical steps <B>of the</B> method
+and the calculation of necessary tolerances.
 
-CACM May, 1978
+CACM November, 1966
 
-Low, J.
+Clasen, R. J.
 
-Abstract data types, automatic programming, data
-structures, optimizing compilers, sets, lists
+CA661105 JB March 2, 1978  3:37 PM
 
-4.12 4.22 4.6
-
-CA780504 DH February 26, 1979  1:51 PM
-
-1957	4	3103
-2151	4	3103
-3103	4	3103
-3103	4	3103
-3148	4	3103
-1860	5	3103
-2877	5	3103
-3103	5	3103
-3103	5	3103
-3103	5	3103
+1353	5	1353
+1353	5	1353
+1353	5	1353
+2589	5	1353
+1353	6	1353
 
 
 ************************
 
 ************************
-Document:  CACM-2308.html
+Document:  CACM-2325.html
 ************************
 
 
-Computers and Urban Society
+Numerical Mathematics and Computer Science
 
-This brief survey of the use of computers in
-urban society covers the broad range of activities 
-found in any city.  The future scope of applications is
-limited only by the imagination and inventiveness 
-of future system designers, programmers, analysts, and
-decision makers.  The computer can be, if properly 
-used, with respect for human dignity and civil liberty,
-a significant factor in improving the efficiency 
-of the urban process.  It is expected that the benefits
-of such computer usage will outweigh the costs 
-and that we may look forward to an expansion of such usage.
+Numerical mathematics is viewed as the analysis
+of continuous algorithms.  Four <B>of the</B> components 
+of numerical mathematics are discussed.  These are: foundations
+(finite precision number systems, computational 
+complexity), synthesis and analysis of algorithms,
+analysis of error, programs and program libraries.
 
 CACM July, 1972
 
-Sturman, G. M.
+Traub, J. F.
 
-urban systems, urban applications, data acquisition,
-data management, engineering analysis, information 
-systems
+numerical mathematics, computer science, mathematics
+of computation, algorithms, continuous algorithms
 
-3.23 3.39 3.53 3.72 3.82 3.89
+1.3 5.0 5.1 5.25
 
-CA720720 JB January 30, 1978  11:05 AM
+CA720703 JB January 30, 1978  3:17 PM
 
-2308	5	2308
-2308	5	2308
-2308	5	2308
+1086	4	2325
+1132	4	2325
+1234	4	2325
+1263	4	2325
+1265	4	2325
+1270	4	2325
+1323	4	2325
+1358	4	2325
+1379	4	2325
+1380	4	2325
+1453	4	2325
+1464	4	2325
+1484	4	2325
+1491	4	2325
+1498	4	2325
+1613	4	2325
+1614	4	2325
+1781	4	2325
+1825	4	2325
+1860	4	2325
+2083	4	2325
+2178	4	2325
+2179	4	2325
+2252	4	2325
+2325	4	2325
+2341	4	2325
+2546	4	2325
+2645	4	2325
+2652	4	2325
+2684	4	2325
+2842	4	2325
+2929	4	2325
+2934	4	2325
+3069	4	2325
+669	4	2325
+679	4	2325
+691	4	2325
+761	4	2325
+949	4	2325
+989	4	2325
+2325	5	2325
+2325	5	2325
+2325	5	2325
+3184	5	2325
 
 
 ************************
 
-************************
-Document:  CACM-2310.html
-************************
 
 
-Language Analysis in the Humanities
+Numerical Mathematics and Computer Science
 
-The use of the computer in the language-oriented
-humanities for exhaustive listing of detail 
-(as in indices and concordances) is widespread and accepted
-as desirable.  The implications of the computer 
-for a "science" of the humanities-a science entailing
-gathering data for the construction and testing 
-of models-are neither widely recognized nor accepted.
- This paper argues that the computer's  major role 
-as to language analysis in the humanities will be the
-establishing of such a sciencehus, for those 
-areas of the humanities for which rigor and precision
-are necessary (e.g. analyzing literature or teaching 
-a student to write a composition) the computer
-can be a critically important facilitator.
+Numerical mathematics is viewed as the analysis
+of continuous algorithms.  Four of the components 
+of numerical mathematics are discussed.  These are: foundations
+(finite precision number systems, computational 
+complexity), synthesis and analysis of algorithms,
+analysis of error, programs and program libraries.
 
 CACM July, 1972
 
-Sedelow, S. Y.
+Traub, J. F.
 
-language analysis, humanities, science of the humanities,
-pattern recognition, pattern generation, 
-interdisciplinary cooperation
+numerical mathematics, <B>computer science</B>, mathematics
+of computation, algorithms, continuous algorithms
 
-1.3 2.19 3.42 3.43
+1.3 5.0 5.1 5.25
 
-CA720718 JB January 30, 1978  11:19 AM
+CA720703 JB January 30, 1978  3:17 PM
 
-2127	4	2310
-2309	4	2310
-2310	4	2310
-2396	4	2310
-1856	5	2310
-2310	5	2310
-2310	5	2310
-2310	5	2310
+1086	4	2325
+1132	4	2325
+1234	4	2325
+1263	4	2325
+1265	4	2325
+1270	4	2325
+1323	4	2325
+1358	4	2325
+1379	4	2325
+1380	4	2325
+1453	4	2325
+1464	4	2325
+1484	4	2325
+1491	4	2325
+1498	4	2325
+1613	4	2325
+1614	4	2325
+1781	4	2325
+1825	4	2325
+1860	4	2325
+2083	4	2325
+2178	4	2325
+2179	4	2325
+2252	4	2325
+2325	4	2325
+2341	4	2325
+2546	4	2325
+2645	4	2325
+2652	4	2325
+2684	4	2325
+2842	4	2325
+2929	4	2325
+2934	4	2325
+3069	4	2325
+669	4	2325
+679	4	2325
+691	4	2325
+761	4	2325
+949	4	2325
+989	4	2325
+2325	5	2325
+2325	5	2325
+2325	5	2325
+3184	5	2325
 
 
 ************************
@@ -142,7 +182,7 @@ Document:  CACM-2899.html
 
 A Survey of Computer Science Offerings In Small Liberal Arts Colleges.
 
-Recent curricular development in computer science
+Recent curricular development in <B>computer science</B>
 together with student in terest in pursuing 
 topics in computer science beyond the usual programming
 courses have encouraged small liberal arts colleges 
@@ -186,6 +226,2137 @@ CA771201 JB December 22, 1977  5:53 PM
 
 ************************
 
+
+
+A Survey of Computer Science Offerings In Small Liberal Arts Colleges.
+
+Recent curricular development in computer science
+together with student in terest in pursuing 
+topics in computer science beyond the usual programming
+courses have encouraged small liberal arts colleges 
+to expand their offerings.  This paper summarizes the
+results of a survey taken to determine the type 
+<B>of computer</B> science programs being offered in these
+colleges.  The results indicate that over half of 
+these colleges either have no computer science
+program or offer only programming courses.
+
+CACM December, 1977
+
+Lopez, A. A.
+Raymond, R.
+Tardiff, R.
+
+computer science, education, curricula, small colleges
+
+1.5
+
+CA771201 JB December 22, 1977  5:53 PM
+
+1720	4	2899
+1927	4	2899
+2147	4	2899
+2163	4	2899
+2345	4	2899
+2478	4	2899
+2594	4	2899
+2852	4	2899
+2899	4	2899
+2899	4	2899
+3003	4	2899
+3130	4	2899
+1771	5	2899
+2538	5	2899
+2899	5	2899
+2899	5	2899
+2899	5	2899
+
+
+************************
+
+************************
+Document:  CACM-1212.html
+************************
+
+
+Non-linear Extrapolation and Two-Point Boundary Value Problems
+
+It is suggested that the convergence properties
+of the usual Picard successive approximation 
+scheme may be improved through <B>use of</B> non-linrar extrapolation
+techniques.  A numerical example is provided.
+
+CACM August, 1965
+
+Bellman, R.
+Kagiada, H.
+Kalba, R.
+
+CA650812 JB March 6, 1978  8:05 PM
+
+1212	5	1212
+1212	5	1212
+1212	5	1212
+
+
+************************
+
+
+
+Non-linear Extrapolation and Two-Point Boundary Value Problems
+
+It is suggested that the convergence properties
+<B>of the</B> usual Picard successive approximation 
+scheme may be improved through use of non-linrar extrapolation
+techniques.  A numerical example is provided.
+
+CACM August, 1965
+
+Bellman, R.
+Kagiada, H.
+Kalba, R.
+
+CA650812 JB March 6, 1978  8:05 PM
+
+1212	5	1212
+1212	5	1212
+1212	5	1212
+
+
+************************
+
+************************
+Document:  CACM-1719.html
+************************
+
+
+A Methodology for Calculating and
+Optimizing Real-Time System Performance
+
+The continually increasing size, complexity,
+number of types, and cost of data processing systems 
+are causing serious re-examination within government
+and industry <B>of the</B> criteria for and methods of 
+calculating and optimizing data processing system cost
+and performance.  Real-time data processing systems 
+as typified by the automated airline reservation system
+are discussed in this paper.  Criteria for evaluating 
+performance are described; a methodology for calculating
+and optimizing is outlined; and the method is 
+illustrated by carrying out a portion of the performance
+calculation and the optimization of a drum-oriented 
+message switching system.
+
+CACM July, 1968
+
+Stimler, S.
+Brons, K. A.
+
+real-time system analysis, real-time system design,
+real-time system performance criteria, real-time 
+system cost performance ratio
+
+3.27 3.80 3.81 3.89 6.9
+
+CA680710 JB February 22, 1978  11:40 AM
+
+1719	5	1719
+1719	5	1719
+1719	5	1719
+2319	5	1719
+1408	6	1719
+1719	6	1719
+1749	6	1719
+1751	6	1719
+2016	6	1719
+2017	6	1719
+2080	6	1719
+2188	6	1719
+2203	6	1719
+2204	6	1719
+
+
+************************
+
+************************
+Document:  CACM-1654.html
+************************
+
+
+A University's Educational Program in Computer Science
+
+After a review of the power of contemporary computers,
+computer science is defined in several 
+ways.  The objectives <B>of computer</B> science education are
+stated, and it is asserted that in a North American 
+university these will be achieved only through a computer
+science department.  The program at Stanford 
+University is reviewed as an example.  The appendices
+include syllabic of Ph. qualifying examinations 
+for Stanford's Computer Science Department.
+
+CACM January, 1967
+
+Forsythe, G. E.
+
+CA670101 JB March 1, 1978  9:13 AM
+
+1413	4	1654
+1654	4	1654
+1771	4	1654
+2478	4	1654
+1205	5	1654
+1654	5	1654
+1654	5	1654
+1654	5	1654
+1720	5	1654
+1771	5	1654
+1205	6	1654
+1654	6	1654
+1654	6	1654
+1771	6	1654
+
+
+************************
+
+
+
+A University's Educational Program in Computer Science
+
+After a review of the power of contemporary computers,
+<B>computer science</B> is defined in several 
+ways.  The objectives of computer science education are
+stated, and it is asserted that in a North American 
+university these will be achieved only through a computer
+science department.  The program at Stanford 
+University is reviewed as an example.  The appendices
+include syllabic of Ph. qualifying examinations 
+for Stanford's Computer Science Department.
+
+CACM January, 1967
+
+Forsythe, G. E.
+
+CA670101 JB March 1, 1978  9:13 AM
+
+1413	4	1654
+1654	4	1654
+1771	4	1654
+2478	4	1654
+1205	5	1654
+1654	5	1654
+1654	5	1654
+1654	5	1654
+1720	5	1654
+1771	5	1654
+1205	6	1654
+1654	6	1654
+1654	6	1654
+1771	6	1654
+
+
+************************
+
+
+
+A University's Educational Program in Computer Science
+
+After a review <B>of the</B> power of contemporary computers,
+computer science is defined in several 
+ways.  The objectives of computer science education are
+stated, and it is asserted that in a North American 
+university these will be achieved only through a computer
+science department.  The program at Stanford 
+University is reviewed as an example.  The appendices
+include syllabic of Ph. qualifying examinations 
+for Stanford's Computer Science Department.
+
+CACM January, 1967
+
+Forsythe, G. E.
+
+CA670101 JB March 1, 1978  9:13 AM
+
+1413	4	1654
+1654	4	1654
+1771	4	1654
+2478	4	1654
+1205	5	1654
+1654	5	1654
+1654	5	1654
+1654	5	1654
+1720	5	1654
+1771	5	1654
+1205	6	1654
+1654	6	1654
+1654	6	1654
+1771	6	1654
+
+
+************************
+
+************************
+Document:  CACM-2986.html
+************************
+
+
+Operations on Sparse Relations
+
+Various computations on relations, Boolean matrices,
+or directed graphs, such as the computation 
+of precedence relations for a context-free grammar, can be
+done by a practical algorithm that is asymptotically 
+faster than those in common use.  For example, how to compute
+operator precedence or Wirth-Weber precedence 
+relations in O(n^2) steps is shown, as well as how to
+compute linear precedence functions in O(n^2) steps 
+is shown, as well as how to compute linear precedence
+functions in O(n) steps, where n is the size of 
+a grammer.  The heart <B>of the</B> algorithms is a general
+theorem giving sufficient conditions under which 
+an expression whose operands are sparse relations and
+whose operators are composition, transitive closure, 
+union, and inverse, can be computed efficiently.
+
+CACM March, 1977
+
+Hunt, H. B. III
+Szymanski, T. G.
+Ullman, J. D.
+
+computational complexity, sparse relation, Boolean
+matrix, directed graph, Wirth-Weber precedence 
+relation, linear precedence function, SLR
+grammar, T-canonical precedence relation
+
+4.12 5.23 5.25
+
+CA770306 JB December 29, 1977  8:05 AM
+
+1542	4	2986
+1683	4	2986
+1693	4	2986
+1781	4	2986
+1787	4	2986
+1836	4	2986
+1945	4	2986
+2060	4	2986
+2061	4	2986
+2082	4	2986
+2091	4	2986
+2152	4	2986
+2179	4	2986
+2221	4	2986
+2340	4	2986
+2340	4	2986
+2340	4	2986
+2356	4	2986
+2546	4	2986
+2603	4	2986
+2698	4	2986
+2708	4	2986
+2733	4	2986
+2824	4	2986
+2824	4	2986
+2824	4	2986
+2982	4	2986
+2982	4	2986
+2982	4	2986
+2986	4	2986
+2986	4	2986
+2986	4	2986
+2986	4	2986
+2986	4	2986
+3045	4	2986
+3093	4	2986
+3093	4	2986
+3094	4	2986
+1491	5	2986
+1683	5	2986
+1836	5	2986
+2179	5	2986
+2340	5	2986
+2986	5	2986
+2986	5	2986
+2986	5	2986
+
+
+************************
+
+************************
+Document:  CACM-1066.html
+************************
+
+
+Growing Applications of Linear Programming
+
+Use of linear programming models has grown so
+extensively in recent years that the whole concept 
+for organizing a computer code has undergone a radical
+change.  It no longer is adequate merely to reduce 
+a mathematical algorithm (i.e. the simplex method) to
+a computer code.  An advanced code must cope with 
+such a variety of situations that the respective computer
+subprograms must be organized into an integrated 
+system.  Emphasis in this paper is devoted to the underlying
+principles upon which future linear programming 
+systems must be based.  These viewpoints are influenced
+by the new demands that applications within the 
+petroleum industry are placing on such systems.  Some
+of the components <B>of such</B> a system are: translation 
+of problem statement in terms of basic data to linear
+programming matrix coefficients, data transmission 
+for direct computer entry, data file at the computer center,
+data processing and editing prior to solving 
+the simplex algorithm, an efficient and reliable code
+for solving the above-mentioned algorithm, and 
+flexible means for summarizing the results.
+
+CACM June, 1964
+
+Aronofsky, J. S.
+
+CA640601 JB March 9, 1978  9:55 PM
+
+1066	5	1066
+1066	5	1066
+1066	5	1066
+
+
+************************
+
+
+
+Growing Applications of Linear Programming
+
+Use of linear programming models has grown so
+extensively in recent years that the whole concept 
+for organizing a computer code has undergone a radical
+change.  It no longer is adequate merely to reduce 
+a mathematical algorithm (i.e. the simplex method) to
+a computer code.  An advanced code must cope with 
+such a variety of situations that the respective computer
+subprograms must be organized into an integrated 
+system.  Emphasis in this paper is devoted to the underlying
+principles upon which future linear programming 
+systems must be based.  These viewpoints are influenced
+by the new demands that applications within the 
+petroleum industry are placing on such systems.  Some
+<B>of the</B> components of such a system are: translation 
+of problem statement in terms of basic data to linear
+programming matrix coefficients, data transmission 
+for direct computer entry, data file at the computer center,
+data processing and editing prior to solving 
+the simplex algorithm, an efficient and reliable code
+for solving the above-mentioned algorithm, and 
+flexible means for summarizing the results.
+
+CACM June, 1964
+
+Aronofsky, J. S.
+
+CA640601 JB March 9, 1978  9:55 PM
+
+1066	5	1066
+1066	5	1066
+1066	5	1066
+
+
+************************
+
+************************
+Document:  CACM-2879.html
+************************
+
+
+Computer Science as Empirical Inquiry: Symbols and Search
+
+CACM March, 1976
+
+Newell, A.
+Simon, H. A.
+
+symbols, search, science, <B>computer science</B>, empirical,
+Turing, artificial intelligence, intelligence, 
+list processing, cognition, heuristics, problem solving
+
+1.0 2.1 3.3 3.6 5.7
+
+CA760301 JB January 5, 1978  8:39 AM
+
+1024	4	2879
+1051	4	2879
+1102	4	2879
+1132	4	2879
+1390	4	2879
+1486	4	2879
+1549	4	2879
+1706	4	2879
+1826	4	2879
+1878	4	2879
+378	4	2879
+2060	4	2879
+2155	4	2879
+2168	4	2879
+2719	4	2879
+2723	4	2879
+2838	4	2879
+2842	4	2879
+2855	4	2879
+2879	4	2879
+3077	4	2879
+3080	4	2879
+3106	4	2879
+627	4	2879
+106	4	2879
+210	5	2879
+2879	5	2879
+2879	5	2879
+2879	5	2879
+
+
+************************
+
+************************
+Document:  CACM-3022.html
+************************
+
+
+Computer Science Faculties: The Current Status of Minorities and Women
+
+The results of a survey conducted in the fall
+of 1975 to determine the status of women and 
+minority faculty members in academic <B>computer science</B>
+are presented.  Faculty members were compared with 
+respect to professional background, salaries, teaching
+load, publication records, and research grants. 
+ Analysis of the data indicated that the over-all verdict
+is one of general equality among women, minorities, 
+and men.
+
+CACM February, 1978
+
+Mamrak, S.
+Montanelli, Rr.
+
+discrimination against women, discrimination against
+minorities, faculty, computer science degree 
+programs, affirmative action, teaching loads, salaries, publications
+
+1.52 1.53 2.2 2.3
+
+CA780201 JB March 28, 1978  5:11 PM
+
+3022	4	3022
+3123	4	3022
+2823	5	3022
+3022	5	3022
+3022	5	3022
+3022	5	3022
+3123	5	3022
+2823	6	3022
+2861	6	3022
+2962	6	3022
+3022	6	3022
+
+
+************************
+
+
+
+Computer Science Faculties: The Current Status of Minorities and Women
+
+The results of a survey conducted in the fall
+of 1975 to determine the status of women and 
+minority faculty members in academic computer science
+are presented.  Faculty members were compared with 
+respect to professional background, salaries, teaching
+load, publication records, and research grants. 
+ Analysis <B>of the</B> data indicated that the over-all verdict
+is one of general equality among women, minorities, 
+and men.
+
+CACM February, 1978
+
+Mamrak, S.
+Montanelli, Rr.
+
+discrimination against women, discrimination against
+minorities, faculty, computer science degree 
+programs, affirmative action, teaching loads, salaries, publications
+
+1.52 1.53 2.2 2.3
+
+CA780201 JB March 28, 1978  5:11 PM
+
+3022	4	3022
+3123	4	3022
+2823	5	3022
+3022	5	3022
+3022	5	3022
+3022	5	3022
+3123	5	3022
+2823	6	3022
+2861	6	3022
+2962	6	3022
+3022	6	3022
+
+
+************************
+
+************************
+Document:  CACM-3103.html
+************************
+
+
+Automatic Data Structure Selection: An Example and Overview
+
+The <B>use of</B> several levels of abstraction has
+proved to be very helpful in constructing and 
+maintaining programs.  When programs are designed with abstract
+data types such as sets and lists, programmer 
+time can be saved by automating the process of filling
+in low-level implementation details.  In the past, 
+programming systems have provided only a single general
+purpose implementation for an abstract type. 
+ Thus the programs produced using abstract types were
+then inefficient in space or time.  In this paper 
+a system for automatically choosing efficient implementations
+for abstract types from a library of implementations 
+is discussed.  This process is discussed in detail for
+an example program.  General issues in data structure 
+selection are also reviewed. 
+
+CACM May, 1978
+
+Low, J.
+
+Abstract data types, automatic programming, data
+structures, optimizing compilers, sets, lists
+
+4.12 4.22 4.6
+
+CA780504 DH February 26, 1979  1:51 PM
+
+1957	4	3103
+2151	4	3103
+3103	4	3103
+3103	4	3103
+3148	4	3103
+1860	5	3103
+2877	5	3103
+3103	5	3103
+3103	5	3103
+3103	5	3103
+
+
+************************
+
+
+
+Automatic Data Structure Selection: An Example and Overview
+
+<B>The use</B> of several levels of abstraction has
+proved to be very helpful in constructing and 
+maintaining programs.  When programs are designed with abstract
+data types such as sets and lists, programmer 
+time can be saved by automating the process of filling
+in low-level implementation details.  In the past, 
+programming systems have provided only a single general
+purpose implementation for an abstract type. 
+ Thus the programs produced using abstract types were
+then inefficient in space or time.  In this paper 
+a system for automatically choosing efficient implementations
+for abstract types from a library of implementations 
+is discussed.  This process is discussed in detail for
+an example program.  General issues in data structure 
+selection are also reviewed. 
+
+CACM May, 1978
+
+Low, J.
+
+Abstract data types, automatic programming, data
+structures, optimizing compilers, sets, lists
+
+4.12 4.22 4.6
+
+CA780504 DH February 26, 1979  1:51 PM
+
+1957	4	3103
+2151	4	3103
+3103	4	3103
+3103	4	3103
+3148	4	3103
+1860	5	3103
+2877	5	3103
+3103	5	3103
+3103	5	3103
+3103	5	3103
+
+
+************************
+
+************************
+Document:  CACM-3018.html
+************************
+
+
+Covering Edges by Cliques with Regard to
+Keyword Conflicts and Intersection Graphs
+
+Kellerman has presented a method for determining
+keyword conflicts and described a heuristic 
+algorithm which solves a certain combinatorial optimization
+problem in connection with this method.  
+This optimization problem is here shown to be equivalent
+to the problem of covering the edges of a graph 
+by complete subgraphs with the objective of minimizing
+the number of complete subgraphs.  A relationship 
+between this edge-clique-cover problem and the graph coloring
+problem is established which allows algorithms 
+for either one <B>of the</B>se problems to be constructed
+from algorithm for the other.  As consequences of 
+this relationship, the keyword conflict problem and the
+edge-clique-cover problem are shown to be NP-complete, 
+and if P=/NP then they do not admit polynomial-time approximation
+algorithms which always produce solutions 
+within a factor less than 2 from the optimum.
+
+CACM February, 1978
+
+Kou, L.
+Stockmeyer, L.
+Wong, C.
+Watson, T.
+
+keyword conflicts, intersection graphs, node clique
+cover, edge clique cover, computational complexity, 
+NP-complete problems, polynomial-time heuristics
+
+4.12 5.25 5.32
+
+CA780205 JB March 28, 1978  4:18 PM
+
+3018	5	3018
+3018	5	3018
+3018	5	3018
+
+
+************************
+
+************************
+Document:  CACM-2310.html
+************************
+
+
+Language Analysis in the Humanities
+
+<B>The use</B> of the computer in the language-oriented
+humanities for exhaustive listing of detail 
+(as in indices and concordances) is widespread and accepted
+as desirable.  The implications of the computer 
+for a "science" of the humanities-a science entailing
+gathering data for the construction and testing 
+of models-are neither widely recognized nor accepted.
+ This paper argues that the computer's  major role 
+as to language analysis in the humanities will be the
+establishing of such a sciencehus, for those 
+areas of the humanities for which rigor and precision
+are necessary (e.g. analyzing literature or teaching 
+a student to write a composition) the computer
+can be a critically important facilitator.
+
+CACM July, 1972
+
+Sedelow, S. Y.
+
+language analysis, humanities, science of the humanities,
+pattern recognition, pattern generation, 
+interdisciplinary cooperation
+
+1.3 2.19 3.42 3.43
+
+CA720718 JB January 30, 1978  11:19 AM
+
+2127	4	2310
+2309	4	2310
+2310	4	2310
+2396	4	2310
+1856	5	2310
+2310	5	2310
+2310	5	2310
+2310	5	2310
+
+
+************************
+
+
+
+Language Analysis in the Humanities
+
+The use of the computer in the language-oriented
+humanities for exhaustive listing of detail 
+(as in indices and concordances) is widespread and accepted
+as desirable.  The implications of the computer 
+for a "science" of the humanities-a science entailing
+gathering data for the construction and testing 
+of models-are neither widely recognized nor accepted.
+ This paper argues that the computer's  major role 
+as to language analysis in the humanities will be the
+establishing <B>of such</B> a sciencehus, for those 
+areas of the humanities for which rigor and precision
+are necessary (e.g. analyzing literature or teaching 
+a student to write a composition) the computer
+can be a critically important facilitator.
+
+CACM July, 1972
+
+Sedelow, S. Y.
+
+language analysis, humanities, science of the humanities,
+pattern recognition, pattern generation, 
+interdisciplinary cooperation
+
+1.3 2.19 3.42 3.43
+
+CA720718 JB January 30, 1978  11:19 AM
+
+2127	4	2310
+2309	4	2310
+2310	4	2310
+2396	4	2310
+1856	5	2310
+2310	5	2310
+2310	5	2310
+2310	5	2310
+
+
+************************
+
+
+
+Language Analysis in the Humanities
+
+The use <B>of the</B> computer in the language-oriented
+humanities for exhaustive listing of detail 
+(as in indices and concordances) is widespread and accepted
+as desirable.  The implications of the computer 
+for a "science" of the humanities-a science entailing
+gathering data for the construction and testing 
+of models-are neither widely recognized nor accepted.
+ This paper argues that the computer's  major role 
+as to language analysis in the humanities will be the
+establishing of such a sciencehus, for those 
+areas of the humanities for which rigor and precision
+are necessary (e.g. analyzing literature or teaching 
+a student to write a composition) the computer
+can be a critically important facilitator.
+
+CACM July, 1972
+
+Sedelow, S. Y.
+
+language analysis, humanities, science of the humanities,
+pattern recognition, pattern generation, 
+interdisciplinary cooperation
+
+1.3 2.19 3.42 3.43
+
+CA720718 JB January 30, 1978  11:19 AM
+
+2127	4	2310
+2309	4	2310
+2310	4	2310
+2396	4	2310
+1856	5	2310
+2310	5	2310
+2310	5	2310
+2310	5	2310
+
+
+************************
+
+
+
+Language Analysis in the Humanities
+
+The <B>use of</B> the computer in the language-oriented
+humanities for exhaustive listing of detail 
+(as in indices and concordances) is widespread and accepted
+as desirable.  The implications of the computer 
+for a "science" of the humanities-a science entailing
+gathering data for the construction and testing 
+of models-are neither widely recognized nor accepted.
+ This paper argues that the computer's  major role 
+as to language analysis in the humanities will be the
+establishing of such a sciencehus, for those 
+areas of the humanities for which rigor and precision
+are necessary (e.g. analyzing literature or teaching 
+a student to write a composition) the computer
+can be a critically important facilitator.
+
+CACM July, 1972
+
+Sedelow, S. Y.
+
+language analysis, humanities, science of the humanities,
+pattern recognition, pattern generation, 
+interdisciplinary cooperation
+
+1.3 2.19 3.42 3.43
+
+CA720718 JB January 30, 1978  11:19 AM
+
+2127	4	2310
+2309	4	2310
+2310	4	2310
+2396	4	2310
+1856	5	2310
+2310	5	2310
+2310	5	2310
+2310	5	2310
+
+
+************************
+
+************************
+Document:  CACM-2823.html
+************************
+
+
+The Status of Women and Minorities in Academic Computer Science
+
+The results of a survey concerning women and
+minority students and faculty in computer science 
+during the years 1971 to 1975 are presented.  Analysis
+<B>of the</B> data indicated that effective affirmative 
+action programs for recruitment into graduate degree
+programs are needed to enlarge the number of women 
+and minorities qualified for later employment in computer
+science.  Also, possible discrimination in 
+employment of women and minority graduate students was revealed. 
+
+CACM October, 1976
+
+Montanelli, R. G. Jr.
+Mamrak, S. A.
+
+discrimination against women, discrimination against
+minorities, graduate students, undergraduate 
+students, academic employment, faculty, computer science
+degree programs, affirmative action, Title VII, 
+Title IX
+
+1.52 1.53 2.2 2.3
+
+CA761008 JB January 3, 1978  4:10 PM
+
+2823	4	2823
+2735	5	2823
+2823	5	2823
+2823	5	2823
+2823	5	2823
+3022	5	2823
+3123	5	2823
+2823	6	2823
+2823	6	2823
+2861	6	2823
+2962	6	2823
+3022	6	2823
+
+
+************************
+
+
+
+The Status of Women and Minorities in Academic Computer Science
+
+The results of a survey concerning women and
+minority students and faculty in <B>computer science</B> 
+during the years 1971 to 1975 are presented.  Analysis
+of the data indicated that effective affirmative 
+action programs for recruitment into graduate degree
+programs are needed to enlarge the number of women 
+and minorities qualified for later employment in computer
+science.  Also, possible discrimination in 
+employment of women and minority graduate students was revealed. 
+
+CACM October, 1976
+
+Montanelli, R. G. Jr.
+Mamrak, S. A.
+
+discrimination against women, discrimination against
+minorities, graduate students, undergraduate 
+students, academic employment, faculty, computer science
+degree programs, affirmative action, Title VII, 
+Title IX
+
+1.52 1.53 2.2 2.3
+
+CA761008 JB January 3, 1978  4:10 PM
+
+2823	4	2823
+2735	5	2823
+2823	5	2823
+2823	5	2823
+2823	5	2823
+3022	5	2823
+3123	5	2823
+2823	6	2823
+2823	6	2823
+2861	6	2823
+2962	6	2823
+3022	6	2823
+
+
+************************
+
+************************
+Document:  CACM-1195.html
+************************
+
+
+UPLIFTS-University of Pittsburgh Linear File Tandem System
+
+A series <B>of computer</B> programs has been developed
+and is now operational for processing the 
+National Aeronautics and Space Administration linear file
+system on an IBM 1401-7090 combined data processing 
+system.  The program are note-worthy in that they create
+fixed length logical records and fixed length 
+blocks from variable length source data, and format
+the output for optimization of processing on the 
+IBM 7090 system.  The programs are completely self-checking
+and test for both validity and accuracy of 
+the input materials as provided by the National
+Aeronautics and Space Administration.
+
+CACM September, 1965
+
+Canter, J. D.
+Donaghey, C. E.
+
+CA650911 JB March 6, 1978  7:10 PM
+
+1195	5	1195
+1195	5	1195
+1195	5	1195
+
+
+************************
+
+************************
+Document:  CACM-3010.html
+************************
+
+
+Value Orientation of Computer Science Students
+
+Technological and nontechnological value orientations
+are investigated with special attention 
+to the <B>complexity of</B> value structures.  Computer science
+students, who are closely associated with technology, 
+contrast with social science students, who are often
+technologically aloof.  This is confirmed by the 
+value ratings of 313 students at the University of Minnesota
+in 1972.  Computer science majors were found 
+to have a more complex value structure than social science majors.
+
+CACM March, 1978
+
+Anderson, R.
+
+values, attitudes, students, public, social effects
+
+2.11 2.12
+
+CA780303 JB March 28, 1978  1:21 PM
+
+3010	5	3010
+3010	5	3010
+3010	5	3010
+
+
+************************
+
+************************
+Document:  CACM-2930.html
+************************
+
+
+The GRE Advanced Test in Computer Science
+
+This report describes the Advanced Test in
+Computer Science which was recently in troduced in 
+the Graduate Record Examination Program.  The GRE program
+is described in general, and, the events leading 
+to the establishment <B>of the</B> Advanced Computer Science
+Test are discussed.  Content specifications and 
+their rationale are given.  A set of sample questions is included.
+
+CACM September, 1977
+
+Austing, R. H.
+
+education, computer science, graduate school
+admissions, test development examinations
+
+1.5
+
+CA770903 JB December 27, 1977  1:32 PM
+
+2930	5	2930
+2930	5	2930
+2930	5	2930
+
+
+************************
+
+
+
+The GRE Advanced Test in Computer Science
+
+This report describes the Advanced Test in
+Computer Science which was recently in troduced in 
+the Graduate Record Examination Program.  The GRE program
+is described in general, and, the events leading 
+to the establishment of the Advanced Computer Science
+Test are discussed.  Content specifications and 
+their rationale are given.  A set of sample questions is included.
+
+CACM September, 1977
+
+Austing, R. H.
+
+education, <B>computer science</B>, graduate school
+admissions, test development examinations
+
+1.5
+
+CA770903 JB December 27, 1977  1:32 PM
+
+2930	5	2930
+2930	5	2930
+2930	5	2930
+
+
+************************
+
+************************
+Document:  CACM-1385.html
+************************
+
+
+Computer Technology in Communist China, 1956-1965
+
+Based on information from translations of Communist
+Chinese news items and periodical literature 
+for the 1965 period, computer technology in China is
+reviewed under the following headings: (1) initial 
+planning, organization and educational aspects <B>of computer</B>
+technology and automation; (2) machine development 
+progress: two major specific machines in 1958-59, with
+Soviet aid; a vacuum in 1960-64 due to the withdrawal 
+of Soviet aid; then presumably all-Chinese-made machines
+from 1965 to the present; (3) computer applications; 
+(4) the trend of automation: control of production processes
+rather than data processing; and (5) the 
+"Yun Ch'ou Hsueh" (Science of Operation and Programming)
+campaign of 1958-60, during which an attempt 
+was made to bring concepts such as linear programming
+to ordinary Chinese workers and peasants.  Communist 
+China is adjudged to have a marginal computer capability,
+with most of its machines probably being of 
+a binary nature; however, a turning point may have been reached in mid-1965.
+
+CACM September, 1966
+
+Audette, D. G.
+
+CA660901 JB March 2, 1978  6:59 PM
+
+1385	5	1385
+1385	5	1385
+1385	5	1385
+
+
+************************
+
+************************
+Document:  CACM-1659.html
+************************
+
+
+Computational Linguistics in a Ph. Computer Science Program
+
+This report contains recommendations for a
+course curriculum on computational linguistics in 
+a Ph. computer science program.  A classification <B>of the</B>
+subject areas contained in computational linguistics 
+is presented, and ten courses in these areas are described.
+ A basic bibliography in computational linguistics 
+is appended.
+
+CACM December, 1968
+
+Kuno, S.
+Oettinger, A. G.
+
+computational linguistics, mathematical linguistics,
+language and computer, language data processing, 
+computational linguistics course curriculum, computational
+linguistics graduate program, computational 
+linguistics bibliography, computer science curriculum
+
+1.52 3.42 3.43
+
+CA681207 JB February 21, 1978  1:37 PM
+
+1350	4	1659
+1350	4	1659
+1399	4	1659
+1659	4	1659
+1659	4	1659
+1659	4	1659
+1659	4	1659
+1659	4	1659
+1768	4	1659
+1781	4	1659
+1856	4	1659
+1945	4	1659
+2050	4	1659
+2110	4	1659
+3094	4	1659
+1225	5	1659
+1265	5	1659
+1350	5	1659
+1659	5	1659
+1659	5	1659
+1659	5	1659
+1671	5	1659
+1697	5	1659
+1927	5	1659
+3003	5	1659
+1659	6	1659
+1659	6	1659
+1678	6	1659
+1771	6	1659
+1927	6	1659
+1945	6	1659
+2097	6	1659
+2147	6	1659
+2163	6	1659
+2187	6	1659
+2329	6	1659
+2345	6	1659
+2367	6	1659
+2407	6	1659
+2478	6	1659
+2479	6	1659
+2480	6	1659
+2538	6	1659
+
+
+************************
+
+
+
+Computational Linguistics in a Ph. Computer Science Program
+
+This report contains recommendations for a
+course curriculum on computational linguistics in 
+a Ph. <B>computer science</B> program.  A classification of the
+subject areas contained in computational linguistics 
+is presented, and ten courses in these areas are described.
+ A basic bibliography in computational linguistics 
+is appended.
+
+CACM December, 1968
+
+Kuno, S.
+Oettinger, A. G.
+
+computational linguistics, mathematical linguistics,
+language and computer, language data processing, 
+computational linguistics course curriculum, computational
+linguistics graduate program, computational 
+linguistics bibliography, computer science curriculum
+
+1.52 3.42 3.43
+
+CA681207 JB February 21, 1978  1:37 PM
+
+1350	4	1659
+1350	4	1659
+1399	4	1659
+1659	4	1659
+1659	4	1659
+1659	4	1659
+1659	4	1659
+1659	4	1659
+1768	4	1659
+1781	4	1659
+1856	4	1659
+1945	4	1659
+2050	4	1659
+2110	4	1659
+3094	4	1659
+1225	5	1659
+1265	5	1659
+1350	5	1659
+1659	5	1659
+1659	5	1659
+1659	5	1659
+1671	5	1659
+1697	5	1659
+1927	5	1659
+3003	5	1659
+1659	6	1659
+1659	6	1659
+1678	6	1659
+1771	6	1659
+1927	6	1659
+1945	6	1659
+2097	6	1659
+2147	6	1659
+2163	6	1659
+2187	6	1659
+2329	6	1659
+2345	6	1659
+2367	6	1659
+2407	6	1659
+2478	6	1659
+2479	6	1659
+2480	6	1659
+2538	6	1659
+
+
+************************
+
+************************
+Document:  CACM-1927.html
+************************
+
+
+Information Science in a Ph. Computer Science Program
+
+This report contains recommendations on a sample course
+curriculum in the general area of information 
+organization and information system design in a Ph.
+Computer Science Program.  The subject area is 
+first briefly described, followed by a listing of some desirable
+graduate-level courses.  Suitable bibliographies 
+are appended.
+
+CACM February, 1969
+
+Salton, G.
+
+course curriculum, graduate courses, university
+courses,<B>computer science</B> curriculum, information 
+science, information organization, information retrieval,
+data retrieval, language analysis, information 
+processing
+
+1.52 3.42 3.70
+
+CA690211 JB February 20, 1978  9:50 AM
+
+1720	4	1927
+1927	4	1927
+1927	4	1927
+2147	4	1927
+2163	4	1927
+2345	4	1927
+2478	4	1927
+2594	4	1927
+2852	4	1927
+2899	4	1927
+3003	4	1927
+3130	4	1927
+1659	5	1927
+1771	5	1927
+1927	5	1927
+1927	5	1927
+1927	5	1927
+2163	5	1927
+3003	5	1927
+1659	6	1927
+1678	6	1927
+1720	6	1927
+1771	6	1927
+1927	6	1927
+1927	6	1927
+1945	6	1927
+2097	6	1927
+2147	6	1927
+2163	6	1927
+2181	6	1927
+2187	6	1927
+2329	6	1927
+2345	6	1927
+2367	6	1927
+2407	6	1927
+2478	6	1927
+2479	6	1927
+2480	6	1927
+2538	6	1927
+
+
+************************
+
+************************
+Document:  CACM-2592.html
+************************
+
+
+On Generation of Test Problems for Linear Programming Codes
+
+Users of linear programming computer codes have
+realized the necessity of evaluating the capacity, 
+effectiveness, and accuracy <B>of the</B> solutions provided
+by such codes.  Large scale linear programming 
+codes at most installations are assumed to be generating correct
+solutions without ever having been "bench-marked" 
+by test problems with known solutions.  The reason for
+this failure to adequately test the codes is that 
+rarely are there large problems with known solutions readily
+available.  This paper presents a theoretical 
+justification and an illustrative implementation of a method
+for generating linear programming test problems 
+with known solutions.  The method permits the generation
+of test problems that are of arbitrary size 
+and have a wide range of numerical characteristics.
+
+CACM October, 1974
+
+Charnes, A.
+Raike, W. M.
+Stutz, J. D.
+Walters, A. S.
+
+linear programming, test problem generation,
+LP program evaluation, LP program validation
+
+5.41
+
+CA741006 JB January 16, 1978  12:28 PM
+
+2592	5	2592
+2592	5	2592
+2592	5	2592
+
+
+************************
+
+************************
+Document:  CACM-3162.html
+************************
+
+
+On Improving the Worst Case Running Time
+<B>of the</B> Boyer-Moore String Matching Algorithm
+
+It is shown how to modify the Boyer-Moore string matching algorithm so that
+its worst case running time is linear even when multiple occurrences of the 
+pattern are present in the text.
+
+CACM September, 1979
+
+Galil, Z.
+
+Computational complexity, linear time, worst case, string matching, periodicity
+
+3.74 4.40 5.25
+
+CA790903 DB January 14, 1980  10:27 AM
+
+3162	4	3162
+2916	5	3162
+3162	5	3162
+3162	5	3162
+3162	5	3162
+
+
+************************
+
+************************
+Document:  CACM-2181.html
+************************
+
+
+The State of Computer Oriented Curricula in Business Schools 1970
+
+The ACM Committee on Computer Education for Management,
+supported by a National Science Foundation 
+Grant, is established to appraise the state <B>of the</B> art
+and to develop a series of recommendations for 
+improving computer education for management.  To provide
+the Committee with material for its study of 
+curricular needs, five regional meetings in the United
+States were held in 1970, at each of which a broad 
+cross section of invited academicians and practitioners
+considered the state of curricula in business 
+schools.  Three topics were covered: curricula for
+the general manager; computer-related material in 
+required and functional courses; and curricula for students
+concentrating on computer-based information 
+systems.  An analysis of the minutes of the meetings
+revealed a common set of experiences which raised 
+similar pedagogic and economic issues.  This presentation
+gives a summary of the discussions; a condensation
+of the pedagogic and substantive concerns raised; and
+consideration of the resource allocation issues 
+involved.  Preliminary to the Committee's recommendations
+for improving computer education for management, 
+this report has been prepared to provide the participants
+and the administrators of their institutions 
+with background information for the ongoing task of course
+development.  Chairman of the ten-man Committee 
+is Daniel Teichroew (The University of Michigan).
+
+CACM July, 1971
+
+McKenney, J. L.
+Tonge, F. M.
+
+university programs, management education, curriculum
+design, business administration curricula, 
+graduate business school resource planning
+
+1.52 3.5
+
+CA710701 JB February 3, 1978  9:47 AM
+
+2163	5	2181
+2181	5	2181
+2181	5	2181
+2181	5	2181
+2345	5	2181
+2407	5	2181
+1720	6	2181
+1771	6	2181
+1771	6	2181
+1927	6	2181
+2163	6	2181
+2181	6	2181
+2181	6	2181
+2181	6	2181
+2345	6	2181
+
+
+************************
+
+************************
+Document:  CACM-2835.html
+************************
+
+
+Recursion Analysis for Compiler Optimization
+
+A relatively simple method for the detection
+of recursive <B>use of</B> procedures is presented for 
+use in compiler optimization.  Implementation considerations
+are discussed, and a modification of the 
+algorithm is given to further improve optimization.
+ This analysis can also be used to determine what 
+possible subset of values could be assumed by variables
+which can only take on a relatively small discrete 
+set of values.  The most common are parameters of variables
+assuming values of label, procedure, or Pascal's 
+enumerated type.
+
+CACM September, 1976
+
+Walter, K. G.
+
+recursion, compiler optimization
+
+4.12
+
+CA760904 JB January 4, 1978  9:36 AM
+
+2835	5	2835
+2835	5	2835
+2835	5	2835
+
+
+************************
+
+
+
+Recursion Analysis for Compiler Optimization
+
+A relatively simple method for the detection
+of recursive use of procedures is presented for 
+use in compiler optimization.  Implementation considerations
+are discussed, and a modification <B>of the</B> 
+algorithm is given to further improve optimization.
+ This analysis can also be used to determine what 
+possible subset of values could be assumed by variables
+which can only take on a relatively small discrete 
+set of values.  The most common are parameters of variables
+assuming values of label, procedure, or Pascal's 
+enumerated type.
+
+CACM September, 1976
+
+Walter, K. G.
+
+recursion, compiler optimization
+
+4.12
+
+CA760904 JB January 4, 1978  9:36 AM
+
+2835	5	2835
+2835	5	2835
+2835	5	2835
+
+
+************************
+
+************************
+Document:  CACM-2324.html
+************************
+
+
+Management Science: A View from Nonlinear Programming
+
+A brief history of integer and continuous
+nonlinear programming is presented as well as the 
+current obstacles to practical use <B>of the</B>se mathematical
+programming techniques.  It is forecast that 
+the useful contributions to nonlinear programming actually
+made in the next few years are more likely 
+to be consolidations than theoretical breakthroughs.  These
+contributions are likely to be the documentation 
+of standard test problems, construction of user oriented
+software, and comparisons of currently known 
+algorithms to demonstrate which techniques are best for specific problems.
+
+CACM July, 1972
+
+Shanno, D. F.
+Weil, R. L.
+
+integer programming, linear programming, mathematical
+programming, nonlinear programming, quadratic 
+programming, management science, operations research, algorithms
+
+5.41 8.3
+
+CA720704 JB January 30, 1978  3:14 PM
+
+2324	5	2324
+2324	5	2324
+2324	5	2324
+
+
+************************
+
+
+
+Management Science: A View from Nonlinear Programming
+
+A brief history of integer and continuous
+nonlinear programming is presented as well as the 
+current obstacles to practical <B>use of</B> these mathematical
+programming techniques.  It is forecast that 
+the useful contributions to nonlinear programming actually
+made in the next few years are more likely 
+to be consolidations than theoretical breakthroughs.  These
+contributions are likely to be the documentation 
+of standard test problems, construction of user oriented
+software, and comparisons of currently known 
+algorithms to demonstrate which techniques are best for specific problems.
+
+CACM July, 1972
+
+Shanno, D. F.
+Weil, R. L.
+
+integer programming, linear programming, mathematical
+programming, nonlinear programming, quadratic 
+programming, management science, operations research, algorithms
+
+5.41 8.3
+
+CA720704 JB January 30, 1978  3:14 PM
+
+2324	5	2324
+2324	5	2324
+2324	5	2324
+
+
+************************
+
+************************
+Document:  CACM-1543.html
+************************
+
+
+Computer Formulation of the Equations of Motion Using Tensor Notation
+
+A means is described for extending the area
+of application of digital computers beyond the 
+numerical data processing stage and reducing the need for
+human participation in the formulation of certain 
+types of computer problems.  By the <B>use of</B> tensor calculus
+and a computer language designed to facilitate 
+symbolic mathematical computation, a method has been
+devised whereby a digital computer can be used to 
+do non-numeric work, that is, symbolic algebraic manipulation
+and differentiation. To illustrate the 
+techniques involved, a digital computer has been used
+to derive the equations of motion of a point mass 
+in a general orthogonal curvilinear coordinate system.
+ Since this operation involves a formulation in 
+terms of first- and second-order differential coefficients,
+it provides a good demonstration of a computer's 
+capability to do non-numeric work and to assist in the
+formulation process which normally precedes the 
+numerical data processing stage.  Moreover, this particular
+problem serves to illustrate the advantages 
+of the mathematical techniques employed.  With the program
+prepared for this purpose the computer will 
+derive the equations of motion in any coordinate system
+requested by the user.   Results are presented 
+for the following coordinate systems: cylindrical
+polar, spherical polar, and prolate spheroidal.
+
+CACM September, 1967
+
+Howard, J. C.
+
+CA670903 JB February 27, 1978  3:58 PM
+
+1543	4	1543
+1543	4	1543
+1664	4	1543
+1664	4	1543
+1345	5	1543
+1543	5	1543
+1543	5	1543
+1543	5	1543
+1616	5	1543
+1664	5	1543
+1345	6	1543
+1543	6	1543
+1616	6	1543
+
+
+************************
+
+
+
+Computer Formulation <B>of the</B> Equations of Motion Using Tensor Notation
+
+A means is described for extending the area
+of application of digital computers beyond the 
+numerical data processing stage and reducing the need for
+human participation in the formulation of certain 
+types of computer problems.  By the use of tensor calculus
+and a computer language designed to facilitate 
+symbolic mathematical computation, a method has been
+devised whereby a digital computer can be used to 
+do non-numeric work, that is, symbolic algebraic manipulation
+and differentiation. To illustrate the 
+techniques involved, a digital computer has been used
+to derive the equations of motion of a point mass 
+in a general orthogonal curvilinear coordinate system.
+ Since this operation involves a formulation in 
+terms of first- and second-order differential coefficients,
+it provides a good demonstration of a computer's 
+capability to do non-numeric work and to assist in the
+formulation process which normally precedes the 
+numerical data processing stage.  Moreover, this particular
+problem serves to illustrate the advantages 
+of the mathematical techniques employed.  With the program
+prepared for this purpose the computer will 
+derive the equations of motion in any coordinate system
+requested by the user.   Results are presented 
+for the following coordinate systems: cylindrical
+polar, spherical polar, and prolate spheroidal.
+
+CACM September, 1967
+
+Howard, J. C.
+
+CA670903 JB February 27, 1978  3:58 PM
+
+1543	4	1543
+1543	4	1543
+1664	4	1543
+1664	4	1543
+1345	5	1543
+1543	5	1543
+1543	5	1543
+1543	5	1543
+1616	5	1543
+1664	5	1543
+1345	6	1543
+1543	6	1543
+1616	6	1543
+
+
+************************
+
+
+
+Computer Formulation of the Equations of Motion Using Tensor Notation
+
+A means is described for extending the area
+of application of digital computers beyond the 
+numerical data processing stage and reducing the need for
+human participation in the formulation of certain 
+types <B>of computer</B> problems.  By the use of tensor calculus
+and a computer language designed to facilitate 
+symbolic mathematical computation, a method has been
+devised whereby a digital computer can be used to 
+do non-numeric work, that is, symbolic algebraic manipulation
+and differentiation. To illustrate the 
+techniques involved, a digital computer has been used
+to derive the equations of motion of a point mass 
+in a general orthogonal curvilinear coordinate system.
+ Since this operation involves a formulation in 
+terms of first- and second-order differential coefficients,
+it provides a good demonstration of a computer's 
+capability to do non-numeric work and to assist in the
+formulation process which normally precedes the 
+numerical data processing stage.  Moreover, this particular
+problem serves to illustrate the advantages 
+of the mathematical techniques employed.  With the program
+prepared for this purpose the computer will 
+derive the equations of motion in any coordinate system
+requested by the user.   Results are presented 
+for the following coordinate systems: cylindrical
+polar, spherical polar, and prolate spheroidal.
+
+CACM September, 1967
+
+Howard, J. C.
+
+CA670903 JB February 27, 1978  3:58 PM
+
+1543	4	1543
+1543	4	1543
+1664	4	1543
+1664	4	1543
+1345	5	1543
+1543	5	1543
+1543	5	1543
+1543	5	1543
+1616	5	1543
+1664	5	1543
+1345	6	1543
+1543	6	1543
+1616	6	1543
+
+
+************************
+
+************************
+Document:  CACM-3125.html
+************************
+
+
+Global Optimization by Suppression of Partial Redundancies
+
+The elimination of redundant computations and the moving of invariant
+computations out of loops are often done separately, with invariants 
+moved outward loop by loop.  We propose to do both at once and
+to move each expression directly to the entrance <B>of the</B> outermost
+loop in which it is invariant.  This is done by solving a more
+general problem, i.e. the elimination of computations performed
+twice on a given execution path.  Such computations are termed partially
+redundant.  Moreover, the algorithm does not require any graphical
+information or restrictions on the shape of the program graph.
+Testing this algorithm has shown that its execution cost is nearly
+linear with the size of the program, and that it leads
+to a smaller optimizer that requires less execution time.
+
+CACM February, 1979
+
+Morel, E.
+Renvoise, C.
+
+Optimizer, optimization, compiler, compilation,
+redundancy elimination, invariant
+ computation elimination, partial redundancy,
+data flow analysis, Boolean systems
+
+4.12 5.21 5.24
+
+CA790204 DH April 10, 1979  4:19 PM
+
+3125	5	3125
+3125	5	3125
+3125	5	3125
+
+
+************************
+
+************************
+Document:  CACM-2106.html
+************************
+
+
+Computer Education in a Graduate School of Management
+
+Several years of experience have led to the belief that the creative
+design and evaluation of management information systems requires
+a thorough understanding <B>of the</B> related computer technology.  Concepts
+such as paging and priority interrupt systems can best be explained at the 
+machine language level.  Any machine used for exposition
+should fulfill several criteria.  It should: (1) raise as few
+spurious issues as possible; (2) allow, without undue effort, the
+solution of interesting problems; (3) be capable of exposing all
+outstanding issues of significance, capable of exposing all outstanding
+issues of significance, within the chosen machine; (4) be
+seful for pursuing issues in great depth when appropriate; (5) not
+be committed to the equipment provided by any manufacturer; (6) be able to 
+provide the student with diagnostic aids to a great depth;
+(7) allow the student ready access to the machine; (8) be capable
+of extension to expose new issues as they come along.  We have
+constructed a simulated machine and its associated software which
+meets these criteria.  This system, called the PRISM system,
+is documented by a primer and a reference manual.
+
+CACM February, 1970
+
+Ness, D. N.
+Green, R. S.
+Martin, W. A.
+Moulton, G. A.
+
+education, simulation, machine language,
+management information systems, interpreters
+
+1.52 3.51 4.13 4.21
+
+CA700209 JB February 14, 1978  10:15 AM
+
+2106	5	2106
+2106	5	2106
+2106	5	2106
+
+
+************************
+
+
+
+Computer Education in a Graduate School of Management
+
+Several years of experience have led to the belief that the creative
+design and evaluation of management information systems requires
+a thorough understanding of the related computer technology.  Concepts
+such as paging and priority interrupt systems can best be explained at the 
+machine language level.  Any machine used for exposition
+should fulfill several criteria.  It should: (1) raise as few
+spurious issues as possible; (2) allow, without undue effort, the
+solution of interesting problems; (3) be capable of exposing all
+outstanding <B>issues of</B> significance, capable of exposing all outstanding
+issues of significance, within the chosen machine; (4) be
+seful for pursuing issues in great depth when appropriate; (5) not
+be committed to the equipment provided by any manufacturer; (6) be able to 
+provide the student with diagnostic aids to a great depth;
+(7) allow the student ready access to the machine; (8) be capable
+of extension to expose new issues as they come along.  We have
+constructed a simulated machine and its associated software which
+meets these criteria.  This system, called the PRISM system,
+is documented by a primer and a reference manual.
+
+CACM February, 1970
+
+Ness, D. N.
+Green, R. S.
+Martin, W. A.
+Moulton, G. A.
+
+education, simulation, machine language,
+management information systems, interpreters
+
+1.52 3.51 4.13 4.21
+
+CA700209 JB February 14, 1978  10:15 AM
+
+2106	5	2106
+2106	5	2106
+2106	5	2106
+
+
+************************
+
+************************
+Document:  CACM-1506.html
+************************
+
+
+The LACONIQ Monitor: Time Sharing for Online Dialogues
+
+The LACONIQ (Laboratory Computer Online Inquiry)
+Monitor was developed primarily to support 
+non-numerical applications such as retrieval from very
+large files by means of a "dialogue" between a 
+system user and a retrieval application.  The monitor
+was designed so that it could work with a small 
+computer (an IBM System 360/30).  Therefore techniques
+for resource allocation were important.  For this 
+reason the use of core storage, computational facilities,
+and input-output were all scheduled.  An unusual 
+feature <B>of the</B> system is that it is event-driven rather
+than clock-driven.  The program segments called 
+into execution by the remote CRT consoles are invariably
+run to completion rather than "rolled-out" to 
+be brought back at a later time.
+
+CACM December, 1967
+
+Drew, D. L.
+
+CA671202 JB February 26, 1978  2:45 PM
+
+1506	5	1506
+1506	5	1506
+1506	5	1506
+
+
+************************
+
+
+
+The LACONIQ Monitor: Time Sharing for Online Dialogues
+
+The LACONIQ (Laboratory Computer Online Inquiry)
+Monitor was developed primarily to support 
+non-numerical applications such as retrieval from very
+large files by means of a "dialogue" between a 
+system user and a retrieval application.  The monitor
+was designed so that it could work with a small 
+computer (an IBM System 360/30).  Therefore techniques
+for resource allocation were important.  For this 
+reason the <B>use of</B> core storage, computational facilities,
+and input-output were all scheduled.  An unusual 
+feature of the system is that it is event-driven rather
+than clock-driven.  The program segments called 
+into execution by the remote CRT consoles are invariably
+run to completion rather than "rolled-out" to 
+be brought back at a later time.
+
+CACM December, 1967
+
+Drew, D. L.
+
+CA671202 JB February 26, 1978  2:45 PM
+
+1506	5	1506
+1506	5	1506
+1506	5	1506
+
+
+************************
+
+************************
+Document:  CACM-2813.html
+************************
+
+
+The Computer Science and Engineering Research Study (COSERS)
+
+The Computer Science and Engineering Research
+Study (COSERS) is briefly described.  The motivation, 
+organization, and schedule for this NSF supported study
+are given.  For possible further reference, the 
+subject area panel chairmen and the members
+<B>of the</B> Steering Committee are identified.
+
+CACM December, 1976
+
+Arden, B.
+
+computer science research, computer engineering
+research, national research study
+
+1.0 1.52
+
+CA761202 JB January 3, 1978  2:35 PM
+
+2813	5	2813
+2813	5	2813
+2813	5	2813
+
+
+************************
+
+
+
+The Computer Science and Engineering Research Study (COSERS)
+
+The Computer Science and Engineering Research
+Study (COSERS) is briefly described.  The motivation, 
+organization, and schedule for this NSF supported study
+are given.  For possible further reference, the 
+subject area panel chairmen and the members
+of the Steering Committee are identified.
+
+CACM December, 1976
+
+Arden, B.
+
+<B>computer science</B> research, computer engineering
+research, national research study
+
+1.0 1.52
+
+CA761202 JB January 3, 1978  2:35 PM
+
+2813	5	2813
+2813	5	2813
+2813	5	2813
+
+
+************************
+
+************************
+Document:  CACM-2969.html
+************************
+
+
+Optimal Program and Data Locations in Computer Networks
+
+An optimization procedure for the allocation
+of program and data files in a computer network 
+is presented.  This algorithm takes into account the
+dependencies between files and programs such as 
+occur in real heterogeneous computer networks.  Insights
+into whether or not to convert programs from 
+one computer to another can also be gained from the
+model.  A search procedure for the file location 
+problem is described, along with an example
+and a possible application <B>of the</B> model.
+
+CACM May, 1977
+
+Morgan, H. L.
+Levin, K. D.
+
+computer networks, databases, distributed
+databases, optimal file location
+
+3.81 3.51 4.33
+
+CA770503 JB December 29, 1977  2:22 AM
+
+2969	5	2969
+2969	5	2969
+2969	5	2969
+
+
+************************
+
 ************************
 Document:  CACM-2812.html
 ************************
@@ -193,7 +2364,56 @@ Document:  CACM-2812.html
 
 Computer-Aided Analysis and Design of Information Systems
 
-This paper describes the use of computer-aided
+This paper describes the <B>use of</B> computer-aided
+analysis for the design and development of an 
+integrated financial management system by the Navy Material
+Command Support Activity (NMCSA).  Computer-aided 
+analysis consists of a set of procedures and computer
+programs specifically designed to aid in the process 
+of applications software design, computer selection
+and performance evaluation.  There are four major 
+components: Problem Statement Language, Problem Statement
+Analyzer, Generator of Alternative Designs, 
+and Performance Evaluator. The statement of requirements
+was written in ADS (Accurately Defined Systems) 
+and analyzed by a Problem Statement Analyzer for ADS.
+ The ADS problem definition was supplemented with 
+additional information in order to create a complete
+problem definition.  The analyzed problem statement 
+was translated to the form necessary for use by the
+SODA (Systems Optimization and Design Algorithm)
+program for the generation of alternative specifications
+of program modules and logical database structures.
+
+CACM December, 1976
+
+Nunamaker, J. F. Jr.
+Konsynski, B. R. Jr.
+Ho, T.
+Singer, C.
+
+computer-aided analysis, information systems, logical
+system design, problem statement language, 
+problem statement analyzer, physical system design,
+accurately defined systems, systems optimization 
+and design algorithm
+
+2.44 3.50 4.33 4.9 8.1
+
+CA761203 JB January 3, 1978  2:31 PM
+
+2812	5	2812
+2812	5	2812
+2812	5	2812
+
+
+************************
+
+
+
+Computer-Aided Analysis and Design of Information Systems
+
+This paper describes the use <B>of computer</B>-aided
 analysis for the design and development of an 
 integrated financial management system by the Navy Material
 Command Support Activity (NMCSA).  Computer-aided 
@@ -239,42 +2459,1811 @@ CA761203 JB January 3, 1978  2:31 PM
 ************************
 
 ************************
-Document:  CACM-1654.html
+Document:  CACM-3130.html
 ************************
 
 
-A University's Educational Program in Computer Science
+CURRICULUM '78 - Recommendations for the
+Undergraduate Program in Computer Science
 
-After a review of the power of contemporary computers,
-computer science is defined in several 
-ways.  The objectives of computer science education are
-stated, and it is asserted that in a North American 
-university these will be achieved only through a computer
-science department.  The program at Stanford 
-University is reviewed as an example.  The appendices
-include syllabic of Ph. qualifying examinations 
-for Stanford's Computer Science Department.
+Contained in this report are the recommendations for
+the undergraduate degree program in Computer Science <B>of the</B>
+Curriculum Committee on Computer Science (C3S) of the Association
+for Computing Machinery (ACM).   The core curriculum common to all
+computer science undergraduate programs is presented in terms of
+elementary level topics and courses, and intermediate level courses.
+Elective courses, used to round out an undergraduate program,
+are then discussed, and the entire program including the computer
+science component and other material is presented.  Issues related
+to undergraduate computer science education, such as service
+courses, supporting areas, continuing education, facilities,
+staff, and articulation are presented.
+
+CACM March, 1979
+
+Austing, R.
+Barnes, B.
+Bonnette, D.
+Engel, G.
+Stokes, G.
+
+Computer sciences courses, computer science curriculum, computer
+science education, computer science undergraduate degree
+programs, service courses, continuing education
+
+1.52
+
+CA790301 DH April 12, 1979  11:02 AM
+
+1720	4	3130
+1927	4	3130
+2147	4	3130
+2163	4	3130
+2345	4	3130
+2478	4	3130
+2594	4	3130
+2852	4	3130
+2899	4	3130
+3130	4	3130
+3130	4	3130
+1771	5	3130
+3003	5	3130
+3130	5	3130
+3130	5	3130
+3130	5	3130
+
+
+************************
+
+
+
+CURRICULUM '78 - Recommendations for the
+Undergraduate Program in Computer Science
+
+Contained in this report are the recommendations for
+the undergraduate degree program in Computer Science of the
+Curriculum Committee on Computer Science (C3S) of the Association
+for Computing Machinery (ACM).   The core curriculum common to all
+<B>computer science</B> undergraduate programs is presented in terms of
+elementary level topics and courses, and intermediate level courses.
+Elective courses, used to round out an undergraduate program,
+are then discussed, and the entire program including the computer
+science component and other material is presented.  Issues related
+to undergraduate computer science education, such as service
+courses, supporting areas, continuing education, facilities,
+staff, and articulation are presented.
+
+CACM March, 1979
+
+Austing, R.
+Barnes, B.
+Bonnette, D.
+Engel, G.
+Stokes, G.
+
+Computer sciences courses, computer science curriculum, computer
+science education, computer science undergraduate degree
+programs, service courses, continuing education
+
+1.52
+
+CA790301 DH April 12, 1979  11:02 AM
+
+1720	4	3130
+1927	4	3130
+2147	4	3130
+2163	4	3130
+2345	4	3130
+2478	4	3130
+2594	4	3130
+2852	4	3130
+2899	4	3130
+3130	4	3130
+3130	4	3130
+1771	5	3130
+3003	5	3130
+3130	5	3130
+3130	5	3130
+3130	5	3130
+
+
+************************
+
+************************
+Document:  CACM-1476.html
+************************
+
+
+Control Procedures for Data Communication-An ASA Progress Report
+
+Sectional Committee X.3 <B>of the</B> American Standards
+Association, has charged one of its task 
+groups, X3.3.4, with the responsibility to "Define and specify
+functional control requirements and characteristics 
+governing the operation of digital data generating and
+receiving systems interconnected by communication 
+system."  This effort is primarily directed toward systems
+employing the American Standard Code for Information 
+Interchange (ASCII).  This paper represents a progress
+report on the work of this group toward a proposal 
+for national and international standardization in the
+field of control procedures.  It describes both 
+the old and new work of the task group.  The new work
+is presented in detail, while the work that has 
+been presented in earlier papers ["Control Procedures for
+Data Communication," Task Group document X3.3.4/44, 
+May 1964: "Transparent-Mode Control Procedures for Data
+Communication," Task Group document X3.3.4/58, 
+December, 1964: Comm. ACM 8 (Apr. 1965), 203-206; "Control
+Procedures for Data Communications," Task 
+Group document X3.3.4/60, March, 1965] is retained here
+in summary form.  Many of the concepts and principles 
+described herein have been submitted to the International
+Organization for Standardization via earlier 
+papers and are now embodied in working papers of that organization. 
+
+CACM February, 1966
+
+CA660208JB March 3, 1978  3:04 PM
+
+1476	5	1476
+1476	5	1476
+1476	5	1476
+
+
+************************
+
+************************
+Document:  CACM-1978.html
+************************
+
+
+The Use of Interactive Graphics To Solve Numerical Problems
+
+With the advent of on-line (time-sharing) computer systems
+and graphic terminals, we have available a new dimension
+in numerical problem solving capabilities.  Rather than simply use
+the new power to achieve fast turnaround, we can develop interactive
+routines which are easy to use and also take advantage <B>of the</B>
+insight and visual capabilities of the human problem solver.  Several
+on-line systems for general purpose mathematical problem solving
+have already been implemented as well as some special purpose
+systems for solving problems in a particular area such as ordinary
+differential equations.  The advantage of restricting the problem
+area is that the interface with a user can be greatly simplified.
+In this paper we discuss some of the advantages accrued by such
+systems and design considerations for interactive routines.  Furthermore,
+an implementation of an on-line least squares data-fitting
+program, PEG, is presented with results obtained from empirical
+data.  In conclusion, area for future work in this field are discussed.
+
+CACM October, 1970
+
+Smith, L. B.
+
+interactive graphics, computer graphics, graphics, least squares,
+data-fitting, interactive computing, on-line mathematics
+
+1.3 3.1 5.13 5.5
+
+CA701012 JB February 10, 1978  9:14 AM
+
+1978	4	1978
+1978	4	1978
+1978	4	1978
+1307	5	1978
+1589	5	1978
+1813	5	1978
+1978	5	1978
+1978	5	1978
+1978	5	1978
+
+
+************************
+
+************************
+Document:  CACM-1147.html
+************************
+
+
+On the Numerical Solution of Boundary Value Problems
+for Linear Ordinary Differential Equations*
+
+A numerical method is presented for the solution
+of boundary value problems involving linear 
+ordinary differential equations.  The method described
+is noniterative and makes use of any one-step 
+numerical integration scheme to reduce the problem from
+one of boundary values to one of initial values. 
+ Comments are made concerning some numerical results
+of applying the method to a specific problem.  In 
+addition an extension <B>of the</B> algorithm described
+to more general problems is discussed.
+
+CACM January, 1964
+
+Day, J. T.
+Collins II, G. W.
+
+CA640108 JB March 10, 1978  5:32 AM
+
+1147	5	1147
+1147	5	1147
+1147	5	1147
+1274	5	1147
+1147	6	1147
+
+
+************************
+
+
+
+On the Numerical Solution of Boundary Value Problems
+for Linear Ordinary Differential Equations*
+
+A numerical method is presented for the solution
+of boundary value problems involving linear 
+ordinary differential equations.  The method described
+is noniterative and makes <B>use of</B> any one-step 
+numerical integration scheme to reduce the problem from
+one of boundary values to one of initial values. 
+ Comments are made concerning some numerical results
+of applying the method to a specific problem.  In 
+addition an extension of the algorithm described
+to more general problems is discussed.
+
+CACM January, 1964
+
+Day, J. T.
+Collins II, G. W.
+
+CA640108 JB March 10, 1978  5:32 AM
+
+1147	5	1147
+1147	5	1147
+1147	5	1147
+1274	5	1147
+1147	6	1147
+
+
+************************
+
+************************
+Document:  CACM-2962.html
+************************
+
+
+Production and Employment of Ph.'s in Computer Science-1976
+
+Statistics are presented on the production
+and employment of Ph.'s in <B>computer science</B> for 
+the calendar year 1975-76.  Data include profiles of graduate
+students and of faculty at 60 Ph.-producing 
+departments as well as a breakdown of degrees granted
+by specialty areas.  Significant trends are noted 
+and comparisons with comparable data gathered
+for the 1974-75 calendar year are made.
+
+CACM June, 1977
+
+Taulbee, O. E.
+Conte, S. D.
+
+computer science, production of Ph.'s, employment, students
+
+1.3 1.52 1.53 1.59
+
+CA770601 JB December 29, 1977  1:39 AM
+
+2962	4	2962
+3122	4	2962
+3123	4	2962
+2861	5	2962
+2962	5	2962
+2962	5	2962
+2962	5	2962
+3123	5	2962
+3122	5	2962
+2823	6	2962
+2861	6	2962
+2861	6	2962
+2962	6	2962
+2962	6	2962
+3022	6	2962
+
+
+************************
+
+************************
+Document:  CACM-2538.html
+************************
+
+
+A Computer Science Course Program for Small Colleges
+
+The ACM Subcommittee on Small College Programs
+of the Committee on Curriculum in Computer Science 
+(CCCS) was appointed in 1969 to consider the unique
+problems of small colleges and universities, and 
+to make recommendations regarding <B>computer science</B> programs
+at such schools.  This report, authorized 
+by both the subcommittee and (CCCS), supplies a set of
+recommendations for courses and necessary resources. 
+ Implementation problems are discussed, specifically
+within the constraints of limited faculty and for 
+the purposes of satisfying a wide variety of objectives.
+ Detailed description of four courses are given; 
+suggestions are made for more advanced work;
+and an extensive library list is included.
+
+CACM March, 1973
+
+Austing, R. H.
+Engel, G. L.
+
+computer science education, course proposals, small
+colleges, programming course, social implications 
+course, computer organization course, file organization course, bibliographies
+
+1.52
+
+CA730301 JB January 24, 1978  1:22 PM
+
+2538	5	2538
+2538	5	2538
+2538	5	2538
+2899	5	2538
+3003	5	2538
+1659	6	2538
+1678	6	2538
+1771	6	2538
+1927	6	2538
+1945	6	2538
+2097	6	2538
+2147	6	2538
+2163	6	2538
+2187	6	2538
+2329	6	2538
+2345	6	2538
+2367	6	2538
+2407	6	2538
+2478	6	2538
+2479	6	2538
+2480	6	2538
+2538	6	2538
+2538	6	2538
+
+
+************************
+
+
+
+A Computer Science Course Program for Small Colleges
+
+The ACM Subcommittee on Small College Programs
+<B>of the</B> Committee on Curriculum in Computer Science 
+(CCCS) was appointed in 1969 to consider the unique
+problems of small colleges and universities, and 
+to make recommendations regarding computer science programs
+at such schools.  This report, authorized 
+by both the subcommittee and (CCCS), supplies a set of
+recommendations for courses and necessary resources. 
+ Implementation problems are discussed, specifically
+within the constraints of limited faculty and for 
+the purposes of satisfying a wide variety of objectives.
+ Detailed description of four courses are given; 
+suggestions are made for more advanced work;
+and an extensive library list is included.
+
+CACM March, 1973
+
+Austing, R. H.
+Engel, G. L.
+
+computer science education, course proposals, small
+colleges, programming course, social implications 
+course, computer organization course, file organization course, bibliographies
+
+1.52
+
+CA730301 JB January 24, 1978  1:22 PM
+
+2538	5	2538
+2538	5	2538
+2538	5	2538
+2899	5	2538
+3003	5	2538
+1659	6	2538
+1678	6	2538
+1771	6	2538
+1927	6	2538
+1945	6	2538
+2097	6	2538
+2147	6	2538
+2163	6	2538
+2187	6	2538
+2329	6	2538
+2345	6	2538
+2367	6	2538
+2407	6	2538
+2478	6	2538
+2479	6	2538
+2480	6	2538
+2538	6	2538
+2538	6	2538
+
+
+************************
+
+************************
+Document:  CACM-0940.html
+************************
+
+
+Generating Discrete Random Variables in a Computer
+
+This note is concerned with details of how to
+instruct a computer to choose one from many things 
+with assigned probabilities.  The method uses a uniform
+variable to direct the computer to a memory location; 
+if this is done by a sequence of appropriately chosen
+conditional probabilities, efficient <B>use of</B> memory 
+space and quite fast programs will result.
+
+CACM January, 1963
+
+Marsaglia, G.
+
+CA630108 JB March 14, 1978  2:40 PM
+
+940	5	940
+940	5	940
+940	5	940
+1073	5	940
+1153	5	940
+940	6	940
+940	6	940
+1153	6	940
+
+
+************************
+
+************************
+Document:  CACM-2188.html
+************************
+
+
+An Approach to the Optimum Design of Computer Graphics Systems
+
+Display system designers are faced with the
+difficult task of selecting major subsystems in 
+an intelligent way.  Each subsystem is chosen from large
+numbers of alternatives; the selection is based 
+on considerations such as system response time, system
+cost, and the distribution of data storage and 
+processing between the graphics processor and its supporting
+data processing system.  The work reported 
+here develops an objective, quantitative design procedure
+and helps give a better understanding of now 
+to  configure display systems.  This is accomplished by
+means of a mathematical model of a computer driven 
+graphics system.  The parameters <B>of the</B> model are functions
+of the capabilities of the graphics hardware 
+and of the computational requirements of the graphics application.
+ The model can be analyzed using numerical 
+queueing analysis or simulation to obtain an average
+response time prediction.  By combining the model 
+with an optimization, the best graphics system configuration,
+subject to a cost constraint, is found 
+for several applications.  The optimum configurations
+are in turn used to find general display system 
+design guidelines.
+
+CACM June, 1971
+
+Foley, J. D.
+
+design guidelines, graphic display systems, mathematical
+model, optimum system design, queueing 
+model
+
+3.8 6.22 6.35
+
+CA710602 JB February 3, 1978  10:26 AM
+
+1805	4	2188
+1846	4	2188
+1892	4	2188
+2188	4	2188
+2218	4	2188
+2317	4	2188
+1572	5	2188
+2188	5	2188
+2188	5	2188
+2188	5	2188
+2319	5	2188
+1408	6	2188
+1719	6	2188
+1749	6	2188
+1751	6	2188
+2016	6	2188
+2017	6	2188
+2080	6	2188
+2188	6	2188
+2203	6	2188
+2204	6	2188
+
+
+************************
+
+************************
+Document:  CACM-1809.html
+************************
+
+
+Numerical Analysis in a Ph. Computer Science Program
+
+Numerical Analysis is the study of methods and
+procedures used to obtain "approximate solutions" 
+to mathematical problems.  Much <B>of the</B> emphasis is on scientific
+calculation.  The difficulties of education 
+in such a broad area center around the question of background
+and emphasis.  The Numerical Analysis program 
+in the Computer Science Department should emphasize an
+awareness of the problems of computer implementation 
+and experimental procedures.  Nevertheless, there is a
+need for a solid background in applied mathematics.
+
+CACM December, 1969
+
+Parter, S. V.
+
+Ph. program, numerical analysis, course separation, education
+
+1.52
+
+CA691203 JB February 15, 1978  4:25 PM
+
+1809	5	1809
+1809	5	1809
+1809	5	1809
+
+
+************************
+
+
+
+Numerical Analysis in a Ph. Computer Science Program
+
+Numerical Analysis is the study of methods and
+procedures used to obtain "approximate solutions" 
+to mathematical problems.  Much of the emphasis is on scientific
+calculation.  The difficulties of education 
+in such a broad area center around the question of background
+and emphasis.  The Numerical Analysis program 
+in the Computer Science Department should emphasize an
+awareness of the problems <B>of computer</B> implementation 
+and experimental procedures.  Nevertheless, there is a
+need for a solid background in applied mathematics.
+
+CACM December, 1969
+
+Parter, S. V.
+
+Ph. program, numerical analysis, course separation, education
+
+1.52
+
+CA691203 JB February 15, 1978  4:25 PM
+
+1809	5	1809
+1809	5	1809
+1809	5	1809
+
+
+************************
+
+************************
+Document:  CACM-2478.html
+************************
+
+
+Computer Science-Seminars for Undergraduates
+
+CACM July, 1973
+
+Kandel, A.
+
+education, <B>computer science</B>, curriculum, imprecise
+synthesis, fuzzy educational structure
+
+1.52 6.0
+
+CA730708 JB January 23, 1978  11:24 AM
+
+1413	4	2478
+1654	4	2478
+1720	4	2478
+1771	4	2478
+1927	4	2478
+2147	4	2478
+2163	4	2478
+2345	4	2478
+2478	4	2478
+2478	4	2478
+2478	4	2478
+2594	4	2478
+2852	4	2478
+2899	4	2478
+3003	4	2478
+3130	4	2478
+1205	5	2478
+1771	5	2478
+2329	5	2478
+2478	5	2478
+2478	5	2478
+2478	5	2478
+3003	5	2478
+1659	6	2478
+1678	6	2478
+1927	6	2478
+1945	6	2478
+2097	6	2478
+2147	6	2478
+2163	6	2478
+2187	6	2478
+2329	6	2478
+2345	6	2478
+2367	6	2478
+2407	6	2478
+2478	6	2478
+2479	6	2478
+2480	6	2478
+2538	6	2478
+
+
+************************
+
+************************
+Document:  CACM-1183.html
+************************
+
+
+A Note on the Use of a Digital Computer
+for Doing Tedious Algebra and Programming
+
+A special purpose compiler was written with
+FORTRAN II language and made possible the writing 
+of very long programs by the computer.  The procedure is
+based on a straight-forward <B>use of</B> FORMAT statements 
+for generating machine-written programs.
+
+CACM October, 1965
+
+Veronis, G.
+
+CA651012 JB March 6, 1978  6:31 PM
+
+1183	5	1183
+1183	5	1183
+1183	5	1183
+
+
+************************
+
+************************
+Document:  CACM-3176.html
+************************
+
+
+Storing a Sparse Table
+
+The problem of storing and searching large sparse tables is ubiquitous in 
+<B>computer science</B>.  The standard technique for storing such tables is
+hashing, but hashing has poor worst-case performance.  We propose
+a good worst-case method for storing a static table of n entries,
+each an integer between 0 and N - 1.  The method requires 0(n) w
+words of storage and allows O(logn N) access time.  Although our method
+is a little complicated to use in practice, our analysis shows
+why a simpler algorithm used for compressing LR parsing tables works so well.
+
+CACM November, 1979
+
+Tarjan, R.
+Yao, A.
+
+Gaussian elimination, parsing, searching,
+sparse matrix, table compression, table lookup
+
+3.74 4.12 4.34 5.25
+
+CA791104 DB January 23, 1980  11:24 AM
+
+3041	4	3176
+3126	4	3176
+3176	4	3176
+2905	5	3176
+3176	5	3176
+3176	5	3176
+3176	5	3176
+
+
+************************
+
+************************
+Document:  CACM-2897.html
+************************
+
+
+A Case Study of a New Code Generation Technique for Compilers
+
+Recent developments in optimizing techniques
+have allowed a new design for compilers to emerge. 
+ Such a compiler translates the parsed source code into
+lower level code by a sequence of steps.  Each 
+step expands higher level statements into blocks of
+lower level code and then performs optimizations 
+on the result.  Each statement has only one possible
+expansion-the task of tailoring this code to take 
+advantage of any special cases is done by the optimizations.
+ This paper provides evidence that this 
+strategy can indeed result in good object code.  The
+traditionally difficult PL/I concatenate statement 
+was investigated as a detailed example.  A set of fairly
+simple optimizations was identified which allow 
+the compiler to produce good code. More elaborate optimizations
+can further improve the object code. 
+ For most contexts <B>of the</B> concatenate statement, the code
+produced by a compiler using the expansion-optimization 
+strategy described above compares favorably with the
+code produced by a conventional PL/I optimizing 
+compiler.
+
+CACM December, 1977
+
+Carter, J. L.
+
+compiler structure, optimizing compiler, code
+generation, PL/I compiler, concatenation, program 
+optimization, optimization techniques, data flow analysis
+
+4.12 4.13 4.22
+
+CA771203 JB February 1, 1980  3:54 AM
+
+2897	5	2897
+2897	5	2897
+2897	5	2897
+
+
+************************
+
+************************
+Document:  CACM-2308.html
+************************
+
+
+Computers and Urban Society
+
+This brief survey <B>of the</B> use of computers in
+urban society covers the broad range of activities 
+found in any city.  The future scope of applications is
+limited only by the imagination and inventiveness 
+of future system designers, programmers, analysts, and
+decision makers.  The computer can be, if properly 
+used, with respect for human dignity and civil liberty,
+a significant factor in improving the efficiency 
+of the urban process.  It is expected that the benefits
+of such computer usage will outweigh the costs 
+and that we may look forward to an expansion of such usage.
+
+CACM July, 1972
+
+Sturman, G. M.
+
+urban systems, urban applications, data acquisition,
+data management, engineering analysis, information 
+systems
+
+3.23 3.39 3.53 3.72 3.82 3.89
+
+CA720720 JB January 30, 1978  11:05 AM
+
+2308	5	2308
+2308	5	2308
+2308	5	2308
+
+
+************************
+
+
+
+Computers and Urban Society
+
+This brief survey of the use of computers in
+urban society covers the broad range of activities 
+found in any city.  The future scope of applications is
+limited only by the imagination and inventiveness 
+of future system designers, programmers, analysts, and
+decision makers.  The computer can be, if properly 
+used, with respect for human dignity and civil liberty,
+a significant factor in improving the efficiency 
+of the urban process.  It is expected that the benefits
+<B>of such</B> computer usage will outweigh the costs 
+and that we may look forward to an expansion of such usage.
+
+CACM July, 1972
+
+Sturman, G. M.
+
+urban systems, urban applications, data acquisition,
+data management, engineering analysis, information 
+systems
+
+3.23 3.39 3.53 3.72 3.82 3.89
+
+CA720720 JB January 30, 1978  11:05 AM
+
+2308	5	2308
+2308	5	2308
+2308	5	2308
+
+
+************************
+
+
+
+Computers and Urban Society
+
+This brief survey of the <B>use of</B> computers in
+urban society covers the broad range of activities 
+found in any city.  The future scope of applications is
+limited only by the imagination and inventiveness 
+of future system designers, programmers, analysts, and
+decision makers.  The computer can be, if properly 
+used, with respect for human dignity and civil liberty,
+a significant factor in improving the efficiency 
+of the urban process.  It is expected that the benefits
+of such computer usage will outweigh the costs 
+and that we may look forward to an expansion of such usage.
+
+CACM July, 1972
+
+Sturman, G. M.
+
+urban systems, urban applications, data acquisition,
+data management, engineering analysis, information 
+systems
+
+3.23 3.39 3.53 3.72 3.82 3.89
+
+CA720720 JB January 30, 1978  11:05 AM
+
+2308	5	2308
+2308	5	2308
+2308	5	2308
+
+
+************************
+
+
+
+Computers and Urban Society
+
+This brief survey of the use <B>of computer</B>s in
+urban society covers the broad range of activities 
+found in any city.  The future scope of applications is
+limited only by the imagination and inventiveness 
+of future system designers, programmers, analysts, and
+decision makers.  The computer can be, if properly 
+used, with respect for human dignity and civil liberty,
+a significant factor in improving the efficiency 
+of the urban process.  It is expected that the benefits
+of such computer usage will outweigh the costs 
+and that we may look forward to an expansion of such usage.
+
+CACM July, 1972
+
+Sturman, G. M.
+
+urban systems, urban applications, data acquisition,
+data management, engineering analysis, information 
+systems
+
+3.23 3.39 3.53 3.72 3.82 3.89
+
+CA720720 JB January 30, 1978  11:05 AM
+
+2308	5	2308
+2308	5	2308
+2308	5	2308
+
+
+************************
+
+************************
+Document:  CACM-1651.html
+************************
+
+
+An Interpretive Input Routine for Linear Programming
+
+In this descriptive article an input code
+is presented which greatly simplifies data input 
+to any linear programming solution routine, for subsequent
+use either as a pedagogical device or for 
+solving rather small LP problems.  This latter (limited)
+use derives not at all from inherent limitations 
+in the code itself, but from an efficiency evaluation:
+large LP problems would doubtless benefit from 
+an input system more suited for bulk data handling than
+the input code described.  From a user's standpoint, 
+input appears almost exactly as a textbook presentation
+<B>of the</B> LP problem (limited only by a keypunch's 
+inability to write subscripts, etc.).  The input interpreter
+scans column wise, thus no fixed format 
+data preparation is required.  The user may also, under
+very general requirements only, liberally use 
+editorial comments throughout the input deck as an
+aid in identification, e.g., of row constraints.  
+The article includes examples of input, output from a
+solution routine presently in use, and a skeleton 
+flowchart of the input interpreter.
 
 CACM January, 1967
 
-Forsythe, G. E.
+Aigner, D. J.
 
-CA670101 JB March 1, 1978  9:13 AM
+CA670104 JB March 1, 1978  8:58 AM
 
-1413	4	1654
-1654	4	1654
-1771	4	1654
-2478	4	1654
-1205	5	1654
-1654	5	1654
-1654	5	1654
-1654	5	1654
-1720	5	1654
-1771	5	1654
-1205	6	1654
-1654	6	1654
-1654	6	1654
-1771	6	1654
+1651	5	1651
+1651	5	1651
+1651	5	1651
+
+
+************************
+
+
+
+An Interpretive Input Routine for Linear Programming
+
+In this descriptive article an input code
+is presented which greatly simplifies data input 
+to any linear programming solution routine, for subsequent
+use either as a pedagogical device or for 
+solving rather small LP problems.  This latter (limited)
+use derives not at all from inherent limitations 
+in the code itself, but from an efficiency evaluation:
+large LP problems would doubtless benefit from 
+an input system more suited for bulk data handling than
+the input code described.  From a user's standpoint, 
+input appears almost exactly as a textbook presentation
+of the LP problem (limited only by a keypunch's 
+inability to write subscripts, etc.).  The input interpreter
+scans column wise, thus no fixed format 
+data preparation is required.  <B>The use</B>r may also, under
+very general requirements only, liberally use 
+editorial comments throughout the input deck as an
+aid in identification, e.g., of row constraints.  
+The article includes examples of input, output from a
+solution routine presently in use, and a skeleton 
+flowchart of the input interpreter.
+
+CACM January, 1967
+
+Aigner, D. J.
+
+CA670104 JB March 1, 1978  8:58 AM
+
+1651	5	1651
+1651	5	1651
+1651	5	1651
+
+
+************************
+
+************************
+Document:  CACM-0095.html
+************************
+
+
+Elimination of Special Functions from Differential Equations
+
+A set of ordinary differential equations which
+contains mathematical functions requiring the 
+<B>use of</B> subroutines for numerical solution by electronic
+computer, tabular data for numerical solution 
+by hand calculation or function generators when analog
+methods are applied can sometimes be expanded 
+to an equivalent set of equations which do not contain
+the functions.  This is practical if these functions 
+satisfy sufficiently simple differential equations. 
+Thus among those functions which can be eliminated 
+by this procedure are the trigonometric, inverse trigonometric,
+exponential, and many other transcendental 
+functions.
+
+CACM March, 1959
+
+Powers, J. E.
+
+CA590301 JB March 22, 1978  8:08 PM
+
+95	5	95
+95	5	95
+95	5	95
+
+
+************************
+
+************************
+Document:  CACM-1433.html
+************************
+
+
+A Note on Linear Programming Algorithm Design: A Combinatorial Problem
+
+As linear programming models grow bigger and
+bigger in size, much actual data that must be 
+memorized is often put on magnetic tape or disk, and
+consequently there is an improportionality fast 
+rise in the consumption <B>of computer</B> timeo cut down
+this expense, an ever increasing effort is made 
+to design more efficient algorithms.  This paper is
+meant to support the effort.  It is attempted to 
+find some characteristics of the way a pivot column
+is found.  The number of repetitions of a certain 
+transfer of data from tape to core memory is considered.
+ After some simplification, the problem is restated 
+in a general way.  The generating function of the probability
+distribution and the moment generating 
+function of the number of repetitions is found.  Asymptotic
+formulas are given for the moments using 
+a result from a paper of S. Narumi [1].  The results
+may be applied to write very efficient routines 
+that search for an extreme value in a table.  Formulas
+provide a means of calculating the computer timings 
+in this case.
+
+CACM May, 1966
+
+Roes, P. B. M.
+
+CA660504 JB March 3, 1978  10:10 AM
+
+1433	5	1433
+1433	5	1433
+1433	5	1433
+
+
+************************
+
+
+
+A Note on Linear Programming Algorithm Design: A Combinatorial Problem
+
+As linear programming models grow bigger and
+bigger in size, much actual data that must be 
+memorized is often put on magnetic tape or disk, and
+consequently there is an improportionality fast 
+rise in the consumption of computer timeo cut down
+this expense, an ever increasing effort is made 
+to design more efficient algorithms.  This paper is
+meant to support the effort.  It is attempted to 
+find some characteristics <B>of the</B> way a pivot column
+is found.  The number of repetitions of a certain 
+transfer of data from tape to core memory is considered.
+ After some simplification, the problem is restated 
+in a general way.  The generating function of the probability
+distribution and the moment generating 
+function of the number of repetitions is found.  Asymptotic
+formulas are given for the moments using 
+a result from a paper of S. Narumi [1].  The results
+may be applied to write very efficient routines 
+that search for an extreme value in a table.  Formulas
+provide a means of calculating the computer timings 
+in this case.
+
+CACM May, 1966
+
+Roes, P. B. M.
+
+CA660504 JB March 3, 1978  10:10 AM
+
+1433	5	1433
+1433	5	1433
+1433	5	1433
+
+
+************************
+
+************************
+Document:  CACM-3200.html
+************************
+
+
+   A FORMAC Program for the Solution of Linear Boundary and Initial Value 
+Problems
+
+  A computer program is described which has been developed for obtaining
+approximate solutions to linear initial and boundary-value problems involving 
+differential equations. For each problem, input to the program includes:
+   1. The equations (in symbolic form) to be satisfied  -  the differential
+equations, equations describing auxiliary conditions such as boundary 
+conditions, etc.
+   2. A numerical description <B>of the</B> regions in which each of the equations
+are to be satisfied.
+   3. Sets of functions (in symbolic form) to be used in linear combinations
+to approximate the solution functions. Give the above input, the program
+generates an approximation to the solutions of the specified problemm in terms 
+of the specified functions which is optimum in the least-squares sense.
+
+CACM August, 1966
+
+Cuthill, E.
+
+CA660814 ES March 17, 1982 10:10 AM
+
+1396	5	3200
+3200	5	3200
+3200	5	3200
+3200	5	3200
+964	6	3200
+1028	6	3200
+1029	6	3200
+1083	6	3200
+1132	6	3200
+1214	6	3200
+1278	6	3200
+1334	6	3200
+1365	6	3200
+1386	6	3200
+1387	6	3200
+1388	6	3200
+1392	6	3200
+1393	6	3200
+1394	6	3200
+1395	6	3200
+1396	6	3200
+1397	6	3200
+1496	6	3200
+284	6	3200
+407	6	3200
+3199	6	3200
+3200	6	3200
+3201	6	3200
+3202	6	3200
+3203	6	3200
+3204	6	3200
+561	6	3200
+730	6	3200
+
+
+************************
+
+************************
+Document:  CACM-2569.html
+************************
+
+
+Computer Generation of Gamma Random Variates
+with Non-integral Shape Parameters
+
+When the shape parameter, a, is integral,
+generating gamma random variables with a digital 
+computer is straightforward.  There is no simple method
+for generating gamma random variates with non-integral 
+shape parameters.  A common procedure is to approximately
+generate such random variables by <B>use of</B> the 
+so-called probability switch method.  Another procedure,
+which is exact, is due to Johnk.  This paper 
+presents a rejection method for exactly generating
+gamma random variables when a is greater than 1.  
+The efficiency of the rejection method is shown to
+be better than the efficiency of Johnk's method.  
+The paper concludes that when a is non-integral the following
+mix of procedures yields the best combination 
+of accuracy and efficiency: (1) when a is less than
+1, use Johnk's method; (2) when 1 is less than a 
+and a is less than 5, use the rejection method; (3) when
+a is greater than 5, use the probability switch 
+method.
+
+CACM December,1974
+
+Wallace, N. D.
+
+simulation, gamma random variables,
+probability distribution, random numbers
+
+5.5 8.1
+
+CA741205 JB January 16, 1978  9:35 AM
+
+2569	5	2569
+2569	5	2569
+2569	5	2569
+2847	5	2569
+2928	5	2569
+3046	5	2569
+3098	5	2569
+3107	5	2569
+1751	6	2569
+2277	6	2569
+2380	6	2569
+2522	6	2569
+2569	6	2569
+2569	6	2569
+2569	6	2569
+2569	6	2569
+2569	6	2569
+2847	6	2569
+2847	6	2569
+3098	6	2569
+
+
+************************
+
+
+
+Computer Generation of Gamma Random Variates
+with Non-integral Shape Parameters
+
+When the shape parameter, a, is integral,
+generating gamma random variables with a digital 
+computer is straightforward.  There is no simple method
+for generating gamma random variates with non-integral 
+shape parameters.  A common procedure is to approximately
+generate such random variables by use <B>of the</B> 
+so-called probability switch method.  Another procedure,
+which is exact, is due to Johnk.  This paper 
+presents a rejection method for exactly generating
+gamma random variables when a is greater than 1.  
+The efficiency of the rejection method is shown to
+be better than the efficiency of Johnk's method.  
+The paper concludes that when a is non-integral the following
+mix of procedures yields the best combination 
+of accuracy and efficiency: (1) when a is less than
+1, use Johnk's method; (2) when 1 is less than a 
+and a is less than 5, use the rejection method; (3) when
+a is greater than 5, use the probability switch 
+method.
+
+CACM December,1974
+
+Wallace, N. D.
+
+simulation, gamma random variables,
+probability distribution, random numbers
+
+5.5 8.1
+
+CA741205 JB January 16, 1978  9:35 AM
+
+2569	5	2569
+2569	5	2569
+2569	5	2569
+2847	5	2569
+2928	5	2569
+3046	5	2569
+3098	5	2569
+3107	5	2569
+1751	6	2569
+2277	6	2569
+2380	6	2569
+2522	6	2569
+2569	6	2569
+2569	6	2569
+2569	6	2569
+2569	6	2569
+2569	6	2569
+2847	6	2569
+2847	6	2569
+3098	6	2569
+
+
+************************
+
+************************
+Document:  CACM-1769.html
+************************
+
+
+The Expanding World of Computers
+
+The onward sweep of automatic processing of
+information is impeded by nine principal barriers: 
+geography, cost, problem complexity, man-machine communication,
+inadequate sensors, lack of understanding, 
+distance, time, and size.  The main incentive for breaching
+these barriers is the universal need for 
+processing information, ever more urgent as the greater
+part of human work activity changes from production 
+to service.  Computer developments in hardware, programming,
+time-sharing, education, data communication, 
+and displays are judged by how effectively they remove these
+barriers, and their barrier-smashing potentialities 
+indicate continued rapid expansion.  Problem-oriented
+languages are particularly effective over the entire 
+front.  Online computers and time-sharing also rate high
+by this measure.  Education and increased understanding 
+are basic to all progress with the computer.  This complex
+but powerful tool is the most important one 
+available to governments and scientists to use in studying
+the problems being created by the population 
+explosion, and in analyzing possible solutions.
+
+CACM April, 1968
+
+Harder, E. L.
+
+barriers, philosophy, developments, computer-aided design,
+problem-oriented languages, data communication, 
+education, <B>computer science</B>, forecast, survey, introduction
+
+1.0 1.3 2.1 3.24 4.0 6.20 6.30
+
+CA680401 JB February 23, 1978  11:36 AM
+
+1769	5	1769
+1769	5	1769
+1769	5	1769
+
+
+************************
+
+************************
+Document:  CACM-2702.html
+************************
+
+
+On the Complexity of LR(k) Testing
+
+The problem of determining whether an arbitrary
+context-free grammar is a member of some easily 
+parsed subclass of grammars such as the LR(k) grammars
+is considered.  The time complexity of this problem 
+is analyzed both when k is considered to be a fixed
+integer and when k is considered to be a parameter 
+<B>of the</B> test.  In the first case, it is shown that for
+every k there exists an O(n(k+2)) algorithm for 
+testing the LR(k) property, where n is the size of the
+grammar in question.  On the other hand, if both 
+k and the subject grammar are problem parameters, then
+the complexity of the problem depends very strongly 
+on the representation chosen for k.  More specifically,
+it is shown that this problem is NP-complete 
+when k is expressed in unary.  When k is expressed in
+binary the problem is complete for nondeterministic 
+exponential time.  These results carry over to many
+other parameterized classes of grammars, such as 
+the LL(k), strong LL(k), SLR(k), LC(k), and strong LC(k) grammars.
+
+CACM December, 1975
+
+Hunt, H. B. III
+Szymanski, T. G.
+Ullman, J. D.
+
+computational complexity, context-free grammars,
+parsing, LR(k) grammars, NP-complete problems
+
+4.12 5.23 5.25
+
+CA751205 JB January 5, 1978  4:28 PM
+
+2702	5	2702
+2702	5	2702
+2702	5	2702
+
+
+************************
+
+
+
+On the Complexity of LR(k) Testing
+
+The problem of determining whether an arbitrary
+context-free grammar is a member of some easily 
+parsed subclass of grammars such as the LR(k) grammars
+is considered.  The time <B>complexity of</B> this problem 
+is analyzed both when k is considered to be a fixed
+integer and when k is considered to be a parameter 
+of the test.  In the first case, it is shown that for
+every k there exists an O(n(k+2)) algorithm for 
+testing the LR(k) property, where n is the size of the
+grammar in question.  On the other hand, if both 
+k and the subject grammar are problem parameters, then
+the complexity of the problem depends very strongly 
+on the representation chosen for k.  More specifically,
+it is shown that this problem is NP-complete 
+when k is expressed in unary.  When k is expressed in
+binary the problem is complete for nondeterministic 
+exponential time.  These results carry over to many
+other parameterized classes of grammars, such as 
+the LL(k), strong LL(k), SLR(k), LC(k), and strong LC(k) grammars.
+
+CACM December, 1975
+
+Hunt, H. B. III
+Szymanski, T. G.
+Ullman, J. D.
+
+computational complexity, context-free grammars,
+parsing, LR(k) grammars, NP-complete problems
+
+4.12 5.23 5.25
+
+CA751205 JB January 5, 1978  4:28 PM
+
+2702	5	2702
+2702	5	2702
+2702	5	2702
+
+
+************************
+
+************************
+Document:  CACM-1977.html
+************************
+
+
+An Interactive Display for Approximation by Linear Programming
+
+An interactive program
+with a graphical display has been developed for the approximation of
+data by means of a linear combination of functions (including
+splines) selected by the user.  The coefficients <B>of the</B> approximation
+are determined by linear programming so as to minimize the error
+in either the L1 or L-infinity norm.  Auxiliary conditions such as
+monotonicity or convexity of the approximation can also be imposed. This
+interactive system is described and several examples of its use are given.
+
+CACM November, 1970
+
+LaFata, P.
+Rosen, J. B.
+
+approximation, data fitting, functional approximation, linear
+programming, interactive graphical display, spline functions
+
+5.13 5.41
+
+CA701101 JB February 10, 1978  9:06 AM
+
+1977	5	1977
+1977	5	1977
+1977	5	1977
+2604	5	1977
+1977	6	1977
+
+
+************************
+
+************************
+Document:  CACM-1771.html
+************************
+
+
+CURRICULUM 68 -- Recommendations for Academic
+Programs in Computer Science -- A Report of the 
+ACM Curriculum Committee on Computer science
+
+This report contains recommendations on academic
+programs in <B>computer science</B> which were developed 
+by the ACM Curriculum Committee on Computer Science.
+ A classification of the subject areas contained 
+in computer science is presented and twenty-two courses
+in these areas are described.  Prerequisites, 
+catalog descriptions, detailed outlines, and annotated
+bibliographies for these courses are included. 
+ Specific recommendations which have evolved from the
+Committee's 1965 Preliminary Recommendations are 
+given for undergraduate programs.  Graduate programs in computer
+science are discussed and some recommendations 
+are presented for the development of master's degree programs.
+ Ways of developing guidelines for doctoral 
+programs are discussed, but no specific recommendations
+are made. The importance of service courses, 
+minors, and continuing education in computer science is
+emphasized.  Attention is given to the organization, 
+staff requirements, computer resources, and other facilities
+needed to implement computer science educational 
+programs.
+
+CACM March, 1968
+
+computer science courses, computer science curriculum,
+computer science education, computer science 
+academic programs, computer science graduate programs,
+computer science undergraduate programs, computer 
+science course bibliographies
+
+1.52
+
+CA680301 JB February 23, 1978  11:52 AM
+
+1413	4	1771
+1654	4	1771
+1720	4	1771
+1771	4	1771
+1771	4	1771
+2478	4	1771
+1205	5	1771
+1654	5	1771
+1720	5	1771
+1771	5	1771
+1771	5	1771
+1771	5	1771
+1927	5	1771
+2147	5	1771
+2163	5	1771
+2345	5	1771
+2478	5	1771
+2594	5	1771
+2852	5	1771
+2899	5	1771
+3130	5	1771
+1205	6	1771
+1417	6	1771
+1654	6	1771
+1659	6	1771
+1720	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1927	6	1771
+2155	6	1771
+2181	6	1771
+2181	6	1771
+2204	6	1771
+2329	6	1771
+2345	6	1771
+2387	6	1771
+2479	6	1771
+2538	6	1771
+3003	6	1771
+3186	6	1771
+
+
+************************
+
+
+
+CURRICULUM 68 -- Recommendations for Academic
+Programs in Computer Science -- A Report <B>of the</B> 
+ACM Curriculum Committee on Computer science
+
+This report contains recommendations on academic
+programs in computer science which were developed 
+by the ACM Curriculum Committee on Computer Science.
+ A classification of the subject areas contained 
+in computer science is presented and twenty-two courses
+in these areas are described.  Prerequisites, 
+catalog descriptions, detailed outlines, and annotated
+bibliographies for these courses are included. 
+ Specific recommendations which have evolved from the
+Committee's 1965 Preliminary Recommendations are 
+given for undergraduate programs.  Graduate programs in computer
+science are discussed and some recommendations 
+are presented for the development of master's degree programs.
+ Ways of developing guidelines for doctoral 
+programs are discussed, but no specific recommendations
+are made. The importance of service courses, 
+minors, and continuing education in computer science is
+emphasized.  Attention is given to the organization, 
+staff requirements, computer resources, and other facilities
+needed to implement computer science educational 
+programs.
+
+CACM March, 1968
+
+computer science courses, computer science curriculum,
+computer science education, computer science 
+academic programs, computer science graduate programs,
+computer science undergraduate programs, computer 
+science course bibliographies
+
+1.52
+
+CA680301 JB February 23, 1978  11:52 AM
+
+1413	4	1771
+1654	4	1771
+1720	4	1771
+1771	4	1771
+1771	4	1771
+2478	4	1771
+1205	5	1771
+1654	5	1771
+1720	5	1771
+1771	5	1771
+1771	5	1771
+1771	5	1771
+1927	5	1771
+2147	5	1771
+2163	5	1771
+2345	5	1771
+2478	5	1771
+2594	5	1771
+2852	5	1771
+2899	5	1771
+3130	5	1771
+1205	6	1771
+1417	6	1771
+1654	6	1771
+1659	6	1771
+1720	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1771	6	1771
+1927	6	1771
+2155	6	1771
+2181	6	1771
+2181	6	1771
+2204	6	1771
+2329	6	1771
+2345	6	1771
+2387	6	1771
+2479	6	1771
+2538	6	1771
+3003	6	1771
+3186	6	1771
+
+
+************************
+
+************************
+Document:  CACM-1412.html
+************************
+
+
+The Banking Information System Concept
+
+Most large commercial banks have progressed to
+the  point where their major accounting applications 
+have been automated and more sophisticated usage of
+data processing equipment is being sought.  This, 
+coupled with the availability of equipment well suited
+to real-time, direct access processing,has led 
+to development within some banks <B>of the</B> central file
+of data base approach toward a banking information 
+system.  The banking information system now serves the
+two-fold purpose of providing real-time responses 
+to inquires about individual account stasus and providing
+more complex combinations of information for 
+management use.  Both kinds of processing draw upon a
+common store of data contained in the direct access 
+central file.  This data base includes indexes which
+facilitate cross referencing of account information 
+so that all relationships between bank and customer may
+be discerned.  In introducing the banking information 
+system concept, a gradual approach to account cross-referencing
+and file conversion is most prudent. 
+ Generally, this system must interface with other computer
+applications already existing within the bank.
+
+CACM July, 1966
+
+Head, R. V.
+
+CA660702 JB March 2, 1978  9:53 PM
+
+1412	5	1412
+1412	5	1412
+1412	5	1412
+
+
+************************
+
+************************
+Document:  CACM-2339.html
+************************
+
+
+Computer-Assigned Codes from Verbal Responses
+
+It is often desirable to convert verbal responses
+to multidigit codes. This conversion is generally 
+accomplished by clerk-coders.  A study was conducted to test
+the feasibility of translating verbal descriptions 
+to numerical codes in a computer program.  Primary emphasis
+was placed on computerized construction of 
+a reference file of verbal descriptions for use by the
+program.  The results <B>of the</B> study clearly show 
+that such procedures are feasible.
+
+CACM June, 1972
+
+O'Reagan, R. T.
+
+verbal responses, computer coding, reference list,
+historical response patterns, word strings, 
+concept translation, word coding
+
+3.30 3.42 3.63 3.66 3.71 3.74 3.75 5.6
+
+CA720606 JB January 30, 1978  4:23 PM
+
+1112	4	2339
+1592	4	2339
+1592	4	2339
+2111	4	2339
+2111	4	2339
+2111	4	2339
+2339	4	2339
+2339	4	2339
+2339	4	2339
+2339	4	2339
+440	4	2339
+1112	5	2339
+1592	5	2339
+2339	5	2339
+2339	5	2339
+2339	5	2339
+440	5	2339
+619	5	2339
+
+
+************************
+
+************************
+Document:  CACM-2593.html
+************************
+
+
+A Back-end Computer for Data Base Management
+
+It is proposed that the data base management
+function be placed on a dedicated back-end computer 
+which accepts commands (in a relatively high level language
+such as the CODASYL Data Base Task Group, 
+April 1971 Report) from a host computer, accesses the
+data base on secondary storage, and returns results. 
+ The advantages <B>of such</B> a configuration are discussed.  An
+experimental implementation, called the experimental 
+Data Management System, XDMS, is described and certain
+conclusions about the back-end approach are drawn 
+from this implementation.
+
+CACM October, 1974
+
+Canaday, R. H.
+Harrison, R. D.
+Ivie, E. L.
+Ryder, J. L.
+Wehr, L. A.
+
+data base management, information retrieval, computer
+configurations, computer networks, Data Base 
+Task Group Language, data base protection,
+data base portability, back-end computer
+
+3.79 4.22 4.33 4.35
+
+CA741005 JB January 16,1978  12:35 PM
+
+2593	5	2593
+2593	5	2593
+2593	5	2593
+2919	5	2593
+2536	6	2593
+2593	6	2593
+2629	6	2593
 
 
 ************************

@@ -1,3 +1,2170 @@
 Snippets for the query:  Articles about the sensitivity of the eigenvalue decomposition of real matrices, in particular, zero-one matrices. I'm especially interested in the separation of eigenspaces corresponding to distinct eigenvalues. Articles on the subject: C. Davis and W. Kahn, "The rotation of eigenvectors by a permutation:, SIAM J. Numerical Analysis, vol. 7, no. 1 (1970); G. Stewart, "Error bounds for approximate invariant subspaces of closed linear operators", SIAM J. Numerical Analysis., Vol. 8, no. 4 (1971). Davis, C. Kahn, W. Stewart, G.
 ************************
-No snippets found for the query..
+Total Hits:  57
+************************
+
+************************
+Document:  CACM-0111.html
+************************
+
+
+On Programming the Numerical Solution of Polynomial Equations
+
+Numerical techniques are presented for computing
+the roots of polynomial equations.  By applying 
+the recommended scaling and inversion rules, the basic
+Bairstow and Newton-Raphson iterative techniques 
+can be applied with great reliability.  Both a high degree
+of accuracy and rapid convergence are realized. 
+ Numerical examples are shown to illustrate the pitfalls
+and to show how these are circumvented <B>by a</B>pplication 
+of the recommended procedures.
+
+CACM December, 1960
+
+Ellenberger, K. W.
+
+CA601205 JB March 20, 1978  6:41 PM
+
+111	5	111
+111	5	111
+111	5	111
+
+
+************************
+
+
+
+On Programming the Numerical Solution of Polynomial Equations
+
+Numerical techniques are presented for computing
+the roots of polynomial equations.  By applying 
+the recommended scaling and inversion rules, the basic
+Bairstow and Newton-Raphson iterative techniques 
+can be applied with great reliability.  Both a high degree
+of accuracy and rapid convergence are realized. 
+ Numerical examples are shown to illustrate the pitfalls
+and to show how these are circumvented by application 
+<B>of the</B> recommended procedures.
+
+CACM December, 1960
+
+Ellenberger, K. W.
+
+CA601205 JB March 20, 1978  6:41 PM
+
+111	5	111
+111	5	111
+111	5	111
+
+
+************************
+
+************************
+Document:  CACM-1351.html
+************************
+
+
+Automatic Error Bounds on Real Zeros of Rational Functions
+
+A procedure for implementing an interval arithmetic
+version <B>of the</B> Newton-Raphson method is 
+proposed.  The procedure require only a starting interval
+over which the zeros of a given rational function 
+are to be located.  The method automatically provides bounds 
+for roundoff error.
+
+CACM November, 1966
+
+Dargel, R. H.
+Loscalzo, F. R.
+Witt, T. H.
+
+CA661107 JB March 2, 1978  3:31 PM
+
+1351	5	1351
+1351	5	1351
+1351	5	1351
+
+
+************************
+
+************************
+Document:  CACM-1353.html
+************************
+
+
+Techniques for Automatic Tolerance Control in Linear Programming
+
+In this technical note, the numerical steps
+for the simplex method of linear programming are 
+reviewed and the tolerances needed in the numerical procedure
+are defined.  Objective criteria are given 
+for accomplishing the numerical steps <B>of the</B> method
+and the calculation of necessary tolerances.
+
+CACM November, 1966
+
+Clasen, R. J.
+
+CA661105 JB March 2, 1978  3:37 PM
+
+1353	5	1353
+1353	5	1353
+1353	5	1353
+2589	5	1353
+1353	6	1353
+
+
+************************
+
+
+
+Techniques for Automatic Tolerance Control in Linear Programming
+
+In this technical note, the numerical steps
+for the simplex method of linear programming are 
+reviewed and the tolerances needed <B>in the</B> numerical procedure
+are defined.  Objective criteria are given 
+for accomplishing the numerical steps of the method
+and the calculation of necessary tolerances.
+
+CACM November, 1966
+
+Clasen, R. J.
+
+CA661105 JB March 2, 1978  3:37 PM
+
+1353	5	1353
+1353	5	1353
+1353	5	1353
+2589	5	1353
+1353	6	1353
+
+
+************************
+
+************************
+Document:  CACM-1954.html
+************************
+
+
+Eigenvalues and Eigenvectors of a Real
+Symmetric Matrix (Algorithm 384 $F2))
+
+CACM December, 1970
+
+<B>Stewart, G.</B> W.	
+
+real symmetric matrix, eigenvalues, eigenvectors, QR algorithm
+
+5.14
+
+CA701209 JB February 9, 1978  3:08 PM
+
+1954	5	1954
+1954	5	1954
+1954	5	1954
+
+
+************************
+
+************************
+Document:  CACM-2950.html
+************************
+
+
+A Unifying Approach to Scheduling
+
+This paper presents a scheme for classifying
+scheduling algorithms based on an abstract model 
+of a scheduling system which formalizes the notion of
+priority.  Various classes of scheduling algorithms
+are defined and related to existing algorithms.  A
+criterion for the implementation efficiency of an 
+algorithm is developed and results in the definition
+of time-invariant algorithms, which include most 
+<B>of the</B> commonly implemented ones.  For time-invariant
+algorithms, the dependence of processing rates 
+on priorities is derived.  The abstract model provides
+a framework for implementing flexible schedulers 
+in real operating systems.  The policy-driven scheduler
+of Bernstein and Sharp is discussed as an example 
+of such an implementation
+
+CACM July, 1977
+
+Ruschitzka, M.
+Fabry, R. S.
+
+scheduling algorithms, scheduling models, priority,
+operating systems,processor sharing, implementation 
+efficiency
+
+4.31 4.32 4.34 4.35 8.1
+
+CA770702 JB December 28, 1977  12:32 PM
+
+2950	4	2950
+3072	4	2950
+2219	5	2950
+2950	5	2950
+2950	5	2950
+2950	5	2950
+
+
+************************
+
+
+
+A Unifying Approach to Scheduling
+
+This paper presents a scheme for classifying
+scheduling algorithms based on an abstract model 
+of a scheduling system which formalizes the notion of
+priority.  Various classes of scheduling algorithms
+are defined and related to existing algorithms.  A
+criterion for the implementation efficiency of an 
+algorithm is developed and results <B>in the</B> definition
+of time-invariant algorithms, which include most 
+of the commonly implemented ones.  For time-invariant
+algorithms, the dependence of processing rates 
+on priorities is derived.  The abstract model provides
+a framework for implementing flexible schedulers 
+in real operating systems.  The policy-driven scheduler
+of Bernstein and Sharp is discussed as an example 
+of such an implementation
+
+CACM July, 1977
+
+Ruschitzka, M.
+Fabry, R. S.
+
+scheduling algorithms, scheduling models, priority,
+operating systems,processor sharing, implementation 
+efficiency
+
+4.31 4.32 4.34 4.35 8.1
+
+CA770702 JB December 28, 1977  12:32 PM
+
+2950	4	2950
+3072	4	2950
+2219	5	2950
+2950	5	2950
+2950	5	2950
+2950	5	2950
+
+
+************************
+
+************************
+Document:  CACM-1905.html
+************************
+
+
+The Simplex Method of Linear Programming Using LU Decomposition
+
+Standard computer implementations of Dantzig's
+simplex method for linear programming are based 
+upon forming the inverse of the basic matrix and updating
+the inverse after every step of the method. 
+ These implementations have bad round-off error properties.
+ This paper gives the theoretical background 
+for an implementation which is based up<B>on the</B> LU decomposition,
+computed with row interchanges, of the 
+basic matrix.  The implementation is slow, but has good
+round-off error behavior.  The implementation 
+appears as CACM Algorithm 350.
+
+CACM May, 1969
+
+Bartels, R. H.
+Goulub, G. H.
+
+simplex method, linear programming, LU decomposition,
+round-off errors, computational stability
+
+5.41
+
+CA690504 JB February 17, 1978  3:49 PM
+
+1905	4	1905
+1744	5	1905
+1905	5	1905
+1905	5	1905
+1905	5	1905
+
+
+************************
+
+
+
+The Simplex Method of Linear Programming Using LU Decomposition
+
+Standard computer implementations of Dantzig's
+simplex method for linear programming are based 
+upon forming the inverse <B>of the</B> basic matrix and updating
+the inverse after every step of the method. 
+ These implementations have bad round-off error properties.
+ This paper gives the theoretical background 
+for an implementation which is based upon the LU decomposition,
+computed with row interchanges, of the 
+basic matrix.  The implementation is slow, but has good
+round-off error behavior.  The implementation 
+appears as CACM Algorithm 350.
+
+CACM May, 1969
+
+Bartels, R. H.
+Goulub, G. H.
+
+simplex method, linear programming, LU decomposition,
+round-off errors, computational stability
+
+5.41
+
+CA690504 JB February 17, 1978  3:49 PM
+
+1905	4	1905
+1744	5	1905
+1905	5	1905
+1905	5	1905
+1905	5	1905
+
+
+************************
+
+************************
+Document:  CACM-1274.html
+************************
+
+
+On the Numerical Solution of an N-Point Boundary
+Value Problem for Linear Ordinary Differential 
+Equations
+
+A method for the numerical solution <B>of the</B>n-point
+boundary value problem for homogeneous linear 
+ordinary differential equations is developed.  The
+method requires two Runge-Kutta integrations over 
+the interval under consideration and the solution of
+a linear system of equations with n-1 unknowns.
+
+CACM April, 1965
+
+Day, J. T.
+
+CA650417 JB March 7, 1978  3:30 PM
+
+1274	4	1274
+1147	5	1274
+1274	5	1274
+1274	5	1274
+1274	5	1274
+
+
+************************
+
+************************
+Document:  CACM-2447.html
+************************
+
+
+Sard Kernels for Certain Bivariate Cubatures
+
+An error analysis for some bivariate cubatures
+is given.  The remainders are obtained by the 
+use of Sard kernels.  Numerical results and computer
+graphs are given for some <B>of the</B> kernel functions.
+
+CACM September, 1973
+
+Barnhill, R. E.
+Pilcher, D. T.
+
+cubatures, Sard kernels, numerical integration, remainder formulas
+
+5.13 5.16
+
+CA730908 JB January 23, 1978  8:52 AM
+
+2447	5	2447
+2447	5	2447
+2447	5	2447
+
+
+************************
+
+************************
+Document:  CACM-3153.html
+************************
+
+
+The Control of Response Times in Multi-Class
+Systems by Memory Allocations 
+
+The possibility of giving different quality of service to jobs of different
+classes by regulating their memory allocation is examined in
+the context of a paged computer system.  Two parameterized algorithms
+which partiti<B>on the</B> main memory between two classes of jobs are
+considered.  Initially, a closed system consisting of a process
+or and paging and file devices, with fixed numbers of jobs, is studied
+to determine optimal degrees of multiprogramming and the proportion
+of processor time devoted to each class.  Applying a decomposition
+approach and treating the closed system as a single server,
+the response times in an open system with external arrivals are
+studied.  The object is to investigate the effect of the memory
+alocation parameters on the expected response times under the two algorithms.
+Numerical solutions and economical lower bounds for the
+expected response times as functions of the control parameters
+are obtained.  A way of applying the results to systems with more
+than two job classes is indicated.
+
+CACM July, 1979
+
+Hine, J.
+Mitrani, I.
+Tsur, S.
+
+Queueing networks, paging, virtual memory, performance control
+
+4.32 8.1
+
+CA790704 DH August 22, 1979  3:32 PM
+
+3016	4	3153
+3070	4	3153
+3153	4	3153
+3153	4	3153
+2741	5	3153
+2891	5	3153
+3153	5	3153
+3153	5	3153
+3153	5	3153
+
+
+************************
+
+
+
+The Control of Response Times in Multi-Class
+Systems by Memory Allocations 
+
+The possibility of giving different quality of service to jobs of different
+classes by regulating their memory allocation is examined in
+the context of a paged computer system.  Two parameterized algorithms
+which partition the main memory between two classes of jobs are
+considered.  Initially, a closed system consisting of a process
+or and paging and file devices, with fixed numbers of jobs, is studied
+to determine optimal degrees of multiprogramming and the proportion
+of processor time devoted to each class.  Applying a decomposition
+approach and treating the closed system as a single server,
+the response times in an open system with external arrivals are
+studied.  The object is to investigate the effect <B>of the</B> memory
+alocation parameters on the expected response times under the two algorithms.
+Numerical solutions and economical lower bounds for the
+expected response times as functions of the control parameters
+are obtained.  A way of applying the results to systems with more
+than two job classes is indicated.
+
+CACM July, 1979
+
+Hine, J.
+Mitrani, I.
+Tsur, S.
+
+Queueing networks, paging, virtual memory, performance control
+
+4.32 8.1
+
+CA790704 DH August 22, 1979  3:32 PM
+
+3016	4	3153
+3070	4	3153
+3153	4	3153
+3153	4	3153
+2741	5	3153
+2891	5	3153
+3153	5	3153
+3153	5	3153
+3153	5	3153
+
+
+************************
+
+
+
+The Control of Response Times in Multi-Class
+Systems by Memory Allocations 
+
+The possibility of giving different quality of service to jobs of different
+classes by regulating their memory allocation is examined in
+the context of a paged computer system.  Two parameterized algorithms
+which partition the main memory between two classes of jobs are
+considered.  Initially, a closed system consisting of a process
+or and paging and file devices, with fixed numbers of jobs, is studied
+to determine optimal degrees of multiprogramming and the proportion
+of processor time devoted to each class.  Applying a decomposition
+approach and treating the closed system as a single server,
+the response times in an open system with external arrivals are
+studied.  The object is to investigate the effect of the memory
+alocation parameters on the expected response times under the two algorithms.
+Numerical solutions and economical lower <B>bounds for</B> the
+expected response times as functions of the control parameters
+are obtained.  A way of applying the results to systems with more
+than two job classes is indicated.
+
+CACM July, 1979
+
+Hine, J.
+Mitrani, I.
+Tsur, S.
+
+Queueing networks, paging, virtual memory, performance control
+
+4.32 8.1
+
+CA790704 DH August 22, 1979  3:32 PM
+
+3016	4	3153
+3070	4	3153
+3153	4	3153
+3153	4	3153
+2741	5	3153
+2891	5	3153
+3153	5	3153
+3153	5	3153
+3153	5	3153
+
+
+************************
+
+************************
+Document:  CACM-2544.html
+************************
+
+
+Automatic Error <B>bounds for</B> Simple Zeros of Analytic Functions
+
+The Cauchy-Ostrowski theorem on convergence
+of Newton iterates for an analytic function in 
+one variable is extended to include computational errors
+using complex interval arithmetic. Several numerical 
+examples are given for polynomials with real and complex
+roots and one example for the Bessel function 
+of the first kind.
+
+CACM February, 1973
+
+Rokne, J.
+
+real intervals, complex intervals, real interval
+arithmetic, complex interval arithmetic, Newton's 
+method, Cauchy-Ostrowski theorem, zeros of
+polynomials, zeros of Bessel functions
+
+5.11 5.12 5.15
+
+CA730204 JB January 24, 1978  2:51 PM
+
+1524	4	2544
+1931	4	2544
+2214	4	2544
+2544	4	2544
+2544	4	2544
+2544	4	2544
+1524	5	2544
+311	5	2544
+2214	5	2544
+2544	5	2544
+2544	5	2544
+2544	5	2544
+
+
+************************
+
+
+
+Automatic Error bounds for Simple Zeros of Analytic Functions
+
+The Cauchy-Ostrowski theorem on convergence
+of Newton iterates for an analytic function in 
+one variable is extended to include computational errors
+using complex interval arithmetic. Several numerical 
+examples are given for polynomials with real and complex
+roots and one example for the Bessel function 
+<B>of the</B> first kind.
+
+CACM February, 1973
+
+Rokne, J.
+
+real intervals, complex intervals, real interval
+arithmetic, complex interval arithmetic, Newton's 
+method, Cauchy-Ostrowski theorem, zeros of
+polynomials, zeros of Bessel functions
+
+5.11 5.12 5.15
+
+CA730204 JB January 24, 1978  2:51 PM
+
+1524	4	2544
+1931	4	2544
+2214	4	2544
+2544	4	2544
+2544	4	2544
+2544	4	2544
+1524	5	2544
+311	5	2544
+2214	5	2544
+2544	5	2544
+2544	5	2544
+2544	5	2544
+
+
+************************
+
+************************
+Document:  CACM-2043.html
+************************
+
+
+Eigenvalues and Eigenvectors of a Real
+Symmetric Matrix $F2) (Algorithm 384)
+
+CACM June, 1970
+
+<B>Stewart, G.</B> W.
+
+real symmetric matrix, eigenvalues, eigenvectors, QR algorithm
+
+5.14
+
+CA700612 JB February 13, 1978  10:34 AM
+
+2043	5	2043
+2043	5	2043
+2043	5	2043
+2349	5	2043
+1648	6	2043
+1716	6	2043
+1794	6	2043
+1894	6	2043
+2043	6	2043
+501	6	2043
+613	6	2043
+774	6	2043
+
+
+************************
+
+************************
+Document:  CACM-0397.html
+************************
+
+
+A Card Format for Reference Files in Information Processing
+
+This paper proposes a card format suitable for
+a variety of reference files in information 
+processing.  An 80-column IBM card is divided into two
+fields-reference material field (columns 1-67) 
+and identification field (columns 68-80).  The format
+for the reference material is flexible, while the 
+format for the identification is rigid.  The reference
+material includes basically an index, title, source, 
+class, summary and cross reference for each entry. 
+The identification includes basically codes for a 
+matrix of descriptors, an entry number, and the kind,
+major interest, and source <B>of the</B> reference.  The 
+identification also provides a choice to identify material
+for personal as well as general files.  Since 
+this card format is sufficient to identify the material
+normally associated with reference files for 
+books, articles, programming terms, hardware terms, equipment,
+machine systems, abbreviations, etc., it 
+is suitable as a standard for card reference files in information processing.
+
+CACM February, 1961
+
+Grems, M.
+
+CA610201 JB March 17, 1978  1:08 AM
+
+929	5	397
+397	5	397
+397	5	397
+397	5	397
+397	6	397
+
+
+************************
+
+************************
+Document:  CACM-2408.html
+************************
+
+
+Solving the Biharmonic Equation in a Square:
+A Direct Versus a Semidirect Method
+
+Two methods for solving the biharmonic equation
+are compared.  One method is direct, using 
+eigenvalue-eigenvector decomposition.  The other method
+is iterative, solving a Poisson equation directly 
+at each iteration.
+
+CACM November, 1973
+
+Ehrlich, L. W.
+
+biharmonic, direct method, block iterative,
+eigenvector-<B>eigenvalue decomposition</B>
+
+5.14 5.17
+
+CA731118 JB January 19, 1978  3:28 PM
+
+2408	5	2408
+2408	5	2408
+2408	5	2408
+
+
+************************
+
+************************
+Document:  CACM-2697.html
+************************
+
+
+A Fast Method for Solving a Class of Tridiagonal Linear Systems
+
+The solution of linear systems having real, symmetric,
+diagonally dominant,tridiagonal coefficient 
+matrices with constant diagonals is considered.  It is
+proved that the diagonals <B>of the</B> LU decomposition 
+converges when floating-point precision.  It is also
+proved that the computed LU decomposition converges 
+when floating-point arithmetic is used and that the limits
+of the LU diagonals using floating point are 
+roughly within machine precision of the limits using
+real arithmetic.  This fact is exploited to reduce 
+the number of floating-point operations required to
+solve a linear system from 8n-7 to 5n+2k-3, where 
+k is much less than n, the order of the matrix.  If the
+elements of the subdiagonals and superdiagonals 
+are 1, then only 4n+2k-3 operations are needed.  The
+entire LU decomposition takes k words of storage, 
+and considerable savings in array subscripting are achieved.
+ Upper and lower bounds on k are obtained 
+in terms of the ratio of the coefficient matrix diagonal
+constants and parameters of the floating-point 
+number system.  Various generalizations of these results are discussed.
+
+CACM January, 1974
+
+Malcolm, M. A.
+Palmer, J.
+
+numerical linear algebra, linear systems,
+Toeplitz matrices, tridiagonal matrices
+
+5 5.1 5.11 5.14 5.17
+
+CA740102 JB January 18, 1978  2:50 PM
+
+2697	5	2697
+2697	5	2697
+2697	5	2697
+
+
+************************
+
+************************
+Document:  CACM-3059.html
+************************
+
+
+Models for Parallel Processing WIthin Programs:
+Application to CPU:I/O and I/O:I/O Overlap
+
+Approximate queueing models for internal parallel
+processing by individual programs in a multiprogrammed 
+system are developed in this paper.  The solution technique
+is developed by network decomposition.  The 
+models are formulated in terms of CPU:I/O and I/O:I/O overlap
+and applied to the analysis <B>of the</B>se problems. 
+ The percentage performance improvement from CPU:I/O
+overlap is found to be greatest for systems which 
+are in approximate CPU:I/O utilization balance and for
+low degrees of multiprogramming.  The percentage 
+improvement from I/O:I/O overlap is found to be greatest
+for systemtems in which the I/O system is more 
+utilized than the CPU.
+
+CACM October, 1978
+
+Towsley, D.
+Chandy, K.
+Browne, J.
+
+Multiprogramming, parallel processing, queueing
+network models, multiprocessing of computation 
+and I/O 
+
+4.32 8.1
+
+CA781002 DH January 29, 1979  6:23 PM
+
+3059	4	3059
+3070	4	3059
+1685	5	3059
+2988	5	3059
+3059	5	3059
+3059	5	3059
+3059	5	3059
+3059	6	3059
+
+
+************************
+
+************************
+Document:  CACM-2807.html
+************************
+
+
+On the Stability of Gauss-Jordan Elimination with Pivoting
+
+The stability <B>of the</B> Gauss-Jordan algorithm
+with partial pivoting for the solution of general 
+systems of linear equations is commonly regarded as suspect.
+ It is shown that in many respects suspicions 
+are unfounded, and in general the absolute error in the solution
+is strictly comparable with that corresponding 
+to Gaussian elimination with partial pivoting plus back
+substitution.  However, when A is ill conditioned, 
+the residual corresponding to the Gauss-Jordan solution
+will often be much greater than that corresponding 
+to the Gaussian elimination solution.
+
+CACM January, 1975
+
+Peters, G.
+Wilkinson, J. H.
+
+Gauss-Jordan algorithm, Gaussian elimination, back-substitution,
+backward error analysis, bounds 
+for error in solution, bound for residual 
+
+5.11 5.14
+
+CA750104 JB January 12, 1978  10:44 AM
+
+2807	5	2807
+2807	5	2807
+2807	5	2807
+
+
+************************
+
+
+
+On the Stability of Gauss-Jordan Elimination with Pivoting
+
+The stability of the Gauss-Jordan algorithm
+with partial pivoting for the solution of general 
+systems of linear equations is commonly regarded as suspect.
+ It is shown that in many respects suspicions 
+are unfounded, and in general the absolute error <B>in the</B> solution
+is strictly comparable with that corresponding 
+to Gaussian elimination with partial pivoting plus back
+substitution.  However, when A is ill conditioned, 
+the residual corresponding to the Gauss-Jordan solution
+will often be much greater than that corresponding 
+to the Gaussian elimination solution.
+
+CACM January, 1975
+
+Peters, G.
+Wilkinson, J. H.
+
+Gauss-Jordan algorithm, Gaussian elimination, back-substitution,
+backward error analysis, bounds 
+for error in solution, bound for residual 
+
+5.11 5.14
+
+CA750104 JB January 12, 1978  10:44 AM
+
+2807	5	2807
+2807	5	2807
+2807	5	2807
+
+
+************************
+
+
+
+On the Stability of Gauss-Jordan Elimination with Pivoting
+
+The stability of the Gauss-Jordan algorithm
+with partial pivoting for the solution of general 
+systems of linear equations is commonly regarded as suspect.
+ It is shown that in many respects suspicions 
+are unfounded, and in general the absolute error in the solution
+is strictly comparable with that corresponding 
+to Gaussian elimination with partial pivoting plus back
+substitution.  However, when A is ill conditioned, 
+the residual <B>corresponding to</B> the Gauss-Jordan solution
+will often be much greater than that corresponding 
+to the Gaussian elimination solution.
+
+CACM January, 1975
+
+Peters, G.
+Wilkinson, J. H.
+
+Gauss-Jordan algorithm, Gaussian elimination, back-substitution,
+backward error analysis, bounds 
+for error in solution, bound for residual 
+
+5.11 5.14
+
+CA750104 JB January 12, 1978  10:44 AM
+
+2807	5	2807
+2807	5	2807
+2807	5	2807
+
+
+************************
+
+************************
+Document:  CACM-1514.html
+************************
+
+
+On the Expected Gain From Adjust ing Matched Term Retrieval Systems
+
+A file adjustment procedure based on maximizing
+the Bayes expected gain proposed for matched 
+term retrieval systems.  The expected gain and its probability
+distribution are derived as a function 
+of: (1) the prior proportion of omitted terms, and (2) the
+coefficient of separation between two distributions 
+<B>corresponding to</B> values of an adjustment statistic.  An
+example evaluates the gain parameters for a typical 
+information retrieval system.
+
+CACM November, 1967
+
+Shumway, R. H.
+
+CA671106 JB February 26, 1978  2:59 PM
+
+1514	5	1514
+1514	5	1514
+1514	5	1514
+
+
+************************
+
+************************
+Document:  CACM-1369.html
+************************
+
+
+Half Rotations in N-Dimensional Euclidean Space
+
+An iterative procedure is described for determining
+half rotations in n-dimensional Euclidean 
+space. The method is a variant <B>of the</B> cyclic Jacobi
+procedure and utilizers elementary plane rotations 
+to obtain the half rotation matrix.  Numerical examples are given.
+
+CACM September, 1966
+
+McCamon, R. B.
+
+CA660910 JB March 2, 1978  4:32 PM
+
+1369	5	1369
+1369	5	1369
+1369	5	1369
+1961	5	1369
+1369	6	1369
+1504	6	1369
+1847	6	1369
+
+
+************************
+
+
+
+Half Rotations in N-Dimensional Euclidean Space
+
+An iterative procedure is described for determining
+half rotations in n-dimensional Euclidean 
+space. The method is a variant of the cyclic Jacobi
+procedure and utilizers elementary plane rotations 
+to obta<B>in the</B> half rotation matrix.  Numerical examples are given.
+
+CACM September, 1966
+
+McCamon, R. B.
+
+CA660910 JB March 2, 1978  4:32 PM
+
+1369	5	1369
+1369	5	1369
+1369	5	1369
+1961	5	1369
+1369	6	1369
+1504	6	1369
+1847	6	1369
+
+
+************************
+
+************************
+Document:  CACM-3125.html
+************************
+
+
+Global Optimization by Suppression of Partial Redundancies
+
+The elimination of redundant computations and the moving of invariant
+computations out of loops are often done separately, with invariants 
+moved outward loop by loop.  We propose to do both at once and
+to move each expression directly to the entrance <B>of the</B> outermost
+loop in which it is invariant.  This is done by solving a more
+general problem, i.e. the elimination of computations performed
+twice on a given execution path.  Such computations are termed partially
+redundant.  Moreover, the algorithm does not require any graphical
+information or restrictions on the shape of the program graph.
+Testing this algorithm has shown that its execution cost is nearly
+linear with the size of the program, and that it leads
+to a smaller optimizer that requires less execution time.
+
+CACM February, 1979
+
+Morel, E.
+Renvoise, C.
+
+Optimizer, optimization, compiler, compilation,
+redundancy elimination, invariant
+ computation elimination, partial redundancy,
+data flow analysis, Boolean systems
+
+4.12 5.21 5.24
+
+CA790204 DH April 10, 1979  4:19 PM
+
+3125	5	3125
+3125	5	3125
+3125	5	3125
+
+
+************************
+
+
+
+Global Optimization by Suppression of Partial Redundancies
+
+The elimination of redundant computations and the moving of invariant
+computations out of loops are often done separately, with invariants 
+moved outward loop by loop.  We propose to do both at once and
+to move each expression directly to the entrance of the outermost
+loop in which it is invariant.  This is done by solving a more
+general problem, i.e. the elimination of computations performed
+twice on a given execution path.  Such computations are termed partially
+redundant.  Moreover, the algorithm does not require any graphical
+information or restrictions <B>on the</B> shape of the program graph.
+Testing this algorithm has shown that its execution cost is nearly
+linear with the size of the program, and that it leads
+to a smaller optimizer that requires less execution time.
+
+CACM February, 1979
+
+Morel, E.
+Renvoise, C.
+
+Optimizer, optimization, compiler, compilation,
+redundancy elimination, invariant
+ computation elimination, partial redundancy,
+data flow analysis, Boolean systems
+
+4.12 5.21 5.24
+
+CA790204 DH April 10, 1979  4:19 PM
+
+3125	5	3125
+3125	5	3125
+3125	5	3125
+
+
+************************
+
+************************
+Document:  CACM-0727.html
+************************
+
+
+On the Approximate Solution of Delta(u)=F(u)
+
+Three-dimensional Dirichlet problems for Delta(u)=F(u),
+Fu >= 0, are treated numerically by 
+an exceptionally fast, exceptionally accurate numerical
+method.  Programming details, numerous examples 
+and mathematical theory are suppliedxtension <B>of the</B>
+method in a natural way to n-dimensional problems 
+is indicated by means of a 4-dimensional example.
+
+CACM September, 1963
+
+Greenspan, D.
+Yohe, M.
+
+CA630931 JB March 13, 1978  6:57 PM
+
+727	5	727
+727	5	727
+727	5	727
+
+
+************************
+
+************************
+Document:  CACM-3016.html
+************************
+
+
+A Comparison of Numerical Techniques in Markov Modeling
+
+This paper presents several numerical methods which
+may be used to obta<B>in the</B> stationary probability 
+vectors of Markovian models.  An example of a nearly
+decomposable system is considered, and the results 
+obtained by the different methods examined.  A post
+mortem reveals why standard techniques often fail 
+to yield the correct results.  Finally, a means of estimating
+the error inherent in the decomposition 
+of certain models is presented.
+
+CACM February, 1978
+
+Stewart, W.
+
+Markov models, numerical techniques, simultaneous
+iteration, near-decomposability
+
+4.6 5.14 8.1
+
+CA780207 JB March 28, 1978  3:43 PM
+
+2374	4	3016
+2481	4	3016
+2669	4	3016
+2863	4	3016
+3016	4	3016
+3016	4	3016
+3052	4	3016
+3070	4	3016
+3153	4	3016
+1901	5	3016
+2741	5	3016
+3016	5	3016
+3016	5	3016
+3016	5	3016
+
+
+************************
+
+************************
+Document:  CACM-1998.html
+************************
+
+
+Complex Matrix Inversion Versus Real
+
+A comparison of complex matrix with real matrix inversion
+is made.  It is shown that the complex inversion can be up to 
+twice as fast as the real inversion.  Further, the rounding error
+bound for complex inversion is about one-eighth that <B>of real</B>,
+for Gaussian elimination.  Using extended inner product
+accumulation the bound is half of the real system.
+
+CACM September, 1970
+
+Ehrlich, L. W.
+
+complex matrix inversion, matrix inversion, inversion, rounding errors,
+rounding error bound, error bounds, complex rounding error bounds
+
+5.14 5.11 5.10
+
+CA700907 JB February 10, 1978  10:19 AM
+
+1998	5	1998
+1998	5	1998
+1998	5	1998
+
+
+************************
+
+
+
+Complex Matrix Inversion Versus Real
+
+A comparison of complex matrix with real matrix inversion
+is made.  It is shown that the complex inversion can be up to 
+twice as fast as the real inversion.  Further, the rounding error
+bound for complex inversion is about one-eighth that of real,
+for Gaussian elimination.  Using extended inner product
+accumulati<B>on the</B> bound is half of the real system.
+
+CACM September, 1970
+
+Ehrlich, L. W.
+
+complex matrix inversion, matrix inversion, inversion, rounding errors,
+rounding error bound, error bounds, complex rounding error bounds
+
+5.14 5.11 5.10
+
+CA700907 JB February 10, 1978  10:19 AM
+
+1998	5	1998
+1998	5	1998
+1998	5	1998
+
+
+************************
+
+
+
+Complex Matrix Inversion Versus Real
+
+A comparison of complex matrix with real matrix inversion
+is made.  It is shown that the complex inversion can be up to 
+twice as fast as the real inversion.  Further, the rounding error
+bound for complex inversion is about one-eighth that of real,
+for Gaussian elimination.  Using extended inner product
+accumulation the bound is half <B>of the</B> real system.
+
+CACM September, 1970
+
+Ehrlich, L. W.
+
+complex matrix inversion, matrix inversion, inversion, rounding errors,
+rounding error bound, error bounds, complex rounding error bounds
+
+5.14 5.11 5.10
+
+CA700907 JB February 10, 1978  10:19 AM
+
+1998	5	1998
+1998	5	1998
+1998	5	1998
+
+
+************************
+
+************************
+Document:  CACM-2266.html
+************************
+
+
+A Highly Parallel Algorithm for Approximating
+All Zeros of a Polynomial with Only Real Zeros
+
+An algorithm is described based on Newton's
+method which simultaneously approximates all zeros 
+of a polynomial with only real zeros.  The algorithm, which
+is conceptually suitable for parallel computation, 
+determines its own starting values so that convergence
+to the zeros is guaranteed.  Multiple zeros and 
+their multiplicity are readily determined.  At no
+point <B>in the</B> method is polynomial deflation used.
+
+CACM November, 1972
+
+Patrick, M. L.
+
+parallel numerical algorithms, real polynomials,
+real zeros, Newton's method, starting values, 
+guaranteed convergence
+
+5.15
+
+CA721103 JB January 27, 1978  2:35 PM
+
+2266	5	2266
+2266	5	2266
+2266	5	2266
+2660	5	2266
+2266	6	2266
+
+
+************************
+
+************************
+Document:  CACM-1048.html
+************************
+
+
+Approximate Solution of Axially Symmetric Problems
+
+A variety of physical problems in such diverse
+fields as electrostatic  field theory, heat 
+and ideal fluid flow, and stress concentrati<B>on the</B>ory
+reduce, under the assumption of axial symmetry, 
+to the study of an elliptic partial differential equation.
+ Dirichlet-type problems associated with this 
+equation are studied on regions whose boundaries include
+a nondegenerate portion of the x-axis and exceedingly 
+accurate numerical methods are given for approximating solutions.
+
+CACM June, 1964
+
+Greenspan, D.
+
+CA640619 JB March 9, 1978  8:55 PM
+
+1048	5	1048
+1048	5	1048
+1048	5	1048
+
+
+************************
+
+
+
+Approximate Solution of Axially Symmetric Problems
+
+A variety of physical problems in such diverse
+fields as electrostatic  field theory, heat 
+and ideal fluid flow, and stress concentration theory
+reduce, under the assumption of axial symmetry, 
+to the study of an elliptic partial differential equation.
+ Dirichlet-type problems associated with this 
+equation are studied on regions whose boundaries include
+a nondegenerate portion <B>of the</B> x-axis and exceedingly 
+accurate numerical methods are given for approximating solutions.
+
+CACM June, 1964
+
+Greenspan, D.
+
+CA640619 JB March 9, 1978  8:55 PM
+
+1048	5	1048
+1048	5	1048
+1048	5	1048
+
+
+************************
+
+************************
+Document:  CACM-1744.html
+************************
+
+
+Stable Numerical Methods for Obtaining the Chebyshev
+Solution to an Overdetermined System of 
+Equations
+
+An implementation of Stiefel's exchange algorithm
+for determining a Chebyshev solution to an 
+overdetermined system of linear equations is presented,
+that uses Gaussian LU decomposition with row 
+interchanges.  The implementation is computationally more
+stable than those usually given <B>in the</B> literature. 
+ A generalization of Stiefel's algorithm is developed which
+permits the occasional exchange of two equations 
+simultaneously.
+
+CACM June, 1968
+
+Bartels, R. H.
+Golub, G. H.
+
+Chebyshev solutions, overdetermined linear
+systems, linear equations,exchange algorithm
+
+5.13 5.14 5.41
+
+CA680601 JB February 22, 1978  4:50 PM
+
+1744	5	1744
+1744	5	1744
+1744	5	1744
+1905	5	1744
+1744	6	1744
+
+
+************************
+
+************************
+Document:  CACM-1809.html
+************************
+
+
+Numerical Analysis in a Ph. Computer Science Program
+
+Numerical Analysis is the study of methods and
+procedures used to obtain "approximate solutions" 
+to mathematical problems.  Much <B>of the</B> emphasis is on scientific
+calculation.  The difficulties of education 
+in such a broad area center around the question of background
+and emphasis.  The Numerical Analysis program 
+in the Computer Science Department should emphasize an
+awareness of the problems of computer implementation 
+and experimental procedures.  Nevertheless, there is a
+need for a solid background in applied mathematics.
+
+CACM December, 1969
+
+Parter, S. V.
+
+Ph. program, numerical analysis, course separation, education
+
+1.52
+
+CA691203 JB February 15, 1978  4:25 PM
+
+1809	5	1809
+1809	5	1809
+1809	5	1809
+
+
+************************
+
+
+
+Numerical Analysis in a Ph. Computer Science Program
+
+Numerical Analysis is the study of methods and
+procedures used to obtain "approximate solutions" 
+to mathematical problems.  Much of the emphasis is on scientific
+calculation.  The difficulties of education 
+in such a broad area center around the question of background
+and emphasis.  The Numerical Analysis program 
+<B>in the</B> Computer Science Department should emphasize an
+awareness of the problems of computer implementation 
+and experimental procedures.  Nevertheless, there is a
+need for a solid background in applied mathematics.
+
+CACM December, 1969
+
+Parter, S. V.
+
+Ph. program, numerical analysis, course separation, education
+
+1.52
+
+CA691203 JB February 15, 1978  4:25 PM
+
+1809	5	1809
+1809	5	1809
+1809	5	1809
+
+
+************************
+
+************************
+Document:  CACM-1147.html
+************************
+
+
+On the Numerical Solution of Boundary Value Problems
+for Linear Ordinary Differential Equations*
+
+A numerical method is presented for the solution
+of boundary value problems involving linear 
+ordinary differential equations.  The method described
+is noniterative and makes use of any one-step 
+numerical integration scheme to reduce the problem from
+one of boundary values to one of initial values. 
+ Comments are made concerning some numerical results
+of applying the method to a specific problem.  In 
+addition an extension <B>of the</B> algorithm described
+to more general problems is discussed.
+
+CACM January, 1964
+
+Day, J. T.
+Collins II, G. W.
+
+CA640108 JB March 10, 1978  5:32 AM
+
+1147	5	1147
+1147	5	1147
+1147	5	1147
+1274	5	1147
+1147	6	1147
+
+
+************************
+
+************************
+Document:  CACM-0950.html
+************************
+
+
+Parallel Methods for Integrating Ordinary Differential Equations
+
+This paper is dedicated to the proposition that,
+in order to take full advantage for real-time 
+computations of highly parallel computers as can be
+expected to be available <B>in the</B> near future, much 
+of numerical analysis will have to be recast in a more
+"parallel" form.  By this is meant that serial 
+algorithms ought to be replaced by algorithm which
+consist of several subtasks which can be computed 
+without knowledge of the results of the other subtasks. 
+As an example, a method is proposed for "parallelizing" 
+the numerical integration of an ordinary differential
+equation, which process, by all standard methods, 
+is entirely serial.
+
+CACM December, 1964
+
+Nievergelt, J.
+
+CA641221 JB March 9, 1978  3:09 PM
+
+950	5	950
+950	5	950
+950	5	950
+
+
+************************
+
+
+
+Parallel Methods for Integrating Ordinary Differential Equations
+
+This paper is dedicated to the proposition that,
+in order to take full advantage for real-time 
+computations of highly parallel computers as can be
+expected to be available in the near future, much 
+of numerical analysis will have to be recast in a more
+"parallel" form.  By this is meant that serial 
+algorithms ought to be replaced <B>by a</B>lgorithm which
+consist of several subtasks which can be computed 
+without knowledge of the results of the other subtasks. 
+As an example, a method is proposed for "parallelizing" 
+the numerical integration of an ordinary differential
+equation, which process, by all standard methods, 
+is entirely serial.
+
+CACM December, 1964
+
+Nievergelt, J.
+
+CA641221 JB March 9, 1978  3:09 PM
+
+950	5	950
+950	5	950
+950	5	950
+
+
+************************
+
+
+
+Parallel Methods for Integrating Ordinary Differential Equations
+
+This paper is dedicated to the proposition that,
+in order to take full advantage for real-time 
+computations of highly parallel computers as can be
+expected to be available in the near future, much 
+of numerical analysis will have to be recast in a more
+"parallel" form.  By this is meant that serial 
+algorithms ought to be replaced by algorithm which
+consist of several subtasks which can be computed 
+without knowledge <B>of the</B> results of the other subtasks. 
+As an example, a method is proposed for "parallelizing" 
+the numerical integration of an ordinary differential
+equation, which process, by all standard methods, 
+is entirely serial.
+
+CACM December, 1964
+
+Nievergelt, J.
+
+CA641221 JB March 9, 1978  3:09 PM
+
+950	5	950
+950	5	950
+950	5	950
+
+
+************************
+
+************************
+Document:  CACM-3138.html
+************************
+
+
+A Mathematical Programming Updating Method Using Modified
+Givens Transformations and Applied to LP Problems
+
+An efficient and numerically stable method is presented for the problem of
+updating an orthogonal decomposition of a matrix of column (or row) vectors.
+The fundamental idea is to add a column (or row) analogous
+to adding an additional row of data in a linear least squares problem.
+A column (or row) is dropped by a formal scaling with the
+imaginary unit,  -1, followed by least squares addition <B>of the</B> column
+(or row).  The elimination process for the procedure is successive
+ssive application of the Givens transformation in modified (more efficient)
+form.  These ideas are illustrated with an implementation
+of the revised simplex method.  The algorithm is a general purpose
+one that does not account for any particular structure or sparsity
+in the equations.  Some suggested computational tests for determining
+signs of various controlling parameters in the revised simplex
+algorithm are mentioned.  A simple means of constructing
+test cases and some sample computing times are presented. 
+
+CACM April, 1979
+
+Hanson, R.
+Wisniewski, J.
+
+Linear programming, numerical linear algebra, modified Givens transformations,
+linear programming test cases
+
+5 5.4 5.41 5.1 5.14
+
+CA790404 DH May 21, 1979  2:06 PM
+
+3099	4	3138
+3138	4	3138
+1313	5	3138
+3138	5	3138
+3138	5	3138
+3138	5	3138
+
+
+************************
+
+
+
+A Mathematical Programming Updating Method Using Modified
+Givens Transformations and Applied to LP Problems
+
+An efficient and numerically stable method is presented for the problem of
+updating an orthogonal decomposition of a matrix of column (or row) vectors.
+The fundamental idea is to add a column (or row) analogous
+to adding an additional row of data in a linear least squares problem.
+A column (or row) is dropped by a formal scaling with the
+imaginary unit,  -1, followed by least squares addition of the column
+(or row).  The elimination process for the procedure is successive
+ssive application of the Givens transformation in modified (more efficient)
+form.  These ideas are illustrated with an implementation
+of the revised simplex method.  The algorithm is a general purpose
+one that does not account for any particular structure or sparsity
+<B>in the</B> equations.  Some suggested computational tests for determining
+signs of various controlling parameters in the revised simplex
+algorithm are mentioned.  A simple means of constructing
+test cases and some sample computing times are presented. 
+
+CACM April, 1979
+
+Hanson, R.
+Wisniewski, J.
+
+Linear programming, numerical linear algebra, modified Givens transformations,
+linear programming test cases
+
+5 5.4 5.41 5.1 5.14
+
+CA790404 DH May 21, 1979  2:06 PM
+
+3099	4	3138
+3138	4	3138
+1313	5	3138
+3138	5	3138
+3138	5	3138
+3138	5	3138
+
+
+************************
+
+
+
+A Mathematical Programming Updating Method Using Modified
+Givens Transformations and Applied to LP Problems
+
+An efficient and numerically stable method is presented for the problem of
+updating an orthogonal <B>decomposition of</B> a matrix of column (or row) vectors.
+The fundamental idea is to add a column (or row) analogous
+to adding an additional row of data in a linear least squares problem.
+A column (or row) is dropped by a formal scaling with the
+imaginary unit,  -1, followed by least squares addition of the column
+(or row).  The elimination process for the procedure is successive
+ssive application of the Givens transformation in modified (more efficient)
+form.  These ideas are illustrated with an implementation
+of the revised simplex method.  The algorithm is a general purpose
+one that does not account for any particular structure or sparsity
+in the equations.  Some suggested computational tests for determining
+signs of various controlling parameters in the revised simplex
+algorithm are mentioned.  A simple means of constructing
+test cases and some sample computing times are presented. 
+
+CACM April, 1979
+
+Hanson, R.
+Wisniewski, J.
+
+Linear programming, numerical linear algebra, modified Givens transformations,
+linear programming test cases
+
+5 5.4 5.41 5.1 5.14
+
+CA790404 DH May 21, 1979  2:06 PM
+
+3099	4	3138
+3138	4	3138
+1313	5	3138
+3138	5	3138
+3138	5	3138
+3138	5	3138
+
+
+************************
+
+
+
+A Mathematical Programming Updating Method Using Modified
+Givens Transformations and Applied to LP Problems
+
+An efficient and numerically stable method is presented for the problem of
+updating an orthogonal decomposition of a matrix of column (or row) vectors.
+The fundamental idea is to add a column (or row) analogous
+to adding an additional row of data in a linear least squares problem.
+A column (or row) is dropped <B>by a</B> formal scaling with the
+imaginary unit,  -1, followed by least squares addition of the column
+(or row).  The elimination process for the procedure is successive
+ssive application of the Givens transformation in modified (more efficient)
+form.  These ideas are illustrated with an implementation
+of the revised simplex method.  The algorithm is a general purpose
+one that does not account for any particular structure or sparsity
+in the equations.  Some suggested computational tests for determining
+signs of various controlling parameters in the revised simplex
+algorithm are mentioned.  A simple means of constructing
+test cases and some sample computing times are presented. 
+
+CACM April, 1979
+
+Hanson, R.
+Wisniewski, J.
+
+Linear programming, numerical linear algebra, modified Givens transformations,
+linear programming test cases
+
+5 5.4 5.41 5.1 5.14
+
+CA790404 DH May 21, 1979  2:06 PM
+
+3099	4	3138
+3138	4	3138
+1313	5	3138
+3138	5	3138
+3138	5	3138
+3138	5	3138
+
+
+************************
+
+************************
+Document:  CACM-2325.html
+************************
+
+
+Numerical Mathematics and Computer Science
+
+Numerical mathematics is viewed as the analysis
+of continuous algorithms.  Four <B>of the</B> components 
+of numerical mathematics are discussed.  These are: foundations
+(finite precision number systems, computational 
+complexity), synthesis and analysis of algorithms,
+analysis of error, programs and program libraries.
+
+CACM July, 1972
+
+Traub, J. F.
+
+numerical mathematics, computer science, mathematics
+of computation, algorithms, continuous algorithms
+
+1.3 5.0 5.1 5.25
+
+CA720703 JB January 30, 1978  3:17 PM
+
+1086	4	2325
+1132	4	2325
+1234	4	2325
+1263	4	2325
+1265	4	2325
+1270	4	2325
+1323	4	2325
+1358	4	2325
+1379	4	2325
+1380	4	2325
+1453	4	2325
+1464	4	2325
+1484	4	2325
+1491	4	2325
+1498	4	2325
+1613	4	2325
+1614	4	2325
+1781	4	2325
+1825	4	2325
+1860	4	2325
+2083	4	2325
+2178	4	2325
+2179	4	2325
+2252	4	2325
+2325	4	2325
+2341	4	2325
+2546	4	2325
+2645	4	2325
+2652	4	2325
+2684	4	2325
+2842	4	2325
+2929	4	2325
+2934	4	2325
+3069	4	2325
+669	4	2325
+679	4	2325
+691	4	2325
+761	4	2325
+949	4	2325
+989	4	2325
+2325	5	2325
+2325	5	2325
+2325	5	2325
+3184	5	2325
+
+
+************************
+
+************************
+Document:  CACM-2592.html
+************************
+
+
+On Generation of Test Problems for Linear Programming Codes
+
+Users of linear programming computer codes have
+realized the necessity of evaluating the capacity, 
+effectiveness, and accuracy <B>of the</B> solutions provided
+by such codes.  Large scale linear programming 
+codes at most installations are assumed to be generating correct
+solutions without ever having been "bench-marked" 
+by test problems with known solutions.  The reason for
+this failure to adequately test the codes is that 
+rarely are there large problems with known solutions readily
+available.  This paper presents a theoretical 
+justification and an illustrative implementation of a method
+for generating linear programming test problems 
+with known solutions.  The method permits the generation
+of test problems that are of arbitrary size 
+and have a wide range of numerical characteristics.
+
+CACM October, 1974
+
+Charnes, A.
+Raike, W. M.
+Stutz, J. D.
+Walters, A. S.
+
+linear programming, test problem generation,
+LP program evaluation, LP program validation
+
+5.41
+
+CA741006 JB January 16, 1978  12:28 PM
+
+2592	5	2592
+2592	5	2592
+2592	5	2592
+
+
+************************
+
+************************
+Document:  CACM-3200.html
+************************
+
+
+   A FORMAC Program for the Solution of Linear Boundary and Initial Value 
+Problems
+
+  A computer program is described which has been developed for obtaining
+approximate solutions to linear initial and boundary-value problems involving 
+differential equations. For each problem, input to the program includes:
+   1. The equations (in symbolic form) to be satisfied  -  the differential
+equations, equations describing auxiliary conditions such as boundary 
+conditions, etc.
+   2. A numerical description of the regions in which each of the equations
+are to be satisfied.
+   3. Sets of functions (in symbolic form) to be used in linear combinations
+to approximate the solution functions. Give the above input, the program
+generates an approximation to the solutions of the specified problemm in terms 
+of the specified functions which is optimum <B>in the</B> least-squares sense.
+
+CACM August, 1966
+
+Cuthill, E.
+
+CA660814 ES March 17, 1982 10:10 AM
+
+1396	5	3200
+3200	5	3200
+3200	5	3200
+3200	5	3200
+964	6	3200
+1028	6	3200
+1029	6	3200
+1083	6	3200
+1132	6	3200
+1214	6	3200
+1278	6	3200
+1334	6	3200
+1365	6	3200
+1386	6	3200
+1387	6	3200
+1388	6	3200
+1392	6	3200
+1393	6	3200
+1394	6	3200
+1395	6	3200
+1396	6	3200
+1397	6	3200
+1496	6	3200
+284	6	3200
+407	6	3200
+3199	6	3200
+3200	6	3200
+3201	6	3200
+3202	6	3200
+3203	6	3200
+3204	6	3200
+561	6	3200
+730	6	3200
+
+
+************************
+
+
+
+   A FORMAC Program for the Solution of Linear Boundary and Initial Value 
+Problems
+
+  A computer program is described which has been developed for obtaining
+approximate solutions to linear initial and boundary-value problems involving 
+differential equations. For each problem, input to the program includes:
+   1. The equations (in symbolic form) to be satisfied  -  the differential
+equations, equations describing auxiliary conditions such as boundary 
+conditions, etc.
+   2. A numerical description <B>of the</B> regions in which each of the equations
+are to be satisfied.
+   3. Sets of functions (in symbolic form) to be used in linear combinations
+to approximate the solution functions. Give the above input, the program
+generates an approximation to the solutions of the specified problemm in terms 
+of the specified functions which is optimum in the least-squares sense.
+
+CACM August, 1966
+
+Cuthill, E.
+
+CA660814 ES March 17, 1982 10:10 AM
+
+1396	5	3200
+3200	5	3200
+3200	5	3200
+3200	5	3200
+964	6	3200
+1028	6	3200
+1029	6	3200
+1083	6	3200
+1132	6	3200
+1214	6	3200
+1278	6	3200
+1334	6	3200
+1365	6	3200
+1386	6	3200
+1387	6	3200
+1388	6	3200
+1392	6	3200
+1393	6	3200
+1394	6	3200
+1395	6	3200
+1396	6	3200
+1397	6	3200
+1496	6	3200
+284	6	3200
+407	6	3200
+3199	6	3200
+3200	6	3200
+3201	6	3200
+3202	6	3200
+3203	6	3200
+3204	6	3200
+561	6	3200
+730	6	3200
+
+
+************************
+
+************************
+Document:  CACM-1692.html
+************************
+
+
+Numerical Solution of a Thin Plate Heat Transfer Problem
+
+The numerical solution of a system of linear
+equations resulting from a discrete approximation 
+to a thin plate heat transfer problem is considered.
+ The slow convergence of point iterative methods 
+is analyzed and shown to be caused by one <B>of the</B> boundary
+conditions. The difficulty may be removed by 
+a standard line iterative technique.
+
+CACM September, 1968
+
+Stewart III, G.
+Lick, D. W.
+
+heat transfer problem, Poisson equation, boundary
+value problem, thin domain, successive overrelaxation 
+(SOR), block SOR
+
+3.20 5.17
+
+CA680909 JB February 21, 1978  4:48 PM
+
+1692	5	1692
+1692	5	1692
+1692	5	1692
+
+
+************************
+
+************************
+Document:  CACM-1628.html
+************************
+
+
+The Emergence of a Profession
+
+Computer programming deals with an enormous
+variety of activities and is carried on by people 
+with a great variety of backgrounds.  It seems clear
+that part but not all of this activity is evolving 
+toward a distinct professional field, but that the
+scope of this emerging profession, and some of its 
+economic, social, and educational characteristics are
+as yet by no means well defined.  In this paper, 
+these issues are examined and some opinions <B>about the</B>m are expressed.
+
+CACM March, 1967
+
+Orden, A.
+
+CA670301 JB February 28, 1978  1:47 PM
+
+1628	5	1628
+1628	5	1628
+1628	5	1628
+1770	5	1628
+1628	6	1628
+
+
+************************
+
+************************
+Document:  CACM-2186.html
+************************
+
+
+Numerical Properties <B>of the</B> Ritz-Trefftz Algorithm for Optimal Control
+
+In this paper the Ritz-Trefftz algorithm is applied
+to the computer solution of the state regulator 
+problem.  The algorithm represents a modification of
+the Ritz direct method and is designed to improve 
+the speed of solution and the storage requirements to
+the point where real-time implementation becomes 
+feasible.  The modification is shown to be more stable
+computationally than the traditional Ritz approach. 
+ The first concern of the paper is to describe the
+algorithm and establish its properties as a valid 
+and useful numerical technique.  In particular such useful
+properties as definiteness and reasonableness 
+of condition are established for the method.  The second
+part of the paper is devoted to a comparison 
+of the new techniques with the standard procedure of
+numerically integrating a matrix Riccati equation 
+to determine a feedback matrix.  The new technique is
+shown to be significantly faster for comparable 
+accuracy.
+
+CACM June, 1971
+
+Bosarge Jr., W. E.
+Johnson, O. G.
+
+splines, regulator problem, control theory, numerical analysis
+
+5.1
+
+CA710604 JB February 3, 1978  10:12 AM
+
+2186	5	2186
+2186	5	2186
+2186	5	2186
+
+
+************************
+
+************************
+Document:  CACM-1049.html
+************************
+
+
+Numerical Solution of Nonlinear Two-Point
+Boundary Problems by Finite Difference Methods
+
+Solution of nonlinear two-point boundary-value
+problems is often an extremely difficult task. 
+ Quite apart from questions <B>of real</B>ity and uniqueness,
+there is no established numerical technique for 
+this problem.  At present, shooting techniques are the
+easiest method of attacking these problems.  When 
+these fail, the more difficult method of finite differences
+can often be used to obtain a solution.  
+This paper gives examples and discusses the finite difference
+method for non-linear two-point boundary-value 
+problems.
+
+CACM June, 1964
+
+Holt, J. F.
+
+CA640618 JB March 9, 1978  9:07 PM
+
+1049	4	1049
+1049	5	1049
+1049	5	1049
+1049	5	1049
+416	5	1049
+
+
+************************
+

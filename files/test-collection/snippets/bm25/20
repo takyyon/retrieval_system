@@ -1,3 +1,590 @@
 Snippets for the query:  computational complexity, intractability, class-complete reductions, algorithms and efficiency
 ************************
-No snippets found for the query..
+Total Hits:  13
+************************
+
+************************
+Document:  CACM-1529.html
+************************
+
+
+Decomposition Programming An Analysis of Matrix Substructure 
+
+A petroleum blending problem was analyzed in order
+to compare the primal and primal-dual decomposition 
+algorithms.  In the course of the analysis, a substructure
+was discovered which has relevance to the 
+relative performance of the two <B>algorithms and</B> to their
+absolute performance as compared with a standard 
+primal-Simplex solution without decomposition.
+
+CACM October, 1967
+
+Bell, E. J.
+
+CA671004 JB February 27, 1978  2:33 PM
+
+1529	5	1529
+1529	5	1529
+1529	5	1529
+
+
+************************
+
+************************
+Document:  CACM-2337.html
+************************
+
+
+A Sorting Problem and Its Complexity
+
+A technique for proving min-max norms of sorting
+algorithms is given.  One new algorithm for 
+finding the minimum and maximum elements of a set with
+fewest comparisons is proved optimal with this 
+technique.
+
+CACM June, 1972
+
+Pohl, I.
+
+sorting, <B>computational complexity,</B> computational combinatorics
+
+5.29 5.31
+
+CA720608 JB January 30, 1978  4:15 PM
+
+2337	5	2337
+2337	5	2337
+2337	5	2337
+
+
+************************
+
+************************
+Document:  CACM-2927.html
+************************
+
+
+Some New Upper Bounds on the Generation of Prime Numbers
+
+Given an integer N, what is the computational
+complexity of finding all the primes less than 
+N?  A modified sieve of Eratosthenes using doubly linked
+lists yields an algorithm of O(N) arithmetic 
+complexity.  This upper bound is shown to be equivalent
+to the theoretical lower bound for sieve methods 
+without preprocessing.  Use of preprocessing techniques
+involving space-time and additive-multiplicative 
+tradeoffs reduces this upper bound to O(N/log logN)
+and the bit complexity to O(N logN log log logN). 
+ A storage requirement is described using O(N logN/log logN) bits as well.
+
+CACM September, 1977
+
+Mairson, H. G.
+
+<B>computational complexity,</B> sieve, prime number generation,
+number theory, linked list, preprocessing, 
+balancing
+
+5.25 5.39
+
+CA770907 JB December 27, 1977  12:55 PM
+
+1841	4	2927
+1841	4	2927
+1967	4	2927
+2120	4	2927
+2120	4	2927
+2927	4	2927
+2927	4	2927
+2927	4	2927
+2927	4	2927
+2927	4	2927
+1537	5	2927
+1538	5	2927
+1539	5	2927
+1841	5	2927
+1840	5	2927
+2927	5	2927
+2927	5	2927
+2927	5	2927
+3037	5	2927
+2732	6	2927
+2927	6	2927
+
+
+************************
+
+************************
+Document:  CACM-2569.html
+************************
+
+
+Computer Generation of Gamma Random Variates
+with Non-integral Shape Parameters
+
+When the shape parameter, a, is integral,
+generating gamma random variables with a digital 
+computer is straightforward.  There is no simple method
+for generating gamma random variates with non-integral 
+shape parameters.  A common procedure is to approximately
+generate such random variables by use of the 
+so-called probability switch method.  Another procedure,
+which is exact, is due to Johnk.  This paper 
+presents a rejection method for exactly generating
+gamma random variables when a is greater than 1.  
+The efficiency of the rejection method is shown to
+be better than the efficiency of Johnk's method.  
+The paper concludes that when a is non-integral the following
+mix of procedures yields the best combination 
+of accuracy <B>and efficiency</B>: (1) when a is less than
+1, use Johnk's method; (2) when 1 is less than a 
+and a is less than 5, use the rejection method; (3) when
+a is greater than 5, use the probability switch 
+method.
+
+CACM December,1974
+
+Wallace, N. D.
+
+simulation, gamma random variables,
+probability distribution, random numbers
+
+5.5 8.1
+
+CA741205 JB January 16, 1978  9:35 AM
+
+2569	5	2569
+2569	5	2569
+2569	5	2569
+2847	5	2569
+2928	5	2569
+3046	5	2569
+3098	5	2569
+3107	5	2569
+1751	6	2569
+2277	6	2569
+2380	6	2569
+2522	6	2569
+2569	6	2569
+2569	6	2569
+2569	6	2569
+2569	6	2569
+2569	6	2569
+2847	6	2569
+2847	6	2569
+3098	6	2569
+
+
+************************
+
+************************
+Document:  CACM-2892.html
+************************
+
+
+A Study of Line Overhead in the Arpanet
+
+The form, extent, and effect of the communication line
+overhead in the ARPANET are considered. 
+ The source of this over head is separated into various
+levels of protocol hierarchy and the characteristics 
+of each level are summarized.  Then the line efficiency
+for various models of system use is studied. 
+ Some measurements of line efficiency for the ARPANET are
+presented and by extrapolation these measurements 
+are used to anticipate overhead in a heavily loaded network.
+Similar results are derived for a recently 
+proposed network protocol and compared with those for the current system.
+
+CACM January, 1976
+
+Kleinrock, L.
+Naylor, W. E.
+Opderbeck, H.
+
+ARPANET, computer communication networks, interprocess
+communication, measurement, packet switching, 
+performance evaluation <B>and efficiency</B>, resource sharing
+
+3.81 4.39 4.6 4.9
+
+CA760101 JB January 5, 1978  10:49 AM
+
+2892	5	2892
+2892	5	2892
+2892	5	2892
+
+
+************************
+
+************************
+Document:  CACM-3018.html
+************************
+
+
+Covering Edges by Cliques with Regard to
+Keyword Conflicts and Intersection Graphs
+
+Kellerman has presented a method for determining
+keyword conflicts and described a heuristic 
+algorithm which solves a certain combinatorial optimization
+problem in connection with this method.  
+This optimization problem is here shown to be equivalent
+to the problem of covering the edges of a graph 
+by complete subgraphs with the objective of minimizing
+the number of complete subgraphs.  A relationship 
+between this edge-clique-cover problem and the graph coloring
+problem is established which allows algorithms 
+for either one of these problems to be constructed
+from algorithm for the other.  As consequences of 
+this relationship, the keyword conflict problem and the
+edge-clique-cover problem are shown to be NP-complete, 
+and if P=/NP then they do not admit polynomial-time approximation
+algorithms which always produce solutions 
+within a factor less than 2 from the optimum.
+
+CACM February, 1978
+
+Kou, L.
+Stockmeyer, L.
+Wong, C.
+Watson, T.
+
+keyword conflicts, intersection graphs, node clique
+cover, edge clique cover, <B>computational complexity,</B> 
+NP-complete problems, polynomial-time heuristics
+
+4.12 5.25 5.32
+
+CA780205 JB March 28, 1978  4:18 PM
+
+3018	5	3018
+3018	5	3018
+3018	5	3018
+
+
+************************
+
+************************
+Document:  CACM-2706.html
+************************
+
+
+A Note on the Set Basis Problem Related
+to the Compaction of Character Sets
+
+This note discusses the reduction of the
+set basis problem to the clique cover problem.
+
+CACM November, 1975 
+
+Kou, L. T.
+Wong, C. K.
+
+compaction of character sets, set basis, set covering,
+<B>computational complexity,</B> polynomial completeness, 
+clique cover 
+
+4.9 5.25 5.39
+
+CA751106 JB January 6, 1978  8:55 AM
+
+2706	4	2706
+2643	5	2706
+2706	5	2706
+2706	5	2706
+2706	5	2706
+
+
+************************
+
+************************
+Document:  CACM-2837.html
+************************
+
+
+New Upper Bounds for Selection
+
+The worst-case minimum number of comparisons
+complexity Vi(n) of the i-th selection problem 
+is considered.  A new upper bound for Vi(n) improves the
+bound given by the standard Hadian-Sobel algorithm 
+by a generalization of the Kirkpatrick-Hadian-Sobel
+algorithm, and extends Kirkpatrick's method to a 
+much wider range of application.  This generalization
+compares favorably with a recent algorithm by Hyafil.
+
+CACM September, 1976
+
+Yap, C. K.
+
+selection problem, algorithms, comparison problems,
+concrete <B>computational complexity,</B> upper bounds, 
+worst-case analysis
+
+5.25 5.31
+
+CA760902 JB January 4, 1978  9:48 AM
+
+2837	4	2837
+2837	4	2837
+3150	4	2837
+2784	5	2837
+2837	5	2837
+2837	5	2837
+2837	5	2837
+2842	5	2837
+
+
+************************
+
+************************
+Document:  CACM-2997.html
+************************
+
+
+Convex Hulls of Finite Sets of Poin ts in Two and Three Dimensions
+
+The convex hulls of sets of n poin ts in two
+and three dimensions can be determined with O(n 
+log n) operations.  The presented algorithms use the "divide
+and conquer" technique and recursively apply 
+a merge procedure for two nonin tersecting convex hulls.
+ Since any convex hull algorithm requires at 
+least O(n log n) operations, the time complexity of the
+proposed algorithms is optimal within a multiplicative 
+constant.
+
+CACM February, 1977
+
+Preparata, F. P.
+Hong, S. J.
+
+<B>computational complexity,</B> convex hull, optimal algorithms,
+planar set of poin ts, spatial set of 
+poin ts
+
+4.49 5.25 5.32
+
+CA770203 JB December 30, 1977  2:47 AM
+
+2997	4	2997
+2737	5	2997
+2997	5	2997
+2997	5	2997
+2997	5	2997
+3151	5	2997
+2997	6	2997
+
+
+************************
+
+************************
+Document:  CACM-2986.html
+************************
+
+
+Operations on Sparse Relations
+
+Various computations on relations, Boolean matrices,
+or directed graphs, such as the computation 
+of precedence relations for a context-free grammar, can be
+done by a practical algorithm that is asymptotically 
+faster than those in common use.  For example, how to compute
+operator precedence or Wirth-Weber precedence 
+relations in O(n^2) steps is shown, as well as how to
+compute linear precedence functions in O(n^2) steps 
+is shown, as well as how to compute linear precedence
+functions in O(n) steps, where n is the size of 
+a grammer.  The heart of the algorithms is a general
+theorem giving sufficient conditions under which 
+an expression whose operands are sparse relations and
+whose operators are composition, transitive closure, 
+union, and inverse, can be computed efficiently.
+
+CACM March, 1977
+
+Hunt, H. B. III
+Szymanski, T. G.
+Ullman, J. D.
+
+<B>computational complexity,</B> sparse relation, Boolean
+matrix, directed graph, Wirth-Weber precedence 
+relation, linear precedence function, SLR
+grammar, T-canonical precedence relation
+
+4.12 5.23 5.25
+
+CA770306 JB December 29, 1977  8:05 AM
+
+1542	4	2986
+1683	4	2986
+1693	4	2986
+1781	4	2986
+1787	4	2986
+1836	4	2986
+1945	4	2986
+2060	4	2986
+2061	4	2986
+2082	4	2986
+2091	4	2986
+2152	4	2986
+2179	4	2986
+2221	4	2986
+2340	4	2986
+2340	4	2986
+2340	4	2986
+2356	4	2986
+2546	4	2986
+2603	4	2986
+2698	4	2986
+2708	4	2986
+2733	4	2986
+2824	4	2986
+2824	4	2986
+2824	4	2986
+2982	4	2986
+2982	4	2986
+2982	4	2986
+2986	4	2986
+2986	4	2986
+2986	4	2986
+2986	4	2986
+2986	4	2986
+3045	4	2986
+3093	4	2986
+3093	4	2986
+3094	4	2986
+1491	5	2986
+1683	5	2986
+1836	5	2986
+2179	5	2986
+2340	5	2986
+2986	5	2986
+2986	5	2986
+2986	5	2986
+
+
+************************
+
+************************
+Document:  CACM-3070.html
+************************
+
+
+Hybrid Simulation Models of Computer Systems
+
+This paper describes the structure and operation
+of a hybrid simulation model in which both 
+discrete-event simulation and analytic techniques are
+combined to produce efficient yet accurate system 
+models.  In an example based on a simple hypothetical
+computer system, discrete-event simulation is used 
+to model the arrival and activation of jobs, and a
+central-server queueing network models the use of 
+system processors.  The accuracy <B>and efficiency</B> of the
+hybrid technique are demonstrated by comparing 
+the result and computational costs of the hybrid model of
+the example with those of an equivalent simulation-only 
+model.  
+
+CACM September, 1978
+
+Schwetman, H.
+
+Performance evaluation, simulation, queueing
+network models, central server model
+
+4.32 4.35 8.1
+
+CA780902 DH February 5, 1979  3:32 PM
+
+2712	4	3070
+2741	4	3070
+3016	4	3070
+3059	4	3070
+3070	4	3070
+3070	4	3070
+3070	4	3070
+3070	4	3070
+3153	4	3070
+1805	5	3070
+2454	5	3070
+2741	5	3070
+2988	5	3070
+3070	5	3070
+3070	5	3070
+3070	5	3070
+
+
+************************
+
+************************
+Document:  CACM-2743.html
+************************
+
+
+Sorting X + Y
+
+CACM June, 1975
+
+Harper, L. H.
+Payne, T. H.
+Savage, J. E.
+Straus, E.
+
+merge sorting, <B>computational complexity,</B> data
+modeling, computing models, binary comparisons
+
+5.25 5.31
+
+CA750610 JB January 9, 1978  12:45 PM
+
+2743	5	2743
+2743	5	2743
+2743	5	2743
+
+
+************************
+
+************************
+Document:  CACM-3086.html
+************************
+
+
+On the Complexity of Computing the Measure of U[ai, bi]
+
+The decision tree complexity of computing the
+measure of the union of n (possibly overlapping) 
+intervals is shown to be  (n log n), even if comparisons
+between linear functions of the interval endpoints 
+are allowed.  The existence of an   (n log n) lower bound
+to determine whether any two of n real numbers 
+are within   of each other is also demonstrated.  These
+problems provide an excellent opportunity for 
+discussing the effects of the computational model on
+the ease of analysis and on the results produced.
+
+CACM July, 1978
+
+Fredman, M.
+Weide, B.
+
+Analysis of algorithms, combinatorial problems,
+<B>computational complexity,</B> computational models, 
+decision tree programs, lower bounds
+
+5.25 5.26 5.30 5.39
+
+CA780702 DH February 8, 1979  3:46 PM
+
+3086	5	3086
+3086	5	3086
+3086	5	3086
+
+
+************************
+

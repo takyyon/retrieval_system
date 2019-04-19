@@ -1,3 +1,120 @@
 Snippets for the query:  What articles exist which deal with TSS (Time Sharing System), an operating system for IBM computers?
 ************************
-No snippets found for the query..
+Total Hits:  2
+************************
+
+************************
+Document:  CACM-2219.html
+************************
+
+
+A Policy-Driven Scheduler for a Time-Sharing System
+
+The service received by a process from a time-sharing
+<B>operating system</B> can be characterized 
+by a resource count SUM{w[i]R[ij]} where R[ij] is the
+number of units of service received by process 
+i from resource i and w[i] is the cost per unit of the
+service.  Each class of users can be characterized 
+by a policy function which specifies the amount of service
+a user who belongs to this class should receive 
+as a function of time.  Priority changes dynamically
+as a function of the difference between the service 
+promised to the user by the policy function and the service
+he actually receives.  A scheduling and swapping 
+algorithm which keeps the resource count of each process
+above its policy function will provide the specified 
+level of service.  Overhead can be reduced by avoiding
+swaps of process which have received at least 
+his level of service.  The algorithm has been implemented
+in a general purpose operating system, and 
+it has provided significantly better service to interactive
+and to batch jobs than the previous scheduler.
+
+CACM February, 1971
+
+Bernstein, A. J.
+Sharp, J. C.
+
+scheduler, time-sharing, operating system,
+resource allocation and swapping
+
+4.32
+
+CA710202 JB February 8, 1978  9:54 AM
+
+2219	4	2219
+2344	4	2219
+1938	5	2219
+2219	5	2219
+2219	5	2219
+2219	5	2219
+2950	5	2219
+3072	5	2219
+1713	6	2219
+2219	6	2219
+2219	6	2219
+2245	6	2219
+2375	6	2219
+
+
+************************
+
+************************
+Document:  CACM-2151.html
+************************
+
+
+User Program Measurement in a Time-Shared Environment
+
+A general discussion of the measurement of
+software systems is followed by a description of 
+a hardware and software scheme for measuring user programs
+in a time-shared environment.  The TX-2 computer 
+at MIT Lincoln Laboratory was used for the implementation
+of such a system and the characteristics of 
+this implementation are reported.  A scenario showing
+the system in use is presented.  Finally, it is 
+shown how other time-sharing systems may provide similar measuring facilities.
+
+CACM October, 1971
+
+Nemeth, A. G.
+Rovner, P. D.
+
+<B>operating system</B>s, multiprogramming systems, time-sharing
+systems, software measurement, user program 
+measurement, measurement technology, TX-2 computer,
+virtual computers, performance improvement
+
+4.30 4.32 4.42 4.43
+
+CA711005 JB February 2, 1978  1:05 PM
+
+1957	4	2151
+2151	4	2151
+2151	4	2151
+2151	4	2151
+2318	4	2151
+3103	4	2151
+3148	4	2151
+1653	5	2151
+1747	5	2151
+1860	5	2151
+2151	5	2151
+2151	5	2151
+2151	5	2151
+2719	5	2151
+2967	5	2151
+1626	6	2151
+210	6	2151
+2151	6	2151
+2151	6	2151
+2167	6	2151
+2210	6	2151
+2645	6	2151
+2657	6	2151
+
+
+************************
+

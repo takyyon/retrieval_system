@@ -1,3 +1,363 @@
 Snippets for the query:  Dictionary construction and accessing methods for fast retrieval of words or lexical items or morphologically related information. Hashing or indexing methods are usually applied to English spelling or natural language problems.
 ************************
-No snippets found for the query..
+Total Hits:  6
+************************
+
+************************
+Document:  CACM-1453.html
+************************
+
+
+A Nonrecursive Method of Syntax Specification
+
+The use of the Kleene regular expression notation
+for describing algebraic language syntax, 
+in particular of ALGOL, is described in this paper. 
+A FORTRAN II computer program for carrying out the 
+elimination algorithm of Gorn,similar to Gaussian elimination
+for linear systems of algebraic equations, 
+is described.  This was <B>applied to</B> numerous smaller
+languages, including some sublanguage of ALGOL.  
+A hand calculation result of the application of the algorithm
+to all of ALGOL is given, thus expressing 
+the Revised ALGOL 1960 syntax in completely nonrecursive
+terms, as far as its context-free portion is 
+concerned.  This description in many ways is far more
+intuitively understood than the previous recursive 
+description, it is suggested.  The paper also includes
+results of the machine program, which does not 
+include a simplification algorithm.
+
+CACM April, 1966
+
+Carr III, J. W.
+Weiland, J.
+
+CA660402 JB March 3, 1978  11:02 AM
+
+1086	4	1453
+1132	4	1453
+1234	4	1453
+1263	4	1453
+1263	4	1453
+1265	4	1453
+1270	4	1453
+1323	4	1453
+1358	4	1453
+1379	4	1453
+1380	4	1453
+1453	4	1453
+1453	4	1453
+1464	4	1453
+1484	4	1453
+1491	4	1453
+1498	4	1453
+1613	4	1453
+1614	4	1453
+1781	4	1453
+1825	4	1453
+1860	4	1453
+1945	4	1453
+2083	4	1453
+2178	4	1453
+2179	4	1453
+2252	4	1453
+2325	4	1453
+2341	4	1453
+2546	4	1453
+2645	4	1453
+2652	4	1453
+2684	4	1453
+2842	4	1453
+2929	4	1453
+2934	4	1453
+3069	4	1453
+669	4	1453
+679	4	1453
+691	4	1453
+761	4	1453
+949	4	1453
+989	4	1453
+989	5	1453
+1453	5	1453
+1453	5	1453
+1453	5	1453
+1613	5	1453
+3184	5	1453
+987	6	1453
+1086	6	1453
+1134	6	1453
+1453	6	1453
+3184	6	1453
+
+
+************************
+
+************************
+Document:  CACM-1008.html
+************************
+
+
+Scheduling Meetings with a Computer
+
+Computer scheduling of papers as it was developed
+for the 1960 meeting of the Federation of 
+American Societies for Experimental Biology (FASEB) is described.
+ The FASEB meeting is the largest scientific 
+meeting held in the United States each year.  The technique
+developed for FASEB can be <B>applied to</B> schedule 
+any meeting with parallel sessions.
+
+CACM September, 1964
+
+Schultz, C. K.
+Brooks, A.
+Schwartz, P.
+
+CA640903 JB March 9, 1978  6:16 PM
+
+1008	5	1008
+1008	5	1008
+1008	5	1008
+2052	5	1008
+1008	6	1008
+1013	6	1008
+1504	6	1008
+1540	6	1008
+
+
+************************
+
+************************
+Document:  CACM-3134.html
+************************
+
+
+The Use of Normal Multiplication Tables
+for Information Storage and Retrieval
+
+This paper describes a method for the organization and <B>retrieval of</B> attribute 
+based information systems, using the normal multiplication table as a directory
+for the information system.  Algorithms for the organization an
+d retrieval of information are described.  This method is particularly
+suitable for queries requesting a group of information items,
+ all of which possess a particular set of attributes (and possibly
+some other attributes as well).  Several examples are given; the
+results with respect to the number of disk accesses and disk space
+are compared to other common approaches.  Algorithms evaluating
+the appropriateness of the above approach to a given information system
+are described.  For a certain class of information systems,
+the normal multiplication table method yields far more rapid retrieval
+with a more economical space requirement than conventional systems.  
+Moreover this method incorporates an improved modification of the inverted 
+file technique.
+
+CACM March, 1979
+
+Motzkin, D.
+
+Information retrieval, inverted files, multiattribute retrieval,
+multilist file, normal multiplication table, queries,
+rapid retrieval, space economy
+
+3.70 3.73 3.79
+
+CA790305 DH May 21, 1979  9:46 AM
+
+2140	4	3134
+2452	4	3134
+2575	4	3134
+2765	4	3134
+2901	4	3134
+2966	4	3134
+3134	4	3134
+3134	4	3134
+3134	4	3134
+3134	4	3134
+1976	5	3134
+2160	5	3134
+2524	5	3134
+2990	5	3134
+3134	5	3134
+3134	5	3134
+3134	5	3134
+
+
+************************
+
+************************
+Document:  CACM-1415.html
+************************
+
+
+Automatic Derivation of Microsentences
+
+The decomposition of long complex English sentences
+into shorter kernel-like constituent sentences 
+(microsentences)has often been suggested as an avenue
+toward conducting automatic <B>retrieval of</B> natural 
+language messages.  To explore the prospects of such
+a step, the authors attempted in 1963 to prepare 
+a general program for deriving microsentences from longer
+sentences that had been syntactically analyzed 
+by the Harvard Multipath Analysis Program.  The basic
+idea was to extract the subject, verb and object 
+(if any) of each clause and to reassemble these materials
+into a grammatical microsentence.  A program 
+is described in this paper, which was designed to operate
+on the tree structure output of the analyzer, 
+and the microsentences that were produced are exhibited.
+ The authors conclude that while microsentences 
+of the quality achieved do not open up immediate prospects
+for improving the performance of automatic 
+message retrieval systems, they may have practical
+value in man-machine systems using human monitors 
+to select the preferred syntactic interpretation of a sentence.
+
+CACM June, 1966
+
+Carmody, B. T
+Jones Jr., P. E.
+
+CA660606 JB March 3, 1978  8:47 AM
+
+1415	5	1415
+1415	5	1415
+1415	5	1415
+
+
+************************
+
+************************
+Document:  CACM-2306.html
+************************
+
+
+Ancient Babylonian Algorithms
+
+The early origins of mathematics are discussed,
+emphasizing those aspects which seem to be 
+of greatest interest from the standpoint of computer
+science.  A number of old Babylonian tablets, many 
+of which have never before been translated in<B>to English</B>, are quoted.
+
+CACM July, 1972
+
+Knuth, D. E.
+
+history of computation, Babylonian tablets,
+sexagesimal number system, sorting 
+
+1.2
+
+CA720722 JB January 30, 1978  10:50 AM
+
+2306	5	2306
+2306	5	2306
+2306	5	2306
+
+
+************************
+
+************************
+Document:  CACM-1879.html
+************************
+
+
+A Note on Storage Fragmentation and Program Segmentation
+
+The main purpose of this paper is the presentation
+of some of the results of a series of simulation 
+experiments investigating the phenomenon of storage fragmentation.
+ Two different types of storage fragmentation 
+are distinguished: (1) external fragmentation, namely the
+loss in storage utilization caused by the inability 
+to make use of all available storage after it has been
+fragmented into a large number of separate blocks; 
+and (2) internal fragmentation, the loss of utilization
+caused by rounding up a request for storage, 
+rather than allocating only the exact number <B>of words</B> required.
+ The most striking result is the apparently 
+general rule that rounding up requests for storage,
+to reduce the number of different sizes of blocks 
+coexisting in storage, causes more loss of storage
+by increased internal fragmentation than is saved 
+by decreased external fragmentation.  Described also are
+a method of segment allocation and an accompanying 
+technique for segment addressing which take advantage
+of the above result.  Evidence is presented of 
+possible advantages of the method over conventional paging techniques.
+
+CACM July, 1969
+
+Randell, B.
+
+storage allocation, storage fragmentation,
+paging, segmentation, addressing
+
+6.2 6.20
+
+CA690701 JB February 17, 1978  9:46 AM
+
+1879	4	1879
+1884	4	1879
+1901	4	1879
+2095	4	1879
+2277	4	1879
+2297	4	1879
+2365	4	1879
+1754	5	1879
+1879	5	1879
+1879	5	1879
+1879	5	1879
+2095	5	1879
+2218	5	1879
+2498	5	1879
+2596	5	1879
+2734	5	1879
+2902	5	1879
+2911	5	1879
+3000	5	1879
+1051	6	1879
+1062	6	1879
+1184	6	1879
+1184	6	1879
+1211	6	1879
+1380	6	1879
+1552	6	1879
+1572	6	1879
+1728	6	1879
+1728	6	1879
+1751	6	1879
+1751	6	1879
+1754	6	1879
+1752	6	1879
+1810	6	1879
+1879	6	1879
+1879	6	1879
+1879	6	1879
+1879	6	1879
+1879	6	1879
+1879	6	1879
+1879	6	1879
+1879	6	1879
+273	6	1879
+2095	6	1879
+2095	6	1879
+2095	6	1879
+2435	6	1879
+2435	6	1879
+2435	6	1879
+2498	6	1879
+2596	6	1879
+2734	6	1879
+2734	6	1879
+2747	6	1879
+2768	6	1879
+2773	6	1879
+2864	6	1879
+2983	6	1879
+
+
+************************
+

@@ -1,3 +1,243 @@
 Snippets for the query:  find all discussions of optimal implementations of sort algorithms for database management applications
 ************************
-No snippets found for the query..
+Total Hits:  5
+************************
+
+************************
+Document:  CACM-3131.html
+************************
+
+
+FOCUS Microcomputer Number System
+
+FOCUS is a number system and supporting computational
+algorithms especially useful for microcomputer control and other
+signal processing applications.  FOCUS has the wide-ranging
+character of floating-point numbers with a uniformity of state distributions
+that give FOCUS better than a twofold accuracy advantage
+over an equal word length floating-point system.  FOCUS computations
+are typically five times faster than single precision fixed-point
+or integer arithmetic for a mixture of operations, comparable in
+speed with hardware arithmetic for many applications.  Algorithms
+for 8-bit and 16-bit <B>implementations of</B> FOCUS are included.
+
+CACM March, 1979
+
+Edgar, A.
+Lee, S.
+
+Number representation, logarithmic arithmetic, computational
+speed, computational accuracy, microcomputer applications  
+
+3.24 3.80 4.0 4.22 5.11
+
+CA790302 DH April 12, 1979  11:12 AM
+
+3131	4	3131
+3131	4	3131
+1148	5	3131
+3131	5	3131
+3131	5	3131
+3131	5	3131
+893	5	3131
+
+
+************************
+
+************************
+Document:  CACM-2722.html
+************************
+
+
+Multidimensional Binary Search Trees Used for Associative Searching
+
+This paper develops the multidimensional binary
+search tree (or k-d tree, where k is the dimensionality 
+of the search space) as a data structure for storage of
+information to be retrieved by associative searches. 
+The k-d tree is defined and examples are given. It
+is shown to be quite in its storage requirements. 
+ A significant advantage of this structure is that a single
+data structure can handle many types of queries 
+very efficiently.  Various utility algorithms are developed;
+their proven average running times in an 
+n record file are: insertion, O (log n); deletion of
+the root, O (n^(k-1)/k); deletion of a random node, 
+O (log n); and optimization (guarantees logarithmic performance
+of searches), O (n log n).  Search algorithms 
+are given for partial match queries with t keys specified
+[proven maximum running time of O (n^(k-t)/k)] 
+and for nearest neighbor queries [empirically observed average
+running time of O (log n).]  These performances 
+far surpass the best currently known <B>algorithms for</B>
+these tasks.  An algorithm is presented to handle 
+any general intersection query. The main focus of this
+paper theoretical.  It is felt, however, that 
+k-d trees could be quite useful in many applications,
+and examples of potential uses are given.
+
+CACM September, 1975
+
+Bently, J. L.
+
+associative retrieval, binary search trees, key,
+attribute, information retrieval system, nearest 
+neighbor queries, partial match queries, intersection
+queries, binary tree insertion
+
+3.63 3.70 3.74 4.49
+
+CA750902 JB January 6, 1978  3:22 PM
+
+2722	5	2722
+2722	5	2722
+2722	5	2722
+
+
+************************
+
+************************
+Document:  CACM-1397.html
+************************
+
+
+Proceedings of the ACM Symposium on Symbolic and Algebraic Manipulation
+
+The ACM Symposium on Symbolic and Algebraic
+Manipulation brought together over four hundred 
+people interested in programming languages designed
+for manipulation of algebraic formulas and symbol 
+strings, in their applications, and in <B>algorithms for</B>
+their implementation.  Twenty-eight papers were 
+presented, followed by a lively panel discussion of
+future directions.  Evening meetings were arranged 
+for several interest groups.  The conference was sponsored
+by the ACM Special Interest Committee on Symbolic 
+and Algebraic Manipulation.  The program committee consisted
+of Chairman Jean E. Sammet, Paul Abrahams, 
+Thomas E. Cheatham, Max Goldstein, and Douglas Mcllroy.
+ Conference arrangements were made by Lewis C. 
+Clapp, Daniel Bobrow and James H. Griesmer.-Robert W. Floyd, Editor
+
+CACM August, 1966
+
+CA660801 JB March 2, 1978  8:17 PM
+
+1397	4	1397
+2704	4	1397
+1247	5	1397
+1396	5	1397
+1397	5	1397
+1397	5	1397
+1397	5	1397
+964	6	1397
+1028	6	1397
+1029	6	1397
+1083	6	1397
+1132	6	1397
+1214	6	1397
+1278	6	1397
+1334	6	1397
+1365	6	1397
+1386	6	1397
+1387	6	1397
+1388	6	1397
+1392	6	1397
+1393	6	1397
+1394	6	1397
+1395	6	1397
+1396	6	1397
+1397	6	1397
+1496	6	1397
+284	6	1397
+407	6	1397
+3199	6	1397
+3200	6	1397
+3201	6	1397
+3202	6	1397
+3203	6	1397
+3204	6	1397
+561	6	1397
+730	6	1397
+
+
+************************
+
+************************
+Document:  CACM-2272.html
+************************
+
+
+Sorting by Natural Selection
+
+A family <B>of sort</B>ing algorithms is proposed,
+the members of which make fuller use of the memory 
+space and thus yield longer sorted strings.  Extensive
+simulation results are presented, and various 
+implications and further applications are discussed.
+
+CACM October, 1972
+
+Frazer, W. D.
+Wong, C. K.
+
+algorithms, sorting by replacement selection, expected string length
+
+5.31
+
+CA721006 JB January 27, 1978  2:54 PM
+
+1638	4	2272
+1867	4	2272
+2176	4	2272
+2272	4	2272
+2272	4	2272
+1638	5	2272
+2272	5	2272
+2272	5	2272
+2272	5	2272
+677	5	2272
+
+
+************************
+
+************************
+Document:  CACM-2963.html
+************************
+
+
+A Fast Algorithm for Computing Longest Common Subsequences
+
+Previously published <B>algorithms for</B> finding
+the longest common subsequence of two sequences 
+of length n have had a best-case running time of O(n^2).
+ An algorithm for this problem is presented 
+which has a running time of O((r + n)log n), where r
+is the total number of ordered pairs of positions 
+at which the two sequences match.  Thus in the worst
+case the algorithm has a running time of O(n^2 log 
+n).  However, for those applications where most positions
+of one sequence match relatively few positions 
+in the other sequence, a running time of O(n log n) can be expected.
+
+CACM May, 1977
+
+Hunt, J. W.
+Szymanski, T. G.
+
+Longest common subsequence, efficient algorithms
+
+3.73 3.63 5.25
+
+CA770509 JB December 29, 1977  1:46 AM
+
+2963	4	2963
+3114	4	2963
+2745	5	2963
+2963	5	2963
+2963	5	2963
+2963	5	2963
+
+
+************************
+
