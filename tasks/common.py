@@ -21,6 +21,11 @@ class Common:
         indexer = 'positional' if type else 'simple'
         return 'files/' + folder + '/' + stem_folder  + indexer + '-index/' + 'gram_' + str(gram)
 
+    def get_stopwords(self, folder='test-collection'):
+        common_words_path = 'files/' + folder + '/common_words'
+        common_words = self.file_handling.read_file_lines(common_words_path)
+        return common_words
+
     def get_queries(self, stem, folder='test-collection'):
         query_file_path = 'files/' + folder + '/' + ('stem_' if stem else '') + 'query.txt'
         print('\n' + self.utility.line_break + '\n' +\

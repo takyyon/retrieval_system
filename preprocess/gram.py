@@ -10,12 +10,25 @@ class Gram:
         self.utility = Utility()
         self.file_handling = FileHandling()
         self.common = Common()
+        self.stopwords = {}
+
+    def set_stopwords(self, stopwords):
+        self.stopwords = stopwords
 
     def get_ngrams_formatted(self, ngrams):
         data = ''
         for n in ngrams:
             data += ('$'.join(n)) + '\n'
         return data
+
+    def filter_stopwords(self, content):
+        words = content.split()
+        filtered_words = []
+        for w in words:
+            if w in self.stopwords:
+                continue
+            filtered_words.append(w)
+        return ' '.join(filtered_words)
 
     def generate_n_grams(self, folder, gram = 1):
         content_path = 'files/' + folder + '/' + self.stem_folder + 'document-content/'
@@ -27,6 +40,7 @@ class Gram:
         for d in docs:
             print('\nReading ' + d + '...')
             content = self.file_handling.read_file(content_path + d)
+            content = self.filter_stopwords(content)
             ngrams = self.utility.get_and_process_ngrams(content, gram)
             data = self.get_ngrams_formatted(ngrams)
             print('Saving ' + str(gram) + '-grams...')
