@@ -13,7 +13,8 @@ class Program:
         # self.crawler.run()
         # self.gram.run()
         # self.indexer.run()
-        self.crawler.save_doc_length()
+        self.indexer.read_positional_index()
+        # self.crawler.save_doc_length()
 
 program = Program()
 program.run()
