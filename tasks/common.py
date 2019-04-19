@@ -8,6 +8,11 @@ class Common:
         self.utility = Utility()
         self.file_handling = FileHandling()
 
+    def get_queries(self, folder='test-collection', stem=False):
+        query_filename = 'files/' + folder + '/' + ('stem_' if stem else '') + 'query.txt'
+        queries = self.file_handling.read_file_lines(query_filename)
+        return queries
+
     def get_document_lengths(self, folder):
         doc_length_file = 'files/' + folder + '/doc_length'
         lines = self.file_handling.read_file_lines(doc_length_file)

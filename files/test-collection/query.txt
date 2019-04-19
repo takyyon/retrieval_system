@@ -1,0 +1,4 @@
+portable operating system 
+parallel algorithm 
+distributed computer structure and algorithm  
+parallel processor in information retrieval
