@@ -1,3 +1,773 @@
 Snippets for the query:  Memory management aspects of operating systems
 ************************
-No snippets found for the query..
+Total Hits:  15
+************************
+
+************************
+Document:  CACM-1267.html
+************************
+
+
+Performance of Systems Used for Data Transmission
+Transfer Rate of Information Bits -An ASA Tutorial 
+Standard
+
+Information thruput as a characteristic of
+systems performance is discussed.  This discussion 
+includes the pertinent <B>aspects of</B> information transfer,
+of determination of transfer rate of information 
+bits (TRIB), of residual errors, and of standard measurement
+conditions.  The paper also presents an 
+orderly arrangement of characteristics and parameters
+that affect information thruput, and some examples 
+on procedures for determining a thruput rate in terms of
+TRIB.  It concludes that a performance characteristic 
+involving information rate can best be expressed as the
+TRIB in conjunction with the Residual Error Rate.
+
+CACM May, 1965
+
+CA650504 JB March 7, 1978  3:10 PM
+
+1267	5	1267
+1267	5	1267
+1267	5	1267
+
+
+************************
+
+************************
+Document:  CACM-3068.html
+************************
+
+
+A Model for Verification of Data Security in Operating Systems
+
+Program verification applied to kernel architectures
+forms a promising method for providing 
+uncircumventably secure, shared computer systems.  A
+precise definition of data security is developed 
+here in terms of a general model for <B>operating systems</B>.
+ This model is suitable as a basis for verifying 
+many of those properties of an operating system which
+are necessary to assure reliable enforcement of 
+security.  The application of this approach to the
+UCLA secure operating system is also discussed. 
+
+CACM September, 1978
+
+Popek, G..
+Farber, D.
+
+Operating systems, security, protection, program verification
+
+4.35 5.24
+
+CA780904 DH February 5, 1979  2:40 PM
+
+2021	4	3068
+2222	4	3068
+2227	4	3068
+2315	4	3068
+2326	4	3068
+2470	4	3068
+2732	4	3068
+2865	4	3068
+2896	4	3068
+2943	4	3068
+3014	4	3068
+3068	4	3068
+3068	4	3068
+3077	4	3068
+3143	4	3068
+1834	5	3068
+2869	5	3068
+3068	5	3068
+3068	5	3068
+3068	5	3068
+3105	5	3068
+1471	6	3068
+2625	6	3068
+2632	6	3068
+2868	6	3068
+2939	6	3068
+3068	6	3068
+
+
+************************
+
+************************
+Document:  CACM-2069.html
+************************
+
+
+Comments on a Paper by Wallace and Mason
+
+CACM April, 1970
+
+Heess Jr., W. F.
+
+page-on-demand, demand paging, time-sharing multiprogramming,
+Markovian computer models, scheduling strategies,
+<B>operating systems</B>, memory management
+
+2.44 4.32 4.39 6.20 6.21
+
+CA700415 JB February 13, 1978  2:36 PM
+
+2069	5	2069
+2069	5	2069
+2069	5	2069
+
+
+************************
+
+************************
+Document:  CACM-3141.html
+************************
+
+
+An Improved Algorithm for Decentralized Extrema-Finding
+in Circular Configurations of Processes
+
+This note presents an improvement to LeLann's
+algorithm for finding the largest (or smallest) of a set of uniquely
+numbered processes arranged in a circle, in which no central
+controller exists and the number of processes is not known a priori.
+This decentralized algorithm uses a technique of selective
+message extinction in order to achieve an average number of
+message passes of order (n log n) rather than O(n2).  
+
+CACM May, 1979
+
+Chang, E.
+Roberts, R.
+
+Decentralized algorithms, distributed systems, <B>operating systems</B>
+
+4.32 4.35 5.25 5.32
+
+CA790502 DH June 5, 1979  2:35 PM
+
+3141	5	3141
+3141	5	3141
+3141	5	3141
+
+
+************************
+
+************************
+Document:  CACM-1747.html
+************************
+
+
+Three Criteria for Designing Computing Systems to Facilitate Debugging
+
+The designer of a computing system should adopt
+explicit criteria for accepting or rejecting 
+proposed system features.  Three possible criteria of this
+kind are input recordability, input specifiability, 
+and asynchronous reproducibility of output.  These criteria
+imply that a user can, if he desires, either 
+know or control all the influences affecting the content
+and extent of his computer's output.  To define 
+the scope of the criteria, the notion of an abstract
+machine of a programming language and the notion 
+of a virtual computer are explained.  Examples of applications
+of the criteria concern the reading of 
+a time-of-day clock,  the synchronization of parallel
+processes, protection in multiprogrammed systems, 
+and the assignment of capability indexes.
+
+CACM May, 1968
+
+Van Horn, E. C.
+
+computer design, computer design criteria, computer
+systems, computer systems design, input equipment, 
+input equipment design, <B>operating systems</B>, operating
+systems design, multiprogramming, multiprogrammed 
+systems, multiprogrammed system design, virtual computers,
+programming languages, programming language 
+design, program semantics, programming language semantics,
+determinism, reproducibility, repeatability, 
+deterministic computers, protection, memory protection,
+information security, information privacy, computing 
+reliability, debugging, program debugging, program testing,
+parallel processing, parallel programming, 
+multiprocessing
+
+2.11 4.12 4.13 4.20 4.30 4.42 4.43 5.24 6.20 6.35
+
+CA680509 JB February 23, 1978  9:06 AM
+
+1458	4	1747
+1523	4	1747
+1603	4	1747
+1698	4	1747
+1747	4	1747
+1748	4	1747
+1854	4	1747
+1877	4	1747
+1960	4	1747
+2377	4	1747
+2378	4	1747
+2497	4	1747
+2558	4	1747
+2625	4	1747
+2632	4	1747
+2840	4	1747
+2941	4	1747
+3105	4	1747
+3144	4	1747
+1471	5	1747
+1747	5	1747
+1747	5	1747
+1747	5	1747
+2151	5	1747
+1653	6	1747
+1747	6	1747
+1860	6	1747
+
+
+************************
+
+************************
+Document:  CACM-2314.html
+************************
+
+
+Requirements for Advanced Programming Systems for List Processing
+
+List processing systems should be designed to
+facilitate production of large programs to manipulate 
+large complex symbolic data stores.  This paper presents
+an overview of a number of system features which 
+the author feels are important to improve the productivity
+of programmers working in such domains.  A 
+system view it taken, rather than focusing just on language
+features, since algorithms must be not only 
+coded in a language form, but debugged, modified, made
+efficient, and run on data.  Because of this general 
+framework,the requirements specified are applicable
+to the design of advanced programming systems for 
+a wide range of applications.  Three <B>aspects of</B> programming
+systems are highlighted: good interactive 
+facilities, programmable control structures, and sophisticated
+data communication mechanisms.  Interactive 
+features are described to facilitate program composition,
+entry, testing, debugging, editing, optimization, 
+and packaging.  Implementation of a generalized environment
+structure model specified would allow programming 
+of various control regimes including multiprocesses,
+coroutines and backtracking.  Alternative methods 
+of procedure invocation required include invocation
+by pattern and by monitoring condition.  The  need 
+for extended data forms, storage management, and extensibility
+are stressed, as is the duality of data 
+retrieval and function evaluation.  Syntax directed
+input and output of data would facilitate use of 
+complex data stores.
+
+CACM July, 1972
+
+Bobrow, D. G.
+
+list processing, programming languages, design of
+programming languages, interactive systems, control 
+structures, data structures, programming primitives,
+semantics, advanced programming systems
+
+1.3 4.2 4.22 4.3 4.32 5.23 5.24
+
+CA720714 JB January 30, 1978  1:30 PM
+
+1570	4	2314
+1708	4	2314
+1781	4	2314
+1826	4	2314
+1860	4	2314
+1945	4	2314
+2156	4	2314
+2168	4	2314
+2249	4	2314
+2314	4	2314
+2314	4	2314
+2314	4	2314
+2314	4	2314
+2317	4	2314
+2719	4	2314
+2736	4	2314
+2833	4	2314
+2842	4	2314
+1098	5	2314
+1626	5	2314
+2082	5	2314
+2148	5	2314
+2314	5	2314
+2314	5	2314
+2314	5	2314
+2438	5	2314
+1826	6	2314
+2314	6	2314
+
+
+************************
+
+************************
+Document:  CACM-0322.html
+************************
+
+
+Operational Compatibility of Systems-CONVENTIONS
+
+The General Standards Committee of the SHARE
+organization has devoted considerable effort to 
+the problem <B>of operating</B> a computer efficiently in
+view of the growing number of programming systems 
+available.  Each of these programming systems has been
+coded to utilize a fixed set of hardware components 
+without recognizing the fact that others may be occupying
+a storage medium required by the first.  These 
+incompatibilities are currently resolved by manually setting
+up the computer for each system as required. 
+ The following set of conventions is being considered
+to minimize computer set-up time.  They are of 
+sufficiently broad interest that we feel other computer
+users should be aware of them. -George F. Ryckman, 
+Chairman
+
+CACM June, 1961
+
+Bright, H. S.
+
+CA610603 JB March 16, 1978  10:55 PM
+
+322	5	322
+322	5	322
+322	5	322
+
+
+************************
+
+************************
+Document:  CACM-1541.html
+************************
+
+
+A Language for Modeling and Simulating Dynamic Systems
+
+The general objective of this language is
+to facilitate both the modeling and experimental 
+<B>aspects of</B> simulation studies.  The ability to represent
+systems containing highly interactive processes 
+is an essential feature.  The nature of the language,
+and the role of the process concept, is presented 
+by means of an extended example.
+
+CACM September, 1967
+
+Parente, R. J.
+Krasnow, H. S.
+
+CA670905 JB February 27, 1978  3:18 PM
+
+1541	4	1541
+1541	4	1541
+1565	4	1541
+1781	4	1541
+1824	4	1541
+1846	4	1541
+2060	4	1541
+2218	4	1541
+2252	4	1541
+3112	4	1541
+1358	5	1541
+1380	5	1541
+1541	5	1541
+1541	5	1541
+1541	5	1541
+
+
+************************
+
+************************
+Document:  CACM-1951.html
+************************
+
+
+Estimates of Distributions of Random Variables
+for Certain Computer Communications Traffic Models
+
+A study of multiaccess computer communications has
+characterized the distributions underlying an elementary
+ model of the user-computer interactive process.  The model used is
+elementary in the sense that many of the random variables that
+generally are of interest in computer communications studies can be
+decomposed into the elements of this model.  Data were examined
+from four operational multiaccess systems, and the model is shown to
+be robust; that is each of the variables of the model has the
+same distribution independent of which of the four systems is being examined. 
+It is shown that the gamma distribution can be used to
+describe the discrete variables.  Approximations to the gamma distribution
+by the exponential distribution are discussed for the systems studied.
+
+CACM December 1970
+
+Fuchs, E.
+Jackson, P. E.
+
+computer communications, time-sharing,
+<B>operating systems</B>, optimization models
+
+3.80 3.81 6.20
+
+CA701212 JB February 9, 1978  2:46 PM
+
+1533	4	1951
+1604	4	1951
+1951	4	1951
+1951	4	1951
+2373	4	1951
+2667	4	1951
+2668	4	1951
+1410	5	1951
+1604	5	1951
+1951	5	1951
+1951	5	1951
+1951	5	1951
+2373	5	1951
+2894	5	1951
+1410	6	1951
+1751	6	1951
+1810	6	1951
+1951	6	1951
+1951	6	1951
+2016	6	1951
+2374	6	1951
+
+
+************************
+
+************************
+Document:  CACM-2151.html
+************************
+
+
+User Program Measurement in a Time-Shared Environment
+
+A general discussion of the measurement of
+software systems is followed by a description of 
+a hardware and software scheme for measuring user programs
+in a time-shared environment.  The TX-2 computer 
+at MIT Lincoln Laboratory was used for the implementation
+of such a system and the characteristics of 
+this implementation are reported.  A scenario showing
+the system in use is presented.  Finally, it is 
+shown how other time-sharing systems may provide similar measuring facilities.
+
+CACM October, 1971
+
+Nemeth, A. G.
+Rovner, P. D.
+
+<B>operating systems</B>, multiprogramming systems, time-sharing
+systems, software measurement, user program 
+measurement, measurement technology, TX-2 computer,
+virtual computers, performance improvement
+
+4.30 4.32 4.42 4.43
+
+CA711005 JB February 2, 1978  1:05 PM
+
+1957	4	2151
+2151	4	2151
+2151	4	2151
+2151	4	2151
+2318	4	2151
+3103	4	2151
+3148	4	2151
+1653	5	2151
+1747	5	2151
+1860	5	2151
+2151	5	2151
+2151	5	2151
+2151	5	2151
+2719	5	2151
+2967	5	2151
+1626	6	2151
+210	6	2151
+2151	6	2151
+2151	6	2151
+2167	6	2151
+2210	6	2151
+2645	6	2151
+2657	6	2151
+
+
+************************
+
+************************
+Document:  CACM-1750.html
+************************
+
+
+Considerations in the Design of a Multiple
+Computer System with Extended Core Storage
+
+The use of large quantities of addressable
+(but not executable) fast random access memory to 
+heighten the multiprogramming performance of a multicomputer system
+is discussed.  The general design 
+of the hardware arrangement and the software components
+and functions of such a system are based on a 
+planned configuration of dual CDC 6600's that share one
+million words of extended core storage.  In the 
+generalization of such a design, special emphasis is
+placed on estimating expected gains when compared 
+with the traditional configuration of separate and independent
+computers without extended core storage. 
+ An observation is made on the use of conventional, slower
+speed, random access storage devices in place 
+of the faster memory.
+
+CACM May, 1968
+
+Fuchel, K.
+Heller, S.
+
+multiple computer systems, extended core storage,
+multiprogrammed <B>operating systems</B>, multiprocessor 
+operating systems, control data corporation 6600, operating system with ECS
+
+4.30 4.32
+
+CA680506 JB February 23, 1978  9:27 AM
+
+1750	5	1750
+1750	5	1750
+1750	5	1750
+2988	5	1750
+1750	6	1750
+
+
+************************
+
+************************
+Document:  CACM-2522.html
+************************
+
+
+The Design, Implementation, and Evaluation of a Working Set Dispatcher
+
+The behavior of a computer system is largely
+dependent upon the algorithms employed to allocate 
+the system resources to the processes competing for them.
+ Recent research in time-sharing paging systems 
+has developed the working set model for program behavior,
+and are source allocation strategy based on 
+this model has been proposed.  Two implementations
+along these principles have been reported, but it 
+seems that in neither case have further results been
+announced.  This report discusses the design and 
+implementation of a dispatcher based on the working set
+principle, presents data to permit analysis of 
+its behavior, and indicates future directions of research
+on methods of controlling a computer system.
+
+CACM April, 1973
+
+Rodriguez-Rosell, J.
+Dupuy, J. P.
+
+working set, dispatcher, scheduler, time-sharing
+systems, resource allocation, software evaluation, 
+<B>operating systems</B>, supervisory systems
+
+4.31 4.32
+
+CA730406 JB January 24, 1978  9:36 AM
+
+2522	5	2522
+2522	5	2522
+2522	5	2522
+2928	5	2522
+1751	6	2522
+2277	6	2522
+2380	6	2522
+2522	6	2522
+2569	6	2522
+
+
+************************
+
+************************
+Document:  CACM-2372.html
+************************
+
+
+On the Implementation of Security Measures in Information Systems
+
+The security of an information system may be
+represented by a model matrix whose elements are 
+decision rules and whose row and column indices are
+users and data items respectively.  A set of four 
+functions is used to access this matrix at translation
+and execution time.  Distinguishing between data 
+dependent and data independent decision rules enables
+one to perform much of the checking of security 
+only once at translation time rather than repeatedly
+at execution time.  The model is used to explain 
+security features of several existing systems, and serves
+as a framework for a proposal for general security 
+system implementation within today's languages and <B>operating systems</B>.
+
+CACM April, 1972
+
+Conway, R. W.
+Maxwell, W. L.
+Morgan, H. L.
+
+security, privacy, access control confidentiality,
+operating systems, access management, data banks, 
+management information systems
+
+3.50 3.73 4.12 4.22 4.39
+
+CA720401 JB January 31, 1978  1:59 PM
+
+1753	4	2372
+2358	4	2372
+2377	4	2372
+2372	4	2372
+2626	4	2372
+2840	4	2372
+1746	5	2372
+2372	5	2372
+2372	5	2372
+2372	5	2372
+
+
+************************
+
+************************
+Document:  CACM-2111.html
+************************
+
+
+Spelling Correction in Systems Programs
+
+Several specialized techniques are shown for efficiently
+incorporating spelling correction algorithms in
+to compilers and <B>operating systems</B>.  These include the use of syntax
+and semantics information, the organization of restricted keyword
+and symbol tables, and the consideration of a limited class of spelling
+errors.  Sample 360 coding for performing spelling correction
+is presented.  By using systems which perform spelling correction,
+the number of debugging runs per program has been decreased,
+saving both programmer and machine time.
+
+CACM February, 1970
+
+Morgan, H. L.
+
+spelling correction, error correction, debugging, compilers,
+operating systems, diagnostics, error detection, 
+misspelling, lexical analysis systems programming
+
+4.42 4.12 3.0 3.79
+
+CA700204 JB February 14, 1978  10:40 AM
+
+1112	4	2111
+1179	4	2111
+1288	4	2111
+1544	4	2111
+1592	4	2111
+1592	4	2111
+1646	4	2111
+2111	4	2111
+2111	4	2111
+2111	4	2111
+2111	4	2111
+2339	4	2111
+2339	4	2111
+2339	4	2111
+2534	4	2111
+2556	4	2111
+440	4	2111
+2650	4	2111
+1112	5	2111
+1592	5	2111
+2111	5	2111
+2111	5	2111
+2111	5	2111
+2534	5	2111
+2556	5	2111
+2650	5	2111
+2708	5	2111
+2887	5	2111
+619	5	2111
+830	5	2111
+830	6	2111
+830	6	2111
+830	6	2111
+1477	6	2111
+1491	6	2111
+1646	6	2111
+1787	6	2111
+1787	6	2111
+1935	6	2111
+1936	6	2111
+1959	6	2111
+1973	6	2111
+2111	6	2111
+2111	6	2111
+2111	6	2111
+2111	6	2111
+2111	6	2111
+2182	6	2111
+2534	6	2111
+2556	6	2111
+576	6	2111
+680	6	2111
+680	6	2111
+799	6	2111
+
+
+************************
+
+************************
+Document:  CACM-2621.html
+************************
+
+
+A High Security Log-in Procedure
+
+The protection of time sharing systems from
+unauthorized users is often achieved by the use 
+of passwords.  By using one-way ciphers to code the passwords,
+the risks involved with storing the passwords 
+in the computer can be avoided.  We discuss the selection
+of a suitable one-way cipher and suggest that 
+for this purpose polynomials over a prime modulus are
+superior to one-way ciphers derived from Sannon 
+codes.
+
+CACM August, 1974
+
+Purdy, G. B.
+
+<B>operating systems</B>, time sharing systems, security, cryptography
+
+4.35
+
+CA740803 JB January 17, 1978  10:10 AM
+
+2621	5	2621
+2621	5	2621
+2621	5	2621
+
+
+************************
+

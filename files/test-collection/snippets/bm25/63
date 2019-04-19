@@ -1,3 +1,1400 @@
 Snippets for the query:  List all articles on EL1 and ECL (EL1 may be given as EL/1; I don't remember how they did it.
 ************************
-No snippets found for the query..
+Total Hits:  23
+************************
+
+************************
+Document:  CACM-2622.html
+************************
+
+
+A User Authentication Scheme Not Requiring Secrecy in the Computer
+
+In many computer operating systems a user authenticates
+himself by entering a secret password 
+known solely to himself and the system.  The system compares
+this password with one recorded in a Password 
+Table which is available to only the authentication
+program.  The integrity of the system depends on 
+keeping the table secret.  In this paper a password
+scheme is presented which does not require secrecy 
+in the computer.    All aspects of the system, including
+all relevant code and data bases, <B>may be</B> known 
+by anyone attempting to intrude.  The scheme is based
+on using a function H which the would-be intruder 
+is unable to invert.  This function is applied to the
+user's password and the result compared to a table 
+entry, a match being interpreted as authentication of
+the user.  The intruder may know all about H and 
+have access to the table, but he can penetrate the system
+only if he can invert H to determine an input 
+that produces a given output.  This paper discusses
+issues surrounding selection of a suitable H.  Two 
+different plausible arguments are given that penetration
+would be exceedingly difficult, and it is then 
+argued that more rigorous results are unlikely.  Finally,
+some human engineering problems relating to 
+the scheme are discussed.
+
+CACM August, 1974
+
+Evans, A. Jr.
+Kantrowitz, W.
+Weiss, E.
+
+operating system security, security, authentication,
+passwords, one-way encryption, cryptology
+
+4.39 5.39
+
+CA740802 JB January 17, 1978  10:19 AM
+
+2622	5	2622
+2622	5	2622
+2622	5	2622
+
+
+************************
+
+************************
+Document:  CACM-0322.html
+************************
+
+
+Operational Compatibility of Systems-CONVENTIONS
+
+The General Standards Committee of the SHARE
+organization has devoted considerable effort to 
+the problem of operating a computer efficiently in
+view of the growing number of programming systems 
+available.  Each of these programming systems has been
+coded to utilize a fixed set of hardware components 
+without recognizing the fact that others <B>may be</B> occupying
+a storage medium required by the first.  These 
+incompatibilities are currently resolved by manually setting
+up the computer for each system as required. 
+ The following set of conventions is being considered
+to minimize computer set-up time.  They are of 
+sufficiently broad interest that we feel other computer
+users should be aware of them. -George F. Ryckman, 
+Chairman
+
+CACM June, 1961
+
+Bright, H. S.
+
+CA610603 JB March 16, 1978  10:55 PM
+
+322	5	322
+322	5	322
+322	5	322
+
+
+************************
+
+************************
+Document:  CACM-2723.html
+************************
+
+
+Multiprocessing Compactifying Garbage Collection
+
+Algorithms for a multiprocessing compactifying
+garbage collector are presented and discussed. 
+ The simple case of two processors, one performing LISP-like
+list operations and the other performing 
+garbage collection continuously, is thoroughly examined.
+The necessary capabilities of each processor 
+are defined, as well as interprocessor communication
+and interlocks. Complete procedures for garbage 
+collection and for standard list processing primitives
+are presented and thoroughly explained.  Particular 
+attention is given to the problems of marking and relocating
+list cells while another processor <B>may be</B> 
+operating on them.  The primary aim throughout is to
+allow the list processor to run unimpeded while 
+the other processor reclaims list storage.  The more
+complex cases involving several list processors 
+and one or more garbage collection processors are also briefly discussed.
+
+CACM September, 1975
+
+Steele, G. L. Jr.
+
+garbage collection, storage reclamation, reclaimer,
+storage allocation, multiprocessing, synchronization, 
+semaphores, parallel processing, compactification, relocation,
+LISP, list processing, free storage, pointers, 
+data structures, gc processor
+
+4.19 4.32 4.40 4.49 4.9
+
+CA750901 JB January 6, 1978  3:39 PM
+
+1024	4	2723
+1024	4	2723
+1050	4	2723
+1051	4	2723
+1051	4	2723
+1098	4	2723
+1102	4	2723
+1132	4	2723
+1214	4	2723
+1380	4	2723
+1388	4	2723
+1390	4	2723
+1393	4	2723
+1485	4	2723
+1486	4	2723
+1487	4	2723
+1549	4	2723
+1549	4	2723
+1549	4	2723
+1570	4	2723
+1706	4	2723
+1826	4	2723
+1828	4	2723
+1854	4	2723
+1869	4	2723
+1877	4	2723
+1878	4	2723
+1878	4	2723
+1946	4	2723
+1957	4	2723
+1960	4	2723
+1972	4	2723
+378	4	2723
+2060	4	2723
+2150	4	2723
+2155	4	2723
+2156	4	2723
+2168	4	2723
+2168	4	2723
+2168	4	2723
+2317	4	2723
+2319	4	2723
+2377	4	2723
+2342	4	2723
+2376	4	2723
+2379	4	2723
+2424	4	2723
+2438	4	2723
+2482	4	2723
+2513	4	2723
+2618	4	2723
+2632	4	2723
+2665	4	2723
+2704	4	2723
+2719	4	2723
+2723	4	2723
+2723	4	2723
+2723	4	2723
+2723	4	2723
+2723	4	2723
+2723	4	2723
+2723	4	2723
+2736	4	2723
+2738	4	2723
+2740	4	2723
+2741	4	2723
+2833	4	2723
+2838	4	2723
+2842	4	2723
+2855	4	2723
+2855	4	2723
+2855	4	2723
+2857	4	2723
+2867	4	2723
+2879	4	2723
+2882	4	2723
+2941	4	2723
+2956	4	2723
+3030	4	2723
+3074	4	2723
+3077	4	2723
+3080	4	2723
+3106	4	2723
+3106	4	2723
+3112	4	2723
+3112	4	2723
+3184	4	2723
+627	4	2723
+731	4	2723
+793	4	2723
+106	4	2723
+210	5	2723
+1549	5	2723
+1749	5	2723
+1826	5	2723
+2651	5	2723
+2723	5	2723
+2723	5	2723
+2723	5	2723
+2838	5	2723
+2896	5	2723
+3039	5	2723
+3074	5	2723
+3112	5	2723
+627	5	2723
+731	5	2723
+106	6	2723
+1380	6	2723
+1826	6	2723
+1826	6	2723
+210	6	2723
+1834	6	2723
+1853	6	2723
+1972	6	2723
+1972	6	2723
+2438	6	2723
+2723	6	2723
+2723	6	2723
+2723	6	2723
+2723	6	2723
+2723	6	2723
+2732	6	2723
+2732	6	2723
+2736	6	2723
+2833	6	2723
+2838	6	2723
+2896	6	2723
+731	6	2723
+
+
+************************
+
+************************
+Document:  CACM-2786.html
+************************
+
+
+A System for Typesetting Mathematics
+
+This paper describes the design and implementation
+of a system for typesetting mathematics. 
+ The language has been designed to be easy to learn
+and to use by people (for example, secretaries and 
+mathematical typists) who know neither mathematics nor
+typesetting.  Experience indicates that the language 
+can be learned in an hour or so, for it has few rules
+and fewer exceptions.  For typical expressions, 
+the size and font changes, positioning, line drawing, and
+the like necessary to print according to mathematical 
+conventions are all done automatically.  For example,
+the input sum from i=o to infinity x sub i=pi over 
+2 produces (formula).  The syntax of the language is specified
+by a small context-free grammar; a compiler-compiler 
+is used to make a compiler that translates this language
+into typesetting commands.  Output maybe produced 
+on either a phototypesetter or on a terminal with forward
+and reverse half-line motions.  The system 
+interfaces directly with text formatting programs, so
+mixtures of text and mathematics <B>may be</B> handled 
+simply.  This paper was typeset by the authors using the system described 
+
+CACM March, 1975
+
+Kernighan, B. W.
+Cherry, L. L.
+
+typesetting, photocomposition,compiler-compiler,
+graphics, printing, text processing.
+
+4.12 4.22 8.2
+
+CA750302 JB January 10, 1978  8:56 AM
+
+2626	4	2786
+2786	4	2786
+2840	4	2786
+2919	4	2786
+3017	4	2786
+3110	4	2786
+3174	4	2786
+2629	5	2786
+2733	5	2786
+2746	5	2786
+2786	5	2786
+2786	5	2786
+2786	5	2786
+1665	6	2786
+1739	6	2786
+1781	6	2786
+2139	6	2786
+2179	6	2786
+2423	6	2786
+2545	6	2786
+2786	6	2786
+2786	6	2786
+799	6	2786
+
+
+************************
+
+************************
+Document:  CACM-1957.html
+************************
+
+
+The List Set Generator: A Construct for Evaluating Set Expressions
+
+The list set generator is defined and algorithms
+for its use are given.  The list set generator is
+a construct which <B>may be</B> added to a list processing system or any
+system that handles sets.  It efficiently generates the set which
+results from any expression involving sets and set operators.  The
+efficiency derives from evaluating the expression as a whole and
+in parallel, rather than evaluating subexpressions and
+then using those sets to arrive at the final result.
+
+CACM December, 1970
+
+Shapiro, S. C.
+
+set manipulating, list processing, set
+generation, sets, lists, file processing
+
+3.73 3.74 4.22
+
+CA701206 JB February 9, 1978  3:23 PM
+
+1024	4	1957
+1051	4	1957
+1098	4	1957
+1214	4	1957
+1380	4	1957
+1388	4	1957
+1393	4	1957
+1485	4	1957
+1487	4	1957
+1549	4	1957
+1570	4	1957
+1860	4	1957
+1878	4	1957
+1946	4	1957
+1957	4	1957
+1957	4	1957
+1957	4	1957
+2155	4	1957
+2151	4	1957
+2162	4	1957
+2168	4	1957
+2723	4	1957
+2857	4	1957
+3103	4	1957
+3112	4	1957
+3148	4	1957
+1389	5	1957
+1860	5	1957
+1957	5	1957
+1957	5	1957
+1957	5	1957
+731	5	1957
+
+
+************************
+
+************************
+Document:  CACM-1961.html
+************************
+
+
+An Efficient Search Algorithm to Find the Elementary Circuits of a Graph
+
+A theoretically most efficient search algorithm is presented
+which uses an exhaustive search to find all of the elementary
+circuits of a graph.  The algorithm can be easily modified to find all
+of the elementary circuits with a particular attribute such as
+length.  A rigorous proof of the algorithm is <B>given as</B> well as an example
+of its application.  Empirical bounds are presented relating
+the speed of the algorithm to the number of vertices and the number
+of arcs.  The speed is also related to the number of circuits
+in the graph to give a relation between speed and complexity.
+Extensions to undirected and s-graphs are discussed.
+
+CACM December, 1970
+
+Tiernan, J. C.
+
+algorithm, graph theory, circuit search
+algorithm, path search algorithm, searching
+
+3.74 5.32
+
+CA701202 JB February 9, 1978 4:12 PM
+
+1847	4	1961
+1961	4	1961
+1961	4	1961
+1961	4	1961
+2052	4	1961
+2177	4	1961
+2763	4	1961
+1369	5	1961
+1504	5	1961
+1847	5	1961
+1961	5	1961
+1961	5	1961
+1961	5	1961
+2430	5	1961
+1961	6	1961
+
+
+************************
+
+************************
+Document:  CACM-2931.html
+************************
+
+
+Logic and Programming Languages
+
+Logic has been long in terested in whether answers
+to certain questions are computable in principle, 
+since the outcome puts bounds on the possibilities of
+formalization.  More recently, precise comparisons 
+in the efficiency of decision methods have become available
+through the developments in complexity theory. 
+ These, however, are applications to logic, and a big question
+is whether methods of logic have significance 
+in the other direction for the more applied parts of
+computability theory.  Programming languages offer 
+an obvious opportunity as their syntactic formalization
+is well advanced; however, the semantical theory 
+can hardly be said to be complete.  Though we have
+many examples, we have still to give wide-ranging 
+mathematical answers to these queries:  What is a machine?
+ What is a computable process?  How (or how 
+well) does a machine simulate a process?  Programs naturally
+enter in giving descriptions of processes. 
+ The definition of the precise meaning of a program
+then requires us to explain what are the objects 
+of computation (in a way, the statics of the problem)
+and <B>how they</B> are to be transformed (the dynamics). 
+ So far the theories of automata and of nets, though
+most in teresting for dynamics, have formalized only 
+a portion of the field, and there has been perhaps too
+much concentration on the finite-state and algebraic 
+aspects.  It would seem that the understanding of higher-level
+program features involves us with infinite 
+objects and forces us to pass through several levels
+of explanation to go from the conceptual ideas to 
+the final simulation on a real machine.  These levels
+can be made mathematically exact if we can find 
+the right abstractions to represent the necessary structures.
+ The experience of many independent workers 
+with the method of data types as lattices (or partial
+orderings) under an information content ordering, 
+and with their continuous mappings, has demonstrated the
+flexibility of this approach in providing definitions 
+and proofs, which are clean and without undue dependence
+on implementations.  Nevertheless much remains 
+to be done in showing how abstract conceptualizations
+can (or cannot) be actualized before we can say 
+we have a unified theory.
+
+CACM September, 1977
+
+Scott, D. S.
+
+logic, programming languages, automata, denotational
+semantics, a-calculus models, computability, 
+partial functions, approximation, function spaces
+
+1.2 4.20 5.21 5.24 5.27
+
+CA770902 JB December 28, 1977  6:49 AM
+
+2931	5	2931
+2931	5	2931
+2931	5	2931
+
+
+************************
+
+************************
+Document:  CACM-2177.html
+************************
+
+
+An Algorithm for the Blocks and Cutnodes of a Graph
+
+An efficient method is presented for finding
+blocks and cutnodes of an arbitrary undirected 
+graph.  The graph <B>may be</B> represented either (i) as an
+ordered list of edges or (ii) as a packed adjacency 
+matrix.  If w denotes the word length of the machine
+employed, the storage (in machine words) required 
+for a graph with n nodes and m edges increases essentially
+as 2(m+n) in case (i), or (n^2)/win case 
+(ii).  A spanning tree with labeled edges is grown,
+two edges finally bearing different labels if and 
+only if they belong to different blocks.  For both representations
+the time required to analyze a graph 
+on n nodes increases as n^G where G depends on the type
+of graph, 1 <= G <= 2, and both bounds are attained. 
+ Values of G are derived for each of several suitable
+families of test graphs, generated by an extension 
+of the web grammar approach.  The algorithm is compared
+in detail with that proposed by Read for which 
+1 <= G <= 3.
+
+CACM July, 1971
+
+Paton, K.
+
+algorithm, block, block-cutpoint-tree, cutnode, fundamental
+cycle set, graph, lobe, lobe decomposition 
+graph, separable, spanning tree, web grammar
+
+5.32
+
+CA710705 JB February 3, 1978  8:58 AM
+
+1961	4	2177
+2177	4	2177
+2763	4	2177
+1847	5	2177
+2177	5	2177
+2177	5	2177
+2177	5	2177
+2490	5	2177
+2177	6	2177
+
+
+************************
+
+************************
+Document:  CACM-2002.html
+************************
+
+
+AMESPLOT-A Higher Level Data Plotting Software System
+
+AMESPLOT is an extensible software system designed to make the display of 
+data as simple, painless, and neat as possible.  The system described is 
+hardware-independent and has been implemented on a variety of installations,
+of different manufacturers, having diverse configurations.  The elements 
+common to all types of data plots are outlined and the way in which these 
+elements <B>may be</B> combined into a system based on simple modules is demonstrated.
+These modules are specified independently and are independent of the axis
+systems or other attributes of the plot.  This enables plots of any
+complexity to be constructed by adding or replacing modules.  The
+basic syntax of AMESPLOT is outlined, and a brief description is given
+of its current utility software, consisting of "macros" to produce
+self-scaled plots, formal tablets of text-interspersed with subplots,
+map coastlines, and 3-D plots.  The system was formulate
+d in a way such that the user could supply the minimum of information,
+and it should be fully integrable with user's program written
+in most conventional higher languages.  The functions of positioning,
+locating, and scaling (in the layout of multiple subplots) of
+axes, labels, and all other elements of the plot are handled automatically
+by the software system unless the user specifies otherwise.  The structuring 
+of plots from multiple, independent, self-contained subplots is described.
+Transformation, projection, scaling, rotation, or shifting of entire plots or 
+subplots by the action of one or more simple modules is possible.  The user 
+may interact freely with AMESPLOT at three levels, enabling him to construct 
+his own data markers, alphabetic characters, and transformations, and
+to produce a variety of artistic and other effects.
+
+CACM September, 1970
+
+Hirschsoln, I.
+
+computer graphics, data potting, data display
+syntax, hardware independent software,
+display device independent software, plot elements, self-scaled plots,
+user interaction, tablet organization, map display, projection
+
+4.13 4.29 4.49 4.9
+
+CA700903 JB February 10, 1978 2:08 PM
+
+2003	4	2002
+2002	4	2002
+2002	4	2002
+2152	4	2002
+1767	5	2002
+1937	5	2002
+2002	5	2002
+2002	5	2002
+2002	5	2002
+
+
+************************
+
+************************
+Document:  CACM-2484.html
+************************
+
+
+A Note on Information Organization and Storage
+
+Since the logical structure of a data base
+can be represented by a tree or graph, it is quite 
+natural for us to view the process of designing a data
+base as that of constructing a tree or a graph. 
+ A general method for constructing such a tree or a graph
+is provided.  There are three important elements 
+in this general construction method; namely, a set of
+binary relations, an algorithm for constructing 
+subsets of a set, and an algorithm for selecting an
+element from the given set of objects.  The use of 
+different relations and algorithms results in different
+information structures, as list, tree, ring, 
+etc.  Thus the problem of information organization and
+storage is reduced to that of defining relations 
+and formulating algorithms under a given set of constraints.
+ The results presented <B>may be</B> valuable to 
+designers as useful design concepts, and may serve as
+a basis for developing a formal theory on the subject.
+
+CACM July, 1973
+
+Huang, J. C.
+
+data base, data-base management, information retrieval,
+information structure, file organization, 
+storage allocation, tree, graph
+
+3.70 3.73 3.74 5.32
+
+CA730702 JB January 23, 1978  1:14 PM
+
+2484	5	2484
+2484	5	2484
+2484	5	2484
+
+
+************************
+
+************************
+Document:  CACM-2742.html
+************************
+
+
+Improved Event-Scanning Mechanisms for Discrete Event Simulation
+
+Simulation models of large, complex "real-world"
+applications have occasionally earned the 
+reputation of eating up hours of computer time.  This
+problem <B>may be</B> attributed in part to difficulties 
+such as slow stochastic convergence.  However, an additional
+problem lies in the fact that a significant 
+amount of bookkeeping time is required to keep future events
+in their proper sequence.  This paper presents 
+a method for significantly reducing the time spent scanning
+future event lists in discrete event simulations. 
+ There models are presented, all of which improve in effectiveness
+as the events-list scan problem becomes 
+more burdensome.
+
+CACM June, 1975
+
+Wyman, F. P.
+
+discrete event simulation, simulation, event scanning mechanisms
+
+4.34 5.5 8.1
+
+CA750611 JB January 9, 1978  12:43 PM
+
+2742	5	2742
+2742	5	2742
+2742	5	2742
+2844	5	2742
+2936	5	2742
+3064	5	2742
+970	6	2742
+1059	6	2742
+1846	6	2742
+1939	6	2742
+2742	6	2742
+2742	6	2742
+2742	6	2742
+2767	6	2742
+2767	6	2742
+2767	6	2742
+2936	6	2742
+
+
+************************
+
+************************
+Document:  CACM-1216.html
+************************
+
+
+Symbolic Derivatives Without List Processing, Subroutines, or Recursion
+
+A routine has been developed which computes and
+prints out the symbolic derivative of an absolutely 
+continuous elementary function of one or several variables.
+ No use is made of list-processing languages. 
+ The chain rule is applied and the result is edited to
+produce results as elegant and efficient as those 
+obtained by hand computation.  A subset <B>may be</B> imbeded
+in a formula translator to introduce a differentiation 
+operator into an "algebraic" programming language.
+
+CACM August, 1965
+
+Smith, P. J.
+
+CA650808 JB March 6, 1978  8:18 PM
+
+1028	4	1216
+1028	4	1216
+1216	4	1216
+1216	4	1216
+1216	4	1216
+1278	4	1216
+1278	4	1216
+1347	4	1216
+1347	4	1216
+1392	4	1216
+1396	4	1216
+1396	4	1216
+1396	4	1216
+1536	4	1216
+964	4	1216
+1028	5	1216
+1029	5	1216
+1216	5	1216
+1216	5	1216
+1216	5	1216
+561	5	1216
+
+
+************************
+
+************************
+Document:  CACM-2845.html
+************************
+
+
+A Buddy System Variation for Disk Storage Allocation
+
+A generalization of the buddy system for storage
+allocation is described. The set of permitted 
+block sizes {SIZE(i)}, i=0,n, must satisfy the condition
+SIZE(i)=SIZE(i-1)+SIZE(i-k(i)) where k <B>may be</B> 
+any meaningful integral-valued function.  This makes it
+possible to force logical storage blocks to coincide 
+with physical storage blocks, such as tracks and cylinders.
+
+CACM July, 1976
+
+Burton, W.
+
+buddy system, dynamic storage allocation
+
+3.89 4.32 4.39
+
+CA760708 JB January 4, 1978  11:24 AM
+
+1389	4	2845
+1552	4	2845
+2162	4	2845
+2435	4	2845
+2596	4	2845
+2596	4	2845
+2747	4	2845
+2768	4	2845
+2768	4	2845
+2773	4	2845
+2833	4	2845
+2845	4	2845
+2845	4	2845
+2845	4	2845
+2845	4	2845
+2845	4	2845
+2845	4	2845
+2856	4	2845
+2902	4	2845
+2902	4	2845
+2902	4	2845
+2902	4	2845
+2911	4	2845
+2955	4	2845
+2955	4	2845
+2955	4	2845
+3112	4	2845
+3113	4	2845
+1184	5	2845
+2435	5	2845
+2598	5	2845
+2736	5	2845
+2747	5	2845
+2768	5	2845
+2845	5	2845
+2845	5	2845
+2845	5	2845
+
+
+************************
+
+************************
+Document:  CACM-0726.html
+************************
+
+
+A General Program for the Analysis of
+Square and Rectangular Lattice Designs
+
+This paper describes a general-purpose program
+that will handle those incomplete block designs 
+known as square and rectangular lattices.  Flow diagrams
+are given so that the method of calculation 
+<B>may be</B> programmed for any digital computer.
+
+CACM September, 1963
+
+Smillie, K. W.
+
+CA630932 JB March 13, 1978  6:53 PM
+
+726	5	726
+726	5	726
+726	5	726
+
+
+************************
+
+************************
+Document:  CACM-3142.html
+************************
+
+
+Consumer Difficulties With Computerized Transactions: 
+An Empirical Investigation
+
+The prevalence with which errors <B>may be</B> encountered by the 
+end targets of a computerized process is assessed.  How many and
+what type of errors occur?  How easily are they corrected?  What
+is the reaction of consumers to errors-to a failure to correct
+them?  What can be learned by designers of large management packages
+from such data? Results show that with the present state of the
+art, approximately 40 percent of individuals (or households) having
+average contacts with different types of accounts experience one
+or more errors per year.  Eighty percent relate to billing.  Attempts
+to correct errors often turned out to be difficult and not always
+successful. There appears to be some conflict between computer-using
+organizations and their public.  Also the role of poor man
+agement packages including poor software is indicated.  While most
+management systems may be adequate, results of the survey raise
+concerns about the timeliness and the number of designs of very
+large linked program packages (as EFT for instance).  
+
+CACM May, 1979
+
+Sterling, T.
+
+Errors, systems errors, billing errors, management systems, consumers
+
+2.0 2.1 2.12 2.2 3.50 3.52 3.55 4.19 4.6
+
+CA790503 DH June 5, 1979  3:21 PM
+
+3142	4	3142
+3142	4	3142
+3179	4	3142
+3178	4	3142
+3182	4	3142
+3183	4	3142
+2583	5	3142
+3076	5	3142
+3142	5	3142
+3142	5	3142
+3142	5	3142
+3178	5	3142
+3076	6	3142
+3140	6	3142
+3142	6	3142
+3179	6	3142
+3180	6	3142
+3181	6	3142
+3182	6	3142
+
+
+************************
+
+************************
+Document:  CACM-1459.html
+************************
+
+
+Requirements for Real-Time Languages
+
+Real-time languages have different requirements
+from other programming languages because of 
+the special nature of their applications, the environment
+in which their object programs are executed 
+and the environment in which they <B>may be</B> compiled.  It
+may not be the language extensions that ultimately 
+advance developments in the field.  Progress may be made
+by attacking the special compiling and executing 
+system problems that must be solved.
+
+CACM March, 1966
+
+Opler, A.
+
+CA660313 JB March 3, 1978  11:48 AM
+
+1459	5	1459
+1459	5	1459
+1459	5	1459
+
+
+************************
+
+************************
+Document:  CACM-0497.html
+************************
+
+
+Further Remarks on Line Segment Curve-Fitting Using Dynamic Programming
+
+In a recent paper, Bellman showed how dynamic
+programming could be used to determine the solution 
+to a problem previously considered by Stone.  The problem
+comprises the determination, given N, of the 
+N points of subdivision of a given interval (a,B) and
+the corresponding line segments, that give the 
+best least squares fit to a function g(x) in the interval.
+ Bellman confined himself primarily to the 
+analytical derivation, suggesting briefly, however,
+how the solution of the equation derived for each 
+particular point of subdivision u(i) could be reduced to
+a discrete search.  In this paper, the computational 
+procedure is considered more fully, and the similarities
+to some of Stone's equations are indicated. 
+ It is further shown that an equation for u(i) involving
+no minimization <B>may be</B> found.  In addition, 
+it is shown how Bellman's method may be applied to the
+curve-fitting problem when the additional constraints 
+are added that the ends of the line segments must be on the curve.
+
+CACM August, 1962
+
+Gluss, B.
+
+CA620831 JB March 17, 1978  9:19 PM
+
+497	4	497
+867	4	497
+317	5	497
+497	5	497
+497	5	497
+497	5	497
+867	5	497
+317	6	497
+497	6	497
+
+
+************************
+
+************************
+Document:  CACM-2712.html
+************************
+
+
+Horner's Rule for the Evaluation of General Closed Queueing Networks
+
+The solution of separable closed queueing networks
+requires the evaluation of homogeneous multinomial 
+expressions.  The number of terms in those expressions
+grows combinatorially with the size of the network 
+such that a direct summation <B>may be</B>come impractical.  An
+algorithm is given which does not show a combinatorial 
+operation count.  The algorithm is based on a generalization
+of Horner's rule for polynomials.  It is 
+also shown how mean queue size and throughput an be obtained
+at negligible extra cost once the normalization 
+constant is evaluated.
+
+CACM October, 1975
+
+Reiser, M.
+Kobayashi, H.
+
+Queueing networks, queueing theory Horner's rule,
+evaluation of multinomial sums, load-dependent 
+service rate
+
+5.12 5.5 8.1 8.3
+
+CA751007 JB January 6, 1978  10:35 AM
+
+2712	4	2712
+2741	4	2712
+3070	4	2712
+2454	5	2712
+2712	5	2712
+2712	5	2712
+2712	5	2712
+
+
+************************
+
+************************
+Document:  CACM-0796.html
+************************
+
+
+SABRAG, A Time-Sharing Low-Cost Computer
+
+The serial SABRAC computer designed and built
+in the Scientific Department of the Israel defense 
+Ministry has a 5000-location magnetic drum, main store.
+ To avoid a need to resort to optimum programming 
+techniques and to increase its overall efficiency the
+computer has also been given a 224-word ferrite 
+core store from which the program is obeyed.  Transfers
+between the core and drum stores and to and from 
+the twin paper-tape input and output channels are all
+available autonomously (concurrently, time-shared). 
+ Multiplication and division orders are also autonomous,
+so that the machine <B>may be</B> executing up to three 
+orders simultaneously.  All functions naturally are interlocked.
+ A number of other advanced orders and 
+facilities are also incorporatedn particular, an
+"Execute" order permits a temporary jump for up 
+to four orders and a second modifier register permits double
+modification in general and relative addressing 
+of subroutines in particular.  Thus the overall effective
+speed of the machine is muchhigher than its 
+basic specification would lead one to expect and its
+design indicates one way in which the concepts of 
+time sharing may be incorporated in "low-cost" computers.
+
+CACM August, 1963
+
+Lehman, M.
+Netter, Z.
+Eshed, R.
+
+CA630802 JB March 13, 1978  8:54 PM
+
+3193	4	796
+796	4	796
+491	5	796
+796	5	796
+796	5	796
+796	5	796
+
+
+************************
+
+************************
+Document:  CACM-1878.html
+************************
+
+
+Recovery of Reentrant List Structures in SLIP
+
+One consequence of the reference-count-based
+space-recovery system employed by SLIP is that 
+reentrant list structures are not recovered even when
+explicitly erased.  LISP-like garbage-collection 
+schemes are free of this impediment.  They however,
+depend on being able to find and mark nodes that 
+are reachable from program variables.  By tracing all
+descendants from program variables may then be 
+identified and collected.  The list-creating function
+LIST of SLIP <B>may be</B> amended to mark those lists 
+for which the programmer wishes to assume responsibility.
+ Given this modification, a LISP-like garbage 
+collector that recovers abandoned reentrant list structures
+may then be appended to the SLIP system.
+
+CACM July, 1969
+
+Weizenbaum, J.
+
+list processing, SLIP, garbage-collection
+
+4.22 4.40
+
+CA690702 JB February 17, 1978  9:39 AM
+
+1024	4	1878
+1024	4	1878
+1051	4	1878
+1051	4	1878
+1098	4	1878
+1102	4	1878
+1132	4	1878
+1214	4	1878
+1380	4	1878
+1388	4	1878
+1390	4	1878
+1393	4	1878
+1485	4	1878
+1486	4	1878
+1487	4	1878
+1549	4	1878
+1549	4	1878
+1570	4	1878
+1706	4	1878
+1826	4	1878
+1878	4	1878
+1878	4	1878
+1946	4	1878
+1957	4	1878
+378	4	1878
+2060	4	1878
+2155	4	1878
+2168	4	1878
+2168	4	1878
+2719	4	1878
+2723	4	1878
+2723	4	1878
+2838	4	1878
+2842	4	1878
+2855	4	1878
+2857	4	1878
+2879	4	1878
+3077	4	1878
+3080	4	1878
+3106	4	1878
+3112	4	1878
+627	4	1878
+106	4	1878
+210	5	1878
+1878	5	1878
+1878	5	1878
+1878	5	1878
+2023	5	1878
+2168	5	1878
+731	5	1878
+106	6	1878
+1626	6	1878
+1826	6	1878
+210	6	1878
+1878	6	1878
+1878	6	1878
+731	6	1878
+
+
+************************
+
+************************
+Document:  CACM-1264.html
+************************
+
+
+BLNSYS-A 1401 Operating System with Braille Capabilities
+
+BLNSYS is an operating system designed for
+a 4K 1401 with common optional features and two 
+attached tape drives.  Printed output of this system
+or of executing programs <B>may be</B> in either English 
+or braille.  Even though this system was written for
+a small machine with minimal peripheral equipment, 
+jobs may be batched, so that card handling and lost
+processing time is at a minimum.  This system will 
+perform any or all of the following users specified
+functions: assemble SPS source decks, post list, 
+produce condensed or uncondensed object decks, execute
+user's program, list card input to a program, 
+list punched output, provide a storage dump, execute
+a program submitted for execution as an uncondensed 
+object deck under debugging trace control, card-to-braille
+conversion, brailled listings of 7040 IBSYS 
+batch output, and update or duplicate the system tape
+itself.  Input-ouput subroutines are also included 
+in the system.
+
+CACM May, 1965
+
+Landwehr, J. B.
+McLaughlin, C.
+Mueller, H.
+Lichstein, M.
+Pollack, S. V.
+
+CA650507 JB March 7, 1978  2:30 PM
+
+1264	4	1264
+1740	4	1264
+1099	5	1264
+1264	5	1264
+1264	5	1264
+1264	5	1264
+
+
+************************
+
+************************
+Document:  CACM-2232.html
+************************
+
+
+Pattern Width at a Given Angle
+
+That the pattern feature "width as a function
+of angle" possesses several possible interpretations 
+is demonstrated in this paper, which is a review of
+the width concept in pattern recognition and the 
+geometrical concept itself.  The object of the work
+is to clarify how the word description can be made 
+precise so that computer algorithms for feature extraction
+<B>may be</B> obtained; the focus is on the theoretical 
+subject matter.  The results consist of a set-theoretic
+definition of width-at-angle, a theorem relating 
+it to the pattern boundary radius vector, and descriptions
+of alternate widths.  All widths are calculated 
+for an illustrative example; graphical and tabular comparisons
+are given.  Substantial variation in width-at-angle 
+magnitude is found.  The principal conclusion is that
+the set-theoretic width-at-angle is a useful pattern 
+feature when it can be easily computed.  Further investigation
+of the information contained in only part 
+of a width function is recommended for cases where
+computation of width-at-angle is difficult.
+
+CACM January, 1971
+
+Klinger, A.
+
+feature extraction, pattern recognition,figure
+properties, picture processing, integral geometry, 
+width-at-angle, extent, integral projections,
+linear pattern measures, width functions
+
+3.60 3.62 3.63 5.12
+
+CA710102 JB February 8, 1978  12:49 PM
+
+2232	5	2232
+2232	5	2232
+2232	5	2232
+
+
+************************
+
+************************
+Document:  CACM-1051.html
+************************
+
+
+Multiword List Items
+
+The list concept as originally proposed by
+Newell, Simon and Shaw specified single computer 
+words as elements of a list.  This report describes the
+use of two or more consecutive words as one element. 
+ Such use results in a considerable saving in both the
+space required to hold a given amount of data, 
+and in the execution time required to perform a given
+process on the data.  Following a brief description 
+of standard list structures with single-word items, the
+multiword items are introduced.  Then variable-length 
+items are described, along with the corresponding space-utilization
+problems.  Finally, several examples 
+are given to illustrate the use of multiword lists. This
+paper attempts to draw together various recent 
+papers which have applied some of these concepts in different
+ways, and indicate <B>how they</B> relate to the 
+more general problems.
+
+CACM June, 1964
+
+Comfort, W. T.
+
+CA640616 JB March 9, 1978  9:15 PM
+
+1024	4	1051
+1024	4	1051
+1051	4	1051
+1051	4	1051
+1051	4	1051
+1051	4	1051
+1051	4	1051
+1051	4	1051
+1062	4	1051
+1098	4	1051
+1102	4	1051
+1102	4	1051
+1132	4	1051
+1214	4	1051
+1380	4	1051
+1388	4	1051
+1390	4	1051
+1393	4	1051
+1485	4	1051
+1486	4	1051
+1487	4	1051
+1549	4	1051
+1549	4	1051
+1549	4	1051
+1552	4	1051
+1570	4	1051
+1665	4	1051
+1706	4	1051
+1826	4	1051
+1860	4	1051
+1878	4	1051
+1878	4	1051
+1946	4	1051
+1957	4	1051
+378	4	1051
+2060	4	1051
+2155	4	1051
+2155	4	1051
+2168	4	1051
+2168	4	1051
+2719	4	1051
+2723	4	1051
+2723	4	1051
+2838	4	1051
+2842	4	1051
+2855	4	1051
+2857	4	1051
+2879	4	1051
+3077	4	1051
+3080	4	1051
+3106	4	1051
+3112	4	1051
+627	4	1051
+106	4	1051
+1051	5	1051
+1051	5	1051
+1051	5	1051
+1211	5	1051
+210	5	1051
+1549	5	1051
+1906	5	1051
+378	5	1051
+2902	5	1051
+406	5	1051
+731	5	1051
+793	5	1051
+794	5	1051
+106	6	1051
+1051	6	1051
+1051	6	1051
+1051	6	1051
+1051	6	1051
+1062	6	1051
+1062	6	1051
+1184	6	1051
+1211	6	1051
+1552	6	1051
+210	6	1051
+1879	6	1051
+2435	6	1051
+2596	6	1051
+2734	6	1051
+2747	6	1051
+2768	6	1051
+406	6	1051
+627	6	1051
+731	6	1051
+753	6	1051
+
+
+************************
+

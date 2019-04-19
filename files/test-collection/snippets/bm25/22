@@ -1,3 +1,247 @@
 Snippets for the query:  Distributed computing structures and algorithms
 ************************
-No snippets found for the query..
+Total Hits:  4
+************************
+
+************************
+Document:  CACM-2709.html
+************************
+
+
+A Genealogy of Control Structures
+
+The issue of program control structures has
+had a history of heated controversy.  To put this 
+issue on a solid footing, this paper reviews numerous theoretical
+results on control <B>structures and</B> explores 
+their practical implications.  The classic result of
+Bohm and Jacopini on the theoretical completeness 
+of if-then-else and while-do is discussed. Several recent
+ideas on control structures are then explored. 
+ These include a review of various other control structures,
+results on time/space limitations, and theorems 
+relating the relative power of control structures under
+notions of equivalence.  In conclusion, the impact 
+of theoretical results on the practicing programmer and
+the importance of one-in, one-out control structures 
+as operational abstractions are discussed.  It is argued
+further that there is insufficient evidence 
+to warrant more than if-then-else, while-do, and their variants.
+
+CACM November, 1975
+
+Ledgard, H. F.
+Marcotty, M.
+
+structured programming, control structures,
+goto statements, language design, PASCAL
+
+4.2 5.24
+
+CA751103 JB January 6, 1978  9:53 AM
+
+2319	4	2709
+2411	4	2709
+2480	4	2709
+2574	4	2709
+2594	4	2709
+2709	4	2709
+2709	4	2709
+2709	4	2709
+2709	4	2709
+2709	4	2709
+2802	4	2709
+2889	4	2709
+2937	4	2709
+2939	4	2709
+2972	4	2709
+2989	4	2709
+3004	4	2709
+3004	4	2709
+3005	4	2709
+3025	4	2709
+3101	4	2709
+3121	4	2709
+3155	4	2709
+1425	5	2709
+2138	5	2709
+2204	5	2709
+2456	5	2709
+2477	5	2709
+2709	5	2709
+2709	5	2709
+2709	5	2709
+2821	5	2709
+3121	5	2709
+1312	6	2709
+308	6	2709
+309	6	2709
+2456	6	2709
+2709	6	2709
+2709	6	2709
+
+
+************************
+
+************************
+Document:  CACM-3148.html
+************************
+
+
+High Level Programming for Distributed Computing
+
+Programming for distributed and other loosely coupled systems
+is a problem of growing interest.  This paper describes an approach
+to distributed computing at the level of general purpose programming
+languages.  Based on primitive notions of module, message,
+and transaction key, the methodology is shown to be independent
+of particular languages and machines.  It appears to be useful for
+programming a wide range of tasks.  This is part of an ambitious
+program of development in advanced programming languages, and relations
+with other aspects of the project are also discussed.
+
+CACM June, 1979
+
+Feldman, J.
+
+<B>Distributed computing</B>, modules, messages, assertions
+
+4.22 4.32
+
+CA790604 DH August 21, 1979  4:31 PM
+
+1957	4	3148
+2151	4	3148
+3031	4	3148
+3103	4	3148
+3105	4	3148
+3128	4	3148
+3148	4	3148
+3148	4	3148
+3148	4	3148
+3148	4	3148
+3148	4	3148
+3150	4	3148
+3150	4	3148
+3155	4	3148
+1860	5	3148
+2817	5	3148
+2865	5	3148
+2939	5	3148
+3073	5	3148
+3148	5	3148
+3148	5	3148
+3148	5	3148
+3150	5	3148
+2060	6	3148
+2704	6	3148
+2842	6	3148
+2939	6	3148
+2940	6	3148
+2941	6	3148
+2943	6	3148
+3073	6	3148
+3148	6	3148
+
+
+************************
+
+************************
+Document:  CACM-2484.html
+************************
+
+
+A Note on Information Organization and Storage
+
+Since the logical structure of a data base
+can be represented by a tree or graph, it is quite 
+natural for us to view the process of designing a data
+base as that of constructing a tree or a graph. 
+ A general method for constructing such a tree or a graph
+is provided.  There are three important elements 
+in this general construction method; namely, a set of
+binary relations, an algorithm for constructing 
+subsets of a set, and an algorithm for selecting an
+element from the given set of objects.  The use of 
+different relations <B>and algorithms</B> results in different
+information structures, as list, tree, ring, 
+etc.  Thus the problem of information organization and
+storage is reduced to that of defining relations 
+and formulating algorithms under a given set of constraints.
+ The results presented may be valuable to 
+designers as useful design concepts, and may serve as
+a basis for developing a formal theory on the subject.
+
+CACM July, 1973
+
+Huang, J. C.
+
+data base, data-base management, information retrieval,
+information structure, file organization, 
+storage allocation, tree, graph
+
+3.70 3.73 3.74 5.32
+
+CA730702 JB January 23, 1978  1:14 PM
+
+2484	5	2484
+2484	5	2484
+2484	5	2484
+
+
+************************
+
+************************
+Document:  CACM-2092.html
+************************
+
+
+A Deductive Question-Answer for Natural Language Inference
+
+The question-answering aspects of the Protosynthex III pro
+totype language processing system are described and exemplified in
+detail.  The system is written in LISP 1.5 and operates on the Q-32
+time-sharing system.  The system's data <B>structures and</B> their semantic
+organization, the deductive question-answering formalism of
+relational properties and complex-relation-forming operators, and
+the question-answering procedures which employ these features in
+their operation are all described and illustrated.  Examples of the
+system's performance and of the limitations of its question-answering 
+capability are presented and discussed.  It is shown that the
+use of semantic information in deductive question answering greatly 
+facilitates the process, and that a top-down procedure which works
+from question to answer enables effective use to be made of this
+information.  It is concluded that the development of Protosynthex
+III into a practically useful system to work with large data
+bases is possible but will require changes in both the data
+structures and the algorithms used for question answering.
+
+CACM March, 1970
+
+Schwarcz, R. M.
+Burger, J. F.
+Simmons, R. F.
+
+question answering, natural language, Protosynthex III, LISP,
+semantics, artificial intelligence, computational
+linguistics, language processing, fact retrieval
+
+3.42 3.61
+
+CA700306 JB February 13, 1978  4:30 PM
+
+2092	4	2092
+2127	4	2092
+1527	5	2092
+2092	5	2092
+2092	5	2092
+2092	5	2092
+2396	5	2092
+1487	6	2092
+1856	6	2092
+2092	6	2092
+2127	6	2092
+
+
+************************
+

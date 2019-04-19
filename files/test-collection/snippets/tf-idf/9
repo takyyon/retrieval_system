@@ -1,6 +1,6 @@
 Snippets for the query:  Parallel languages; languages for parallel computation
 ************************
-Total Hits:  1
+Total Hits:  3
 ************************
 
 ************************
@@ -14,7 +14,7 @@ All Zeros of a Polynomial with Only Real Zeros
 An algorithm is described based on Newton's
 method which simultaneously approximates all zeros 
 of a polynomial with only real zeros.  The algorithm, which
-is conceptually suitable for parallel computation, 
+is conceptually suitable <B>for parallel</B> computation, 
 determines its own starting values so that convergence
 to the zeros is guaranteed.  Multiple zeros and 
 their multiplicity are readily determined.  At no
@@ -37,6 +37,84 @@ CA721103 JB January 27, 1978  2:35 PM
 2266	5	2266
 2660	5	2266
 2266	6	2266
+
+
+************************
+
+
+
+A Highly Parallel Algorithm for Approximating
+All Zeros of a Polynomial with Only Real Zeros
+
+An algorithm is described based on Newton's
+method which simultaneously approximates all zeros 
+of a polynomial with only real zeros.  The algorithm, which
+is conceptually suitable for <B>parallel computation</B>, 
+determines its own starting values so that convergence
+to the zeros is guaranteed.  Multiple zeros and 
+their multiplicity are readily determined.  At no
+point in the method is polynomial deflation used.
+
+CACM November, 1972
+
+Patrick, M. L.
+
+parallel numerical algorithms, real polynomials,
+real zeros, Newton's method, starting values, 
+guaranteed convergence
+
+5.15
+
+CA721103 JB January 27, 1978  2:35 PM
+
+2266	5	2266
+2266	5	2266
+2266	5	2266
+2660	5	2266
+2266	6	2266
+
+
+************************
+
+************************
+Document:  CACM-2785.html
+************************
+
+
+Glypnir-A Programming Language for Illiac IV
+
+GLYPNIR is one of the earliest existing languages
+designed for programming the Illiac IV computer. 
+The syntax of the language is based on ALGOL 60, but has
+been extended to allow the programmer explicitly 
+to specify the parallelism of his algorithm in terms of 64-word
+vectors.  This paper describes the characteristics, 
+goals and philosophy of the language, and discusses some
+of the problems associated with parallel computer 
+architectures.
+
+CACM March, 1975
+
+Lawrie, D. H.
+Layman, T.
+Baer, D.
+Randal, J. M.
+
+GLYPNIR, Illiac IV, Programming language,
+<B>parallel computation</B>, parallel architecture
+
+4.2 4.21 4.22
+
+CA750303JB January 9, 1978  4:57 PM
+
+2785	4	2785
+2785	4	2785
+2876	4	2785
+2433	5	2785
+2685	5	2785
+2785	5	2785
+2785	5	2785
+2785	5	2785
 
 
 ************************

@@ -1,3 +1,114 @@
 Snippets for the query:  Graph theoretic algorithms applicable to sparse matrices
 ************************
-No snippets found for the query..
+Total Hits:  3
+************************
+
+************************
+Document:  CACM-2769.html
+************************
+
+
+A Modification of Warshall's Algorithm for
+the Transitive Closure of Binary Relations
+
+An algorithm is given for computing the transitive
+closure of a binary relation that is represented 
+by a Boolean matrix. The algorithm is similar to Warshall's
+although it executes faster for <B>sparse matrices</B>
+on most computers, particularly in a paging environment.
+
+CACM April, 1975
+
+Warren, H. S. Jr.
+
+Warshall's algorithm, transitive closure, reachability
+matrix, directed graph, digraph, Boolean 
+matrix, binary relation
+
+5.30 5.32
+
+CA750408 JB January 9, 1978  3:49 PM
+
+1151	4	2769
+1265	4	2769
+2769	4	2769
+2769	5	2769
+2769	5	2769
+2769	5	2769
+635	5	2769
+
+
+************************
+
+************************
+Document:  CACM-1457.html
+************************
+
+
+Data Manipulation and Programming Problems
+in Automatic Information Retrieval
+
+Automatic information retrieval programs require
+the manipulation of a variety of different 
+data structures, including linear text, <B>sparse matrices</B>,
+and tree or list structures.  The main data 
+manipulations to be performed in automatic information
+systems are first briefly reviewed.  A variety 
+of data representations which have been used to describe
+structured information are then examined, and 
+the characteristics of various processing languages are
+outlined in the light of the procedures requiring 
+implementation.  Advantages of these programming languages
+for the retrieval application are examined, 
+and suggestions are made for the design of programming
+facilities to aid in information retrieval.
+
+CACM March, 1966
+
+Salton, G.
+
+CA660315 JB March 3, 1978  11:35 AM
+
+1457	4	1457
+1236	5	1457
+1457	5	1457
+1457	5	1457
+1457	5	1457
+
+
+************************
+
+************************
+Document:  CACM-2780.html
+************************
+
+
+On Computing Certain Elements of the Inverse of a Sparse Matrix
+
+A recursive algorithm for computing the inverse
+of a matrix from the LU factors based on relationships 
+in Takahashi, et al., is examined.  The formulas for the
+algorithm are given; the dependency relationships 
+are derived; the computational costs are developed; and some
+general comments on application and stability 
+are made.
+
+CACM March, 1975
+
+Erisman, E. M.
+Tinney, W. F.
+
+<B>sparse matrices</B>, triangular factorization, elements
+of inverse, tridiagonal matrix, sensitivities
+
+3.24 5.14
+
+CA750308 JB January 9, 1978  4:34 PM 
+
+2780	5	2780
+2780	5	2780
+2780	5	2780
+
+
+************************
+

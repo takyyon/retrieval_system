@@ -2,9 +2,10 @@ from extras import *
 from common import Common
 from indexer import Indexer
 import math
+import re
 import nltk
 import operator
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 from nltk.stem import SnowballStemmer
 from nltk.corpus import wordnet
 
@@ -16,6 +17,7 @@ class Query_Expansion:
         """
         self.utility = Utility()
         self.frequency_map = defaultdict()
+        self.synonyms_map = defaultdict()
         self.file_handling = FileHandling()
         self.common = Common()
         self.indexer = Indexer()
@@ -38,9 +40,7 @@ class Query_Expansion:
                         listofwords.append(expected)
 
             self.frequency_map[i+1] = listofwords
-
         return self.frequency_map
-
 
     def generate_frequency_map(self,word,stem):
         occurrences = 0
@@ -61,7 +61,6 @@ class Query_Expansion:
                             if abs(pos1 - pos2) <= 12:
                                 occurrences = occurrences + 1
                                 break
-
         return occurrences
 
     def fetch_expected_words(self,word,stem):
@@ -96,3 +95,77 @@ class Query_Expansion:
             new_queries.append(new_query)
         return new_queries
     
+    def create_tf(self,inverted_index):
+        tf = {}
+        for term in inverted_index:
+            c = 0
+            doc_to_frequency = inverted_index[term]
+            for doc in doc_to_frequency:
+                c = c + doc_to_frequency[doc]
+            tf[term] = c
+        return self.generatePotentialQuery(tf)
+
+    # generating potential query words by evaluating term frequency and removing stop words
+    def generatePotentialQuery(self,tf):
+        terms = []
+        total = 0
+        for key, value in tf.items():
+            total = total + value
+        potentialList = []
+        for key, value in tf.items():
+            if key not in self.utility.get_stop_list() and len(key) > 4:
+                potentialList.append(key)
+        return potentialList
+
+    # calculating dice's co-efficient for different terms
+    def diceCoff(self,list1, list2, invertedIndex):
+        associationDict = {}
+        for i in list1:
+            if i != "in" and i in invertedIndex:
+                docList = invertedIndex[i]
+                sum = 0
+                for j in list2:
+                    docList2 = invertedIndex[j]
+                    sum = 0
+                    for k in docList2:
+                        if k in docList:
+                            sum = sum + 1
+                    if sum > 10:
+                        associationDict[i + "   " + j] = sum * 1.0 / (len(docList) + len(docList2))
+        sorted_dict = OrderedDict(associationDict)
+        return sorted_dict
+
+    def expand_queries_using_pseduo_relevance(self, queries):
+        docs = self.common.read_top_documents_for_score()
+        relevant_docs = []
+        for record in docs:
+            relevant_docs.append((record.values()[0]))
+
+        self.indexer.create_save_indexer_with_relevant_docs(relevant_docs)
+        inverted_index = self.indexer.read_simple_index()
+
+        potential_list = self.create_tf(inverted_index)
+        updated_query_list = []
+        
+        for i in range(len(queries)):
+            query = queries[i]
+            query = query.lower()
+            words_from_query = []
+            word_array = query.split()
+            for word in word_array:
+                word = re.sub(r'\W+', ' ', word)
+                if word not in self.utility.get_stop_list():
+                    words_from_query.append(word)
+            updatedQuery = query
+            suggested_words = self.diceCoff(words_from_query,potential_list,inverted_index).items()
+            k = 0
+            for value in suggested_words:
+                if k > 8:
+                    break
+                else:
+                    words = value[0].split()
+                    if words[1] not in updatedQuery:
+                        updatedQuery = updatedQuery + ' ' + words[1]
+                        k = k + 1
+            updated_query_list.append(updatedQuery)
+        return updated_query_list

@@ -1,6 +1,74 @@
 Snippets for the query:  Parallel processors and paging algorithms
 ************************
-Total Hits:  2
+Total Hits:  6
+************************
+
+************************
+Document:  CACM-1924.html
+************************
+
+
+Organizing Matrices and Matrix Operations for Paged Memory Systems
+
+Matrix representations and operations are examined
+for the purpose of minimizing the page faulting 
+occurring in a paged memory system.  It is shown that
+carefully designed matrix algorithms can lead to 
+enormous savings in the number of page faults occurring
+when only a small part of the total matrix can 
+be in main memory at one time.  Examination of addition,
+multiplication, and inversion algorithms shows 
+that a partitioned matrix representation (i.e. one submatrix
+or partition per page) in most cases induced 
+fewer page faults than a row-by-row representation.
+ The number of page-pulls required by these matrix 
+manipulation algorithms is also studied as a function
+of the number of pages of main memory available 
+to the algorithm.
+
+CACM March, 1969
+
+McKellar, A. C.
+Coffman Jr., E. G.
+
+matrix algorithms, array processing, <B>paging algorithms</B>,
+paged memory systems, virtual memory systems, 
+array storage allocation, storage allocation
+
+4.12 4.39 5.14
+
+CA690303 JB February 20, 1978  9:35 AM
+
+1892	4	1924
+1924	4	1924
+2095	4	1924
+2218	4	1924
+2297	4	1924
+2374	4	1924
+2526	4	1924
+2667	4	1924
+2668	4	1924
+2862	4	1924
+2863	4	1924
+1728	5	1924
+1924	5	1924
+1924	5	1924
+1924	5	1924
+2365	5	1924
+2582	5	1924
+3152	5	1924
+987	6	1924
+1751	6	1924
+1754	6	1924
+1924	6	1924
+1924	6	1924
+1924	6	1924
+2017	6	1924
+2130	6	1924
+2362	6	1924
+2365	6	1924
+
+
 ************************
 
 ************************
@@ -14,7 +82,64 @@ Task scheduling and resource balancing for
 a medium size virtual memory paging machine are 
 discussed in relation to a combined batch processing
 and time-sharing environment.  A synopsis is given 
-of the task scheduling and paging algorithms that were implemented,
+of the task scheduling and <B>paging algorithms</B> that were implemented,
+and the results of comparative simulation 
+are given by tracing the development of the algorithms
+through six predecessor versions.  Throughout 
+the discussion particular emphasis is placed on balancing
+the system performance relative to the characteristics 
+of all the system resources.  Simulation results relative
+to alternate hardware characteristics and the 
+effects of program mix and loading variations are also presented.
+
+CACM May, 1968
+
+Oppenheimer, G.
+Weizer, N.
+
+time-sharing, operating systems, resource management,
+task scheduling, paging, system simulation, 
+memory management, virtual memories
+
+4.30 4.31 4.32
+
+CA680504 JB February 23, 1978  9:39 AM
+
+1751	5	1752
+1752	5	1752
+1752	5	1752
+1752	5	1752
+1892	5	1752
+2128	5	1752
+2218	5	1752
+1380	6	1752
+1526	6	1752
+1572	6	1752
+1572	6	1752
+1728	6	1752
+1728	6	1752
+1751	6	1752
+1751	6	1752
+1752	6	1752
+1752	6	1752
+1752	6	1752
+1752	6	1752
+1810	6	1752
+1879	6	1752
+2095	6	1752
+
+
+************************
+
+
+
+Resource Management for a Medium Scale Time-Sharing Operating system
+
+Task scheduling and resource balancing for
+a medium size virtual memory paging machine are 
+discussed in relation to a combined batch processing
+and time-sharing environment.  A synopsis is given 
+of the task scheduling <B>and paging</B> algorithms that were implemented,
 and the results of comparative simulation 
 are given by tracing the development of the algorithms
 through six predecessor versions.  Throughout 
@@ -74,7 +199,7 @@ Five types of anomalous behavior which may
 occur in paged virtual memory operating systems 
 a redefined.  One type of anomaly, for example, concerns
 the fact that, with certain reference strings 
-and paging algorithms, an increase in mean memory allocation
+<B>and paging</B> algorithms, an increase in mean memory allocation
 may result in an increase in fault rate. 
  Two paging algorithms, are examined in terms of their
 anomaly potential, and reference string examples 
@@ -154,6 +279,194 @@ CA780307 JB March 28,1978  1:01 PM
 2863	6	3006
 2864	6	3006
 3006	6	3006
+
+
+************************
+
+
+
+Anomalies with Variable Partition Paging Algorithms
+
+Five types of anomalous behavior which may
+occur in paged virtual memory operating systems 
+a redefined.  One type of anomaly, for example, concerns
+the fact that, with certain reference strings 
+and <B>paging algorithms</B>, an increase in mean memory allocation
+may result in an increase in fault rate. 
+ Two paging algorithms, are examined in terms of their
+anomaly potential, and reference string examples 
+of various anomalies are presented.  Two paging algorithm
+properties, the inclusion property and the 
+generalized inclusion property, are discussed and the
+anomaly implications of these properties presented.
+
+CACM March, 1978
+
+Franklin, M.
+Graham, G.
+Gupta, R.
+
+anomaly, memory management, program behavior, stack
+algorithms, virtual memory, working set, page 
+fault frequency, paging algorithms
+
+4.32 4.35 4.6 8.1
+
+CA780307 JB March 28,1978  1:01 PM
+
+1892	4	3006
+1901	4	3006
+2022	4	3006
+2085	4	3006
+2085	4	3006
+2095	4	3006
+2218	4	3006
+2277	4	3006
+2319	4	3006
+2329	4	3006
+2358	4	3006
+2373	4	3006
+2373	4	3006
+2374	4	3006
+2380	4	3006
+2380	4	3006
+2434	4	3006
+2499	4	3006
+2450	4	3006
+2450	4	3006
+2501	4	3006
+2582	4	3006
+2595	4	3006
+2669	4	3006
+2828	4	3006
+2863	4	3006
+2881	4	3006
+2928	4	3006
+2996	4	3006
+2996	4	3006
+2996	4	3006
+3006	4	3006
+3006	4	3006
+3006	4	3006
+3006	4	3006
+3006	4	3006
+3067	4	3006
+3067	4	3006
+3067	4	3006
+3067	4	3006
+1751	5	3006
+1884	5	3006
+2373	5	3006
+2374	5	3006
+2595	5	3006
+3006	5	3006
+3006	5	3006
+3006	5	3006
+3067	5	3006
+1751	6	3006
+2374	6	3006
+2373	6	3006
+2595	6	3006
+2682	6	3006
+2863	6	3006
+2864	6	3006
+3006	6	3006
+
+
+************************
+
+************************
+Document:  CACM-2863.html
+************************
+
+
+VMIN-An Optimal Variable-Space Page Replacement Algorithm
+
+A criterion for comparing variable space page
+replacement algorithms is presented.  An optimum 
+page replacement algorithm, called VMIN, is described and
+shown to be optimum with respect to this criterion. 
+The results of simulating VMIN, Denning's working set,
+and the page partitioning replacement algorithms 
+on five virtual memory programs are presented to demonstrate
+the improvement possible over the known 
+realizable variable space algorithms.
+
+CACM May, 1976
+
+Prieve, B. G.
+Fabry, R. S.
+
+dem<B>and paging</B>, performance measurement, multilevel
+memory systems, virtual memory, working set, 
+page replacement algorithms, optimal page replacement
+
+4.30 4.32
+
+CA760508 JB January 4, 1978  3:06 PM
+
+1892	4	2863
+1892	4	2863
+1901	4	2863
+1924	4	2863
+2085	4	2863
+2095	4	2863
+2095	4	2863
+2218	4	2863
+2218	4	2863
+2277	4	2863
+2297	4	2863
+2319	4	2863
+2329	4	2863
+2358	4	2863
+2373	4	2863
+2374	4	2863
+2374	4	2863
+2380	4	2863
+2434	4	2863
+2499	4	2863
+2481	4	2863
+2501	4	2863
+2526	4	2863
+2582	4	2863
+2667	4	2863
+2668	4	2863
+2669	4	2863
+2669	4	2863
+2828	4	2863
+2862	4	2863
+2863	4	2863
+2863	4	2863
+2863	4	2863
+2863	4	2863
+2881	4	2863
+2928	4	2863
+2996	4	2863
+3006	4	2863
+3016	4	2863
+3052	4	2863
+3067	4	2863
+3067	4	2863
+1728	5	2863
+1751	5	2863
+1901	5	2863
+2863	5	2863
+2863	5	2863
+2863	5	2863
+2863	5	2863
+3067	5	2863
+1728	6	2863
+1751	6	2863
+1751	6	2863
+1901	6	2863
+2374	6	2863
+2373	6	2863
+2595	6	2863
+2682	6	2863
+2863	6	2863
+2863	6	2863
+2864	6	2863
+3006	6	2863
 
 
 ************************

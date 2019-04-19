@@ -1,6 +1,384 @@
 Snippets for the query:  Algorithms for parallel computation, and especially comparisons between parallel and sequential algorithms.
 ************************
-Total Hits:  1
+Total Hits:  12
+************************
+
+************************
+Document:  CACM-2785.html
+************************
+
+
+Glypnir-A Programming Language for Illiac IV
+
+GLYPNIR is one of the earliest existing languages
+designed for programming the Illiac IV computer. 
+The syntax of the language is based on ALGOL 60, but has
+been extended to allow the programmer explicitly 
+to specify the parallelism of his algorithm in terms of 64-word
+vectors.  This paper describes the characteristics, 
+goals and philosophy of the language, and discusses some
+of the problems associated with parallel computer 
+architectures.
+
+CACM March, 1975
+
+Lawrie, D. H.
+Layman, T.
+Baer, D.
+Randal, J. M.
+
+GLYPNIR, Illiac IV, Programming language,
+<B>parallel computation,</B> parallel architecture
+
+4.2 4.21 4.22
+
+CA750303JB January 9, 1978  4:57 PM
+
+2785	4	2785
+2785	4	2785
+2876	4	2785
+2433	5	2785
+2685	5	2785
+2785	5	2785
+2785	5	2785
+2785	5	2785
+
+
+************************
+
+************************
+Document:  CACM-2195.html
+************************
+
+
+On the Optimal Detection of Curves in Noisy Pictures
+
+A technique for recognizing systems of lines
+is presented.  In this technique the heuristic 
+of the problem is not embedded in the recognition algorithm
+but is expressed in a figure of merit.   
+A multistage decision process is then able to recognize
+in the input picture the optimal system of lines 
+according to the given figure of merit.  Due to the
+global approach, greater flexibility and adequacy 
+in the particular problem is achieved.  The relation
+between the structure of the figure of merit and 
+the complexity of the optimization process is then discussed.
+ The method described is suitable <B>for parallel</B> 
+processing because the operations relative to each
+state can be computed in parallel, and the number
+of stages is equal to the length N of the curves (or
+to log2 N if the approximate method is used).
+
+CACM May, 1971
+
+Montanari, U.
+
+picture processing, picture recognition, picture
+description, curve detection, line detection, 
+edge detection,optimal detection, heuristic methods,
+global recognition, parallel processing, dynamic 
+programming, interaction graph, secondary optimization problem
+
+3.63 3.66 5.42
+
+CA710504 JB February 3, 1978  2:49 PM
+
+1663	4	2195
+2195	4	2195
+2679	4	2195
+1190	5	2195
+2195	5	2195
+2195	5	2195
+2195	5	2195
+2883	5	2195
+2195	6	2195
+
+
+************************
+
+************************
+Document:  CACM-2851.html
+************************
+
+
+Formal Verification of Parallel Programs
+
+Two formal models <B>for parallel</B> computation
+are presented: an abstract conceptual model and 
+a parallel-program model.  The former model does not
+distinguish between control and data states.  The 
+latter model includes the capability for the representation
+of an infinite set of control states by allowing 
+there to be arbitrarily many instruction pointers (or
+processes) executing the program.  An induction 
+principle is presented which treats the control and
+data state sets on the same ground.  Through the 
+use of "place variables," it is observed that certain
+correctness conditions can be expressed without 
+enumeration of the set of all possible control states.
+ Examples are presented in which the induction 
+principle is used to demonstrate proofs of mutual exclusion.
+ It is shown that assertions-oriented proof 
+methods are special cases of the induction principle.
+A special case of the assertions method, which 
+is called parallel place assertions, is shown to be
+incomplete.  A formalization of "deadlock" is then 
+presented. The concept of a "norm" is introduced, which
+yields an extension, to the deadlock problem, 
+of Floyd's technique for proving termination.  Also discussed
+is an extension of the program model which 
+allows each process to have its own local variables
+and permits shared global variables.  Correctness 
+of certain forms of implementation is also discussed.
+ An Appendix is included which relates this work 
+to previous work on the satisfiability of certain logical formulas.
+
+CACM July, 1976
+
+Keller, R. M.
+
+parallel program, correctness, verification,
+assertions, deadlock, mutual exclusion, Petrinet
+
+4.6 5.2 6.9 8.1
+
+CA760702 JB January 4, 1978  1:20 PM
+
+2228	4	2851
+2280	4	2851
+2379	4	2851
+2320	4	2851
+2482	4	2851
+2597	4	2851
+2740	4	2851
+2777	4	2851
+2851	4	2851
+2851	4	2851
+2895	4	2851
+2912	4	2851
+2920	4	2851
+2946	4	2851
+3128	4	2851
+1877	5	2851
+2150	5	2851
+2851	5	2851
+2851	5	2851
+2851	5	2851
+
+
+************************
+
+************************
+Document:  CACM-2838.html
+************************
+
+
+Analysis of an Algorithm for Real Time Garbage Collection
+
+A real time garbage collection system avoids
+suspending the operations of a list processor 
+for the long times that garbage collection normally requires
+by performing garbage collection on a second 
+processor in parallel with list processing operations,
+or on a single processor time-shared with them. 
+ <B>Algorithms for</B> recovering discarded list structures in
+this manner are presented and analyzed to determine 
+sufficient conditions under which the list processor never
+needs to wait on the collector.  These techniques 
+are shown to require at most twice as much processing
+power as regular garbage collectors, if they are 
+used efficiently.  The average behavior of the program
+is shown to be very nearly equal to the worst-case 
+performance, so that the sufficient conditions are also
+suitable for measuring the typical behavior of 
+the algorithm.
+
+CACM September, 1976
+
+Wadler, P. L.
+
+garbage collection, storage reclamation, list
+processing, Lisp, time-sharing, multiprocessing, 
+parallel processing, real time, data structures, analysis of algorithms
+
+3.69 3.89 4.19 4.29 4.32 4.34 4.9 5.25
+
+CA760901 JB January 4, 1978  9:57 AM
+
+1024	4	2838
+1051	4	2838
+1102	4	2838
+1132	4	2838
+1390	4	2838
+1486	4	2838
+1549	4	2838
+1706	4	2838
+1826	4	2838
+1878	4	2838
+378	4	2838
+2060	4	2838
+2155	4	2838
+2168	4	2838
+2719	4	2838
+2723	4	2838
+2838	4	2838
+2838	4	2838
+2842	4	2838
+2855	4	2838
+2879	4	2838
+2896	4	2838
+3039	4	2838
+3074	4	2838
+3077	4	2838
+3080	4	2838
+3106	4	2838
+3112	4	2838
+627	4	2838
+106	4	2838
+210	5	2838
+2723	5	2838
+2838	5	2838
+2838	5	2838
+2838	5	2838
+3112	5	2838
+106	6	2838
+1380	6	2838
+1826	6	2838
+1972	6	2838
+2438	6	2838
+2723	6	2838
+2736	6	2838
+2833	6	2838
+2838	6	2838
+731	6	2838
+
+
+************************
+
+************************
+Document:  CACM-0462.html
+************************
+
+
+Computer Pattern Recognition Techniques: Electrocardiographic Diagnosis
+
+The use of programmed digital computers as general
+pattern classification and recognition devices 
+is one phase of the current lively interest in artificial
+intelligence.  It is important to choose a 
+class of signals which is, at present, undergoing a
+good deal of visual inspection by trained people 
+for the purpose of pattern recognition.  In this way
+<B>comparisons between</B> machine and human performance 
+may be obtained.  A practical result also serves as additional
+motivation.  Clinical electrocardiograms 
+make up such a class of signals.  The approach to the
+problem presented here centers upon the use of 
+multiple adaptive matched filters that classify normalized
+signals.  The present report fives some of 
+the background for the application of this method.
+
+CACM October, 1962
+
+Stark,L.
+Okajima, M.
+Whipple, G. H.
+
+CA621018 JB March 17, 1978  7:04 PM
+
+1325	5	462
+462	5	462
+462	5	462
+462	5	462
+462	6	462
+
+
+************************
+
+************************
+Document:  CACM-1554.html
+************************
+
+
+A Computer Technique for Displaying n-Dimensional Hyperobjects
+
+A digital computer and automatic plotter have
+been used to generate three-dimensional stereoscopic 
+movies of the three-dimensional <B>parallel and</B> perspective
+projections of four-dimensional hyperobjects 
+rotating in four-dimensional space.  The observed projections
+and their motions were a direct extension
+of three-dimensional experience, but no profound "feeling"
+or insight into the fourth spatial dimension 
+was obtained.  The technique can be generalized to n-dimensions
+and applied to any n-dimensional hyperobject 
+or hypersurface.
+
+CACM August, 1967
+
+Noll, A. M.
+
+CA670801 JB February 27, 1978  4:48 PM
+
+1554	5	1554
+1554	5	1554
+1554	5	1554
+2211	5	1554
+1554	6	1554
+1741	6	1554
+
+
+************************
+
+************************
+Document:  CACM-2898.html
+************************
+
+
+A Conceptual Framework for a Nonprocedural Programming Language
+
+A sequential programming language forces the
+programmer to prescribe explicitly the order in 
+which the operations in his program have to be executed,
+even if the order is not relevant to the solution 
+of his problem.  The requirement to indicate irrelevant
+sequencing can be removed if the language provides 
+facilities for specifying a task in a nonprocedural
+manner.  In general, a program specified in this 
+way will allow concurrent evaluation.  This paper describes
+a conceptual framework for a high level programming 
+language providing both nonprocedural <B>and sequential</B>
+facilities.  Within a program, nonprocedural and 
+sequential program modules may be nested freely.
+
+CACM December, 1977
+
+Kessels, J. L. W.
+
+parallel programming, descriptive programming,
+nonprocedural programming, definitional language, 
+data flow programming, applicative programming
+
+4.20
+
+CA771202 JB February 1, 1980  4:05 AM
+
+2865	4	2898
+2866	4	2898
+2898	4	2898
+2898	4	2898
+2972	4	2898
+3043	4	2898
+3128	4	2898
+3144	4	2898
+2597	5	2898
+2898	5	2898
+2898	5	2898
+2898	5	2898
+2946	5	2898
+
+
 ************************
 
 ************************
@@ -14,7 +392,7 @@ All Zeros of a Polynomial with Only Real Zeros
 An algorithm is described based on Newton's
 method which simultaneously approximates all zeros 
 of a polynomial with only real zeros.  The algorithm, which
-is conceptually suitable for parallel computation, 
+is conceptually suitable for <B>parallel computation,</B> 
 determines its own starting values so that convergence
 to the zeros is guaranteed.  Multiple zeros and 
 their multiplicity are readily determined.  At no
@@ -37,6 +415,182 @@ CA721103 JB January 27, 1978  2:35 PM
 2266	5	2266
 2660	5	2266
 2266	6	2266
+
+
+************************
+
+
+
+A Highly Parallel Algorithm for Approximating
+All Zeros of a Polynomial with Only Real Zeros
+
+An algorithm is described based on Newton's
+method which simultaneously approximates all zeros 
+of a polynomial with only real zeros.  The algorithm, which
+is conceptually suitable <B>for parallel</B> computation, 
+determines its own starting values so that convergence
+to the zeros is guaranteed.  Multiple zeros and 
+their multiplicity are readily determined.  At no
+point in the method is polynomial deflation used.
+
+CACM November, 1972
+
+Patrick, M. L.
+
+parallel numerical algorithms, real polynomials,
+real zeros, Newton's method, starting values, 
+guaranteed convergence
+
+5.15
+
+CA721103 JB January 27, 1978  2:35 PM
+
+2266	5	2266
+2266	5	2266
+2266	5	2266
+2660	5	2266
+2266	6	2266
+
+
+************************
+
+************************
+Document:  CACM-2289.html
+************************
+
+
+Cellular Arrays for the Solution of Graph Problems
+
+A cellular array is a two-dimensional, checkerboard
+type interconnection of identical modules 
+(or cells), where each cell contains a few bits of
+memory and a small amount of combinational logic, 
+and communicates mainly with its immediate neighbors
+in the array.  The chief computational advantage 
+offered by cellular arrays is the improvement in speed
+achieved by virtue of the possibilities <B>for parallel</B> 
+processing.  In this paper it is shown that cellular
+arrays are inherently well suited for the solution 
+of many graph problems.  For example, the adjacency
+matrix of a graph is easily mapped onto an array; 
+each matrix element is stored in one cell of the array,
+and typical row and column operations are readily 
+implemented by simple cell logic.  A major challenge
+in the effective use of cellular arrays for the 
+solution of graph problems is the determination of algorithms
+that exploit the possibilities for parallelism, 
+especially for problems whose solutions appear to be inherently
+serial.  In particular, several parallelized 
+algorithms are presented for the solution of certain
+spanning tree, distance, and path problems, with 
+direct applications to wire routing, PERT chart analysis,
+and the analysis of many types of networks. 
+ These algorithms exhibit a computation time that in
+many cases grows at a rate not exceeding log2 n, 
+where n is the number of nodes in the graph.  Straightforward
+cellular implementations of the well-known 
+serial algorithms for these problems require about n
+steps, and noncellular implementations require from 
+n^2 to n^3 steps.
+
+CACM September, 1972
+
+Levitt, K. N.
+Kautz, W. H.
+
+graph theory, cellular logic-in-memory arrays,
+parallel processing, special purpose computers, 
+algorithms for distance and spanning tree problems
+
+5.32 6.22 6.5
+
+CA720901 JB January 30, 1978  9:16 AM
+
+2289	5	2289
+2289	5	2289
+2289	5	2289
+3075	5	2289
+3156	5	2289
+2289	6	2289
+2289	6	2289
+2557	6	2289
+2664	6	2289
+2714	6	2289
+2973	6	2289
+3075	6	2289
+
+
+************************
+
+************************
+Document:  CACM-1171.html
+************************
+
+
+A Comparison of the Primal-Simplex and Primal-Dual
+<B>Algorithms for</B> Linear Programming
+
+A statistical comparison of the primal-dual
+and the more commonly used primal-simplex algorithm 
+for solving linear programming problems has been made under
+the assumption of starting with a full artificial 
+basis.  Under these conditions the primal-dual method
+shows a statistically significant superiority on 
+randomly generated problems.  It has also been found, via
+a regression analysis, that the relevant parameters 
+in determining the difference in the number of iterations
+between the algorithms is not only the number 
+of constraints and the number of variables but
+also the ratio of the latter to the former.
+
+CACM November, 1965
+
+Mueller, R. K.
+Cooper, L.
+
+CA651110 JB March 6, 1978  4:50 PM
+
+1171	5	1171
+1171	5	1171
+1171	5	1171
+
+
+************************
+
+************************
+Document:  CACM-2490.html
+************************
+
+
+Efficient <B>Algorithms for</B> Graph Manipulation [H] (Algorithm A447)
+
+Efficient algorithms are presented for partitioning
+a graph into connected components, biconnected 
+components and simple paths.  The algorithm for partitioning
+of a graph into simple paths is iterative 
+and each iteration produces a new path between two
+vertices already on paths.  (The start vertex can 
+be specified dynamically.)  If V is the number of vertices
+and E is the number of edges, each algorithm 
+requires time and space proportional to max (V,E)
+when executed on a random access computer.
+
+CACM June, 1973
+
+Hopcroft, J.
+Tarjan, R.
+
+graphs,analysis of algorithms, graph manipulation
+
+5.32
+
+CA730610 JB January 23, 1978  1:55 PM
+
+2490	4	2490
+2177	5	2490
+2490	5	2490
+2490	5	2490
+2490	5	2490
 
 
 ************************

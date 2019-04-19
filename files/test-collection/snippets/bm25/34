@@ -1,3 +1,782 @@
 Snippets for the query:  Probabilistic algorithms especially those dealing with algebraic and symbolic manipulation. Some examples: Rabiin, "Probabilistic algorithm on finite field", SIAM Waztch, "Probabilistic testing of polynomial identities", SIAM Rabin,M.
 ************************
-No snippets found for the query..
+Total Hits:  16
+************************
+
+************************
+Document:  CACM-1893.html
+************************
+
+
+Roots of Polynomials by a Root-Squaring
+and Resultant routine (Algorithm 340 [C2])
+
+CACM May, 1969
+
+Noltemeier, A.
+
+root finders, roots of polynomial equations, polynomial
+zeros, root-squaring operations, Graeffe 
+method, resultant procedure, subresultant procedure,
+<B>testing of</B> roots, acceptance criteria
+
+5.15
+
+CA690517 JB February 17, 1978  2:29 PM
+
+1893	5	1893
+1893	5	1893
+1893	5	1893
+
+
+************************
+
+
+
+Roots of Polynomials by a Root-Squaring
+and Resultant routine (Algorithm 340 [C2])
+
+CACM May, 1969
+
+Noltemeier, A.
+
+root finders, roots <B>of polynomial</B> equations, polynomial
+zeros, root-squaring operations, Graeffe 
+method, resultant procedure, subresultant procedure,
+testing of roots, acceptance criteria
+
+5.15
+
+CA690517 JB February 17, 1978  2:29 PM
+
+1893	5	1893
+1893	5	1893
+1893	5	1893
+
+
+************************
+
+************************
+Document:  CACM-1253.html
+************************
+
+
+QUIKSCRIPT-A SIMSCRIPT- Like Language for the G-20
+
+QUIKSCRIPT is a simulation language based on
+SIMSCRIPT and programmed entirely in an algebraic 
+language, 20-GATE.  The QUIKSCRIPT language, its internal
+implementation, and major differences between 
+QUIKSCRIPT and SIMSCRIPT are presented.  This paper is
+not a programming guide to the language, but rather 
+an attempt to present its flavor.  A brief description of
+SIMSCRIPT is included, as is a sufficient description 
+of 20-GATE to render this material understandable
+to the reader familiar <B>with algebraic</B> languages.
+
+CACM June, 1965
+
+Tonge, F. M.
+Keller, P.
+Newell, A.
+
+CA650602 JB March 7, 1978  12:45 PM
+
+1253	5	1253
+1253	5	1253
+1253	5	1253
+
+
+************************
+
+************************
+Document:  CACM-1197.html
+************************
+
+
+Finding Zeros of a Polynomial by the Q-D Algorithm
+
+A method which finds simultaneously all the zeros
+of a polynomial, developed by H. Rutishauser, 
+has been tested on a number <B>of polynomial</B>s with real
+coefficients.  This slowly converging method (the 
+Quotient-Difference (Q-D) algorithm) provides starting
+values for a Newton or a Bairstow algorithm for 
+more rapid convergence.  Necessary and sufficient conditions
+for the existence of the Q-D scheme are 
+not completely known; however, failure may occur when
+zeros have equal, or nearly equal magnitudes.  
+Success was achieved, in most of the cases tried, with
+the failures usually traceable to the equal magnitude 
+difficulty.  In some cases, computer roundoff may result
+in errors which spoil the scheme.  Even if the 
+Q-D algorithm does not give all the zeros,
+it will usually find a majority of them.
+
+CACM September, 1965
+
+Henrich, P.
+Watkins, B. O.
+
+CA650908 JB March 6, 1978  7:21 PM
+
+1197	5	1197
+1197	5	1197
+1197	5	1197
+1524	5	1197
+879	6	1197
+1197	6	1197
+311	6	1197
+
+
+************************
+
+************************
+Document:  CACM-0111.html
+************************
+
+
+On Programming the Numerical Solution of Polynomial Equations
+
+Numerical techniques are presented for computing
+the roots <B>of polynomial</B> equations.  By applying 
+the recommended scaling and inversion rules, the basic
+Bairstow and Newton-Raphson iterative techniques 
+can be applied with great reliability.  Both a high degree
+of accuracy and rapid convergence are realized. 
+ Numerical examples are shown to illustrate the pitfalls
+and to show how these are circumvented by application 
+of the recommended procedures.
+
+CACM December, 1960
+
+Ellenberger, K. W.
+
+CA601205 JB March 20, 1978  6:41 PM
+
+111	5	111
+111	5	111
+111	5	111
+
+
+************************
+
+************************
+Document:  CACM-3131.html
+************************
+
+
+FOCUS Microcomputer Number System
+
+FOCUS is a number system and supporting computational
+<B>algorithms especially</B> useful for microcomputer control and other
+signal processing applications.  FOCUS has the wide-ranging
+character of floating-point numbers with a uniformity of state distributions
+that give FOCUS better than a twofold accuracy advantage
+over an equal word length floating-point system.  FOCUS computations
+are typically five times faster than single precision fixed-point
+or integer arithmetic for a mixture of operations, comparable in
+speed with hardware arithmetic for many applications.  Algorithms
+for 8-bit and 16-bit implementations of FOCUS are included.
+
+CACM March, 1979
+
+Edgar, A.
+Lee, S.
+
+Number representation, logarithmic arithmetic, computational
+speed, computational accuracy, microcomputer applications  
+
+3.24 3.80 4.0 4.22 5.11
+
+CA790302 DH April 12, 1979  11:12 AM
+
+3131	4	3131
+3131	4	3131
+1148	5	3131
+3131	5	3131
+3131	5	3131
+3131	5	3131
+893	5	3131
+
+
+************************
+
+************************
+Document:  CACM-2704.html
+************************
+
+
+Exception Handling: Issues and a Proposed Notation
+
+This paper defines exception conditions, discusses
+the requirements exception handling language 
+features must satisfy, and proposes some new language
+features for <B>dealing with</B> exceptions in an orderly 
+and reliable way.  The proposed language features serve
+to highlight exception handling issues by showing 
+how deficiencies in current approaches can be remedied.
+
+CACM December, 1975
+
+Goodenough, J. B.
+
+multilevel exit, goto statement, error conditions,
+structured programming, ON conditions, programming 
+languages
+
+4.22
+
+CA751203 JB January 5, 1978  4:47 PM
+
+1397	4	2704
+1828	4	2704
+1854	4	2704
+1877	4	2704
+1960	4	2704
+2150	4	2704
+2317	4	2704
+2319	4	2704
+2377	4	2704
+2342	4	2704
+2376	4	2704
+2379	4	2704
+2424	4	2704
+2482	4	2704
+2618	4	2704
+2632	4	2704
+2704	4	2704
+2704	4	2704
+2704	4	2704
+2704	4	2704
+2704	4	2704
+2704	4	2704
+2723	4	2704
+2738	4	2704
+2738	4	2704
+2740	4	2704
+2741	4	2704
+2770	4	2704
+2866	4	2704
+2867	4	2704
+2867	4	2704
+2869	4	2704
+2902	4	2704
+2941	4	2704
+2958	4	2704
+3004	4	2704
+3030	4	2704
+3053	4	2704
+3184	4	2704
+1247	5	2704
+1552	5	2704
+1749	5	2704
+2356	5	2704
+2379	5	2704
+2673	5	2704
+2704	5	2704
+2704	5	2704
+2704	5	2704
+2945	5	2704
+3150	5	2704
+1947	6	2704
+2060	6	2704
+2704	6	2704
+2704	6	2704
+2842	6	2704
+2870	6	2704
+2939	6	2704
+2940	6	2704
+2941	6	2704
+2943	6	2704
+3073	6	2704
+3148	6	2704
+
+
+************************
+
+************************
+Document:  CACM-1862.html
+************************
+
+
+Computing Capabilities at Argentine and Chilean Universities
+
+The author reports on a trip to universities in
+Argentina and Chile during November 1968, describing 
+university conditions and computing activities.  As elsewhere,
+these universities are experiencing student 
+discontent with the status quo and the solutions they
+are attempting contrast: Argentina is excluding 
+students from participating in university government;
+Chile is allowing such participation.  University 
+computing service and academic activities are limited.
+ The number of computers is small and so is the 
+capacity, none larger than an IBM 360/40; with some
+exception, computing science academic programs are 
+rare. This situation is by no means attributable to
+those responsible for computing developments, who 
+strive for excellence; rather the "system" is hard to
+over-come.  Universities, <B>especially those</B> with 
+strong European traditions, adapt slowly to new academic
+resources and disciplines; superimposed are 
+the severe technological and economic constraints of the
+developing nation.  Consequently, in the absence 
+of conscious government emphasis on strengthening computing
+capabilities, future progress may be retarded.
+
+CACM August, 1969
+
+Finerman, A.
+
+university education, computing science academic
+programs, university computing centers, surveys 
+of computing centers, university computing capabilities, university-student
+relationship, Argentine universities, 
+Chilean universities, South American universities, developing nations
+
+1.52 2.0 2.45
+
+CA690801 JB February 15, 1978  6:21 PM
+
+1862	4	1862
+1349	5	1862
+1862	5	1862
+1862	5	1862
+1862	5	1862
+
+
+************************
+
+************************
+Document:  CACM-1612.html
+************************
+
+
+Top-to-bottom Parsing Rehabilitated?
+
+This note is concerned with the efficiency
+of the Top-to-Bottom parsing algorithm as used in 
+connection with programming language grammars.  It is
+shown, for instance, that retracing of unprofitable 
+paths can often be eliminated by a suitable rearrangement
+of the productions defining the grammar.  The 
+essential weakness of the method is in <B>dealing with</B> complicated
+syntactic structures which are in practice 
+only sparsely occupied, e.g., arithmetic expressions.
+
+CACM April, 1967
+
+Brooker, R. A.
+
+CA670403 JB February 28, 1978  11:32 AM
+
+1612	4	1612
+1781	4	1612
+1945	4	1612
+1139	5	1612
+1612	5	1612
+1612	5	1612
+1612	5	1612
+
+
+************************
+
+************************
+Document:  CACM-3031.html
+************************
+
+
+Abstract Data Types and Software Validation
+
+A data abstraction can be naturally specified
+using algebraic axioms.  The virtue of these 
+axioms is that they permit a representation-independent
+formal specification of a data type.  An example 
+is given which shows how to employ algebraic axioms at
+successive levels of implementation.  The  major 
+thrust of the paper is twofold.  First, it is shown how
+the use of algebraic axiomatizations can simplify 
+the process of proving the correctness of an implementation
+of an abstract data type.  Second, semi-automatic 
+tools are described which can be used both to automate
+such proofs of correctness and to derive an immediate 
+implementation from the axioms.  This implementation
+allows for limited <B>testing of</B> programs at design 
+time, before a conventional implementation is accomplished.
+
+CACM December, 1978
+
+Guttag, J.
+Horowitz, E.
+Musser, D.
+
+Abstract data type, correctness proof,
+data type, data structure, specification 
+
+4.34 5.24
+
+CA781208 DH January 18, 1979  2:51 PM   
+
+3030	4	3031
+3031	4	3031
+3031	4	3031
+3049	4	3031
+3105	4	3031
+3148	4	3031
+3150	4	3031
+2939	5	3031
+2958	5	3031
+3031	5	3031
+3031	5	3031
+3031	5	3031
+
+
+************************
+
+************************
+Document:  CACM-1946.html
+************************
+
+
+Computing Polynomial Resultants: Bezout's Determinant
+vs. Collins' Reduced P. Algorithm
+
+Algorithms for computing the resultant of two
+polynomials in several variables, a key repetitive 
+step of computation in solving systems <B>of polynomial</B>
+equations by elimination, are studied.  Determining 
+the best algorithm for computer implementation depends
+upon the extent to which extraneous factors are 
+introduced, the extent of propagation of errors caused by
+truncation of real coefficients, memory requirements, 
+and computing speed.  Preliminary considerations narrow
+the choice of the best algorithm to Bezout's 
+determinant and Collins' reduced polynomial remainder sequence
+(p.r.s.) algorithm.  Detailed tests performed 
+on sample problems conclusively show that Bezout's determinant
+is superior in all respects except for 
+univariate polynomials, in which case Collins' reduced
+p.r.s. algorithm is somewhat faster.  In particular 
+Bezout's determinant proves to be strikingly superior in
+numerical accuracy, displaying excellent stability 
+with regard to round-off errors. Results of tests are reported in detail.
+
+CACM January, 1969
+
+Ku, S. Y.
+Adler, R. J.
+
+resultant algorithm, g.c.d. algorithm, polynomial
+resultant, elimination, Bezout's determinant, 
+Sylvester's determinant, reduced p.r.s. algorithm, Euclidean
+algorithm, multivariate polynomial equations
+
+4.40 5.10 5.15 5.41
+
+CA690103 JB February 20, 1978  12:10 PM
+
+1024	4	1946
+1051	4	1946
+1098	4	1946
+1214	4	1946
+1380	4	1946
+1388	4	1946
+1393	4	1946
+1396	4	1946
+1396	4	1946
+1485	4	1946
+1487	4	1946
+1549	4	1946
+1570	4	1946
+1878	4	1946
+1931	4	1946
+1946	4	1946
+1946	4	1946
+1946	4	1946
+1946	4	1946
+1946	4	1946
+1946	4	1946
+1946	4	1946
+1946	4	1946
+1957	4	1946
+2167	4	1946
+2168	4	1946
+2723	4	1946
+2857	4	1946
+2857	4	1946
+3112	4	1946
+902	5	1946
+1093	5	1946
+1177	5	1946
+1393	5	1946
+1387	5	1946
+1946	5	1946
+1946	5	1946
+1946	5	1946
+360	5	1946
+731	5	1946
+878	5	1946
+
+
+************************
+
+************************
+Document:  CACM-1846.html
+************************
+
+
+On Simulating Networks of Parallel Processes
+in Which Simultaneous Events May Occur
+
+Some of the problems of simulating discrete
+event systems, particularly computer systems, on 
+a conventional digital computer are dealt with.  The
+systems are assumed to be described as a network 
+of interconnected sequential processes.  Briefly reviewed
+are the common techniques used to handle such 
+simulations when simultaneous events do not occur, can
+be ignored, or can be handled by simple priority 
+rules.  Following this, the problem of <B>dealing with</B> simultaneous
+events in separate processes is introduced. 
+ An abstraction of this problem is developed which admits
+solution for a majority of commonly encountered
+problems.  The technique will either find a method of
+simulating the parallel events or report that none 
+can be found.  In some of the latter cases it is shown
+to be possible to find a solution by extending 
+the information available to the solution technique, but
+in many cases the technique becomes computationally 
+unfeasible when the additional information is provided.
+
+CACM September, 1969
+
+Parnas, D. L.
+
+simulation, parallel processes, simultaneous events,
+picture processing, computer system simulation
+
+3.19 3.24 4.24 5.9 6.9
+
+CA690910 JB February 15, 1978  4:21 PM
+
+1541	4	1846
+1805	4	1846
+1846	4	1846
+1846	4	1846
+1846	4	1846
+1846	4	1846
+1846	4	1846
+1892	4	1846
+2060	4	1846
+2188	4	1846
+2218	4	1846
+2218	4	1846
+2317	4	1846
+2630	4	1846
+2650	4	1846
+3112	4	1846
+1380	5	1846
+1424	5	1846
+1484	5	1846
+1572	5	1846
+1846	5	1846
+1846	5	1846
+1846	5	1846
+576	5	1846
+3064	5	1846
+1846	6	1846
+1939	6	1846
+2742	6	1846
+2767	6	1846
+2936	6	1846
+
+
+************************
+
+************************
+Document:  CACM-1387.html
+************************
+
+
+Solution of Systems of Polynomial Equations By Elimination
+
+The elimination procedure as described by Williams
+has been coded in LISP and FORMAC and used 
+in solving systems <B>of polynomial</B> equations.  It is found
+that the method is very effective in the case 
+of small systems, where it yields all solutions without
+the need for initial estimates. The method, by 
+itself, appears in appropriate, however, in the solution
+of large systems of equation due to the explosive 
+growth in the intermediate equations and the hazards
+which arise when the coefficients are truncated. 
+ A comparison is made with difficulties found in other
+problems in non-numerical mathematics such as 
+symbolic integration and simplification.
+
+CACM August, 1966
+
+Moses, J.
+
+CA660811 JB March 2, 1978  7:11 PM
+
+1396	5	1387
+1387	5	1387
+1387	5	1387
+1387	5	1387
+1946	5	1387
+878	6	1387
+902	6	1387
+964	6	1387
+1028	6	1387
+1029	6	1387
+1083	6	1387
+1093	6	1387
+1132	6	1387
+1177	6	1387
+1214	6	1387
+1278	6	1387
+1334	6	1387
+1365	6	1387
+1386	6	1387
+1387	6	1387
+1387	6	1387
+1388	6	1387
+1392	6	1387
+1393	6	1387
+1393	6	1387
+1394	6	1387
+1395	6	1387
+1396	6	1387
+1397	6	1387
+1496	6	1387
+284	6	1387
+360	6	1387
+407	6	1387
+3199	6	1387
+3200	6	1387
+3201	6	1387
+3202	6	1387
+3203	6	1387
+3204	6	1387
+561	6	1387
+730	6	1387
+731	6	1387
+
+
+************************
+
+************************
+Document:  CACM-2450.html
+************************
+
+
+Empirical Working Set Behavior
+
+The working set model for program behavior
+has been proposed in recent years as a basis for 
+the design of scheduling and paging algorithms.  Although
+the words "working set" are now commonly encountered 
+in the literature <B>dealing with</B> resource allocation, there
+is a dearth of published data on program measurements, 
+in the hope that workers in the field might find experimental
+evidence upon which to substantiate and 
+base theoretical work.
+
+CACM September, 1973
+
+Rodriguez-Rosell, J.
+
+virtual memory, paging, working set,
+software measurement, program behavior
+
+4.3
+
+CA730905 JB January 23, 1978  9:22 AM
+
+2373	4	2450
+2374	4	2450
+2380	4	2450
+2450	4	2450
+2450	4	2450
+2595	4	2450
+2996	4	2450
+3006	4	2450
+3006	4	2450
+3067	4	2450
+3067	4	2450
+2373	5	2450
+2374	5	2450
+2450	5	2450
+2450	5	2450
+2450	5	2450
+
+
+************************
+
+************************
+Document:  CACM-1667.html
+************************
+
+
+Roots of Polynomials by a Root-Squaring
+and Resultant Routine (Algorithm 340 [C2])
+
+CACM November, 1968
+
+Noltemeier, A.
+
+root finders, roots <B>of polynomial</B> equations, polynomial
+zeros, root-squaring operations, Graeffe 
+method, resultant procedure, subresultant procedure,
+testing of roots, acceptance criteria
+
+5.15
+
+CA681112 JB February 21, 1978  2:24 PM
+
+1667	4	1667
+1667	4	1667
+1667	4	1667
+178	5	1667
+1242	5	1667
+1667	5	1667
+1667	5	1667
+1667	5	1667
+327	5	1667
+
+
+************************
+
+
+
+Roots of Polynomials by a Root-Squaring
+and Resultant Routine (Algorithm 340 [C2])
+
+CACM November, 1968
+
+Noltemeier, A.
+
+root finders, roots of polynomial equations, polynomial
+zeros, root-squaring operations, Graeffe 
+method, resultant procedure, subresultant procedure,
+<B>testing of</B> roots, acceptance criteria
+
+5.15
+
+CA681112 JB February 21, 1978  2:24 PM
+
+1667	4	1667
+1667	4	1667
+1667	4	1667
+178	5	1667
+1242	5	1667
+1667	5	1667
+1667	5	1667
+1667	5	1667
+327	5	1667
+
+
+************************
+

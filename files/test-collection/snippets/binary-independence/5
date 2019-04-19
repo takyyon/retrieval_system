@@ -1,3 +1,1153 @@
 Snippets for the query:  Interested in articles on robotics, motion planning particularly the geometric and combinatorial aspects. We are not interested in the dynamics of arm motion.
 ************************
-No snippets found for the query..
+Total Hits:  17
+************************
+
+************************
+Document:  CACM-1469.html
+************************
+
+
+The Next 700 Programming Languages 
+
+A family of unimplemented computing languages
+is described that is intended to span differences 
+of application area by a unified framework.  This framework
+dictates the rules about the uses of user-coined 
+names, and the conventions about characterizing functional
+relationships.  Within this framework the 
+design of a specific language splits into two independent
+parts.  One is the choice of written appearances 
+of programs (or more generally, their physical representation).
+ The other is the choice of the abstract 
+entities (such as numbers, character-strings, lists
+of them, functional relations among them) that can 
+be referred to <B>in the</B> language.  The system is biased
+towards "expressions" rather than "statements." 
+ It includes a nonprocedural(purely functional) subsystem
+that aims to expand the class of users' needs 
+that can be met by a single print-instruction, without sacrificing
+the important properties that make 
+conventional right-hand-side expressions easy to construct and understand.
+
+CACM March, 1966
+
+Landin, P. J.
+
+CA660303 JB March 3, 1978  2:05 PM
+
+1469	4	1469
+1486	4	1469
+1491	4	1469
+1781	4	1469
+2178	4	1469
+2326	4	1469
+2470	4	1469
+2684	4	1469
+3044	4	1469
+1303	5	1469
+1469	5	1469
+1469	5	1469
+1469	5	1469
+2060	5	1469
+2294	5	1469
+2470	5	1469
+3124	5	1469
+1303	6	1469
+1380	6	1469
+1421	6	1469
+1469	6	1469
+1469	6	1469
+1469	6	1469
+1469	6	1469
+1477	6	1469
+1491	6	1469
+210	6	1469
+1834	6	1469
+1869	6	1469
+2060	6	1469
+2110	6	1469
+2264	6	1469
+
+
+************************
+
+************************
+Document:  CACM-1974.html
+************************
+
+
+NEATER2: A PL/I Source Statement Reformatter
+
+NEATER2 accepts a PL/I source program and operates on it to produce
+a reformatted version.  When <B>in the</B> LOGICAL mode, NEATER2 indicates
+the logical structure of the source program in the indentation
+pattern of its output.  Logic errors discovered through NEATER2
+logical analysis are discovered much more economically than is possible
+through compilation and trial runs.  A number of options are
+available to give the user full control over the output format and
+to maximize the utility of NEATER2 as an aid during the early
+stages of development of a PL/I source deck.  One option, USAGE, causes
+NEATER2 to insert into each logical unit of coding a statement
+which will case the number of times each one is executed to be recorded
+during execution.  This feature is expected to provide a
+major aid in optimization of PL/I programs.
+
+CACM November, 1970
+
+Conrow, K.
+Smith, R. G.
+
+logical analysis of PL/I source, reformatting of PL/I
+source, documentation aid, execution time usage data
+
+1.52 4.12 4.19 4.42
+
+CA701104 JB February 10, 1978  8:40 AM
+
+1974	5	1974
+1974	5	1974
+1974	5	1974
+2971	5	1974
+1835	6	1974
+1974	6	1974
+2534	6	1974
+
+
+************************
+
+************************
+Document:  CACM-1847.html
+************************
+
+
+An Algorithm for Finding a Fundamental Set of Cycles of a Graph
+
+A fast method is presented for finding a fundamental
+set of cycles for an undirected finite 
+graph.  A spanning tree is grown and the vertices examined
+in turn, unexamined vertices being stored 
+in a pushdown list to await examination.  One stage
+<B>in the</B> process is to take the top element v of the 
+pushdown list and examine it, i.e. inspect all those
+edges (v,z) of the graph for which z has not yet 
+been examined.  If z is already in the tree, a fundamental
+cycle is added; if not, the edge (v,z) is 
+placed in the tree.  There is exactly one such stage
+for each of the n vertices of the graph.  For large 
+n, the store required in creases as n^2 and the time as
+n^g where g depends on the type of graph involved. 
+ g is bounded below by 2 and above by 3, and it is shown
+that both bounds are attained.  In terms of 
+storage our algorithm is similar to that of Gotlieb and
+Corneil and superior to that of Welch; in terms 
+of speed it is similar to that of Welch and superior
+to that of Gotlieb and Corneil.  Testsshow our 
+algorithm to be remarkably efficient (g=2) on random graphs.
+
+CACM September, 1969
+
+Paton, K.
+
+fundamental cycle set, graph, algorithm, cycle, spanning tree
+
+5.32
+
+CA690909 JB February 15, 1978  4:29 PM
+
+1847	4	1847
+1961	4	1847
+2052	4	1847
+1504	5	1847
+1847	5	1847
+1847	5	1847
+1847	5	1847
+1961	5	1847
+2177	5	1847
+2763	5	1847
+1369	6	1847
+1504	6	1847
+1847	6	1847
+1847	6	1847
+1847	6	1847
+
+
+************************
+
+************************
+Document:  CACM-1008.html
+************************
+
+
+Scheduling Meetings with a Computer
+
+Computer scheduling of papers as it was developed
+for the 1960 meeting of the Federation of 
+American Societies for Experimental Biology (FASEB) is described.
+ The FASEB meeting is the largest scientific 
+meeting held <B>in the</B> United States each year.  The technique
+developed for FASEB can be applied to schedule 
+any meeting with parallel sessions.
+
+CACM September, 1964
+
+Schultz, C. K.
+Brooks, A.
+Schwartz, P.
+
+CA640903 JB March 9, 1978  6:16 PM
+
+1008	5	1008
+1008	5	1008
+1008	5	1008
+2052	5	1008
+1008	6	1008
+1013	6	1008
+1504	6	1008
+1540	6	1008
+
+
+************************
+
+************************
+Document:  CACM-1497.html
+************************
+
+
+On the Normalization Requirement of
+Divisor in Divide- and- Correct Methods
+
+This paper presents an analysis on the normalization
+requirement of the divisor in a divide-and-correct 
+method.  This analysis is made subject to the condition
+that not more than one correction is required 
+to obta<B>in the</B> true quotient character, from the trial
+estimate got from the division of a two-precision 
+segment of every partial remainder by a suitably rounded
+single-precision divisor.  (This segmented division 
+is denoted here as a (2, 1) precision basic division.)
+ It is found that the normalization requirement 
+could be narrowed down to a smaller range of divisors,
+provided the magnitude of the character next to 
+the leading character of the divisor is known.  If,
+however, the normalization is to be eliminated one 
+has to choose proper higher precision segments of operands
+for the basic division.  Also considered is 
+the possibility of eliminating the normalization by an
+increase on the number of corrections on the quotient 
+estimate got from a (2, 1) precision basic division.
+ It is shown that such a scheme is economical only 
+for small radices.
+
+CACM December, 1967
+
+Krishnamurthy, E. V.
+Nandi, S. K.
+
+CA671210 JB February 26, 1978  2:15 PM
+
+1026	4	1497
+1258	4	1497
+1258	4	1497
+1292	4	1497
+1292	4	1497
+1497	4	1497
+1497	4	1497
+1497	4	1497
+1497	4	1497
+1593	4	1497
+1975	4	1497
+1975	4	1497
+2605	4	1497
+107	5	1497
+1026	5	1497
+1292	5	1497
+1497	5	1497
+1497	5	1497
+1497	5	1497
+1593	5	1497
+1975	5	1497
+1026	6	1497
+1292	6	1497
+1497	6	1497
+
+
+************************
+
+************************
+Document:  CACM-2925.html
+************************
+
+
+Optimal Surface Reconstruction from Planar Contours
+
+In many scientific and technical endeavors,
+a three-dimensional solid must be reconstructed 
+from serial sections, either to aid <B>in the</B> comprehension
+of the object's structure or to facilitate its 
+automatic manipulation and analysis.  This paper presents
+a general solution to the problem of constructing 
+a surface over a set of cross-sectional contours. 
+This surface, to be composed of triangular tiles, 
+is constructed by separately determining an optimal
+surface between each pair of consecutive contours.
+ Determining such a surface is reduced to the problem
+of finding certain minimum cost cycles in a directed 
+toroidal graph.  A new fast algorithm for finding such
+cycles is utilized.  Also developed is a closed-form 
+expression, in term of the number of contour poin ts, for
+an upper bound on the number of operations required 
+to execute the algorithm.  An illustrated example which
+involves the construction of a minimum area surface 
+describing a human head is included.
+
+CACM October, 1977
+
+Fuchs, H.
+Kedem,Z. M.
+Uselton, S. P.
+
+surface reconstruction, contour data, serial sections,
+three-dimensional computer graphics, minimum 
+cost paths, continuous tone displays
+
+5.25 5.32 8.2
+
+CA771001 JB December 27, 1977  12:40 PM
+
+2925	5	2925
+2925	5	2925
+2925	5	2925
+
+
+************************
+
+************************
+Document:  CACM-1614.html
+************************
+
+
+A Proposal for Definitions in ALGOL
+
+An extension to ALGOL is proposed for adding
+new data types and operators to the language. 
+ Definitions may occur in any block heading and terminate
+with the block.  They are an integral part 
+of the program and <B>are not</B> fixed in the language.  Even
+the behavior of existing operators may be redefined. 
+ The processing of text containing defined contexts features
+a "replacement rule" that eliminates unnecessary 
+iterations and temporary storage.  Examples of definition sets
+are given for real and complex matrices, 
+complex numbers, file processing, and list manipulation.
+
+CACM April, 1967
+
+Galler, B. A.
+Perlis, A. J.
+
+CA670401 JB February 28, 1978  11:43 AM
+
+1086	4	1614
+1132	4	1614
+1234	4	1614
+1263	4	1614
+1265	4	1614
+1270	4	1614
+1323	4	1614
+1358	4	1614
+1379	4	1614
+1380	4	1614
+1453	4	1614
+1464	4	1614
+1484	4	1614
+1491	4	1614
+1498	4	1614
+1613	4	1614
+1614	4	1614
+1614	4	1614
+1781	4	1614
+1825	4	1614
+1860	4	1614
+2083	4	1614
+2178	4	1614
+2179	4	1614
+2252	4	1614
+2253	4	1614
+2325	4	1614
+2341	4	1614
+2546	4	1614
+2557	4	1614
+2645	4	1614
+2652	4	1614
+2684	4	1614
+2842	4	1614
+2929	4	1614
+2934	4	1614
+3069	4	1614
+669	4	1614
+679	4	1614
+691	4	1614
+761	4	1614
+949	4	1614
+989	4	1614
+1614	5	1614
+1614	5	1614
+1614	5	1614
+1693	5	1614
+1781	5	1614
+1824	5	1614
+1861	5	1614
+2126	5	1614
+437	5	1614
+3184	5	1614
+823	6	1614
+123	6	1614
+196	6	1614
+196	6	1614
+919	6	1614
+990	6	1614
+1007	6	1614
+1046	6	1614
+1131	6	1614
+1139	6	1614
+1140	6	1614
+1149	6	1614
+1198	6	1614
+1215	6	1614
+1223	6	1614
+1265	6	1614
+1303	6	1614
+1323	6	1614
+1358	6	1614
+1358	6	1614
+1366	6	1614
+1421	6	1614
+1421	6	1614
+1460	6	1614
+1462	6	1614
+1463	6	1614
+1467	6	1614
+1468	6	1614
+1477	6	1614
+1477	6	1614
+1491	6	1614
+1491	6	1614
+1496	6	1614
+1531	6	1614
+1535	6	1614
+1565	6	1614
+1601	6	1614
+1602	6	1614
+1613	6	1614
+1614	6	1614
+1614	6	1614
+1614	6	1614
+1614	6	1614
+1614	6	1614
+1626	6	1614
+1641	6	1614
+1693	6	1614
+1781	6	1614
+1781	6	1614
+1787	6	1614
+1788	6	1614
+205	6	1614
+224	6	1614
+249	6	1614
+288	6	1614
+316	6	1614
+381	6	1614
+398	6	1614
+11	6	1614
+404	6	1614
+404	6	1614
+404	6	1614
+408	6	1614
+410	6	1614
+463	6	1614
+464	6	1614
+483	6	1614
+3184	6	1614
+3188	6	1614
+584	6	1614
+600	6	1614
+680	6	1614
+691	6	1614
+763	6	1614
+799	6	1614
+
+
+************************
+
+
+
+A Proposal for Definitions in ALGOL
+
+An extension to ALGOL is proposed for adding
+new data types and operators to the language. 
+ Definitions may occur in any block heading and terminate
+with the block.  They are an integral part 
+of the program and are not fixed <B>in the</B> language.  Even
+the behavior of existing operators may be redefined. 
+ The processing of text containing defined contexts features
+a "replacement rule" that eliminates unnecessary 
+iterations and temporary storage.  Examples of definition sets
+are given for real and complex matrices, 
+complex numbers, file processing, and list manipulation.
+
+CACM April, 1967
+
+Galler, B. A.
+Perlis, A. J.
+
+CA670401 JB February 28, 1978  11:43 AM
+
+1086	4	1614
+1132	4	1614
+1234	4	1614
+1263	4	1614
+1265	4	1614
+1270	4	1614
+1323	4	1614
+1358	4	1614
+1379	4	1614
+1380	4	1614
+1453	4	1614
+1464	4	1614
+1484	4	1614
+1491	4	1614
+1498	4	1614
+1613	4	1614
+1614	4	1614
+1614	4	1614
+1781	4	1614
+1825	4	1614
+1860	4	1614
+2083	4	1614
+2178	4	1614
+2179	4	1614
+2252	4	1614
+2253	4	1614
+2325	4	1614
+2341	4	1614
+2546	4	1614
+2557	4	1614
+2645	4	1614
+2652	4	1614
+2684	4	1614
+2842	4	1614
+2929	4	1614
+2934	4	1614
+3069	4	1614
+669	4	1614
+679	4	1614
+691	4	1614
+761	4	1614
+949	4	1614
+989	4	1614
+1614	5	1614
+1614	5	1614
+1614	5	1614
+1693	5	1614
+1781	5	1614
+1824	5	1614
+1861	5	1614
+2126	5	1614
+437	5	1614
+3184	5	1614
+823	6	1614
+123	6	1614
+196	6	1614
+196	6	1614
+919	6	1614
+990	6	1614
+1007	6	1614
+1046	6	1614
+1131	6	1614
+1139	6	1614
+1140	6	1614
+1149	6	1614
+1198	6	1614
+1215	6	1614
+1223	6	1614
+1265	6	1614
+1303	6	1614
+1323	6	1614
+1358	6	1614
+1358	6	1614
+1366	6	1614
+1421	6	1614
+1421	6	1614
+1460	6	1614
+1462	6	1614
+1463	6	1614
+1467	6	1614
+1468	6	1614
+1477	6	1614
+1477	6	1614
+1491	6	1614
+1491	6	1614
+1496	6	1614
+1531	6	1614
+1535	6	1614
+1565	6	1614
+1601	6	1614
+1602	6	1614
+1613	6	1614
+1614	6	1614
+1614	6	1614
+1614	6	1614
+1614	6	1614
+1614	6	1614
+1626	6	1614
+1641	6	1614
+1693	6	1614
+1781	6	1614
+1781	6	1614
+1787	6	1614
+1788	6	1614
+205	6	1614
+224	6	1614
+249	6	1614
+288	6	1614
+316	6	1614
+381	6	1614
+398	6	1614
+11	6	1614
+404	6	1614
+404	6	1614
+404	6	1614
+408	6	1614
+410	6	1614
+463	6	1614
+464	6	1614
+483	6	1614
+3184	6	1614
+3188	6	1614
+584	6	1614
+600	6	1614
+680	6	1614
+691	6	1614
+763	6	1614
+799	6	1614
+
+
+************************
+
+************************
+Document:  CACM-1930.html
+************************
+
+
+Extremely Portable Random Number Generator
+
+Extremely portable subroutines are sometimes
+needed for which moderate quality and efficiency 
+suffice.  Typically, this occurs for library functions
+(like random number generation and in core sorting) 
+which are not entirely universal or are not used in a
+standardized way.  The literature on random number 
+generators does not seem to contain an algorithm that
+meets requirements of this sort.  An extremely 
+portable 8-line FORTRAN program is provided which based
+on an important paper by Coveyou and MacPherson 
+(1967)sing their methods, Fourier analysis is applied
+to the probability function for the consecutive 
+n-tuples provided by our generator (with n less than
+or equal to 4).  While the small modulus which must 
+be used to maintain portability prevents the quality
+of the generator from being high, the generator 
+compares well with the bounds established <B>in the</B> above mentioned paper.
+
+CACM February, 1969
+
+Kruskal, J. B.
+
+random number generators, random numbers, random
+number analysis, random generators, linear sequential 
+generators, random number program, pseudo random numbers 
+
+4.49 5.19 5.5
+
+CA690208 JB February 20, 1978  10:43 AM
+
+1930	5	1930
+1930	5	1930
+1930	5	1930
+2115	5	1930
+1691	6	1930
+1930	6	1930
+
+
+************************
+
+
+
+Extremely Portable Random Number Generator
+
+Extremely portable subroutines are sometimes
+needed for which moderate quality and efficiency 
+suffice.  Typically, this occurs for library functions
+(like random number generation and in core sorting) 
+which <B>are not</B> entirely universal or are not used in a
+standardized way.  The literature on random number 
+generators does not seem to contain an algorithm that
+meets requirements of this sort.  An extremely 
+portable 8-line FORTRAN program is provided which based
+on an important paper by Coveyou and MacPherson 
+(1967)sing their methods, Fourier analysis is applied
+to the probability function for the consecutive 
+n-tuples provided by our generator (with n less than
+or equal to 4).  While the small modulus which must 
+be used to maintain portability prevents the quality
+of the generator from being high, the generator 
+compares well with the bounds established in the above mentioned paper.
+
+CACM February, 1969
+
+Kruskal, J. B.
+
+random number generators, random numbers, random
+number analysis, random generators, linear sequential 
+generators, random number program, pseudo random numbers 
+
+4.49 5.19 5.5
+
+CA690208 JB February 20, 1978  10:43 AM
+
+1930	5	1930
+1930	5	1930
+1930	5	1930
+2115	5	1930
+1691	6	1930
+1930	6	1930
+
+
+************************
+
+************************
+Document:  CACM-1179.html
+************************
+
+
+PUFFT-The Purdue University Fast FORTRAN Translator
+
+A core resident, compile-and-go system designed
+for the IBM 7090/7094 computer is described. 
+ In little more than half of the 32k word core memory
+PUFFT provides a monitor for job sequencing, a 
+translator for the full FORTRAN IV language, the FORTRAN
+subroutine library, an input--output system 
+for use at compile time and at execute time, and a rather
+elaborate diagnostic message writing routine. 
+ Batches of small- and medium-sized FORTRAN IV source
+language programs are processed at very high speeds. 
+ Language compatibility has been maintained so that
+programs may be debugged <B>in the</B> PUFFT system and 
+then recompiled and run in the IBJOB-IBFTC system supplied by the manufacturer.
+
+CACM November, 1965
+
+Rosen, S.
+Spurgeon, A.
+Donnelly, J. K.
+
+CA651102 JB March 6, 1978  6:17 PM
+
+1134	4	1179
+1179	4	1179
+1179	4	1179
+1288	4	1179
+1544	4	1179
+1646	4	1179
+1861	4	1179
+2111	4	1179
+2534	4	1179
+2556	4	1179
+2650	4	1179
+1179	5	1179
+1179	5	1179
+1179	5	1179
+1646	5	1179
+1647	5	1179
+408	5	1179
+830	5	1179
+830	6	1179
+987	6	1179
+1072	6	1179
+1179	6	1179
+1179	6	1179
+1647	6	1179
+224	6	1179
+680	6	1179
+
+
+************************
+
+************************
+Document:  CACM-1235.html
+************************
+
+
+A Stochastic Approach to the Grammatical Coding of English
+
+A computer program is described which will
+assign each word in an English text to its form 
+class or part of speech.  The program operates at relatively
+high speed in only a limited storage space. 
+ About half of the word-events in a corpus are identified
+through the use of a small dictionary of function 
+words and frequently occurring lexical words.  Some suffix
+tests and logical-decision rules are employed 
+to code additional words.  Finally, the remaining words
+are assigned to one class or another on the basis 
+of the most probable form classes to occur with<B>in the</B> already
+identified contexts.  The conditional probabilities 
+used as a basis for this coding were empirically derived
+from a separate hand-coded corpusn preliminary 
+trials, the accuracy of the coder was 91% to 93%, with
+obvious ways of improving the algorithm being 
+suggested by an analysis of the results.
+
+CACM June, 1965
+
+Stolz, W. S.
+Tannenbaum, H.
+Carstensen, F. V.
+
+CA650620 JB March 6, 1978  9:35 PM
+
+1235	5	1235
+1235	5	1235
+1235	5	1235
+
+
+************************
+
+************************
+Document:  CACM-3002.html
+************************
+
+
+A Record and File Partitioning Model
+
+One of the main objectives <B>in the</B> design of
+a file system is the reduction of storage and data 
+transfer costs.  This paper presents a model in which
+several  requests access the file system, and each 
+request requires information from one or more variable
+length data-items.  The probabilities of access 
+and the distribution of each data-item's length are assumed
+to be known, and to be mutually independent. 
+The file system uses one or more storage devices, and
+each record may be partitioned into subrecords 
+that are stored on different devices.  One of the subrecords
+is designated as the primary record; when 
+a request for a record is made, the primary record is
+first accessed, and other subrecords are accessed 
+only if the pertinent information is not stored in the
+primary record.  The model that is presented in 
+this paper, both as a nonlinear programming model and
+a mixed integer programming model, is a very general 
+one; several types of file systems may be derived from
+it by an appropriate selection of its parameters. 
+ This model has already been used in the optimization of
+library routines' storage at a large scale operating 
+system.
+
+CACM January, 1977
+
+Babad, J. M.
+
+file system, file design, file partitioning, record partitioning
+
+3.73
+
+CA770103 JB January 3, 1978  12:28 AM
+
+3002	5	3002
+3002	5	3002
+3002	5	3002
+3168	5	3002
+2965	6	3002
+3002	6	3002
+
+
+************************
+
+************************
+Document:  CACM-2889.html
+************************
+
+
+Performance of Height-Balanced Trees
+
+This paper presents the results of simulations
+that investigate the performance of height-balanced 
+(HB[k]) trees.  It is shown that the only statistic
+of HB[1] trees (AVL trees) that is a function of 
+the size of the tree is the time to search for an item
+<B>in the</B> tree.  For sufficiently large trees, the 
+execution times of all procedures for maintaining HB[1]
+trees are independent of the size of the tree. 
+ In particular, an average of .465 restructures are required
+per insertion, with an average of 2.78 nodes 
+revisited to restore the HB[1] property; an average of
+ .214 restructures are required per deletion, with 
+an average of 1.91 nodes revisited to restore the HB[1]
+property.  Moreover,the execution times of procedures 
+for maintaining HB[k] trees, for k>1, are also independent
+of the size of the tree except for the average 
+number of nodes revisited on a delete operation in
+order to restore the HB[k] property on trace back. 
+ The cost of maintaining HB[k] trees drops sharply as the
+allowable imbalance (k) increases.  Both analytical 
+and experimental results that show the cost of maintaining
+HB[k] trees as a function of k are discussed.
+
+CACM January, 1976
+
+Karlton, P. L.
+Fuller, S. H.
+Scroggs, R. E.
+Kaehler, E. B.
+
+HB[k] trees, balanced trees, AVL trees,
+information storage and retrieval, searching
+
+3.7 3.72 3.74 4.49 5.39
+
+CA760104 JB January 5, 1978  10:27 AM
+
+2411	4	2889
+2455	4	2889
+2493	4	2889
+2709	4	2889
+2889	4	2889
+2889	4	2889
+2889	4	2889
+2937	4	2889
+2968	4	2889
+2968	4	2889
+2989	4	2889
+3005	4	2889
+3025	4	2889
+3042	4	2889
+3101	4	2889
+2138	5	2889
+2388	5	2889
+2455	5	2889
+2839	5	2889
+2889	5	2889
+2889	5	2889
+2889	5	2889
+3042	5	2889
+3096	5	2889
+3163	5	2889
+2455	6	2889
+2839	6	2889
+2839	6	2889
+2839	6	2889
+2889	6	2889
+2889	6	2889
+2889	6	2889
+2889	6	2889
+2968	6	2889
+3009	6	2889
+3009	6	2889
+3065	6	2889
+3096	6	2889
+
+
+************************
+
+************************
+Document:  CACM-0248.html
+************************
+
+
+What is Proprietary In Mathematical Programming?-Impressions
+of a Panel Discussion
+
+A panel discussion on "What is Proprietary
+in Mathematical Programming?" was sponsored by the 
+Special Interest Committee on Mathematical Programming
+of the ACM during a Hall of Discussion/on September 
+7th at the 16th National ACM meeting in Los Angeles.  This
+note consists solely of the impressions garnered 
+by the moderator of the panel and does not necessarily
+represent the position of any of the panelists 
+or other participants <B>in the</B> discussion.
+
+CACM December, 1961
+
+Smith, L. W.
+
+CA611202 JB March 15, 1978  10:31 PM
+
+248	5	248
+248	5	248
+248	5	248
+
+
+************************
+
+************************
+Document:  CACM-3124.html
+************************
+
+
+Recursive Data Structures in APL
+
+A mathematical study of three approaches for defining nested
+arrays in APL is presented.  Theorems exhibiting the relationships
+between the definitional systems are given and illustrated through graph
+representations.  One of the approaches is used to define an
+APL array to be a recursive data structure equivalent to a tree structure
+in which all data is stored at the leaves as homogeneous
+arrays of numbers and characters.  An extension of APL is proposed that
+includes new primitive functions to manipulate the nesting
+level of arrays and new operators to assist <B>in the</B>
+construction of data-driven algorithms.  
+
+CACM February, 1979
+
+Gull,W.
+Jenkins, M.
+
+Nested arrays, APL arrays, recursive data structures,
+trees, data-driven algorithms, theory of arrays
+
+4.22 5.29
+
+CA790203 DH April 10, 1979  3:41 PM
+
+2060	4	3124
+2294	4	3124
+2470	4	3124
+3124	4	3124
+1469	5	3124
+3124	5	3124
+3124	5	3124
+3124	5	3124
+
+
+************************
+
+************************
+Document:  CACM-1046.html
+************************
+
+
+A Compiler-Building System Developed by Brooker and Morris
+
+In a number of articles published during the
+past two years, R. A. Brooker and D. Morris (joined 
+by J. Rohl <B>in the</B>ir most recent paper have presented
+a very interesting programming system that they 
+have developed for the Ferranti Atlas computer.  The
+present paper describes some of the major features 
+of their system. it expands on some points that the original
+authors cover briefly, and treats only very 
+lightly some topics to which they devote considerable space.
+ The purpose of this paper is purely expository. 
+ Except in some very small details, and in some comments,
+it does not intentionally depart from or add 
+to the material published in the listed references.
+
+CACM July, 1964
+
+Rosen, S.
+
+CA640701 JB March 9, 1978  8:47 PM
+
+1046	4	1046
+1105	4	1046
+1139	4	1046
+1140	4	1046
+1234	4	1046
+1263	4	1046
+1265	4	1046
+1496	4	1046
+1781	4	1046
+1824	4	1046
+2126	4	1046
+2546	4	1046
+464	4	1046
+584	4	1046
+631	4	1046
+653	4	1046
+680	4	1046
+763	4	1046
+795	4	1046
+799	4	1046
+945	4	1046
+1046	5	1046
+1046	5	1046
+1046	5	1046
+1781	5	1046
+404	5	1046
+123	6	1046
+196	6	1046
+919	6	1046
+990	6	1046
+1007	6	1046
+1046	6	1046
+1131	6	1046
+1139	6	1046
+1140	6	1046
+1149	6	1046
+1198	6	1046
+1215	6	1046
+1223	6	1046
+1265	6	1046
+1303	6	1046
+1323	6	1046
+1358	6	1046
+1366	6	1046
+1421	6	1046
+1460	6	1046
+1462	6	1046
+1463	6	1046
+1467	6	1046
+1468	6	1046
+1477	6	1046
+1491	6	1046
+1496	6	1046
+1531	6	1046
+1535	6	1046
+1565	6	1046
+1601	6	1046
+1602	6	1046
+1613	6	1046
+1614	6	1046
+1626	6	1046
+1641	6	1046
+1787	6	1046
+1788	6	1046
+205	6	1046
+224	6	1046
+249	6	1046
+288	6	1046
+316	6	1046
+381	6	1046
+398	6	1046
+11	6	1046
+404	6	1046
+410	6	1046
+463	6	1046
+464	6	1046
+483	6	1046
+3184	6	1046
+3188	6	1046
+584	6	1046
+600	6	1046
+680	6	1046
+691	6	1046
+763	6	1046
+799	6	1046
+
+
+************************
+

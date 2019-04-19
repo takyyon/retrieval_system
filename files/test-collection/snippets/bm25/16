@@ -1,3 +1,477 @@
 Snippets for the query:  Optimization of intermediate and machine code
 ************************
-No snippets found for the query..
+Total Hits:  9
+************************
+
+************************
+Document:  CACM-0252.html
+************************
+
+
+Programming a Duplex Computer System
+
+This paper describes a method of duplex-computer
+programming that has been used with two computers 
+in a military defense system.  The method combines special
+programs with a basic data processing program 
+package.  The duplex operation gives the system greater
+reliability.  After achieving the required level 
+of integration, both computers do similar processing
+on the same inputs and continually cross-check the 
+<B>intermediate and</B> final results.
+
+CACM November, 1961
+
+Dow, J.
+
+CA611116 JB March 15, 1978  10:40 PM
+
+252	5	252
+252	5	252
+252	5	252
+
+
+************************
+
+************************
+Document:  CACM-2968.html
+************************
+
+
+A Comparison of Tree-Balancing Algorithms
+
+Several algorithms-height-balance (i.e. AVL
+and extensions), weight-balance (i.e. BB and WB), 
+and total restructuring-for building balanced binary search
+trees are compared.  The criteria for comparison 
+encompass theoretical aspects (e.g. path lengths) and implementation
+independent <B>and machine</B>/algorithm-dependent 
+measures (e.g. run time).  A detailed analysis of code is
+also presented at a level believed to be language-and 
+compiler-independent.  The quality of the resulting
+trees and the overhead spent on building them are 
+analyzed, and some guidelines are given for an efficient
+use of the methods.  If insertion and subsequent 
+queries are the only operations of in terest, then "pure"
+AVL trees present the overall best qualities.
+
+CACM May, 1977
+
+Baer, J. L.
+Schwab, B.
+
+binary search trees, AVL trees, weight-balanced trees,
+path length, analysis of algorithms, information 
+storage and retrieval
+
+3.7 3.72 3.74 5.31
+
+CA770504 JB December 29, 1977  2:16 AM
+
+2455	4	2968
+2493	4	2968
+2889	4	2968
+2889	4	2968
+2968	4	2968
+2968	4	2968
+3042	4	2968
+2388	5	2968
+2455	5	2968
+2968	5	2968
+2968	5	2968
+2968	5	2968
+3042	5	2968
+2455	6	2968
+2839	6	2968
+2889	6	2968
+2968	6	2968
+
+
+************************
+
+************************
+Document:  CACM-2491.html
+************************
+
+
+Threaded Code
+
+The concept of "threaded code" is presented as
+an alternative to machine language code.  Hardware 
+and software realizations of it are given.  In software
+it is realized as interpretive code not needing 
+an interpreter.  Extensions and optimizations are mentioned.
+
+CACM June, 1973
+
+Bell, J. R.
+
+interpreter, <B>machine code</B>, time tradeoff, space
+tradeoff, compiled code, subroutine calls, threaded 
+code
+
+4.12 4.13 6.33
+
+CA730609 JB January 23, 1978  2:05 PM
+
+2491	5	2491
+2491	5	2491
+2491	5	2491
+2748	5	2491
+3144	5	2491
+1471	6	2491
+2298	6	2491
+2491	6	2491
+2491	6	2491
+2597	6	2491
+2624	6	2491
+2625	6	2491
+2632	6	2491
+
+
+************************
+
+************************
+Document:  CACM-1807.html
+************************
+
+
+<B>Optimization of</B> Expressions in Fortran
+
+A method of optimizing the computation of
+arithmetic and indexing expressions of a Fortran 
+program is presented.  The method is based on a linear
+analysis of the definition points of the variables 
+and the branching and DO loop structure of the program.
+ The objectives of the processing are (1) to 
+eliminate redundant calculations when references are
+made to common subexpression values, (2) to remove 
+invariant calculations from DO loops, (3) to efficiently
+compute subscripts containing DO iteration variables, 
+and (4) to provide efficient index register usage.  The
+method presented requires at least a three-pass 
+compiler, the second of which is scanned backward.  It
+has been used in the development of several FORTRAN 
+compilers that have proved to produce excellent object
+code without significantly reducing the compilation 
+speed.
+
+CACM December, 1969
+
+Busam, V. A.
+England, D. E.
+
+FORTRAN, optimization, expressions, compilers,
+compilation, subscripts, register allocation, DO 
+loops, common subexpressions, invariant calculations
+
+4.12
+
+CA691205 JB February 15, 1978  4:16 PM
+
+1625	4	1807
+1781	4	1807
+1807	4	1807
+1807	4	1807
+1807	4	1807
+1807	4	1807
+1934	4	1807
+1945	4	1807
+1947	4	1807
+1947	4	1807
+2034	4	1807
+2175	4	1807
+2290	4	1807
+2579	4	1807
+2923	4	1807
+2945	4	1807
+1223	5	1807
+1248	5	1807
+1551	5	1807
+1807	5	1807
+1807	5	1807
+1807	5	1807
+1947	5	1807
+2579	5	1807
+2923	5	1807
+1535	6	1807
+1807	6	1807
+1807	6	1807
+1947	6	1807
+1947	6	1807
+
+
+************************
+
+************************
+Document:  CACM-2344.html
+************************
+
+
+On the <B>Optimization of</B> Performance of Time-Sharing Systems by Simulation
+
+A simulation model of a time-sharing system
+with a finite noncontiguous store and an infinite 
+auxiliary store is used to study the variation of system
+parameters such as store size, number of jobs 
+allowed to execute simultaneously, job-scheduling algorithm,
+etc.  The effects of these variations on 
+a measure of system performance is used to ascertain which
+of the parameters controllable by the job-scheduling 
+algorithm, including the scheduling itself, require optimization,
+and which of the parameters not normally 
+controllable by the scheduling algorithm have a marked
+effect on system performance.  System performance 
+is based upon the mean cost of delay to all jobs processed.
+ It is shown that significant improvements 
+in the measure of system performance can be obtained by
+using variable time-slice techniques and by selecting 
+the optimum round-robin cycle time.  It appears that these
+features would benefit from optimization whereas 
+other parameters controllable by the scheduling algorithm
+affect system performance in a predictable 
+manner and would not benefit from optimization.  Features
+not normally under the control of the scheduling 
+algorithm can also have a marked effect on the measure
+of performance; in particular, supervisor overheads, 
+the size of the store, and the speed of the CPU.  A comparison
+is made between the results of the simulation 
+model and two analytical equations for quantum-oriented
+nonpreemptive time-sharing systems.  The comparison 
+is found to be very favorable.
+
+CACM June, 1972
+
+Blatny, J.
+Clark, S. R.
+Rourke, T. A.
+
+time-sharing, simulation studies, optimization,
+measure of performance, scheduling algorithms
+
+3.80 4.30 4.32
+
+CA720601 JB January 31, 1978  9:19 AM
+
+2219	4	2344
+2344	4	2344
+1938	5	2344
+2344	5	2344
+2344	5	2344
+2344	5	2344
+
+
+************************
+
+************************
+Document:  CACM-3171.html
+************************
+
+
+Line Numbers Made Cheap
+
+A technique is described for run-time line number administration
+to be used for implementations of high level languages.  Under suitable
+circumstances, this method requires absolutely no overhead,
+in either time or space, during execution of the program. 
+
+CACM October, 1979
+
+Klint, P.
+
+Line number administration, diagnostic messages, abstract <B>machine code</B> 
+
+4.12 4.13 4.20 4.42
+
+CA791004 DB January 17, 1980  9:57 AM
+
+3171	5	3171
+3171	5	3171
+3171	5	3171
+
+
+************************
+
+************************
+Document:  CACM-1676.html
+************************
+
+
+The LRLTRAN Compiler
+
+Extensive software problems confront an organization
+which possesses a number of different 
+computers and which frequently acquires new ones. 
+To maintain cohesion, a system must be developed, 
+written in a high level language, which minimizes machine
+dependencies and isolates those which are necessary. 
+ A language and a compiler for the language are discussed
+here.  The language, called LRLTRAN, is a heavily 
+augmented FORTRAN.  The tree-pass compiler makes use
+internally of a postfix Polish notation (pass I 
+to pass II) and a tree representation referred to as
+a "composite blocking table" (pass I to pass III). 
+ Machine-independent optimization occurs in pass II
+and DO-loop <B>and machine</B>-dependent optimization in 
+pass III.
+
+CACM November, 1968
+
+Mendicino, S. F.
+Martin, J. T.
+Ranelletti, J. E.
+Zwakenberg, R. G.
+
+compiler, compiler-compiler, machine independence,
+scatter storage technique, Polish processor, 
+common subsegments, tree representation, optimization
+
+4.12 4.20
+
+CA681103 JB February 21, 1978  3:03 PM
+
+1676	4	1676
+1682	4	1676
+1728	4	1676
+1860	4	1676
+1973	4	1676
+2018	4	1676
+2032	4	1676
+2033	4	1676
+2107	4	1676
+2109	4	1676
+2203	4	1676
+2251	4	1676
+2359	4	1676
+2524	4	1676
+2543	4	1676
+2552	4	1676
+2559	4	1676
+2991	4	1676
+3053	4	1676
+1676	5	1676
+1676	5	1676
+1676	5	1676
+1785	5	1676
+2859	5	1676
+1525	6	1676
+1676	6	1676
+
+
+************************
+
+************************
+Document:  CACM-1389.html
+************************
+
+
+A Programmer's Description of L^6
+
+Bell Telephone Laboratories' Low-Linked List Language
+L^6 (pronounced "L-six") is a new programming 
+language for list structure manipulations.  It contains
+many of the facilities which underlie such list 
+processors as IPL, LISP, COMIT ad SNOBOL, but permits
+the user to get much closer to <B>machine code</B> in 
+order to write faster-running programs, to use storage
+more efficiently and to build a wider variety 
+of linked data structures.
+
+CACM August, 1966
+
+Knowlton, K. C.
+
+CA660809 JB March 2, 1978  7:20 PM
+
+1389	4	1389
+1552	4	1389
+2162	4	1389
+2435	4	1389
+2596	4	1389
+2768	4	1389
+2845	4	1389
+2902	4	1389
+2955	4	1389
+1184	5	1389
+1389	5	1389
+1389	5	1389
+1389	5	1389
+1860	5	1389
+1957	5	1389
+2155	5	1389
+2162	5	1389
+1184	6	1389
+1366	6	1389
+1389	6	1389
+1389	6	1389
+1389	6	1389
+1389	6	1389
+1421	6	1389
+1496	6	1389
+1626	6	1389
+1641	6	1389
+1785	6	1389
+1786	6	1389
+210	6	1389
+1860	6	1389
+378	6	1389
+378	6	1389
+2046	6	1389
+2060	6	1389
+3184	6	1389
+731	6	1389
+
+
+************************
+
+************************
+Document:  CACM-2253.html
+************************
+
+
+Index Ranges for Matrix Calculi
+
+The paper describes a scheme for symbolic
+manipulation of index expressions which arise as 
+a by-product of the symbolic manipulation of expressions
+in the matrix calculi described by the authors 
+in a previous paper.  This scheme attempts program optimization
+by transforming the original algorithm 
+rather than the <B>machine code</B>.  The goal is to automatically
+generate code for handling the tedious address 
+calculations necessitated by complicated data structures.
+ The paper is therefore preoccupied with "indexing 
+by position."  The relationship of "indexing by
+name" and "indexing by position" is discussed.
+
+CACM December, 1972
+
+Bayer, R.
+Witzgall, C.
+
+address calculations, algorithm transformation,
+compilation, data structures, indexing by name, 
+indexing by position, index domain, index map, index
+range, matrix expressions, normal form, programming 
+languages, program optimization, range operations, symbolic
+manipulation, syntactic analysis, well-formed 
+expressions
+
+4.12 4.22 5.14
+
+CA721202 JB January 27, 1978  1:12 PM
+
+1614	4	2253
+2253	4	2253
+2253	4	2253
+2254	4	2253
+2557	4	2253
+2081	5	2253
+2253	5	2253
+2253	5	2253
+2253	5	2253
+437	5	2253
+
+
+************************
+

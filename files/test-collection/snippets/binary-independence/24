@@ -1,3 +1,79 @@
 Snippets for the query:  Performance evaluation and modelling of computer systems
 ************************
-No snippets found for the query..
+Total Hits:  2
+************************
+
+************************
+Document:  CACM-2307.html
+************************
+
+
+Dynamic Document Processing
+
+The current role <B>of computer</B>s in automatic
+document processing is briefly outlined, and some 
+reasons are given why the early promise of library automation
+and of the mechanization of documentation 
+processes has not been fulfilled.  A new dynamic document
+environment is then outlined in which clustered
+files are searched and information is retrieved following
+an interactive user-controlled search process. 
+ Methods are described for an automatic query modification
+based on user needs, and for a continuous 
+reorganization of the stored information as a function of
+earlier file processing and of normal collection 
+growth.  The proposed procedures provide powerful tools
+for information retrieval and for the control 
+of dynamic library collections in which new items
+are continually added and old ones are retired.
+
+CACM July, 1972
+
+Salton, G.
+
+automatic indexing, automatic search and retrieval,
+iterative searching, mechanized library processing, 
+collection growth, collection retirement, feedback search
+
+3.62 3.71 3.73 3.74
+
+CA720721 JB January 30, 1978  10:59 AM
+
+2307	5	2307
+2307	5	2307
+2307	5	2307
+
+
+************************
+
+************************
+Document:  CACM-2306.html
+************************
+
+
+Ancient Babylonian Algorithms
+
+The early origins of mathematics are discussed,
+emphasizing those aspects which seem to be 
+of greatest interest from the standpoint <B>of computer</B>
+science.  A number of old Babylonian tablets, many 
+of which have never before been translated into English, are quoted.
+
+CACM July, 1972
+
+Knuth, D. E.
+
+history of computation, Babylonian tablets,
+sexagesimal number system, sorting 
+
+1.2
+
+CA720722 JB January 30, 1978  10:50 AM
+
+2306	5	2306
+2306	5	2306
+2306	5	2306
+
+
+************************
+

@@ -1,6 +1,1880 @@
 Snippets for the query:  Parallel processors in information retrieval
 ************************
-Total Hits:  1
+Total Hits:  53
+************************
+
+************************
+Document:  CACM-2947.html
+************************
+
+
+SITAR: An Interactive Text Processing System for Small Computers
+
+SITAR, a low-cost in teractive text handling
+and text analysis system for nontechnical users, 
+is in many ways comparable to in teractive bibliographical
+search and retrieval systems, but has several 
+additional features. It is implemented on a PDP/11 time-sharing
+computer invoked by a CRT with microprogrammed 
+editing functions.  It uses a simple command language designating
+a function, a file, and a search template 
+consisting of the textual string desired and strings
+delimiting the context in which the hit is to be 
+delivered.  Extensive experience with SITAR shows that
+the combined powers of simple commands, string 
+orientation, circular file structure, a CRT with local
+memory, and conversational computing produce a 
+system much more powerful than the sum of its parts.
+
+CACM July, 1977
+
+Schneider, B. R. Jr.
+Watts, R. M.
+
+<B>information retrieval</B>, text editing, minicomputers,
+CRTs,time sharing, bibliographic search and 
+retrieval, literary analysis, linguistic analysis, command languages
+
+3.4 3.7
+
+CA770705 JB December 28, 1977  10:20 AM
+
+2947	5	2947
+2947	5	2947
+2947	5	2947
+
+
+************************
+
+************************
+Document:  CACM-0891.html
+************************
+
+
+Everyman's Information Retrieval System
+
+The <B>information retrieval</B> problem whose solution
+is presented here was posed by a technical 
+library with limited bubget and personnel.  The solution,
+however, is quite general and is applicable 
+to many different types of retrieval problems.  Further,the
+method of solution makes it possible for 
+many groups who have previously dismissed an information
+retrieval program as expensive and difficult 
+(from a programming stand-point) to reconsider their position,
+for the present solution makes it possible 
+to install an information retrieval program in less than
+three months, and with relatively little equipment.
+
+CACM March, 1963
+
+Whitley, V. W.
+
+CA630329 JB March 14, 1978  12:37 PM
+
+891	5	891
+891	5	891
+891	5	891
+
+
+************************
+
+************************
+Document:  CACM-0655.html
+************************
+
+
+COMIT as an IR Language
+
+Many of the features that make COMIT a good
+all around symbol manipulation language also render 
+it well suited to various types of <B>information retrieval</B>
+programs.  Presented here is a general discussion 
+of this unique and different programming language
+and an examination of some of its applications.
+
+CACM January, 1962
+
+Yngve, V. H.
+
+CA620104 JB March 20, 1978  4:46 PM
+
+1145	5	655
+655	5	655
+655	5	655
+655	5	655
+655	6	655
+
+
+************************
+
+************************
+Document:  CACM-1831.html
+************************
+
+
+A Comment on Optimal Tree Structures
+
+CACM October, 1969
+
+Stanfel, L. E.
+
+<B>information retrieval</B>, file searching, tree structures, double chaining
+
+3.70 3.73 3.74
+
+CA691015 JB February 15, 1978  1:31 PM
+
+1831	5	1831
+1831	5	1831
+1831	5	1831
+2257	5	1831
+2360	5	1831
+849	6	1831
+849	6	1831
+1831	6	1831
+1831	6	1831
+1936	6	1831
+1936	6	1831
+2360	6	1831
+
+
+************************
+
+************************
+Document:  CACM-1711.html
+************************
+
+
+When Your Computer Needs a Lawyer
+
+Possible liability for negligence, for other
+torts (such as slander of credit) and for liability 
+under theories of express or implied warranty (guarantees)
+are discussed, and legal complications are 
+explained, so that users, operators, owners, and leasors
+of computers may be alerted to potential legal 
+problems. Focus is also on trouble spots in contracting
+for data processing services, in automating record 
+keeping operations, in deciding whether or not to automate
+certain operations, and in complying with 
+statutes and regulation relating to record keeping.
+ Information is given on patents, copyrights and 
+trade secret protection for programs, and the problem
+of using copyrighted material <B>in information</B> storage 
+and retrieval systems, including the pending
+copyright and patent revision bills.
+
+CACM August, 1968
+
+Banzhaf III, J. F.
+
+law, legal, lawyer, liability, torts, negligence,
+contracts, warrantees, guarantees, accounting, 
+regulations, simulation, income tax, copyrights, patents,
+trade secrets, standard of care, slander of 
+credit, crime, criminals, record keeping records, evidence, copying
+
+1.3 2.11 2.12 2.2 3.33
+
+CA680803 JB February 22, 1978  11:12 AM
+
+1711	4	1711
+1711	4	1711
+997	5	1711
+1001	5	1711
+1711	5	1711
+1711	5	1711
+1711	5	1711
+
+
+************************
+
+************************
+Document:  CACM-2278.html
+************************
+
+
+On Foster's Information Storage and Retrieval Using AVL Trees
+
+CACM September, 1972
+
+Tan, K. C.
+
+binary trees, search trees, information storage, <B>information retrieval</B>
+
+3.70 3.73 3.74
+
+CA720912 JB January 27, 1978  4:10 PM
+
+2278	5	2278
+2278	5	2278
+2278	5	2278
+2455	5	2278
+2278	6	2278
+2388	6	2278
+
+
+************************
+
+************************
+Document:  CACM-2530.html
+************************
+
+
+An Algorithm for Extracting Phrases in
+a Space-Optimal Fashion [Z] (Algorithm A444)
+
+CACM March, 1973
+
+Wagner, R. A.
+
+<B>information retrieval</B>, coding, text compression
+
+3.70 5.6
+
+CA730309 JB January 24, 1978  10:26 AM
+
+1973	4	2530
+1992	4	2530
+2138	4	2530
+2203	4	2530
+2251	4	2530
+2530	4	2530
+2530	4	2530
+2537	4	2530
+2543	4	2530
+2559	4	2530
+2573	4	2530
+2623	4	2530
+2819	4	2530
+2991	4	2530
+3053	4	2530
+3083	4	2530
+2107	5	2530
+2530	5	2530
+2530	5	2530
+2530	5	2530
+2537	5	2530
+2107	6	2530
+2530	6	2530
+
+
+************************
+
+************************
+Document:  CACM-2451.html
+************************
+
+
+Design of Tree Structures for Efficient Querying
+
+A standard <B>information retrieval</B> operation is
+to determine which records in a data collection 
+satisfy a given query expressed in terms of data values.
+ The process of locating the desired responses 
+can be represented by a tree search model.  This paper
+poses an optimization problem in the design of 
+such trees to serve a well-specified application. The
+problem is academic in the sense that ordinarily 
+the optimal tree cannot be implemented by means of practical
+techniques.  On the other hand, it is potentially 
+useful for the comparison it affords between observed
+performance and that of an intuitively attractive 
+ideal search procedure.  As a practical application
+of such a model this paper considers the design of 
+a novel tree search scheme based on a bit vector representation
+of data and shows that essentially the 
+same algorithm can be used to design either an ideal
+search tree or a bit-vector tree.  An experimental 
+study of a small formatted file illustrates the concepts.
+
+CACM September, 1973
+
+Casey, R. G.
+
+tree file, information storage and retrieval, clustering,
+search, data structure, data management, 
+query answering
+
+3.62 3.74
+
+CA730904 JB January 23, 1978  9:38 AM
+
+1050	4	2451
+1234	4	2451
+1935	4	2451
+1936	4	2451
+2017	4	2451
+2032	4	2451
+2257	4	2451
+2257	4	2451
+2360	4	2451
+2360	4	2451
+2451	4	2451
+2451	4	2451
+2451	4	2451
+2451	4	2451
+2452	4	2451
+2452	4	2451
+2556	4	2451
+2556	4	2451
+2765	4	2451
+2978	4	2451
+944	5	2451
+1935	5	2451
+1936	5	2451
+2451	5	2451
+2451	5	2451
+2451	5	2451
+2765	5	2451
+2965	5	2451
+849	5	2451
+1936	6	2451
+1976	6	2451
+2046	6	2451
+2046	6	2451
+2451	6	2451
+2451	6	2451
+2452	6	2451
+616	6	2451
+
+
+************************
+
+************************
+Document:  CACM-2623.html
+************************
+
+
+A New Technique for Compression and Storage of Data
+
+The widespread tendency toward storage of
+large programs and blocks off text has produced a 
+need for efficient methods of compressing and storing
+data.  This paper describes techniques that can, 
+in most cases, decrease storage size by a factor of
+from two to four.  The techniques involve special 
+handling of leading and trailing blanks, and the encoding
+of other symbols in groups of fixed size as 
+unique fixed point numbers.  The efficiency of the
+system is considered and pertinent statistics are 
+given and compared with statistics for other information coding techniques.
+
+CACM August, 1974
+
+Hahn, B.
+
+file maintenance, <B>information retrieval</B>, utility
+programs, text compression, coding techniques, 
+data storage, data management
+
+3.70 3.73 4.49
+
+CA740801 JB January 17, 1978  10:25 AM
+
+2530	4	2623
+2623	4	2623
+2623	4	2623
+2819	4	2623
+2501	5	2623
+2537	5	2623
+2623	5	2623
+2623	5	2623
+2623	5	2623
+
+
+************************
+
+************************
+Document:  CACM-2846.html
+************************
+
+
+Compressed Tries
+
+This paper presents a new data structure,
+called a compressed trie or C-trie, to be used in 
+<B>information retrieval</B> systems.  It has the same underlying
+m-ary tree structure as a trie, where m is 
+a parameter of the trie, but whereas the fields of the
+nodes in a trie have to be large enough to hold 
+a key or at least a pointer, the fields in a C-trie are
+only one bit long.  In the analysis part of the 
+paper it will be shown that for a collection of n keys the
+retrieval time, measured in terms of bit inspections 
+of one key, is of the order logm(n) and the storage
+requirement of the order n*(m+log2 n) bits.  This 
+improvement in storage requirements and retrieval time
+is achieved at the cost of decreasing the flexibility 
+of the structure, and therefore updating costs are increased.
+ First the C-trie is analyzed as a data 
+structure, and then several methods of its use
+for relatively static databases are discussed.
+
+CACM July, 1976
+
+Maly, K.
+
+data structure, database, m-ary tree, trie,
+retrieval time, storage requirement, keys
+
+3.70 3.74 3.75
+
+CA760707 JB January 4, 1978  12:26 PM
+
+2846	4	2846
+849	4	2846
+944	4	2846
+155	5	2846
+2846	5	2846
+2846	5	2846
+2846	5	2846
+3041	5	2846
+2846	6	2846
+2905	6	2846
+
+
+************************
+
+************************
+Document:  CACM-2258.html
+************************
+
+
+Additional Results on Key-to-Address Transform
+Techniques: A Fundamental Performance Study on 
+Large Existing Formatted Files
+
+CACM November, 1972
+
+Lum, V. Y.
+Yuen, P. S. T.
+
+hashing, hashing techniques, hashing methods, hash
+coding, keys, key transformation, key-to-address 
+transformation, direct addressing, direct access method,
+randomizing, random access file organization, 
+file search, scatter storage, <B>information retrieval</B>
+
+3.7 3.72 3.73 3.74 3.79 4.9
+
+CA721111 JB January 27, 1978  1:31 PM  
+
+2258	4	2258
+2319	4	2258
+2313	4	2258
+2359	4	2258
+2437	4	2258
+2552	4	2258
+2781	4	2258
+2860	4	2258
+2991	4	2258
+2203	5	2258
+2258	5	2258
+2258	5	2258
+2258	5	2258
+
+
+************************
+
+************************
+Document:  CACM-2516.html
+************************
+
+
+Hierarchical Storage in Information Retrieval
+
+A probabilistic analysis is employed to determine
+the effect of hierarchical storage organizations 
+on <B>information retrieval</B> operations.  The data storage
+hardware is assumed to consist on n-levels of 
+linearly connected memory hardware with increasing data
+access times and increasing data storage capabilities. 
+ A system might, for example, consist of fast semiconductor
+memory, computer core memory, extended core 
+storage, disk memory, and data cells.  Equations are derived
+to predict the effect of such a system on 
+data access times using sequential files, random access files,
+and structured files employing multiple-hierarchical 
+linked lists.
+
+CACM May, 1973
+
+Salasin, J.
+
+information retrieval, hierarchical storage
+
+3.70 3.72 3.73 3.74 3.79 3.90 6.20 6.34
+
+CA730504 JB January 24, 1978  8:48 AM
+
+2516	5	2516
+2516	5	2516
+2516	5	2516
+
+
+************************
+
+************************
+Document:  CACM-2307.html
+************************
+
+
+Dynamic Document Processing
+
+The current role of computers in automatic
+document processing is briefly outlined, and some 
+reasons are given why the early promise of library automation
+and of the mechanization of documentation 
+processes has not been fulfilled.  A new dynamic document
+environment is then outlined in which clustered
+files are searched and information is retrieved following
+an interactive user-controlled search process. 
+ Methods are described for an automatic query modification
+based on user needs, and for a continuous 
+reorganization of the stored information as a function of
+earlier file processing and of normal collection 
+growth.  The proposed procedures provide powerful tools
+for <B>information retrieval</B> and for the control 
+of dynamic library collections in which new items
+are continually added and old ones are retired.
+
+CACM July, 1972
+
+Salton, G.
+
+automatic indexing, automatic search and retrieval,
+iterative searching, mechanized library processing, 
+collection growth, collection retirement, feedback search
+
+3.62 3.71 3.73 3.74
+
+CA720721 JB January 30, 1978  10:59 AM
+
+2307	5	2307
+2307	5	2307
+2307	5	2307
+
+
+************************
+
+************************
+Document:  CACM-2965.html
+************************
+
+
+An Optimal Evaluation of Boolean Expressions in an Online Query System
+
+CACM May, 1977
+
+Hanani, M. Z.
+
+query, Boolean expression, <B>information retrieval</B>, file organization
+
+3.5 3.70 3.74
+
+CA770507 JB December 29, 1977  1:51 AM
+
+2155	4	2965
+2406	4	2965
+2710	4	2965
+2715	4	2965
+2716	4	2965
+2717	4	2965
+2718	4	2965
+2765	4	2965
+2765	4	2965
+2817	4	2965
+2888	4	2965
+2901	4	2965
+2957	4	2965
+2959	4	2965
+2965	4	2965
+2965	4	2965
+3087	4	2965
+3154	4	2965
+2046	5	2965
+2451	5	2965
+2965	5	2965
+2965	5	2965
+2965	5	2965
+3168	5	2965
+3169	5	2965
+2965	6	2965
+2965	6	2965
+3002	6	2965
+
+
+************************
+
+************************
+Document:  CACM-2552.html
+************************
+
+
+A Note on When To Chain Overflow Items Within a Direct-Access Table
+
+CACM January, 1973
+
+Bays, C.
+
+hash code, open hash, chaining, <B>information retrieval</B>, collision
+
+3.7 4.9
+
+CA730109 JB January 24, 1978  4:07 PM
+
+1271	4	2552
+1676	4	2552
+1682	4	2552
+1728	4	2552
+1785	4	2552
+1785	4	2552
+1860	4	2552
+1973	4	2552
+2018	4	2552
+2032	4	2552
+2033	4	2552
+2107	4	2552
+2109	4	2552
+2203	4	2552
+2203	4	2552
+2251	4	2552
+2258	4	2552
+2319	4	2552
+2313	4	2552
+2359	4	2552
+2359	4	2552
+2437	4	2552
+2524	4	2552
+2543	4	2552
+2543	4	2552
+2552	4	2552
+2552	4	2552
+2552	4	2552
+2552	4	2552
+2559	4	2552
+2781	4	2552
+2860	4	2552
+2991	4	2552
+2991	4	2552
+3053	4	2552
+911	4	2552
+911	5	2552
+1785	5	2552
+332	5	2552
+2203	5	2552
+2552	5	2552
+2552	5	2552
+2552	5	2552
+3083	5	2552
+1328	6	2552
+1973	6	2552
+2107	6	2552
+2543	6	2552
+2552	6	2552
+
+
+************************
+
+************************
+Document:  CACM-2631.html
+************************
+
+
+An Information-Theoretic Approach to
+Text Searching in Direct Access Systems
+
+Using direct access computer files of bibliographic
+information, an attempt is made to overcome 
+one of the problems often associated with information
+retrieval, namely, the maintenance and use of large 
+dictionaries, the greater part of which is used only
+infrequently.  A novel method is presented, which 
+maps the hyperbolic frequency distribution.  This is
+more suited to implementation on storage devices. 
+ This method treats text as a string of characters rather
+than words bounded by spaces, and chooses subsets 
+of strings such that their frequencies of occurrence are
+more even than those of word types.  The members 
+of this subset are then used as index keys for retrieval.
+The rectangular distribution of key frequencies 
+results in a much simplified file organization
+and promises considerable cost advantages.
+
+CACM June, 1974
+
+Barton, I. J.
+Creasey, S. E.
+Lynch, M. F.
+Snell, M. J.
+
+text searching, information theory, file organization,
+direct access, <B>information retrieval</B>, character 
+string, bit vector
+
+3.42 3.70 3.73 3.74 5.6
+
+CA740615 JB January 17, 1978  2:07 PM
+
+2532	4	2631
+2631	4	2631
+2631	4	2631
+2746	4	2631
+3001	4	2631
+2139	5	2631
+2532	5	2631
+2631	5	2631
+2631	5	2631
+2631	5	2631
+
+
+************************
+
+************************
+Document:  CACM-2519.html
+************************
+
+
+On the Problem of Communicating Complex Information
+
+The nature of the difficulty involved in communicating
+mathematical results between scientists 
+using a computer based <B>information retrieval</B> system
+is examined.  The problem is analyzed in terms of 
+psychological and information-processing processes, and
+what turns out to be a vicious circle of effects 
+is described.  These include ways of augmenting written
+natural language by various notational and linguistic 
+devices, the exhibition of the structure inherent in the
+information we are communicating, and a sophisticated 
+interactive system controlled by computer.
+
+CACM May, 1973
+
+Pager, D.
+
+complex information, information, communication,
+mathematics, proof, interactive system, language
+
+1.0 1.1 1.50 1.52 1.59 2.42 3.32 3.51 3.62 3.70 3.81
+
+CA730501 JB January 24, 1978  9:25 AM
+
+2519	4	2519
+2390	5	2519
+2519	5	2519
+2519	5	2519
+2519	5	2519
+
+
+************************
+
+************************
+Document:  CACM-1830.html
+************************
+
+
+Retrieval Times for a Packed Direct Access Inverted File
+
+CACM October, 1969
+
+Bayes, A. J.
+
+<B>information retrieval</B>, direct access memory, data base, inverted list
+
+3.70 4.41
+
+CA691016 JB February 15, 1978  1:27 PM
+
+1830	5	1830
+1830	5	1830
+1830	5	1830
+
+
+************************
+
+************************
+Document:  CACM-1681.html
+************************
+
+
+Easy English,a Language for Information
+Retrieval Through a Remote Typewriter Console
+
+Easy English is a natural command language
+designed to simplify communication between man and 
+machine through remote typewriter console.  It has been developed
+for retrieval of documents from a computerized 
+data base, the Moore School Information Systems Laboratory
+files.  Requests are formulated in a standardized 
+syntactical form (examples of which are presented), and
+this form is then transformed into an equivalent 
+query expressed in the retrieval system's original Symbolic
+Command Language, which is briefly described. 
+ Operation of easy English is detailed by illustration
+of the transformations performed upon a sample 
+request up to the point at which the request string
+is sent to the system.  A macro flowchart of Easy 
+English is included, and an Appendix provides
+the printout of a retrieval demonstration.
+
+CACM October, 1968
+
+Rubinoff, M.
+Bergman, S.
+Cautin, H.
+Rapp, F.
+
+natural language communication, on-line searching,
+remote console communication, <B>information retrieval</B>, 
+man-machine communication, remote terminal communication,
+translator, document retrieval, conversational 
+mode, information retrieval language, symbolic command language
+
+3.74 3.81 4.19
+
+CA681006 JB February 21, 1978  3:59 PM
+
+1681	4	1681
+1699	4	1681
+1194	5	1681
+1681	5	1681
+1681	5	1681
+1681	5	1681
+1699	5	1681
+1194	6	1681
+1324	6	1681
+1681	6	1681
+
+
+************************
+
+************************
+Document:  CACM-1927.html
+************************
+
+
+Information Science in a Ph. Computer Science Program
+
+This report contains recommendations on a sample course
+curriculum in the general area of information 
+organization and information system design in a Ph.
+Computer Science Program.  The subject area is 
+first briefly described, followed by a listing of some desirable
+graduate-level courses.  Suitable bibliographies 
+are appended.
+
+CACM February, 1969
+
+Salton, G.
+
+course curriculum, graduate courses, university
+courses,computer science curriculum, information 
+science, information organization, <B>information retrieval</B>,
+data retrieval, language analysis, information 
+processing
+
+1.52 3.42 3.70
+
+CA690211 JB February 20, 1978  9:50 AM
+
+1720	4	1927
+1927	4	1927
+1927	4	1927
+2147	4	1927
+2163	4	1927
+2345	4	1927
+2478	4	1927
+2594	4	1927
+2852	4	1927
+2899	4	1927
+3003	4	1927
+3130	4	1927
+1659	5	1927
+1771	5	1927
+1927	5	1927
+1927	5	1927
+1927	5	1927
+2163	5	1927
+3003	5	1927
+1659	6	1927
+1678	6	1927
+1720	6	1927
+1771	6	1927
+1927	6	1927
+1927	6	1927
+1945	6	1927
+2097	6	1927
+2147	6	1927
+2163	6	1927
+2181	6	1927
+2187	6	1927
+2329	6	1927
+2345	6	1927
+2367	6	1927
+2407	6	1927
+2478	6	1927
+2479	6	1927
+2480	6	1927
+2538	6	1927
+
+
+************************
+
+************************
+Document:  CACM-1514.html
+************************
+
+
+On the Expected Gain From Adjust ing Matched Term Retrieval Systems
+
+A file adjustment procedure based on maximizing
+the Bayes expected gain proposed for matched 
+term retrieval systems.  The expected gain and its probability
+distribution are derived as a function 
+of: (1) the prior proportion of omitted terms, and (2) the
+coefficient of separation between two distributions 
+corresponding to values of an adjustment statistic.  An
+example evaluates the gain parameters for a typical 
+<B>information retrieval</B> system.
+
+CACM November, 1967
+
+Shumway, R. H.
+
+CA671106 JB February 26, 1978  2:59 PM
+
+1514	5	1514
+1514	5	1514
+1514	5	1514
+
+
+************************
+
+************************
+Document:  CACM-2593.html
+************************
+
+
+A Back-end Computer for Data Base Management
+
+It is proposed that the data base management
+function be placed on a dedicated back-end computer 
+which accepts commands (in a relatively high level language
+such as the CODASYL Data Base Task Group, 
+April 1971 Report) from a host computer, accesses the
+data base on secondary storage, and returns results. 
+ The advantages of such a configuration are discussed.  An
+experimental implementation, called the experimental 
+Data Management System, XDMS, is described and certain
+conclusions about the back-end approach are drawn 
+from this implementation.
+
+CACM October, 1974
+
+Canaday, R. H.
+Harrison, R. D.
+Ivie, E. L.
+Ryder, J. L.
+Wehr, L. A.
+
+data base management, <B>information retrieval</B>, computer
+configurations, computer networks, Data Base 
+Task Group Language, data base protection,
+data base portability, back-end computer
+
+3.79 4.22 4.33 4.35
+
+CA741005 JB January 16,1978  12:35 PM
+
+2593	5	2593
+2593	5	2593
+2593	5	2593
+2919	5	2593
+2536	6	2593
+2593	6	2593
+2629	6	2593
+
+
+************************
+
+************************
+Document:  CACM-3168.html
+************************
+
+
+Comment on "An Optimal Evaluation of Boolean
+Expressions in an Online Query System."
+
+CACM October, 1979
+
+Laird, P.
+
+Query, Boolean expression, <B>information retrieval</B>, file organization
+
+3.53.70 3.73 3.74
+
+CA791001 DB January 16, 1980  4:50 PM
+
+3168	4	3168
+3168	4	3168
+3169	4	3168
+2965	5	3168
+3002	5	3168
+3168	5	3168
+3168	5	3168
+3168	5	3168
+
+
+************************
+
+************************
+Document:  CACM-1675.html
+************************
+
+
+A Note on a Relevance Estimate and Its Improvement
+
+In this paper the effect of iterating the improvement
+procedure is examined.  It is shown that 
+applications of the improvement factor beyond the first
+time are ineffectual, and that the factor is 
+but a scale factor.
+
+CACM November, 1968
+
+Korfhage, R. R.
+
+<B>information retrieval</B>, relevance, indexing, classification
+
+3.70 3.71 3.74
+
+CA681104 JB February 21, 1978  2:57 PM
+
+1675	5	1675
+1675	5	1675
+1675	5	1675
+
+
+************************
+
+************************
+Document:  CACM-1725.html
+************************
+
+
+A Simple Proof of Lewin's Ordered-Retrieval
+Theorem for Associative Memories
+
+An efficient method of ordered retrieval of binary
+words from an associative memory, as described
+by Lewin, is based on the use of special readout circuits
+which indicate the digit values present in 
+the individual digit columns of the memory.  Thus the
+circuits indicate whether the individual digit 
+columns contain digits of both values, or of only one
+value, or contain no digits at all (i.e. that the 
+memory is empty).  The use of these circuits, which
+in this paper are termed column value indicators, 
+reduces considerably the number of memory accesses necessary
+to retrieve in order a number of distinct 
+words from the memory.  Lewin proves that, for the readout
+by the described method of m distinct binary 
+words, 2m - 1 memory accesses are necessary.  (Thus he
+proves that the number of necessary memory accesses 
+of his method, unlike those of other methods, is independent
+of the word length.)  In this paper a very 
+simple proof of this theorem derived from some elementary
+aspects of the structure of sets of binary 
+numbers is presented.
+
+CACM July, 1968
+
+Wolinsky, A.
+
+associative memories, content-addressed memories,
+ordered lists, ordered <B>information retrieval</B>, 
+ordered retrieval theorem, column digit values, digit
+value variety, column sensing arrangement, digit 
+value readout, digit variety readout, memory access, memory
+access frequency, ordered retrieval efficiency, 
+access frequency proof, retrieval theorem proof
+
+3.74 3.79 5.29 5.31 6.31 6.36
+
+CA680704 JB February 22, 1978  12:24 PM
+
+1725	5	1725
+1725	5	1725
+1725	5	1725
+
+
+************************
+
+************************
+Document:  CACM-2882.html
+************************
+
+
+A Stochastic Evaluation Model for Database
+Organization in Data Retrieval Systems
+
+Experimental work in the valuation of large
+scale data retrieval systems has been scarce due 
+to its difficulty and prohibitive cost. This paper
+discusses a simulation model of a data retrieval 
+system which has the effect of significantly reducing
+the cost of experimentation and enabling research 
+never attempted before.  The model is designed to estimate
+the retrieval workload of alternative data 
+retrieval systems.  These data retrieval systems can
+be organized under several database organizations, 
+including inverted list, threaded list, and cellular
+list organizations and hybrid combinations of these 
+systems.  Effectiveness of the methodology is demonstrated
+by using the model to study the effect of 
+database organizations in data retrieval systems.  In particular,
+the impact of query complexity is analyzed.
+
+CACM February, 1976
+
+Siler, K. F.
+
+database architecture, database performance and
+evaluation, invented list, threaded list, cellular 
+list, <B>information retrieval</B>, database organizations,
+query complexity, stochastic model, Monte Carlo 
+simulation
+
+3.70 3.71 3.72 3.73 3.74 3.79
+
+CA760205 JB January 5, 1978  9:20 AM
+
+1050	4	2882
+1549	4	2882
+2452	4	2882
+2723	4	2882
+2765	4	2882
+2882	4	2882
+2882	4	2882
+2882	4	2882
+731	4	2882
+793	4	2882
+2198	5	2882
+2452	5	2882
+2882	5	2882
+2882	5	2882
+2882	5	2882
+2976	5	2882
+627	5	2882
+2688	6	2882
+2765	6	2882
+2882	6	2882
+
+
+************************
+
+************************
+Document:  CACM-1935.html
+************************
+
+
+Randomized Binary Search Technique
+
+A mathematical model is developed for the mean
+and variance of the number of trials to recover 
+a given document in a randomly received list of files.
+ The search method described is binary in nature 
+and offers new potential for <B>information retrieval</B> systems.
+
+CACM February, 1969
+
+Arora, S. R.
+Dent, W. T.
+
+binary pattern, file examination, graph theory, information
+retrieval, mathematical model, partitioning, 
+probabilistic method, random sequencing, search techniques, tree structures
+
+3.74 5.32
+
+CA690203 JB February 20, 1978  11:15 AM
+
+1050	4	1935
+1935	4	1935
+1935	4	1935
+1936	4	1935
+2017	4	1935
+2032	4	1935
+2257	4	1935
+2360	4	1935
+2451	4	1935
+2452	4	1935
+1115	5	1935
+1935	5	1935
+1935	5	1935
+1935	5	1935
+2451	5	1935
+2556	5	1935
+2978	5	1935
+849	5	1935
+830	6	1935
+849	6	1935
+944	6	1935
+1935	6	1935
+1935	6	1935
+1935	6	1935
+1936	6	1935
+1936	6	1935
+2111	6	1935
+
+
+************************
+
+************************
+Document:  CACM-1937.html
+************************
+
+
+CODAS: A Data Display System
+
+CODAS, a Customer Oriented Data System, is
+a user-oriented data retrieval and display system. 
+ The command language of the system provides the user
+with an easy means for specifying data retrieval 
+and display requests.  Data is displayed as tables and
+graphs produced in a format ready for publication. 
+ In this paper the statements of the request language
+and the general system design are described.
+
+CACM February, 1969
+
+Day, R. H.
+Mansfield, M. K.
+Ellis, M. E.
+
+data display, <B>information retrieval</B>, graphic display,
+command languages, report program generation, 
+management data processing
+
+3.50 3.51 3.59 3.70 3.75 3.79 4.20 4.29
+
+CA690201 JB February 20, 1978  11:32 AM
+
+1937	5	1937
+1937	5	1937
+1937	5	1937
+2002	5	1937
+1767	6	1937
+1937	6	1937
+
+
+************************
+
+************************
+Document:  CACM-2493.html
+************************
+
+
+Optimum Data Base Reorganization Points
+
+In certain data base organization schemes the
+cost per access may increase due to structural 
+inefficiencies caused by updates.  By reorganizing
+the data base the cost per access may be reduced. 
+ However, the high cost of a reorganization prohibits
+frequent reorganizations.  This paper examines 
+strategies for selecting the optimum reorganization points.
+
+CACM June, 1973
+
+Shneiderman, B.
+
+data base, reorganization, files, <B>information retrieval</B>
+
+3.73
+
+CA730607 JB January 23, 1978  2:14 PM
+
+2455	4	2493
+2493	4	2493
+2889	4	2493
+2968	4	2493
+2388	5	2493
+2493	5	2493
+2493	5	2493
+2493	5	2493
+2816	5	2493
+3129	5	2493
+2493	6	2493
+2493	6	2493
+2751	6	2493
+2816	6	2493
+2829	6	2493
+
+
+************************
+
+************************
+Document:  CACM-1699.html
+************************
+
+
+Experimental Evaluation of Information
+Retrieval Through a Teletypewriter
+
+Experiments designed to evaluate the capabilities
+of mechanized <B>information retrieval</B> systems, 
+with emphasis on interactive (man-machine) language and on
+some of the mechanical and psychological limitations 
+in their design, were conducted at the Moore School information
+Systems Laboratory.  The basic assumption 
+of the research is that an information retrieval system
+that provides for man-machine dialogue at a remote 
+inquiry terminal should provide a searcher with many
+of the tools which would be available to him were 
+he actually performing his search at a library or repository
+of documents.  Factors involved in evaluation 
+of such a system include ease of use, learning time, and
+effectiveness of actual retrieval.  Three experiments 
+and the conclusions resulting from them are detailed.
+
+CACM September, 1968
+
+Rubinoff, M.
+Bergman, S.
+Franks, W.
+Rubinoff, E.
+
+information retrieval testing,  information system
+evaluation, experimental document retrieval, 
+document retrieval, document perusal, man-machine communication,
+remote console communication, teletypewriter 
+communication, remote terminal communication, retrieval
+command language, symbolic command language, 
+interactive systems, user learning factors, on-line searching
+
+3.72 3.74 3.79 3.81
+
+CA680902 JB February 22, 1978  9:30 AM
+
+1155	4	1699
+1456	4	1699
+1468	4	1699
+1515	4	1699
+1681	4	1699
+1699	4	1699
+1699	4	1699
+1699	4	1699
+1856	4	1699
+2127	4	1699
+1194	5	1699
+1324	5	1699
+1681	5	1699
+1699	5	1699
+1699	5	1699
+1699	5	1699
+
+
+************************
+
+************************
+Document:  CACM-1359.html
+************************
+
+
+Data Filtering Applied to Information Storage and Retrieval Applications
+
+Manipulation of data strings is the most complex
+processing function <B>in information</B> storage 
+and retrieval applications.  Data string manipulation
+is discussed within the context of an interpretive 
+processing environment controlled by the use of procedural
+directives.  The sequence of procedural directives 
+is derived from a job assumed to be expressed in a user-oriented
+source language.  Each data string with 
+the structured data environment (data bank) is explicitly
+or implicitly related to a format declaration
+residing in a format library.  The processing mechanics
+associated with data string manipulation is developed 
+in accordance with a generalized data filtering concept.
+ This results in the implementation of a two-part 
+data filter module that satisfies internal processing
+functions by filtering data strings through format 
+declarations associated with its input and output ports.
+
+CACM November, 1966
+
+Larsen, R. P.
+
+CA661101 JB March 2, 1978  3:52 PM
+
+1359	5	1359
+1359	5	1359
+1359	5	1359
+
+
+************************
+
+************************
+Document:  CACM-2160.html
+************************
+
+
+Canonical Structure in Attribute Based File Organization
+
+A new file structure for attribute based retrieval
+is proposed in this paper.  It allows queries 
+involving arbitrary Boolean functions of the attribute-value
+pairs to be processed without taking intersections 
+of lists.  The structure is highly dependent on the
+way in which the file is to be used and is uniquely 
+determined by the specification of the allowed queries.
+ Thus, for example, the structure for retrieval 
+on the basis of ranges of values of a given attribute would
+be very different from one where only retrieval 
+on the basis of a single value is permitted.  The file
+organization being proposed is based on the atoms 
+of a Boolean algebra generated by the queries.  The desirable
+properties claimed for this structure are 
+proved, and file maintenance questions are discussed.
+
+CACM September, 1971
+
+Wong, E.
+Chiang, T. C.
+
+address calculation, atoms of Boolean algebra,
+attributes, Boolean functions, Boolean queries, 
+file organization, <B>information retrieval</B>, inverted
+file, key words, multilist, queries, searches 
+
+3.70 3.73 3.74
+
+CA710904 JB February 2, 1978  2:22 PM
+
+2160	4	2160
+2688	4	2160
+2114	5	2160
+2160	5	2160
+2160	5	2160
+2160	5	2160
+3134	5	2160
+1976	6	2160
+2160	6	2160
+2524	6	2160
+2990	6	2160
+
+
+************************
+
+************************
+Document:  CACM-2990.html
+************************
+
+
+Effective Information Retrieval Using Term Accuracy
+
+The performance of <B>information retrieval</B> systems
+can be evaluated in a number of different 
+ways.  Much of the published evaluation work is based
+on measuring the retrieval performance of an average 
+user query.  Unfortunately, formal proofs are difficult
+to construct for the average case.  In the present 
+study, retrieval evaluation is based on optimizing the
+performance of a specific user query.  The concept 
+of query term accuracy is in troduced as the probability
+of occurrence of a query term in the documents 
+relevant to that query.  By relating term accuracy
+to the frequency of occurrence of the term in the 
+documents of a collection it is possible to give formal
+proofs of the effectiveness with respect to a 
+given user query of a number of automatic indexing systems
+that have been used successfully in experimental 
+situations.  Among these are inverse document frequency
+weighting, thesaurus construction, and phrase 
+generation.
+
+CACM March, 1977
+
+Yu, C. T.
+Salton, G.
+
+information retrieval, automatic indexing, content
+analysis, term accuracy, frequency weighting, 
+thesaurus and phrase transformations
+
+3.71 3.72 3.75
+
+CA770302 JB December 30, 1977  1:52 AM
+
+2990	5	2990
+2990	5	2990
+2990	5	2990
+3134	5	2990
+1976	6	2990
+2160	6	2990
+2524	6	2990
+2990	6	2990
+
+
+************************
+
+************************
+Document:  CACM-2967.html
+************************
+
+
+A Comparison of Hardware and Software Associative
+Memories in the Context of Computer Graphics
+
+The Associative Processing of Line Drawings (APLD)
+System utilizes a hardware associative memory 
+and creates, modifies, deletes, stores, and retrieves
+two-dimensional line drawings consisting of poin ts,
+lines, rectangles, and triangles. The APLD functions
+were duplicated on the TX-2 computer at M.'s 
+Lincoln Laboratory under the LEAP Language and Data
+Structure,  A comparison of the hardware approach 
+with the software simulation illustrates the advantages
+of the hardware associative memory in three areas: 
+(1) processing speed, (2) storage requirements, and (3)
+flexibility.  The major problem areas of hardware 
+associative memory technology, namely input/output
+and cost effectiveness, are also addressed.
+
+CACM May, 1977
+
+Stillman, N. J.
+Berra, P. B.
+
+associative memory, associative processor, content-addressable
+memory, graphics, <B>information retrieval</B>, 
+data structures, software evaluation, hardware evaluation,
+parallel processing, database management
+
+3.71 3.72 3.73 3.74 4.34 4.6 6.22 8.2
+
+CA770505 JB December 29, 1977  2:07 AM
+
+2719	4	2967
+2967	4	2967
+2151	5	2967
+2967	5	2967
+2967	5	2967
+2967	5	2967
+
+
+************************
+
+************************
+Document:  CACM-2795.html
+************************
+
+
+Sentence Paraphrasing from a Conceptual Base
+
+A model of natural language based on an underlying
+language-free representation of meaning 
+is described.  A program based on this model is able
+to produce sentence paraphrases which demonstrate 
+understanding with respect to a given context.  This
+generator operates in conjunction with a natural 
+language analyzer and a combined memory and inference model.
+ In generating sentences from meaning structures, 
+the program employs both the <B>information retrieval</B> and
+deduction capabilities of the memory model.  The 
+model encompasses several diverse classes of linguistic
+knowledge, which include: (1) executable tests 
+of conceptual properties stored in discrimination nets;
+(2) information relating conceptual to syntactic 
+roles, stored in a word-sense dictionary, and (3) surface
+grammatical knowledge, stored in a formal grammar.
+
+CACM February, 1975
+
+Goldman, N. M.
+
+artificial intelligence, natural language processing,
+language generation, models of cognitive 
+processes, semantic representation
+
+3.42 3.60 3.65
+
+CA750204 JB January 12, 1978  8:43 AM
+
+1885	4	2795
+2581	4	2795
+2739	4	2795
+2795	4	2795
+2795	4	2795
+2795	4	2795
+2921	4	2795
+3087	4	2795
+1928	5	2795
+1989	5	2795
+2274	5	2795
+2795	5	2795
+2795	5	2795
+2795	5	2795
+
+
+************************
+
+************************
+Document:  CACM-2722.html
+************************
+
+
+Multidimensional Binary Search Trees Used for Associative Searching
+
+This paper develops the multidimensional binary
+search tree (or k-d tree, where k is the dimensionality 
+of the search space) as a data structure for storage of
+information to be retrieved by associative searches. 
+The k-d tree is defined and examples are given. It
+is shown to be quite in its storage requirements. 
+ A significant advantage of this structure is that a single
+data structure can handle many types of queries 
+very efficiently.  Various utility algorithms are developed;
+their proven average running times in an 
+n record file are: insertion, O (log n); deletion of
+the root, O (n^(k-1)/k); deletion of a random node, 
+O (log n); and optimization (guarantees logarithmic performance
+of searches), O (n log n).  Search algorithms 
+are given for partial match queries with t keys specified
+[proven maximum running time of O (n^(k-t)/k)] 
+and for nearest neighbor queries [empirically observed average
+running time of O (log n).]  These performances 
+far surpass the best currently known algorithms for
+these tasks.  An algorithm is presented to handle 
+any general intersection query. The main focus of this
+paper theoretical.  It is felt, however, that 
+k-d trees could be quite useful in many applications,
+and examples of potential uses are given.
+
+CACM September, 1975
+
+Bently, J. L.
+
+associative retrieval, binary search trees, key,
+attribute, <B>information retrieval</B> system, nearest 
+neighbor queries, partial match queries, intersection
+queries, binary tree insertion
+
+3.63 3.70 3.74 4.49
+
+CA750902 JB January 6, 1978  3:22 PM
+
+2722	5	2722
+2722	5	2722
+2722	5	2722
+
+
+************************
+
+************************
+Document:  CACM-2781.html
+************************
+
+
+The Algorithm Sequential Access Method:
+An Alternative to Index Sequential
+
+CACM March, 1975
+
+Whitt, J. D.
+Sullenberger, A. G.
+
+keys, direct access method, sequential access
+method, randomizing <B>information retrieval</B>
+
+3.7
+
+CA750307 JB January 9, 1978  4:37 PM
+
+2258	4	2781
+2319	4	2781
+2313	4	2781
+2359	4	2781
+2437	4	2781
+2552	4	2781
+2781	4	2781
+2860	4	2781
+2991	4	2781
+2203	5	2781
+2781	5	2781
+2781	5	2781
+2781	5	2781
+
+
+************************
+
+************************
+Document:  CACM-2050.html
+************************
+
+
+Automatic Parsing for Content Analysis
+
+Although automatic syntactic and semantic analysis is not yet possible for
+all of an unrestricted natural language text, some applications, of which 
+content analysis is one, do not have such a stringent coverage requirement.
+Preliminary studies show that the Harvard Syntactic Analyzer can
+produce correct and unambiguous identification of the subject and
+object of certain verbs for approximately half of the relevant occurrences. 
+This provides a degree of coverage for content analysis variables which 
+compares favorably to manual methods, in variables which compares favorably 
+to manual methods, in which only a sample of the total available text is 
+normally processed.
+
+CACM June, 1970
+
+Damerau, F. J.
+
+Content analysis, parsing, syntactic analysis, natural language processing,
+<B>information retrieval</B>, language analysis, text processing
+
+3.42 3.71
+
+CA700605 JB February 13, 1978  11:43 AM
+
+1350	4	2050
+1659	4	2050
+1856	4	2050
+2050	4	2050
+1225	5	2050
+2050	5	2050
+2050	5	2050
+2050	5	2050
+
+
+************************
+
+************************
+Document:  CACM-2139.html
+************************
+
+
+Implementation of the Substring Test by Hashing
+
+A technique is described for implementing the
+test which determines if one string is a substring 
+of another.  When there is low probability that the test
+will be satisfied, it is shown how the operation 
+can be speeded up considerably if it is preceded by
+a test on appropriately chosen hash codes of the 
+strings.
+
+CACM December, 1971
+
+Harrison, M. C.
+
+substring, hashing, subset, signature, information
+compression, <B>information retrieval</B>, searching
+
+3.74 5.30 5.6
+
+CA711204 JB February 2, 1978  10:14 AM
+
+2139	5	2139
+2139	5	2139
+2139	5	2139
+2532	5	2139
+2631	5	2139
+2746	5	2139
+3001	5	2139
+1665	6	2139
+1739	6	2139
+2033	6	2139
+2139	6	2139
+2139	6	2139
+2139	6	2139
+2139	6	2139
+2532	6	2139
+2545	6	2139
+2786	6	2139
+
+
+************************
+
+************************
+Document:  CACM-2484.html
+************************
+
+
+A Note on Information Organization and Storage
+
+Since the logical structure of a data base
+can be represented by a tree or graph, it is quite 
+natural for us to view the process of designing a data
+base as that of constructing a tree or a graph. 
+ A general method for constructing such a tree or a graph
+is provided.  There are three important elements 
+in this general construction method; namely, a set of
+binary relations, an algorithm for constructing 
+subsets of a set, and an algorithm for selecting an
+element from the given set of objects.  The use of 
+different relations and algorithms results in different
+information structures, as list, tree, ring, 
+etc.  Thus the problem of information organization and
+storage is reduced to that of defining relations 
+and formulating algorithms under a given set of constraints.
+ The results presented may be valuable to 
+designers as useful design concepts, and may serve as
+a basis for developing a formal theory on the subject.
+
+CACM July, 1973
+
+Huang, J. C.
+
+data base, data-base management, <B>information retrieval</B>,
+information structure, file organization, 
+storage allocation, tree, graph
+
+3.70 3.73 3.74 5.32
+
+CA730702 JB January 23, 1978  1:14 PM
+
+2484	5	2484
+2484	5	2484
+2484	5	2484
+
+
+************************
+
+************************
+Document:  CACM-2976.html
+************************
+
+
+Approximating Block Accesses in Database Organizations
+
+CACM April, 1977
+
+Yao, S. B.
+
+database, inverted file organization, database performance
+and measurement, <B>information retrieval</B>, 
+query answering
+
+3.70 3.72 4.33
+
+CA770406 JB December 29, 1977  5:06 AM
+
+2976	4	2976
+2976	4	2976
+2976	4	2976
+2688	5	2976
+2765	5	2976
+2882	5	2976
+2976	5	2976
+2976	5	2976
+2976	5	2976
+
+
 ************************
 
 ************************
@@ -11,7 +1885,7 @@ Document:  CACM-1457.html
 Data Manipulation and Programming Problems
 in Automatic Information Retrieval
 
-Automatic information retrieval programs require
+Automatic <B>information retrieval</B> programs require
 the manipulation of a variety of different 
 data structures, including linear text, sparse matrices,
 and tree or list structures.  The main data 
@@ -37,6 +1911,480 @@ CA660315 JB March 3, 1978  11:35 AM
 1457	5	1457
 1457	5	1457
 1457	5	1457
+
+
+************************
+
+
+
+Data Manipulation and Programming Problems
+in Automatic Information Retrieval
+
+Automatic information retrieval programs require
+the manipulation of a variety of different 
+data structures, including linear text, sparse matrices,
+and tree or list structures.  The main data 
+manipulations to be performed in automatic information
+systems are first briefly reviewed.  A variety 
+of data representations which have been used to describe
+structured information are then examined, and 
+the characteristics of various processing languages are
+outlined in the light of the procedures requiring 
+implementation.  Advantages of these programming languages
+for the retrieval application are examined, 
+and suggestions are made for the design of programming
+facilities to aid <B>in information</B> retrieval.
+
+CACM March, 1966
+
+Salton, G.
+
+CA660315 JB March 3, 1978  11:35 AM
+
+1457	4	1457
+1236	5	1457
+1457	5	1457
+1457	5	1457
+1457	5	1457
+
+
+************************
+
+************************
+Document:  CACM-2141.html
+************************
+
+
+Algorithmic Selection of the Best
+Method for Compressing Map Data Strings
+
+The best of a dozen different methods for
+compressing map data is illustrated.  The choices 
+are generated by encoding data strings-sequence of like
+codes-by three methods and in four directions. 
+ Relationships are developed between compression alternatives
+to avoid comparing all of them.  The technique 
+has been used to compress data from forest resource maps,
+but is widely applicable to map and photographic 
+data reduction.
+
+CACM December, 1971
+
+Amidon, E. L.
+Akin, G. S.
+
+data compression, map storage, <B>information retrieval</B>,
+input/output, run coding, data reduction
+
+3.71 3.74
+
+CA711202 JB February 2, 1978  10:23 AM
+
+2141	5	2141
+2141	5	2141
+2141	5	2141
+
+
+************************
+
+************************
+Document:  CACM-3169.html
+************************
+
+
+Note on "An Optimal Evaluation of Boolean Expressions 
+in an Online Query System."
+
+CACM October, 1979
+
+Gudes, E.
+Hoffman, A.
+
+Query, Boolean expression, optimal evaluation, <B>information retrieval</B>
+
+3.50 3.70 3.74
+
+CA791002 DB January 16, 1980  4:52 PM
+
+3168	4	3169
+3169	4	3169
+2965	5	3169
+3169	5	3169
+3169	5	3169
+3169	5	3169
+
+
+************************
+
+************************
+Document:  CACM-2390.html
+************************
+
+
+A Proposal for a Computer-Based Interactive Scientific Community
+
+Because of the problems created by the explosion
+of papers in the mathematical sciences and 
+the drawbacks that this places on research, it is suggested
+that a tree of all mathematical results and 
+terminology be maintained in a multiterminal computer system.
+ Users of the system can store in the computer 
+an updated file of their current knowledge, and on selecting
+a paper to read, they can obtain from the 
+computer the minimum subtree of theorems required to bring
+them from what they already know to the background 
+knowledge which the paper assumes.  Under certain conditions,
+means are also provided for the contribution 
+of useful comments by the readers of a work and for interaction
+between commentators and with the author. 
+ This paper describes how the system can be organized
+and the role required of readers, writers, and 
+commentators. 
+
+CACM February, 1972
+
+Pager, D.
+
+interactive system, organization of scientific community,
+readers, writers, commentators, computer 
+utility, <B>information retrieval</B>, trees, data structures
+
+1.0 1.1 1.59 2.10 3.15 3.32 3.50 3.51 3.70 3.71 3.74 3.9
+
+CA720201 JB February 1, 1978  8:51 AM
+
+2390	5	2390
+2390	5	2390
+2390	5	2390
+2519	5	2390
+2390	6	2390
+
+
+************************
+
+************************
+Document:  CACM-2711.html
+************************
+
+
+A Vector Space Model for Automatic Indexing
+
+In a document retrieval, or other pattern matching
+environment where stored entities (documents) 
+are compared with each other or with incoming patterns
+(search requests), it appears that the best indexing 
+(property) space is one where each entity lies as far away
+from the others as possible; in these circumstances 
+the value of an indexing system may be expressible
+as a function of the density of the object space; 
+in particular, retrieval performance may correlate inversely
+with space density.  An approach based on 
+space density computations is used to choose an optimum
+indexing vocabulary for a collection of documents. 
+ Typical evaluation results are shown, demonstrating
+the usefulness of the model.
+
+CACM November, 1975
+
+Salton, G.
+Wong, A.
+Yang, C. S.
+
+automatic <B>information retrieval</B>, automatic
+indexing, content analysis, document space
+
+3.71 3.73 3.74 3.75
+
+CA751101 JB January 6, 1978  10:14 AM
+
+2711	5	2711
+2711	5	2711
+2711	5	2711
+
+
+************************
+
+************************
+Document:  CACM-2288.html
+************************
+
+
+File Organization: The Consecutive Retrieval Property
+
+The consecutive retrieval property is an important
+relation between a query set and record 
+set.  Its existence enables the design of an information
+retrieval system with a minimal search time 
+and no redundant storage.  Some important theorems on
+the consecutive retrieval property are proved in 
+this paper.  Conditions under which the consecutive retrieval
+property exists and remain invariant have 
+been established.  An outline for designing an information
+retrieval system based on the consecutive 
+retrieval property is also discussed.
+
+CACM September, 1972
+
+Ghosh, S. P.
+
+file organization, consecutive storage, consecutive
+retrieval, <B>information retrieval</B>, record organization, 
+query structure, record structure, storage on
+tapes, storage space, minimum access time
+
+3.70 3.73 3.74
+
+CA720902 JB January 27,1978  4:52 PM
+
+2288	5	2288
+2288	5	2288
+2288	5	2288
+2729	5	2288
+2288	6	2288
+2801	6	2288
+
+
+************************
+
+************************
+Document:  CACM-1680.html
+************************
+
+
+A General-Purpose Display Processing and Tutorial System
+
+ADEPT (A display-Expedited Processing and Tutorial)
+system is described.  This system was designed 
+to improve man-computer communications by employing
+a display unit to interleave tutoring with other 
+computer operations such as simulation, programming, and
+<B>information retrieval</B>.  It is written in FORTRAN 
+IV (G) for the IBM System/360, Model 40, and the IBM 2250
+display Unit under Operating System/360.  Adept 
+is a cataloged program that controls the standard operating
+system by terminating and rescheduling itself 
+automatically, relinquishing computer resources allocated
+to it, and surrendering control to the operating 
+system to perform other jobs.  It expands the power
+and flexibility of computer-assisted instruction 
+by making immediately available to students, teachers,
+and other users, the full resources (system-cataloged 
+programs) of the operating system.  Language processors
+and compilers, simulation models, mathematical 
+solution techniques, stored data, and all other library and
+user programs can be incorporated into instructional 
+material without reprogramming.  Illustrations of the various
+applications are presented and their implications 
+are discussed.
+
+CACM October, 1968
+
+Engvold, K. J.
+Hughes, J. L.
+
+computer-assisted instruction, tutorial systems,
+programming, simulation, modeling, information 
+retrieval operating systems, graphics, displays, man-machine
+interface, on-line computing, graphic programming
+
+1.5 3.3 3.5 3.8 4.0 4.3
+
+CA681007 JB February 21, 1978  3:36 PM
+
+1680	4	1680
+1591	5	1680
+1680	5	1680
+1680	5	1680
+1680	5	1680
+
+
+************************
+
+************************
+Document:  CACM-1652.html
+************************
+
+
+A Code for Non-numeric Information Processing
+Applications in Online Systems
+
+A code has been specifically designed to simplify
+the internal information processing operations 
+within an online computer system with respect to non-numeric
+applications, and to maximize the transfer 
+rate of the information channel linking the system and
+the system user.  The code has direct application 
+to problems in area such as <B>information retrieval</B>, document
+classification, computer-aided teaching and 
+text editing.  This code, called IPC (Information Processing
+Code), is an 8-bit code set constructed 
+so that 7, 6, 5 and 4-bit subsets can be easily derived
+from the basic set.  The code set is organized 
+so that simple binary operations can distinguish between
+the numeric alphabetic, special symbol and control 
+character codes.  The number of usable characters within
+the basic set size may be expanded either by 
+use of escape codes included in the set, or by suitable
+interpretation of otherwise unassigned codes 
+on the basis of the requirements of local environments.
+
+CACM January, 1967
+
+Morenoff, E.
+McLean, J. B.
+
+CA670103 JB March 1, 1978  9:05 AM
+
+1652	5	1652
+1652	5	1652
+1652	5	1652
+
+
+************************
+
+************************
+Document:  CACM-2032.html
+************************
+
+
+File Structures Using Hashing Functions
+
+A general method of file structuring is proposed which uses a hashing
+function to define tree structure.  Two types of such trees are examined, 
+and their relation to trees studied in the past is explainedesults for the 
+probability distributions of path lengths are derived and illustrated.
+
+CACM July, 1970
+
+Coffman Jr., E. G.
+Eve, J.
+
+Data structures, tree structures, file structures, scatter
+tables, hashing functions, <B>information retrieval</B>
+
+3.70 3.74
+
+CA700705 JB February 13, 1978  8:49 AM
+
+1050	4	2032
+1676	4	2032
+1682	4	2032
+1728	4	2032
+1860	4	2032
+1935	4	2032
+1936	4	2032
+1973	4	2032
+2017	4	2032
+2018	4	2032
+2032	4	2032
+2032	4	2032
+2033	4	2032
+2107	4	2032
+2109	4	2032
+2203	4	2032
+2251	4	2032
+2257	4	2032
+2360	4	2032
+2359	4	2032
+2451	4	2032
+2452	4	2032
+2524	4	2032
+2543	4	2032
+2552	4	2032
+2559	4	2032
+2991	4	2032
+3053	4	2032
+1785	5	2032
+2032	5	2032
+2032	5	2032
+2032	5	2032
+849	5	2032
+
+
+************************
+
+************************
+Document:  CACM-3135.html
+************************
+
+
+Detection of Three-Dimensional Patterns of Atoms in Chemical Structures
+
+An algorithm for detecting occurrences of a three-dimensional pattern of
+objects within a larger structure is presented.  The search technique
+presented uses the geometric structure of the pattern to define
+characteristics demanded of candidates for matching. This is useful
+in cases where the properties of each atom, considered individually,
+do not adequately limit the number of sets of possible matchings.
+Several applications of this technique in the field of chemistry
+are: (1) in pharmacology: searching for a common constellation
+of atoms in molecules possessing similar biological activities;
+(2) in X-ray crystallography: fitting a structure or a structural fragment
+to a set of peaks in the electron-density distribution of
+a Fourier map; (3) in chemical documentation; retrieving from
+a file the structures containing specified substructures.
+
+CACM April, 1979
+
+Lesk, A.
+
+Three-dimensional pattern recognition, chemical
+structure search, <B>information retrieval</B>, crystal
+-structure analysis, drug analysis and design
+
+3.13 3.63 3.74
+
+CA790401 DH May 21, 1979  10:50 AM
+
+2521	5	3135
+3135	5	3135
+3135	5	3135
+3135	5	3135
+2028	6	3135
+2031	6	3135
+3135	6	3135
+
+
+************************
+
+************************
+Document:  CACM-2140.html
+************************
+
+
+Retrieval-Update Speed Tradeoffs Using Combined Indices
+
+In a paper in the November 1970 Communications
+of the ACM, V. Y. Lum introduced a technique 
+of file indexing named combined indices.  This technique
+permitted decreased retrieval time at the cost 
+of increased storage space.  This paper examines combined
+indices under conditions of file usage with 
+different fractions of retrieval and update.  Tradeoff
+curves are developed to show minimal cost of file 
+usage by grouping various partially combined indices.
+
+CACM December, 1971
+
+Mullin, J. K.
+
+file organization, combined index files, inverted
+files, <B>information retrieval</B>, query, multi-attribute 
+retrieval, file update
+
+3.73 3.74 3.79
+
+CA711203 JB February 2, 1978  10:18 AM
+
+2140	4	2140
+2452	4	2140
+2765	4	2140
+2901	4	2140
+3134	4	2140
+1976	5	2140
+2140	5	2140
+2140	5	2140
+2140	5	2140
 
 
 ************************

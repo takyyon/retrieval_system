@@ -1,3 +1,179 @@
 Snippets for the query:  Distributed computing structures and algorithms
 ************************
-No snippets found for the query..
+Total Hits:  4
+************************
+
+************************
+Document:  CACM-2646.html
+************************
+
+
+A Model for Masking Rotational Latency by Dynamic Disk Allocation
+
+This paper presents the background <B>and algorithms</B>
+for masking the rotational latency of a disk 
+or drum.  It discusses the anticipatory input and output
+of blocks of data to buffer and primary memories 
+for a mono-programmed computer system.  A basic permutation
+algorithm and several variations are given. 
+  Because of the anticipatory nature of the I/O scheduling,
+these algorithms are restricted to classes 
+of programs with predictable behavior.  While the methods
+are not restricted to numerical computations, 
+matrix and partial differential equation methods are
+typical examples of their use.  It is shown that 
+latency may be masked using a small amount of buffer
+memory.  The methods discussed are independent of 
+the overall size of the data base being considered.
+
+CACM May, 1974
+
+Gold, D. E.
+Kuck, D. J.
+
+buffer memory, memory hierarchy, permutation algorithm,
+rotational latency, staging, storage allocation
+
+4.41 6.20
+
+CA740507 JB January 17, 1978  3:59 PM
+
+2646	5	2646
+2646	5	2646
+2646	5	2646
+
+
+************************
+
+************************
+Document:  CACM-2924.html
+************************
+
+
+An Interactive Computer Graphics Approach to Surface Representation
+
+An in teractive computer graphics method has been
+developed for the rapid generation of arbitrary 
+shaped three-dimensional surfaces.  The method is a synthesis
+of spline theory <B>and algorithms</B>, an in teractive 
+means for man-machine communication, and software for
+static or dynamic graphics display.  The basic 
+technique employed is a modified lofting method on
+which sectional curves are represented by uniform 
+B-splines and the surface is in terpolated between sections
+by Cardinal splines.  Among the features of 
+this method are algorithms which enable in teractive
+modification of the B-spline representation of the 
+sectional curves.  At all stages of the process, the
+spatial information is graphically displayed to 
+the user.  Complex surfaces can be created by the combination
+of a number of shapes that have been separately 
+generated and automatically joined.  The system has been
+successfully in terfaced to a variety of analytical 
+routines for structural, medical and graphical applications.
+
+CACM October, 1977
+
+Wu, Sheng-Chuan
+Abel, J. F.
+Greenberg, D. P.
+
+computer graphics, three-dimensional surface representation,
+splines, lofting,finite element input 
+methods
+
+3.20 3.23 3.34 8.1 8.2
+
+CA771002 JB December 27, 1977  11:53 AM
+
+2924	5	2924
+2924	5	2924
+2924	5	2924
+
+
+************************
+
+************************
+Document:  CACM-2484.html
+************************
+
+
+A Note on Information Organization and Storage
+
+Since the logical structure of a data base
+can be represented by a tree or graph, it is quite 
+natural for us to view the process of designing a data
+base as that of constructing a tree or a graph. 
+ A general method for constructing such a tree or a graph
+is provided.  There are three important elements 
+in this general construction method; namely, a set of
+binary relations, an algorithm for constructing 
+subsets of a set, and an algorithm for selecting an
+element from the given set of objects.  The use of 
+different relations <B>and algorithms</B> results in different
+information structures, as list, tree, ring, 
+etc.  Thus the problem of information organization and
+storage is reduced to that of defining relations 
+and formulating algorithms under a given set of constraints.
+ The results presented may be valuable to 
+designers as useful design concepts, and may serve as
+a basis for developing a formal theory on the subject.
+
+CACM July, 1973
+
+Huang, J. C.
+
+data base, data-base management, information retrieval,
+information structure, file organization, 
+storage allocation, tree, graph
+
+3.70 3.73 3.74 5.32
+
+CA730702 JB January 23, 1978  1:14 PM
+
+2484	5	2484
+2484	5	2484
+2484	5	2484
+
+
+************************
+
+************************
+Document:  CACM-0409.html
+************************
+
+
+CL-1, An Environment for a Compiler
+
+A flexible, large-scale programming system to
+facilitate the solution of information processing 
+problems and to provide intercommunication between programs
+and/or programmers has been developed and 
+realized on the IBM 709/7090 computer.  The system is
+based on a master file concept and has provisions 
+for accepting, storing, and retrieving both descriptions
+and instances of large and complex data sets, 
+as well as algorithms defined on these data sets.  Both
+data <B>and algorithms</B> may be expressed in a family 
+of command and descriptive languages.  The concept
+of distinct data descriptions and the content and 
+use of such descriptions are discussed in some detail.
+
+CACM January, 1961
+
+Cheatham Jr., T. E.
+Collins Jr., G. O.
+Leonard, G. F.
+
+CA610105 JB March 17, 1978  1:26 AM
+
+409	5	409
+409	5	409
+409	5	409
+657	5	409
+279	6	409
+409	6	409
+
+
+************************
+

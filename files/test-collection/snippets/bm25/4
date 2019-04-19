@@ -1,6 +1,39 @@
 Snippets for the query:  I'd like papers on design and implementation of editing interfaces, window-managers, command interpreters, etc. The essential issues are human interface design, with views on improvements to user efficiency, effectiveness and satisfaction.
 ************************
-Total Hits:  7
+Total Hits:  39
+************************
+
+************************
+Document:  CACM-3137.html
+************************
+
+
+A Methodology for the Design of Distributed Information Systems
+
+A macro model of a distributed information system in presented.  The model
+describes the major costs of using an information
+system from the perspective of the end-user.  The making evident the effect of
+various <B>design and</B> operating parameters on overall cost per transaction.
+ The technique is illustrated by application to the design
+of an interactive transaction processing system.
+
+CACM April, 1979
+
+Bucci, G.
+Streeter, D.
+
+Distributed processing, system design, cost minimization, distributed
+database, interactive computing, economic modeling, transaction processing
+
+4.32 4.33 6.2 8.1
+
+CA790403 DH May 21, 1979  1:25 PM
+
+3137	5	3137
+3137	5	3137
+3137	5	3137
+
+
 ************************
 
 ************************
@@ -10,7 +43,72 @@ Document:  CACM-2786.html
 
 A System for Typesetting Mathematics
 
-This paper describes the design and implementation
+This paper describes the design <B>and implementation</B>
+of a system for typesetting mathematics. 
+ The language has been designed to be easy to learn
+and to use by people (for example, secretaries and 
+mathematical typists) who know neither mathematics nor
+typesetting.  Experience indicates that the language 
+can be learned in an hour or so, for it has few rules
+and fewer exceptions.  For typical expressions, 
+the size and font changes, positioning, line drawing, and
+the like necessary to print according to mathematical 
+conventions are all done automatically.  For example,
+the input sum from i=o to infinity x sub i=pi over 
+2 produces (formula).  The syntax of the language is specified
+by a small context-free grammar; a compiler-compiler 
+is used to make a compiler that translates this language
+into typesetting commands.  Output maybe produced 
+on either a phototypesetter or on a terminal with forward
+and reverse half-line motions.  The system 
+interfaces directly with text formatting programs, so
+mixtures of text and mathematics may be handled 
+simply.  This paper was typeset by the authors using the system described 
+
+CACM March, 1975
+
+Kernighan, B. W.
+Cherry, L. L.
+
+typesetting, photocomposition,compiler-compiler,
+graphics, printing, text processing.
+
+4.12 4.22 8.2
+
+CA750302 JB January 10, 1978  8:56 AM
+
+2626	4	2786
+2786	4	2786
+2840	4	2786
+2919	4	2786
+3017	4	2786
+3110	4	2786
+3174	4	2786
+2629	5	2786
+2733	5	2786
+2746	5	2786
+2786	5	2786
+2786	5	2786
+2786	5	2786
+1665	6	2786
+1739	6	2786
+1781	6	2786
+2139	6	2786
+2179	6	2786
+2423	6	2786
+2545	6	2786
+2786	6	2786
+2786	6	2786
+799	6	2786
+
+
+************************
+
+
+
+A System for Typesetting Mathematics
+
+This paper describes the <B>design and</B> implementation
 of a system for typesetting mathematics. 
  The language has been designed to be easy to learn
 and to use by people (for example, secretaries and 
@@ -72,60 +170,115 @@ CA750302 JB January 10, 1978  8:56 AM
 ************************
 
 ************************
-Document:  CACM-2542.html
-************************
-
-
-A Software Design and Evaluation System
-
-A critical failure of current software system
-design and implementation methodology is that 
-the performance of a proposed design is not evaluated
-before it is actually implemented.  In this paper 
-the reasons for this failure are explored, and a new methodology
-which overcomes many of the difficulties 
-is proposed.  A system which integrates performance evaluation
-with design and implementation is described. 
- This system is based on a simple, high level language
-which is used to describe the evolving system 
-at all stages of its development.  The source language
-description is used as direct input to performance 
-analysis and simulation routines.  Using the performance
-information obtained from these routines as 
-feedback, the problems which adversely affect performance
-are detected early enough so that they can 
-be corrected without costly major reimplementation of the proposed system.
-
-CACM February, 1973
-
-Graham, R. M.
-Clancy, G. J. Jr.
-DeVaney, D. B.
-
-operating system development, language processing
-software evaluation, compilers, system programming, 
-supervisory systems, debugging, program maintenance,
-modeling, system integration, simulation
-
-4.0 4.12 4.22 4.30 4.42 4.43 8.1
-
-CA730206 JB January 24, 1978  2:07 PM
-
-2542	5	2542
-2542	5	2542
-2542	5	2542
-
-
-************************
-
-************************
 Document:  CACM-1671.html
 ************************
 
 
 A Phonological Rule Tester
 
-The design and implementation of a system to
+The design <B>and implementation</B> of a system to
+alleviate the problem of rule evaluation for the 
+linguist in the area of phonology are presented.  It
+permits the user to define, on-line, sets of rules 
+statable within the framework presented in The Sound
+Patterns of English by Chomsky and Halle, 1968, 
+to define phonemes as bundles of specified distinctive
+features, to define data as strings of phonemes 
+with associated grammatical structure, to test the effect
+of applying rules to the data, and to store 
+both the definitions and results.  The rule application
+facility described in detail was implemented 
+by translating linguistic rules to rules in FLIP, a
+format-directed list processor embedded in LISP. 
+ This made the system construction easy while providing
+sophisticated capabilities for the linguist. 
+ The system is written in BBN LISP on the Scientific
+Data System 940 computer and is designed to be used 
+on-line in interactive fashion, with control returned
+to the user after each command is executed.
+
+CACM November, 1968
+
+Borrow, D. G.
+Fraser, J. B.
+
+phonology, rule tester, linguistics, transformational
+grammar, LISP, format-directed list processing, 
+on-line systems
+
+3.42 4.13 4.22
+
+CA681108 JB February 21, 1978  2:41 PM
+
+1659	5	1671
+1671	5	1671
+1671	5	1671
+1671	5	1671
+1225	6	1671
+1265	6	1671
+1350	6	1671
+1671	6	1671
+1697	6	1671
+
+
+************************
+
+
+
+A Phonological Rule Tester
+
+The <B>design and</B> implementation of a system to
+alleviate the problem of rule evaluation for the 
+linguist in the area of phonology are presented.  It
+permits the user to define, on-line, sets of rules 
+statable within the framework presented in The Sound
+Patterns of English by Chomsky and Halle, 1968, 
+to define phonemes as bundles of specified distinctive
+features, to define data as strings of phonemes 
+with associated grammatical structure, to test the effect
+of applying rules to the data, and to store 
+both the definitions and results.  The rule application
+facility described in detail was implemented 
+by translating linguistic rules to rules in FLIP, a
+format-directed list processor embedded in LISP. 
+ This made the system construction easy while providing
+sophisticated capabilities for the linguist. 
+ The system is written in BBN LISP on the Scientific
+Data System 940 computer and is designed to be used 
+on-line in interactive fashion, with control returned
+to the user after each command is executed.
+
+CACM November, 1968
+
+Borrow, D. G.
+Fraser, J. B.
+
+phonology, rule tester, linguistics, transformational
+grammar, LISP, format-directed list processing, 
+on-line systems
+
+3.42 4.13 4.22
+
+CA681108 JB February 21, 1978  2:41 PM
+
+1659	5	1671
+1671	5	1671
+1671	5	1671
+1671	5	1671
+1225	6	1671
+1265	6	1671
+1350	6	1671
+1671	6	1671
+1697	6	1671
+
+
+************************
+
+
+
+A Phonological Rule Tester
+
+The design and <B>implementation of</B> a system to
 alleviate the problem of rule evaluation for the 
 linguist in the area of phonology are presented.  It
 permits the user to define, on-line, sets of rules 
@@ -173,13 +326,231 @@ CA681108 JB February 21, 1978  2:41 PM
 ************************
 
 ************************
+Document:  CACM-3127.html
+************************
+
+
+Thoth, a Portable Real-Time Operating System 
+
+Thoth isa real-time operating system which is designed to be portable
+over a large set of machines.  It is currently running on two minicomputers
+with quite different architectures.  Both the system and application
+programs which use it are written in a high-level language.
+Because the system is implemented by the same software on different
+hardware, it has the same interface <B>to user</B> programs.  Hence,
+application programs which use Thoth are  highly portable.  Thoth
+encourages structuring programs as networks of communicating processes 
+by providing efficient interprocess communication primitives.
+
+CACM February, 1979
+
+Cheriton, D.
+Malcolm, M.
+Melen, L.
+Sager, G.
+
+Portability, real time, operating systems, minicomputer
+
+3.80 4.30 4.35
+
+CA790206 DH April 12, 1979  9:10 AM
+
+2319	4	3127
+2378	4	3127
+2320	4	3127
+2632	4	3127
+2738	4	3127
+2740	4	3127
+2868	4	3127
+2928	4	3127
+3127	4	3127
+3127	4	3127
+2080	5	3127
+2277	5	3127
+3127	5	3127
+3127	5	3127
+3127	5	3127
+
+
+************************
+
+************************
+Document:  CACM-1272.html
+************************
+
+
+Expanding the Editing Function In Language Data Processing
+
+In automatic abstracting, citation indexing,
+mechanical translation and other such procedures, 
+editing is required whenever the automatic method leaves
+something to be desired.  This paper discusses 
+the economy <B>of editing</B> as a function of the amount of condensation
+of text in language processing operations, 
+and then contends that editing can be regarded as an
+opportunity rather than as an unwelcome necessity. 
+ "Heavy editing," which goes beyond mere correction
+and improvement of computer output, is exemplified 
+by the use of a concordance in preparing a survey article
+or lecture.  Other opportunities for heavy 
+editing are described, chief among them being interpretation and
+expansion of computer output in such 
+processes as factor analysis.  Applications are described,
+such processes as factor analysis.  Applications 
+are described, such as the quick, unbiased evaluation
+of a large volume of incoming mail or telegrams, 
+yielding summary reports not possible for either
+humans or computers to produce alone.
+
+CACM April, 1965
+
+Doule, L. B.
+
+CA650419 JB March 7, 1978  3:26 PM
+
+1272	5	1272
+1272	5	1272
+1272	5	1272
+
+
+************************
+
+************************
+Document:  CACM-2217.html
+************************
+
+
+Experiments in Automatic Learning for a Multipurpose Heuristic Program
+
+An automatic learning capability has been developed
+and implemented for use with the MULTIPLE 
+(MULTIpurpose Program that LEarns) heuristic tree-searching
+program, which is presently being applied 
+to resolution theorem-proving in predicate calculus.
+MULTIPLE's proving program (PP) uses two evaluation 
+functions to guide its search for a proof of whether
+or not a particular goal is achievable.  Thirteen 
+general features of predicate calculus clauses were created
+for use in the automatic learning of better 
+evaluation functions for PP.  A multiple regression
+program was used to produce optimal coefficients 
+for linear polynomial functions in terms of the features.
+ Also, automatic data-handling routines were 
+written for passing data between the learning program
+and the proving program, and for analyzing and 
+summarizing results.  Data was generally collected for
+learning (regression analysis) from the experience 
+of PP.  A number of experiments were performed to test
+the <B>effectiveness and</B> generality of the learning 
+program. Results showed that the learning produced dramatic
+improvements in the solutions to problems 
+which were in the same domain as those used for collection
+learning data.  Learning was also shown to 
+generalize successfully to domains other than those used
+for data collection.  Another experiment demonstrated 
+that the learning program could simultaneously improve
+performance on problems in a specific domain and 
+on problems in a variety of domains.  Some variations
+of the learning program were also tested.
+
+CACM February, 1971
+
+Slagle, J. R.
+Farrell, C. D.
+
+learning, theorem-providing, heuristic, automatic
+learning, self-modifying,tree-searching, artificial 
+intelligence, problem-solving, adaptive, LISP, multiple regression, resolution
+
+3.62 3.64
+
+CA710204 JB February 8, 1978  9:33 AM
+
+2217	5	2217
+2217	5	2217
+2217	5	2217
+
+
+************************
+
+************************
 Document:  CACM-1534.html
 ************************
 
 
 DAD, The C. Operating System
 
-The design and implementation of the C.
+The design and <B>implementation of</B> the C.
+operating system, DAD, is described in detail. 
+ This system is designed for the Control Data 3600 using
+a large drum backing store and is intended to 
+allow the integration of a remote console (display) subsystem
+into a conventional job stack environment. 
+ The use of the drums, the buffering of input and output
+on slow peripherals, and the execution of normal 
+job stack work are described.  The display subsystem
+is described only as it integrates into the rest 
+of the system.  The techniques found useful in the development
+of DAD are given, and an assessment is 
+made of the validity of various design decisions.  Performance
+figures based on several months of operation 
+are tabulated.
+
+CACM September, 1967
+
+Austin, B. J.
+Holden, T. S.
+Hudson, R. H.
+
+CA670910 JB February 27, 1978  2:58 PM
+
+1534	5	1534
+1534	5	1534
+1534	5	1534
+
+
+************************
+
+
+
+DAD, The C. Operating System
+
+The design <B>and implementation</B> of the C.
+operating system, DAD, is described in detail. 
+ This system is designed for the Control Data 3600 using
+a large drum backing store and is intended to 
+allow the integration of a remote console (display) subsystem
+into a conventional job stack environment. 
+ The use of the drums, the buffering of input and output
+on slow peripherals, and the execution of normal 
+job stack work are described.  The display subsystem
+is described only as it integrates into the rest 
+of the system.  The techniques found useful in the development
+of DAD are given, and an assessment is 
+made of the validity of various design decisions.  Performance
+figures based on several months of operation 
+are tabulated.
+
+CACM September, 1967
+
+Austin, B. J.
+Holden, T. S.
+Hudson, R. H.
+
+CA670910 JB February 27, 1978  2:58 PM
+
+1534	5	1534
+1534	5	1534
+1534	5	1534
+
+
+************************
+
+
+
+DAD, The C. Operating System
+
+The <B>design and</B> implementation of the C.
 operating system, DAD, is described in detail. 
  This system is designed for the Control Data 3600 using
 a large drum backing store and is intended to 
@@ -211,6 +582,365 @@ CA670910 JB February 27, 1978  2:58 PM
 ************************
 
 ************************
+Document:  CACM-3011.html
+************************
+
+
+Management Utilization of Computers in American Local Governments
+
+Traditional concepts of management information
+systems (MIS) bear little relation to the information 
+systems currently in use by top management in most US local
+governments.  What exists is management-oriented 
+computing, involving the use of relatively unsophisticated
+applications.  Despite the unsophisticated 
+nature of these systems, management use of computing is
+surprisingly common, but also varied in its extent 
+among local governments.  Management computing is most
+prevalent in those governments with professional 
+management practices where top management is supportive
+of computing and tends to control computing decisions 
+and where department users have less control over design
+<B>and implementation</B> activities.  Finally, management 
+computing clearly has impacts for top managers, mostly
+involving improvements in decision information.
+
+CACM March, 1978
+
+Dutton, W.
+Kraemer, K.
+
+computer utilization, management information system,
+American local government, city government 
+computers, county government computers, computer impacts, management computing
+
+2.0 2.1 2.11 2.19 2.4 2.45 2.9 3.5 3.53
+
+CA780302 JB March 28, 1978  1:46 PM
+
+2407	4	3011
+2852	4	3011
+2977	4	3011
+2985	4	3011
+3003	4	3011
+3011	4	3011
+3011	4	3011
+3011	4	3011
+3011	4	3011
+3035	4	3011
+3050	4	3011
+2075	5	3011
+2302	5	3011
+2345	5	3011
+2485	5	3011
+3011	5	3011
+3011	5	3011
+3011	5	3011
+
+
+************************
+
+************************
+Document:  CACM-1742.html
+************************
+
+
+On the Design of Display Processors
+
+The flexibility and power needed in the data
+channel for a computer display are considered. 
+ To work efficiently, such a channel must have a sufficient number
+of instructions that it is best understood 
+as a small processor rather than a powerful channel.
+ As it was found that successive <B>improvements to</B> 
+the display processor design lie on a circular path, by
+making improvements one can return to the original 
+simple design plus one new general purpose computer for
+each trip around.  The degree of physical separation 
+between display and parent computer is a key factor in display processor design.
+
+CACM June, 1968
+
+Myer, T. H.
+
+display processor design, display system, computer
+graphics, graphic terminal, displays, graphics, 
+display generator, display channel, display programming,
+graphical interaction, remote displays
+
+2.44 6.22 6.29 6.35
+
+CA680603 JB February 22, 1978  4:41 PM
+
+1742	5	1742
+1742	5	1742
+1742	5	1742
+
+
+************************
+
+************************
+Document:  CACM-1628.html
+************************
+
+
+The Emergence of a Profession
+
+Computer programming deals with an enormous
+variety of activities and is carried on by people 
+with a great variety of backgrounds.  It seems clear
+that part but not all of this activity is evolving 
+toward a distinct professional field, but that the
+scope of this emerging profession, and some of its 
+economic, social, and educational characteristics are
+as yet by no means well defined.  In this paper, 
+these <B>issues are</B> examined and some opinions about them are expressed.
+
+CACM March, 1967
+
+Orden, A.
+
+CA670301 JB February 28, 1978  1:47 PM
+
+1628	5	1628
+1628	5	1628
+1628	5	1628
+1770	5	1628
+1628	6	1628
+
+
+************************
+
+************************
+Document:  CACM-2812.html
+************************
+
+
+Computer-Aided Analysis and Design of Information Systems
+
+This paper describes the use of computer-aided
+analysis for the <B>design and</B> development of an 
+integrated financial management system by the Navy Material
+Command Support Activity (NMCSA).  Computer-aided 
+analysis consists of a set of procedures and computer
+programs specifically designed to aid in the process 
+of applications software design, computer selection
+and performance evaluation.  There are four major 
+components: Problem Statement Language, Problem Statement
+Analyzer, Generator of Alternative Designs, 
+and Performance Evaluator. The statement of requirements
+was written in ADS (Accurately Defined Systems) 
+and analyzed by a Problem Statement Analyzer for ADS.
+ The ADS problem definition was supplemented with 
+additional information in order to create a complete
+problem definition.  The analyzed problem statement 
+was translated to the form necessary for use by the
+SODA (Systems Optimization and Design Algorithm)
+program for the generation of alternative specifications
+of program modules and logical database structures.
+
+CACM December, 1976
+
+Nunamaker, J. F. Jr.
+Konsynski, B. R. Jr.
+Ho, T.
+Singer, C.
+
+computer-aided analysis, information systems, logical
+system design, problem statement language, 
+problem statement analyzer, physical system design,
+accurately defined systems, systems optimization 
+and design algorithm
+
+2.44 3.50 4.33 4.9 8.1
+
+CA761203 JB January 3, 1978  2:31 PM
+
+2812	5	2812
+2812	5	2812
+2812	5	2812
+
+
+************************
+
+************************
+Document:  CACM-0679.html
+************************
+
+
+Recent Improvements in MADCAP
+
+MADCAP is a programming language admitting subscripts,
+superscripts and certain forms of displayed 
+formulas.  The basic <B>implementation of</B> this language was
+described in a previous paper [MADCAP: A scientific 
+compiler for a displayed formula textbook language, Comm.
+ACM 4 (Jan. 61), 31-36].  This paper discusses 
+recent improvements in the language in three areas: complex
+display, logical control, and subprogramming. 
+ In the area of complex display, the most prominent improvements
+are a notation for integration and for 
+the binomial coefficients.  In the area of logical control
+the chief new feature is a notation for variably 
+nested looping.  The discussion of subprogramming is focused
+on MADCAP's notation for and use of "procedures."
+
+CACM November, 1963
+
+Wells, M. B.
+
+CA631113 JB March 13, 1978  3:39 PM
+
+1083	4	679
+1086	4	679
+1132	4	679
+1234	4	679
+1263	4	679
+1265	4	679
+1270	4	679
+1323	4	679
+1358	4	679
+1379	4	679
+1380	4	679
+1396	4	679
+1453	4	679
+1464	4	679
+1484	4	679
+1491	4	679
+1498	4	679
+1613	4	679
+1614	4	679
+1781	4	679
+1825	4	679
+1860	4	679
+2083	4	679
+2178	4	679
+2179	4	679
+2252	4	679
+2325	4	679
+2341	4	679
+2546	4	679
+2645	4	679
+2652	4	679
+2684	4	679
+2842	4	679
+2929	4	679
+2934	4	679
+3069	4	679
+669	4	679
+679	4	679
+679	4	679
+679	4	679
+691	4	679
+761	4	679
+949	4	679
+989	4	679
+407	5	679
+21	5	679
+3184	5	679
+679	5	679
+679	5	679
+679	5	679
+
+
+************************
+
+************************
+Document:  CACM-1978.html
+************************
+
+
+The Use of Interactive Graphics To Solve Numerical Problems
+
+With the advent of on-line (time-sharing) computer systems
+and graphic terminals, we have available a new dimension
+in numerical problem solving capabilities.  Rather than simply use
+the new power to achieve fast turnaround, we can develop interactive
+routines which are easy to use and also take advantage of the
+insight and visual capabilities of the human problem solver.  Several
+on-line systems for general purpose mathematical problem solving
+have already been implemented as well as some special purpose
+systems for solving problems in a particular area such as ordinary
+differential equations.  The advantage of restricting the problem
+area is that the interface with a user can be greatly simplified.
+In this paper we discuss some of the advantages accrued by such
+systems and design considerations for interactive routines.  Furthermore,
+an <B>implementation of</B> an on-line least squares data-fitting
+program, PEG, is presented with results obtained from empirical
+data.  In conclusion, area for future work in this field are discussed.
+
+CACM October, 1970
+
+Smith, L. B.
+
+interactive graphics, computer graphics, graphics, least squares,
+data-fitting, interactive computing, on-line mathematics
+
+1.3 3.1 5.13 5.5
+
+CA701012 JB February 10, 1978  9:14 AM
+
+1978	4	1978
+1978	4	1978
+1978	4	1978
+1307	5	1978
+1589	5	1978
+1813	5	1978
+1978	5	1978
+1978	5	1978
+1978	5	1978
+
+
+************************
+
+************************
+Document:  CACM-2106.html
+************************
+
+
+Computer Education in a Graduate School of Management
+
+Several years of experience have led to the belief that the creative
+<B>design and</B> evaluation of management information systems requires
+a thorough understanding of the related computer technology.  Concepts
+such as paging and priority interrupt systems can best be explained at the 
+machine language level.  Any machine used for exposition
+should fulfill several criteria.  It should: (1) raise as few
+spurious issues as possible; (2) allow, without undue effort, the
+solution of interesting problems; (3) be capable of exposing all
+outstanding issues of significance, capable of exposing all outstanding
+issues of significance, within the chosen machine; (4) be
+seful for pursuing issues in great depth when appropriate; (5) not
+be committed to the equipment provided by any manufacturer; (6) be able to 
+provide the student with diagnostic aids to a great depth;
+(7) allow the student ready access to the machine; (8) be capable
+of extension to expose new issues as they come along.  We have
+constructed a simulated machine and its associated software which
+meets these criteria.  This system, called the PRISM system,
+is documented by a primer and a reference manual.
+
+CACM February, 1970
+
+Ness, D. N.
+Green, R. S.
+Martin, W. A.
+Moulton, G. A.
+
+education, simulation, machine language,
+management information systems, interpreters
+
+1.52 3.51 4.13 4.21
+
+CA700209 JB February 14, 1978  10:15 AM
+
+2106	5	2106
+2106	5	2106
+2106	5	2106
+
+
+************************
+
+************************
 Document:  CACM-3087.html
 ************************
 
@@ -222,7 +952,147 @@ By typing requests in English, casual users
 will be able to obtain explicit answers from a 
 large relational database of aircraft flight and maintenance
 data using a system called PLANES.  The 
-design and implementation of this system is described and
+design <B>and implementation</B> of this system is described and
+illustrated with detailed examples of the operation 
+of system components and examples of overall system
+operation.  The language processing portion of the 
+system uses a number of augmented transition networks,
+each of which matches phrases with a specific 
+meaning, along with context registers (his tory keepers)
+and concept case frames; these are used for judging 
+meaningfulness of questions, generating dialogue for clarifying
+partially understood questions, and resolving 
+ellipsis and pronoun reference problems.  Other system components
+construct a formal query for the relational 
+database, and optimize the order of searching relations.
+ Methods are discussed for handling vague or 
+complex questions and for providing browsing ability.
+ Also included are discussions of important issues 
+in programming natural language systems for limited domains,
+and the relationship of this system to others. 
+
+CACM July, 1978
+
+Waltz, D.
+
+Question answering, relational database, natural language,
+database front end, artificial intelligence, 
+dialogue, query generation, information retrieval, natural language programming 
+
+3.42 3.60 3.69 3.74 3.79
+
+CA780701 DH February 8, 1979  4:26 PM
+
+2155	4	3087
+2406	4	3087
+2581	4	3087
+2710	4	3087
+2715	4	3087
+2716	4	3087
+2717	4	3087
+2718	4	3087
+2739	4	3087
+2765	4	3087
+2795	4	3087
+2817	4	3087
+2888	4	3087
+2901	4	3087
+2921	4	3087
+2957	4	3087
+2959	4	3087
+2965	4	3087
+3087	4	3087
+3087	4	3087
+3154	4	3087
+1989	5	3087
+2046	5	3087
+3087	5	3087
+3087	5	3087
+3087	5	3087
+
+
+************************
+
+
+
+An English Language Question Answering System
+for a Large Relational Database
+
+By typing requests in English, casual users
+will be able to obtain explicit answers from a 
+large relational database of aircraft flight and maintenance
+data using a system called PLANES.  The 
+design and <B>implementation of</B> this system is described and
+illustrated with detailed examples of the operation 
+of system components and examples of overall system
+operation.  The language processing portion of the 
+system uses a number of augmented transition networks,
+each of which matches phrases with a specific 
+meaning, along with context registers (his tory keepers)
+and concept case frames; these are used for judging 
+meaningfulness of questions, generating dialogue for clarifying
+partially understood questions, and resolving 
+ellipsis and pronoun reference problems.  Other system components
+construct a formal query for the relational 
+database, and optimize the order of searching relations.
+ Methods are discussed for handling vague or 
+complex questions and for providing browsing ability.
+ Also included are discussions of important issues 
+in programming natural language systems for limited domains,
+and the relationship of this system to others. 
+
+CACM July, 1978
+
+Waltz, D.
+
+Question answering, relational database, natural language,
+database front end, artificial intelligence, 
+dialogue, query generation, information retrieval, natural language programming 
+
+3.42 3.60 3.69 3.74 3.79
+
+CA780701 DH February 8, 1979  4:26 PM
+
+2155	4	3087
+2406	4	3087
+2581	4	3087
+2710	4	3087
+2715	4	3087
+2716	4	3087
+2717	4	3087
+2718	4	3087
+2739	4	3087
+2765	4	3087
+2795	4	3087
+2817	4	3087
+2888	4	3087
+2901	4	3087
+2921	4	3087
+2957	4	3087
+2959	4	3087
+2965	4	3087
+3087	4	3087
+3087	4	3087
+3154	4	3087
+1989	5	3087
+2046	5	3087
+3087	5	3087
+3087	5	3087
+3087	5	3087
+
+
+************************
+
+
+
+An English Language Question Answering System
+for a Large Relational Database
+
+By typing requests in English, casual users
+will be able to obtain explicit answers from a 
+large relational database of aircraft flight and maintenance
+data using a system called PLANES.  The 
+<B>design and</B> implementation of this system is described and
 illustrated with detailed examples of the operation 
 of system components and examples of overall system
 operation.  The language processing portion of the 
@@ -284,6 +1154,565 @@ CA780701 DH February 8, 1979  4:26 PM
 ************************
 
 ************************
+Document:  CACM-2357.html
+************************
+
+
+MUX, a Simple Approach to On-Line Computing
+
+An on-line system operating as part of a normal
+batch system for the CDC 6600 computer is described. 
+ The system, which required one man-year for initial
+software implementation, although basically simple,
+provides the necessary elements to input and modify files,
+submit them for batch execution, and provide 
+results at the user's terminal.  A multiplexer designed
+and developed as part of the project cost one 
+man-year for <B>design and</B> checkout, and $16,000 for parts
+and fabrication.  All aspects of the system are 
+described, including design criteria, implementation,
+cost, overhead, and user reactions.
+
+CACM May, 1972
+
+Christman, R. D.
+
+time-sharing, remote computing, on-line access,
+on-line computing, remote file manager, real time, 
+multiplexer, implementation effort, operating overhead,
+user reactions, remote terminals, operating system
+
+3.79 3.89 4.39 4.41
+
+CA720503 JB January 31, 1978  11:04 AM
+
+1657	4	2357
+2080	4	2357
+2357	4	2357
+2357	4	2357
+2357	4	2357
+2536	4	2357
+1523	5	2357
+1829	5	2357
+2035	5	2357
+2357	5	2357
+2357	5	2357
+2357	5	2357
+
+
+************************
+
+************************
+Document:  CACM-2299.html
+************************
+
+
+An Extensible Editor for a Small Machine with Disk Storage
+
+A design philosophy for developing a sophisticated
+utility program is illustrated by the actual 
+design and <B>implementation of</B> a text editor.  A versatile
+data structure is employed so that only a small 
+number of programmed subroutines are necessary for all
+types of data manipulation.  Such a data structure 
+is described, and its merits are illustrated by the ease
+with which powerful extensions can be implemented 
+in terms of a few basic editing function.
+
+CACM August, 1972
+
+Benjamin, A. J.
+
+command processing, context searching, executive
+program, garbage collection, interpreter, list 
+processing, macro language, paging, parameter substitution,
+recursion, state table, storage allocation, 
+string manipulation, text editing, virtual memory
+
+3.73 3.74 3.75 4.13 4.22 4.43 4.49
+
+CA720803 JB January 30, 1978  10:00 AM
+
+1626	4	2299
+1708	4	2299
+1781	4	2299
+1860	4	2299
+2299	4	2299
+2299	4	2299
+2501	4	2299
+2629	4	2299
+2915	4	2299
+3114	4	2299
+1502	5	2299
+1641	5	2299
+2299	5	2299
+2299	5	2299
+2299	5	2299
+
+
+************************
+
+
+
+An Extensible Editor for a Small Machine with Disk Storage
+
+A design philosophy for developing a sophisticated
+utility program is illustrated by the actual 
+<B>design and</B> implementation of a text editor.  A versatile
+data structure is employed so that only a small 
+number of programmed subroutines are necessary for all
+types of data manipulation.  Such a data structure 
+is described, and its merits are illustrated by the ease
+with which powerful extensions can be implemented 
+in terms of a few basic editing function.
+
+CACM August, 1972
+
+Benjamin, A. J.
+
+command processing, context searching, executive
+program, garbage collection, interpreter, list 
+processing, macro language, paging, parameter substitution,
+recursion, state table, storage allocation, 
+string manipulation, text editing, virtual memory
+
+3.73 3.74 3.75 4.13 4.22 4.43 4.49
+
+CA720803 JB January 30, 1978  10:00 AM
+
+1626	4	2299
+1708	4	2299
+1781	4	2299
+1860	4	2299
+2299	4	2299
+2299	4	2299
+2501	4	2299
+2629	4	2299
+2915	4	2299
+3114	4	2299
+1502	5	2299
+1641	5	2299
+2299	5	2299
+2299	5	2299
+2299	5	2299
+
+
+************************
+
+
+
+An Extensible Editor for a Small Machine with Disk Storage
+
+A design philosophy for developing a sophisticated
+utility program is illustrated by the actual 
+design <B>and implementation</B> of a text editor.  A versatile
+data structure is employed so that only a small 
+number of programmed subroutines are necessary for all
+types of data manipulation.  Such a data structure 
+is described, and its merits are illustrated by the ease
+with which powerful extensions can be implemented 
+in terms of a few basic editing function.
+
+CACM August, 1972
+
+Benjamin, A. J.
+
+command processing, context searching, executive
+program, garbage collection, interpreter, list 
+processing, macro language, paging, parameter substitution,
+recursion, state table, storage allocation, 
+string manipulation, text editing, virtual memory
+
+3.73 3.74 3.75 4.13 4.22 4.43 4.49
+
+CA720803 JB January 30, 1978  10:00 AM
+
+1626	4	2299
+1708	4	2299
+1781	4	2299
+1860	4	2299
+2299	4	2299
+2299	4	2299
+2501	4	2299
+2629	4	2299
+2915	4	2299
+3114	4	2299
+1502	5	2299
+1641	5	2299
+2299	5	2299
+2299	5	2299
+2299	5	2299
+
+
+************************
+
+************************
+Document:  CACM-2739.html
+************************
+
+
+The Restriction Language for Computer Grammars of Natural Language
+
+Over the past few years, a number of systems
+for the computer analysis of natural language 
+sentences have been based on augmented context-free
+grammars: a context-free grammar which defines a 
+set of parse trees for a sentence, plus a group of restrictions
+to which a tree must conform in order 
+to be a valid sentence analysis.  As the coverage of the
+grammar is increased, an efficient representation 
+becomes essential for further development.  This paper
+presents a programming language designed specifically 
+for the compact and perspicuous statement of restrictions
+of a natural language grammar.  It is based 
+on ten years' experience parsing text sentences with
+the comprehensive English grammar of the N. 
+Linguistic String Project, and embodies in its syntax
+and routines the relations which were found to 
+be useful and adequate for computerized natural language
+analysis.  The language is used in the current 
+<B>implementation of</B> the Linguistic String Parser.
+
+CACM July 1975
+
+Sager, N.
+Grishman, R.
+
+natural language, parsing, grammar, programming languages
+
+3.42 3.79 4.22
+
+CA750703 JB January 9, 1978  10:17 AM
+
+2581	4	2739
+2739	4	2739
+2795	4	2739
+2921	4	2739
+3087	4	2739
+1989	5	2739
+2739	5	2739
+2739	5	2739
+2739	5	2739
+
+
+************************
+
+************************
+Document:  CACM-2036.html
+************************
+
+
+An Interactive Command Generating Facility
+
+A facility to permit conversationally controlled tasks
+to be executed in a noninteractive environment is proposed.
+A means by which programs can generate interactive time-sharing commands
+and receive the corresponding output response is presented.  The commands 
+will be invoked as if they had been typed at a console keyboard.  It is 
+argued that this facility will help overcome some of the current limitations 
+in man-computer communication. A set of functions to accomplish the above 
+which could be embedded into any string processing language is suggested, 
+and necessary information pertinent to <B>implementation of</B> the facility on 
+existing time-sharing systems is given.
+
+CACM July, 1970
+
+Grant, C. A.
+
+time-sharing, command languages, pseudo-teletype, interaction,
+conditional job control, operating systems
+
+3.80 3.81 4.29 4.39
+
+CA700701 JB February 13, 1978  9:43 AM
+
+1530	4	2036
+1531	4	2036
+1565	4	2036
+1703	4	2036
+1945	4	2036
+2036	4	2036
+1455	5	2036
+2036	5	2036
+2036	5	2036
+2036	5	2036
+
+
+************************
+
+************************
+Document:  CACM-2592.html
+************************
+
+
+On Generation of Test Problems for Linear Programming Codes
+
+Users of linear programming computer codes have
+realized the necessity of evaluating the capacity, 
+effectiveness, and accuracy of the solutions provided
+by such codes.  Large scale linear programming 
+codes at most installations are assumed to be generating correct
+solutions without ever having been "bench-marked" 
+by test problems with known solutions.  The reason for
+this failure to adequately test the codes is that 
+rarely are there large problems with known solutions readily
+available.  This paper presents a theoretical 
+justification and an illustrative <B>implementation of</B> a method
+for generating linear programming test problems 
+with known solutions.  The method permits the generation
+of test problems that are of arbitrary size 
+and have a wide range of numerical characteristics.
+
+CACM October, 1974
+
+Charnes, A.
+Raike, W. M.
+Stutz, J. D.
+Walters, A. S.
+
+linear programming, test problem generation,
+LP program evaluation, LP program validation
+
+5.41
+
+CA741006 JB January 16, 1978  12:28 PM
+
+2592	5	2592
+2592	5	2592
+2592	5	2592
+
+
+************************
+
+************************
+Document:  CACM-2522.html
+************************
+
+
+The Design, Implementation, and Evaluation of a Working Set Dispatcher
+
+The behavior of a computer system is largely
+dependent upon the algorithms employed to allocate 
+the system resources to the processes competing for them.
+ Recent research in time-sharing paging systems 
+has developed the working set model for program behavior,
+and are source allocation strategy based on 
+this model has been proposed.  Two implementations
+along these principles have been reported, but it 
+seems that in neither case have further results been
+announced.  This report discusses the design and 
+<B>implementation of</B> a dispatcher based on the working set
+principle, presents data to permit analysis of 
+its behavior, and indicates future directions of research
+on methods of controlling a computer system.
+
+CACM April, 1973
+
+Rodriguez-Rosell, J.
+Dupuy, J. P.
+
+working set, dispatcher, scheduler, time-sharing
+systems, resource allocation, software evaluation, 
+operating systems, supervisory systems
+
+4.31 4.32
+
+CA730406 JB January 24, 1978  9:36 AM
+
+2522	5	2522
+2522	5	2522
+2522	5	2522
+2928	5	2522
+1751	6	2522
+2277	6	2522
+2380	6	2522
+2522	6	2522
+2569	6	2522
+
+
+************************
+
+
+
+The Design, Implementation, and Evaluation of a Working Set Dispatcher
+
+The behavior of a computer system is largely
+dependent upon the algorithms employed to allocate 
+the system resources to the processes competing for them.
+ Recent research in time-sharing paging systems 
+has developed the working set model for program behavior,
+and are source allocation strategy based on 
+this model has been proposed.  Two implementations
+along these principles have been reported, but it 
+seems that in neither case have further results been
+announced.  This report discusses the <B>design and</B> 
+implementation of a dispatcher based on the working set
+principle, presents data to permit analysis of 
+its behavior, and indicates future directions of research
+on methods of controlling a computer system.
+
+CACM April, 1973
+
+Rodriguez-Rosell, J.
+Dupuy, J. P.
+
+working set, dispatcher, scheduler, time-sharing
+systems, resource allocation, software evaluation, 
+operating systems, supervisory systems
+
+4.31 4.32
+
+CA730406 JB January 24, 1978  9:36 AM
+
+2522	5	2522
+2522	5	2522
+2522	5	2522
+2928	5	2522
+1751	6	2522
+2277	6	2522
+2380	6	2522
+2522	6	2522
+2569	6	2522
+
+
+************************
+
+************************
+Document:  CACM-2542.html
+************************
+
+
+A Software Design and Evaluation System
+
+A critical failure of current software system
+design and implementation methodology is that 
+the performance of a proposed design is not evaluated
+before it is actually implemented.  In this paper 
+the reasons for this failure are explored, and a new methodology
+which overcomes many of the difficulties 
+is proposed.  A system which integrates performance evaluation
+with design and implementation is described. 
+ This system is based on a simple, high level language
+which is used to describe the evolving system 
+at all stages of its development.  The source language
+description is used as direct input to performance 
+analysis and simulation routines.  Using the performance
+information obtained from these routines as 
+feedback, the problems which adversely affect performance
+are detected early enough so that they can 
+be corrected without costly major re<B>implementation of</B> the proposed system.
+
+CACM February, 1973
+
+Graham, R. M.
+Clancy, G. J. Jr.
+DeVaney, D. B.
+
+operating system development, language processing
+software evaluation, compilers, system programming, 
+supervisory systems, debugging, program maintenance,
+modeling, system integration, simulation
+
+4.0 4.12 4.22 4.30 4.42 4.43 8.1
+
+CA730206 JB January 24, 1978  2:07 PM
+
+2542	5	2542
+2542	5	2542
+2542	5	2542
+
+
+************************
+
+
+
+A Software Design and Evaluation System
+
+A critical failure of current software system
+<B>design and</B> implementation methodology is that 
+the performance of a proposed design is not evaluated
+before it is actually implemented.  In this paper 
+the reasons for this failure are explored, and a new methodology
+which overcomes many of the difficulties 
+is proposed.  A system which integrates performance evaluation
+with design and implementation is described. 
+ This system is based on a simple, high level language
+which is used to describe the evolving system 
+at all stages of its development.  The source language
+description is used as direct input to performance 
+analysis and simulation routines.  Using the performance
+information obtained from these routines as 
+feedback, the problems which adversely affect performance
+are detected early enough so that they can 
+be corrected without costly major reimplementation of the proposed system.
+
+CACM February, 1973
+
+Graham, R. M.
+Clancy, G. J. Jr.
+DeVaney, D. B.
+
+operating system development, language processing
+software evaluation, compilers, system programming, 
+supervisory systems, debugging, program maintenance,
+modeling, system integration, simulation
+
+4.0 4.12 4.22 4.30 4.42 4.43 8.1
+
+CA730206 JB January 24, 1978  2:07 PM
+
+2542	5	2542
+2542	5	2542
+2542	5	2542
+
+
+************************
+
+
+
+A Software Design and Evaluation System
+
+A critical failure of current software system
+design <B>and implementation</B> methodology is that 
+the performance of a proposed design is not evaluated
+before it is actually implemented.  In this paper 
+the reasons for this failure are explored, and a new methodology
+which overcomes many of the difficulties 
+is proposed.  A system which integrates performance evaluation
+with design and implementation is described. 
+ This system is based on a simple, high level language
+which is used to describe the evolving system 
+at all stages of its development.  The source language
+description is used as direct input to performance 
+analysis and simulation routines.  Using the performance
+information obtained from these routines as 
+feedback, the problems which adversely affect performance
+are detected early enough so that they can 
+be corrected without costly major reimplementation of the proposed system.
+
+CACM February, 1973
+
+Graham, R. M.
+Clancy, G. J. Jr.
+DeVaney, D. B.
+
+operating system development, language processing
+software evaluation, compilers, system programming, 
+supervisory systems, debugging, program maintenance,
+modeling, system integration, simulation
+
+4.0 4.12 4.22 4.30 4.42 4.43 8.1
+
+CA730206 JB January 24, 1978  2:07 PM
+
+2542	5	2542
+2542	5	2542
+2542	5	2542
+
+
+************************
+
+************************
 Document:  CACM-2629.html
 ************************
 
@@ -300,7 +1729,79 @@ file, device, and inter-process I/O; (3) the ability to
 initiate asynchronous processes; (4) system command 
 language selectable on a per-user basis; and (5) over
 100 subsystems including a dozen languageshis 
-paper discusses the nature and implementation of the
+paper discusses the nature and <B>implementation of</B> the
+file system and of the user command interface.
+
+CACM July, 1974
+
+Ritchie, D. M.
+Thompson, K.
+
+time-sharing, operating system, file system, command language, PDP-11
+
+4.30 4.32
+
+CA740702 JB January 17, 1978  1:40 PM
+
+2299	4	2629
+2501	4	2629
+2629	4	2629
+2629	4	2629
+2868	4	2629
+2915	4	2629
+2928	4	2629
+2951	4	2629
+3114	4	2629
+1502	5	2629
+2380	5	2629
+2626	5	2629
+2629	5	2629
+2629	5	2629
+2629	5	2629
+2786	5	2629
+2840	5	2629
+2919	5	2629
+3017	5	2629
+3110	5	2629
+3174	5	2629
+1471	6	2629
+1746	6	2629
+1746	6	2629
+2194	6	2629
+2358	6	2629
+2377	6	2629
+2436	6	2629
+2536	6	2629
+2593	6	2629
+2625	6	2629
+2626	6	2629
+2629	6	2629
+2629	6	2629
+2629	6	2629
+2629	6	2629
+2629	6	2629
+2629	6	2629
+2629	6	2629
+2858	6	2629
+
+
+************************
+
+
+
+The UNIX Time-Sharing system 
+
+UNIX is a general-purpose, multi-user, interactive
+operating system for the Digital Equipment 
+Corporation PDP-11/40 and 11/45 computers.  It offers
+a number of features seldom found even in larger 
+operating systems, including: (1) a hierarchical file system
+incorporating demountable volumes; (2) compatible 
+file, device, and inter-process I/O; (3) the ability to
+initiate asynchronous processes; (4) system command 
+language selectable on a per-user basis; and (5) over
+100 subsystems including a dozen languageshis 
+paper discusses the nature <B>and implementation</B> of the
 file system and of the user command interface.
 
 CACM July, 1974
@@ -359,51 +1860,246 @@ CA740702 JB January 17, 1978  1:40 PM
 ************************
 
 ************************
-Document:  CACM-2299.html
+Document:  CACM-3147.html
 ************************
 
 
-An Extensible Editor for a Small Machine with Disk Storage
+A Model for Automating File and Program Design in Business Application Systems
 
-A design philosophy for developing a sophisticated
-utility program is illustrated by the actual 
-design and implementation of a text editor.  A versatile
-data structure is employed so that only a small 
-number of programmed subroutines are necessary for all
-types of data manipulation.  Such a data structure 
-is described, and its merits are illustrated by the ease
-with which powerful extensions can be implemented 
-in terms of a few basic editing function.
+This paper discusses a model for finding an efficient <B>implementation of</B> a 
+business application system whose logical specifications have been determined
+in advance.  The model views file and program design as a problem
+of systematically coordinating the configurations of datasets and
+computations.  It uses a straight forward search technique to
+determine aggregations of computations, aggregations of datasets, device,
+organization, and key order for each data set, key order for
+ each computation, and access method  for each dataset-computation
+pair.  Although computational results are presented for a sample
+problem involving 54 computations and 49 datasets, the main point of
+the paper is that the underlying model works computationally an
+d is simple enough to be adapted to many file design situations.
 
-CACM August, 1972
+CACM June, 1979
 
-Benjamin, A. J.
+Alter, S.
 
-command processing, context searching, executive
-program, garbage collection, interpreter, list 
-processing, macro language, paging, parameter substitution,
-recursion, state table, storage allocation, 
-string manipulation, text editing, virtual memory
+System design, automatic programming, search
+methods, system configurations, design choices
 
-3.73 3.74 3.75 4.13 4.22 4.43 4.49
+4.12 4.22 4.6
 
-CA720803 JB January 30, 1978  10:00 AM
+CA790603 DH August 21, 1979  4:25 PM
 
-1626	4	2299
-1708	4	2299
-1781	4	2299
-1860	4	2299
-2299	4	2299
-2299	4	2299
-2501	4	2299
-2629	4	2299
-2915	4	2299
-3114	4	2299
-1502	5	2299
-1641	5	2299
-2299	5	2299
-2299	5	2299
-2299	5	2299
+3147	4	3147
+2718	5	3147
+3147	5	3147
+3147	5	3147
+3147	5	3147
+
+
+************************
+
+************************
+Document:  CACM-2252.html
+************************
+
+
+A Method for Incrementally Compiling
+Languages with Nested Statement Structure
+
+A method of incremental compilation is presented
+which applies especially to programming languages 
+in which statements can be nested (such as Algol and
+PL/I).  The method permits editing of the source 
+language using a general purpose text editor, and incremental
+processing of changes without frequent 
+recompilation of entire routines.  <B>The essential</B> points
+of the method are: (1) the syntax of the language 
+is restricted insof ar as which constructs may occur
+on lines; (2) an internal data structure (called 
+the skeleton) is maintained to represent the statement
+structure; (3) the recompilation is partially 
+batched in the sense that recompilation of modified lines
+does not occur until the last of a set of editing 
+commands has been received; and (4) the parsing and
+compilation are factored into two parts, that done 
+on individual lines and that done globally to
+handle the relationships between the lines.
+
+CACM December, 1972
+
+Earley, J.
+Caizergues, P.
+
+incremental compiler, interactive programming language 
+
+4.12 4.22
+
+CA721203 JB January 27, 1978  1:04 PM
+
+1086	4	2252
+1132	4	2252
+1234	4	2252
+1263	4	2252
+1265	4	2252
+1270	4	2252
+1323	4	2252
+1358	4	2252
+1379	4	2252
+1380	4	2252
+1396	4	2252
+1453	4	2252
+1464	4	2252
+1484	4	2252
+1491	4	2252
+1498	4	2252
+1541	4	2252
+1565	4	2252
+1613	4	2252
+1614	4	2252
+1767	4	2252
+1781	4	2252
+1781	4	2252
+1781	4	2252
+1787	4	2252
+1824	4	2252
+1825	4	2252
+1860	4	2252
+1860	4	2252
+1945	4	2252
+1988	4	2252
+2083	4	2252
+2178	4	2252
+2179	4	2252
+2252	4	2252
+2252	4	2252
+2252	4	2252
+2252	4	2252
+2325	4	2252
+2341	4	2252
+2546	4	2252
+2594	4	2252
+2645	4	2252
+2652	4	2252
+2684	4	2252
+2842	4	2252
+2929	4	2252
+2934	4	2252
+3069	4	2252
+669	4	2252
+679	4	2252
+691	4	2252
+761	4	2252
+949	4	2252
+989	4	2252
+1358	5	2252
+1496	5	2252
+2155	5	2252
+2252	5	2252
+2252	5	2252
+2252	5	2252
+3184	5	2252
+
+
+************************
+
+
+
+A Method for Incrementally Compiling
+Languages with Nested Statement Structure
+
+A method of incremental compilation is presented
+which applies especially to programming languages 
+in which statements can be nested (such as Algol and
+PL/I).  The method permits editing of the source 
+language using a general purpose text editor, and incremental
+processing of changes without frequent 
+recompilation of entire routines.  The essential points
+of the method are: (1) the syntax of the language 
+is restricted insof ar as which constructs may occur
+on lines; (2) an internal data structure (called 
+the skeleton) is maintained to represent the statement
+structure; (3) the recompilation is partially 
+batched in the sense that recompilation of modified lines
+does not occur until the last of a set <B>of editing</B> 
+commands has been received; and (4) the parsing and
+compilation are factored into two parts, that done 
+on individual lines and that done globally to
+handle the relationships between the lines.
+
+CACM December, 1972
+
+Earley, J.
+Caizergues, P.
+
+incremental compiler, interactive programming language 
+
+4.12 4.22
+
+CA721203 JB January 27, 1978  1:04 PM
+
+1086	4	2252
+1132	4	2252
+1234	4	2252
+1263	4	2252
+1265	4	2252
+1270	4	2252
+1323	4	2252
+1358	4	2252
+1379	4	2252
+1380	4	2252
+1396	4	2252
+1453	4	2252
+1464	4	2252
+1484	4	2252
+1491	4	2252
+1498	4	2252
+1541	4	2252
+1565	4	2252
+1613	4	2252
+1614	4	2252
+1767	4	2252
+1781	4	2252
+1781	4	2252
+1781	4	2252
+1787	4	2252
+1824	4	2252
+1825	4	2252
+1860	4	2252
+1860	4	2252
+1945	4	2252
+1988	4	2252
+2083	4	2252
+2178	4	2252
+2179	4	2252
+2252	4	2252
+2252	4	2252
+2252	4	2252
+2252	4	2252
+2325	4	2252
+2341	4	2252
+2546	4	2252
+2594	4	2252
+2645	4	2252
+2652	4	2252
+2684	4	2252
+2842	4	2252
+2929	4	2252
+2934	4	2252
+3069	4	2252
+669	4	2252
+679	4	2252
+691	4	2252
+761	4	2252
+949	4	2252
+989	4	2252
+1358	5	2252
+1496	5	2252
+2155	5	2252
+2252	5	2252
+2252	5	2252
+2252	5	2252
+3184	5	2252
 
 
 ************************

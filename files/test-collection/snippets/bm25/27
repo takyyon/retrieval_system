@@ -1,6 +1,258 @@
 Snippets for the query:  Any information on packet radio networks. Of particular interest are algorithms for packet routing, and for dealing with changes in network topography. I am not interested in the hardware used in the network.
 ************************
-Total Hits:  2
+Total Hits:  76
+************************
+
+************************
+Document:  CACM-2890.html
+************************
+
+
+On Quadratic Adaptive Routing Algorithms
+
+Two analytic models of a store-and-forward communications
+network are constructed, one to find 
+the optimal message routing and the other to illustrate
+the equilibrium (stationary state) maintained 
+by an adaptive routing algorithm.  These models show that
+adaptive routing does not satisfy the necessary 
+conditions for an optimal routing,  Adaptive routing tends
+to overuse the direct path and underuse alternate 
+routes because it does not consider the impact of its
+current routing decision on the future state of 
+<B>the network.</B>  The form of the optimality conditions suggests
+that a modification of the adaptive algorithm 
+will result in optimality.  The modification requires
+the substitution of a quadratic bias term instead 
+of a linear one in the routing table maintained at each
+network node.  Simulation results are presented 
+which confirm the theoretical analysis for a simple network.
+
+CACM January, 1976
+
+Agnew, C. E.
+
+routing algorithms, adaptive routing, quadratic routing,
+alternate routing, store-and-forward network, 
+distributed network, computer network, message switching
+
+3.81 8.0 8.1 8.3
+
+CA760103 JB January 5, 1978  10:37 AM
+
+2890	5	2890
+2890	5	2890
+2890	5	2890
+
+
+************************
+
+
+
+On Quadratic Adaptive Routing Algorithms
+
+Two analytic models of a store-and-forward communications
+network are constructed, one to find 
+the optimal message routing and the other to illustrate
+the equilibrium (stationary state) maintained 
+by an adaptive routing algorithm.  These models show that
+adaptive routing does not satisfy the necessary 
+conditions for an optimal routing,  Adaptive routing tends
+to overuse the direct path and underuse alternate 
+routes because it does not consider the impact of its
+current routing decision on the future state of 
+the network.  The form of the optimality conditions suggests
+that a modification of the adaptive algorithm 
+will result in optimality.  The modification requires
+the substitution of a quadratic bias term instead 
+of a linear one <B>in the</B> routing table maintained at each
+network node.  Simulation results are presented 
+which confirm the theoretical analysis for a simple network.
+
+CACM January, 1976
+
+Agnew, C. E.
+
+routing algorithms, adaptive routing, quadratic routing,
+alternate routing, store-and-forward network, 
+distributed network, computer network, message switching
+
+3.81 8.0 8.1 8.3
+
+CA760103 JB January 5, 1978  10:37 AM
+
+2890	5	2890
+2890	5	2890
+2890	5	2890
+
+
+************************
+
+************************
+Document:  CACM-2424.html
+************************
+
+
+Dynamic Verification of Operating System Decisions
+
+Dynamic verification of a decision implies
+that every time the decision is made there is a 
+consistency check performed on the decision using independent
+hardware and software.  The dynamic verification 
+of operating system decisions is used on the PRIME system
+being designed and constructed at the University 
+of California, Berkeley.  PRIME is an experimental time-sharing
+which is to have the properties of continuous 
+availability, data privacy, and cost effectiveness.
+ The technique of dynamic verification allows the 
+construction of an operating system which does not make certain
+decisions improperly even <B>in the</B> presence 
+of a single hardware or software fault.  Furthermore,
+multiple faults lead to unreliable operation only 
+if the faults happen to reinforce each other.  On PRIME,
+dynamic verification is used to ensure that 
+one user's information cannot become available to another
+user gratuitously even in the presence of a 
+single hardware or software fault.the amount of additional
+hardware and software required for dynamic 
+verification can be modest.
+
+CACM November, 1973
+
+Fabry, R. S.
+
+operating systems, data security, fault tolerance,
+software reliability, data privacy, program 
+verification, modular computer systems
+
+4.32
+
+CA731102 JB January 20, 1978  10:56 AM
+
+1828	4	2424
+1854	4	2424
+1877	4	2424
+1960	4	2424
+2150	4	2424
+2317	4	2424
+2319	4	2424
+2377	4	2424
+2342	4	2424
+2376	4	2424
+2379	4	2424
+2424	4	2424
+2482	4	2424
+2618	4	2424
+2632	4	2424
+2704	4	2424
+2723	4	2424
+2738	4	2424
+2740	4	2424
+2741	4	2424
+2867	4	2424
+3184	4	2424
+1749	5	2424
+2424	5	2424
+2424	5	2424
+2424	5	2424
+
+
+************************
+
+************************
+Document:  CACM-2776.html
+************************
+
+
+Computer Networks in Higher Education: Socio-Economic-Political Factors
+
+This study presents the results of a nationwide
+survey of computer networks in higher education 
+conducted during 1971-73.  Five major and 18 minor networks
+were identified.  The five major networks 
+included: the ARPA Net, the California State College network,
+the University of Iowa/Iowa State University 
+network, the Michigan Educational Research Information Triad,
+Inc., and the Triangle Universities Computation 
+Center network in North Carolina. In-depth studies were
+conducted of the latter two nets.  Based on the 
+experiences of these operating networks, a number of factors
+are identified for consideration in developing 
+networks.  Finally, recommendations are advanced regarding
+the development of networks in higher education 
+<B>in the</B> future.
+
+CACM April, 1975
+
+Chambers, J. A.
+Poore, R. V.
+
+networks, higher education
+
+1.3 2.45
+
+CA750401 JB January 9, 1978  4:17 PM
+
+2776	5	2776
+2776	5	2776
+2776	5	2776
+
+
+************************
+
+************************
+Document:  CACM-1886.html
+************************
+
+
+Generation of Optimal Code for Expressions via Factorization
+
+Given a set of expressions which are to be
+compiled, methods are presented for increasing the 
+efficiency of the object code produced by first factoring
+the expressions, i.e. finding a set of subexpressions 
+each of which occurs in two or more other expressions
+or subexpressions.  Once all the factors have been 
+ascertained, a sequencing procedure is applied which
+orders the factors and expressions such that all 
+information is computed <B>in the</B> correct sequence and factors
+need be retained in memory a minimal amount 
+of time.  An assignment algorithm is then executed in
+order to minimize the total number of temporary 
+storage cells required to hold the results of evaluating
+the factors.  In order to make these techniques 
+computationally feasible, heuristic procedures are
+applied, and hence global optimal results are not 
+necessarily generated.  The factorization algorithms
+are also applicable to the problem of factoring 
+Boolean switching expressions and of factoring polynomials
+encountered in symbol manipulating systems.
+
+CACM June, 1969
+
+Breuer, M. A.
+
+factorization algorithms, code optimization, sequencing
+of operations, detection of common subexpressions, 
+factorization of Boolean expressions
+
+4.12 6.1
+
+CA690607JB February 17, 1978  10:57 AM
+
+1030	4	1886
+1886	4	1886
+1939	4	1886
+1886	5	1886
+1886	5	1886
+1886	5	1886
+2175	5	1886
+678	5	1886
+1551	6	1886
+1613	6	1886
+1886	6	1886
+
+
 ************************
 
 ************************
@@ -24,7 +276,42 @@ order to circumvent some of the shortcomings of the
 FORMAC system.  This paper is more concerned with 
 the use of programming techniques in FORMAC than with
 the actual engineering problem, although readers 
-may be interested in the problem because it is stated
+may be interested <B>in the</B> problem because it is stated
+in a general (mathematical) sense and could be 
+of interest in areas other than circuit analysis.
+
+CACM March, 1967
+
+Neidleman, L. D.
+
+CA670306 JB February 28, 1978  1:27 PM
+
+1623	5	1623
+1623	5	1623
+1623	5	1623
+
+
+************************
+
+
+
+An Application of FORMAC
+
+A nonlinear circuit analysis problem is stated
+and the way in which it was solved using FORMAC 
+is indicated.  The solution of the problem using FORMAC
+was notable since several other methods that 
+were tried failed.  The problem is straightforward (although
+untenable by hand) but nevertheless involved 
+an elaborate use of the FORMAC language.  The program
+was fairly large and utilized practically every 
+command.  In particular, it made extensive use of the
+PART command.  Several tricks were necessary in 
+order to circumvent some of the shortcomings of the
+FORMAC system.  This paper is more concerned with 
+the use of programming techniques in FORMAC than with
+the actual engineering problem, although readers 
+may be <B>interested in</B> the problem because it is stated
 in a general (mathematical) sense and could be 
 of interest in areas other than circuit analysis.
 
@@ -42,6 +329,3172 @@ CA670306 JB February 28, 1978  1:27 PM
 ************************
 
 ************************
+Document:  CACM-3032.html
+************************
+
+
+Reverse Path Forwarding of Broadcast Packets
+
+A broadcast packet is for delivery to all
+nodes of a network.  Algorithms for accomplishing 
+this delivery through a store-and-forward packet switching
+ computer network include (1) transmission 
+of separately addressed packets. (2) multidestination
+addressing, (3) hot potato forwarding,(4) spanning 
+tree forwarding, and (5) source based forwarding.  To
+this list of algorithms we add (6) reverse path 
+forwarding, a broadcast routing method which exploits
+routing procedures and data structures already 
+available <B>for packet</B> switching.  Reverse path forwarding
+is a practical algorithm for broadcast routing 
+ in store-and-forward packet switching computer networks.
+ The algorithm is described as being practical 
+ because it is not optimal according to metrics developed
+for its analysis in this paper, and also because 
+it can be implemented in existing networks with less complexity
+than that required for the known alternatives. 
+
+CACM December, 1978
+
+Dalal, Y.
+Metcalfe, R.
+
+Reverse path forwarding, broadcast packets, routing,
+computer networks, store-and-forward packet 
+switching, broadcast protocols
+
+3.81 4.32 5.32
+
+CA781207 DH  January 18, 1979  3:10 PM
+
+3032	4	3032
+3119	4	3032
+2849	5	3032
+3032	5	3032
+3032	5	3032
+3032	5	3032
+
+
+************************
+
+************************
+Document:  CACM-2274.html
+************************
+
+
+Generating English Discourse from Semantic Networks
+
+A system is described for generating English
+sentences from a form of semantic nets in which 
+the nodes are word-sense meanings and the paths are
+primarily deep case relations.  The grammar used 
+by the system is <B>in the</B> form of a network that imposes
+an ordering on a set of syntactic transformations 
+that are expressed as LISP functions.  The generation
+algorithm uses the information in the semantic 
+network to select appropriate generation paths through
+the grammar.  The system is designed for use as 
+a computational tool that allows a linguist to develop
+and study methods for generating surface strings 
+from an underlying semantic structure.  Initial finding
+with regard to form determiners such as voice, 
+form, tense, and mood, some rules for embedding sentences,
+and some attention to pronominal substitution 
+are reported.  The system is programmed in LISP
+1.5 and is available from the authors.
+
+CACM October, 1972
+
+Simmons, R.
+Slocum, J.
+
+semantic nets, grammars, deep case relations,
+semantic generation, discourse generation
+
+3.42 3.65
+
+CA721004 JB January 27, 1978  3:10 PM
+
+2274	5	2274
+2274	5	2274
+2274	5	2274
+2795	5	2274
+1928	6	2274
+1989	6	2274
+2274	6	2274
+
+
+************************
+
+************************
+Document:  CACM-2892.html
+************************
+
+
+A Study of Line Overhead <B>in the</B> Arpanet
+
+The form, extent, and effect of the communication line
+overhead in the ARPANET are considered. 
+ The source of this over head is separated into various
+levels of protocol hierarchy and the characteristics 
+of each level are summarized.  Then the line efficiency
+for various models of system use is studied. 
+ Some measurements of line efficiency for the ARPANET are
+presented and by extrapolation these measurements 
+are used to anticipate overhead in a heavily loaded network.
+Similar results are derived for a recently 
+proposed network protocol and compared with those for the current system.
+
+CACM January, 1976
+
+Kleinrock, L.
+Naylor, W. E.
+Opderbeck, H.
+
+ARPANET, computer communication networks, interprocess
+communication, measurement, packet switching, 
+performance evaluation and efficiency, resource sharing
+
+3.81 4.39 4.6 4.9
+
+CA760101 JB January 5, 1978  10:49 AM
+
+2892	5	2892
+2892	5	2892
+2892	5	2892
+
+
+************************
+
+************************
+Document:  CACM-1526.html
+************************
+
+
+Multiprogramming under a Page on Demand Strategy
+
+A model of multiprogramming for a particular
+computer system using a page on demand strategy 
+is developed.  Analysis of this model is used to predict
+performance (measured by the average usage of 
+the CPU) when user programs are typical of those arising
+from an interactive time sharing environment. 
+ The effect of several hardware modifications is also
+analyzed.  A parameter, readily calculated from 
+<B>the hardware</B> characteristics and the program statistics,
+is proposed for gauging the effect of multiprogramming.
+
+CACM October, 1967
+
+Smith, J. L.
+
+CA671007 JB February 27, 1978  2:07 PM
+
+1526	5	1526
+1526	5	1526
+1526	5	1526
+1892	5	1526
+2068	5	1526
+2741	5	1526
+1526	6	1526
+1526	6	1526
+1526	6	1526
+1572	6	1526
+1728	6	1526
+1749	6	1526
+1751	6	1526
+1752	6	1526
+2454	6	1526
+
+
+************************
+
+************************
+Document:  CACM-2344.html
+************************
+
+
+On the Optimization of Performance of Time-Sharing Systems by Simulation
+
+A simulation model of a time-sharing system
+with a finite noncontiguous store and an infinite 
+auxiliary store is used to study the variation of system
+parameters such as store size, number of jobs 
+allowed to execute simultaneously, job-scheduling algorithm,
+etc.  The effects of these variations on 
+a measure of system performance is used to ascertain which
+of the parameters controllable by the job-scheduling 
+algorithm, including the scheduling itself, require optimization,
+and which of the parameters not normally 
+controllable by the scheduling algorithm have a marked
+effect on system performance.  System performance 
+is based upon the mean cost of delay to all jobs processed.
+ It is shown that significant improvements 
+<B>in the</B> measure of system performance can be obtained by
+using variable time-slice techniques and by selecting 
+the optimum round-robin cycle time.  It appears that these
+features would benefit from optimization whereas 
+other parameters controllable by the scheduling algorithm
+affect system performance in a predictable 
+manner and would not benefit from optimization.  Features
+not normally under the control of the scheduling 
+algorithm can also have a marked effect on the measure
+of performance; in particular, supervisor overheads, 
+the size of the store, and the speed of the CPU.  A comparison
+is made between the results of the simulation 
+model and two analytical equations for quantum-oriented
+nonpreemptive time-sharing systems.  The comparison 
+is found to be very favorable.
+
+CACM June, 1972
+
+Blatny, J.
+Clark, S. R.
+Rourke, T. A.
+
+time-sharing, simulation studies, optimization,
+measure of performance, scheduling algorithms
+
+3.80 4.30 4.32
+
+CA720601 JB January 31, 1978  9:19 AM
+
+2219	4	2344
+2344	4	2344
+1938	5	2344
+2344	5	2344
+2344	5	2344
+2344	5	2344
+
+
+************************
+
+************************
+Document:  CACM-1696.html
+************************
+
+
+An Algorithm for Identifying the Ergodic Subchains
+and Transient States of a Stochastic Matrix
+
+An algorithm for identifying the ergodic subchains
+and transient states of a stochastic matrix
+is presented.  Applications in Markov renewal programming
+and <B>in the</B> construction of variable length 
+codes are reviewed, and an updating procedure for dealing
+with certain sequences of stochastic matrices 
+is discussed.  Computation times are investigated experimentally
+and compared with those of another recently 
+propose method.
+
+CACM September, 1968
+
+Fox, B. L.
+Landi, D. M.
+
+stochastic matrix, ergodic, chain identification
+
+5.39 5.5
+
+CA680905 JB February 22, 1978  9:04 AM
+
+1696	5	1696
+1696	5	1696
+1696	5	1696
+
+
+************************
+
+
+
+An Algorithm for Identifying the Ergodic Subchains
+and Transient States of a Stochastic Matrix
+
+An algorithm for identifying the ergodic subchains
+and transient states of a stochastic matrix
+is presented.  Applications in Markov renewal programming
+and in the construction of variable length 
+codes are reviewed, and an updating procedure <B>for dealing</B>
+with certain sequences of stochastic matrices 
+is discussed.  Computation times are investigated experimentally
+and compared with those of another recently 
+propose method.
+
+CACM September, 1968
+
+Fox, B. L.
+Landi, D. M.
+
+stochastic matrix, ergodic, chain identification
+
+5.39 5.5
+
+CA680905 JB February 22, 1978  9:04 AM
+
+1696	5	1696
+1696	5	1696
+1696	5	1696
+
+
+************************
+
+************************
+Document:  CACM-1458.html
+************************
+
+
+Online Programming
+
+When the transition has been made from off line
+to online programming, there are a number of 
+changes <B>in the</B> working conditions noted.  These changes
+in the environment make necessary corresponding 
+changes in the processes related to producing and checking
+out programs.  In the main, it it not the 
+programming language itself which must be changed to
+provide a facility for the online user; it is the 
+system surrounding the programming language.  In this
+paper the online environment and its effect on 
+programming are discussed.
+
+CACM March, 1966
+
+Schwartz, J. I.
+
+CA660314 JB March 3, 197811:44 AM
+
+1458	4	1458
+1523	4	1458
+1603	4	1458
+1698	4	1458
+1747	4	1458
+1748	4	1458
+1854	4	1458
+1877	4	1458
+1960	4	1458
+2377	4	1458
+2378	4	1458
+2497	4	1458
+2558	4	1458
+2625	4	1458
+2632	4	1458
+2840	4	1458
+2941	4	1458
+3105	4	1458
+3144	4	1458
+1458	5	1458
+1458	5	1458
+1458	5	1458
+1471	5	1458
+
+
+************************
+
+
+
+Online Programming
+
+When the transition has been made from off line
+to online programming, there are a number of 
+<B>changes in</B> the working conditions noted.  These changes
+in the environment make necessary corresponding 
+changes in the processes related to producing and checking
+out programs.  In the main, it it not the 
+programming language itself which must be changed to
+provide a facility for the online user; it is the 
+system surrounding the programming language.  In this
+paper the online environment and its effect on 
+programming are discussed.
+
+CACM March, 1966
+
+Schwartz, J. I.
+
+CA660314 JB March 3, 197811:44 AM
+
+1458	4	1458
+1523	4	1458
+1603	4	1458
+1698	4	1458
+1747	4	1458
+1748	4	1458
+1854	4	1458
+1877	4	1458
+1960	4	1458
+2377	4	1458
+2378	4	1458
+2497	4	1458
+2558	4	1458
+2625	4	1458
+2632	4	1458
+2840	4	1458
+2941	4	1458
+3105	4	1458
+3144	4	1458
+1458	5	1458
+1458	5	1458
+1458	5	1458
+1471	5	1458
+
+
+************************
+
+************************
+Document:  CACM-1034.html
+************************
+
+
+Autosate
+
+An automated data system analysis technique is
+described. The technique is designed to alleviate 
+some of the principal problems that beset current analysis-large
+data workloads, long span of time between 
+project inception and system operational date, the lack
+of explicit directions for conducting data system 
+analysis and using the results, and the lack of a technique
+to control data system changes throughout 
+its lifetime. The analysis is geared to determining workload,
+relationships and storage characteristics 
+of documents <B>in the</B> information network automatically.
+
+CACM July, 1964
+
+Gatto, O. T.
+
+CA640713 JB March 9, 19788:07 PM
+
+1034	5	1034
+1034	5	1034
+1034	5	1034
+
+
+************************
+
+************************
+Document:  CACM-1551.html
+************************
+
+
+On Compiling Algorithms for Arithmetic Expressions
+
+This paper deals with algorithms concerning arithmetic
+expressions <B>used in</B> a FORTRAN IV compiler 
+for a HITAC-5020 computer having n accumulators.  The
+algorithms generate an object code which minimizes 
+the frequency of storing and recovering the partial results
+of the arithmetic expressions in cases where 
+there are several accumulators.
+
+CACM August, 1967
+
+Nakata, I.
+
+CA670804 JB February 27, 1978  4:35 PM
+
+1551	4	1551
+1945	4	1551
+1122	5	1551
+1551	5	1551
+1551	5	1551
+1551	5	1551
+1807	5	1551
+1934	5	1551
+2175	5	1551
+1223	6	1551
+1248	6	1551
+1551	6	1551
+1551	6	1551
+1551	6	1551
+1613	6	1551
+1886	6	1551
+1947	6	1551
+
+
+************************
+
+************************
+Document:  CACM-2002.html
+************************
+
+
+AMESPLOT-A Higher Level Data Plotting Software System
+
+AMESPLOT is an extensible software system designed to make the display of 
+data as simple, painless, and neat as possible.  The system described is 
+hardware-independent and has been implemented on a variety of installations,
+of different manufacturers, having diverse configurations.  The elements 
+common to all types of data plots are outlined and the way in which these 
+elements may be combined into a system based on simple modules is demonstrated.
+These modules are specified independently and are independent of the axis
+systems or other attributes of the plot.  This enables plots of any
+complexity to be constructed by adding or replacing modules.  The
+basic syntax of AMESPLOT is outlined, and a brief description is given
+of its current utility software, consisting of "macros" to produce
+self-scaled plots, formal tablets of text-interspersed with subplots,
+map coastlines, and 3-D plots.  The system was formulate
+d in a way such that the user could supply the minimum of information,
+and it should be fully integrable with user's program written
+in most conventional higher languages.  The functions of positioning,
+locating, and scaling (<B>in the</B> layout of multiple subplots) of
+axes, labels, and all other elements of the plot are handled automatically
+by the software system unless the user specifies otherwise.  The structuring 
+of plots from multiple, independent, self-contained subplots is described.
+Transformation, projection, scaling, rotation, or shifting of entire plots or 
+subplots by the action of one or more simple modules is possible.  The user 
+may interact freely with AMESPLOT at three levels, enabling him to construct 
+his own data markers, alphabetic characters, and transformations, and
+to produce a variety of artistic and other effects.
+
+CACM September, 1970
+
+Hirschsoln, I.
+
+computer graphics, data potting, data display
+syntax, hardware independent software,
+display device independent software, plot elements, self-scaled plots,
+user interaction, tablet organization, map display, projection
+
+4.13 4.29 4.49 4.9
+
+CA700903 JB February 10, 1978 2:08 PM
+
+2003	4	2002
+2002	4	2002
+2002	4	2002
+2152	4	2002
+1767	5	2002
+1937	5	2002
+2002	5	2002
+2002	5	2002
+2002	5	2002
+
+
+************************
+
+************************
+Document:  CACM-2967.html
+************************
+
+
+A Comparison of Hardware and Software Associative
+Memories in the Context of Computer Graphics
+
+The Associative Processing of Line Drawings (APLD)
+System utilizes a hardware associative memory 
+and creates, modifies, deletes, stores, and retrieves
+two-dimensional line drawings consisting of poin ts,
+lines, rectangles, and triangles. The APLD functions
+were duplicated on the TX-2 computer at M.'s 
+Lincoln Laboratory under the LEAP Language and Data
+Structure,  A comparison of <B>the hardware</B> approach 
+with the software simulation illustrates the advantages
+of the hardware associative memory in three areas: 
+(1) processing speed, (2) storage requirements, and (3)
+flexibility.  The major problem areas of hardware 
+associative memory technology, namely input/output
+and cost effectiveness, are also addressed.
+
+CACM May, 1977
+
+Stillman, N. J.
+Berra, P. B.
+
+associative memory, associative processor, content-addressable
+memory, graphics, information retrieval, 
+data structures, software evaluation, hardware evaluation,
+parallel processing, database management
+
+3.71 3.72 3.73 3.74 4.34 4.6 6.22 8.2
+
+CA770505 JB December 29, 1977  2:07 AM
+
+2719	4	2967
+2967	4	2967
+2151	5	2967
+2967	5	2967
+2967	5	2967
+2967	5	2967
+
+
+************************
+
+
+
+A Comparison of Hardware and Software Associative
+Memories <B>in the</B> Context of Computer Graphics
+
+The Associative Processing of Line Drawings (APLD)
+System utilizes a hardware associative memory 
+and creates, modifies, deletes, stores, and retrieves
+two-dimensional line drawings consisting of poin ts,
+lines, rectangles, and triangles. The APLD functions
+were duplicated on the TX-2 computer at M.'s 
+Lincoln Laboratory under the LEAP Language and Data
+Structure,  A comparison of the hardware approach 
+with the software simulation illustrates the advantages
+of the hardware associative memory in three areas: 
+(1) processing speed, (2) storage requirements, and (3)
+flexibility.  The major problem areas of hardware 
+associative memory technology, namely input/output
+and cost effectiveness, are also addressed.
+
+CACM May, 1977
+
+Stillman, N. J.
+Berra, P. B.
+
+associative memory, associative processor, content-addressable
+memory, graphics, information retrieval, 
+data structures, software evaluation, hardware evaluation,
+parallel processing, database management
+
+3.71 3.72 3.73 3.74 4.34 4.6 6.22 8.2
+
+CA770505 JB December 29, 1977  2:07 AM
+
+2719	4	2967
+2967	4	2967
+2151	5	2967
+2967	5	2967
+2967	5	2967
+2967	5	2967
+
+
+************************
+
+************************
+Document:  CACM-2572.html
+************************
+
+
+Arguments for a Moratorium on the Construction
+of a Community Information Utility
+
+In this article the author urges a prudent
+and decentralized approach to the question of the 
+design and desirability of computerized community information
+utilities.  Before accepting the inevitability 
+and desirability of this or any technology, we should:
+(1) be sure of the feasibility (internally and 
+externally) of what is proposed; (2) project and perhaps
+wait for changes in complementary techniques; 
+(3) evaluate current and projected supplementary techniques;
+(4) establish the existence of dem<B>and for</B> 
+what is proposed; (5) take steps to involve a representative
+group of ultimate users in systems design, 
+and (6) carefully think through possible side effects
+on man and his world view.  Current proposals for 
+community information utilities are examined in this
+framework, and the conclusion is drawn that society 
+is not yet in a position to justify either the construction
+of an information utility in a prototype 
+community or the acceptance of a policy in
+favor of its widespread implementation.
+
+CACM December, 1974
+
+Press, L. I.
+
+community information utilities, social implications, public policy
+
+2.1 2.3
+
+CA741202 JB January 16, 1978  10:02 AM
+
+2572	5	2572
+2572	5	2572
+2572	5	2572
+3179	5	2572
+2572	6	2572
+2607	6	2572
+3076	6	2572
+
+
+************************
+
+
+
+Arguments for a Moratorium on the Construction
+of a Community Information Utility
+
+In this article the author urges a prudent
+and decentralized approach to the question of the 
+design and desirability of computerized community information
+utilities.  Before accepting the inevitability 
+and desirability of this or any technology, we should:
+(1) be sure of the feasibility (internally and 
+externally) of what is proposed; (2) project and perhaps
+wait for <B>changes in</B> complementary techniques; 
+(3) evaluate current and projected supplementary techniques;
+(4) establish the existence of demand for 
+what is proposed; (5) take steps to involve a representative
+group of ultimate users in systems design, 
+and (6) carefully think through possible side effects
+on man and his world view.  Current proposals for 
+community information utilities are examined in this
+framework, and the conclusion is drawn that society 
+is not yet in a position to justify either the construction
+of an information utility in a prototype 
+community or the acceptance of a policy in
+favor of its widespread implementation.
+
+CACM December, 1974
+
+Press, L. I.
+
+community information utilities, social implications, public policy
+
+2.1 2.3
+
+CA741202 JB January 16, 1978  10:02 AM
+
+2572	5	2572
+2572	5	2572
+2572	5	2572
+3179	5	2572
+2572	6	2572
+2607	6	2572
+3076	6	2572
+
+
+************************
+
+************************
+Document:  CACM-2046.html
+************************
+
+
+A Relational Model of Data for Large Shared Data Banks
+
+Future users of large data banks must be protected from having to know how the 
+data is organized <B>in the</B> machine (the internal representation).  A prompting
+service which supplies such information is not a satisfactory
+solution.  Activities of users at terminals and most application
+programs should remain unaffected when the internal representation
+of data is changed and even when some aspects of the external representation 
+are changed.  Change in data representation will often be needed as a result 
+of changes in query, update, and report traffic and natural growth in the 
+types of stored information.  Existing noninferential, formatted data systems 
+provide users with tree-structured files or slightly more general network 
+models of the data.  In Section 1, inadequacies of these models are discussed.
+A model based on n-ary relations, a normal form for data base relations,
+and the concept of a universal form for data base relations,
+and the concept of a universal data sublanguage are introduced.  In
+Section 2, certain operations on relations (other than logical
+inference) are discussed and applied to the problems
+of redundancy and consistency in the user's model.
+
+CACM June, 1970
+
+Codd, E. F.
+
+data bank, data base, data structure, data organization,
+hierarchies of data, networks of data, relations, derivability, 
+redundancy, consistency, composition, join, retrieval
+language, predicate calculus, security, data integrity
+
+3.70 3.73 3.75 4.20 4.22 4.29
+
+CA700609 JB February 13, 1978  10:57 AM
+
+2046	4	2046
+2710	4	2046
+1515	5	2046
+2046	5	2046
+2046	5	2046
+2046	5	2046
+2155	5	2046
+2406	5	2046
+2710	5	2046
+2715	5	2046
+2716	5	2046
+2717	5	2046
+2718	5	2046
+2765	5	2046
+2817	5	2046
+2888	5	2046
+2901	5	2046
+2957	5	2046
+2959	5	2046
+2965	5	2046
+3087	5	2046
+3154	5	2046
+1389	6	2046
+1515	6	2046
+210	6	2046
+1936	6	2046
+1976	6	2046
+1976	6	2046
+1989	6	2046
+378	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2060	6	2046
+2110	6	2046
+2406	6	2046
+2451	6	2046
+2451	6	2046
+2452	6	2046
+2715	6	2046
+2715	6	2046
+2715	6	2046
+3133	6	2046
+616	6	2046
+616	6	2046
+616	6	2046
+
+
+************************
+
+
+
+A Relational Model of Data for Large Shared Data Banks
+
+Future users of large data banks must be protected from having to know how the 
+data is organized in the machine (the internal representation).  A prompting
+service which supplies such information is not a satisfactory
+solution.  Activities of users at terminals and most application
+programs should remain unaffected when the internal representation
+of data is changed and even when some aspects of the external representation 
+are changed.  Change in data representation will often be needed as a result 
+of <B>changes in</B> query, update, and report traffic and natural growth in the 
+types of stored information.  Existing noninferential, formatted data systems 
+provide users with tree-structured files or slightly more general network 
+models of the data.  In Section 1, inadequacies of these models are discussed.
+A model based on n-ary relations, a normal form for data base relations,
+and the concept of a universal form for data base relations,
+and the concept of a universal data sublanguage are introduced.  In
+Section 2, certain operations on relations (other than logical
+inference) are discussed and applied to the problems
+of redundancy and consistency in the user's model.
+
+CACM June, 1970
+
+Codd, E. F.
+
+data bank, data base, data structure, data organization,
+hierarchies of data, networks of data, relations, derivability, 
+redundancy, consistency, composition, join, retrieval
+language, predicate calculus, security, data integrity
+
+3.70 3.73 3.75 4.20 4.22 4.29
+
+CA700609 JB February 13, 1978  10:57 AM
+
+2046	4	2046
+2710	4	2046
+1515	5	2046
+2046	5	2046
+2046	5	2046
+2046	5	2046
+2155	5	2046
+2406	5	2046
+2710	5	2046
+2715	5	2046
+2716	5	2046
+2717	5	2046
+2718	5	2046
+2765	5	2046
+2817	5	2046
+2888	5	2046
+2901	5	2046
+2957	5	2046
+2959	5	2046
+2965	5	2046
+3087	5	2046
+3154	5	2046
+1389	6	2046
+1515	6	2046
+210	6	2046
+1936	6	2046
+1976	6	2046
+1976	6	2046
+1989	6	2046
+378	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2046	6	2046
+2060	6	2046
+2110	6	2046
+2406	6	2046
+2451	6	2046
+2451	6	2046
+2452	6	2046
+2715	6	2046
+2715	6	2046
+2715	6	2046
+3133	6	2046
+616	6	2046
+616	6	2046
+616	6	2046
+
+
+************************
+
+************************
+Document:  CACM-2092.html
+************************
+
+
+A Deductive Question-Answer for Natural Language Inference
+
+The question-answering aspects of the Protosynthex III pro
+totype language processing system are described and exemplified in
+detail.  The system is written in LISP 1.5 and operates on the Q-32
+time-sharing system.  The system's data structures and their semantic
+organization, the deductive question-answering formalism of
+relational properties and complex-relation-forming operators, and
+the question-answering procedures which employ these features in
+their operation are all described and illustrated.  Examples of the
+system's performance and of the limitations of its question-answering 
+capability are presented and discussed.  It is shown that the
+use of semantic information in deductive question answering greatly 
+facilitates the process, and that a top-down procedure which works
+from question to answer enables effective use to be made of this
+information.  It is concluded that the development of Protosynthex
+III into a practically useful system to work with large data
+bases is possible but will require <B>changes in</B> both the data
+structures and the algorithms used for question answering.
+
+CACM March, 1970
+
+Schwarcz, R. M.
+Burger, J. F.
+Simmons, R. F.
+
+question answering, natural language, Protosynthex III, LISP,
+semantics, artificial intelligence, computational
+linguistics, language processing, fact retrieval
+
+3.42 3.61
+
+CA700306 JB February 13, 1978  4:30 PM
+
+2092	4	2092
+2127	4	2092
+1527	5	2092
+2092	5	2092
+2092	5	2092
+2092	5	2092
+2396	5	2092
+1487	6	2092
+1856	6	2092
+2092	6	2092
+2127	6	2092
+
+
+************************
+
+************************
+Document:  CACM-1135.html
+************************
+
+
+A General Business-Oriented Language Based on Decision Expressions*
+
+The structure of a digital compute programming
+language which covers a wide class of business 
+and file processing applications is presented.  Such
+a structure, based on identifying and incorporating 
+into a compiler the aspects common to all processes
+of such class, permits writing extremely compact 
+programs, even for comparatively complex applications,
+in terms of tables of control expressions which 
+express only information characteristic of the particular
+application.  Furthermore,local changes of 
+a process (e.g. changes affecting only one of the output
+files involved) can be effected by local modifications 
+<B>in the</B> program (e.g. modification of only one entry of the
+tables).  This structure also allows for inexpensive 
+preparation of loading-speed compilers which translate the
+source programs into efficient machine codes. 
+ The approach adopted here departs from conventional mechanical
+language design philosophies.  It stresses 
+the structural analysis of the class of processes to be represented
+in the languages, as opposed to emphasizing 
+formal (i.e., contents-independent) syntactical definitions.
+ It relies exclusively on nonprocedural 
+representation of process as sets (tables) of relations
+between data and results (there are no control 
+statements such as GO TO, etc.), instead of using procedure
+descriptions (which are one-to-one translations 
+of flowcharts).  Here an invariant pattern of procedure
+is identified as characteristic of the class 
+of all batch file processes.  This new philosophy has
+the potential to overcome well-known deficiencies 
+of other business-oriented languages and fully meets
+the requirements set by CODASYL for such languages, 
+including machine-independence.
+
+CACM February, 1964
+
+Lombardi, L. A.
+
+CA640208 JB March 10, 1978  4:08 AM
+
+1135	4	1135
+1136	4	1135
+493	4	1135
+2710	4	1135
+2765	4	1135
+2888	4	1135
+2906	4	1135
+729	4	1135
+1135	5	1135
+1135	5	1135
+1135	5	1135
+1959	5	1135
+616	5	1135
+1135	6	1135
+
+
+************************
+
+************************
+Document:  CACM-3059.html
+************************
+
+
+Models for Parallel Processing WIthin Programs:
+Application to CPU:I/O and I/O:I/O Overlap
+
+Approximate queueing models for internal parallel
+processing by individual programs in a multiprogrammed 
+system are developed in this paper.  The solution technique
+is developed by network decomposition.  The 
+models are formulated in terms of CPU:I/O and I/O:I/O overlap
+and applied to the analysis of these problems. 
+ The percentage performance improvement from CPU:I/O
+overlap is found to be greatest for systems which 
+are in approximate CPU:I/O utilization balance <B>and for</B>
+low degrees of multiprogramming.  The percentage 
+improvement from I/O:I/O overlap is found to be greatest
+for systemtems in which the I/O system is more 
+utilized than the CPU.
+
+CACM October, 1978
+
+Towsley, D.
+Chandy, K.
+Browne, J.
+
+Multiprogramming, parallel processing, queueing
+network models, multiprocessing of computation 
+and I/O 
+
+4.32 8.1
+
+CA781002 DH January 29, 1979  6:23 PM
+
+3059	4	3059
+3070	4	3059
+1685	5	3059
+2988	5	3059
+3059	5	3059
+3059	5	3059
+3059	5	3059
+3059	6	3059
+
+
+************************
+
+************************
+Document:  CACM-1206.html
+************************
+
+
+The Self-Judgment Method of Curve Fitting
+
+A computer-oriented method for processing and
+communicating numerical data is described.  The 
+Instrument Reliability Factors (IRF), which exactly
+define the limits of reliability of each measured 
+item of information, are used to compute the Maximum
+Permitted Error (MPE) associated with each values 
+of each ordinate.  The Self-Judgment Principle (SJP)
+is used to discard wrong information and to compute 
+mean values of the parameters and their MPE's in terms
+of the IRF.  Data compatibility tests with any 
+number of different equations can be made quickly. 
+Otherwise intractable problems are easily solved, 
+and the design of many experiments is greatly simplified.
+ The computational and mathematical techniques 
+used to reduce bias <B>in the</B> SJP are discussed.  Inadequacies
+in the statistical and graphical methods 
+of curve fitting are noted.
+
+CACM August, 1965
+
+DeMaine, P. A. D.
+
+CA650818 JB March 6, 1978  7:50 PM
+
+1206	5	1206
+1206	5	1206
+1206	5	1206
+
+
+************************
+
+************************
+Document:  CACM-2016.html
+************************
+
+
+The Instrumentation of Multics
+
+An array of measuring tools devised to aid <B>in the</B> implementation of a prototype
+computer utility is discussed.  These tools include special hardware
+clocks and data channels, general purpose programmed probing
+and recording tools, and specialized measurement facilities.  Some
+particular measurements of interest in a system which combines demand 
+paging with multiprogramming are described in detail.  Where appropriate, 
+insight into effectiveness (or lack there of) of individual tools is provided.
+
+CACM August, 1970
+
+Gintell, J. W.
+Saltzer, J. H.
+
+instrumentation, performance measurement,
+multiprogramming systems, measuring tools, system analysis, Multics,
+metering, event tracing, demand paging, script driven
+measurement
+
+2.44 4.32 4.39 4.42
+
+CA700805 JB February 10, 1978  3:43 PM
+
+2016	5	2016
+2016	5	2016
+2016	5	2016
+2193	5	2016
+2319	5	2016
+2894	5	2016
+1408	6	2016
+1719	6	2016
+1749	6	2016
+1751	6	2016
+1951	6	2016
+2016	6	2016
+2016	6	2016
+2016	6	2016
+2017	6	2016
+2080	6	2016
+2188	6	2016
+2203	6	2016
+2204	6	2016
+3186	6	2016
+
+
+************************
+
+************************
+Document:  CACM-1846.html
+************************
+
+
+On Simulating Networks of Parallel Processes
+in Which Simultaneous Events May Occur
+
+Some of the problems of simulating discrete
+event systems, particularly computer systems, on 
+a conventional digital computer are dealt with.  The
+systems are assumed to be described as a network 
+of interconnected sequential processes.  Briefly reviewed
+are the common techniques used to handle such 
+simulations when simultaneous events do not occur, can
+be ignored, or can be handled by simple priority 
+rules.  Following this, the problem of <B>dealing with</B> simultaneous
+events in separate processes is introduced. 
+ An abstraction of this problem is developed which admits
+solution for a majority of commonly encountered
+problems.  The technique will either find a method of
+simulating the parallel events or report that none 
+can be found.  In some of the latter cases it is shown
+to be possible to find a solution by extending 
+the information available to the solution technique, but
+in many cases the technique becomes computationally 
+unfeasible when the additional information is provided.
+
+CACM September, 1969
+
+Parnas, D. L.
+
+simulation, parallel processes, simultaneous events,
+picture processing, computer system simulation
+
+3.19 3.24 4.24 5.9 6.9
+
+CA690910 JB February 15, 1978  4:21 PM
+
+1541	4	1846
+1805	4	1846
+1846	4	1846
+1846	4	1846
+1846	4	1846
+1846	4	1846
+1846	4	1846
+1892	4	1846
+2060	4	1846
+2188	4	1846
+2218	4	1846
+2218	4	1846
+2317	4	1846
+2630	4	1846
+2650	4	1846
+3112	4	1846
+1380	5	1846
+1424	5	1846
+1484	5	1846
+1572	5	1846
+1846	5	1846
+1846	5	1846
+1846	5	1846
+576	5	1846
+3064	5	1846
+1846	6	1846
+1939	6	1846
+2742	6	1846
+2767	6	1846
+2936	6	1846
+
+
+************************
+
+************************
+Document:  CACM-3132.html
+************************
+
+
+Experiments with Some Algorithms that Find
+Central Solutions for Pattern Classification
+
+In two-class pattern recognition, it is a standard
+technique to have an algorithm finding hyperplanes
+which separates the two classes in a linearly separable training
+set.  The traditional methods find a hyperplane which separates all
+points in the other, but such a hyperplane is not necessarily centered
+in the empty space between the two classes.  Since a central
+hyperplane does not favor one class or the other, it should have
+a lower error rate in classifying new points and is therefore better
+than a noncentral hyperplane.  Six <B>algorithms for</B> finding central
+hyperplanes are tested on three data sets.  Although frequently
+used practice, the modified relaxation algorithm is very poor. 
+Three algorithms which are defined in the paper are found to be
+quite good.
+
+CACM March, 1979
+
+Slagle, J.
+
+Pattern recognition, pattern classification, linear discriminants, central
+hyperplanes, centering, centrality criteria, dead zone, hyperplane,
+linearly separable, relaxation algorithm, accelerated relaxation
+
+3.62 3.63
+
+CA790303 DH April 12, 1979  3:20 PM
+
+3132	4	3132
+2215	5	3132
+3132	5	3132
+3132	5	3132
+3132	5	3132
+
+
+************************
+
+
+
+Experiments with Some Algorithms that Find
+Central Solutions for Pattern Classification
+
+In two-class pattern recognition, it is a standard
+technique to have an algorithm finding hyperplanes
+which separates the two classes in a linearly separable training
+set.  The traditional methods find a hyperplane which separates all
+points <B>in the</B> other, but such a hyperplane is not necessarily centered
+in the empty space between the two classes.  Since a central
+hyperplane does not favor one class or the other, it should have
+a lower error rate in classifying new points and is therefore better
+than a noncentral hyperplane.  Six algorithms for finding central
+hyperplanes are tested on three data sets.  Although frequently
+used practice, the modified relaxation algorithm is very poor. 
+Three algorithms which are defined in the paper are found to be
+quite good.
+
+CACM March, 1979
+
+Slagle, J.
+
+Pattern recognition, pattern classification, linear discriminants, central
+hyperplanes, centering, centrality criteria, dead zone, hyperplane,
+linearly separable, relaxation algorithm, accelerated relaxation
+
+3.62 3.63
+
+CA790303 DH April 12, 1979  3:20 PM
+
+3132	4	3132
+2215	5	3132
+3132	5	3132
+3132	5	3132
+3132	5	3132
+
+
+************************
+
+************************
+Document:  CACM-1768.html
+************************
+
+
+A Global Parser for Context-Free Phrase Structure Grammars
+
+An algorithm for analyzing any context-free phrase
+structure grammar and for generating a program 
+which can then parse any sentence <B>in the</B> language (or
+indicate that the given sentence is invalid) is 
+described. The parser is of the "top-to-bottom" type
+and is recursive . A number of heuristic procedures 
+whose purpose is to shorten the basic algorithm by quickly
+ascertaining that certain substrings of the 
+input sentence cannot correspond to the target nonterminal
+symbols are included.  Both the generating 
+algorithm and the parser have been implemented in RCA
+SNOBOL and have been tested successfully on a number 
+of artificial grammars and on a subset of ALGOL.  A
+number of the routines for extracting data about 
+a grammar, such as minimum lengths of N-derivable strings
+and possible prefixes, are given and may be 
+of interest apart from their application in this particular context.
+
+CACM April, 1968
+
+Unger, S. H.
+
+parser, syntax-directed compiler, context-free
+grammars, syntactic analysis, translators
+
+3.42 4.12 5.24
+
+CA680402 JB February 23, 1978  11:27 AM
+
+1350	4	1768
+1399	4	1768
+1496	4	1768
+1659	4	1768
+1665	4	1768
+1683	4	1768
+1768	4	1768
+1768	4	1768
+1768	4	1768
+1781	4	1768
+1787	4	1768
+1787	4	1768
+1824	4	1768
+1825	4	1768
+1836	4	1768
+1861	4	1768
+1945	4	1768
+1945	4	1768
+2015	4	1768
+2061	4	1768
+2110	4	1768
+2110	4	1768
+2127	4	1768
+2187	4	1768
+2317	4	1768
+2545	4	1768
+2698	4	1768
+2733	4	1768
+3094	4	1768
+1141	5	1768
+1265	5	1768
+1768	5	1768
+1768	5	1768
+1768	5	1768
+1781	5	1768
+
+
+************************
+
+
+
+A Global Parser for Context-Free Phrase Structure Grammars
+
+An algorithm for analyzing any context-free phrase
+structure grammar <B>and for</B> generating a program 
+which can then parse any sentence in the language (or
+indicate that the given sentence is invalid) is 
+described. The parser is of the "top-to-bottom" type
+and is recursive . A number of heuristic procedures 
+whose purpose is to shorten the basic algorithm by quickly
+ascertaining that certain substrings of the 
+input sentence cannot correspond to the target nonterminal
+symbols are included.  Both the generating 
+algorithm and the parser have been implemented in RCA
+SNOBOL and have been tested successfully on a number 
+of artificial grammars and on a subset of ALGOL.  A
+number of the routines for extracting data about 
+a grammar, such as minimum lengths of N-derivable strings
+and possible prefixes, are given and may be 
+of interest apart from their application in this particular context.
+
+CACM April, 1968
+
+Unger, S. H.
+
+parser, syntax-directed compiler, context-free
+grammars, syntactic analysis, translators
+
+3.42 4.12 5.24
+
+CA680402 JB February 23, 1978  11:27 AM
+
+1350	4	1768
+1399	4	1768
+1496	4	1768
+1659	4	1768
+1665	4	1768
+1683	4	1768
+1768	4	1768
+1768	4	1768
+1768	4	1768
+1781	4	1768
+1787	4	1768
+1787	4	1768
+1824	4	1768
+1825	4	1768
+1836	4	1768
+1861	4	1768
+1945	4	1768
+1945	4	1768
+2015	4	1768
+2061	4	1768
+2110	4	1768
+2110	4	1768
+2127	4	1768
+2187	4	1768
+2317	4	1768
+2545	4	1768
+2698	4	1768
+2733	4	1768
+3094	4	1768
+1141	5	1768
+1265	5	1768
+1768	5	1768
+1768	5	1768
+1768	5	1768
+1781	5	1768
+
+
+************************
+
+************************
+Document:  CACM-2450.html
+************************
+
+
+Empirical Working Set Behavior
+
+The working set model for program behavior
+has been proposed in recent years as a basis for 
+the design of scheduling and paging algorithms.  Although
+the words "working set" are now commonly encountered 
+<B>in the</B> literature dealing with resource allocation, there
+is a dearth of published data on program measurements, 
+in the hope that workers in the field might find experimental
+evidence upon which to substantiate and 
+base theoretical work.
+
+CACM September, 1973
+
+Rodriguez-Rosell, J.
+
+virtual memory, paging, working set,
+software measurement, program behavior
+
+4.3
+
+CA730905 JB January 23, 1978  9:22 AM
+
+2373	4	2450
+2374	4	2450
+2380	4	2450
+2450	4	2450
+2450	4	2450
+2595	4	2450
+2996	4	2450
+3006	4	2450
+3006	4	2450
+3067	4	2450
+3067	4	2450
+2373	5	2450
+2374	5	2450
+2450	5	2450
+2450	5	2450
+2450	5	2450
+
+
+************************
+
+
+
+Empirical Working Set Behavior
+
+The working set model for program behavior
+has been proposed in recent years as a basis for 
+the design of scheduling and paging algorithms.  Although
+the words "working set" are now commonly encountered 
+in the literature <B>dealing with</B> resource allocation, there
+is a dearth of published data on program measurements, 
+in the hope that workers in the field might find experimental
+evidence upon which to substantiate and 
+base theoretical work.
+
+CACM September, 1973
+
+Rodriguez-Rosell, J.
+
+virtual memory, paging, working set,
+software measurement, program behavior
+
+4.3
+
+CA730905 JB January 23, 1978  9:22 AM
+
+2373	4	2450
+2374	4	2450
+2380	4	2450
+2450	4	2450
+2450	4	2450
+2595	4	2450
+2996	4	2450
+3006	4	2450
+3006	4	2450
+3067	4	2450
+3067	4	2450
+2373	5	2450
+2374	5	2450
+2450	5	2450
+2450	5	2450
+2450	5	2450
+
+
+************************
+
+************************
+Document:  CACM-2849.html
+************************
+
+
+Ethernet: Distributed Packet Switching for Local Computer Networks
+
+Ethernet is a branching broadcast communication
+system for carrying digital data packets among 
+locally distributed computing stations. The packet
+transport mechanism provided by Ethernet has been 
+used to build systems which can be viewed as either local
+computer networks or loosely coupled multiprocessors. 
+ An Ethernet's shared communication facility, its Ether,
+is a passive broadcast medium with no central 
+control.  Coordination of access to the Ether <B>for packet</B>
+broadcasts is distributed among the contending 
+transmitting stations using controlled statistical arbitration.
+ Switching of packets to their destinations 
+on the Ether is distributed among the receiving stations
+using packet address recognition.  Design principles 
+and implementation are described, based on experience
+with an operating Ethernet of 100 nodes along a 
+kilometer of coaxial cable.  A model for estimating performance
+under heavy loads and a packet protocol 
+for error controlled communication are included for completeness.
+
+CACM July, 1976
+
+Metcalfe, R. M.
+Boggs, D. R.
+
+computer networks, packet switching, multiprocessing,
+distributed control, distributed computing, 
+broadcast communication, statistical arbitration
+
+3.81 4.32 6.35
+
+CA760704 JB January 4, 1978  12:49 PM
+
+2849	4	2849
+2371	5	2849
+2849	5	2849
+2849	5	2849
+2849	5	2849
+3032	5	2849
+3119	5	2849
+2245	6	2849
+2798	6	2849
+2849	6	2849
+2849	6	2849
+2859	6	2849
+
+
+************************
+
+************************
+Document:  CACM-1161.html
+************************
+
+
+1401 Compatibility Feature on the IBM System/360 Model 30
+
+The "second generation" of stored-program computers,
+of which IBM 1400 series was a part, brought 
+EDP into the mass market for the first time on a large
+scale.  As this era unfolded, rapid <B>changes in</B> 
+technology led to rapid obsolescence of data processing
+equipment.  Program written for a particular 
+system required tedious conversion as incompatible new
+machines came into use.  The IBM System/360 has 
+been designed with the conversion problem specifically
+in mind.  One of the conversion aids available 
+on the Model 30 is the 1401 compatibility feature.  This
+feature, in conjunction with other aids, permits 
+a smooth and inexpensive transition to optimum use of the new system.
+
+CACM December, 1965
+
+McCormack, M. A.
+Schansman, T. T.
+Womack, K. K.
+
+CA651208 JB March 6, 1978  3:55 PM
+
+1161	5	1161
+1161	5	1161
+1161	5	1161
+
+
+************************
+
+************************
+Document:  CACM-2888.html
+************************
+
+
+Information Reference Coding
+
+Items in business systems have to be identified
+by reference codes, which can later be used 
+as data codes and file keys in an associated data processing
+system.  In business systems associated 
+with large collections of integrated files (database)
+it is vital to assign codes in a methodical way 
+so as to control future extension and changes while maintaining
+correct program action. The principles 
+of methodical coding are discussed, and the way in
+which logical connections between data items must 
+be reflected <B>in the</B> reference code framework is shown
+through a set-theoretic information model.
+
+CACM January, 1976
+
+Florentin, J. J.
+
+data, file, reference code, systems
+analysis, information modeling, database
+
+3.50
+
+CA760105 JB January 5, 1978  10:11 AM
+
+1135	4	2888
+1136	4	2888
+2155	4	2888
+2406	4	2888
+493	4	2888
+2710	4	2888
+2710	4	2888
+2715	4	2888
+2716	4	2888
+2717	4	2888
+2718	4	2888
+2765	4	2888
+2765	4	2888
+2817	4	2888
+2888	4	2888
+2888	4	2888
+2901	4	2888
+2906	4	2888
+2957	4	2888
+2959	4	2888
+2965	4	2888
+3087	4	2888
+3154	4	2888
+729	4	2888
+2046	5	2888
+2888	5	2888
+2888	5	2888
+2888	5	2888
+616	5	2888
+
+
+************************
+
+************************
+Document:  CACM-1307.html
+************************
+
+
+A Lightpen-Controlled Program For On-Line Data Analysis
+
+This paper describes a technique designed
+to ease the use of a data processing system by a 
+person, in particular, a scientist, who is intimately and
+primarily concerned with interpreting the significance 
+of data handled by the system.  Since such a person is
+often unable to spend the time necessary to master 
+a programming language, it is essential that he be aided
+in composing commands to the computer.  In the 
+system described, the user is not required to learn
+or remember the vocabulary of the language because 
+the vocabulary is displayed before him on"menus" by
+means of a computer-drive scope.  He selects the 
+various vocabulary elements required by pointing with
+the light pen.  By use of a small unordered set 
+of rewriting rules applied as a result of light pen
+selections, the user generates only syntactically
+correct commands to the system.  He does not have to learn
+or remember the grammar.  The program restricts 
+the user severely <B>in the</B> particular language he can use,
+but the method for communicating with the program 
+makes these restrictions seem quite natural and unconstraining.
+ The program has been used successfully 
+for over ten months.
+
+CACM February, 1965
+
+Goodenough, J. B.
+
+CA650217 JB March 7, 1978  10:40 PM
+
+1307	5	1307
+1307	5	1307
+1307	5	1307
+1978	5	1307
+1307	6	1307
+1589	6	1307
+1813	6	1307
+
+
+************************
+
+************************
+Document:  CACM-0595.html
+************************
+
+
+Guides to Teaching COBOL
+
+The teaching of COBOL can be divided into
+three main subject areas.  They are the syntax of 
+COBOL, the use of such syntax in solving any given problem,
+and programming concepts.  It is generally 
+accepted that some knowledge of <B>the hardware</B> and computer
+logic must be possessed by the programmer. 
+ The teaching problem arises in determining how thoroughly
+a student must know the hardware and logic 
+for that computer for which he will write COBOL programs.
+ Unfortunately, historical data concerning 
+students' programming proficiency is almost non-existent
+and, at best, difficult to measure.  How then 
+might we approach solving this problem?
+
+CACM May, 1962
+
+Greene, I.
+
+CA620510 JB March 20, 1978  1:44 PM
+
+595	5	595
+595	5	595
+595	5	595
+
+
+************************
+
+************************
+Document:  CACM-1441.html
+************************
+
+
+Methods of Numerical Integration Applied to
+a System Having Trivial Function Evaluations
+
+A study has been made to determine which methods
+of numerical integration require the least 
+computation time for a given amount of truncation error
+when applied to a particular system of ordinary 
+differential equations where function evaluations are
+relatively trivial.  Recent methods due to Butcher 
+and Gear are compared with classic Runge-Kutta, Kutta-Nystrom
+and Adams methods.  Some of the newer one-step 
+methods due to Butcher are found to be slightly superior,
+but no one method is found to have any great 
+advantage over the others <B>in the</B> application to this particular problem.
+
+CACM April, 1966
+
+Waters, J.
+
+CA660408 JB March 3, 1978  10:37 AM
+
+1441	5	1441
+1441	5	1441
+1441	5	1441
+
+
+************************
+
+************************
+Document:  CACM-0531.html
+************************
+
+
+Person-Matching by Electronic Methods
+
+Record linkage <B>in the</B> updating of files is
+accomplished in many establishments through the 
+use of a preassigned number, such as payroll number,
+customer number, or social security number.  In 
+vital and health records, however, a unique number
+is generally not preassigned to an individual for 
+purposes of reporting services received to the health
+department.  In order to determine whether different 
+physician reports refer to the same individual, name
+and other identification must be compared.  This 
+is a laborious operation which is subject to various
+errors because of name misspellings, changes of 
+name upon marriage, and other problems.  We are interested
+in the maintenance of a psychiatric case register 
+in Maryland, where many of the reports from over a hundred
+psychiatric agencies refer to the same patient. 
+ These records must be linked in order to provide unduplicated
+counts of individuals under care and longitudinal 
+records of psychiatric history.  An earlier paper [1] describes
+our general procedures for register maintenance 
+by use of a digital computer (Honeywell 800).  Here
+we present in more detail our initial procedures 
+for the person-matching process in order to elicit comments
+and suggestions from persons who have had 
+experience in matching.
+
+CACM July, 1962
+
+Phillips Jr., W.
+Bahn, A. K.
+Miyasaki, M.
+
+CA620730 JB March 17, 1978  7:51 PM
+
+531	5	531
+531	5	531
+531	5	531
+
+
+************************
+
+************************
+Document:  CACM-1890.html
+************************
+
+
+Simulation of Traffic Flows in a Network
+
+A computer simulation program which deals
+with traffic flows <B>in the</B> network of a large area 
+is described.  Each road is segmented into blocks of
+several ten-meter lengths and is represented by 
+a bidirectional list in computer memory.  The movement
+of cars, i.e. the transfer of cars from one block 
+to the next, is expressed by a proper formula.  This
+formula is based on the supposition that the speed 
+of cars in a block is determined only by the density of
+cars in the block, and this speed-versus-density 
+curve is empirically given the numerical values.  This
+simulation scheme has its excellent point in that 
+it makes it possible to trace the dynamic behavior
+of traffic flows in a variety of situations, some 
+examples of which are given for an actual area of the city of Kyoto, Japan.
+
+June, 1969
+
+Sakai, T.
+Nagao, M.
+
+traffic simulation, traffic flow, traffic network
+traffic control, traffic density, intersection, 
+signal setting, vehicle, road network, list structure, computer simulation
+
+3.57 3.23
+
+CA690603 JB February 17, 1978  1:26 PM
+
+1890	4	1890
+1890	5	1890
+1890	5	1890
+1890	5	1890
+757	5	1890
+
+
+************************
+
+************************
+Document:  CACM-2905.html
+************************
+
+
+Perfect Hashing Functions: A Single
+Probe Retrieving Method for Static Sets
+
+A refinement of hashing which allows retrieval
+of an item in a static table with a single probe 
+is considered.  Given a set I of identifiers, two methods
+are presented for building, in a mechanical 
+way, perfect hashing functions, i.e. functions transforming
+the elements of I into unique addresses. 
+ The first method, the "quotient reduction" method, is
+shown to be complete <B>in the</B> sense that for every 
+set I the smallest table in which the elements of I
+can be stored and from which they can be retrieved 
+by using a perfect hashing function constructed by this
+method can be found.  However, for nonuniformly 
+distributed sets, this method can give rather sparse tables.
+ The second method, the "remainder reduction" 
+method, is not complete in the above sense, but it seems
+to give minimal (or almost minimal) tables for 
+every kind of set.  The two techniques are applicable
+directly to small sets.  Some methods to extend 
+these results to larger sets are also presented.  A rough
+comparison with ordinary hashing is given which 
+shows that this method can be used conveniently
+in several practical applications.
+
+CACM November, 1977
+
+Sprugnoli, R.
+
+hashing, hashing methods, hash coding, direct addressing,
+identifier-to-address transformations, 
+perfect hashing functions, perfect hash coding, reduction, scatter storage
+
+3.7 3.74 4.34
+
+CA771111 JB December 27, 1977  6:45 AM
+
+2905	4	2905
+2905	5	2905
+2905	5	2905
+2905	5	2905
+3041	5	2905
+3126	5	2905
+3176	5	2905
+829	5	2905
+2846	6	2905
+2905	6	2905
+2905	6	2905
+2905	6	2905
+
+
+************************
+
+************************
+Document:  CACM-2722.html
+************************
+
+
+Multidimensional Binary Search Trees Used for Associative Searching
+
+This paper develops the multidimensional binary
+search tree (or k-d tree, where k is the dimensionality 
+of the search space) as a data structure for storage of
+information to be retrieved by associative searches. 
+The k-d tree is defined and examples are given. It
+is shown to be quite in its storage requirements. 
+ A significant advantage of this structure is that a single
+data structure can handle many types of queries 
+very efficiently.  Various utility algorithms are developed;
+their proven average running times in an 
+n record file are: insertion, O (log n); deletion of
+the root, O (n^(k-1)/k); deletion of a random node, 
+O (log n); and optimization (guarantees logarithmic performance
+of searches), O (n log n).  Search algorithms 
+are given for partial match queries with t keys specified
+[proven maximum running time of O (n^(k-t)/k)] 
+and for nearest neighbor queries [empirically observed average
+running time of O (log n).]  These performances 
+far surpass the best currently known <B>algorithms for</B>
+these tasks.  An algorithm is presented to handle 
+any general intersection query. The main focus of this
+paper theoretical.  It is felt, however, that 
+k-d trees could be quite useful in many applications,
+and examples of potential uses are given.
+
+CACM September, 1975
+
+Bently, J. L.
+
+associative retrieval, binary search trees, key,
+attribute, information retrieval system, nearest 
+neighbor queries, partial match queries, intersection
+queries, binary tree insertion
+
+3.63 3.70 3.74 4.49
+
+CA750902 JB January 6, 1978  3:22 PM
+
+2722	5	2722
+2722	5	2722
+2722	5	2722
+
+
+************************
+
+
+
+Multidimensional Binary Search Trees Used for Associative Searching
+
+This paper develops the multidimensional binary
+search tree (or k-d tree, where k is the dimensionality 
+of the search space) as a data structure for storage of
+information to be retrieved by associative searches. 
+The k-d tree is defined and examples are given. It
+is shown to be quite in its storage requirements. 
+ A significant advantage of this structure is that a single
+data structure can handle many types of queries 
+very efficiently.  Various utility algorithms are developed;
+their proven average running times in an 
+n record file are: insertion, O (log n); deletion of
+the root, O (n^(k-1)/k); deletion of a random node, 
+O (log n); and optimization (guarantees logarithmic performance
+of searches), O (n log n).  Search algorithms 
+are given for partial match queries with t keys specified
+[proven maximum running time of O (n^(k-t)/k)] 
+<B>and for</B> nearest neighbor queries [empirically observed average
+running time of O (log n).]  These performances 
+far surpass the best currently known algorithms for
+these tasks.  An algorithm is presented to handle 
+any general intersection query. The main focus of this
+paper theoretical.  It is felt, however, that 
+k-d trees could be quite useful in many applications,
+and examples of potential uses are given.
+
+CACM September, 1975
+
+Bently, J. L.
+
+associative retrieval, binary search trees, key,
+attribute, information retrieval system, nearest 
+neighbor queries, partial match queries, intersection
+queries, binary tree insertion
+
+3.63 3.70 3.74 4.49
+
+CA750902 JB January 6, 1978  3:22 PM
+
+2722	5	2722
+2722	5	2722
+2722	5	2722
+
+
+************************
+
+************************
+Document:  CACM-1685.html
+************************
+
+
+GAN, a System for Generating and Analyzing Activity Networks
+
+GAN, a system for generating activity networks,
+is designed to save time <B>in the</B> preparation 
+of activity networks and to deal conveniently with network
+programs.  A defining description of a programming 
+language designed for generating activity network from
+a set of standard networks is presented.  Also, 
+a general idea of a language for performing calculations
+on activity networks (scheduling activity networks) 
+is given.
+
+CACM October, 1968
+
+Schurmann, A.
+
+activity network, management project, standard network,
+network generator, network assembler, activity 
+network analysis, network calculation, network program
+
+3.50 3.53 4.11 4.12 4.29
+
+CA681002 JB February 21, 1978  4:22 PM
+
+1685	4	1685
+1685	5	1685
+1685	5	1685
+1685	5	1685
+3059	5	1685
+
+
+************************
+
+************************
+Document:  CACM-1165.html
+************************
+
+
+The Spectra 70/45 Emulator for the RCA 301
+
+The RCA 301 Emulator System is supplied with
+the Spectra 70/45 as a reprogramming aid.  It 
+allows an RCA 301 object program to be run on the Spectra
+70/45 without necessitating changes <B>in the</B> 
+RCA 301 object code.  Execution rates are considerably
+better than traditional simulation.  The Emulator 
+provides an increase in throughput capacity for the
+301 user on the Spectra 70/45.  The Emulator makes 
+use of both hardware micro-program routines and
+software routines to accomplish its function.
+
+CACM December, 1965
+
+Benjamin, R. I.
+
+CA651204 JB March 6, 1978  4:15 PM
+
+1165	5	1165
+1165	5	1165
+1165	5	1165
+
+
+************************
+
+
+
+The Spectra 70/45 Emulator for the RCA 301
+
+The RCA 301 Emulator System is supplied with
+the Spectra 70/45 as a reprogramming aid.  It 
+allows an RCA 301 object program to be run on the Spectra
+70/45 without necessitating <B>changes in</B> the 
+RCA 301 object code.  Execution rates are considerably
+better than traditional simulation.  The Emulator 
+provides an increase in throughput capacity for the
+301 user on the Spectra 70/45.  The Emulator makes 
+use of both hardware micro-program routines and
+software routines to accomplish its function.
+
+CACM December, 1965
+
+Benjamin, R. I.
+
+CA651204 JB March 6, 1978  4:15 PM
+
+1165	5	1165
+1165	5	1165
+1165	5	1165
+
+
+************************
+
+************************
+Document:  CACM-2106.html
+************************
+
+
+Computer Education in a Graduate School of Management
+
+Several years of experience have led to the belief that the creative
+design and evaluation of management information systems requires
+a thorough understanding of the related computer technology.  Concepts
+such as paging and priority interrupt systems can best be explained at the 
+machine language level.  Any machine used for exposition
+should fulfill several criteria.  It should: (1) raise as few
+spurious issues as possible; (2) allow, without undue effort, the
+solution of interesting problems; (3) be capable of exposing all
+outstanding issues of significance, capable of exposing all outstanding
+issues of significance, with<B>in the</B> chosen machine; (4) be
+seful for pursuing issues in great depth when appropriate; (5) not
+be committed to the equipment provided by any manufacturer; (6) be able to 
+provide the student with diagnostic aids to a great depth;
+(7) allow the student ready access to the machine; (8) be capable
+of extension to expose new issues as they come along.  We have
+constructed a simulated machine and its associated software which
+meets these criteria.  This system, called the PRISM system,
+is documented by a primer and a reference manual.
+
+CACM February, 1970
+
+Ness, D. N.
+Green, R. S.
+Martin, W. A.
+Moulton, G. A.
+
+education, simulation, machine language,
+management information systems, interpreters
+
+1.52 3.51 4.13 4.21
+
+CA700209 JB February 14, 1978  10:15 AM
+
+2106	5	2106
+2106	5	2106
+2106	5	2106
+
+
+************************
+
+************************
+Document:  CACM-0248.html
+************************
+
+
+What is Proprietary In Mathematical Programming?-Impressions
+of a Panel Discussion
+
+A panel discussion on "What is Proprietary
+in Mathematical Programming?" was sponsored by the 
+Special Interest Committee on Mathematical Programming
+of the ACM during a Hall of Discussion/on September 
+7th at the 16th National ACM meeting in Los Angeles.  This
+note consists solely of the impressions garnered 
+by the moderator of the panel and does not necessarily
+represent the position of any of the panelists 
+or other participants <B>in the</B> discussion.
+
+CACM December, 1961
+
+Smith, L. W.
+
+CA611202 JB March 15, 1978  10:31 PM
+
+248	5	248
+248	5	248
+248	5	248
+
+
+************************
+
+************************
+Document:  CACM-1362.html
+************************
+
+
+Code Extension in ASCII* (An ASA Tutorial)
+
+The American Standard Code for Information
+Interchange (ASCII) contains a number of control 
+characters associated with the principle of code extension,
+that is, with the representation of information 
+which cannot be directly represented by means of the characters
+<B>in the</B> Code.  The manner of use of these 
+characters has not previously been completely described.
+ This paper presents a set of mutually consistent 
+philosophies regarding code extension applications,
+and suggests a corollary set of doctrines for the 
+application of the code extension characters.  Distinctions
+are drawn between code extension and such 
+other concepts as "graphic substitution" or "syntactic
+representation" which are often used to meet similar 
+requirements.  Also covered are certain topics which
+are not truly concerned with code extension but 
+which are often linked with it in discussion on code applications.
+ The material in this paper is equally 
+applicable in principle to the (proposed) ISO international
+7-bit code for information interchange.
+
+CACM October, 1966
+
+CA661005 JB March 2, 1978  4:02 PM
+
+1362	5	1362
+1362	5	1362
+1362	5	1362
+
+
+************************
+
+************************
+Document:  CACM-3158.html
+************************
+
+
+Secure Personal Computing in an Insecure Network
+
+A method for implementing secure personal computing in a network
+with one or more central facilities is proposed.  The method employs a
+public-key encryption device and hardware keys.  Each user is responsible 
+for his own security and need not rely on the security of
+the central facility or the communication links.  A user can safely
+store confidential files <B>in the</B> central facility or transmit confidential 
+data to other users on the network. 
+
+CACM August, 1979
+
+Denning, D.
+
+Personal computing, security, privacy, networks, public-key encryption
+
+2.12 6.20
+
+CA790804 DB January 14, 1980  9:26 AM
+
+2840	4	3158
+2869	4	3158
+3021	4	3158
+3128	4	3158
+3158	4	3158
+3158	4	3158
+3158	4	3158
+2436	5	3158
+3038	5	3158
+3111	5	3158
+3158	5	3158
+3158	5	3158
+3158	5	3158
+
+
+************************
+
+
+
+Secure Personal Computing in an Insecure Network
+
+A method for implementing secure personal computing in a network
+with one or more central facilities is proposed.  The method employs a
+public-key encryption device and hardware keys.  Each user is responsible 
+for his own security and need not rely on the security of
+the central facility or the communication links.  A user can safely
+store confidential files in the central facility or transmit confidential 
+data to other users on <B>the network.</B> 
+
+CACM August, 1979
+
+Denning, D.
+
+Personal computing, security, privacy, networks, public-key encryption
+
+2.12 6.20
+
+CA790804 DB January 14, 1980  9:26 AM
+
+2840	4	3158
+2869	4	3158
+3021	4	3158
+3128	4	3158
+3158	4	3158
+3158	4	3158
+3158	4	3158
+2436	5	3158
+3038	5	3158
+3111	5	3158
+3158	5	3158
+3158	5	3158
+3158	5	3158
+
+
+************************
+
+************************
+Document:  CACM-2402.html
+************************
+
+
+Pictorial Pattern Recognition and the
+Phase Problem of X-ray Crystallography
+
+The availability of interactive, three-dimensional,
+computer graphics systems coupled to powerful 
+digital computers encourages the development of algorithms
+adapted to this environment.  Pictorial pattern 
+recognition techniques make possible a number of approaches
+to X-ray structure determination based on 
+molecular model building, i.e. the use of chemical information
+to frame "structural hypotheses" which 
+can computationally be tested and refined by reference
+to the experimental data.  Application of standard 
+pattern recognition algorithms is hindered by the fact
+that the cross-correlation between a model and 
+the correct structure cannot be computed because of
+a fundamental incompleteness <B>in the</B> measured data. 
+ However, it is possible to compute an upper bound to such
+a cross-correlation.  A simple example demonstrates 
+that this information can be the basis of a technique
+for structure determination that can make effective 
+use of an interactive graphics system. Model building
+by cross-correlations has intrinsic advantages 
+over usual crystallographic techniques based on the
+autocorrelation or Patterson function, especially 
+for large structures.  This is significant, for crystallography
+of biological macromolecules hasbeen 
+and will continue to be a field of intense interest.
+
+CACM January, 1972
+
+Lesk, A. M.
+
+pictorial pattern recognition, phase problem,
+X-ray crystallography, interactive graphics
+
+3.13 3.17 3.63
+
+CA720101 JB February 1, 1978  9:53 AM
+
+2402	5	2402
+2402	5	2402
+2402	5	2402
+
+
+************************
+
+************************
+Document:  CACM-1612.html
+************************
+
+
+Top-to-bottom Parsing Rehabilitated?
+
+This note is concerned with the efficiency
+of the Top-to-Bottom parsing algorithm as used in 
+connection with programming language grammars.  It is
+shown, for instance, that retracing of unprofitable 
+paths can often be eliminated by a suitable rearrangement
+of the productions defining the grammar.  The 
+essential weakness of the method is in <B>dealing with</B> complicated
+syntactic structures which are in practice 
+only sparsely occupied, e.g., arithmetic expressions.
+
+CACM April, 1967
+
+Brooker, R. A.
+
+CA670403 JB February 28, 1978  11:32 AM
+
+1612	4	1612
+1781	4	1612
+1945	4	1612
+1139	5	1612
+1612	5	1612
+1612	5	1612
+1612	5	1612
+
+
+************************
+
+
+
+Top-to-bottom Parsing Rehabilitated?
+
+This note is concerned with the efficiency
+of the Top-to-Bottom parsing algorithm as <B>used in</B> 
+connection with programming language grammars.  It is
+shown, for instance, that retracing of unprofitable 
+paths can often be eliminated by a suitable rearrangement
+of the productions defining the grammar.  The 
+essential weakness of the method is in dealing with complicated
+syntactic structures which are in practice 
+only sparsely occupied, e.g., arithmetic expressions.
+
+CACM April, 1967
+
+Brooker, R. A.
+
+CA670403 JB February 28, 1978  11:32 AM
+
+1612	4	1612
+1781	4	1612
+1945	4	1612
+1139	5	1612
+1612	5	1612
+1612	5	1612
+1612	5	1612
+
+
+************************
+
+************************
+Document:  CACM-1171.html
+************************
+
+
+A Comparison of the Primal-Simplex and Primal-Dual
+Algorithms for Linear Programming
+
+A statistical comparison of the primal-dual
+and the more commonly used primal-simplex algorithm 
+for solving linear programming problems has been made under
+the assumption of starting with a full artificial 
+basis.  Under these conditions the primal-dual method
+shows a statistically significant superiority on 
+randomly generated problems.  It has also been found, via
+a regression analysis, that the relevant parameters 
+in determining the difference <B>in the</B> number of iterations
+between the algorithms is not only the number 
+of constraints and the number of variables but
+also the ratio of the latter to the former.
+
+CACM November, 1965
+
+Mueller, R. K.
+Cooper, L.
+
+CA651110 JB March 6, 1978  4:50 PM
+
+1171	5	1171
+1171	5	1171
+1171	5	1171
+
+
+************************
+
+************************
+Document:  CACM-2949.html
+************************
+
+
+A Correctness Proof of a Topology Information
+Main tenance Protocol for a Distributed Computer 
+Network
+
+In order for the nodes of a distributed computer
+network to communicate, each node must have 
+information about the network's topology.  Since nodes
+and links sometimes crash, a scheme is needed 
+to update this information.  One of the major constrain ts
+on such a topology information scheme is that 
+it may not involve a central controller.  The Topology
+Information Protocol that was implemented on the 
+MERIT Computer Network is presented and explained; this
+protocol is quite general and could be implemented 
+on any computer network.  It is based on Baran's "Hot
+Potato Heuristic Routing Doctrine."  A correctness 
+proof of this Topology Information Protocol is also presented.
+
+CACM July, 1977
+
+Tajibnapis, W. D.
+
+distributed computer network, correctness proofs,
+computer networks, distributed control, network 
+topology, routing problem <B>in network</B>s, distributed operating
+system, store and forward packet switching, 
+store and forward message switching, traffic control
+
+3.81 4.32
+
+CA770703 JB December 28, 1977  11:59 AM
+
+2949	5	2949
+2949	5	2949
+2949	5	2949
+
+
+************************
+
+
+
+A Correctness Proof of a Topology Information
+Main tenance Protocol for a Distributed Computer 
+Network
+
+In order for the nodes of a distributed computer
+network to communicate, each node must have 
+information about the network's topology.  Since nodes
+and links sometimes crash, a scheme is needed 
+to update this information.  One of the major constrain ts
+on such a topology information scheme is that 
+it may not involve a central controller.  The Topology
+Information Protocol that was implemented on the 
+MERIT Computer Network is presented and explained; this
+protocol is quite general and could be implemented 
+on any computer network.  It is based on Baran's "Hot
+Potato Heuristic Routing Doctrine."  A correctness 
+proof of this Topology Information Protocol is also presented.
+
+CACM July, 1977
+
+Tajibnapis, W. D.
+
+distributed computer network, correctness proofs,
+computer networks, distributed control, network 
+topology, routing problem in networks, distributed operating
+system, store <B>and for</B>ward packet switching, 
+store and forward message switching, traffic control
+
+3.81 4.32
+
+CA770703 JB December 28, 1977  11:59 AM
+
+2949	5	2949
+2949	5	2949
+2949	5	2949
+
+
+************************
+
+************************
+Document:  CACM-2951.html
+************************
+
+
+Dynamic Response Time Prediction for Computer Networks
+
+If the ultimate aim of a computing network
+is resource sharing, then the human component as 
+well as the technical component of networking must
+be fully investigated to achieve this goal.  This 
+research is a first step toward assisting the user in participating
+<B>in the</B> vast store of resources available 
+on a network. Analytical, simulation, and statistical performance
+evaluation tools are employed to investigate 
+the feasibility of a dynamic response time monitor
+that is capable of providing comparative response 
+time information for users wishing to process various
+computing applications at some network computing 
+node.  The research clearly reveals that sufficient
+system data are currently obtainable, at least for 
+the five diverse ARPA network systems studied in detail,
+to describe and predict the response time for 
+network time-sharing systems as it depends on some
+measure of system activity or load level.
+
+CACM July, 1977
+
+Mamrak, S. A.
+
+response time monitor, computer networks, time-sharing
+systems, comparative response time, ARPA 
+network, anlytic modeling, simulation, benchmark jobs, system measurement
+
+4.6 6.20 8.1
+
+CA770701 JB December 28, 1977  12:42 PM
+
+2629	4	2951
+2868	4	2951
+2928	4	2951
+2951	4	2951
+2380	5	2951
+2951	5	2951
+2951	5	2951
+2951	5	2951
+
+
+************************
+
+************************
+Document:  CACM-1397.html
+************************
+
+
+Proceedings of the ACM Symposium on Symbolic and Algebraic Manipulation
+
+The ACM Symposium on Symbolic and Algebraic
+Manipulation brought together over four hundred 
+people <B>interested in</B> programming languages designed
+for manipulation of algebraic formulas and symbol 
+strings, in their applications, and in algorithms for
+their implementation.  Twenty-eight papers were 
+presented, followed by a lively panel discussion of
+future directions.  Evening meetings were arranged 
+for several interest groups.  The conference was sponsored
+by the ACM Special Interest Committee on Symbolic 
+and Algebraic Manipulation.  The program committee consisted
+of Chairman Jean E. Sammet, Paul Abrahams, 
+Thomas E. Cheatham, Max Goldstein, and Douglas Mcllroy.
+ Conference arrangements were made by Lewis C. 
+Clapp, Daniel Bobrow and James H. Griesmer.-Robert W. Floyd, Editor
+
+CACM August, 1966
+
+CA660801 JB March 2, 1978  8:17 PM
+
+1397	4	1397
+2704	4	1397
+1247	5	1397
+1396	5	1397
+1397	5	1397
+1397	5	1397
+1397	5	1397
+964	6	1397
+1028	6	1397
+1029	6	1397
+1083	6	1397
+1132	6	1397
+1214	6	1397
+1278	6	1397
+1334	6	1397
+1365	6	1397
+1386	6	1397
+1387	6	1397
+1388	6	1397
+1392	6	1397
+1393	6	1397
+1394	6	1397
+1395	6	1397
+1396	6	1397
+1397	6	1397
+1496	6	1397
+284	6	1397
+407	6	1397
+3199	6	1397
+3200	6	1397
+3201	6	1397
+3202	6	1397
+3203	6	1397
+3204	6	1397
+561	6	1397
+730	6	1397
+
+
+************************
+
+
+
+Proceedings of the ACM Symposium on Symbolic and Algebraic Manipulation
+
+The ACM Symposium on Symbolic and Algebraic
+Manipulation brought together over four hundred 
+people interested in programming languages designed
+for manipulation of algebraic formulas and symbol 
+strings, in their applications, and in <B>algorithms for</B>
+their implementation.  Twenty-eight papers were 
+presented, followed by a lively panel discussion of
+future directions.  Evening meetings were arranged 
+for several interest groups.  The conference was sponsored
+by the ACM Special Interest Committee on Symbolic 
+and Algebraic Manipulation.  The program committee consisted
+of Chairman Jean E. Sammet, Paul Abrahams, 
+Thomas E. Cheatham, Max Goldstein, and Douglas Mcllroy.
+ Conference arrangements were made by Lewis C. 
+Clapp, Daniel Bobrow and James H. Griesmer.-Robert W. Floyd, Editor
+
+CACM August, 1966
+
+CA660801 JB March 2, 1978  8:17 PM
+
+1397	4	1397
+2704	4	1397
+1247	5	1397
+1396	5	1397
+1397	5	1397
+1397	5	1397
+1397	5	1397
+964	6	1397
+1028	6	1397
+1029	6	1397
+1083	6	1397
+1132	6	1397
+1214	6	1397
+1278	6	1397
+1334	6	1397
+1365	6	1397
+1386	6	1397
+1387	6	1397
+1388	6	1397
+1392	6	1397
+1393	6	1397
+1394	6	1397
+1395	6	1397
+1396	6	1397
+1397	6	1397
+1496	6	1397
+284	6	1397
+407	6	1397
+3199	6	1397
+3200	6	1397
+3201	6	1397
+3202	6	1397
+3203	6	1397
+3204	6	1397
+561	6	1397
+730	6	1397
+
+
+************************
+
+
+
+Proceedings of the ACM Symposium on Symbolic and Algebraic Manipulation
+
+The ACM Symposium on Symbolic and Algebraic
+Manipulation brought together over four hundred 
+people interested in programming languages designed
+for manipulation of algebraic formulas and symbol 
+strings, <B>in the</B>ir applications, and in algorithms for
+their implementation.  Twenty-eight papers were 
+presented, followed by a lively panel discussion of
+future directions.  Evening meetings were arranged 
+for several interest groups.  The conference was sponsored
+by the ACM Special Interest Committee on Symbolic 
+and Algebraic Manipulation.  The program committee consisted
+of Chairman Jean E. Sammet, Paul Abrahams, 
+Thomas E. Cheatham, Max Goldstein, and Douglas Mcllroy.
+ Conference arrangements were made by Lewis C. 
+Clapp, Daniel Bobrow and James H. Griesmer.-Robert W. Floyd, Editor
+
+CACM August, 1966
+
+CA660801 JB March 2, 1978  8:17 PM
+
+1397	4	1397
+2704	4	1397
+1247	5	1397
+1396	5	1397
+1397	5	1397
+1397	5	1397
+1397	5	1397
+964	6	1397
+1028	6	1397
+1029	6	1397
+1083	6	1397
+1132	6	1397
+1214	6	1397
+1278	6	1397
+1334	6	1397
+1365	6	1397
+1386	6	1397
+1387	6	1397
+1388	6	1397
+1392	6	1397
+1393	6	1397
+1394	6	1397
+1395	6	1397
+1396	6	1397
+1397	6	1397
+1496	6	1397
+284	6	1397
+407	6	1397
+3199	6	1397
+3200	6	1397
+3201	6	1397
+3202	6	1397
+3203	6	1397
+3204	6	1397
+561	6	1397
+730	6	1397
+
+
+************************
+
+************************
+Document:  CACM-2832.html
+************************
+
+
+Faster Retrieval from Context Trees (Corrigendum)
+
+Context trees provide a convenient way of
+storing data which is to be viewed as a hierarchy 
+of contexts.  This note presents an algorithm which improves
+on previous context tree retrieval algorithms. 
+It is based on the observation that in typical uses context
+changes are infrequent relative to retrievals, 
+so that data can be cached to speed up retrieval.  A retrieval
+is started from the position of the previous 
+retrieval and auxiliary structures are built up to make
+the search rapid.  Algorithms for addition and 
+deletion of data <B>and for</B> garbage collection are outlined.
+
+CACM September, 1976
+
+Wegbreit, B.
+
+context trees, frame problem, variable bindings, data structures
+
+3.69 3.74 4.10
+
+CA760907 JB January 4, 1978  8:49 AM
+
+2832	5	2832
+2832	5	2832
+2832	5	2832
+
+
+************************
+
+************************
+Document:  CACM-1930.html
+************************
+
+
+Extremely Portable Random Number Generator
+
+Extremely portable subroutines are sometimes
+needed for which moderate quality and efficiency 
+suffice.  Typically, this occurs for library functions
+(like random number generation and in core sorting) 
+which are not entirely universal or are not used in a
+standardized way.  The literature on random number 
+generators does not seem to contain an algorithm that
+meets requirements of this sort.  An extremely 
+portable 8-line FORTRAN program is provided which based
+on an important paper by Coveyou and MacPherson 
+(1967)sing their methods, Fourier analysis is applied
+to the probability function for the consecutive 
+n-tuples provided by our generator (with n less than
+or equal to 4).  While the small modulus which must 
+be used to maintain portability prevents the quality
+of the generator from being high, the generator 
+compares well with the bounds established <B>in the</B> above mentioned paper.
+
+CACM February, 1969
+
+Kruskal, J. B.
+
+random number generators, random numbers, random
+number analysis, random generators, linear sequential 
+generators, random number program, pseudo random numbers 
+
+4.49 5.19 5.5
+
+CA690208 JB February 20, 1978  10:43 AM
+
+1930	5	1930
+1930	5	1930
+1930	5	1930
+2115	5	1930
+1691	6	1930
+1930	6	1930
+
+
+************************
+
+
+
+Extremely Portable Random Number Generator
+
+Extremely portable subroutines are sometimes
+needed for which moderate quality and efficiency 
+suffice.  Typically, this occurs for library functions
+(like random number generation and in core sorting) 
+which are not entirely universal or are not <B>used in</B> a
+standardized way.  The literature on random number 
+generators does not seem to contain an algorithm that
+meets requirements of this sort.  An extremely 
+portable 8-line FORTRAN program is provided which based
+on an important paper by Coveyou and MacPherson 
+(1967)sing their methods, Fourier analysis is applied
+to the probability function for the consecutive 
+n-tuples provided by our generator (with n less than
+or equal to 4).  While the small modulus which must 
+be used to maintain portability prevents the quality
+of the generator from being high, the generator 
+compares well with the bounds established in the above mentioned paper.
+
+CACM February, 1969
+
+Kruskal, J. B.
+
+random number generators, random numbers, random
+number analysis, random generators, linear sequential 
+generators, random number program, pseudo random numbers 
+
+4.49 5.19 5.5
+
+CA690208 JB February 20, 1978  10:43 AM
+
+1930	5	1930
+1930	5	1930
+1930	5	1930
+2115	5	1930
+1691	6	1930
+1930	6	1930
+
+
+************************
+
+************************
+Document:  CACM-1572.html
+************************
+
+
+The Simulation of Time sharing Systems
+
+The development of new large scale time-sharing
+systems has raised a number of problems for 
+computation center management.  Not only is it necessary
+to develop an appropriate hardware configuration 
+for these systems, but appropriate software adjustments
+must be made.  Unfortunately, these systems often 
+do not respond to changes <B>in the</B> manner that intuition
+would suggest, and there are few guides to assist 
+in the analysis of performance characteristics.  The
+development of a comprehensive simulation model 
+to assist in the investigation of these questions is
+described in this paper.  The resulting model has 
+a general purpose design and can be used to study a
+variety of time-sharing systems.  It can also be 
+used to assist in the design and development of new time-sharing
+algorithms or techniques.  For the sake 
+of efficiency and greater applicability, the model was
+implemented in a limited FORTRAN subset that is 
+compatible with most FORTRAN IV compilers. The use of
+the simulation is demonstrated by a study of the 
+IBM 360/67 time-sharing system.
+
+CACM July, 1967
+
+Nielsen, N. R.
+
+CA670701 JB February 28, 1978  9:15 AM
+
+1572	5	1572
+1572	5	1572
+1572	5	1572
+1805	5	1572
+1846	5	1572
+1892	5	1572
+2188	5	1572
+2218	5	1572
+2317	5	1572
+1198	6	1572
+1380	6	1572
+1380	6	1572
+1424	6	1572
+1484	6	1572
+1518	6	1572
+1526	6	1572
+1572	6	1572
+1572	6	1572
+1572	6	1572
+1572	6	1572
+1572	6	1572
+1572	6	1572
+1693	6	1572
+1728	6	1572
+1728	6	1572
+1748	6	1572
+1749	6	1572
+1751	6	1572
+1751	6	1572
+1753	6	1572
+1752	6	1572
+1752	6	1572
+1781	6	1572
+1810	6	1572
+1879	6	1572
+2095	6	1572
+2126	6	1572
+2148	6	1572
+576	6	1572
+
+
+************************
+
+
+
+The Simulation of Time sharing Systems
+
+The development of new large scale time-sharing
+systems has raised a number of problems for 
+computation center management.  Not only is it necessary
+to develop an appropriate hardware configuration 
+for these systems, but appropriate software adjustments
+must be made.  Unfortunately, these systems often 
+do not respond to <B>changes in</B> the manner that intuition
+would suggest, and there are few guides to assist 
+in the analysis of performance characteristics.  The
+development of a comprehensive simulation model 
+to assist in the investigation of these questions is
+described in this paper.  The resulting model has 
+a general purpose design and can be used to study a
+variety of time-sharing systems.  It can also be 
+used to assist in the design and development of new time-sharing
+algorithms or techniques.  For the sake 
+of efficiency and greater applicability, the model was
+implemented in a limited FORTRAN subset that is 
+compatible with most FORTRAN IV compilers. The use of
+the simulation is demonstrated by a study of the 
+IBM 360/67 time-sharing system.
+
+CACM July, 1967
+
+Nielsen, N. R.
+
+CA670701 JB February 28, 1978  9:15 AM
+
+1572	5	1572
+1572	5	1572
+1572	5	1572
+1805	5	1572
+1846	5	1572
+1892	5	1572
+2188	5	1572
+2218	5	1572
+2317	5	1572
+1198	6	1572
+1380	6	1572
+1380	6	1572
+1424	6	1572
+1484	6	1572
+1518	6	1572
+1526	6	1572
+1572	6	1572
+1572	6	1572
+1572	6	1572
+1572	6	1572
+1572	6	1572
+1572	6	1572
+1693	6	1572
+1728	6	1572
+1728	6	1572
+1748	6	1572
+1749	6	1572
+1751	6	1572
+1751	6	1572
+1753	6	1572
+1752	6	1572
+1752	6	1572
+1781	6	1572
+1810	6	1572
+1879	6	1572
+2095	6	1572
+2126	6	1572
+2148	6	1572
+576	6	1572
+
+
+************************
+
+************************
 Document:  CACM-1867.html
 ************************
 
@@ -50,7 +3503,7 @@ On the Expected Lengths of Sequences Generated
 in Sorting by Replacement Selecting
 
 In the replacement-selecting technique of sorting,
-one is interested in the ratio L(j) of the 
+one is <B>interested in</B> the ratio L(j) of the 
 expected length of the j-th sequence generated by the
 technique to the number of memory cells used.  
 Using complex-variable theory, it is shown that L(j)
@@ -75,6 +3528,197 @@ CA690713 JB February 15, 1978  6:37 PM
 1867	5	1867
 1867	5	1867
 1867	5	1867
+
+
+************************
+
+
+
+On the Expected Lengths of Sequences Generated
+in Sorting by Replacement Selecting
+
+In the replacement-selecting technique of sorting,
+one is interested <B>in the</B> ratio L(j) of the 
+expected length of the j-th sequence generated by the
+technique to the number of memory cells used.  
+Using complex-variable theory, it is shown that L(j)
+-> 2 and that, asymptotically, the average interval 
+between sign changes of L(j)-2 is 2.6662.
+
+CACM July, 1969
+
+Hooker, W. W.
+
+replacement selecting, sorting, sequence lengths,
+asymptotic expected length, recursion relation, 
+generating function, meromorphic function
+
+3.74 5.31
+
+CA690713 JB February 15, 1978  6:37 PM
+
+1867	4	1867
+2272	4	1867
+1638	5	1867
+1867	5	1867
+1867	5	1867
+1867	5	1867
+
+
+************************
+
+************************
+Document:  CACM-0616.html
+************************
+
+
+An Information Algebra - Phase I Report-Language
+Structure Group of the CODASYL Development Committee
+
+This report represents the results of the
+first phase of the work of the Language Structure 
+Group.  The goal of this work is to arrive at a proper
+structure for a machine-independent problem-defining 
+language, at the systems level of data processing.  The
+report is based, for the most part, on a mathematical 
+model called "An Information Algebra" developed primarily
+by R. Bosak.  It is hoped that this report 
+will be read (a) with avid interest by programming language
+designers and implementors, and all those 
+<B>interested in</B> developing a theoretical approach to data
+processing; (b) with interest and understanding 
+by professional programmers and systems analysts; and (c)
+with appreciation by the businessman-analyst-manager. 
+ The authors have not attempted an exhaustive discourse
+in this report.  Rather, they have tried to present 
+a philosophy to the professional people who are vitally
+concerned with providing a working language for 
+the systems analyst's use.  They trust that the ideas
+in this report will stimulate others to think along 
+similar lines.  Questions and comments will be welcomed,
+and can be addressed to any of the members of 
+the Language Structure Group:  Robert Bosak, System
+Development Corporation;  Richard F. Clippinger, 
+Honeywell EDP Division;  Carey Dobbs, Remington Rand
+Univac Division;  Roy Goldfinger (Chairman), IBM 
+Corporation;  Renee B. Jasper, Navy Management Office;
+ William Keating, National Cash Register;  George 
+Kendrick, General Electric Company;  Jean E. Sammet, IBM Corporation.
+
+CACM April, 1962
+
+CA620401 JB March 20, 1978  2:40 PM
+
+1135	5	616
+1136	5	616
+2710	5	616
+2765	5	616
+2888	5	616
+2906	5	616
+493	5	616
+616	5	616
+616	5	616
+616	5	616
+729	5	616
+1515	6	616
+288	6	616
+1936	6	616
+1976	6	616
+2046	6	616
+2046	6	616
+2046	6	616
+2451	6	616
+2452	6	616
+2715	6	616
+493	6	616
+616	6	616
+616	6	616
+616	6	616
+616	6	616
+616	6	616
+616	6	616
+616	6	616
+616	6	616
+657	6	616
+
+
+************************
+
+************************
+Document:  CACM-2711.html
+************************
+
+
+A Vector Space Model for Automatic Indexing
+
+In a document retrieval, or other pattern matching
+environment where stored entities (documents) 
+are compared with each other or with incoming patterns
+(search requests), it appears that the best indexing 
+(property) space is one where each entity lies as far away
+from the others as possible; <B>in the</B>se circumstances 
+the value of an indexing system may be expressible
+as a function of the density of the object space; 
+in particular, retrieval performance may correlate inversely
+with space density.  An approach based on 
+space density computations is used to choose an optimum
+indexing vocabulary for a collection of documents. 
+ Typical evaluation results are shown, demonstrating
+the usefulness of the model.
+
+CACM November, 1975
+
+Salton, G.
+Wong, A.
+Yang, C. S.
+
+automatic information retrieval, automatic
+indexing, content analysis, document space
+
+3.71 3.73 3.74 3.75
+
+CA751101 JB January 6, 1978  10:14 AM
+
+2711	5	2711
+2711	5	2711
+2711	5	2711
+
+
+************************
+
+************************
+Document:  CACM-2439.html
+************************
+
+
+Multiple Terminals Under User Program
+Control in a Time-Sharing Environment
+
+User-written programs on the Dartmouth Time-Sharing
+system can communicate with many remote 
+terminals simultaneously and can control the interactions
+between these terminals.  Such programs can 
+be written using standard input and output instructions
+in any language available on the system.  This 
+paper describes how this multiple-terminal facility
+was implemented without requiring any <B>changes in</B> 
+the system executive or in any of the system's compilers or interpreters.
+
+CACM October, 1973
+
+McGeachie, J. S.
+
+DTSS, multiple terminals, remote terminals, remote
+consoles, time-sharing, on-line interaction, 
+on-line games
+
+3.81 4.32
+
+CA731001 JB January 23, 1978  8:33 AM
+
+2439	5	2439
+2439	5	2439
+2439	5	2439
 
 
 ************************

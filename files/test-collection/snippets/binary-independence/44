@@ -1,6 +1,75 @@
 Snippets for the query:  The use of operations research models to optimize information system performance. This includes fine tuning decisions such as secondary index selection, file reorganization, and distributed databases.
 ************************
-Total Hits:  1
+Total Hits:  9
+************************
+
+************************
+Document:  CACM-1469.html
+************************
+
+
+The Next 700 Programming Languages 
+
+A family of unimplemented computing languages
+is described that is intended to span differences 
+of application area by a unified framework.  This framework
+dictates the rules about the uses of user-coined 
+names, and the conventions about characterizing functional
+relationships.  Within this framework the 
+design of a specific language splits into two independent
+parts.  One is the choice of written appearances 
+of programs (or more generally, their physical representation).
+ The other is the choice of the abstract 
+entities (<B>such as</B> numbers, character-strings, lists
+of them, functional relations among them) that can 
+be referred to in the language.  The system is biased
+towards "expressions" rather than "statements." 
+ It includes a nonprocedural(purely functional) subsystem
+that aims to expand the class of users' needs 
+that can be met by a single print-instruction, without sacrificing
+the important properties that make 
+conventional right-hand-side expressions easy to construct and understand.
+
+CACM March, 1966
+
+Landin, P. J.
+
+CA660303 JB March 3, 1978  2:05 PM
+
+1469	4	1469
+1486	4	1469
+1491	4	1469
+1781	4	1469
+2178	4	1469
+2326	4	1469
+2470	4	1469
+2684	4	1469
+3044	4	1469
+1303	5	1469
+1469	5	1469
+1469	5	1469
+1469	5	1469
+2060	5	1469
+2294	5	1469
+2470	5	1469
+3124	5	1469
+1303	6	1469
+1380	6	1469
+1421	6	1469
+1469	6	1469
+1469	6	1469
+1469	6	1469
+1469	6	1469
+1477	6	1469
+1491	6	1469
+210	6	1469
+1834	6	1469
+1869	6	1469
+2060	6	1469
+2110	6	1469
+2264	6	1469
+
+
 ************************
 
 ************************
@@ -10,7 +79,7 @@ Document:  CACM-1453.html
 
 A Nonrecursive Method of Syntax Specification
 
-The use of the Kleene regular expression notation
+The <B>use of</B> the Kleene regular expression notation
 for describing algebraic language syntax, 
 in particular of ALGOL, is described in this paper. 
 A FORTRAN II computer program for carrying out the 
@@ -89,6 +158,420 @@ CA660402 JB March 3, 1978  11:02 AM
 1134	6	1453
 1453	6	1453
 3184	6	1453
+
+
+************************
+
+
+
+A Nonrecursive Method of Syntax Specification
+
+<B>The use</B> of the Kleene regular expression notation
+for describing algebraic language syntax, 
+in particular of ALGOL, is described in this paper. 
+A FORTRAN II computer program for carrying out the 
+elimination algorithm of Gorn,similar to Gaussian elimination
+for linear systems of algebraic equations, 
+is described.  This was applied to numerous smaller
+languages, including some sublanguage of ALGOL.  
+A hand calculation result of the application of the algorithm
+to all of ALGOL is given, thus expressing 
+the Revised ALGOL 1960 syntax in completely nonrecursive
+terms, as far as its context-free portion is 
+concerned.  This description in many ways is far more
+intuitively understood than the previous recursive 
+description, it is suggested.  The paper also includes
+results of the machine program, which does not 
+include a simplification algorithm.
+
+CACM April, 1966
+
+Carr III, J. W.
+Weiland, J.
+
+CA660402 JB March 3, 1978  11:02 AM
+
+1086	4	1453
+1132	4	1453
+1234	4	1453
+1263	4	1453
+1263	4	1453
+1265	4	1453
+1270	4	1453
+1323	4	1453
+1358	4	1453
+1379	4	1453
+1380	4	1453
+1453	4	1453
+1453	4	1453
+1464	4	1453
+1484	4	1453
+1491	4	1453
+1498	4	1453
+1613	4	1453
+1614	4	1453
+1781	4	1453
+1825	4	1453
+1860	4	1453
+1945	4	1453
+2083	4	1453
+2178	4	1453
+2179	4	1453
+2252	4	1453
+2325	4	1453
+2341	4	1453
+2546	4	1453
+2645	4	1453
+2652	4	1453
+2684	4	1453
+2842	4	1453
+2929	4	1453
+2934	4	1453
+3069	4	1453
+669	4	1453
+679	4	1453
+691	4	1453
+761	4	1453
+949	4	1453
+989	4	1453
+989	5	1453
+1453	5	1453
+1453	5	1453
+1453	5	1453
+1613	5	1453
+3184	5	1453
+987	6	1453
+1086	6	1453
+1134	6	1453
+1453	6	1453
+3184	6	1453
+
+
+************************
+
+************************
+Document:  CACM-1879.html
+************************
+
+
+A Note on Storage Fragmentation and Program Segmentation
+
+The main purpose of this paper is the presentation
+of some of the results of a series of simulation 
+experiments investigating the phenomenon of storage fragmentation.
+ Two different types of storage fragmentation 
+are distinguished: (1) external fragmentation, namely the
+loss in storage utilization caused by the inability 
+to make <B>use of</B> all available storage after it has been
+fragmented into a large number of separate blocks; 
+and (2) internal fragmentation, the loss of utilization
+caused by rounding up a request for storage, 
+rather than allocating only the exact number of words required.
+ The most striking result is the apparently 
+general rule that rounding up requests for storage,
+to reduce the number of different sizes of blocks 
+coexisting in storage, causes more loss of storage
+by increased internal fragmentation than is saved 
+by decreased external fragmentation.  Described also are
+a method of segment allocation and an accompanying 
+technique for segment addressing which take advantage
+of the above result.  Evidence is presented of 
+possible advantages of the method over conventional paging techniques.
+
+CACM July, 1969
+
+Randell, B.
+
+storage allocation, storage fragmentation,
+paging, segmentation, addressing
+
+6.2 6.20
+
+CA690701 JB February 17, 1978  9:46 AM
+
+1879	4	1879
+1884	4	1879
+1901	4	1879
+2095	4	1879
+2277	4	1879
+2297	4	1879
+2365	4	1879
+1754	5	1879
+1879	5	1879
+1879	5	1879
+1879	5	1879
+2095	5	1879
+2218	5	1879
+2498	5	1879
+2596	5	1879
+2734	5	1879
+2902	5	1879
+2911	5	1879
+3000	5	1879
+1051	6	1879
+1062	6	1879
+1184	6	1879
+1184	6	1879
+1211	6	1879
+1380	6	1879
+1552	6	1879
+1572	6	1879
+1728	6	1879
+1728	6	1879
+1751	6	1879
+1751	6	1879
+1754	6	1879
+1752	6	1879
+1810	6	1879
+1879	6	1879
+1879	6	1879
+1879	6	1879
+1879	6	1879
+1879	6	1879
+1879	6	1879
+1879	6	1879
+1879	6	1879
+273	6	1879
+2095	6	1879
+2095	6	1879
+2095	6	1879
+2435	6	1879
+2435	6	1879
+2435	6	1879
+2498	6	1879
+2596	6	1879
+2734	6	1879
+2734	6	1879
+2747	6	1879
+2768	6	1879
+2773	6	1879
+2864	6	1879
+2983	6	1879
+
+
+************************
+
+************************
+Document:  CACM-2925.html
+************************
+
+
+Optimal Surface Reconstruction from Planar Contours
+
+In many scientific and technical endeavors,
+a three-dimensional solid must be reconstructed 
+from serial sections, either to aid in the comprehension
+of the object's structure or to facilitate its 
+automatic manipulation and analysis.  This paper presents
+a general solution to the problem of constructing 
+a surface over a set of cross-sectional contours. 
+This surface, to be composed of triangular tiles, 
+is constructed by separately determining an optimal
+surface between each pair of consecutive contours.
+ Determining such a surface is reduced to the problem
+of finding certain minimum cost cycles in a directed 
+toroidal graph.  A new fast algorithm for finding such
+cycles is utilized.  Also developed is a closed-form 
+expression, in term of the number of contour poin ts, for
+an upper bound on the number <B>of operations</B> required 
+to execute the algorithm.  An illustrated example which
+involves the construction of a minimum area surface 
+describing a human head is included.
+
+CACM October, 1977
+
+Fuchs, H.
+Kedem,Z. M.
+Uselton, S. P.
+
+surface reconstruction, contour data, serial sections,
+three-dimensional computer graphics, minimum 
+cost paths, continuous tone displays
+
+5.25 5.32 8.2
+
+CA771001 JB December 27, 1977  12:40 PM
+
+2925	5	2925
+2925	5	2925
+2925	5	2925
+
+
+************************
+
+************************
+Document:  CACM-3137.html
+************************
+
+
+A Methodology for the Design of Distributed Information Systems
+
+A macro model of a distributed <B>information system</B> in presented.  The model
+describes the major costs of using an information
+system from the perspective of the end-user.  The making evident the effect of
+various design and operating parameters on overall cost per transaction.
+ The technique is illustrated by application to the design
+of an interactive transaction processing system.
+
+CACM April, 1979
+
+Bucci, G.
+Streeter, D.
+
+Distributed processing, system design, cost minimization, distributed
+database, interactive computing, economic modeling, transaction processing
+
+4.32 4.33 6.2 8.1
+
+CA790403 DH May 21, 1979  1:25 PM
+
+3137	5	3137
+3137	5	3137
+3137	5	3137
+
+
+************************
+
+************************
+Document:  CACM-0185.html
+************************
+
+
+Multiprogram Scheduling Parts 1 and 2.  Introduction and Theory*
+
+In order to exploit fully a fast computer which
+possesses simultaneous processing abilities, 
+it should to a large extent schedule its own workload.
+ The scheduling routine must be capable of extremely 
+rapid execution if it is not to prove self-defeating.
+ The construction of a schedule entails determining 
+which programs are to be run concurrently and which sequentially
+with respect to each other.  A concise 
+scheduling algorithm is described which tends to minimize
+the time for executing the entire pending workload 
+(or any subset of it), subject to external constraints
+<B>such as</B> precedence, urgency, etc.  The algorithm 
+is applicable to a wide class of machines.
+
+CACM June, 1960
+
+Codd, E. F.
+
+CA600605 JB March 20, 1978  9:46 PM
+
+185	5	185
+185	5	185
+185	5	185
+1713	5	185
+1901	5	185
+491	5	185
+168	6	185
+168	6	185
+168	6	185
+185	6	185
+185	6	185
+185	6	185
+196	6	185
+1751	6	185
+1754	6	185
+46	6	185
+
+
+************************
+
+************************
+Document:  CACM-1235.html
+************************
+
+
+A Stochastic Approach to the Grammatical Coding of English
+
+A computer program is described which will
+assign each word in an English text to its form 
+class or part of speech.  The program operates at relatively
+high speed in only a limited storage space. 
+ About half of the word-events in a corpus are identified
+through the <B>use of</B> a small dictionary of function 
+words and frequently occurring lexical words.  Some suffix
+tests and logical-decision rules are employed 
+to code additional words.  Finally, the remaining words
+are assigned to one class or another on the basis 
+of the most probable form classes to occur within the already
+identified contexts.  The conditional probabilities 
+used as a basis for this coding were empirically derived
+from a separate hand-coded corpusn preliminary 
+trials, the accuracy of the coder was 91% to 93%, with
+obvious ways of improving the algorithm being 
+suggested by an analysis of the results.
+
+CACM June, 1965
+
+Stolz, W. S.
+Tannenbaum, H.
+Carstensen, F. V.
+
+CA650620 JB March 6, 1978  9:35 PM
+
+1235	5	1235
+1235	5	1235
+1235	5	1235
+
+
+************************
+
+************************
+Document:  CACM-3134.html
+************************
+
+
+The Use of Normal Multiplication Tables
+for Information Storage and Retrieval
+
+This paper describes a method for the organization and retrieval of attribute 
+based <B>information system</B>s, using the normal multiplication table as a directory
+for the information system.  Algorithms for the organization an
+d retrieval of information are described.  This method is particularly
+suitable for queries requesting a group of information items,
+ all of which possess a particular set of attributes (and possibly
+some other attributes as well).  Several examples are given; the
+results with respect to the number of disk accesses and disk space
+are compared to other common approaches.  Algorithms evaluating
+the appropriateness of the above approach to a given information system
+are described.  For a certain class of information systems,
+the normal multiplication table method yields far more rapid retrieval
+with a more economical space requirement than conventional systems.  
+Moreover this method incorporates an improved modification of the inverted 
+file technique.
+
+CACM March, 1979
+
+Motzkin, D.
+
+Information retrieval, inverted files, multiattribute retrieval,
+multilist file, normal multiplication table, queries,
+rapid retrieval, space economy
+
+3.70 3.73 3.79
+
+CA790305 DH May 21, 1979  9:46 AM
+
+2140	4	3134
+2452	4	3134
+2575	4	3134
+2765	4	3134
+2901	4	3134
+2966	4	3134
+3134	4	3134
+3134	4	3134
+3134	4	3134
+3134	4	3134
+1976	5	3134
+2160	5	3134
+2524	5	3134
+2990	5	3134
+3134	5	3134
+3134	5	3134
+3134	5	3134
 
 
 ************************

@@ -27,7 +27,7 @@ class Common:
     def get_doc_length_path(self, stem_folder, folder):
         return 'files/' + folder + '/' + ('stem_' if len(stem_folder) > 0 else '') + 'doc_length'
 
-    def get_score_path(self, stem_folder, score, folder, filter_queries = False, query_expansion=False):
+    def get_score_path(self, stem_folder, score, folder, filter_queries = False, query_expansion=None):
         expansion = ''
         if query_expansion is not None:
             expansion = 'stem-expansion-' if query_expansion else 'psuedo-expansion-'
@@ -93,6 +93,21 @@ class Common:
         for q in queries:
             data += q + '\n'
         self.file_handling.save_file(data, test_query_path)
+
+    def read_top_documents_for_score(self, stem = False, folder='test-collection', query_index = 0,\
+        top = 100, score='bm25'):
+        stem_folder = 'stem-' if stem else ''
+        model_file_path = self.get_score_path(stem_folder, score, folder) + '/' + str(query_index)
+        lines = self.file_handling.read_file_lines(model_file_path)
+        top_docs = []
+        i = 0
+        for l in lines:
+            if i == top:
+                break
+            data = l.split()
+            top_docs.append({'doc': data[2], 'score': data[3]})
+            i += 1
+        return top_docs
 
     def get_document_lengths(self, stem_folder, folder):
         doc_length_file = self.get_doc_length_path(stem_folder, folder)

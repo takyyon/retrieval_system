@@ -1,3 +1,560 @@
 Snippets for the query:  Security considerations in local networks, network operating systems, and distributed systems.
 ************************
-No snippets found for the query..
+Total Hits:  10
+************************
+
+************************
+Document:  CACM-2424.html
+************************
+
+
+Dynamic Verification of Operating System Decisions
+
+Dynamic verification of a decision implies
+that every time the decision is made there is a 
+consistency check performed on the decision using independent
+hardware and software.  The dynamic verification 
+of operating system decisions is used on the PRIME system
+being designed and constructed at the University 
+of California, Berkeley.  PRIME is an experimental time-sharing
+which is to have the properties of continuous 
+availability, data privacy, and cost effectiveness.
+ The technique of dynamic verification allows the 
+construction of an operating system which does not make certain
+decisions improperly even in the presence 
+of a single hardware or software fault.  Furthermore,
+multiple faults lead to unreliable operation only 
+if the faults happen to reinforce each other.  On PRIME,
+dynamic verification is used to ensure that 
+one user's information cannot become available to another
+user gratuitously even in the presence of a 
+single hardware or software fault.the amount of additional
+hardware and software required for dynamic 
+verification can be modest.
+
+CACM November, 1973
+
+Fabry, R. S.
+
+<B>operating systems,</B> data security, fault tolerance,
+software reliability, data privacy, program 
+verification, modular computer systems
+
+4.32
+
+CA731102 JB January 20, 1978  10:56 AM
+
+1828	4	2424
+1854	4	2424
+1877	4	2424
+1960	4	2424
+2150	4	2424
+2317	4	2424
+2319	4	2424
+2377	4	2424
+2342	4	2424
+2376	4	2424
+2379	4	2424
+2424	4	2424
+2482	4	2424
+2618	4	2424
+2632	4	2424
+2704	4	2424
+2723	4	2424
+2738	4	2424
+2740	4	2424
+2741	4	2424
+2867	4	2424
+3184	4	2424
+1749	5	2424
+2424	5	2424
+2424	5	2424
+2424	5	2424
+
+
+************************
+
+************************
+Document:  CACM-1750.html
+************************
+
+
+Considerations in the Design of a Multiple
+Computer System with Extended Core Storage
+
+The use of large quantities of addressable
+(but not executable) fast random access memory to 
+heighten the multiprogramming performance of a multicomputer system
+is discussed.  The general design 
+of the hardware arrangement and the software components
+and functions of such a system are based on a 
+planned configuration of dual CDC 6600's that share one
+million words of extended core storage.  In the 
+generalization of such a design, special emphasis is
+placed on estimating expected gains when compared 
+with the traditional configuration of separate and independent
+computers without extended core storage. 
+ An observation is made on the use of conventional, slower
+speed, random access storage devices in place 
+of the faster memory.
+
+CACM May, 1968
+
+Fuchel, K.
+Heller, S.
+
+multiple computer systems, extended core storage,
+multiprogrammed <B>operating systems,</B> multiprocessor 
+operating systems, control data corporation 6600, operating system with ECS
+
+4.30 4.32
+
+CA680506 JB February 23, 1978  9:27 AM
+
+1750	5	1750
+1750	5	1750
+1750	5	1750
+2988	5	1750
+1750	6	1750
+
+
+************************
+
+************************
+Document:  CACM-1680.html
+************************
+
+
+A General-Purpose Display Processing and Tutorial System
+
+ADEPT (A display-Expedited Processing and Tutorial)
+system is described.  This system was designed 
+to improve man-computer communications by employing
+a display unit to interleave tutoring with other 
+computer operations such as simulation, programming, and
+information retrieval.  It is written in FORTRAN 
+IV (G) for the IBM System/360, Model 40, and the IBM 2250
+display Unit under Operating System/360.  Adept 
+is a cataloged program that controls the standard operating
+system by terminating and rescheduling itself 
+automatically, relinquishing computer resources allocated
+to it, and surrendering control to the operating 
+system to perform other jobs.  It expands the power
+and flexibility of computer-assisted instruction 
+by making immediately available to students, teachers,
+and other users, the full resources (system-cataloged 
+programs) of the operating system.  Language processors
+and compilers, simulation models, mathematical 
+solution techniques, stored data, and all other library and
+user programs can be incorporated into instructional 
+material without reprogramming.  Illustrations of the various
+applications are presented and their implications 
+are discussed.
+
+CACM October, 1968
+
+Engvold, K. J.
+Hughes, J. L.
+
+computer-assisted instruction, tutorial systems,
+programming, simulation, modeling, information 
+retrieval <B>operating systems,</B> graphics, displays, man-machine
+interface, on-line computing, graphic programming
+
+1.5 3.3 3.5 3.8 4.0 4.3
+
+CA681007 JB February 21, 1978  3:36 PM
+
+1680	4	1680
+1591	5	1680
+1680	5	1680
+1680	5	1680
+1680	5	1680
+
+
+************************
+
+************************
+Document:  CACM-3076.html
+************************
+
+
+Value Conflicts and Social Choice in Electronic
+Funds Transfer System Developments
+
+During the last few years, computer-based
+systems which automate the transfer and recording 
+of debits and credits have begun to be implemented on
+a large scale.  These systems promise both financial 
+benefits for the institutions that use them and potential
+conveniences to their customers.  However, 
+they also raise significant social, legal, and technical
+questions that must be resolved if full scale 
+systems for Electronic Funds Transfer (EFT) are not
+to cause more problems for the larger public than 
+they solve.  This paper examines the incentives for EFT
+developments and the social problems they raise 
+in the context of conflicts between five different value
+positions that are often implicit in analyses 
+of proposed EFT arrangements.  These conflicts reflect
+the relative importance of certain problems for 
+specific groups.  The value positions implicit in EFT proposals
+help to organize analyses of market arrangements, 
+system reliability, and privacy of transactions.  These
+topics are analyzed in this article and related 
+to the value positions held by concerned parties.  Last,
+the ways in which the public can learn about 
+the social qualities of different EFT arrangements and
+the pace of EFT developments are both discussed 
+in the context of social choice. 
+
+CACM August, 1978
+
+Kling, R.
+
+Electronic funds transfer systems, social impacts
+of computing, privacy, social choice, computer 
+<B>networks, network</B> reliability, security, social values
+
+2.11 2.12 2.3 3.52 3.53 3.55
+
+CA780802 DH February 7, 1979  2:25 PM
+
+2756	4	3076
+3076	4	3076
+3076	4	3076
+3179	4	3076
+2607	5	3076
+2840	5	3076
+3076	5	3076
+3076	5	3076
+3076	5	3076
+3142	5	3076
+3179	5	3076
+3178	5	3076
+3182	5	3076
+3183	5	3076
+2572	6	3076
+2583	6	3076
+2607	6	3076
+3076	6	3076
+3076	6	3076
+3076	6	3076
+3076	6	3076
+3076	6	3076
+3140	6	3076
+3142	6	3076
+3179	6	3076
+3180	6	3076
+3181	6	3076
+3182	6	3076
+
+
+************************
+
+************************
+Document:  CACM-1747.html
+************************
+
+
+Three Criteria for Designing Computing Systems to Facilitate Debugging
+
+The designer of a computing system should adopt
+explicit criteria for accepting or rejecting 
+proposed system features.  Three possible criteria of this
+kind are input recordability, input specifiability, 
+and asynchronous reproducibility of output.  These criteria
+imply that a user can, if he desires, either 
+know or control all the influences affecting the content
+and extent of his computer's output.  To define 
+the scope of the criteria, the notion of an abstract
+machine of a programming language and the notion 
+of a virtual computer are explained.  Examples of applications
+of the criteria concern the reading of 
+a time-of-day clock,  the synchronization of parallel
+processes, protection in multiprogrammed systems, 
+and the assignment of capability indexes.
+
+CACM May, 1968
+
+Van Horn, E. C.
+
+computer design, computer design criteria, computer
+systems, computer systems design, input equipment, 
+input equipment design, <B>operating systems,</B> operating
+systems design, multiprogramming, multiprogrammed 
+systems, multiprogrammed system design, virtual computers,
+programming languages, programming language 
+design, program semantics, programming language semantics,
+determinism, reproducibility, repeatability, 
+deterministic computers, protection, memory protection,
+information security, information privacy, computing 
+reliability, debugging, program debugging, program testing,
+parallel processing, parallel programming, 
+multiprocessing
+
+2.11 4.12 4.13 4.20 4.30 4.42 4.43 5.24 6.20 6.35
+
+CA680509 JB February 23, 1978  9:06 AM
+
+1458	4	1747
+1523	4	1747
+1603	4	1747
+1698	4	1747
+1747	4	1747
+1748	4	1747
+1854	4	1747
+1877	4	1747
+1960	4	1747
+2377	4	1747
+2378	4	1747
+2497	4	1747
+2558	4	1747
+2625	4	1747
+2632	4	1747
+2840	4	1747
+2941	4	1747
+3105	4	1747
+3144	4	1747
+1471	5	1747
+1747	5	1747
+1747	5	1747
+1747	5	1747
+2151	5	1747
+1653	6	1747
+1747	6	1747
+1860	6	1747
+
+
+************************
+
+************************
+Document:  CACM-2372.html
+************************
+
+
+On the Implementation of Security Measures in Information Systems
+
+The security of an information system may be
+represented by a model matrix whose elements are 
+decision rules and whose row and column indices are
+users and data items respectively.  A set of four 
+functions is used to access this matrix at translation
+and execution time.  Distinguishing between data 
+dependent and data independent decision rules enables
+one to perform much of the checking of security 
+only once at translation time rather than repeatedly
+at execution time.  The model is used to explain 
+security features of several existing systems, and serves
+as a framework for a proposal for general security 
+system implementation within today's languages and operating systems.
+
+CACM April, 1972
+
+Conway, R. W.
+Maxwell, W. L.
+Morgan, H. L.
+
+security, privacy, access control confidentiality,
+<B>operating systems,</B> access management, data banks, 
+management information systems
+
+3.50 3.73 4.12 4.22 4.39
+
+CA720401 JB January 31, 1978  1:59 PM
+
+1753	4	2372
+2358	4	2372
+2377	4	2372
+2372	4	2372
+2626	4	2372
+2840	4	2372
+1746	5	2372
+2372	5	2372
+2372	5	2372
+2372	5	2372
+
+
+************************
+
+
+
+On the Implementation of Security Measures in Information Systems
+
+The security of an information system may be
+represented by a model matrix whose elements are 
+decision rules and whose row and column indices are
+users and data items respectively.  A set of four 
+functions is used to access this matrix at translation
+and execution time.  Distinguishing between data 
+dependent and data independent decision rules enables
+one to perform much of the checking of security 
+only once at translation time rather than repeatedly
+at execution time.  The model is used to explain 
+security features of several existing <B>systems, and</B> serves
+as a framework for a proposal for general security 
+system implementation within today's languages and operating systems.
+
+CACM April, 1972
+
+Conway, R. W.
+Maxwell, W. L.
+Morgan, H. L.
+
+security, privacy, access control confidentiality,
+operating systems, access management, data banks, 
+management information systems
+
+3.50 3.73 4.12 4.22 4.39
+
+CA720401 JB January 31, 1978  1:59 PM
+
+1753	4	2372
+2358	4	2372
+2377	4	2372
+2372	4	2372
+2626	4	2372
+2840	4	2372
+1746	5	2372
+2372	5	2372
+2372	5	2372
+2372	5	2372
+
+
+************************
+
+************************
+Document:  CACM-2621.html
+************************
+
+
+A High Security Log-in Procedure
+
+The protection of time sharing systems from
+unauthorized users is often achieved by the use 
+of passwords.  By using one-way ciphers to code the passwords,
+the risks involved with storing the passwords 
+in the computer can be avoided.  We discuss the selection
+of a suitable one-way cipher and suggest that 
+for this purpose polynomials over a prime modulus are
+superior to one-way ciphers derived from Sannon 
+codes.
+
+CACM August, 1974
+
+Purdy, G. B.
+
+<B>operating systems,</B> time sharing systems, security, cryptography
+
+4.35
+
+CA740803 JB January 17, 1978  10:10 AM
+
+2621	5	2621
+2621	5	2621
+2621	5	2621
+
+
+************************
+
+************************
+Document:  CACM-2893.html
+************************
+
+
+Computers as an Innovation in American Local Governments
+
+Computers and electronic data processing are
+a major technological innovation in the operations 
+of American local government. This paper establishes that
+there is substantial variation among the larger 
+local governments in the rate at which they adopt computer
+technology, in the level of financial support 
+they provide for EDP, and in the extensiveness and sophistication
+of their automated applications.  The 
+central question addressed is: What might explain the
+differences between governments in the extent to 
+which they adopt and use computers?  Hypotheses are
+tested for several streams of explanatory factors, 
+using data from more than 500 city and county governments.
+ The findings identify certa<B>in local</B> government 
+milieus which are particularly conducive to higher levels
+of computer innovation.  Somewhat unexpected 
+findings reveal the significant impact of the distribution
+of control over EDP decisions and the dominant 
+political values within the government. Other important
+factors include the measured need for computer 
+applications and the presence of external funding support
+for computing.  Finally, the paper suggests 
+a framework for identifying the key determinants
+of other technological innovations.
+
+CACM December, 1977
+
+Danziger, J. N.
+Dutton, W. H.
+
+innovation, technological innovation, computer utilization,
+computer adoption, American local government, 
+city government computers, county government computers.
+
+2.0 2.45 2.49 2.9
+
+CA771207 JB December 22, 1977  12:17 PM
+
+2893	5	2893
+2893	5	2893
+2893	5	2893
+
+
+************************
+
+************************
+Document:  CACM-3127.html
+************************
+
+
+Thoth, a Portable Real-Time Operating System 
+
+Thoth isa real-time operating system which is designed to be portable
+over a large set of machines.  It is currently running on two minicomputers
+with quite different architectures.  Both the system and application
+programs which use it are written in a high-level language.
+Because the system is implemented by the same software on different
+hardware, it has the same interface to user programs.  Hence,
+application programs which use Thoth are  highly portable.  Thoth
+encourages structuring programs as networks of communicating processes 
+by providing efficient interprocess communication primitives.
+
+CACM February, 1979
+
+Cheriton, D.
+Malcolm, M.
+Melen, L.
+Sager, G.
+
+Portability, real time, <B>operating systems,</B> minicomputer
+
+3.80 4.30 4.35
+
+CA790206 DH April 12, 1979  9:10 AM
+
+2319	4	3127
+2378	4	3127
+2320	4	3127
+2632	4	3127
+2738	4	3127
+2740	4	3127
+2868	4	3127
+2928	4	3127
+3127	4	3127
+3127	4	3127
+2080	5	3127
+2277	5	3127
+3127	5	3127
+3127	5	3127
+3127	5	3127
+
+
+************************
+

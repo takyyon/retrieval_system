@@ -1,3 +1,240 @@
 Snippets for the query:  Intermediate languages used in construction of multi-targeted compilers; TCOLL
 ************************
-No snippets found for the query..
+Total Hits:  5
+************************
+
+************************
+Document:  CACM-2925.html
+************************
+
+
+Optimal Surface Reconstruction from Planar Contours
+
+In many scientific and technical endeavors,
+a three-dimensional solid must be reconstructed 
+from serial sections, either to aid in the comprehension
+of the object's structure or to facilitate its 
+automatic manipulation and analysis.  This paper presents
+a general solution to the problem of constructing 
+a surface over a set of cross-sectional contours. 
+This surface, to be composed of triangular tiles, 
+is constructed by separately determining an optimal
+surface between each pair of consecutive contours.
+ Determining such a surface is reduced to the problem
+of finding certain minimum cost cycles in a directed 
+toroidal graph.  A new fast algorithm for finding such
+cycles is utilized.  Also developed is a closed-form 
+expression, in term of the number of contour poin ts, for
+an upper bound on the number of operations required 
+to execute the algorithm.  An illustrated example which
+involves the <B>construction of</B> a minimum area surface 
+describing a human head is included.
+
+CACM October, 1977
+
+Fuchs, H.
+Kedem,Z. M.
+Uselton, S. P.
+
+surface reconstruction, contour data, serial sections,
+three-dimensional computer graphics, minimum 
+cost paths, continuous tone displays
+
+5.25 5.32 8.2
+
+CA771001 JB December 27, 1977  12:40 PM
+
+2925	5	2925
+2925	5	2925
+2925	5	2925
+
+
+************************
+
+************************
+Document:  CACM-1930.html
+************************
+
+
+Extremely Portable Random Number Generator
+
+Extremely portable subroutines are sometimes
+needed for which moderate quality and efficiency 
+suffice.  Typically, this occurs for library functions
+(like random number generation and in core sorting) 
+which are not entirely universal or are not <B>used in</B> a
+standardized way.  The literature on random number 
+generators does not seem to contain an algorithm that
+meets requirements of this sort.  An extremely 
+portable 8-line FORTRAN program is provided which based
+on an important paper by Coveyou and MacPherson 
+(1967)sing their methods, Fourier analysis is applied
+to the probability function for the consecutive 
+n-tuples provided by our generator (with n less than
+or equal to 4).  While the small modulus which must 
+be used to maintain portability prevents the quality
+of the generator from being high, the generator 
+compares well with the bounds established in the above mentioned paper.
+
+CACM February, 1969
+
+Kruskal, J. B.
+
+random number generators, random numbers, random
+number analysis, random generators, linear sequential 
+generators, random number program, pseudo random numbers 
+
+4.49 5.19 5.5
+
+CA690208 JB February 20, 1978  10:43 AM
+
+1930	5	1930
+1930	5	1930
+1930	5	1930
+2115	5	1930
+1691	6	1930
+1930	6	1930
+
+
+************************
+
+************************
+Document:  CACM-3124.html
+************************
+
+
+Recursive Data Structures in APL
+
+A mathematical study of three approaches for defining nested
+arrays in APL is presented.  Theorems exhibiting the relationships
+between the definitional systems are given and illustrated through graph
+representations.  One of the approaches is used to define an
+APL array to be a recursive data structure equivalent to a tree structure
+in which all data is stored at the leaves as homogeneous
+arrays of numbers and characters.  An extension of APL is proposed that
+includes new primitive functions to manipulate the nesting
+level of arrays and new operators to assist in the
+<B>construction of</B> data-driven algorithms.  
+
+CACM February, 1979
+
+Gull,W.
+Jenkins, M.
+
+Nested arrays, APL arrays, recursive data structures,
+trees, data-driven algorithms, theory of arrays
+
+4.22 5.29
+
+CA790203 DH April 10, 1979  3:41 PM
+
+2060	4	3124
+2294	4	3124
+2470	4	3124
+3124	4	3124
+1469	5	3124
+3124	5	3124
+3124	5	3124
+3124	5	3124
+
+
+************************
+
+************************
+Document:  CACM-0185.html
+************************
+
+
+Multiprogram Scheduling Parts 1 and 2.  Introduction and Theory*
+
+In order to exploit fully a fast computer which
+possesses simultaneous processing abilities, 
+it should to a large extent schedule its own workload.
+ The scheduling routine must be capable of extremely 
+rapid execution if it is not to prove self-defeating.
+ The <B>construction of</B> a schedule entails determining 
+which programs are to be run concurrently and which sequentially
+with respect to each other.  A concise 
+scheduling algorithm is described which tends to minimize
+the time for executing the entire pending workload 
+(or any subset of it), subject to external constraints
+such as precedence, urgency, etc.  The algorithm 
+is applicable to a wide class of machines.
+
+CACM June, 1960
+
+Codd, E. F.
+
+CA600605 JB March 20, 1978  9:46 PM
+
+185	5	185
+185	5	185
+185	5	185
+1713	5	185
+1901	5	185
+491	5	185
+168	6	185
+168	6	185
+168	6	185
+185	6	185
+185	6	185
+185	6	185
+196	6	185
+1751	6	185
+1754	6	185
+46	6	185
+
+
+************************
+
+************************
+Document:  CACM-3002.html
+************************
+
+
+A Record and File Partitioning Model
+
+One of the main objectives in the design of
+a file system is the reduction of storage and data 
+transfer costs.  This paper presents a model in which
+several  requests access the file system, and each 
+request requires information from one or more variable
+length data-items.  The probabilities of access 
+and the distribution of each data-item's length are assumed
+to be known, and to be mutually independent. 
+The file system uses one or more storage devices, and
+each record may be partitioned into subrecords 
+that are stored on different devices.  One of the subrecords
+is designated as the primary record; when 
+a request for a record is made, the primary record is
+first accessed, and other subrecords are accessed 
+only if the pertinent information is not stored in the
+primary record.  The model that is presented in 
+this paper, both as a nonlinear programming model and
+a mixed integer programming model, is a very general 
+one; several types of file systems may be derived from
+it by an appropriate selection of its parameters. 
+ This model has already been <B>used in</B> the optimization of
+library routines' storage at a large scale operating 
+system.
+
+CACM January, 1977
+
+Babad, J. M.
+
+file system, file design, file partitioning, record partitioning
+
+3.73
+
+CA770103 JB January 3, 1978  12:28 AM
+
+3002	5	3002
+3002	5	3002
+3002	5	3002
+3168	5	3002
+2965	6	3002
+3002	6	3002
+
+
+************************
+
