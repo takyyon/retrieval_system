@@ -51,8 +51,8 @@ class Query_Highlight:
             total += len(result[r])
         return total
 
-    def save_snippets(self, index, query, folder, result):
-        query_snippet_path = self.common.get_query_snippet_path(self.stem_folder, folder) + '/' + str(index)
+    def save_snippets(self, index, query, folder, result, score):
+        query_snippet_path = self.common.get_query_snippet_path(self.stem_folder, folder, score) + '/' + str(index)
         data = 'Snippets for the query:  ' + query + '\n' + self.utility.line_break + '\n'
         total_hits = self.get_total_hits(result)
         print('Saving snippets for ' + query + ' to ' + query_snippet_path + '....')
@@ -66,7 +66,24 @@ class Query_Highlight:
                     data += s + '\n' + self.utility.line_break + '\n'
                 data += '\n'
         self.file_handling.save_file(data, query_snippet_path)
-        
+
+    def save_snippets_summary(self, index, query, folder, result, score):
+        query_snippet_path = self.common.get_query_snippet_summary_path(self.stem_folder, folder, score) + '/' + str(index)
+        data = ''
+        for r in result:
+            data += r + '  ' + str(len(result[r])) + '\n'
+        self.file_handling.save_file(data, query_snippet_path)
+
+    def read_snippets_summary(self, stem, index, folder, score):
+        self.stem_folder = 'stem-' if stem else ''
+        query_snippet_path = self.common.get_query_snippet_summary_path(self.stem_folder, folder, score) + '/' + str(index)
+        lines = self.file_handling.read_file_lines(query_snippet_path)
+        summary = {}
+        for l in lines:
+            data = l.split()
+            summary[data[0]] = int(data[1])
+        return summary        
+    
     def highlight_query(self, stem, index, query, folder, score):
         top_docs = self.baseline_runs.read_top_documents_for_score(stem, folder, index, 100, score)
         trigrams = self.utility.get_and_process_ngrams(query, 3)
@@ -84,13 +101,14 @@ class Query_Highlight:
                     if s not in result[d]:
                         result[d][s] = True
             len_checked += len(gram[0])
-        self.save_snippets(index, query, folder, result)
+        self.save_snippets_summary(index, query, folder, result, score)
+        self.save_snippets(index, query, folder, result, score)
 
-    def highlight_queries(self, folder='test-collection', stem= False, score='bm25'):
+    def highlight_queries(self, score='bm25', folder='test-collection', stem= False):
         self.stem_folder = 'stem-' if stem else ''
         queries = self.common.get_queries(stem, folder)
         print('\n' + self.utility.line_break + '\n' +\
-            'Processing queries  to generate snippets.')
+            'Processing queries  to generate snippets for ' + score + '...')
         for i in range(len(queries)):
             higlighted = self.highlight_query(stem, i, queries[i], folder, score)
         

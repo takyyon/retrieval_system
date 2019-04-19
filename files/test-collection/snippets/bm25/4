@@ -1,0 +1,410 @@
+Snippets for the query:  I'd like papers on design and implementation of editing interfaces, window-managers, command interpreters, etc. The essential issues are human interface design, with views on improvements to user efficiency, effectiveness and satisfaction.
+************************
+Total Hits:  7
+************************
+
+************************
+Document:  CACM-2786.html
+************************
+
+
+A System for Typesetting Mathematics
+
+This paper describes the design and implementation
+of a system for typesetting mathematics. 
+ The language has been designed to be easy to learn
+and to use by people (for example, secretaries and 
+mathematical typists) who know neither mathematics nor
+typesetting.  Experience indicates that the language 
+can be learned in an hour or so, for it has few rules
+and fewer exceptions.  For typical expressions, 
+the size and font changes, positioning, line drawing, and
+the like necessary to print according to mathematical 
+conventions are all done automatically.  For example,
+the input sum from i=o to infinity x sub i=pi over 
+2 produces (formula).  The syntax of the language is specified
+by a small context-free grammar; a compiler-compiler 
+is used to make a compiler that translates this language
+into typesetting commands.  Output maybe produced 
+on either a phototypesetter or on a terminal with forward
+and reverse half-line motions.  The system 
+interfaces directly with text formatting programs, so
+mixtures of text and mathematics may be handled 
+simply.  This paper was typeset by the authors using the system described 
+
+CACM March, 1975
+
+Kernighan, B. W.
+Cherry, L. L.
+
+typesetting, photocomposition,compiler-compiler,
+graphics, printing, text processing.
+
+4.12 4.22 8.2
+
+CA750302 JB January 10, 1978  8:56 AM
+
+2626	4	2786
+2786	4	2786
+2840	4	2786
+2919	4	2786
+3017	4	2786
+3110	4	2786
+3174	4	2786
+2629	5	2786
+2733	5	2786
+2746	5	2786
+2786	5	2786
+2786	5	2786
+2786	5	2786
+1665	6	2786
+1739	6	2786
+1781	6	2786
+2139	6	2786
+2179	6	2786
+2423	6	2786
+2545	6	2786
+2786	6	2786
+2786	6	2786
+799	6	2786
+
+
+************************
+
+************************
+Document:  CACM-2542.html
+************************
+
+
+A Software Design and Evaluation System
+
+A critical failure of current software system
+design and implementation methodology is that 
+the performance of a proposed design is not evaluated
+before it is actually implemented.  In this paper 
+the reasons for this failure are explored, and a new methodology
+which overcomes many of the difficulties 
+is proposed.  A system which integrates performance evaluation
+with design and implementation is described. 
+ This system is based on a simple, high level language
+which is used to describe the evolving system 
+at all stages of its development.  The source language
+description is used as direct input to performance 
+analysis and simulation routines.  Using the performance
+information obtained from these routines as 
+feedback, the problems which adversely affect performance
+are detected early enough so that they can 
+be corrected without costly major reimplementation of the proposed system.
+
+CACM February, 1973
+
+Graham, R. M.
+Clancy, G. J. Jr.
+DeVaney, D. B.
+
+operating system development, language processing
+software evaluation, compilers, system programming, 
+supervisory systems, debugging, program maintenance,
+modeling, system integration, simulation
+
+4.0 4.12 4.22 4.30 4.42 4.43 8.1
+
+CA730206 JB January 24, 1978  2:07 PM
+
+2542	5	2542
+2542	5	2542
+2542	5	2542
+
+
+************************
+
+************************
+Document:  CACM-1671.html
+************************
+
+
+A Phonological Rule Tester
+
+The design and implementation of a system to
+alleviate the problem of rule evaluation for the 
+linguist in the area of phonology are presented.  It
+permits the user to define, on-line, sets of rules 
+statable within the framework presented in The Sound
+Patterns of English by Chomsky and Halle, 1968, 
+to define phonemes as bundles of specified distinctive
+features, to define data as strings of phonemes 
+with associated grammatical structure, to test the effect
+of applying rules to the data, and to store 
+both the definitions and results.  The rule application
+facility described in detail was implemented 
+by translating linguistic rules to rules in FLIP, a
+format-directed list processor embedded in LISP. 
+ This made the system construction easy while providing
+sophisticated capabilities for the linguist. 
+ The system is written in BBN LISP on the Scientific
+Data System 940 computer and is designed to be used 
+on-line in interactive fashion, with control returned
+to the user after each command is executed.
+
+CACM November, 1968
+
+Borrow, D. G.
+Fraser, J. B.
+
+phonology, rule tester, linguistics, transformational
+grammar, LISP, format-directed list processing, 
+on-line systems
+
+3.42 4.13 4.22
+
+CA681108 JB February 21, 1978  2:41 PM
+
+1659	5	1671
+1671	5	1671
+1671	5	1671
+1671	5	1671
+1225	6	1671
+1265	6	1671
+1350	6	1671
+1671	6	1671
+1697	6	1671
+
+
+************************
+
+************************
+Document:  CACM-1534.html
+************************
+
+
+DAD, The C. Operating System
+
+The design and implementation of the C.
+operating system, DAD, is described in detail. 
+ This system is designed for the Control Data 3600 using
+a large drum backing store and is intended to 
+allow the integration of a remote console (display) subsystem
+into a conventional job stack environment. 
+ The use of the drums, the buffering of input and output
+on slow peripherals, and the execution of normal 
+job stack work are described.  The display subsystem
+is described only as it integrates into the rest 
+of the system.  The techniques found useful in the development
+of DAD are given, and an assessment is 
+made of the validity of various design decisions.  Performance
+figures based on several months of operation 
+are tabulated.
+
+CACM September, 1967
+
+Austin, B. J.
+Holden, T. S.
+Hudson, R. H.
+
+CA670910 JB February 27, 1978  2:58 PM
+
+1534	5	1534
+1534	5	1534
+1534	5	1534
+
+
+************************
+
+************************
+Document:  CACM-3087.html
+************************
+
+
+An English Language Question Answering System
+for a Large Relational Database
+
+By typing requests in English, casual users
+will be able to obtain explicit answers from a 
+large relational database of aircraft flight and maintenance
+data using a system called PLANES.  The 
+design and implementation of this system is described and
+illustrated with detailed examples of the operation 
+of system components and examples of overall system
+operation.  The language processing portion of the 
+system uses a number of augmented transition networks,
+each of which matches phrases with a specific 
+meaning, along with context registers (his tory keepers)
+and concept case frames; these are used for judging 
+meaningfulness of questions, generating dialogue for clarifying
+partially understood questions, and resolving 
+ellipsis and pronoun reference problems.  Other system components
+construct a formal query for the relational 
+database, and optimize the order of searching relations.
+ Methods are discussed for handling vague or 
+complex questions and for providing browsing ability.
+ Also included are discussions of important issues 
+in programming natural language systems for limited domains,
+and the relationship of this system to others. 
+
+CACM July, 1978
+
+Waltz, D.
+
+Question answering, relational database, natural language,
+database front end, artificial intelligence, 
+dialogue, query generation, information retrieval, natural language programming 
+
+3.42 3.60 3.69 3.74 3.79
+
+CA780701 DH February 8, 1979  4:26 PM
+
+2155	4	3087
+2406	4	3087
+2581	4	3087
+2710	4	3087
+2715	4	3087
+2716	4	3087
+2717	4	3087
+2718	4	3087
+2739	4	3087
+2765	4	3087
+2795	4	3087
+2817	4	3087
+2888	4	3087
+2901	4	3087
+2921	4	3087
+2957	4	3087
+2959	4	3087
+2965	4	3087
+3087	4	3087
+3087	4	3087
+3154	4	3087
+1989	5	3087
+2046	5	3087
+3087	5	3087
+3087	5	3087
+3087	5	3087
+
+
+************************
+
+************************
+Document:  CACM-2629.html
+************************
+
+
+The UNIX Time-Sharing system 
+
+UNIX is a general-purpose, multi-user, interactive
+operating system for the Digital Equipment 
+Corporation PDP-11/40 and 11/45 computers.  It offers
+a number of features seldom found even in larger 
+operating systems, including: (1) a hierarchical file system
+incorporating demountable volumes; (2) compatible 
+file, device, and inter-process I/O; (3) the ability to
+initiate asynchronous processes; (4) system command 
+language selectable on a per-user basis; and (5) over
+100 subsystems including a dozen languageshis 
+paper discusses the nature and implementation of the
+file system and of the user command interface.
+
+CACM July, 1974
+
+Ritchie, D. M.
+Thompson, K.
+
+time-sharing, operating system, file system, command language, PDP-11
+
+4.30 4.32
+
+CA740702 JB January 17, 1978  1:40 PM
+
+2299	4	2629
+2501	4	2629
+2629	4	2629
+2629	4	2629
+2868	4	2629
+2915	4	2629
+2928	4	2629
+2951	4	2629
+3114	4	2629
+1502	5	2629
+2380	5	2629
+2626	5	2629
+2629	5	2629
+2629	5	2629
+2629	5	2629
+2786	5	2629
+2840	5	2629
+2919	5	2629
+3017	5	2629
+3110	5	2629
+3174	5	2629
+1471	6	2629
+1746	6	2629
+1746	6	2629
+2194	6	2629
+2358	6	2629
+2377	6	2629
+2436	6	2629
+2536	6	2629
+2593	6	2629
+2625	6	2629
+2626	6	2629
+2629	6	2629
+2629	6	2629
+2629	6	2629
+2629	6	2629
+2629	6	2629
+2629	6	2629
+2629	6	2629
+2858	6	2629
+
+
+************************
+
+************************
+Document:  CACM-2299.html
+************************
+
+
+An Extensible Editor for a Small Machine with Disk Storage
+
+A design philosophy for developing a sophisticated
+utility program is illustrated by the actual 
+design and implementation of a text editor.  A versatile
+data structure is employed so that only a small 
+number of programmed subroutines are necessary for all
+types of data manipulation.  Such a data structure 
+is described, and its merits are illustrated by the ease
+with which powerful extensions can be implemented 
+in terms of a few basic editing function.
+
+CACM August, 1972
+
+Benjamin, A. J.
+
+command processing, context searching, executive
+program, garbage collection, interpreter, list 
+processing, macro language, paging, parameter substitution,
+recursion, state table, storage allocation, 
+string manipulation, text editing, virtual memory
+
+3.73 3.74 3.75 4.13 4.22 4.43 4.49
+
+CA720803 JB January 30, 1978  10:00 AM
+
+1626	4	2299
+1708	4	2299
+1781	4	2299
+1860	4	2299
+2299	4	2299
+2299	4	2299
+2501	4	2299
+2629	4	2299
+2915	4	2299
+3114	4	2299
+1502	5	2299
+1641	5	2299
+2299	5	2299
+2299	5	2299
+2299	5	2299
+
+
+************************
+
