@@ -76,6 +76,8 @@ class Query_Highlight:
 
     def read_snippets_summary(self, stem, index, folder, score):
         self.stem_folder = 'stem-' if stem else ''
+        print('\n' + self.utility.line_break + '\n' +\
+            'Reading Snippets Summary...')
         query_snippet_path = self.common.get_query_snippet_summary_path(self.stem_folder, folder, score) + '/' + str(index)
         lines = self.file_handling.read_file_lines(query_snippet_path)
         summary = {}
@@ -85,7 +87,8 @@ class Query_Highlight:
         return summary        
     
     def highlight_query(self, stem, index, query, folder, score):
-        top_docs = self.baseline_runs.read_top_documents_for_score(stem, folder, index, 100, score)
+        top_docs = self.baseline_runs.read_top_documents_for_score(stem, folder, index,\
+            self.common.top_doc_count, score)
         trigrams = self.utility.get_and_process_ngrams(query, 3)
         query_len = len(query)
         result = {}
@@ -93,7 +96,8 @@ class Query_Highlight:
         print('\nProcessing ' + query + '...')
         for gram in trigrams:
             temp_query = ' '.join(gram)
-            for d in top_docs:
+            for temp in top_docs:
+                d = temp['doc']
                 snippets = self.generate_query_snippets(query_len, len_checked, temp_query, folder, d)
                 for s in snippets:
                     if d not in result:

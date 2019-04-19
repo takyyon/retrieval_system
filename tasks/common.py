@@ -7,6 +7,10 @@ class Common:
         """
         self.utility = Utility()
         self.file_handling = FileHandling()
+        self.top_doc_count = 100
+
+    def get_evaluation_path(self, stem_folder, folder):
+        return 'files/' + folder + '/' + stem_folder + 'evaluation'
 
     def get_raw_doc_path(self, stem_folder, folder):
         return 'files/' + folder + '/' + stem_folder + 'raw-documents'
