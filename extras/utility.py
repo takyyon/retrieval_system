@@ -4,6 +4,7 @@ import random
 import re
 import nltk
 from py2casefold import casefold
+from nltk.corpus import stopwords, words
 
 """
 Utility Crawler class which is called for all the different
@@ -153,3 +154,9 @@ class Utility:
 
     def get_random_string(self):
         return ''.join(random.choice('abcdnefiwnfnwe356435234fgrbeirfnd23435t') for _ in range(10))
+
+    def get_stop_list(self):
+        return set(stopwords.words('english'))
+
+    def check_word_exist(self, word):
+        return word in words.words()

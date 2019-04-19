@@ -12,6 +12,7 @@ class Program:
         self.common = Common()
         self.query_highlight = Query_Highlight()
         self.evaluation = Evaluation()
+        self.query_expansion = Query_Expansion()
 
     def run(self):
         # self.crawler.process_stem_documents()
@@ -22,13 +23,17 @@ class Program:
         # self.indexer.run()
         # self.indexer.read_index()
         # self.indexer.read_index('test-collection', True)
-        self.baseline_runs.run(True)
+        # self.baseline_runs.run(True)
         # stopwords = self.common.get_stopwords()
         # self.query_highlight.highlight_queries('bm25') 
         # self.query_highlight.highlight_queries('tf-idf')
         # self.query_highlight.highlight_queries('binary-independence') 
         # queries = self.common.process_test_queries()
         # self.evaluation.run()
+
+        queries = self.common.get_queries()
+        queries = self.query_expansion.expand_queries_using_stemming(queries[:2])
+        print(queries)
 
 program = Program()
 program.run()

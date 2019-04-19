@@ -31,8 +31,7 @@ class Common:
     def get_ngram_path(self, stem_folder, gram, folder):
         return 'files/' + folder + '/' + stem_folder + 'gram-' + str(gram)
 
-    def get_indexer_path(self, stem_folder, index_type, relevant_docs, gram, folder):
-        relevant = 'relevant-' if relevant_docs else ''
+    def get_indexer_path(self, stem_folder, index_type, gram, folder):
         indexer = 'positional' if index_type else 'simple'
         return 'files/' + folder + '/' + stem_folder  +\
             relevant + indexer + '-index/' + 'gram_' + str(gram)
@@ -42,7 +41,7 @@ class Common:
         common_words = self.file_handling.read_file_lines(common_words_path)
         return common_words
 
-    def get_queries(self, stem, folder='test-collection'):
+    def get_queries(self, stem=False, folder='test-collection'):
         query_file_path = 'files/' + folder + '/' + ('stem_' if stem else '') + 'query.txt'
         print('\n' + self.utility.line_break + '\n' +\
             'Reading Queries from ' +\

@@ -2,6 +2,7 @@ from extras import *
 from common import Common
 from indexer import Indexer
 import math
+from .query_expansion import Query_Expansion
 import operator
 
 class Baseline_Runs:
@@ -14,6 +15,7 @@ class Baseline_Runs:
         self.file_handling = FileHandling()
         self.common = Common()
         self.indexer = Indexer()
+        self.query_expansion = Query_Expansion()
 
     def run_bm25_for_query_and_document(self, query, doc, total_doc_length, doc_length, total_docs, index):
         k1 = 1.2
@@ -171,17 +173,28 @@ class Baseline_Runs:
                 break
             data = l.split()
             top_docs.append({'doc': data[2], 'score': data[3]})
-            # top_docs[data[2]] = data[3]
             i += 1
         return top_docs
 
-    def run(self, filter_queries=False, stem= False, folder= 'test-collection'):
-        self.stem_folder = 'stem-' if stem else ''
-        self.filter_queries = filter_queries
-        queries = self.common.get_queries(stem, folder)
-        if self.filter_queries:
-            stopwords = self.common.get_stopwords()
-            queries = self.common.filter_stopwords_in_queries(stopwords, queries)
+    def run_models(self, queries, folder):
         self.run_bm25(queries, folder)
         self.run_tf_idf(queries, folder)
         self.run_binary_independence_model(queries, folder)
+
+    def run(self, filter_queries=False, query_expansion=None,\
+        stem= False, folder= 'test-collection'):
+        self.stem_folder = 'stem-' if stem else ''
+        self.filter_queries = filter_queries
+        self.query_expansion = query_expansion
+        queries = self.common.get_queries(stem, folder)
+        
+        if query_expansion in not None:
+            if query_expansion:
+                queries = self.query_expansion.expand_queries_using_stemming(queries[:])
+                # query stemming expansion
+
+        if self.filter_queries:
+            stopwords = self.common.get_stopwords()
+            queries = self.common.filter_stopwords_in_queries(stopwords, queries)
+        
+        self.run_models(queries, folder)
