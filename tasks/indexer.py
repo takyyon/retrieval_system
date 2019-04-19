@@ -109,7 +109,7 @@ class Indexer:
 
     def read_index(self, folder='test-collection', index_type=False, relevant=False, stem=False, gram=1):
         self.stem_folder = 'stem-' if stem else ''
-        if type:
+        if index_type:
             return self.read_positional_index(relevant, folder, gram)
         return self.read_simple_index(relevant, folder, gram)
 
