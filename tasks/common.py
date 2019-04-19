@@ -34,6 +34,22 @@ class Common:
         queries = self.file_handling.read_file_lines(query_file_path)
         return queries
 
+    def filter_stopwords(self, stopwords, content):
+        words = content.split()
+        filtered_words = []
+        for w in words:
+            if w in stopwords:
+                continue
+            filtered_words.append(w)
+        return ' '.join(filtered_words)
+
+    def filter_stopwords_in_queries(self, stopwords, queries):
+        filtered_queries = []
+        for q in query:
+            filtered_query = self.filter_stopwords(self, stopwords, q)
+            filtered_queries.append(filtered_query)
+        return filtered_queries
+
     def get_document_lengths(self, stem_folder, folder):
         doc_length_file = self.get_doc_length_path(stem_folder, folder)
         lines = self.file_handling.read_file_lines(doc_length_file)
