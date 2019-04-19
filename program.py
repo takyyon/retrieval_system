@@ -23,7 +23,9 @@ class Program:
         # self.indexer.read_index('test-collection', True)
         # self.baseline_runs.run()
         # stopwords = self.common.get_stopwords()
-        self.query_highlight.highlight_queries() 
+        self.query_highlight.highlight_queries('bm25') 
+        self.query_highlight.highlight_queries('tf-idf')
+        self.query_highlight.highlight_queries('binary-independence') 
         # queries = self.common.process_test_queries()     
 
 program = Program()

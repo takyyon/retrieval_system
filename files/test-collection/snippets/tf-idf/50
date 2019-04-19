@@ -1,0 +1,160 @@
+Snippets for the query:  Parallel processors and paging algorithms
+************************
+Total Hits:  2
+************************
+
+************************
+Document:  CACM-1752.html
+************************
+
+
+Resource Management for a Medium Scale Time-Sharing Operating system
+
+Task scheduling and resource balancing for
+a medium size virtual memory paging machine are 
+discussed in relation to a combined batch processing
+and time-sharing environment.  A synopsis is given 
+of the task scheduling and paging algorithms that were implemented,
+and the results of comparative simulation 
+are given by tracing the development of the algorithms
+through six predecessor versions.  Throughout 
+the discussion particular emphasis is placed on balancing
+the system performance relative to the characteristics 
+of all the system resources.  Simulation results relative
+to alternate hardware characteristics and the 
+effects of program mix and loading variations are also presented.
+
+CACM May, 1968
+
+Oppenheimer, G.
+Weizer, N.
+
+time-sharing, operating systems, resource management,
+task scheduling, paging, system simulation, 
+memory management, virtual memories
+
+4.30 4.31 4.32
+
+CA680504 JB February 23, 1978  9:39 AM
+
+1751	5	1752
+1752	5	1752
+1752	5	1752
+1752	5	1752
+1892	5	1752
+2128	5	1752
+2218	5	1752
+1380	6	1752
+1526	6	1752
+1572	6	1752
+1572	6	1752
+1728	6	1752
+1728	6	1752
+1751	6	1752
+1751	6	1752
+1752	6	1752
+1752	6	1752
+1752	6	1752
+1752	6	1752
+1810	6	1752
+1879	6	1752
+2095	6	1752
+
+
+************************
+
+************************
+Document:  CACM-3006.html
+************************
+
+
+Anomalies with Variable Partition Paging Algorithms
+
+Five types of anomalous behavior which may
+occur in paged virtual memory operating systems 
+a redefined.  One type of anomaly, for example, concerns
+the fact that, with certain reference strings 
+and paging algorithms, an increase in mean memory allocation
+may result in an increase in fault rate. 
+ Two paging algorithms, are examined in terms of their
+anomaly potential, and reference string examples 
+of various anomalies are presented.  Two paging algorithm
+properties, the inclusion property and the 
+generalized inclusion property, are discussed and the
+anomaly implications of these properties presented.
+
+CACM March, 1978
+
+Franklin, M.
+Graham, G.
+Gupta, R.
+
+anomaly, memory management, program behavior, stack
+algorithms, virtual memory, working set, page 
+fault frequency, paging algorithms
+
+4.32 4.35 4.6 8.1
+
+CA780307 JB March 28,1978  1:01 PM
+
+1892	4	3006
+1901	4	3006
+2022	4	3006
+2085	4	3006
+2085	4	3006
+2095	4	3006
+2218	4	3006
+2277	4	3006
+2319	4	3006
+2329	4	3006
+2358	4	3006
+2373	4	3006
+2373	4	3006
+2374	4	3006
+2380	4	3006
+2380	4	3006
+2434	4	3006
+2499	4	3006
+2450	4	3006
+2450	4	3006
+2501	4	3006
+2582	4	3006
+2595	4	3006
+2669	4	3006
+2828	4	3006
+2863	4	3006
+2881	4	3006
+2928	4	3006
+2996	4	3006
+2996	4	3006
+2996	4	3006
+3006	4	3006
+3006	4	3006
+3006	4	3006
+3006	4	3006
+3006	4	3006
+3067	4	3006
+3067	4	3006
+3067	4	3006
+3067	4	3006
+1751	5	3006
+1884	5	3006
+2373	5	3006
+2374	5	3006
+2595	5	3006
+3006	5	3006
+3006	5	3006
+3006	5	3006
+3067	5	3006
+1751	6	3006
+2374	6	3006
+2373	6	3006
+2595	6	3006
+2682	6	3006
+2863	6	3006
+2864	6	3006
+3006	6	3006
+
+
+************************
+

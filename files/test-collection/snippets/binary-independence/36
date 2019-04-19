@@ -1,0 +1,284 @@
+Snippets for the query:  Articles describing the relationship between data types and concurrency (e.g. what is the type of a process? when is a synchronization attempt between two processes "type correct"? in a message-passing system is there any notion of the types of messages?--i.e. any way to check that the sender of the message and the receiver are both treating the bit stream as some particular type)
+************************
+Total Hits:  3
+************************
+
+************************
+Document:  CACM-2651.html
+************************
+
+
+The Treatment of Data Types in EL1
+
+In constructing a general purpose programming
+language, a key issue is providing a sufficient 
+set of data types and associated operations in a manner
+that permits both natural problem-oriented notation 
+and efficient implementation.  The EL1 language contains
+a number of features specifically designed to 
+simultaneously satisfy both requirements.  The resulting
+treatment of data types includes provision for 
+programmer-defined data types data types and generic
+routines, programmer control over type conversion, 
+and very flexible data type behavior, in a context that
+allows efficient compiled code and compact data 
+representation.
+
+CACM May, 1974
+
+Wegbreit, B.
+
+data types, modes, mode unions, type conversion,
+coercion, generic functions, extensible languages, 
+data type definition, data description language, compilation
+
+4.12 4.13 4.22
+
+CA740502 JB January 17, 1978  4:32 PM
+
+2651	5	2651
+2651	5	2651
+2651	5	2651
+2723	5	2651
+2941	5	2651
+2956	5	2651
+3030	5	2651
+1379	6	2651
+1471	6	2651
+1549	6	2651
+1749	6	2651
+1826	6	2651
+210	6	2651
+2247	6	2651
+2356	6	2651
+2356	6	2651
+2457	6	2651
+2558	6	2651
+2651	6	2651
+2651	6	2651
+2651	6	2651
+2651	6	2651
+2958	6	2651
+2972	6	2651
+627	6	2651
+731	6	2651
+
+
+************************
+
+************************
+Document:  CACM-1847.html
+************************
+
+
+An Algorithm for Finding a Fundamental Set of Cycles of a Graph
+
+A fast method is presented for finding a fundamental
+set of cycles for an undirected finite 
+graph.  A spanning tree is grown and the vertices examined
+in turn, unexamined vertices being stored 
+in a pushdown list to await examination.  One stage
+in the process is to take the top element v of the 
+pushdown list and examine it, i.e. inspect all those
+edges (v,z) of the graph for which z has not yet 
+been examined.  If z is already in the tree, a fundamental
+cycle is added; if not, the edge (v,z) is 
+placed in the tree.  There is exactly one such stage
+for each of the n vertices of the graph.  For large 
+n, the store required in creases as n^2 and the time as
+n^g where g depends on the type of graph involved. 
+ g is bounded below by 2 and above by 3, and it is shown
+that both bounds are attained.  In terms of 
+storage our algorithm is similar to that of Gotlieb and
+Corneil and superior to that of Welch; in terms 
+of speed it is similar to that of Welch and superior
+to that of Gotlieb and Corneil.  Testsshow our 
+algorithm to be remarkably efficient (g=2) on random graphs.
+
+CACM September, 1969
+
+Paton, K.
+
+fundamental cycle set, graph, algorithm, cycle, spanning tree
+
+5.32
+
+CA690909 JB February 15, 1978  4:29 PM
+
+1847	4	1847
+1961	4	1847
+2052	4	1847
+1504	5	1847
+1847	5	1847
+1847	5	1847
+1847	5	1847
+1961	5	1847
+2177	5	1847
+2763	5	1847
+1369	6	1847
+1504	6	1847
+1847	6	1847
+1847	6	1847
+1847	6	1847
+
+
+************************
+
+************************
+Document:  CACM-1614.html
+************************
+
+
+A Proposal for Definitions in ALGOL
+
+An extension to ALGOL is proposed for adding
+new data types and operators to the language. 
+ Definitions may occur in any block heading and terminate
+with the block.  They are an integral part 
+of the program and are not fixed in the language.  Even
+the behavior of existing operators may be redefined. 
+ The processing of text containing defined contexts features
+a "replacement rule" that eliminates unnecessary 
+iterations and temporary storage.  Examples of definition sets
+are given for real and complex matrices, 
+complex numbers, file processing, and list manipulation.
+
+CACM April, 1967
+
+Galler, B. A.
+Perlis, A. J.
+
+CA670401 JB February 28, 1978  11:43 AM
+
+1086	4	1614
+1132	4	1614
+1234	4	1614
+1263	4	1614
+1265	4	1614
+1270	4	1614
+1323	4	1614
+1358	4	1614
+1379	4	1614
+1380	4	1614
+1453	4	1614
+1464	4	1614
+1484	4	1614
+1491	4	1614
+1498	4	1614
+1613	4	1614
+1614	4	1614
+1614	4	1614
+1781	4	1614
+1825	4	1614
+1860	4	1614
+2083	4	1614
+2178	4	1614
+2179	4	1614
+2252	4	1614
+2253	4	1614
+2325	4	1614
+2341	4	1614
+2546	4	1614
+2557	4	1614
+2645	4	1614
+2652	4	1614
+2684	4	1614
+2842	4	1614
+2929	4	1614
+2934	4	1614
+3069	4	1614
+669	4	1614
+679	4	1614
+691	4	1614
+761	4	1614
+949	4	1614
+989	4	1614
+1614	5	1614
+1614	5	1614
+1614	5	1614
+1693	5	1614
+1781	5	1614
+1824	5	1614
+1861	5	1614
+2126	5	1614
+437	5	1614
+3184	5	1614
+823	6	1614
+123	6	1614
+196	6	1614
+196	6	1614
+919	6	1614
+990	6	1614
+1007	6	1614
+1046	6	1614
+1131	6	1614
+1139	6	1614
+1140	6	1614
+1149	6	1614
+1198	6	1614
+1215	6	1614
+1223	6	1614
+1265	6	1614
+1303	6	1614
+1323	6	1614
+1358	6	1614
+1358	6	1614
+1366	6	1614
+1421	6	1614
+1421	6	1614
+1460	6	1614
+1462	6	1614
+1463	6	1614
+1467	6	1614
+1468	6	1614
+1477	6	1614
+1477	6	1614
+1491	6	1614
+1491	6	1614
+1496	6	1614
+1531	6	1614
+1535	6	1614
+1565	6	1614
+1601	6	1614
+1602	6	1614
+1613	6	1614
+1614	6	1614
+1614	6	1614
+1614	6	1614
+1614	6	1614
+1614	6	1614
+1626	6	1614
+1641	6	1614
+1693	6	1614
+1781	6	1614
+1781	6	1614
+1787	6	1614
+1788	6	1614
+205	6	1614
+224	6	1614
+249	6	1614
+288	6	1614
+316	6	1614
+381	6	1614
+398	6	1614
+11	6	1614
+404	6	1614
+404	6	1614
+404	6	1614
+408	6	1614
+410	6	1614
+463	6	1614
+464	6	1614
+483	6	1614
+3184	6	1614
+3188	6	1614
+584	6	1614
+600	6	1614
+680	6	1614
+691	6	1614
+763	6	1614
+799	6	1614
+
+
+************************
+

@@ -11,8 +11,11 @@ class Common:
     def get_raw_doc_path(self, stem_folder, folder):
         return 'files/' + folder + '/' + stem_folder + 'raw-documents'
 
-    def get_query_snippet_path(self, stem_folder, folder):
-        return 'files/' + folder + '/' + stem_folder + 'snippets'
+    def get_query_snippet_path(self, stem_folder, folder, score):
+        return 'files/' + folder + '/' + stem_folder + 'snippets/' + score
+
+    def get_query_snippet_summary_path(self, stem_folder, folder, score):
+        return 'files/' + folder + '/' + stem_folder + 'snippets-summary/' + score
 
     def get_doc_length_path(self, stem_folder, folder):
         return 'files/' + folder + '/' + ('stem_' if len(stem_folder) > 0 else '') + 'doc_length'
