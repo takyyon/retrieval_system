@@ -67,8 +67,8 @@ class Indexer:
                     data += ','.join([str(x) for x in self.indexer[term][doc]]) + '\n'
         self.file_handling.save_file(data, indexer_file)
 
-    def read_simple_index(self, relevant, folder='test-collection', gram=1):
-        indexer_file = self.common.get_indexer_path(self.stem_folder, False, relevant, gram, folder)
+    def read_simple_index(self, folder='test-collection', gram=1): 
+        indexer_file = self.common.get_indexer_path(self.stem_folder, False, gram, folder)
         print('\n' + self.utility.line_break + '\n' +\
             'Reading simple index from ' + indexer_file)
         lines = self.file_handling.read_file_lines(indexer_file)
@@ -86,8 +86,8 @@ class Indexer:
                 i += 1 
         return indexer
 
-    def read_positional_index(self, relevant, folder='test-collection', gram=1):
-        indexer_file = self.common.get_indexer_path(self.stem_folder, True, relevant, gram, folder)
+    def read_positional_index(self, folder='test-collection', gram=1):
+        indexer_file = self.common.get_indexer_path(self.stem_folder, True, gram, folder)
         print('\n' + self.utility.line_break + '\n' +\
             'Reading positional index from ' + indexer_file)
         lines = self.file_handling.read_file_lines(indexer_file)
