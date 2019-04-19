@@ -164,13 +164,14 @@ class Baseline_Runs:
         self.stem_folder = 'stem-' if stem else ''
         model_file_path = self.common.get_score_path(self.stem_folder, score, folder) + '/' + str(query_index)
         lines = self.file_handling.read_file_lines(model_file_path)
-        top_docs = {}
+        top_docs = []
         i = 0
         for l in lines:
             if i == top:
                 break
             data = l.split()
-            top_docs[data[2]] = data[3]
+            top_docs.append({'doc': data[2], 'score': data[3]})
+            # top_docs[data[2]] = data[3]
             i += 1
         return top_docs
 
