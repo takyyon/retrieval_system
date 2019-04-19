@@ -1,0 +1,88 @@
+Snippets for the query:  Performance evaluation and modelling of computer systems
+************************
+Total Hits:  2
+************************
+
+************************
+Document:  CACM-2988.html
+************************
+
+
+Memory Management and Response Time
+
+This paper presents a computationally tractable
+methodology for including accurately the effects 
+of finite memory size and workload memory requirements
+in queueing network models of computer systems. 
+ Empirical analyses and analytic studies based on applying
+this methodology to an actual multiaccess 
+in teractive system are reported.  Relations between workload
+variables such as memory requirement distribution 
+and job swap time, and performance measures such as response
+time and memory utilization are graphically 
+displayed. A multiphase, analytically soluble model is
+proposed as being broadly applicable to the analysis 
+of in teractive computer systems which use nonpaged memories.
+
+CACM March, 1977
+
+Brown, R. M.
+Browne, J. C.
+Chandy, K. M.
+
+memory management, system performance, queueing
+network models, in teractive computer systems
+
+4.32
+
+CA770304 JB December 30, 1977  12:51 AM
+
+2988	4	2988
+1750	5	2988
+2988	5	2988
+2988	5	2988
+2988	5	2988
+3059	5	2988
+3070	5	2988
+1805	6	2988
+2454	6	2988
+2741	6	2988
+2988	6	2988
+2988	6	2988
+
+
+************************
+
+************************
+Document:  CACM-0417.html
+************************
+
+
+Legal Implications of Computer Use
+
+This paper points out a variety of ways computer
+systems used in business and industry can 
+be involved in legal entanglements and suggests that
+computer specialists have a responsibility to call 
+for assistance in forestalling or minimizing those entanglements
+during the planning stage.  Techniques 
+are suggested for making legal clearance effective with
+the least burden on the new technology and for 
+achieving a favorable legal climate for it generally.
+ Computer specialists also are alerted to potential 
+opportunities to interpret to lawyers the technical aspects
+of computer systems involved in legal situations.
+
+CACM December, 1962
+
+Freed, R. N.
+
+CA621222 JB March 17, 1978  4:37 PM
+
+417	5	417
+417	5	417
+417	5	417
+
+
+************************
+

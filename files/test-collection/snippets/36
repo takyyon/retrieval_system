@@ -1,0 +1,118 @@
+Snippets for the query:  Articles describing the relationship between data types and concurrency (e.g. what is the type of a process? when is a synchronization attempt between two processes "type correct"? in a message-passing system is there any notion of the types of messages?--i.e. any way to check that the sender of the message and the receiver are both treating the bit stream as some particular type)
+************************
+Total Hits:  2
+************************
+
+************************
+Document:  CACM-2265.html
+************************
+
+
+A Model for Type Checking
+
+Most current programming languages treat computation
+over different classes of objects (e.g. 
+numbers, strings, labels and functions).  For correct
+compilation and execution, the following question 
+then arises: is a program properly constructed so that
+its operations and operands are compatible?  The 
+activity of answering this question is usually called
+type checking.  This paper attempts to isolate 
+the notion of type checking and presents a partial
+solution to the type checking problem based on the 
+notions of abstraction and application of functions. 
+In particular, a program is mapped into an expression 
+within a decidable subset of the Lambda calculus, which
+characterizes the type relations within the program 
+and eliminates all other information.  The determination
+of the type-wise correctness or incorrectness 
+of the program is resolved by reducing its corresponding
+Lambda calculus expression to one of two normal 
+forms, the constant "correct" for a type-wise correct
+program or the constant "error".  An application 
+to type checking in Algol 60 is made, and the attendant
+problems faced for any notion of type checking 
+are discussed.
+
+CACM November, 1972
+
+Ledgard, H. F.
+
+type checking, types, Lambda calculus, models for
+programming languages, syntax, semantics, compiler 
+writing, language implementation, formal definition
+
+4.12 4.22 5.2 5.21 5.23
+
+CA721104 JB January 27, 1978  2:30 PM
+
+2265	5	2265
+2265	5	2265
+2265	5	2265
+
+
+************************
+
+************************
+Document:  CACM-2651.html
+************************
+
+
+The Treatment of Data Types in EL1
+
+In constructing a general purpose programming
+language, a key issue is providing a sufficient 
+set of data types and associated operations in a manner
+that permits both natural problem-oriented notation 
+and efficient implementation.  The EL1 language contains
+a number of features specifically designed to 
+simultaneously satisfy both requirements.  The resulting
+treatment of data types includes provision for 
+programmer-defined data types data types and generic
+routines, programmer control over type conversion, 
+and very flexible data type behavior, in a context that
+allows efficient compiled code and compact data 
+representation.
+
+CACM May, 1974
+
+Wegbreit, B.
+
+data types, modes, mode unions, type conversion,
+coercion, generic functions, extensible languages, 
+data type definition, data description language, compilation
+
+4.12 4.13 4.22
+
+CA740502 JB January 17, 1978  4:32 PM
+
+2651	5	2651
+2651	5	2651
+2651	5	2651
+2723	5	2651
+2941	5	2651
+2956	5	2651
+3030	5	2651
+1379	6	2651
+1471	6	2651
+1549	6	2651
+1749	6	2651
+1826	6	2651
+210	6	2651
+2247	6	2651
+2356	6	2651
+2356	6	2651
+2457	6	2651
+2558	6	2651
+2651	6	2651
+2651	6	2651
+2651	6	2651
+2651	6	2651
+2958	6	2651
+2972	6	2651
+627	6	2651
+731	6	2651
+
+
+************************
+

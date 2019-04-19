@@ -20,13 +20,13 @@ class Query_Highlight:
 
     def find_index(self, index, content, end=False):
         if end:
-            while index < len(content) and content[index] != ' ' or content[index] != '\n':
+            while index < len(content) and (content[index] != ' ' or content[index] != '\n'):
                 index += 1
             if index >= len(content):
                 return len(content)
             return index
         
-            while index >= 0 and content[index] != ' ' or content[index] != '\n':
+            while index >= 0 and (content[index] != ' ' or content[index] != '\n'):
                 index -= 1
             if index < 0:
                 return 0
@@ -59,12 +59,12 @@ class Query_Highlight:
         if total_hits == 0:
             data += 'No snippets found for the query..'
         else:
-            data += 'Total Hits:  ' + str(total_hits) + '\n' + self.utility.line_break + '\n'
+            data += 'Total Hits:  ' + str(total_hits) + '\n' + self.utility.line_break + '\n\n'
             for r in result:
-                data += 'Document:  ' + r + '\n'
+                data += self.utility.line_break + '\nDocument:  ' + r + '\n' + self.utility.line_break
                 for s in result[r]:
-                    data += s + '\n'
-                data += '\n' + self.utility.line_break + '\n'
+                    data += s + '\n' + self.utility.line_break + '\n'
+                data += '\n'
         self.file_handling.save_file(data, query_snippet_path)
         
     def highlight_query(self, stem, index, query, folder, score):
@@ -73,7 +73,7 @@ class Query_Highlight:
         query_len = len(query)
         result = {}
         len_checked = 0
-        print('Processing ' + query + '...')
+        print('\nProcessing ' + query + '...')
         for gram in trigrams:
             temp_query = ' '.join(gram)
             for d in top_docs:
@@ -83,7 +83,7 @@ class Query_Highlight:
                         result[d] = {}
                     if s not in result[d]:
                         result[d][s] = True
-            len_checked += len(temp_query)
+            len_checked += len(gram[0])
         self.save_snippets(index, query, folder, result)
 
     def highlight_queries(self, folder='test-collection', stem= False, score='bm25'):

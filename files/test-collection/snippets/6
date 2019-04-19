@@ -1,0 +1,271 @@
+Snippets for the query:  I am interested in distributed algorithms - concurrent programs in which processes communicate and synchronize by using message passing. Areas of particular interest include fault-tolerance and techniques for understanding the correctness of these algorithms.
+************************
+Total Hits:  4
+************************
+
+************************
+Document:  CACM-3014.html
+************************
+
+
+Is "Sometime" Sometimes Better than "Always"? (Intermittent
+Assertions in Proving Program Correctness)
+
+This paper explores a technique for proving the
+correctness and termination of programs simultaneously. 
+ This approach, the intermittent-assertion method, involves
+documenting the program with assertions that 
+must be true at some time when control passes through
+the corresponding point, but that need not be true 
+every time.  The method, introduced by Burstall, promises
+to provide a valuable complement to the more 
+conventional methods.  The intermittent-assertion method
+is presented with a number of examples of correctness 
+and termination proofs.  Some of these proofs are markedly
+simpler than their conventional counterparts. 
+ On the other hand, it is shown that a proof of correctness
+or termination by any of the conventional 
+techniques can be rephrased directly as a proof using
+intermittent assertions.  Finally, it is shown 
+how the intermittent-assertion method can be applied
+to prove the validity of program transformations 
+and the correctness of continuously operating programs.
+
+CACM February, 1978
+
+Manna, Z.
+Waldinger, R.
+
+intermittent assertions, correctness of programs,
+termination of programs, program verification, 
+program transformation, continuously operating programs.
+
+5.24
+
+CA780209 JB March 28, 1978  2:04 PM
+
+2021	4	3014
+2222	4	3014
+2227	4	3014
+2315	4	3014
+2326	4	3014
+2470	4	3014
+2732	4	3014
+2865	4	3014
+2896	4	3014
+2943	4	3014
+3014	4	3014
+3014	4	3014
+3068	4	3014
+3077	4	3014
+3143	4	3014
+1834	5	3014
+2981	5	3014
+3014	5	3014
+3014	5	3014
+3014	5	3014
+3157	5	3014
+3014	6	3014
+
+
+************************
+
+************************
+Document:  CACM-3043.html
+************************
+
+
+Distributed Processes: A Concurrent Programming Concept
+
+A language concept for concurrent processes
+without common variables is introduced.  These 
+processes communicate and synchronize by means of procedure
+calls and guarded regions.  This concept 
+is proposed for real-time applications controlled by
+microcomputer networks with distributed storage. 
+ The paper gives several examples of distributed processes
+and shows that they include procedures, coroutines, 
+classes, monitors, processes, semaphores, buffers, path
+expressions, and input/output as special cases.
+
+CACM November, 1978
+
+Hansen, P.
+
+Concurrent programming, distributed processes,
+microprocessor networks, nondeterminism, guarded 
+regions, programming languages, process communication
+and scheduling, sorting arrays, coroutines, classes, 
+monitors, processes, semaphores, buffers, path expressions, input/output 
+
+3.8 4.2 4.22 4.32 5.24
+
+CA781108 DH January 26, 1979  10:40 AM
+
+2865	4	3043
+2866	4	3043
+2896	4	3043
+2898	4	3043
+2972	4	3043
+2972	4	3043
+3037	4	3043
+3039	4	3043
+3043	4	3043
+3043	4	3043
+3073	4	3043
+3128	4	3043
+3144	4	3043
+2597	5	3043
+2732	5	3043
+3043	5	3043
+3043	5	3043
+3043	5	3043
+
+
+************************
+
+************************
+Document:  CACM-3031.html
+************************
+
+
+Abstract Data Types and Software Validation
+
+A data abstraction can be naturally specified
+using algebraic axioms.  The virtue of these 
+axioms is that they permit a representation-independent
+formal specification of a data type.  An example 
+is given which shows how to employ algebraic axioms at
+successive levels of implementation.  The  major 
+thrust of the paper is twofold.  First, it is shown how
+the use of algebraic axiomatizations can simplify 
+the process of proving the correctness of an implementation
+of an abstract data type.  Second, semi-automatic 
+tools are described which can be used both to automate
+such proofs of correctness and to derive an immediate 
+implementation from the axioms.  This implementation
+allows for limited testing of programs at design 
+time, before a conventional implementation is accomplished.
+
+CACM December, 1978
+
+Guttag, J.
+Horowitz, E.
+Musser, D.
+
+Abstract data type, correctness proof,
+data type, data structure, specification 
+
+4.34 5.24
+
+CA781208 DH January 18, 1979  2:51 PM   
+
+3030	4	3031
+3031	4	3031
+3031	4	3031
+3049	4	3031
+3105	4	3031
+3148	4	3031
+3150	4	3031
+2939	5	3031
+2958	5	3031
+3031	5	3031
+3031	5	3031
+3031	5	3031
+
+
+************************
+
+************************
+Document:  CACM-2342.html
+************************
+
+
+Interference Between Communicating Parallel Processes
+
+Various kinds of interference between communicating
+parallel processes have been examined by 
+Dijkstra, Knuth, and others.  Solutions have been given
+for the mutual exclusion problem and associated 
+subproblems, in the form of parallel programs, and informal
+proofs of correctness have been given for 
+these solutions.  In this paper a system of parallel
+processes is regarded as a machine which proceeds 
+from one state S (i.e. a collection of pertinent data
+values and process configurations) to a next state 
+S' in accordance with a transition rule S --> S'.  A
+set of such rules yields sequences of states, which 
+dictate the system's behavior.  The mutual exclusion problem
+and the associated subproblems are formulated 
+as questions of inclusion between sets of states, or
+of the existence of certain sequences.  A mechanical 
+proof procedure is shown, which will either verify (prove
+the correctness of ) or discredit (prove the 
+incorrectness of) an attempted solution, with respect
+to any of the interference properties.  It is shown 
+how to calculate transition rules from the "partial
+rules" by which the individual processes operate. 
+ The formation of partial rules and the calculation of
+transition rules are both applicable to hardware 
+processes as well as to software processes, and
+symmetry between processes is not required.
+
+CACM June, 1972
+
+Gilbert, P.
+Chandler, W. J.
+
+concurrent programming control, cooperating processes,
+formal programs, interference, mutual exclusion, 
+operating systems, parallel processes
+
+4.0 4.10 4.30 4.32 4.42 5.24 6.20
+
+CA720603 JB January 31, 1978  8:44 AM
+
+1781	4	2342
+1828	4	2342
+1854	4	2342
+1877	4	2342
+1960	4	2342
+2150	4	2342
+2150	4	2342
+2150	4	2342
+2228	4	2342
+2228	4	2342
+2256	4	2342
+2256	4	2342
+2317	4	2342
+2317	4	2342
+2319	4	2342
+2377	4	2342
+2342	4	2342
+2342	4	2342
+2342	4	2342
+2376	4	2342
+2376	4	2342
+2379	4	2342
+2424	4	2342
+2482	4	2342
+2618	4	2342
+2618	4	2342
+2618	4	2342
+2632	4	2342
+2704	4	2342
+2723	4	2342
+2738	4	2342
+2740	4	2342
+2741	4	2342
+2867	4	2342
+3184	4	2342
+3184	4	2342
+1198	5	2342
+1338	5	2342
+1749	5	2342
+2342	5	2342
+2342	5	2342
+2342	5	2342
+
+
+************************
+

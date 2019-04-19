@@ -1,0 +1,99 @@
+Snippets for the query:  I am interested in hidden-line and hidden-surface algorithms for cylinders, toroids, spheres, and cones. This is a rather specialized topic in computer graphics.
+************************
+Total Hits:  2
+************************
+
+************************
+Document:  CACM-2657.html
+************************
+
+
+An Improved Program-Synthesizing Algorithm and Its Correctness
+
+An improved program-synthesizing algorithm
+based on the algorithm proposed by Waldinger and 
+Lee in 1969 is given.  In the old algorithm, the program-synthesizing
+problem is translated into a theorem-proving 
+problem, and a program is obtained by analyzing a proof.
+ For the improved algorithm, the analysis is 
+not necessary, and a program is obtained as soon as
+the proof is completed.  This is achieved by using 
+a modified variable tracing mechanism invented by Green
+in 1969.  The correctness of the improved algorithm 
+is also proved; i.e. the program thus obtained
+always satisfies the specification.
+
+CACM April, 1974
+
+Lee, R. C. T.
+Chang, C. L.
+Waldinger, R. J.
+
+program-synthesizing algorithms, theorem proving,
+consequence finding, primitive resolutions
+
+3.60 3.64 4.20 4.42 5.21 5.22 5.24
+
+CA740413 JB January 18, 1978  9:32 AM
+
+2657	4	2657
+2719	4	2657
+2210	5	2657
+2657	5	2657
+2657	5	2657
+2657	5	2657
+2719	5	2657
+1626	6	2657
+210	6	2657
+2151	6	2657
+2167	6	2657
+2210	6	2657
+2645	6	2657
+2657	6	2657
+
+
+************************
+
+************************
+Document:  CACM-1764.html
+************************
+
+
+Panel Discussion on Computer Appreciation
+
+Session 19 of the ACM 20 th Anniversary Conference
+on August 31, 1967, was entitled Education, 
+Design Experiments, and Computer Appreciation.  Its second
+half consisted of a panel discussion on computer 
+appreciation, organized and chaired by Elliot I. Organick.
+ The four panelists were Charles H. Davidson, 
+Bernard A. Galler, Richard, W. Hamming, and Alan J. Perlis.
+ After making prepared statements, the panelists 
+were joined in discussion by Andries van Dam and Arthur
+Bohn, who had presented papers in the first 
+half.  This is a transcript of the panel discussion,
+condensed by Dr. Organick and edited by him and 
+the panelists.  Some remarks referred to papers by van
+Dam and Kahn or to the discussion during the first 
+half of the session.  Pertinent papers are included in the references.
+
+CACM April, 1968
+
+Organick, E. I.
+
+computer appreciation, students' liberal arts courses,
+survey courses, beginning programming, course 
+content, computer courses dropout rates, college versus
+precollege, teaching and social responsibility
+
+1.1 1.51 1.52
+
+CA680406 JB February 23, 1978  10:34 AM
+
+1764	5	1764
+1764	5	1764
+1764	5	1764
+
+
+************************
+
