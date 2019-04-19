@@ -51,10 +51,12 @@ class Indexer:
             'Processing the ' + str(gram) + '-grams to create a index using the relevant documents.')
             ngram_path = self.common.get_ngram_path(self.stem_folder, gram, folder) + '/'
             self.create_indexer(ngram_path, docs)
+            self.save_index(folder, gram)
+            self.save_index(folder, gram, True)
 
-    def save_index(self, folder, gram, positional = False, relevant = False):
+    def save_index(self, folder, gram, positional = False):
         indexer_file = self.common.get_indexer_path(self.stem_folder,\
-            True if positional else False, relevant, gram, folder)
+            True if positional else False, gram, folder)
         print('\n' + self.utility.line_break + '\n' +\
             'Saving ' + ('positional' if positional else 'simple') + ' index..' + '\n' +\
             'Processed data is available under ' + indexer_file)
@@ -107,11 +109,11 @@ class Indexer:
                 i += 1
         return indexer
 
-    def read_index(self, folder='test-collection', index_type=False, relevant=False, stem=False, gram=1):
+    def read_index(self, folder='test-collection', index_type=False, stem=False, gram=1):
         self.stem_folder = 'stem-' if stem else ''
         if index_type:
-            return self.read_positional_index(relevant, folder, gram)
-        return self.read_simple_index(relevant, folder, gram)
+            return self.read_positional_index(folder, gram)
+        return self.read_simple_index(folder, gram)
 
     def run(self, stem= False, folder='test-collection', grams=[1]):
         self.stem_folder = 'stem-' if stem else ''

@@ -30,10 +30,7 @@ class Program:
         # self.query_highlight.highlight_queries('binary-independence') 
         # queries = self.common.process_test_queries()
         # self.evaluation.run()
-
-        queries = self.common.get_queries()
-        queries = self.query_expansion.expand_queries_using_stemming(queries[:2])
-        print(queries)
+        self.baseline_runs.run(query_expansion=True)
 
 program = Program()
 program.run()

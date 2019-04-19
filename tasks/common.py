@@ -24,9 +24,12 @@ class Common:
     def get_doc_length_path(self, stem_folder, folder):
         return 'files/' + folder + '/' + ('stem_' if len(stem_folder) > 0 else '') + 'doc_length'
 
-    def get_score_path(self, stem_folder, score, folder, filter_queries = False):
+    def get_score_path(self, stem_folder, score, folder, filter_queries = False, query_expansion=False):
+        expansion = ''
+        if query_expansion is not None:
+            expansion = 'stem-expansion-' if query_expansion else 'psuedo-expansion-'
         filtered = 'filtered-' if filter_queries else ''
-        return 'files/' + folder + '/' + stem_folder + filtered  + score
+        return 'files/' + folder + '/' + stem_folder + expansion + filtered  + score
 
     def get_ngram_path(self, stem_folder, gram, folder):
         return 'files/' + folder + '/' + stem_folder + 'gram-' + str(gram)
@@ -34,7 +37,7 @@ class Common:
     def get_indexer_path(self, stem_folder, index_type, gram, folder):
         indexer = 'positional' if index_type else 'simple'
         return 'files/' + folder + '/' + stem_folder  +\
-            relevant + indexer + '-index/' + 'gram_' + str(gram)
+            indexer + '-index/' + 'gram_' + str(gram)
 
     def get_stopwords(self, folder='test-collection'):
         common_words_path = 'files/' + folder + '/common_words'
