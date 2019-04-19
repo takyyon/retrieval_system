@@ -1,0 +1,458 @@
+Snippets for the query:  The use of Bayesian decision models to optimize information retrieval system performance. This includes stopping rules to determine when a user should cease scanning the output of a retrieval search.
+************************
+Total Hits:  9
+************************
+
+************************
+Document:  CACM-2846.html
+************************
+
+
+Compressed Tries
+
+This paper presents a new data structure,
+called a compressed trie or C-trie, to be used in 
+information retrieval systems.  It has the same underlying
+m-ary tree structure as a trie, where m is 
+a parameter of the trie, but whereas the fields of the
+nodes in a trie have to be large enough to hold 
+a key or at least a pointer, the fields in a C-trie are
+only one bit long.  In the analysis part of the 
+paper it will be shown that for a collection of n keys the
+retrieval time, measured in terms of bit inspections 
+of one key, is of the order logm(n) and the storage
+requirement of the order n*(m+log2 n) bits.  This 
+improvement in storage requirements and retrieval time
+is achieved at the cost of decreasing the flexibility 
+of the structure, and therefore updating costs are increased.
+ First the C-trie is analyzed as a data 
+structure, and then several methods of its use
+for relatively static databases are discussed.
+
+CACM July, 1976
+
+Maly, K.
+
+data structure, database, m-ary tree, trie,
+retrieval time, storage requirement, keys
+
+3.70 3.74 3.75
+
+CA760707 JB January 4, 1978  12:26 PM
+
+2846	4	2846
+849	4	2846
+944	4	2846
+155	5	2846
+2846	5	2846
+2846	5	2846
+2846	5	2846
+3041	5	2846
+2846	6	2846
+2905	6	2846
+
+
+************************
+
+************************
+Document:  CACM-1684.html
+************************
+
+
+Ambiguity in Limited Entry Decision Tables
+
+The use of decision tables as a tool in systems
+analysis and for program specification is now 
+becoming accepted.  Rules on redundancy, contradiction,
+and completeness for limited entry tables were 
+published in 1963.  These are usually used for checking,
+preceded if necessary by a conversion from extended 
+to limited entry form.  Processors which automatically
+translate tables to more conventional program 
+usually base their diagnostic facilities on these rules.
+ In this paper it is suggested that these rules 
+are unsatisfactory and that the important aspect of
+checking is to eliminate ambiguity from tables.  
+Ambiguity is defined and discussed, and a procedure for
+producing checked-out decision tables is proposed. 
+ The theoretical basis of the algorithm used is established.
+The importance of well-designed diagnostic 
+facilities in decision table processors is emphasized.
+
+CACM October, 1968
+
+King, P. J. H.
+
+decision tables, DETAB-65, systems analysis 
+
+3.50 4.19 4.49
+
+CA681003 JB February 21, 1978  4:17 PM
+
+1684	4	1684
+1684	4	1684
+2053	4	1684
+2220	4	1684
+2273	4	1684
+2453	4	1684
+2726	4	1684
+2856	4	1684
+3113	4	1684
+1354	5	1684
+1564	5	1684
+1684	5	1684
+1684	5	1684
+1684	5	1684
+2053	5	1684
+2517	5	1684
+2518	5	1684
+2616	5	1684
+3034	5	1684
+931	6	1684
+1172	6	1684
+1237	6	1684
+1327	6	1684
+1354	6	1684
+1548	6	1684
+1548	6	1684
+1684	6	1684
+1684	6	1684
+1684	6	1684
+1684	6	1684
+1684	6	1684
+2053	6	1684
+2053	6	1684
+2221	6	1684
+2517	6	1684
+2517	6	1684
+
+
+************************
+
+************************
+Document:  CACM-1699.html
+************************
+
+
+Experimental Evaluation of Information
+Retrieval Through a Teletypewriter
+
+Experiments designed to evaluate the capabilities
+of mechanized information retrieval systems, 
+with emphasis on interactive (man-machine) language and on
+some of the mechanical and psychological limitations 
+in their design, were conducted at the Moore School information
+Systems Laboratory.  The basic assumption 
+of the research is that an information retrieval system
+that provides for man-machine dialogue at a remote 
+inquiry terminal should provide a searcher with many
+of the tools which would be available to him were 
+he actually performing his search at a library or repository
+of documents.  Factors involved in evaluation 
+of such a system include ease of use, learning time, and
+effectiveness of actual retrieval.  Three experiments 
+and the conclusions resulting from them are detailed.
+
+CACM September, 1968
+
+Rubinoff, M.
+Bergman, S.
+Franks, W.
+Rubinoff, E.
+
+information retrieval testing,  information system
+evaluation, experimental document retrieval, 
+document retrieval, document perusal, man-machine communication,
+remote console communication, teletypewriter 
+communication, remote terminal communication, retrieval
+command language, symbolic command language, 
+interactive systems, user learning factors, on-line searching
+
+3.72 3.74 3.79 3.81
+
+CA680902 JB February 22, 1978  9:30 AM
+
+1155	4	1699
+1456	4	1699
+1468	4	1699
+1515	4	1699
+1681	4	1699
+1699	4	1699
+1699	4	1699
+1699	4	1699
+1856	4	1699
+2127	4	1699
+1194	5	1699
+1324	5	1699
+1681	5	1699
+1699	5	1699
+1699	5	1699
+1699	5	1699
+
+
+************************
+
+************************
+Document:  CACM-2519.html
+************************
+
+
+On the Problem of Communicating Complex Information
+
+The nature of the difficulty involved in communicating
+mathematical results between scientists 
+using a computer based information retrieval system
+is examined.  The problem is analyzed in terms of 
+psychological and information-processing processes, and
+what turns out to be a vicious circle of effects 
+is described.  These include ways of augmenting written
+natural language by various notational and linguistic 
+devices, the exhibition of the structure inherent in the
+information we are communicating, and a sophisticated 
+interactive system controlled by computer.
+
+CACM May, 1973
+
+Pager, D.
+
+complex information, information, communication,
+mathematics, proof, interactive system, language
+
+1.0 1.1 1.50 1.52 1.59 2.42 3.32 3.51 3.62 3.70 3.81
+
+CA730501 JB January 24, 1978  9:25 AM
+
+2519	4	2519
+2390	5	2519
+2519	5	2519
+2519	5	2519
+2519	5	2519
+
+
+************************
+
+************************
+Document:  CACM-2990.html
+************************
+
+
+Effective Information Retrieval Using Term Accuracy
+
+The performance of information retrieval systems
+can be evaluated in a number of different 
+ways.  Much of the published evaluation work is based
+on measuring the retrieval performance of an average 
+user query.  Unfortunately, formal proofs are difficult
+to construct for the average case.  In the present 
+study, retrieval evaluation is based on optimizing the
+performance of a specific user query.  The concept 
+of query term accuracy is in troduced as the probability
+of occurrence of a query term in the documents 
+relevant to that query.  By relating term accuracy
+to the frequency of occurrence of the term in the 
+documents of a collection it is possible to give formal
+proofs of the effectiveness with respect to a 
+given user query of a number of automatic indexing systems
+that have been used successfully in experimental 
+situations.  Among these are inverse document frequency
+weighting, thesaurus construction, and phrase 
+generation.
+
+CACM March, 1977
+
+Yu, C. T.
+Salton, G.
+
+information retrieval, automatic indexing, content
+analysis, term accuracy, frequency weighting, 
+thesaurus and phrase transformations
+
+3.71 3.72 3.75
+
+CA770302 JB December 30, 1977  1:52 AM
+
+2990	5	2990
+2990	5	2990
+2990	5	2990
+3134	5	2990
+1976	6	2990
+2160	6	2990
+2524	6	2990
+2990	6	2990
+
+
+************************
+
+************************
+Document:  CACM-1427.html
+************************
+
+
+Simulation of Radioisotope Scans by Computer
+
+In radioisotope scanning, a field which is assuming
+increasing importance in medical diagnosis, 
+the scan is a two-dimensional pattern made up of dots.
+ Areas of increased source activity are represented 
+on the scan by areas of increased dot density.  To study
+the output of scanners with various characteristics, 
+a program which simulates radioisotope scans has been
+written  for a PDP-1 computer with auxiliary disk 
+storage and cathode ray tube display.  Past and present
+research using the output of the simulator has 
+shown the flexibility of the system to be important.
+ The structure of this program can be useful in 
+the simulation of the output of any quantum-limited system.
+
+CACM May, 1966
+
+Pizer, S. M.
+
+CA660510 JB March 3, 1978  9:47 AM
+
+1427	5	1427
+1427	5	1427
+1427	5	1427
+
+
+************************
+
+************************
+Document:  CACM-1681.html
+************************
+
+
+Easy English,a Language for Information
+Retrieval Through a Remote Typewriter Console
+
+Easy English is a natural command language
+designed to simplify communication between man and 
+machine through remote typewriter console.  It has been developed
+for retrieval of documents from a computerized 
+data base, the Moore School Information Systems Laboratory
+files.  Requests are formulated in a standardized 
+syntactical form (examples of which are presented), and
+this form is then transformed into an equivalent 
+query expressed in the retrieval system's original Symbolic
+Command Language, which is briefly described. 
+ Operation of easy English is detailed by illustration
+of the transformations performed upon a sample 
+request up to the point at which the request string
+is sent to the system.  A macro flowchart of Easy 
+English is included, and an Appendix provides
+the printout of a retrieval demonstration.
+
+CACM October, 1968
+
+Rubinoff, M.
+Bergman, S.
+Cautin, H.
+Rapp, F.
+
+natural language communication, on-line searching,
+remote console communication, information retrieval, 
+man-machine communication, remote terminal communication,
+translator, document retrieval, conversational 
+mode, information retrieval language, symbolic command language
+
+3.74 3.81 4.19
+
+CA681006 JB February 21, 1978  3:59 PM
+
+1681	4	1681
+1699	4	1681
+1194	5	1681
+1681	5	1681
+1681	5	1681
+1681	5	1681
+1699	5	1681
+1194	6	1681
+1324	6	1681
+1681	6	1681
+
+
+************************
+
+************************
+Document:  CACM-1514.html
+************************
+
+
+On the Expected Gain From Adjust ing Matched Term Retrieval Systems
+
+A file adjustment procedure based on maximizing
+the Bayes expected gain proposed for matched 
+term retrieval systems.  The expected gain and its probability
+distribution are derived as a function 
+of: (1) the prior proportion of omitted terms, and (2) the
+coefficient of separation between two distributions 
+corresponding to values of an adjustment statistic.  An
+example evaluates the gain parameters for a typical 
+information retrieval system.
+
+CACM November, 1967
+
+Shumway, R. H.
+
+CA671106 JB February 26, 1978  2:59 PM
+
+1514	5	1514
+1514	5	1514
+1514	5	1514
+
+
+************************
+
+************************
+Document:  CACM-1725.html
+************************
+
+
+A Simple Proof of Lewin's Ordered-Retrieval
+Theorem for Associative Memories
+
+An efficient method of ordered retrieval of binary
+words from an associative memory, as described
+by Lewin, is based on the use of special readout circuits
+which indicate the digit values present in 
+the individual digit columns of the memory.  Thus the
+circuits indicate whether the individual digit 
+columns contain digits of both values, or of only one
+value, or contain no digits at all (i.e. that the 
+memory is empty).  The use of these circuits, which
+in this paper are termed column value indicators, 
+reduces considerably the number of memory accesses necessary
+to retrieve in order a number of distinct 
+words from the memory.  Lewin proves that, for the readout
+by the described method of m distinct binary 
+words, 2m - 1 memory accesses are necessary.  (Thus he
+proves that the number of necessary memory accesses 
+of his method, unlike those of other methods, is independent
+of the word length.)  In this paper a very 
+simple proof of this theorem derived from some elementary
+aspects of the structure of sets of binary 
+numbers is presented.
+
+CACM July, 1968
+
+Wolinsky, A.
+
+associative memories, content-addressed memories,
+ordered lists, ordered information retrieval, 
+ordered retrieval theorem, column digit values, digit
+value variety, column sensing arrangement, digit 
+value readout, digit variety readout, memory access, memory
+access frequency, ordered retrieval efficiency, 
+access frequency proof, retrieval theorem proof
+
+3.74 3.79 5.29 5.31 6.31 6.36
+
+CA680704 JB February 22, 1978  12:24 PM
+
+1725	5	1725
+1725	5	1725
+1725	5	1725
+
+
+************************
+

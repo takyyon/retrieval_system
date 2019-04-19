@@ -1,0 +1,265 @@
+Snippets for the query:  What is the type of a module? (I don't want the entire literature on Abstract Data Types here, but I'm not sure how to phrase this to avoid it. I'm interested in questions about how one can check that a module "matches" contexts in which it is used.)
+************************
+Total Hits:  5
+************************
+
+************************
+Document:  CACM-2958.html
+************************
+
+
+Abstract Data Types and the Development of Data Structures
+
+Abstract data types can play a significant role
+in the development of software that is reliable, 
+efficient, and flexible.  This paper presents and discusses
+the application of an algebraic technique 
+for the specification of abstract data types.  Among
+the examples presented is a top-down development 
+of a symbol table for a block structured language; a discussion
+of the proof of its correctness is given. 
+ The paper also contains a brief discussion of the problems
+involved in constructing algebraic specifications 
+that are both consistent and complete.
+
+CACM June, 1977
+
+Guttag, J.
+
+abstract data type, correctness proof, data type,
+data structure, specification, software specification
+
+4.34 5.24
+
+CA770605 JB December 29, 1977  1:17 AM
+
+2704	4	2958
+2738	4	2958
+2866	4	2958
+2869	4	2958
+2941	4	2958
+2958	4	2958
+3004	4	2958
+3030	4	2958
+2356	5	2958
+2958	5	2958
+2958	5	2958
+2958	5	2958
+3030	5	2958
+3031	5	2958
+3049	5	2958
+2247	6	2958
+2356	6	2958
+2457	6	2958
+2651	6	2958
+2939	6	2958
+2956	6	2958
+2958	6	2958
+2958	6	2958
+2958	6	2958
+2957	6	2958
+2960	6	2958
+2972	6	2958
+
+
+************************
+
+************************
+Document:  CACM-1456.html
+************************
+
+
+Storage and Retrieval of Aspects of Meaning in Directed Graph Structures
+
+An experimental system that uses LISP to make
+a conceptual dictionary is described.  The dictionary 
+associates with each English word the syntactic information,
+definitional material, and references to 
+the contexts in which it has been used to define other words.
+ Such relations as class inclusion, possession, 
+and active or passive actions are used as definitional
+material.  The resulting structure serves as a 
+powerful vehicle for research on the logic of question answering.
+ Examples of methods of inputting information 
+and answering simple English questions are given.  An
+important conclusion is that, although LISP and 
+other list processing languages are ideally suited for
+producing complex associative structures, they 
+are inadequate vehicles for language processing on any
+large scale-at east until they can use auxiliary 
+memory as a continuous extension of core memory.
+
+CACM March, 1966
+
+Simmons, R. F.
+
+CA660316 JB March 3, 1978  11:25 AM
+
+1155	4	1456
+1456	4	1456
+1468	4	1456
+1515	4	1456
+1699	4	1456
+1856	4	1456
+2127	4	1456
+1324	5	1456
+1456	5	1456
+1456	5	1456
+1456	5	1456
+
+
+************************
+
+************************
+Document:  CACM-3031.html
+************************
+
+
+Abstract Data Types and Software Validation
+
+A data abstraction can be naturally specified
+using algebraic axioms.  The virtue of these 
+axioms is that they permit a representation-independent
+formal specification of a data type.  An example 
+is given which shows how to employ algebraic axioms at
+successive levels of implementation.  The  major 
+thrust of the paper is twofold.  First, it is shown how
+the use of algebraic axiomatizations can simplify 
+the process of proving the correctness of an implementation
+of an abstract data type.  Second, semi-automatic 
+tools are described which can be used both to automate
+such proofs of correctness and to derive an immediate 
+implementation from the axioms.  This implementation
+allows for limited testing of programs at design 
+time, before a conventional implementation is accomplished.
+
+CACM December, 1978
+
+Guttag, J.
+Horowitz, E.
+Musser, D.
+
+Abstract data type, correctness proof,
+data type, data structure, specification 
+
+4.34 5.24
+
+CA781208 DH January 18, 1979  2:51 PM   
+
+3030	4	3031
+3031	4	3031
+3031	4	3031
+3049	4	3031
+3105	4	3031
+3148	4	3031
+3150	4	3031
+2939	5	3031
+2958	5	3031
+3031	5	3031
+3031	5	3031
+3031	5	3031
+
+
+************************
+
+************************
+Document:  CACM-1623.html
+************************
+
+
+An Application of FORMAC
+
+A nonlinear circuit analysis problem is stated
+and the way in which it was solved using FORMAC 
+is indicated.  The solution of the problem using FORMAC
+was notable since several other methods that 
+were tried failed.  The problem is straightforward (although
+untenable by hand) but nevertheless involved 
+an elaborate use of the FORMAC language.  The program
+was fairly large and utilized practically every 
+command.  In particular, it made extensive use of the
+PART command.  Several tricks were necessary in 
+order to circumvent some of the shortcomings of the
+FORMAC system.  This paper is more concerned with 
+the use of programming techniques in FORMAC than with
+the actual engineering problem, although readers 
+may be interested in the problem because it is stated
+in a general (mathematical) sense and could be 
+of interest in areas other than circuit analysis.
+
+CACM March, 1967
+
+Neidleman, L. D.
+
+CA670306 JB February 28, 1978  1:27 PM
+
+1623	5	1623
+1623	5	1623
+1623	5	1623
+
+
+************************
+
+************************
+Document:  CACM-1698.html
+************************
+
+
+A Statistical Model for Console Behavior in Multiuser Computers
+
+The ability of a computer system to communicate
+with the outside world efficiently is as important 
+as its ability to perform computations efficiently. 
+It is quite difficult to characterize a particular 
+user, but rather easy to characterize the entire user community.
+ Based on the properties of this community 
+we have postulated a hypothetical "virtual console."
+ No claim is made that a virtual console behaves 
+like any actual console, but the entire collection of
+virtual consoles models the collection of actual 
+consoles.  Using the model we answer questions like: 
+How many processes are suspended waiting for console 
+input?  What is the maximum rate at which a process can
+execute?  What bounds can be set on overall buffer 
+requirements?  Answers to these and similar questions
+are needed in certain aspects of operating system 
+design.
+
+CACM September, 1968
+
+Denning, P. J.
+
+statistical models for input-output, operating
+system design, input-output design
+
+4.30 4.41 5.5
+
+CA680903 JB February 22, 1978  9:21 AM
+
+1458	4	1698
+1523	4	1698
+1603	4	1698
+1698	4	1698
+1747	4	1698
+1748	4	1698
+1854	4	1698
+1877	4	1698
+1960	4	1698
+2377	4	1698
+2378	4	1698
+2497	4	1698
+2558	4	1698
+2625	4	1698
+2632	4	1698
+2840	4	1698
+2941	4	1698
+3105	4	1698
+3144	4	1698
+1471	5	1698
+1698	5	1698
+1698	5	1698
+1698	5	1698
+
+
+************************
+

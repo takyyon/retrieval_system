@@ -56,6 +56,29 @@ class Common:
             filtered_queries.append(filtered_query)
         return filtered_queries
 
+    def process_test_queries(self):
+        test_query_path = 'files/test-collection/unprocessed-query.txt'
+        content = self.file_handling.read_file(test_query_path)
+        start = 0
+        queries = []
+        index = content.find('<DOC>', start)
+        while index != -1:
+            end_index = content.find('</DOC>', start)
+            temp_query = content[start + 5: end_index]
+            doc_no_index = temp_query.find('</DOCNO>')
+            query = temp_query[doc_no_index + 8:]
+            queries.append(' '.join(query.split()))
+            start = end_index + 6
+            index = content.find('<DOC>', start)
+        self.save_test_queries(queries)
+
+    def save_test_queries(self, queries):
+        test_query_path = 'files/test-collection/query.txt'
+        data = ''
+        for q in queries:
+            data += q + '\n'
+        self.file_handling.save_file(data, test_query_path)
+
     def get_document_lengths(self, stem_folder, folder):
         doc_length_file = self.get_doc_length_path(stem_folder, folder)
         lines = self.file_handling.read_file_lines(doc_length_file)

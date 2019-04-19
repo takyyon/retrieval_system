@@ -1,0 +1,206 @@
+Snippets for the query:  What does type compatibility mean in languages that allow programmer defined types? (You might want to restrict this to "extensible" languages that allow definition of abstract data types or programmer-supplied definitions of operators like *, +.)
+************************
+Total Hits:  3
+************************
+
+************************
+Document:  CACM-2958.html
+************************
+
+
+Abstract Data Types and the Development of Data Structures
+
+Abstract data types can play a significant role
+in the development of software that is reliable, 
+efficient, and flexible.  This paper presents and discusses
+the application of an algebraic technique 
+for the specification of abstract data types.  Among
+the examples presented is a top-down development 
+of a symbol table for a block structured language; a discussion
+of the proof of its correctness is given. 
+ The paper also contains a brief discussion of the problems
+involved in constructing algebraic specifications 
+that are both consistent and complete.
+
+CACM June, 1977
+
+Guttag, J.
+
+abstract data type, correctness proof, data type,
+data structure, specification, software specification
+
+4.34 5.24
+
+CA770605 JB December 29, 1977  1:17 AM
+
+2704	4	2958
+2738	4	2958
+2866	4	2958
+2869	4	2958
+2941	4	2958
+2958	4	2958
+3004	4	2958
+3030	4	2958
+2356	5	2958
+2958	5	2958
+2958	5	2958
+2958	5	2958
+3030	5	2958
+3031	5	2958
+3049	5	2958
+2247	6	2958
+2356	6	2958
+2457	6	2958
+2651	6	2958
+2939	6	2958
+2956	6	2958
+2958	6	2958
+2958	6	2958
+2958	6	2958
+2957	6	2958
+2960	6	2958
+2972	6	2958
+
+
+************************
+
+************************
+Document:  CACM-2940.html
+************************
+
+
+Abstraction and Verification in Alphard: Defining
+and Specifying Iteration and Generators
+
+The Alphard "form" provides the programmer with
+a great deal of control over the implementation 
+of abstract data types.  In this paper the abstraction techniques
+are extended from simple data representation 
+and function definition to the iteration statement, the
+most important poin t of interaction between data 
+and the control structure of the language itself.  A
+means of specializing Alphard's loops to operate 
+on abstract entities without explicit dependence on the
+representation of those entities is in troduced. 
+ Specification and verification techniques that allow
+the properties of the generators for such iterations 
+to be expressed in the form of proof rules are developed.
+ Results are obtained that for common special 
+cases of these loops are essentially identical to the
+corresponding constructs in other languages.  A 
+means of showing that a generator will terminate is also provided.
+
+CACM August, 1977
+
+Shaw, M.
+Wulf, W. A.
+
+abstraction and representation, abstract data types,
+assertions, control specialization, correctness, 
+generators,invariants, iteration statements, modular
+decomposition, program specifications, programming 
+languages, programming methodology, proofs of correctness, types, verification
+
+4.20 5.24
+
+CA770803 JB December 28, 1977  7:59 AM
+
+2940	5	2940
+2940	5	2940
+2940	5	2940
+3150	5	2940
+2060	6	2940
+2704	6	2940
+2842	6	2940
+2939	6	2940
+2940	6	2940
+2941	6	2940
+2943	6	2940
+3073	6	2940
+3148	6	2940
+
+
+************************
+
+************************
+Document:  CACM-3105.html
+************************
+
+
+A Language Extension for Expressing Constraints on Data Access
+
+Controlled sharing of information is needed and
+desirable for many applications and is supported 
+in operating systems by access control mechanisms.  This
+paper shows how to extend programming languages 
+to provide controlled sharing.  The extension permits
+expression of access constraints on shared data. 
+ Access constraints can apply both to simple objects, and
+to objects that are components of larger objects, 
+such as bank account records in a bank's data base.
+ The constraints are stated declaratively, and can 
+be enforced by static checking similar to type checking.
+ The approach can be used to extend any strongly-typed 
+language, but is particularly suitable for extending
+languages that support the notion of abstract data 
+types. 
+
+CACM May, 1978
+
+Jones, A.
+Liskov,B.
+
+Programming languages, access control, data types,
+abstract data types, type checking, capabilities
+
+4.20 4.35
+
+CA780502 DH February 26, 1979  3:19 PM
+
+1458	4	3105
+1523	4	3105
+1603	4	3105
+1698	4	3105
+1747	4	3105
+1748	4	3105
+1854	4	3105
+1877	4	3105
+1960	4	3105
+2377	4	3105
+2378	4	3105
+2497	4	3105
+2558	4	3105
+2625	4	3105
+2626	4	3105
+2632	4	3105
+2840	4	3105
+2868	4	3105
+2868	4	3105
+2870	4	3105
+2876	4	3105
+2941	4	3105
+3031	4	3105
+3105	4	3105
+3105	4	3105
+3105	4	3105
+3105	4	3105
+3105	4	3105
+3105	4	3105
+3144	4	3105
+3144	4	3105
+3144	4	3105
+3148	4	3105
+3150	4	3105
+1471	5	3105
+2625	5	3105
+2632	5	3105
+2868	5	3105
+2939	5	3105
+3068	5	3105
+3105	5	3105
+3105	5	3105
+3105	5	3105
+
+
+************************
+

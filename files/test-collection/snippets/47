@@ -1,0 +1,281 @@
+Snippets for the query:  The use of computer science principles (e.g. data structures, numerical methods) in generating optimization (e.g. linear programming) algorithms. This includes issues of the Khachian (Russian, ellipsoidal) algorithm and complexity of such algorithms.
+************************
+Total Hits:  6
+************************
+
+************************
+Document:  CACM-3103.html
+************************
+
+
+Automatic Data Structure Selection: An Example and Overview
+
+The use of several levels of abstraction has
+proved to be very helpful in constructing and 
+maintaining programs.  When programs are designed with abstract
+data types such as sets and lists, programmer 
+time can be saved by automating the process of filling
+in low-level implementation details.  In the past, 
+programming systems have provided only a single general
+purpose implementation for an abstract type. 
+ Thus the programs produced using abstract types were
+then inefficient in space or time.  In this paper 
+a system for automatically choosing efficient implementations
+for abstract types from a library of implementations 
+is discussed.  This process is discussed in detail for
+an example program.  General issues in data structure 
+selection are also reviewed. 
+
+CACM May, 1978
+
+Low, J.
+
+Abstract data types, automatic programming, data
+structures, optimizing compilers, sets, lists
+
+4.12 4.22 4.6
+
+CA780504 DH February 26, 1979  1:51 PM
+
+1957	4	3103
+2151	4	3103
+3103	4	3103
+3103	4	3103
+3148	4	3103
+1860	5	3103
+2877	5	3103
+3103	5	3103
+3103	5	3103
+3103	5	3103
+
+
+************************
+
+************************
+Document:  CACM-2308.html
+************************
+
+
+Computers and Urban Society
+
+This brief survey of the use of computers in
+urban society covers the broad range of activities 
+found in any city.  The future scope of applications is
+limited only by the imagination and inventiveness 
+of future system designers, programmers, analysts, and
+decision makers.  The computer can be, if properly 
+used, with respect for human dignity and civil liberty,
+a significant factor in improving the efficiency 
+of the urban process.  It is expected that the benefits
+of such computer usage will outweigh the costs 
+and that we may look forward to an expansion of such usage.
+
+CACM July, 1972
+
+Sturman, G. M.
+
+urban systems, urban applications, data acquisition,
+data management, engineering analysis, information 
+systems
+
+3.23 3.39 3.53 3.72 3.82 3.89
+
+CA720720 JB January 30, 1978  11:05 AM
+
+2308	5	2308
+2308	5	2308
+2308	5	2308
+
+
+************************
+
+************************
+Document:  CACM-2310.html
+************************
+
+
+Language Analysis in the Humanities
+
+The use of the computer in the language-oriented
+humanities for exhaustive listing of detail 
+(as in indices and concordances) is widespread and accepted
+as desirable.  The implications of the computer 
+for a "science" of the humanities-a science entailing
+gathering data for the construction and testing 
+of models-are neither widely recognized nor accepted.
+ This paper argues that the computer's  major role 
+as to language analysis in the humanities will be the
+establishing of such a sciencehus, for those 
+areas of the humanities for which rigor and precision
+are necessary (e.g. analyzing literature or teaching 
+a student to write a composition) the computer
+can be a critically important facilitator.
+
+CACM July, 1972
+
+Sedelow, S. Y.
+
+language analysis, humanities, science of the humanities,
+pattern recognition, pattern generation, 
+interdisciplinary cooperation
+
+1.3 2.19 3.42 3.43
+
+CA720718 JB January 30, 1978  11:19 AM
+
+2127	4	2310
+2309	4	2310
+2310	4	2310
+2396	4	2310
+1856	5	2310
+2310	5	2310
+2310	5	2310
+2310	5	2310
+
+
+************************
+
+************************
+Document:  CACM-2899.html
+************************
+
+
+A Survey of Computer Science Offerings In Small Liberal Arts Colleges.
+
+Recent curricular development in computer science
+together with student in terest in pursuing 
+topics in computer science beyond the usual programming
+courses have encouraged small liberal arts colleges 
+to expand their offerings.  This paper summarizes the
+results of a survey taken to determine the type 
+of computer science programs being offered in these
+colleges.  The results indicate that over half of 
+these colleges either have no computer science
+program or offer only programming courses.
+
+CACM December, 1977
+
+Lopez, A. A.
+Raymond, R.
+Tardiff, R.
+
+computer science, education, curricula, small colleges
+
+1.5
+
+CA771201 JB December 22, 1977  5:53 PM
+
+1720	4	2899
+1927	4	2899
+2147	4	2899
+2163	4	2899
+2345	4	2899
+2478	4	2899
+2594	4	2899
+2852	4	2899
+2899	4	2899
+2899	4	2899
+3003	4	2899
+3130	4	2899
+1771	5	2899
+2538	5	2899
+2899	5	2899
+2899	5	2899
+2899	5	2899
+
+
+************************
+
+************************
+Document:  CACM-2812.html
+************************
+
+
+Computer-Aided Analysis and Design of Information Systems
+
+This paper describes the use of computer-aided
+analysis for the design and development of an 
+integrated financial management system by the Navy Material
+Command Support Activity (NMCSA).  Computer-aided 
+analysis consists of a set of procedures and computer
+programs specifically designed to aid in the process 
+of applications software design, computer selection
+and performance evaluation.  There are four major 
+components: Problem Statement Language, Problem Statement
+Analyzer, Generator of Alternative Designs, 
+and Performance Evaluator. The statement of requirements
+was written in ADS (Accurately Defined Systems) 
+and analyzed by a Problem Statement Analyzer for ADS.
+ The ADS problem definition was supplemented with 
+additional information in order to create a complete
+problem definition.  The analyzed problem statement 
+was translated to the form necessary for use by the
+SODA (Systems Optimization and Design Algorithm)
+program for the generation of alternative specifications
+of program modules and logical database structures.
+
+CACM December, 1976
+
+Nunamaker, J. F. Jr.
+Konsynski, B. R. Jr.
+Ho, T.
+Singer, C.
+
+computer-aided analysis, information systems, logical
+system design, problem statement language, 
+problem statement analyzer, physical system design,
+accurately defined systems, systems optimization 
+and design algorithm
+
+2.44 3.50 4.33 4.9 8.1
+
+CA761203 JB January 3, 1978  2:31 PM
+
+2812	5	2812
+2812	5	2812
+2812	5	2812
+
+
+************************
+
+************************
+Document:  CACM-1654.html
+************************
+
+
+A University's Educational Program in Computer Science
+
+After a review of the power of contemporary computers,
+computer science is defined in several 
+ways.  The objectives of computer science education are
+stated, and it is asserted that in a North American 
+university these will be achieved only through a computer
+science department.  The program at Stanford 
+University is reviewed as an example.  The appendices
+include syllabic of Ph. qualifying examinations 
+for Stanford's Computer Science Department.
+
+CACM January, 1967
+
+Forsythe, G. E.
+
+CA670101 JB March 1, 1978  9:13 AM
+
+1413	4	1654
+1654	4	1654
+1771	4	1654
+2478	4	1654
+1205	5	1654
+1654	5	1654
+1654	5	1654
+1654	5	1654
+1720	5	1654
+1771	5	1654
+1205	6	1654
+1654	6	1654
+1654	6	1654
+1771	6	1654
+
+
+************************
+

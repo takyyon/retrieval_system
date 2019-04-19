@@ -1,0 +1,403 @@
+Snippets for the query:  I'd like to find articles describing the use of singular value decomposition in digital image processing. Applications include finding approximations to the original image and restoring images that are subject to noise. An article on the subject is H. Andrews and C. Patterson "Outer product expansions and their uses in digital image processing", American Mathematical Andrews, H. Patterson, C.
+************************
+Total Hits:  9
+************************
+
+************************
+Document:  CACM-2402.html
+************************
+
+
+Pictorial Pattern Recognition and the
+Phase Problem of X-ray Crystallography
+
+The availability of interactive, three-dimensional,
+computer graphics systems coupled to powerful 
+digital computers encourages the development of algorithms
+adapted to this environment.  Pictorial pattern 
+recognition techniques make possible a number of approaches
+to X-ray structure determination based on 
+molecular model building, i.e. the use of chemical information
+to frame "structural hypotheses" which 
+can computationally be tested and refined by reference
+to the experimental data.  Application of standard 
+pattern recognition algorithms is hindered by the fact
+that the cross-correlation between a model and 
+the correct structure cannot be computed because of
+a fundamental incompleteness in the measured data. 
+ However, it is possible to compute an upper bound to such
+a cross-correlation.  A simple example demonstrates 
+that this information can be the basis of a technique
+for structure determination that can make effective 
+use of an interactive graphics system. Model building
+by cross-correlations has intrinsic advantages 
+over usual crystallographic techniques based on the
+autocorrelation or Patterson function, especially 
+for large structures.  This is significant, for crystallography
+of biological macromolecules hasbeen 
+and will continue to be a field of intense interest.
+
+CACM January, 1972
+
+Lesk, A. M.
+
+pictorial pattern recognition, phase problem,
+X-ray crystallography, interactive graphics
+
+3.13 3.17 3.63
+
+CA720101 JB February 1, 1978  9:53 AM
+
+2402	5	2402
+2402	5	2402
+2402	5	2402
+
+
+************************
+
+************************
+Document:  CACM-2484.html
+************************
+
+
+A Note on Information Organization and Storage
+
+Since the logical structure of a data base
+can be represented by a tree or graph, it is quite 
+natural for us to view the process of designing a data
+base as that of constructing a tree or a graph. 
+ A general method for constructing such a tree or a graph
+is provided.  There are three important elements 
+in this general construction method; namely, a set of
+binary relations, an algorithm for constructing 
+subsets of a set, and an algorithm for selecting an
+element from the given set of objects.  The use of 
+different relations and algorithms results in different
+information structures, as list, tree, ring, 
+etc.  Thus the problem of information organization and
+storage is reduced to that of defining relations 
+and formulating algorithms under a given set of constraints.
+ The results presented may be valuable to 
+designers as useful design concepts, and may serve as
+a basis for developing a formal theory on the subject.
+
+CACM July, 1973
+
+Huang, J. C.
+
+data base, data-base management, information retrieval,
+information structure, file organization, 
+storage allocation, tree, graph
+
+3.70 3.73 3.74 5.32
+
+CA730702 JB January 23, 1978  1:14 PM
+
+2484	5	2484
+2484	5	2484
+2484	5	2484
+
+
+************************
+
+************************
+Document:  CACM-1272.html
+************************
+
+
+Expanding the Editing Function In Language Data Processing
+
+In automatic abstracting, citation indexing,
+mechanical translation and other such procedures, 
+editing is required whenever the automatic method leaves
+something to be desired.  This paper discusses 
+the economy of editing as a function of the amount of condensation
+of text in language processing operations, 
+and then contends that editing can be regarded as an
+opportunity rather than as an unwelcome necessity. 
+ "Heavy editing," which goes beyond mere correction
+and improvement of computer output, is exemplified 
+by the use of a concordance in preparing a survey article
+or lecture.  Other opportunities for heavy 
+editing are described, chief among them being interpretation and
+expansion of computer output in such 
+processes as factor analysis.  Applications are described,
+such processes as factor analysis.  Applications 
+are described, such as the quick, unbiased evaluation
+of a large volume of incoming mail or telegrams, 
+yielding summary reports not possible for either
+humans or computers to produce alone.
+
+CACM April, 1965
+
+Doule, L. B.
+
+CA650419 JB March 7, 1978  3:26 PM
+
+1272	5	1272
+1272	5	1272
+1272	5	1272
+
+
+************************
+
+************************
+Document:  CACM-0595.html
+************************
+
+
+Guides to Teaching COBOL
+
+The teaching of COBOL can be divided into
+three main subject areas.  They are the syntax of 
+COBOL, the use of such syntax in solving any given problem,
+and programming concepts.  It is generally 
+accepted that some knowledge of the hardware and computer
+logic must be possessed by the programmer. 
+ The teaching problem arises in determining how thoroughly
+a student must know the hardware and logic 
+for that computer for which he will write COBOL programs.
+ Unfortunately, historical data concerning 
+students' programming proficiency is almost non-existent
+and, at best, difficult to measure.  How then 
+might we approach solving this problem?
+
+CACM May, 1962
+
+Greene, I.
+
+CA620510 JB March 20, 1978  1:44 PM
+
+595	5	595
+595	5	595
+595	5	595
+
+
+************************
+
+************************
+Document:  CACM-3013.html
+************************
+
+
+Some New Methods of Detecting Step Edges in Digital Pictures
+
+This note describes two operators that respond
+to step edges, but not to ramps.  The first 
+is similar to the digital Laplacian, but uses the max, rather
+than the sum, of the x and y second differences. 
+ The second uses the difference between the mean and
+median gray levels in a neighborhood.  The outputs 
+obtained from these operators applied to a set of test
+pictures are compared with each other and with 
+the standard digital Laplacian and gradient.  A third
+operator, which uses the distance between the center 
+and centroid of a neighborhood as an edge value, is also
+briefly considered; it turns out to be equivalent 
+to one of the standard digital approximations to the gradient.
+
+CACM February,1978
+
+Schachter, B.
+Rosenfeld, A.
+
+image processing, pattern recognition, edge detection
+
+3.63
+
+CA780210 JB March 28, 1978  1:56 PM
+
+3013	5	3013
+3013	5	3013
+3013	5	3013
+
+
+************************
+
+************************
+Document:  CACM-2275.html
+************************
+
+
+Integral Equations of Immunology
+
+The inversion of a particular integral equation
+of the first (Fredholm) kind is the basic problem 
+considered.  The strategy which yielded success consisted
+of three essential points: (1) fit the known 
+experimental data by a curve with properties which derive
+from properties of the (as yet unknown) function; 
+(2) stabilize the computation for the unknown function
+by using singular value decomposition; (3) constrain 
+the unknown function approximation (since it represents
+a probability distribution) to be nonnegative. 
+ A number of test cases are presented. One set of actual
+experimental data is analyzed with the procedures 
+presented.
+
+CACM October, 1972
+
+Hanson, R. J.
+
+integral equations of the first kind, nonnegative
+constraints, singular value analysis
+
+3.10 5.14 5.18 5.41
+
+CA721003 JB January 27, 1978  3:37 PM
+
+2275	5	2275
+2275	5	2275
+2275	5	2275
+
+
+************************
+
+************************
+Document:  CACM-2130.html
+************************
+
+
+Automatic Segmentation of Cyclic Program Structures
+Based on Connectivity and Processor Timing
+
+Time-shared, multiprogrammed, and overlayed batch systems frequently
+require segmentation of computer programs into discrete portions.  
+These program portions are transferred between executable and
+peripheral storage whenever necessary; segmentation of program
+s in a manner that  reduces the frequency of such transfers is the
+subject of this paper.  Segmentation techniques proposed by C. V.
+Ramamoorthy are subject to limitations that arise when the preferred
+segment size is not compatible with the physical restrictions
+imposed by the available computing equipment.  A generalization of
+Ramamoorthy's suggestions is made in order to allow their application 
+when circumstances are other than ideal.
+
+CACM January, 1970
+
+Lowe, T. C.
+
+automatic segmentation, cyclic program structures, loops, paging, 
+multiprogramming, loaders, assemblers, compilers, time-sharing, program 
+connectivity
+
+4.19 5.24 5.32
+
+CA700101 JB February 14, 1978, 2:20 PM
+
+2130	4	2130
+1916	5	2130
+2130	5	2130
+2130	5	2130
+2130	5	2130
+2582	5	2130
+1751	6	2130
+1924	6	2130
+2017	6	2130
+2130	6	2130
+
+
+************************
+
+************************
+Document:  CACM-1381.html
+************************
+
+
+Impact of Computers on the Undergraduate Mathematics Curriculum 
+
+The use of computers to permit the widespread application
+of mathematical ideas requiring computation 
+in science and technology is extremely significant for
+the understanding of our current society.  Student 
+interest in this development is intense and if properly
+utilized should yield a much better understanding 
+of mathematical concepts as well as the ideas of programming
+and logical structure which have been introduced 
+into many fields by the use of computers.  The present
+paper suggests that that portion of the undergraduate 
+mathematical curriculum which is preparation for the use
+of mathematics by persons who are not professional 
+mathematicians be modified to include the extensions
+and clarifications which are possible because of 
+computers.  An early introduction to programming is
+desirable to permit a continuing use of automatic 
+computation to illustrate and clarify mathematical concepts.
+ Following the calculus equation stage an 
+intensive introduction to numerical analysis should
+be added to the current curriculum.  In addition 
+to providing competence in the mostly used computing
+techniques, it would permit a more sophisticated 
+utilization of the advanced mathematical ideas associated
+with complex variables and transform theories.
+
+CACM September, 1966
+
+Murray, F. J.
+
+CA660905 JB March 2, 1978  6:31 PM  
+
+1381	5	1381
+1381	5	1381
+1381	5	1381
+
+
+************************
+
+************************
+Document:  CACM-1543.html
+************************
+
+
+Computer Formulation of the Equations of Motion Using Tensor Notation
+
+A means is described for extending the area
+of application of digital computers beyond the 
+numerical data processing stage and reducing the need for
+human participation in the formulation of certain 
+types of computer problems.  By the use of tensor calculus
+and a computer language designed to facilitate 
+symbolic mathematical computation, a method has been
+devised whereby a digital computer can be used to 
+do non-numeric work, that is, symbolic algebraic manipulation
+and differentiation. To illustrate the 
+techniques involved, a digital computer has been used
+to derive the equations of motion of a point mass 
+in a general orthogonal curvilinear coordinate system.
+ Since this operation involves a formulation in 
+terms of first- and second-order differential coefficients,
+it provides a good demonstration of a computer's 
+capability to do non-numeric work and to assist in the
+formulation process which normally precedes the 
+numerical data processing stage.  Moreover, this particular
+problem serves to illustrate the advantages 
+of the mathematical techniques employed.  With the program
+prepared for this purpose the computer will 
+derive the equations of motion in any coordinate system
+requested by the user.   Results are presented 
+for the following coordinate systems: cylindrical
+polar, spherical polar, and prolate spheroidal.
+
+CACM September, 1967
+
+Howard, J. C.
+
+CA670903 JB February 27, 1978  3:58 PM
+
+1543	4	1543
+1543	4	1543
+1664	4	1543
+1664	4	1543
+1345	5	1543
+1543	5	1543
+1543	5	1543
+1543	5	1543
+1616	5	1543
+1664	5	1543
+1345	6	1543
+1543	6	1543
+1616	6	1543
+
+
+************************
+
