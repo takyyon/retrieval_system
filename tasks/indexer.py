@@ -65,6 +65,7 @@ class Indexer:
         while i < len(lines):
             data = lines[i].split()
             term = data[0]
+            indexer[term] = {}
             doc_freq = int(data[1])
             i += 1
             for j in range(doc_freq):
@@ -83,6 +84,7 @@ class Indexer:
         while i < len(lines):
             data = lines[i].split()
             term = data[0]
+            indexer[term] = {}
             doc_freq = int(data[1])
             i += 1
             for j in range(doc_freq):
