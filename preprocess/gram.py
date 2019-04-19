@@ -10,6 +10,10 @@ class Gram:
         self.utility = Utility()
         self.file_handling = FileHandling()
         self.common = Common()
+        self.stopwords = {}
+
+    def set_stopwords(self, stopwords):
+        self.stopwords = stopwords
 
     def get_ngrams_formatted(self, ngrams):
         data = ''
@@ -27,6 +31,7 @@ class Gram:
         for d in docs:
             print('\nReading ' + d + '...')
             content = self.file_handling.read_file(content_path + d)
+            content = self.common.filter_stopwords(self.stopwords, content)
             ngrams = self.utility.get_and_process_ngrams(content, gram)
             data = self.get_ngrams_formatted(ngrams)
             print('Saving ' + str(gram) + '-grams...')
