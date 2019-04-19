@@ -1,4 +1,5 @@
 from extras import * 
+from tasks import Common
 
 class Gram:
 
@@ -8,6 +9,7 @@ class Gram:
         """
         self.utility = Utility()
         self.file_handling = FileHandling()
+        self.common = Common()
 
     def get_ngrams_formatted(self, ngrams):
         data = ''
@@ -16,8 +18,8 @@ class Gram:
         return data
 
     def generate_n_grams(self, folder, gram = 1):
-        content_path = 'files/' + folder + '/document-content/'
-        gram_path = 'files/' + folder + '/gram_' + str(gram) +'/'
+        content_path = 'files/' + folder + '/' + self.stem_folder + 'document-content/'
+        gram_path = self.common.get_ngram_path(self.stem_folder, gram, folder) + '/'
         docs = self.file_handling.get_all_files(content_path)
         print('\n' + self.utility.line_break + '\n' +\
             'Processing the document content to create ' + str(gram) + '-grams.' +\
@@ -30,7 +32,8 @@ class Gram:
             print('Saving ' + str(gram) + '-grams...')
             self.file_handling.save_file(data, gram_path + d)
 
-    def run(self, folder = 'test-collection', grams = [1]):
+    def run(self, stem = False, folder = 'test-collection', grams = [1]):
+        self.stem_folder = 'stem-' if stem else ''
         for g in grams:
             self.generate_n_grams(folder, g)
 

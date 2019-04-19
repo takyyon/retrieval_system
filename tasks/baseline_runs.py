@@ -39,16 +39,15 @@ class Baseline_Runs:
         return bm25
 
     def run_bm25(self, queries, folder='test-collection'):
-        bm25_path = 'files/' + folder + '/bm25/'
-        doc_length = self.common.get_document_lengths(folder)
+        bm25_path = self.common.get_score_path(self.stem_folder, 'bm25', folder) + '/'
+        doc_length = self.common.get_document_lengths(self.stem_folder, folder)
         total_doc_length = self.common.get_total_document_length(doc_length)
-        unigram_path = 'files/' + folder + '/gram_1'
+        unigram_path = self.common.get_ngram_path(self.stem_folder, 1, folder)
         docs = self.file_handling.get_all_files(unigram_path)
-        index = self.indexer.read_simple_index(folder)
-
+        index = self.indexer.read_index(folder)
         print('\n' + self.utility.line_break + '\n' +\
             'Processing unigrams index and running BM25...' +\
-                'Processed data is available under ' + bm25_path)
+                '\nProcessed data is available under ' + bm25_path)
         for i in range(len(queries)):
             q = queries[i].lower().strip()
             bm25 = {}
@@ -84,7 +83,10 @@ class Baseline_Runs:
             for d in docs:
                 if q in index and d in index[q]:
                     total += 1.0
-            prob.append(total/total_docs)
+            if total_docs == 0:
+                prob.append(0.0)
+            else:
+                prob.append(total/total_docs)
         return prob
 
     def run_binary_independence_model_for_query_and_document(self, index, doc, query,\
@@ -99,13 +101,13 @@ class Baseline_Runs:
 
     # https://web.cs.dal.ca/~anwar/ir/lecturenotes/l4.pdf
     def run_binary_independence_model(self, queries, folder='test-collection'):
-        bim_path = 'files/' + folder + '/binary_independence_model/'
-        unigram_path = 'files/' + folder + '/gram_1'
+        bim_path = self.common.get_score_path(self.stem_folder, 'binary-independence', folder) + '/'
+        unigram_path = self.common.get_ngram_path(self.stem_folder, 1, folder)
         docs = self.file_handling.get_all_files(unigram_path)
-        index = self.indexer.read_simple_index(folder)
+        index = self.indexer.read_index(folder)
         print('\n' + self.utility.line_break + '\n' +\
             'Processing unigrams index and running Binary Independence Model.' +\
-                'Processed data is available under ' + bim_path)
+                '\nProcessed data is available under ' + bim_path)
         for i in range(len(queries)):
             q = queries[i].lower().strip()
             relevant_docs, non_relevant_docs = self.get_docs_by_relevancy(index, docs, q)
@@ -135,14 +137,14 @@ class Baseline_Runs:
 
     # http://www.tfidf.com/
     def run_tf_idf(self, queries, folder='test-collection'):
-        tf_idf_path = 'files/' + folder + '/tf_idf/'
-        unigram_path = 'files/' + folder + '/gram_1'
+        tf_idf_path = self.common.get_score_path(self.stem_folder, 'tf-idf', folder) + '/'
+        unigram_path = self.common.get_ngram_path(self.stem_folder, 1, folder)
         docs = self.file_handling.get_all_files(unigram_path)
-        doc_length = self.common.get_document_lengths(folder)
-        index = self.indexer.read_simple_index(folder)
+        doc_length = self.common.get_document_lengths(self.stem_folder, folder)
+        index = self.indexer.read_index(folder)
         print('\n' + self.utility.line_break + '\n' +\
             'Processing unigrams index and running TF-IDF Model.' +\
-                'Processed data is available under ' + tf_idf_path)
+                '\nProcessed data is available under ' + tf_idf_path)
         for i in range(len(queries)):
             q = queries[i].lower().strip()
             tf_idf = {}
@@ -157,9 +159,10 @@ class Baseline_Runs:
             data += id + '  Q0  ' + str(score[0]) + '  ' + str(score[1]) + '  ' + score_type + '\n'
         self.file_handling.save_file(data, filename)
 
-    def read_top_documents_for_score(self, folder='test-collection', query_index = 0,\
+    def read_top_documents_for_score(self, stem = False, folder='test-collection', query_index = 0,\
         top = 100, score='bm25'):
-        model_file_path = 'files/' + folder + '/' + score + '/' + query_index
+        self.stem_folder = 'stem-' if stem else ''
+        model_file_path = self.common.get_score_path(self.stem_folder, score, folder) + '/' + query_index
         lines = self.file_handling.read_file_lines(model_file_path)
         top_docs = []
         i = 0
@@ -171,8 +174,9 @@ class Baseline_Runs:
             i += 1
         return top_docs
 
-    def run(self, folder='test-collection'):
-        queries = self.common.get_queries(folder)
-        # self.run_bm25(queries, folder)
-        # self.run_tf_idf(queries, folder)
+    def run(self, stem= False, folder= 'test-collection'):
+        self.stem_folder = 'stem-' if stem else ''
+        queries = self.common.get_queries(stem, folder)
+        self.run_bm25(queries, folder)
+        self.run_tf_idf(queries, folder)
         self.run_binary_independence_model(queries, folder)
