@@ -26,9 +26,11 @@ class Common:
     def get_ngram_path(self, stem_folder, gram, folder):
         return 'files/' + folder + '/' + stem_folder + 'gram-' + str(gram)
 
-    def get_indexer_path(self, stem_folder, type, gram, folder):
-        indexer = 'positional' if type else 'simple'
-        return 'files/' + folder + '/' + stem_folder  + indexer + '-index/' + 'gram_' + str(gram)
+    def get_indexer_path(self, stem_folder, index_type, relevant_docs, gram, folder):
+        relevant = 'relevant-' if relevant_docs else ''
+        indexer = 'positional' if index_type else 'simple'
+        return 'files/' + folder + '/' + stem_folder  +\
+            relevant + indexer + '-index/' + 'gram_' + str(gram)
 
     def get_stopwords(self, folder='test-collection'):
         common_words_path = 'files/' + folder + '/common_words'
