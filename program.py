@@ -10,6 +10,7 @@ class Program:
         self.indexer = Indexer()
         self.baseline_runs = Baseline_Runs()
         self.common = Common()
+        self.query_highlight = Query_Highlight()
 
     def run(self):
         # self.crawler.process_stem_documents()
@@ -21,8 +22,8 @@ class Program:
         # self.indexer.read_index()
         # self.indexer.read_index('test-collection', True)
         # self.baseline_runs.run(True)
-
-        stopwords = self.get_stopwords()
+        # stopwords = self.common.get_stopwords()
+        self.query_highlight.highlight_queries()        
 
 program = Program()
 program.run()

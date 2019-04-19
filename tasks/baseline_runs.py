@@ -162,7 +162,7 @@ class Baseline_Runs:
     def read_top_documents_for_score(self, stem = False, folder='test-collection', query_index = 0,\
         top = 100, score='bm25'):
         self.stem_folder = 'stem-' if stem else ''
-        model_file_path = self.common.get_score_path(self.stem_folder, score, folder) + '/' + query_index
+        model_file_path = self.common.get_score_path(self.stem_folder, score, folder) + '/' + str(query_index)
         lines = self.file_handling.read_file_lines(model_file_path)
         top_docs = []
         i = 0
