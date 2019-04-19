@@ -1,4 +1,5 @@
 from extras import * 
+from common import Common
 
 class Indexer:
 
@@ -8,7 +9,7 @@ class Indexer:
         """
         self.utility = Utility()
         self.file_handling = FileHandling()
-
+        self.common = Common()
 
     def update_index(self, grams, doc):
         for i in range(len(grams)):
@@ -30,7 +31,7 @@ class Indexer:
             self.indexer = {}
             print('\n' + self.utility.line_break + '\n' +\
             'Processing the ' + str(gram) + '-grams to create a index.')
-            ngram_path = 'files/' + folder + '/gram_' + str(gram) + '/'
+            ngram_path = self.common.get_ngram_path(self.stem_folder, gram, folder) + '/'
             docs = self.file_handling.get_all_files(ngram_path)
             for d in docs:
                 print('Updating the index with ' + d + '...')
@@ -41,8 +42,8 @@ class Indexer:
 
 
     def save_index(self, folder, gram, positional = False):
-        indexer_file = 'files/' + folder +\
-            ('/positional_index' if positional else '/simple_index') + '/gram_' + str(gram)
+        indexer_file = self.common.get_indexer_path(self.stem_folder,\
+            True if positional else False, gram, folder)
         print('\n' + self.utility.line_break + '\n' +\
             'Saving ' + ('positional' if positional else 'simple') + ' index..' + '\n' +\
             'Processed data is available under ' + indexer_file)
@@ -56,7 +57,7 @@ class Indexer:
         self.file_handling.save_file(data, indexer_file)
 
     def read_simple_index(self, folder='test-collection', gram=1):
-        indexer_file = 'files/' + folder + '/simple_index/gram_' + str(gram)
+        indexer_file = self.common.get_indexer_path(self.stem_folder, False, gram, folder)
         print('\n' + self.utility.line_break + '\n' +\
             'Reading simple index from ' + indexer_file)
         lines = self.file_handling.read_file_lines(indexer_file)
@@ -75,7 +76,7 @@ class Indexer:
         return indexer
 
     def read_positional_index(self, folder='test-collection', gram=1):
-        indexer_file = 'files/' + folder + '/positional_index/gram_' + str(gram)
+        indexer_file = self.common.get_indexer_path(self.stem_folder, True, gram, folder)
         print('\n' + self.utility.line_break + '\n' +\
             'Reading positional index from ' + indexer_file)
         lines = self.file_handling.read_file_lines(indexer_file)
@@ -95,5 +96,12 @@ class Indexer:
                 i += 1
         return indexer
 
-    def run(self, folder='test-collection', grams=[1]):
+    def read_index(self, folder='test-collection', type=False, stem=False, gram=1):
+        self.stem_folder = 'stem-' if stem else ''
+        if type:
+            return self.read_positional_index(folder, gram)
+        return self.read_simple_index(folder, gram)
+
+    def run(self, stem= False, folder='test-collection', grams=[1]):
+        self.stem_folder = 'stem-' if stem else ''
         self.create_save_indexer(folder, grams)

@@ -1,4 +1,5 @@
 from extras import * 
+from tasks import Common
 from time import sleep
 
 class Crawler:
@@ -9,6 +10,7 @@ class Crawler:
         """
         self.utility = Utility()
         self.file_handling = FileHandling()
+        self.common = Common()
 
     def save_document_content(self, folder, tag = 'pre'):
         content_path = 'files/' + folder + '/document-content/'
@@ -47,9 +49,10 @@ class Crawler:
             self.file_handling.save_file(html, raw_html_path + header)
             sleep(1)
 
-    def save_doc_length(self, folder='test-collection'):
-        gram_path = 'files/' + folder + '/gram_1/'
-        doc_length_file = 'files/' + folder + '/doc_length'
+    def save_doc_length(self, stem=False, folder='test-collection'):
+        self.stem_folder = 'stem-' if stem else ''
+        gram_path = self.common.get_ngram_path(self.stem_folder, 1, folder) + '/'
+        doc_length_file = self.common.get_doc_length_path(self.stem_folder, folder)
         docs = self.file_handling.get_all_files(gram_path)
         data = ''
         print('\n' + self.utility.line_break + '\n' +\
@@ -59,6 +62,32 @@ class Crawler:
             doc_length = len(unigrams)
             data += d + ' ' + str(doc_length) + '\n'
         self.file_handling.save_file(data, doc_length_file)
+
+    def process_stem_documents(self, folder='test-collection'):
+        stem_content_path = 'files/' + folder + '/stem-document-content/'
+        stem_doc_path = 'files/' + folder + '/stem.txt'
+        print('\n' + self.utility.line_break + '\n' +\
+            'Processing the stem text file. Saving each document\'s text separately.' +\
+                'Processed data is available under ' + stem_content_path)
+        lines = self.file_handling.read_file_lines(stem_doc_path)
+        i = 0
+        while i < len(lines):
+            l = lines[i].split()
+            if l[0] == '#' and l[1].isdigit():
+                doc_id = 'DOC-' + l[1]
+                print('Saving ' + doc_id + '...')
+                i += 1
+                data = ''
+                while True and i < len(lines):
+                    l = lines[i].split()
+                    if l[0] == '#' and l[1].isdigit():
+                        break
+                    i += 1
+                    line_data = ''.join(l)
+                    if line_data.isdigit():
+                        continue
+                    data += ' '.join(l) + ' '
+                self.file_handling.save_file(data, stem_content_path + doc_id)
 
     def run(self, folder='test-collection', urls=[]):
         self.file_handling.create_folder('files/' + folder)

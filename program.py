@@ -11,12 +11,15 @@ class Program:
         self.baseline_runs = Baseline_Runs()
 
     def run(self):
+        # self.crawler.process_stem_documents()
         # self.crawler.run()
-        # self.gram.run()
-        # self.indexer.run()
-        # self.indexer.read_positional_index()
+        # self.gram.run(True)
         # self.crawler.save_doc_length()
-        self.baseline_runs.run()
+        # self.crawler.save_doc_length(True)
+        # self.indexer.run(True)
+        # self.indexer.read_index()
+        # self.indexer.read_index('test-collection', True)
+        self.baseline_runs.run(True)
 
 program = Program()
 program.run()
