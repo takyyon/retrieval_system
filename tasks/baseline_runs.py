@@ -15,7 +15,7 @@ class Baseline_Runs:
         self.file_handling = FileHandling()
         self.common = Common()
         self.indexer = Indexer()
-        self.query_expansion = Query_Expansion()
+        self.query_expansion_object = Query_Expansion()
 
     def run_bm25_for_query_and_document(self, query, doc, total_doc_length, doc_length, total_docs, index):
         k1 = 1.2
@@ -41,7 +41,8 @@ class Baseline_Runs:
         return bm25
 
     def run_bm25(self, queries, folder='test-collection'):
-        bm25_path = self.common.get_score_path(self.stem_folder, 'bm25', folder, self.filter_queries) + '/'
+        bm25_path = self.common.get_score_path(self.stem_folder, 'bm25', folder,\
+            self.filter_queries, self.query_expansion) + '/'
         doc_length = self.common.get_document_lengths(self.stem_folder, folder)
         total_doc_length = self.common.get_total_document_length(doc_length)
         unigram_path = self.common.get_ngram_path(self.stem_folder, 1, folder)
@@ -103,7 +104,8 @@ class Baseline_Runs:
 
     # https://web.cs.dal.ca/~anwar/ir/lecturenotes/l4.pdf
     def run_binary_independence_model(self, queries, folder='test-collection'):
-        bim_path = self.common.get_score_path(self.stem_folder, 'binary-independence', folder, self.filter_queries) + '/'
+        bim_path = self.common.get_score_path(self.stem_folder, 'binary-independence', folder,\
+            self.filter_queries, self.query_expansion) + '/'
         unigram_path = self.common.get_ngram_path(self.stem_folder, 1, folder)
         docs = self.file_handling.get_all_files(unigram_path)
         index = self.indexer.read_index(folder)
@@ -139,7 +141,8 @@ class Baseline_Runs:
 
     # http://www.tfidf.com/
     def run_tf_idf(self, queries, folder='test-collection'):
-        tf_idf_path = self.common.get_score_path(self.stem_folder, 'tf-idf', folder, self.filter_queries) + '/'
+        tf_idf_path = self.common.get_score_path(self.stem_folder, 'tf-idf', folder,\
+            self.filter_queries, self.query_expansion) + '/'
         unigram_path = self.common.get_ngram_path(self.stem_folder, 1, folder)
         docs = self.file_handling.get_all_files(unigram_path)
         doc_length = self.common.get_document_lengths(self.stem_folder, folder)
@@ -188,9 +191,9 @@ class Baseline_Runs:
         self.query_expansion = query_expansion
         queries = self.common.get_queries(stem, folder)
         
-        if query_expansion in not None:
+        if query_expansion is not None:
             if query_expansion:
-                queries = self.query_expansion.expand_queries_using_stemming(queries[:])
+                queries = self.query_expansion_object.expand_queries_using_stemming(queries[:])
                 # query stemming expansion
 
         if self.filter_queries:
