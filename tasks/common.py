@@ -9,6 +9,9 @@ class Common:
         self.file_handling = FileHandling()
         self.top_doc_count = 100
 
+    def get_suggested_query_path(self, folder):
+        return 'files/' + folder + '/query_suggestions'
+
     def get_evaluation_path(self, stem_folder, folder):
         return 'files/' + folder + '/' + stem_folder + 'evaluation'
 

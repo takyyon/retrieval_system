@@ -13,6 +13,7 @@ class Program:
         self.query_highlight = Query_Highlight()
         self.evaluation = Evaluation()
         self.query_expansion = Query_Expansion()
+        self.spell_checker = Spell_Checker()
 
     def run(self):
         # self.crawler.process_stem_documents()
@@ -30,7 +31,8 @@ class Program:
         # self.query_highlight.highlight_queries('binary-independence') 
         # queries = self.common.process_test_queries()
         # self.evaluation.run()
-        self.baseline_runs.run(query_expansion=True)
+        # self.baseline_runs.run(query_expansion=True)
+        self.spell_checker.run(queries=['portabe comptrs', 'preervd desriptoy'])
 
 program = Program()
 program.run()
