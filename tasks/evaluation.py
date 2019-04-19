@@ -19,7 +19,8 @@ class Evaluation:
         self.baseline_runs = Baseline_Runs()
 
     def evaluate_model(self, score, queries, folder):
-        
+        # evaluate model
+        return
 
     def run(self, stem=False, folder='test-collection'):
         self.stem_folder = 'stem-' if stem else ''

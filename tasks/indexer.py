@@ -26,6 +26,12 @@ class Indexer:
                 ind += self.indexer[gram][doc][ln - 1]
             self.indexer[gram][doc].append(ind)
 
+    def create_indexer(self, path, docs):
+        for d in docs:
+            print('Updating the index with ' + d + '...')
+            content = self.file_handling.read_file_lines(path + d)
+            self.update_index(content, d)
+
     def create_save_indexer(self, folder, grams):
         for gram in grams:
             self.indexer = {}
@@ -33,17 +39,22 @@ class Indexer:
             'Processing the ' + str(gram) + '-grams to create a index.')
             ngram_path = self.common.get_ngram_path(self.stem_folder, gram, folder) + '/'
             docs = self.file_handling.get_all_files(ngram_path)
-            for d in docs:
-                print('Updating the index with ' + d + '...')
-                ngram_content = self.file_handling.read_file_lines(ngram_path + d)
-                self.update_index(ngram_content, d)
+            self.create_indexer(ngram_path, docs)
             self.save_index(folder, gram)
             self.save_index(folder, gram, True)
 
+    def create_save_indexer_with_relevant_docs(self, docs, stem=False, folder='test-collection', grams=[1]):
+        self.stem_folder = 'stem-' if stem else ''
+        for gram in grams:
+            self.indexer = {}
+            print('\n' + self.utility.line_break + '\n' +\
+            'Processing the ' + str(gram) + '-grams to create a index using the relevant documents.')
+            ngram_path = self.common.get_ngram_path(self.stem_folder, gram, folder) + '/'
+            self.create_indexer(ngram_path, docs)
 
-    def save_index(self, folder, gram, positional = False):
+    def save_index(self, folder, gram, positional = False, relevant = False):
         indexer_file = self.common.get_indexer_path(self.stem_folder,\
-            True if positional else False, gram, folder)
+            True if positional else False, relevant, gram, folder)
         print('\n' + self.utility.line_break + '\n' +\
             'Saving ' + ('positional' if positional else 'simple') + ' index..' + '\n' +\
             'Processed data is available under ' + indexer_file)
@@ -56,8 +67,8 @@ class Indexer:
                     data += ','.join([str(x) for x in self.indexer[term][doc]]) + '\n'
         self.file_handling.save_file(data, indexer_file)
 
-    def read_simple_index(self, folder='test-collection', gram=1):
-        indexer_file = self.common.get_indexer_path(self.stem_folder, False, gram, folder)
+    def read_simple_index(self, relevant, folder='test-collection', gram=1):
+        indexer_file = self.common.get_indexer_path(self.stem_folder, False, relevant, gram, folder)
         print('\n' + self.utility.line_break + '\n' +\
             'Reading simple index from ' + indexer_file)
         lines = self.file_handling.read_file_lines(indexer_file)
@@ -75,8 +86,8 @@ class Indexer:
                 i += 1 
         return indexer
 
-    def read_positional_index(self, folder='test-collection', gram=1):
-        indexer_file = self.common.get_indexer_path(self.stem_folder, True, gram, folder)
+    def read_positional_index(self, relevant, folder='test-collection', gram=1):
+        indexer_file = self.common.get_indexer_path(self.stem_folder, True, relevant, gram, folder)
         print('\n' + self.utility.line_break + '\n' +\
             'Reading positional index from ' + indexer_file)
         lines = self.file_handling.read_file_lines(indexer_file)
@@ -96,11 +107,11 @@ class Indexer:
                 i += 1
         return indexer
 
-    def read_index(self, folder='test-collection', type=False, stem=False, gram=1):
+    def read_index(self, folder='test-collection', index_type=False, relevant=False, stem=False, gram=1):
         self.stem_folder = 'stem-' if stem else ''
         if type:
-            return self.read_positional_index(folder, gram)
-        return self.read_simple_index(folder, gram)
+            return self.read_positional_index(relevant, folder, gram)
+        return self.read_simple_index(relevant, folder, gram)
 
     def run(self, stem= False, folder='test-collection', grams=[1]):
         self.stem_folder = 'stem-' if stem else ''
