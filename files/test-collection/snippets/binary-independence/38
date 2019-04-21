@@ -1,22 +1,324 @@
-Snippets for the query:  What does type compatibility mean in languages that allow programmer defined types? (You might want to restrict this to "extensible" languages that allow definition of abstract data types or programmer-supplied definitions of operators like *, +.)
+Snippets for the query:  Q38
 ************************
-Total Hits:  4
+Total Hits:  20
 ************************
 
+************************
+Document:  CACM-1974.html
+************************
+************************
+Document:  CACM-2666.html
+************************
+************************
+Document:  CACM-0586.html
+************************
+************************
+Document:  CACM-0142.html
+************************
+************************
+Document:  CACM-1138.html
+************************
+************************
+Document:  CACM-3191.html
+************************
+************************
+Document:  CACM-2889.html
+************************
+************************
+Document:  CACM-1442.html
+************************
+************************
+Document:  CACM-1469.html
+************************
+
+
+the next 700 programming languages 
+
+a family of unimplemented computing languages
+is described that is intended to span differences 
+of application area by a unified framework.  this framework
+dictates the rules about the uses of user-coined 
+names, and the conventions about characterizing functional
+relationships.  within this framework the 
+design of a specific language splits into two independent
+parts.  one is the choice of written appearances 
+of programs (or more generally, their physical representation).
+ the other is the choice of the abstract 
+entities (such as numbers, 
+************************
+
+************************
+Document:  CACM-0460.html
+************************
+************************
+Document:  CACM-1090.html
+************************
+************************
+Document:  CACM-1439.html
+************************
+
+
+mechanization of the curve fitting process: datan
+
+a process for fitting a curve to approximate data
+and the problem it creates for the engineer-programmer 
+is defined.  an approach has also 
+************************
+.  an approach has also been defined and a system
+has been written for the sru 1107 to mechanize 
+a major portion of this process.  the techniques developed
+to accomplish the mechanization are largely 
+empirical, and are dependent for their information
+only on the actual data points.
+
+cacm april, 
+************************
+
+************************
+Document:  CACM-1179.html
+************************
+
+
+pufft-the purdue university fast fortran translator
+
+a core resident, compile-and-go system designed
+for the ibm 7090/7094 computer is described. 
+ in little more than half of the 32k word core memory
+pufft provides a monitor for job sequencing, a 
+translator for the full fortran iv language, the fortran
+subroutine library, an input--output system 
+for use at compile time and at execute time, and a rather
+elaborate diagnostic message writing routine. 
+ batches of small- and medium-sized fortran iv source
+language programs are processed at very high speeds. 
+ language compatibility has been maintained so that
+programs may be debugged in the pufft system and 
+then recompiled and run in the ibjob-ibftc system supplied by the manufacturer.
+
+************************
+
+************************
+Document:  CACM-2352.html
+************************
+************************
+Document:  CACM-2676.html
+************************
+************************
+Document:  CACM-0672.html
+************************
+************************
+Document:  CACM-1046.html
+************************
+************************
+Document:  CACM-0021.html
+************************
+************************
+Document:  CACM-2639.html
+************************
+************************
+Document:  CACM-1453.html
+************************
+************************
+Document:  CACM-0963.html
+************************
+************************
+Document:  CACM-0076.html
+************************
+************************
+Document:  CACM-3124.html
+************************
+
+
+recursive data structures in apl
+
+a mathematical study of three approaches for defining nested
+arrays in apl is presented.  theorems exhibiting the relationships
+between the definitional systems are given and illustrated through graph
+representations.  one of the approaches is used to define an
+apl array to be a recursive data structure equivalent to a tree structure
+in which all data is stored at the leaves as homogeneous
+arrays of numbers and characters.  an extension of apl is proposed that
+includes new primitive functions to manipulate the nesting
+level of arrays and new operators to assist in the
+construction 
+************************
+
+************************
+Document:  CACM-0475.html
+************************
+************************
+Document:  CACM-0582.html
+************************
+************************
+Document:  CACM-0516.html
+************************
+************************
+Document:  CACM-1235.html
+************************
+************************
+Document:  CACM-2573.html
+************************
+************************
+Document:  CACM-3144.html
+************************
+************************
+Document:  CACM-1390.html
+************************
+
+
+convert
+
+a programming language is described which
+is applicable to problems conveniently described 
+by transformation rules.  by this is meant that patterns
+may be prescribed, each being associated with 
+a skeleton, so that a series of such pairs may be searched
+until a pattern is found which matches an 
+expression to be transformed.  the conditions for a match
+are governed by a code which also allows subexpressions 
+to be identified and eventually substituted into the
+corresponding skeleton.  the primitive patterns 
+and primitive skeletons are described, as well as the
+principle which allow their elaboration in to more 
+complicated patterns and skeletons.  the advantages of the
+language are that it allows one to apply transformation 
+rules to lists and arrays as easily as strings, that both
+patterns and skeletons may be defined recursively, 
+and that 
+************************
+
+************************
+Document:  CACM-0895.html
+************************
+************************
+Document:  CACM-1996.html
+************************
+************************
+Document:  CACM-1008.html
+************************
+************************
+Document:  CACM-0430.html
+************************
+************************
+Document:  CACM-0810.html
+************************
+************************
+Document:  CACM-1244.html
+************************
+************************
+Document:  CACM-0275.html
+************************
+************************
+Document:  CACM-2306.html
+************************
+************************
+Document:  CACM-2842.html
+************************
+
+
+the denotational semantics of programming languages
+
+this paper is a tutorial introduction to the
+theory of programming language semantics developed 
+by d. scott and c. strachey.  the application of the theory
+to formal language specification is demonstrated 
+and other applications are surveyed. the first language
+considered, loop, is very elementary and its 
+definition merely introduces the 
+************************
+
+************************
+Document:  CACM-2219.html
+************************
+************************
+Document:  CACM-1297.html
+************************
+************************
+Document:  CACM-1256.html
+************************
+************************
+Document:  CACM-3137.html
+************************
+************************
+Document:  CACM-1425.html
+************************
+
+
+flow diagrams, turing machines and
+languages with only two formation rules
+
+in the first part of the paper, flow diagrams
+are introduced to represent inter al. mappings 
+of a set into itself.  although not every diagram is
+decomposable into a finite number of given base 
+diagrams, this becomes true at a semantical level due
+to a suitable extension of the given set and of 
+the basic mappings defined in it.  two normalization
+
+************************
+
+************************
+Document:  CACM-0434.html
+************************
+************************
+Document:  CACM-0150.html
+************************
+************************
+Document:  CACM-0584.html
+************************
+************************
+Document:  CACM-1283.html
+************************
+************************
+Document:  CACM-2119.html
+************************
+************************
+Document:  CACM-1754.html
+************************
+************************
+Document:  CACM-0015.html
+************************
+************************
+Document:  CACM-0469.html
+************************
+************************
+Document:  CACM-0030.html
+************************
+************************
+Document:  CACM-1230.html
+************************
+************************
+Document:  CACM-3118.html
+************************
+************************
+Document:  CACM-0118.html
+************************
+************************
+Document:  CACM-0306.html
+************************
+************************
+Document:  CACM-0248.html
+************************
+************************
+Document:  CACM-1415.html
+************************
+************************
+Document:  CACM-0612.html
+************************
 ************************
 Document:  CACM-2651.html
 ************************
 
 
-The Treatment of Data Types in EL1
+the treatment of data types in el1
 
-In constructing a general purpose programming
+in constructing a general purpose programming
 language, a key issue is providing a sufficient 
-set of <B>data types</B> and associated operations in a manner
+set of data types and associated operations in a manner
 that permits both natural problem-oriented notation 
-and efficient implementation.  The EL1 language contains
+and efficient implementation.  the el1 language contains
 a number of features specifically designed to 
-simultaneously satisfy both requirements.  The resulting
+simultaneously satisfy both requirements.  the resulting
 treatment of data types includes provision for 
 programmer-defined data types data types and generic
 routines, programmer control over type conversion, 
@@ -24,46 +326,95 @@ and very flexible data type behavior, in a context that
 allows efficient compiled code and compact data 
 representation.
 
-CACM May, 1974
+cacm may, 1974
 
-Wegbreit, B.
+wegbreit, b.
 
 data types, modes, mode unions, type conversion,
 coercion, generic functions, extensible languages, 
-data type definition, data description language, compilation
+data type definition, data description language, 
+************************
 
-4.12 4.13 4.22
+************************
+Document:  CACM-2691.html
+************************
+************************
+Document:  CACM-0364.html
+************************
+************************
+Document:  CACM-2925.html
+************************
+************************
+Document:  CACM-0556.html
+************************
+************************
+Document:  CACM-0591.html
+************************
+************************
+Document:  CACM-1427.html
+************************
+************************
+Document:  CACM-1801.html
+************************
+************************
+Document:  CACM-2151.html
+************************
+************************
+Document:  CACM-0026.html
+************************
+************************
+Document:  CACM-1984.html
+************************
+************************
+Document:  CACM-2374.html
+************************
+************************
+Document:  CACM-0074.html
+************************
+************************
+Document:  CACM-3134.html
+************************
+************************
+Document:  CACM-2670.html
+************************
+************************
+Document:  CACM-2758.html
+************************
+************************
+Document:  CACM-1873.html
+************************
+************************
+Document:  CACM-1497.html
+************************
+************************
+Document:  CACM-1454.html
+************************
+************************
+Document:  CACM-3002.html
+************************
 
-CA740502 JB January 17, 1978  4:32 PM
 
-2651	5	2651
-2651	5	2651
-2651	5	2651
-2723	5	2651
-2941	5	2651
-2956	5	2651
-3030	5	2651
-1379	6	2651
-1471	6	2651
-1549	6	2651
-1749	6	2651
-1826	6	2651
-210	6	2651
-2247	6	2651
-2356	6	2651
-2356	6	2651
-2457	6	2651
-2558	6	2651
-2651	6	2651
-2651	6	2651
-2651	6	2651
-2651	6	2651
-2958	6	2651
-2972	6	2651
-627	6	2651
-731	6	2651
+a record and file partitioning model
 
-
+one of the main objectives in the design of
+a file system is the reduction of storage and data 
+transfer costs.  this paper presents a model in which
+several  requests access the file system, and each 
+request requires information from one or more variable
+length data-items.  the probabilities of access 
+and the distribution of each data-item's length are assumed
+to be known, and to be mutually independent. 
+the file system uses one or more storage devices, and
+each record may be partitioned into subrecords 
+that are stored on different devices.  one of the subrecords
+is designated as the primary record; when 
+a request for a record is made, the primary record is
+first accessed, and other subrecords are accessed 
+only if the pertinent information is not stored in the
+primary record.  the model that is presented in 
+this paper, both as a nonlinear programming model and
+a mixed integer programming model, is a very general 
+one; several types of file systems may 
 ************************
 
 ************************
@@ -71,377 +422,139 @@ Document:  CACM-2083.html
 ************************
 
 
-Creation and Control of Internal Data Bases
-Under a Fortran Programming Environment
+creation and control of internal data bases
+under a fortran programming environment
 
-A method is described for the <B>definition of</B> a user's COMMON structure
-and the automatic generation of the necessary COMMON, DIMENSION, EQUIVALENCE,
-and type declarations for each of the user's routines.  The definition
-for the COMMON is contained in an easy to modify form, thus
-allowing the control of general communications of data between routines.
-The described system has been implemented on the IBM 7094,
-CDC 6000 series, and the IBM 360.  The method has proved to be invaluable
-for the definition and control of COMMON in many large-scale programs.
+a method is described for the definition of a user's common structure
+and the automatic generation of the necessary common, dimension, equivalence,
+and type declarations for each of the user's routines.  the definition
+for the common is contained in an easy to modify form, thus
+allowing the control of general 
+************************
+ing the control of general communications of data between routines.
+the described system has been implemented on the ibm 7094,
+cdc 6000 series, and the ibm 360.  the method has proved to be invaluable
+for the definition and control of common 
+************************
 
-CACM April, 1970
+************************
+Document:  CACM-2349.html
+************************
+************************
+Document:  CACM-1268.html
+************************
+************************
+Document:  CACM-1104.html
+************************
+************************
+Document:  CACM-1339.html
+************************
+************************
+Document:  CACM-2307.html
+************************
+************************
+Document:  CACM-0185.html
+************************
+************************
+Document:  CACM-1485.html
+************************
 
-DeSalvio, A. J.
-Purdy, J. G.
-Rau, J.
 
-data base, Fortran, common, common equivalencing,
-subroutine communication, data communication
+the structure of programming languages
 
-3.73 4.12 4.43
+in this paper the major components of every
+programming language are identified as: (1) the 
+elementary program statement, (2) mechanisms for linking
+elementary statements together, (3) the means 
+by which a program 
+************************
+s 
+by which a program can obtain data inputs.  several
+alternative forms of each of these components are 
+also described, compared and evaluated.  many examples,
+frequently from list processing languages, illustrate 
+the forms 
+************************
+, illustrate 
+the forms described.  the advantages, disadvantages and
+factors influencing the choice of a form of component 
+for a language are discussed, and the paper concludes
+with the suggestion that programming languages 
+evolve toward one which will permit all the most convenient
+ways of structuring programs, organizing 
+systems and referencing data.
 
-CA700401 JB February 13, 1978  3:34 PM
-
-1086	4	2083
-1132	4	2083
-1234	4	2083
-1263	4	2083
-1265	4	2083
-1270	4	2083
-1323	4	2083
-1358	4	2083
-1379	4	2083
-1380	4	2083
-1453	4	2083
-1464	4	2083
-1484	4	2083
-1491	4	2083
-1498	4	2083
-1613	4	2083
-1614	4	2083
-1781	4	2083
-1825	4	2083
-1845	4	2083
-1860	4	2083
-1900	4	2083
-2083	4	2083
-2083	4	2083
-2154	4	2083
-2178	4	2083
-2179	4	2083
-2252	4	2083
-2270	4	2083
-2325	4	2083
-2341	4	2083
-2546	4	2083
-2645	4	2083
-2652	4	2083
-2684	4	2083
-2693	4	2083
-2842	4	2083
-2929	4	2083
-2934	4	2083
-3069	4	2083
-669	4	2083
-679	4	2083
-691	4	2083
-761	4	2083
-949	4	2083
-989	4	2083
-988	5	2083
-2083	5	2083
-2083	5	2083
-2083	5	2083
-3184	5	2083
-
+cacm february, 1966
 
 ************************
 
 ************************
-Document:  CACM-2842.html
+Document:  CACM-2087.html
 ************************
-
-
-The Denotational Semantics of Programming Languages
-
-This paper is a tutorial introduction to the
-theory of programming language semantics developed 
-by D. Scott and C. Strachey.  The application of the theory
-to formal language specification is demonstrated 
-and other applications are surveyed. The first language
-considered, LOOP, is very elementary and its 
-definition merely introduces the notation and methodology
-of the approach.  Then the semantic concepts
-of environments, stores, and continuations are introduced
-to model classes of programming language features 
-and the underlying mathematical theory of computation
-due to Scott is motivated and outlined.  Finally, 
-the paper presents a formal <B>definition of</B> the language GEDANKEN.
-
-CACM August, 1976
-
-Tennent, R. D.
-
-semantics, programming language, applicative, imperative,
-environment, store, continuation, theory 
-of computation, higher-order function, recursive definition, LOOP, GEDANKEN
-
-4.22 5.24
-
-CA760802 JB January 4, 1978  10:33 AM
-
-1024	4	2842
-1051	4	2842
-1086	4	2842
-1102	4	2842
-1132	4	2842
-1132	4	2842
-1234	4	2842
-1263	4	2842
-1265	4	2842
-1270	4	2842
-1323	4	2842
-1358	4	2842
-1379	4	2842
-1380	4	2842
-1390	4	2842
-1453	4	2842
-1464	4	2842
-1484	4	2842
-1486	4	2842
-1491	4	2842
-1498	4	2842
-1549	4	2842
-1613	4	2842
-1614	4	2842
-1706	4	2842
-1781	4	2842
-1825	4	2842
-1826	4	2842
-1860	4	2842
-1878	4	2842
-378	4	2842
-2060	4	2842
-2083	4	2842
-2155	4	2842
-2155	4	2842
-2168	4	2842
-2178	4	2842
-2179	4	2842
-2252	4	2842
-2294	4	2842
-2314	4	2842
-2317	4	2842
-2325	4	2842
-2326	4	2842
-2341	4	2842
-2457	4	2842
-2546	4	2842
-2558	4	2842
-2645	4	2842
-2652	4	2842
-2684	4	2842
-2719	4	2842
-2723	4	2842
-2838	4	2842
-2842	4	2842
-2842	4	2842
-2842	4	2842
-2842	4	2842
-2842	4	2842
-2855	4	2842
-2879	4	2842
-2903	4	2842
-2929	4	2842
-2934	4	2842
-3069	4	2842
-3077	4	2842
-3077	4	2842
-3080	4	2842
-3106	4	2842
-3150	4	2842
-627	4	2842
-669	4	2842
-679	4	2842
-691	4	2842
-761	4	2842
-106	4	2842
-949	4	2842
-989	4	2842
-210	5	2842
-2060	5	2842
-2148	5	2842
-2192	5	2842
-2837	5	2842
-2842	5	2842
-2842	5	2842
-2842	5	2842
-3150	5	2842
-3184	5	2842
-2060	6	2842
-2704	6	2842
-2784	6	2842
-2842	6	2842
-2842	6	2842
-2939	6	2842
-2940	6	2842
-2941	6	2842
-2943	6	2842
-3073	6	2842
-3148	6	2842
-
-
 ************************
-
+Document:  CACM-1971.html
+************************
+************************
+Document:  CACM-0035.html
+************************
+************************
+Document:  CACM-2244.html
+************************
 ************************
 Document:  CACM-1614.html
 ************************
 
 
-A Proposal for Definitions in ALGOL
+a proposal for definitions in algol
 
-An extension to ALGOL is proposed for adding
-new <B>data types</B> and operators to the language. 
- Definitions may occur in any block heading and terminate
-with the block.  They are an integral part 
-of the program and are not fixed in the language.  Even
+an extension to algol is proposed for adding
+new data types and operators to the language. 
+ definitions 
+************************
+ to the language. 
+ definitions may occur in any block 
+************************
+ may occur in any block heading and terminate
+with the block.  they are an integral part 
+of the program and are not fixed in the language.  even
 the behavior of existing operators may be redefined. 
- The processing of text containing defined contexts features
+ the processing of 
+************************
+. 
+ the processing of text containing defined contexts features
 a "replacement rule" that eliminates unnecessary 
-iterations and temporary storage.  Examples of definition sets
-are given for real and complex matrices, 
-complex numbers, file processing, and list manipulation.
+iterations and temporary storage.  examples of definition sets
+are given for real 
+************************
 
-CACM April, 1967
-
-Galler, B. A.
-Perlis, A. J.
-
-CA670401 JB February 28, 1978  11:43 AM
-
-1086	4	1614
-1132	4	1614
-1234	4	1614
-1263	4	1614
-1265	4	1614
-1270	4	1614
-1323	4	1614
-1358	4	1614
-1379	4	1614
-1380	4	1614
-1453	4	1614
-1464	4	1614
-1484	4	1614
-1491	4	1614
-1498	4	1614
-1613	4	1614
-1614	4	1614
-1614	4	1614
-1781	4	1614
-1825	4	1614
-1860	4	1614
-2083	4	1614
-2178	4	1614
-2179	4	1614
-2252	4	1614
-2253	4	1614
-2325	4	1614
-2341	4	1614
-2546	4	1614
-2557	4	1614
-2645	4	1614
-2652	4	1614
-2684	4	1614
-2842	4	1614
-2929	4	1614
-2934	4	1614
-3069	4	1614
-669	4	1614
-679	4	1614
-691	4	1614
-761	4	1614
-949	4	1614
-989	4	1614
-1614	5	1614
-1614	5	1614
-1614	5	1614
-1693	5	1614
-1781	5	1614
-1824	5	1614
-1861	5	1614
-2126	5	1614
-437	5	1614
-3184	5	1614
-823	6	1614
-123	6	1614
-196	6	1614
-196	6	1614
-919	6	1614
-990	6	1614
-1007	6	1614
-1046	6	1614
-1131	6	1614
-1139	6	1614
-1140	6	1614
-1149	6	1614
-1198	6	1614
-1215	6	1614
-1223	6	1614
-1265	6	1614
-1303	6	1614
-1323	6	1614
-1358	6	1614
-1358	6	1614
-1366	6	1614
-1421	6	1614
-1421	6	1614
-1460	6	1614
-1462	6	1614
-1463	6	1614
-1467	6	1614
-1468	6	1614
-1477	6	1614
-1477	6	1614
-1491	6	1614
-1491	6	1614
-1496	6	1614
-1531	6	1614
-1535	6	1614
-1565	6	1614
-1601	6	1614
-1602	6	1614
-1613	6	1614
-1614	6	1614
-1614	6	1614
-1614	6	1614
-1614	6	1614
-1614	6	1614
-1626	6	1614
-1641	6	1614
-1693	6	1614
-1781	6	1614
-1781	6	1614
-1787	6	1614
-1788	6	1614
-205	6	1614
-224	6	1614
-249	6	1614
-288	6	1614
-316	6	1614
-381	6	1614
-398	6	1614
-11	6	1614
-404	6	1614
-404	6	1614
-404	6	1614
-408	6	1614
-410	6	1614
-463	6	1614
-464	6	1614
-483	6	1614
-3184	6	1614
-3188	6	1614
-584	6	1614
-600	6	1614
-680	6	1614
-691	6	1614
-763	6	1614
-799	6	1614
+************************
+Document:  CACM-1246.html
+************************
+************************
+Document:  CACM-1655.html
+************************
+************************
+Document:  CACM-0263.html
+************************
+************************
+Document:  CACM-2919.html
+************************
+************************
+Document:  CACM-1930.html
+************************
+************************
+Document:  CACM-1847.html
+************************
+************************
+Document:  CACM-1879.html
+************************
 
 
+a note on storage fragmentation and program segmentation
+
+the main purpose of this paper is the presentation
+of some of the results of a series of simulation 
+experiments investigating the phenomenon of storage fragmentation.
+ two different types of storage fragmentation 
 ************************
 

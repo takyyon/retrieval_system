@@ -19,22 +19,22 @@ class Spell_Checker:
     def get_edit_distance(self, term1, term2):
         return nltk.edit_distance(term1, term2)
 
-    def get_suggestions_for_query_term(self, stop_words, index, q):
+    def get_suggestions_for_query_term(self, stopwords, index, q):
         suggested_terms = []
         for i in index:
-            if i not in stop_words:
+            if i not in stopwords and not i.isdigit():
                 dis = self.get_edit_distance(i, q)
-                if dis <= 4:
+                if dis <= 3 and len(suggested_terms) <= 6:
                     suggested_terms.append(i)
         return '(' + ','.join(suggested_terms) + ')'
 
-    def get_suggestions_for_query(self, stop_words, index, query):
+    def get_suggestions_for_query(self, stopwords, index, query):
         query_terms = query.split()
         suggested_query_terms = []
         for q in query_terms:
             term = q
-            if q not in index:
-                term = self.get_suggestions_for_query_term(stop_words, index, q)
+            if q not in index and q not in stopwords:
+                term = self.get_suggestions_for_query_term(stopwords, index, q)
             suggested_query_terms.append(term)
         return ' '.join(suggested_query_terms)
 

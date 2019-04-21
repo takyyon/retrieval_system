@@ -1,391 +1,523 @@
-Snippets for the query:  Information retrieval articles by Gerard Salton or others about clustering, bibliographic coupling, use of citations or co-citations, the vector space model, Boolean search methods using inverted files, feedback, etc. Salton, G.
+Snippets for the query:  Q60
 ************************
-Total Hits:  6
+Total Hits:  17
 ************************
 
+************************
+Document:  CACM-1974.html
+************************
+************************
+Document:  CACM-2666.html
+************************
+************************
+Document:  CACM-0586.html
+************************
+************************
+Document:  CACM-0142.html
+************************
+************************
+Document:  CACM-1138.html
+************************
+************************
+Document:  CACM-3191.html
+************************
+************************
+Document:  CACM-2889.html
+************************
+
+
+performance of height-balanced trees
+
+this paper presents the results of simulations
+that investigate the performance of height-balanced 
+(hb[k]) trees.  it is shown that the only statistic
+of hb[1] trees (avl trees) that is a function of 
+the size of the tree is the time to search for an item
+in the tree.  for sufficiently large trees, the 
+execution times of all procedures for maintaining hb[1]
+trees are independent of the size of the tree. 
+ in particular, an average of .465 restructures are required
+per insertion, with an average of 2.78 nodes 
+revisited to restore the hb[1] property; an average of
+ .214 restructures are required per deletion, with 
+an average of 1.91 nodes revisited to restore the hb[1]
+property.  moreover,the execution times of procedures 
+for maintaining hb[k] trees, for k>1, are also independent
+of the size of the tree except for the average 
+number of nodes revisited on a delete operation in
+order to restore the hb[k] property on trace back. 
+ the cost of maintaining hb[k] trees drops sharply as the
+allowable imbalance (k) increases.  both analytical 
+and experimental results that show the cost of maintaining
+hb[k] trees as a function of k are discussed.
+
+cacm january, 1976
+
+karlton, p. l.
+fuller, s. h.
+scroggs, r. e.
+kaehler, e. b.
+
+hb[k] trees, balanced trees, avl trees,
+information storage and retrieval, searching
+
+3.7 3.72 
+************************
+
+************************
+Document:  CACM-1442.html
+************************
+************************
+Document:  CACM-1469.html
+************************
+************************
+Document:  CACM-0460.html
+************************
+************************
+Document:  CACM-1090.html
+************************
+************************
+Document:  CACM-1439.html
+************************
+************************
+Document:  CACM-1179.html
+************************
+************************
+Document:  CACM-2352.html
+************************
+************************
+Document:  CACM-2676.html
+************************
+************************
+Document:  CACM-0672.html
+************************
+************************
+Document:  CACM-1046.html
+************************
+
+
+a compiler-building system developed by brooker and morris
+
+in a number of articles published during the
+past two years, r. a. brooker and d. morris (joined 
+by j. rohl in their most recent paper have presented
+a very interesting programming system that they 
+have developed for the ferranti atlas computer.  the
+present paper describes some of the major features 
+of their system. it expands on some points that the original
+authors cover briefly, and treats only very 
+lightly some topics to which they devote considerable space.
+ the purpose of this 
+************************
+
+************************
+Document:  CACM-0021.html
+************************
+************************
+Document:  CACM-2639.html
+************************
 ************************
 Document:  CACM-1453.html
 ************************
-
-
-A Nonrecursive Method of Syntax Specification
-
-The <B>use of</B> the Kleene regular expression notation
-for describing algebraic language syntax, 
-in particular of ALGOL, is described in this paper. 
-A FORTRAN II computer program for carrying out the 
-elimination algorithm of Gorn,similar to Gaussian elimination
-for linear systems of algebraic equations, 
-is described.  This was applied to numerous smaller
-languages, including some sublanguage of ALGOL.  
-A hand calculation result of the application of the algorithm
-to all of ALGOL is given, thus expressing 
-the Revised ALGOL 1960 syntax in completely nonrecursive
-terms, as far as its context-free portion is 
-concerned.  This description in many ways is far more
-intuitively understood than the previous recursive 
-description, it is suggested.  The paper also includes
-results of the machine program, which does not 
-include a simplification algorithm.
-
-CACM April, 1966
-
-Carr III, J. W.
-Weiland, J.
-
-CA660402 JB March 3, 1978  11:02 AM
-
-1086	4	1453
-1132	4	1453
-1234	4	1453
-1263	4	1453
-1263	4	1453
-1265	4	1453
-1270	4	1453
-1323	4	1453
-1358	4	1453
-1379	4	1453
-1380	4	1453
-1453	4	1453
-1453	4	1453
-1464	4	1453
-1484	4	1453
-1491	4	1453
-1498	4	1453
-1613	4	1453
-1614	4	1453
-1781	4	1453
-1825	4	1453
-1860	4	1453
-1945	4	1453
-2083	4	1453
-2178	4	1453
-2179	4	1453
-2252	4	1453
-2325	4	1453
-2341	4	1453
-2546	4	1453
-2645	4	1453
-2652	4	1453
-2684	4	1453
-2842	4	1453
-2929	4	1453
-2934	4	1453
-3069	4	1453
-669	4	1453
-679	4	1453
-691	4	1453
-761	4	1453
-949	4	1453
-989	4	1453
-989	5	1453
-1453	5	1453
-1453	5	1453
-1453	5	1453
-1613	5	1453
-3184	5	1453
-987	6	1453
-1086	6	1453
-1134	6	1453
-1453	6	1453
-3184	6	1453
-
-
 ************************
-
+Document:  CACM-0963.html
 ************************
-Document:  CACM-2307.html
 ************************
-
-
-Dynamic Document Processing
-
-The current role of computers in automatic
-document processing is briefly outlined, and some 
-reasons are given why the early promise of library automation
-and of the mechanization of documentation 
-processes has not been fulfilled.  A new dynamic document
-environment is then outlined in which clustered
-files are searched and information is retrieved following
-an interactive user-controlled search process. 
- Methods are described for an automatic query modification
-based on user needs, and for a continuous 
-reorganization of the stored information as a function of
-earlier file processing and of normal collection 
-growth.  The proposed procedures provide powerful tools
-for information retrieval and for the control 
-of dynamic library collections in which new items
-are continually added and old ones are retired.
-
-CACM July, 1972
-
-<B>Salton, G.</B>
-
-automatic indexing, automatic search and retrieval,
-iterative searching, mechanized library processing, 
-collection growth, collection retirement, feedback search
-
-3.62 3.71 3.73 3.74
-
-CA720721 JB January 30, 1978  10:59 AM
-
-2307	5	2307
-2307	5	2307
-2307	5	2307
-
-
+Document:  CACM-0076.html
 ************************
-
+************************
+Document:  CACM-3124.html
+************************
+************************
+Document:  CACM-0475.html
+************************
+************************
+Document:  CACM-0582.html
+************************
+************************
+Document:  CACM-0516.html
+************************
 ************************
 Document:  CACM-1235.html
 ************************
+************************
+Document:  CACM-2573.html
+************************
+************************
+Document:  CACM-3144.html
+************************
+************************
+Document:  CACM-1390.html
+************************
+************************
+Document:  CACM-0895.html
+************************
+************************
+Document:  CACM-1996.html
+************************
+************************
+Document:  CACM-1008.html
+************************
+************************
+Document:  CACM-0430.html
+************************
+************************
+Document:  CACM-0810.html
+************************
+************************
+Document:  CACM-1244.html
+************************
+************************
+Document:  CACM-0275.html
+************************
 
 
-A Stochastic Approach to the Grammatical Coding of English
+dynamic storage allocation for an information retrieval system
 
-A computer program is described which will
-assign each word in an English text to its form 
-class or part of speech.  The program operates at relatively
-high speed in only a limited storage space. 
- About half of the word-events in a corpus are identified
-through the <B>use of</B> a small dictionary of function 
-words and frequently occurring lexical words.  Some suffix
-tests and logical-decision rules are employed 
-to code additional words.  Finally, the remaining words
-are assigned to one class or another on the basis 
-of the most probable form classes to occur within the already
-identified contexts.  The conditional probabilities 
-used as a basis for this coding were empirically derived
-from a separate hand-coded corpusn preliminary 
-trials, the accuracy of the coder was 91% to 93%, with
-obvious ways of improving the algorithm being 
-suggested by an analysis of the results.
+cacm october, 
+************************
 
-CACM June, 1965
+************************
+Document:  CACM-2306.html
+************************
+************************
+Document:  CACM-2842.html
+************************
+************************
+Document:  CACM-2219.html
+************************
+************************
+Document:  CACM-1297.html
+************************
+************************
+Document:  CACM-1256.html
+************************
+************************
+Document:  CACM-3137.html
+************************
 
-Stolz, W. S.
-Tannenbaum, H.
-Carstensen, F. V.
 
-CA650620 JB March 6, 1978  9:35 PM
+a methodology for the design of distributed information systems
 
-1235	5	1235
-1235	5	1235
-1235	5	1235
+a macro model of a distributed information 
+************************
+ of a distributed information system in presented.  the model
+describes the major 
+************************
 
+describes the major costs of using an information
+system from the perspective of the end-user.  the making evident the effect of
+various design and operating parameters on overall cost per transaction.
+ the technique is illustrated by application to the design
+of an interactive transaction processing system.
+
+cacm april, 1979
+
+bucci, g.
+streeter, d.
+
+distributed processing, system design, cost minimization, distributed
+database, interactive computing, economic modeling, transaction processing
 
 ************************
 
 ************************
-Document:  CACM-1879.html
+Document:  CACM-1425.html
+************************
+************************
+Document:  CACM-0434.html
+************************
+************************
+Document:  CACM-0150.html
+************************
+************************
+Document:  CACM-0584.html
+************************
+************************
+Document:  CACM-1283.html
+************************
+************************
+Document:  CACM-2119.html
+************************
+************************
+Document:  CACM-1754.html
+************************
+************************
+Document:  CACM-0015.html
+************************
+************************
+Document:  CACM-0469.html
+************************
+************************
+Document:  CACM-0030.html
+************************
+************************
+Document:  CACM-1230.html
+************************
+************************
+Document:  CACM-3118.html
+************************
+************************
+Document:  CACM-0118.html
+************************
+************************
+Document:  CACM-0306.html
+************************
+************************
+Document:  CACM-0248.html
+************************
+************************
+Document:  CACM-1415.html
+************************
+************************
+Document:  CACM-0612.html
+************************
+************************
+Document:  CACM-2651.html
+************************
+************************
+Document:  CACM-2691.html
+************************
+************************
+Document:  CACM-0364.html
+************************
+************************
+Document:  CACM-2925.html
+************************
+************************
+Document:  CACM-0556.html
+************************
+************************
+Document:  CACM-0591.html
+************************
+************************
+Document:  CACM-1427.html
+************************
+************************
+Document:  CACM-1801.html
+************************
+************************
+Document:  CACM-2151.html
+************************
+************************
+Document:  CACM-0026.html
+************************
+************************
+Document:  CACM-1984.html
+************************
+************************
+Document:  CACM-2374.html
 ************************
 
 
-A Note on Storage Fragmentation and Program Segmentation
+a study of storage partitioning using a mathematical model of locality
 
-The main purpose of this paper is the presentation
-of some of the results of a series of simulation 
-experiments investigating the phenomenon of storage fragmentation.
- Two different types of storage fragmentation 
-are distinguished: (1) external fragmentation, namely the
-loss in storage utilization caused by the inability 
-to make <B>use of</B> all available storage after it has been
-fragmented into a large number of separate blocks; 
-and (2) internal fragmentation, the loss of utilization
-caused by rounding up a request for storage, 
-rather than allocating only the exact number of words required.
- The most striking result is the apparently 
-general rule that rounding up requests for storage,
-to reduce the number of different sizes of blocks 
-coexisting in storage, causes more loss of storage
-by increased internal fragmentation than is saved 
-by decreased external fragmentation.  Described also are
-a method of segment allocation and an accompanying 
-technique for segment addressing which take advantage
-of the above result.  Evidence is presented of 
-possible advantages of the method over conventional paging techniques.
+both fixed and dynamic storage partitioning
+procedures are examined for use in multiprogramming 
+systems.  the storage requirement of programs is modeled
+as a stationary gaussian process.  experiments 
+justifying this model are described.  by means of this
+model dynamic storage partitioning is shown to 
+provide substantial increases in storage utilization
+and operating efficiency over fixed partitioning. 
 
-CACM July, 1969
+cacm march, 1972
 
-Randell, B.
+coffman jr., e. g.
+ryan jr., t. a.
 
-storage allocation, storage fragmentation,
-paging, segmentation, addressing
-
-6.2 6.20
-
-CA690701 JB February 17, 1978  9:46 AM
-
-1879	4	1879
-1884	4	1879
-1901	4	1879
-2095	4	1879
-2277	4	1879
-2297	4	1879
-2365	4	1879
-1754	5	1879
-1879	5	1879
-1879	5	1879
-1879	5	1879
-2095	5	1879
-2218	5	1879
-2498	5	1879
-2596	5	1879
-2734	5	1879
-2902	5	1879
-2911	5	1879
-3000	5	1879
-1051	6	1879
-1062	6	1879
-1184	6	1879
-1184	6	1879
-1211	6	1879
-1380	6	1879
-1552	6	1879
-1572	6	1879
-1728	6	1879
-1728	6	1879
-1751	6	1879
-1751	6	1879
-1754	6	1879
-1752	6	1879
-1810	6	1879
-1879	6	1879
-1879	6	1879
-1879	6	1879
-1879	6	1879
-1879	6	1879
-1879	6	1879
-1879	6	1879
-1879	6	1879
-273	6	1879
-2095	6	1879
-2095	6	1879
-2095	6	1879
-2435	6	1879
-2435	6	1879
-2435	6	1879
-2498	6	1879
-2596	6	1879
-2734	6	1879
-2734	6	1879
-2747	6	1879
-2768	6	1879
-2773	6	1879
-2864	6	1879
-2983	6	1879
-
-
+storage partitioning, memory management, dynamic
+storage allocation, space sharing, multiprogrammed 
 ************************
 
+************************
+Document:  CACM-0074.html
+************************
 ************************
 Document:  CACM-3134.html
 ************************
 
 
-The Use of Normal Multiplication Tables
-for Information Storage and Retrieval
+the use of normal multiplication tables
+for information storage and retrieval
 
-This paper describes a method for the organization and retrieval of attribute 
+this paper describes a method for the organization and retrieval of attribute 
 based information systems, using the normal multiplication table as a directory
-for the information system.  Algorithms for the organization an
-d retrieval of information are described.  This method is particularly
+for the information system.  algorithms for the organization an
+d retrieval of information are described.  this method is particularly
 suitable for queries requesting a group of information items,
  all of which possess a particular set of attributes (and possibly
-some other attributes as well).  Several examples are given; the
+some other attributes as well).  several examples are given; the
 results with respect to the number of disk accesses and disk space
-are compared to other common approaches.  Algorithms evaluating
+are compared to other common approaches.  algorithms evaluating
 the appropriateness of the above approach to a given information system
-are described.  For a certain class of information systems,
+are described.  for a certain class of information systems,
 the normal multiplication table method yields far more rapid retrieval
 with a more economical space requirement than conventional systems.  
-Moreover this method incorporates an improved modification of the inverted 
+moreover this method incorporates an improved modification of the inverted 
 file technique.
 
-CACM March, 1979
+cacm 
+************************
+ 
+file technique.
 
-Motzkin, D.
+cacm march, 1979
 
-<B>Information retrieval</B>, inverted files, multiattribute retrieval,
+motzkin, d.
+
+information retrieval, inverted files, multiattribute 
+************************
+, inverted files, multiattribute retrieval,
+multilist file, normal 
+************************
+,
 multilist file, normal multiplication table, queries,
 rapid retrieval, space economy
 
 3.70 3.73 3.79
 
-CA790305 DH May 21, 1979  9:46 AM
+************************
 
-2140	4	3134
-2452	4	3134
-2575	4	3134
-2765	4	3134
-2901	4	3134
-2966	4	3134
-3134	4	3134
-3134	4	3134
-3134	4	3134
-3134	4	3134
-1976	5	3134
-2160	5	3134
-2524	5	3134
-2990	5	3134
-3134	5	3134
-3134	5	3134
-3134	5	3134
-
-
+************************
+Document:  CACM-2670.html
+************************
+************************
+Document:  CACM-2758.html
+************************
+************************
+Document:  CACM-1873.html
+************************
+************************
+Document:  CACM-1497.html
+************************
+************************
+Document:  CACM-1454.html
+************************
+************************
+Document:  CACM-3002.html
 ************************
 
 
+a record and file partitioning model
 
-The Use of Normal Multiplication Tables
-for Information Storage and Retrieval
-
-This paper describes a method for the organization and retrieval of attribute 
-based information systems, using the normal multiplication table as a directory
-for the information system.  Algorithms for the organization an
-d retrieval of information are described.  This method is particularly
-suitable for queries requesting a group of information items,
- all of which possess a particular set of attributes (and possibly
-some other attributes as well).  Several examples are given; the
-results with respect to the number of disk accesses and disk space
-are compared to other common approaches.  Algorithms evaluating
-the appropriateness of the above approach to a given information system
-are described.  For a certain class of information systems,
-the normal multiplication table method yields far more rapid retrieval
-with a more economical space requirement than conventional systems.  
-Moreover this method incorporates an improved modification of the inverted 
-file technique.
-
-CACM March, 1979
-
-Motzkin, D.
-
-Information retrieval, <B>inverted files,</B> multiattribute retrieval,
-multilist file, normal multiplication table, queries,
-rapid retrieval, space economy
-
-3.70 3.73 3.79
-
-CA790305 DH May 21, 1979  9:46 AM
-
-2140	4	3134
-2452	4	3134
-2575	4	3134
-2765	4	3134
-2901	4	3134
-2966	4	3134
-3134	4	3134
-3134	4	3134
-3134	4	3134
-3134	4	3134
-1976	5	3134
-2160	5	3134
-2524	5	3134
-2990	5	3134
-3134	5	3134
-3134	5	3134
-3134	5	3134
-
+one of the main objectives in the design of
+a file system is the reduction of storage and data 
+transfer costs.  this paper presents a model in which
+several  requests access the file system, and each 
+request requires information from one or more variable
 
 ************************
+ from one or more variable
+length data-items.  the probabilities of access 
+and the distribution of each data-item's length are assumed
+to be known, and to be mutually independent. 
+the file system uses one or more storage devices, and
+each record may be partitioned into subrecords 
+that are stored on different devices.  one of the subrecords
+is designated as the primary record; when 
+a request for a record is made, the primary record is
+first accessed, and other subrecords are accessed 
+only if the pertinent information is not stored in the
+primary record.  the model that is presented in 
+************************
 
+************************
+Document:  CACM-2083.html
+************************
+************************
+Document:  CACM-2349.html
+************************
+************************
+Document:  CACM-1268.html
+************************
+************************
+Document:  CACM-1104.html
+************************
+************************
+Document:  CACM-1339.html
+************************
+************************
+Document:  CACM-2307.html
+************************
+
+
+dynamic document processing
+
+the current role of computers in automatic
+document processing is briefly outlined, and some 
+reasons are given why the early promise of library automation
+and of the mechanization of documentation 
+processes has not been fulfilled.  a new dynamic document
+environment is then outlined in which clustered
+files are searched and information is retrieved following
+an interactive user-controlled search process. 
+ methods are described for an 
+************************
+ are described for an automatic query modification
+based on user needs, and for a continuous 
+reorganization of the stored information as a function of
+earlier file processing and of normal collection 
+growth.  the proposed procedures provide powerful tools
+for information retrieval and for the control 
+************************
+ and for the control 
+of dynamic library collections in which new items
+are continually added and old ones are retired.
+
+cacm july, 1972
+
+salton, g.
+
+automatic indexing, automatic search and retrieval,
+iterative searching, 
+************************
+,
+iterative searching, mechanized library processing, 
+collection growth, collection retirement, feedback search
+
+3.62 3.71 3.73 
+************************
+
+************************
+Document:  CACM-0185.html
+************************
+************************
+Document:  CACM-1485.html
+************************
+************************
+Document:  CACM-2087.html
+************************
+************************
+Document:  CACM-1971.html
+************************
+************************
+Document:  CACM-0035.html
+************************
+************************
+Document:  CACM-2244.html
+************************
+************************
+Document:  CACM-1614.html
+************************
+************************
+Document:  CACM-1246.html
+************************
+************************
+Document:  CACM-1655.html
+************************
+************************
+Document:  CACM-0263.html
+************************
+************************
+Document:  CACM-2919.html
+************************
+************************
+Document:  CACM-1930.html
+************************
+************************
+Document:  CACM-1847.html
+************************
+************************
+Document:  CACM-1879.html
+************************

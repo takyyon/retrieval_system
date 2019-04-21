@@ -64,7 +64,7 @@ class Baseline_Runs:
         query_terms = query.split()
         relevant = []
         non_relevant = []
-        threshold = 0.7
+        threshold = 0.3
         total_terms = len(query_terms)*1.0
         for d in docs:
             total = 0.0
@@ -137,7 +137,7 @@ class Baseline_Runs:
             if q in index:
                 tf_idf *= math.log((total_docs*1.0)/len(index[q]))
             total += tf_idf
-        return tf_idf
+        return total
 
     # http://www.tfidf.com/
     def run_tf_idf(self, queries, folder='test-collection'):
@@ -175,7 +175,7 @@ class Baseline_Runs:
         self.filter_queries = filter_queries
         self.query_expansion = query_expansion
         queries = self.common.get_queries(stem, folder)
-        
+    
         if query_expansion is not None:
             if query_expansion:
                 queries = self.query_expansion_object.expand_queries_using_stemming(queries[:])

@@ -13,8 +13,8 @@ class Crawler:
         self.common = Common()
 
     def save_document_content(self, folder, tag = 'pre'):
-        content_path = 'files/' + folder + '/document-content/'
-        raw_html_path = 'files/' + folder + '/raw-documents/'
+        content_path = self.common.get_doc_content_path(self.stem_folder, folder) + '/'
+        raw_html_path = self.common.get_raw_doc_path(self.stem_folder, folder) + '/'
         docs = self.file_handling.get_all_files(raw_html_path)
         print('\n' + self.utility.line_break + '\n' +\
             'Processing the Raw HTML. Parsing and tokenizing the article.' +\
@@ -38,8 +38,9 @@ class Crawler:
                 return content[0]
         return self.utility.get_random_string()
 
-    def crawl_urls(self, folder, urls):
-        raw_html_path = 'files/' + folder + '/raw-documents/'
+    def crawl_urls(self, folder, urls, stem=False):
+        self.stem_folder = 'stem-' if stem else ''
+        raw_html_path = self.common.get_raw_doc_path(self.stem_folder, folder) + '/'
         print('\n' + self.utility.line_break + '\n' +\
             'Processing Url and saving the raw html content.' +\
                 'Processed data is available under ' + raw_html_path)
@@ -64,7 +65,7 @@ class Crawler:
         self.file_handling.save_file(data, doc_length_file)
 
     def process_stem_documents(self, folder='test-collection'):
-        stem_content_path = 'files/' + folder + '/stem-document-content/'
+        content_path = self.common.get_doc_content_path('stem-', folder) + '/'
         stem_doc_path = 'files/' + folder + '/stem.txt'
         print('\n' + self.utility.line_break + '\n' +\
             'Processing the stem text file. Saving each document\'s text separately.' +\
@@ -89,7 +90,6 @@ class Crawler:
                     data += ' '.join(l) + ' '
                 self.file_handling.save_file(data, stem_content_path + doc_id)
 
-    def run(self, folder='test-collection', urls=[]):
-        self.file_handling.create_folder('files/' + folder)
-        self.crawl_urls(folder, urls)
-        self.save_document_content(folder, 'p')
+    def run(self, folder='test-collection', urls=[], stem=False, tag='p'):
+        self.stem_folder = 'stem-' if stem else ''
+        self.save_document_content(folder, tag)

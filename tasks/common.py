@@ -1,4 +1,5 @@
 from extras import * 
+import re
 
 class Common:
     def __init__(self):
@@ -10,42 +11,48 @@ class Common:
         self.top_doc_count = 100
 
     def get_suggested_query_path(self, folder):
-        return 'files/' + folder + '/query_suggestions'
+        return 'files/' + folder + '/spell-checker/query_suggestions'
 
     def get_evaluation_path(self, stem_folder, folder):
         return 'files/' + folder + '/' + stem_folder + 'evaluation'
 
     def get_raw_doc_path(self, stem_folder, folder):
-        return 'files/' + folder + '/' + stem_folder + 'raw-documents'
+        return 'files/' + folder + '/documents/' + stem_folder + 'raw-documents'
+
+    def get_doc_content_path(self, stem_folder, folder):
+        return 'files/' + folder + '/documents/' + stem_folder + 'document-content'
 
     def get_query_snippet_path(self, stem_folder, folder, score):
         return 'files/' + folder + '/' + stem_folder + 'snippets/' + score
 
     def get_query_snippet_summary_path(self, stem_folder, folder, score):
-        return 'files/' + folder + '/' + stem_folder + 'snippets-summary/' + score
+        return 'files/' + folder + '/' + stem_folder + 'snippets/summary/' + score
 
     def get_doc_length_path(self, stem_folder, folder):
-        return 'files/' + folder + '/' + ('stem_' if len(stem_folder) > 0 else '') + 'doc_length'
+        return 'files/' + folder + '/documents/' + ('stem_' if len(stem_folder) > 0 else '') + 'doc_length'
 
     def get_score_path(self, stem_folder, score, folder, filter_queries = False, query_expansion=None):
         expansion = ''
         if query_expansion is not None:
-            expansion = 'stem-expansion-' if query_expansion else 'psuedo-expansion-'
-        filtered = 'filtered-' if filter_queries else ''
-        return 'files/' + folder + '/' + stem_folder + expansion + filtered  + score
+            expansion = 'stemming/' if query_expansion else 'psuedo-relevance/'
+        filtered = 'stopping/' if filter_queries else ''
+        return 'files/' + folder + '/scores/' +  expansion + filtered  + stem_folder + score
 
     def get_ngram_path(self, stem_folder, gram, folder):
-        return 'files/' + folder + '/' + stem_folder + 'gram-' + str(gram)
+        return 'files/' + folder + '/ngrams/' + stem_folder + 'gram-' + str(gram)
 
     def get_indexer_path(self, stem_folder, index_type, gram, folder):
         indexer = 'positional' if index_type else 'simple'
-        return 'files/' + folder + '/' + stem_folder  +\
+        return 'files/' + folder + '/indexes/' + stem_folder  +\
             indexer + '-index/' + 'gram_' + str(gram)
 
     def get_stopwords(self, folder='test-collection'):
-        common_words_path = 'files/' + folder + '/common_words'
+        common_words_path = 'files/common_words'
         common_words = self.file_handling.read_file_lines(common_words_path)
-        return common_words
+        words = {}
+        for w in common_words:
+            words[w] = True
+        return words
 
     def get_queries(self, stem=False, folder='test-collection'):
         query_file_path = 'files/' + folder + '/' + ('stem_' if stem else '') + 'query.txt'
@@ -53,7 +60,7 @@ class Common:
             'Reading Queries from ' +\
                 query_file_path)
         queries = self.file_handling.read_file_lines(query_file_path)
-        return queries
+        return [re.sub(r'\W+', ' ',  x).lower() for x in queries]
 
     def filter_stopwords(self, stopwords, content):
         words = content.split()
