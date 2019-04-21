@@ -13,8 +13,14 @@ class Common:
     def get_suggested_query_path(self, folder):
         return 'files/' + folder + '/spell-checker/query_suggestions'
 
-    def get_evaluation_path(self, stem_folder, folder):
-        return 'files/' + folder + '/' + stem_folder + 'evaluation'
+    def get_evaluation_path(self, stem_folder, folder, filter_queries=False, query_expansion=None):
+        filtered = ''
+        expansion = ''
+        if filter_queries:
+            filtered = '/filtered'
+        if query_expansion is not None:
+            expansion = '/stemming' if query_expansion else '/psuedo-relevance'
+        return 'files/' + folder + '/' + stem_folder + 'evaluation'  + filtered + expansion
 
     def get_raw_doc_path(self, stem_folder, folder):
         return 'files/' + folder + '/documents/' + stem_folder + 'raw-documents'
@@ -105,9 +111,9 @@ class Common:
         self.file_handling.save_file(data, test_query_path)
 
     def read_top_documents_for_score(self, stem = False, folder='test-collection', query_index = 0,\
-        top = 100, score='bm25'):
+        top = 100, score='bm25', filter_queries=False, query_expansion=False):
         stem_folder = 'stem-' if stem else ''
-        model_file_path = self.get_score_path(stem_folder, score, folder) + '/' + str(query_index)
+        model_file_path = self.get_score_path(stem_folder, score, folder, filter_queries=filter_queries, query_expansion=query_expansion) + '/' + str(query_index)
         lines = self.file_handling.read_file_lines(model_file_path)
         top_docs = []
         i = 0

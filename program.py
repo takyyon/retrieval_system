@@ -48,46 +48,46 @@ class Program:
 
     def run_on_folder(self, folder='test-collection', fresh=False):
         
-        self.crawler.run(folder=folder, tag=('p' if fresh else 'pre'))
-        sleep(2)
+        # self.crawler.run(folder=folder, tag=('p' if fresh else 'pre'))
+        # sleep(2)
         
-        self.gram.run(folder=folder)
-        sleep(2)
+        # self.gram.run(folder=folder)
+        # sleep(2)
 
-        self.crawler.save_doc_length(folder=folder)
-        sleep(2)
+        # self.crawler.save_doc_length(folder=folder)
+        # sleep(2)
 
-        self.indexer.run(folder=folder)
-        sleep(2)
+        # self.indexer.run(folder=folder)
+        # sleep(2)
 
-        if fresh:
-            self.read_queries(folder)
+        # if fresh:
+        #     self.read_queries(folder)
 
-        self.baseline_runs.run(folder=folder)
-        sleep(2)
+        # self.baseline_runs.run(folder=folder)
+        # sleep(2)
 
-        self.run_query_expansion(folder=folder)
+        # self.run_query_expansion(folder=folder)
 
-        self.baseline_runs.run(folder=folder, filter_queries=True)
-        sleep(2)
+        # self.baseline_runs.run(folder=folder, filter_queries=True)
+        # sleep(2)
 
-        self.baseline_runs.run(folder=folder, filter_queries=True, query_expansion=True)
-        sleep(2)
+        # self.baseline_runs.run(folder=folder, filter_queries=True, query_expansion=True)
+        # sleep(2)
 
-        self.run_query_highlighting(folder=folder) 
-        sleep(2)
+        # self.run_query_highlighting(folder=folder) 
+        # sleep(2)
 
         self.evaluation.run(folder=folder)
         sleep(2)
 
-        wrong_queries = self.common.get_queries(stem=True)
-        if fresh:
-            wrong_queries = self.read_queries(folder, wrong=True)
-        self.spell_checker.run(folder=folder, queries=wrong_queries)
-        sleep(2)
+        # wrong_queries = self.common.get_queries(stem=True)
+        # if fresh:
+        #     wrong_queries = self.read_queries(folder, wrong=True)
+        # self.spell_checker.run(folder=folder, queries=wrong_queries)
+        # sleep(2)
 
-        if not fresh:
-            self.run_stemmed_document_case(folder=folder)
+        # if not fresh:
+        #     self.run_stemmed_document_case(folder=folder)
 
     def read_queries(self, folder, wrong=False):
         if wrong:
