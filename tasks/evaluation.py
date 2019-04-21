@@ -49,6 +49,8 @@ class Evaluation:
         return (relevant_docs, relevancy_count)
     
     def get_precision_in_top_k(self, k, relevancy_count):
+        if k > len(relevancy_count):
+            return 0.0
         return (relevancy_count[k - 1]/k)
 
     def get_average_precision(self, relevant_docs, retrieved_docs, relevancy_count):

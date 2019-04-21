@@ -46,9 +46,9 @@ class Program:
 
         self.baseline_runs.run(stem=True)
 
-    def run_on_folder(self, folder='test-collection'):
+    def run_on_folder(self, folder='test-collection', fresh=False):
         
-        self.crawler.run(folder)
+        self.crawler.run(folder=folder, tag=('p' if fresh else 'pre'))
         sleep(2)
         
         self.gram.run(folder=folder)
@@ -59,6 +59,9 @@ class Program:
 
         self.indexer.run(folder=folder)
         sleep(2)
+
+        if fresh:
+            self.read_queries(folder)
 
         self.baseline_runs.run(folder=folder)
         sleep(2)
@@ -77,19 +80,33 @@ class Program:
         self.evaluation.run(folder=folder)
         sleep(2)
 
-        self.spell_checker.run(queries=self.common.get_queries(stem=True))
+        wrong_queries = self.common.get_queries(stem=True)
+        if fresh:
+            wrong_queries = self.read_queries(folder, wrong=True)
+        self.spell_checker.run(folder=folder, queries=wrong_queries)
         sleep(2)
 
-        self.run_stemmed_document_case(folder=folder)
+        if not fresh:
+            self.run_stemmed_document_case(folder=folder)
 
+    def read_queries(self, folder, wrong=False):
+        if wrong:
+            print('Incorrect queries for spell-checker\n')
+        query_path = raw_input('Give the complete path for the file containing a list of Queries\n' +\
+            '(Each Query should be in a new line): ')
+        queries = self.file_handling.read_file_lines(query_path)
+        if wrong:
+            return queries
+        query_path = self.common.get_query_file_path(folder=folder)
+        self.file_handling.save_file('\n'.join(queries), query_path)
 
     def run_fresh_urls(self):
-        url_path = input('Give the complete path for the file containing a list of URLS\n' +\
-            + ' (Each URL should be in a new line): ')
+        url_path = raw_input('Give the complete path for the file containing a list of URLS\n' +\
+            '(Each URL should be in a new line): ')
         urls = self.file_handling.read_file_lines(url_path)
         folder = 'fresh-run'
         self.crawler.crawl_urls(folder, urls)
-        self.run_on_folder(folder)
+        self.run_on_folder(folder, fresh=True)
 
     def run(self):
         inp = self.get_initial_run()
