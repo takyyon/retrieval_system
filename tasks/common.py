@@ -46,6 +46,9 @@ class Common:
         return 'files/' + folder + '/indexes/' + stem_folder  +\
             indexer + '-index/' + 'gram_' + str(gram)
 
+    def get_query_file_path(self, folder='test-collection', stem=False):
+         return 'files/' + folder + '/' + ('stem_' if stem else '') + 'query.txt'
+
     def get_stopwords(self, folder='test-collection'):
         common_words_path = 'files/common_words'
         common_words = self.file_handling.read_file_lines(common_words_path)
@@ -55,7 +58,7 @@ class Common:
         return words
 
     def get_queries(self, stem=False, folder='test-collection'):
-        query_file_path = 'files/' + folder + '/' + ('stem_' if stem else '') + 'query.txt'
+        query_file_path = self.get_query_file_path(folder=folder, stem=stem)
         print('\n' + self.utility.line_break + '\n' +\
             'Reading Queries from ' +\
                 query_file_path)

@@ -30,12 +30,12 @@ class Crawler:
             print('Saving Document content...')
             self.file_handling.save_file(tokenized_data, content_path + d)
     
-    def get_header(self, html):
+    def get_header(self, content):
         headers = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
         for header in headers:
-            content = self.utility.getAllHTMLTags(html_content, header)
+            content = self.utility.getAllHTMLTags(content, header)
             if len(content) > 0:
-                return content[0]
+                return content[0].get_text().replace(' ', '_')
         return self.utility.get_random_string()
 
     def crawl_urls(self, folder, urls, stem=False):
@@ -90,6 +90,6 @@ class Crawler:
                     data += ' '.join(l) + ' '
                 self.file_handling.save_file(data, stem_content_path + doc_id)
 
-    def run(self, folder='test-collection', urls=[], stem=False, tag='p'):
+    def run(self, folder='test-collection', stem=False, tag='p'):
         self.stem_folder = 'stem-' if stem else ''
         self.save_document_content(folder, tag)
