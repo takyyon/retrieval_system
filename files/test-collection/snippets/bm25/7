@@ -1,6 +1,6 @@
-Snippets for the query:  Addressing schemes for resources in networks; resource addressing in network operating systems
+Snippets for the query:  Q7
 ************************
-Total Hits:  27
+Total Hits:  160
 ************************
 
 ************************
@@ -8,183 +8,1208 @@ Document:  CACM-2541.html
 ************************
 
 
-An Overview of the ISPL Computer System Design
+an overview of the ispl computer system design
 
-This paper explores the advantages of the concurrent
+this paper explores the advantages of the concurrent
 design of the language, operating system, 
 and machine (via microcode) to create an interactive programming
-laboratory.  It describes the synergistic 
+laboratory.  it describes the synergistic 
 effect that the freedom to move and alter features from
 one of these domains to another has had on the 
 design of this system (which has not been implemented).
- This freedom simplified both incremental compilation 
+ this freedom simplified both incremental compilation 
 and the system's addressing structure, and centralized the
 communication mechanisms enabling the construction 
-of hierarchical subsystems.  It also suggested an important
-new concept for <B>operating systems</B>: separation 
+of hierarchical subsystems.  it also suggested 
+************************
+.  it also suggested an important
+new concept for operating systems: separation 
+of the 
+************************
+: separation 
 of the scheduling from the maintenance functions in resource
-allocation. This separation enables incorporation 
+allocation. this separation enables incorporation 
 of new scheduling algorithms (decision of what to do) without
 endangering the system integration (correctly 
 performing the scheduling decisions).
 
-CACM February, 1973
+cacm february, 1973
 
-Balzer, R. M.
+balzer, r. m.
 
 concurrent design, operating-system, scheduling,
 interprogram communication, incremental compilation, 
 virtual addressing, debugging, hierarchical subsystems
 
-4.0 4.13 4.22 4.30 4.32 4.41 4.42 6.20
+4.0 4.13 4.22 4.30 
+************************
 
-CA730207 JB January 24, 1978  1:59 PM
+************************
+Document:  CACM-1723.html
+************************
 
-1323	4	2541
-1358	4	2541
-1380	4	2541
-1665	4	2541
-1781	4	2541
-1787	4	2541
-1989	4	2541
-2112	4	2541
-2193	4	2541
-2326	4	2541
-2477	4	2541
-2534	4	2541
-2541	4	2541
-2541	4	2541
-2594	4	2541
-2698	4	2541
-2733	4	2541
-2820	4	2541
-3004	4	2541
-3073	4	2541
-3155	4	2541
-2541	5	2541
-2541	5	2541
-2541	5	2541
-3186	5	2541
-799	5	2541
 
+computer construction of project networks
+
+project networks are 
+************************
+s
+
+project networks are used in pert and 
+************************
+s are used in pert and cpm.
+ an algorithm is given for constructing project 
+networks directly from the project 
+************************
+s directly from the project precedence relations.
+ the algorithm creates "dummy" activities and 
+topologically orders the arcs and nodes.  the number of
+nodes created is minimal for the given precedence 
+relations.  it has been experimentally programmed
+in fortran ii for the ibm 7094.
+
+cacm july, 1968
+
+fisher, a. c.
+liebman, j. s.
+nemhauser, g. l.
+
+project networks, pert, cpm, topological
 
 ************************
 
 ************************
-Document:  CACM-2950.html
+Document:  CACM-3126.html
+************************
+************************
+Document:  CACM-3032.html
 ************************
 
 
-A Unifying Approach to Scheduling
+reverse path forwarding of broadcast packets
 
-This paper presents a scheme for classifying
-scheduling algorithms based on an abstract model 
-of a scheduling system which formalizes the notion of
-priority.  Various classes of scheduling algorithms
-are defined and related to existing algorithms.  A
-criterion for the implementation efficiency of an 
-algorithm is developed and results in the definition
-of time-invariant algorithms, which include most 
-of the commonly implemented ones.  For time-invariant
-algorithms, the dependence of processing rates 
-on priorities is derived.  The abstract model provides
-a framework for implementing flexible schedulers 
-in real <B>operating systems</B>.  The policy-driven scheduler
-of Bernstein and Sharp is discussed as an example 
-of such an implementation
+a broadcast packet is for delivery to all
+nodes of a network.  algorithms for accomplishing 
+this delivery through a store-and-forward packet switching
+ computer network include (1) transmission 
+of separately addressed packets. (2) multidestination
+addressing, (3) hot potato forwarding,(4) 
+************************
+, (3) hot potato forwarding,(4) spanning 
+tree forwarding, and (5) source based forwarding.  to
+this list of algorithms we add (6) reverse path 
+forwarding, a broadcast routing method which exploits
+routing procedures and data structures already 
+available for packet switching.  reverse path forwarding
+is a practical algorithm for broadcast routing 
+ in store-and-forward packet switching computer networks.
+ the algorithm is 
+************************
+s.
+ the algorithm is described as being practical 
+ because it is not optimal according to metrics developed
+for its analysis in this paper, and also because 
+it can be implemented in existing networks with less complexity
 
-CACM July, 1977
+************************
+s with less complexity
+than that required for the known alternatives. 
 
-Ruschitzka, M.
-Fabry, R. S.
+cacm december, 1978
 
-scheduling algorithms, scheduling models, priority,
-operating systems,processor sharing, implementation 
-efficiency
+dalal, y.
+metcalfe, r.
 
-4.31 4.32 4.34 4.35 8.1
+reverse path forwarding, broadcast packets, routing,
+computer networks, store-and-forward 
+************************
 
-CA770702 JB December 28, 1977  12:32 PM
+************************
+Document:  CACM-0071.html
+************************
+************************
+Document:  CACM-2379.html
+************************
 
-2950	4	2950
-3072	4	2950
-2219	5	2950
-2950	5	2950
-2950	5	2950
-2950	5	2950
 
+the design of the venus operating system
+
+the venus operating system is an experimental
+multiprogramming system which supports five or 
+six concurrent users on a small computer.  the system was
+produced to test the effect of machine architecture 
+on complexity of software.  the system is defined by
+a combination of microprograms and software.  the 
+microprogram defines a machine with some unusual architectural
+feature; the software exploits these features 
+to define the operating system as simply as possible.
+ in this paper the development of the system is 
+described, with particular emphasis on the principles which guided the design.
+
+cacm march, 1972
+
+liskov, b. h.
+
+operating systems, system design, levels 
+************************
+
+************************
+Document:  CACM-1750.html
+************************
+
+
+considerations in the design of a multiple
+computer system with extended core storage
+
+the use of large quantities of addressable
+(but not executable) fast random access memory to 
+heighten the multiprogramming performance of a multicomputer system
+is discussed.  the general design 
+of the hardware arrangement and the software components
+and functions of such a system are based on a 
+planned configuration of dual cdc 6600's that share one
+million words of extended core storage.  in the 
+generalization of such a design, special emphasis is
+placed on estimating expected gains when compared 
+with the traditional configuration of separate and independent
+computers without extended core storage. 
+ an observation is made on the use of conventional, slower
+speed, random access storage devices in place 
+of the faster memory.
+
+cacm may, 1968
+
+fuchel, k.
+heller, s.
+
+multiple computer systems, extended core storage,
+multiprogrammed operating systems, multiprocessor 
+************************
+ systems, multiprocessor 
+operating systems, control data 
+************************
+ systems, control data corporation 6600, operating system with ecs
+
+4.30 
+************************
+
+************************
+Document:  CACM-3059.html
+************************
+
+
+models for parallel processing within programs:
+application to cpu:i/o and i/o:i/o overlap
+
+approximate queueing models for internal parallel
+processing by individual programs in a multiprogrammed 
+system are developed in this paper.  the solution technique
+is developed by network decomposition.  the 
+models are formulated in terms of cpu:i/o and i/o:i/o overlap
+and applied to the analysis of these problems. 
+ the percentage performance improvement from cpu:i/o
+overlap is found to be greatest for systems which 
+are in approximate 
+************************
+
+************************
+Document:  CACM-2372.html
+************************
+
+
+on the implementation of security measures in information systems
+
+the security of an information system may be
+represented by a model matrix whose elements are 
+decision rules and whose row and column indices are
+users and data items respectively.  a set of four 
+functions is used to access this matrix at translation
+and execution time.  distinguishing between data 
+dependent and data independent decision rules enables
+one to perform much of the checking of security 
+only once at translation time rather than repeatedly
+at execution time.  the model is used to explain 
+security features of several existing systems, and serves
+as a framework for a proposal for general security 
+system implementation within today's languages and operating systems.
+
+cacm april, 
+************************
+ systems.
+
+cacm april, 1972
+
+conway, r. w.
+maxwell, w. l.
+morgan, h. l.
+
+security, privacy, access control confidentiality,
+operating systems, access management, 
+************************
+
+************************
+Document:  CACM-0828.html
+************************
+
+
+incompressible flow network calculations
+
+a general method for the calculation of flows
+and pressures in fluid flow networks is presented. 
+ the 
+************************
+
+************************
+Document:  CACM-1591.html
+************************
+
+
+a model for a multifunctional teaching system
+
+a teaching system model that was incorporated
+into an operating system of a large computer 
+is described.  the model transferred control to the
+operating system to execute functions other than 
+teaching, and then recovered control in order to resume
+teaching.  the teaching system (abac-ii) was 
+written to run under the operating system (ibsys) for
+the ibm 7044 graphic system.  because the teaching 
+system automatically terminated and rescheduled itself,
+a student studying a course presented at a cathode-ray 
+display terminal could switch readily between student
+mode and programmer mode.  during the latter, the 
+full resources of the operating system 
+************************
+
+************************
+Document:  CACM-1877.html
+************************
+
+
+prevention of system deadlocks
+
+a well-known problem in the design of operating
+systems is the selection of 
+************************
+ is the selection of a resource allocation 
+policy that will prevent deadlock.  deadlock is the
+situation in which resources have been allocated 
+************************
+ have been allocated 
+to various tasks in such a way that none of the tasks
+can continue.  the various published solutions 
+have been somewhat restrictive: either they do not handle
+the problem in sufficient generality or they 
+suggest policies which will on occasion refuse a request
+which could have been safely granted.  algorithms 
+are presented which examine a request in the light of
+the current allocation of resources and determine 
+whether 
+************************
+
+************************
+Document:  CACM-2614.html
+************************
+
+
+arrow to precedence network transformation [h] (algorithm a481)
+
+cacm august, 1974
+
+crandall, k. c.
+
+critical path, networks, precedence networks
+
+************************
+, precedence networks
+
+3.23 5.40
+
+ca740810 
+************************
+
+************************
+Document:  CACM-2522.html
+************************
+
+
+the design, implementation, and evaluation of a working set dispatcher
+
+the behavior of a computer system is largely
+dependent upon the algorithms employed to allocate 
+the system resources to the processes competing 
+************************
+s to the processes competing for them.
+ recent research in time-sharing paging systems 
+has developed the working set model for program behavior,
+and are source allocation strategy based on 
+this model has been proposed.  two implementations
+along these principles have been reported, but it 
+seems that in neither case have further results been
+announced.  this report discusses the design and 
+implementation of a dispatcher based on the working set
+principle, presents data to permit analysis of 
+its behavior, and indicates future directions of research
+on methods of controlling a computer system.
+
+cacm april, 1973
+
+rodriguez-rosell, j.
+dupuy, j. p.
+
+working set, dispatcher, scheduler, time-sharing
+systems, resource allocation, software evaluation, 
+operating systems, supervisory 
+************************
+
+************************
+Document:  CACM-2578.html
+************************
+
+
+self-stabilizing systems in spite of distributed control
+
+cacm november, 1974
+
+dijkstra, e. w.
+
+multiprocessing, networks, self-stabilization, 
+************************
+
+************************
+Document:  CACM-2500.html
+************************
+
+
+a practical approach to managing resources and avoiding deadlocks
+
+************************
+s and avoiding deadlocks
+
+resource scheduling and allocation can be expensive
+with regard to time and space in multiprogramming 
+or time-sharing environments involving large numbers of
+tasks and resources with conflicting requirements. 
+ detection and/or prevention of deadlocks can require
+massive amounts of additional overhead if efficient 
+usage of resources is to be maintained.  a resource
+management program is described which uses linked 
+lists along with other techniques to overcome a large
+portion of this overhead.  the program, which is 
+currently running as part of a large scale general purpose
+operating system, keeps resources 
+************************
+ system, keeps resources relatively 
+active 
+************************
+
+************************
+Document:  CACM-3092.html
+************************
+
+
+characteristics of application software maintenance
+
+maintenance and enhancement of application
+software consume a major portion of the total life 
+cycle cost of a system.  rough estimates of the total
+systems and programming resources consumed range 
+as 
+************************
+s consumed range 
+as high as 75-80 percent in each category.  however,
+the area has been given little attention in the 
+literature.  to analyze the problems in this area a
+questionnaire was developed and pretested.  it was 
+then submitted to 120 organizations.  respondents totaled
+69.  responses were analyzed with the spss 
+statistical package.  the results of the analysis indicate
+that: (1) maintenance and enhancement do consume 
+much of the total resources of systems and programming
+groups; 
+************************
+
+************************
+Document:  CACM-2485.html
+************************
+************************
+Document:  CACM-3072.html
+************************
+
+
+feedback coupled resource allocation policies
+in the multiprogramming- multiprocessor computer 
+system
+
+model studies of some integrated, feedback-driven
+scheduling systems for multiprogrammed- 
+************************
+ for multiprogrammed- multiprocessor 
+computer systems are presented.  the basic control variables
+used are the data-flow rates for the processes 
+executing on the cpu.  the model systems feature simulated
+continuous-flow and preempt-resume scheduling 
+of input-output activity.  attention is given to the
+amount of memory resource required for effective 
+************************
+
+************************
+Document:  CACM-2219.html
+************************
+
+
+a policy-driven scheduler for a time-sharing system
+
+the service received by a process from a time-sharing
+operating system can be characterized 
+by a resource count sum{w[i]r[ij]} 
+************************
+ count sum{w[i]r[ij]} where r[ij] is the
+number of units of service received by process 
+i from resource i and w[i] is the cost per unit of the
+service.  each class of users can be characterized 
+by a policy function which specifies the amount of service
+a user who belongs to this class should receive 
+as a function of time.  priority changes dynamically
+as a function of the difference between the service 
+promised to the user by the policy function and the service
+he actually receives.  a scheduling and swapping 
+algorithm which keeps the resource count of each process
+above its policy function will provide the specified 
+level of service.  overhead can be reduced by avoiding
+swaps of process which have received at least 
+his level of service.  the algorithm has been implemented
+in a general purpose operating system, and 
+it has 
+************************
+ system, and 
+it has provided significantly better service to interactive
+and to batch jobs than the previous scheduler.
+
+cacm february, 1971
+
+bernstein, a. j.
+sharp, j. c.
+
+scheduler, time-sharing, operating system,
+resource allocation and swapping
 
 ************************
 
+************************
+Document:  CACM-2890.html
+************************
+************************
+Document:  CACM-0003.html
+************************
 ************************
 Document:  CACM-2482.html
 ************************
 
 
-Mixed Solutions for the Deadlock Problem
+mixed solutions for the deadlock problem
 
-Mixtures of detection, avoidance, and prevention
+mixtures of detection, avoidance, and prevention
 provide more effective and practical solutions 
-to the deadlock problem than any one of these alone.  The
+to the deadlock problem than any one of these alone.  the
 individual techniques can be tailored for subproblems 
 of resource allocation and still operate together to
-prevent deadlocks.  This paper presents a method, 
+prevent deadlocks.  this paper presents a method, 
 based on the concept of the hierarchical operating
 system, for constructing appropriate mixtures and 
 suggests appropriate subsystems for the most frequently
+
+************************
+ for the most frequently
 occurring resource allocation problems
 
-CACM July, 1973
+cacm july, 1973
 
-Howard, J. H. Jr.
+howard, j. h. jr.
 
-deadlocks, resource allocation, <B>operating systems</B>,
-multiprogramming, hierarchical systems
+deadlocks, resource allocation, operating systems,
+multiprogramming, hierarchical 
+************************
 
-4.30 4.32
+************************
+Document:  CACM-2892.html
+************************
 
-CA730704 JB January 23, 1978  12:46 PM
 
-1828	4	2482
-1854	4	2482
-1877	4	2482
-1960	4	2482
-2150	4	2482
-2228	4	2482
-2280	4	2482
-2280	4	2482
-2317	4	2482
-2319	4	2482
-2377	4	2482
-2342	4	2482
-2376	4	2482
-2379	4	2482
-2379	4	2482
-2379	4	2482
-2424	4	2482
-2482	4	2482
-2482	4	2482
-2482	4	2482
-2500	4	2482
-2618	4	2482
-2632	4	2482
-2704	4	2482
-2723	4	2482
-2738	4	2482
-2740	4	2482
-2740	4	2482
-2741	4	2482
-2851	4	2482
-2867	4	2482
-2920	4	2482
-3184	4	2482
-1749	5	2482
-1877	5	2482
-2228	5	2482
-2482	5	2482
-2482	5	2482
-2482	5	2482
+a study of line overhead in the arpanet
 
+the form, extent, and effect of the communication line
+overhead in the arpanet are considered. 
+ the source of this over head is separated into various
+levels of protocol hierarchy and the characteristics 
+of each level are summarized.  then the line efficiency
+for various models of system use is studied. 
+ some measurements of line efficiency for the arpanet are
+presented and by extrapolation these measurements 
+are used to anticipate overhead in a heavily loaded network.
+similar results are derived for a recently 
+proposed network protocol and compared with those for the current system.
+
+cacm january, 1976
+
+kleinrock, l.
+naylor, w. e.
+opderbeck, h.
+
+arpanet, computer communication networks, interprocess
+communication, 
+************************
+
+************************
+Document:  CACM-3076.html
+************************
+
+
+value conflicts and social choice in electronic
+funds transfer system developments
+
+during the last few years, computer-based
+systems which automate the transfer and recording 
+of debits and credits have begun to be implemented on
+a large scale.  these systems promise both financial 
+benefits for the institutions that use them and potential
+conveniences to their customers.  however, 
+they also raise significant social, legal, and technical
+questions that must be resolved if full scale 
+systems for electronic funds transfer (eft) are not
+to cause more problems for the larger public than 
+they solve.  this paper examines the incentives for eft
+developments and the social problems they raise 
+in the context of conflicts between five different value
+positions that are often implicit in analyses 
+of proposed eft arrangements.  these conflicts reflect
+the relative importance of certain problems for 
+specific groups.  the value positions implicit in eft proposals
+help to organize analyses of market arrangements, 
+system reliability, and privacy of transactions.  these
+topics are analyzed in this article and related 
+to the value positions held by concerned parties.  last,
+the ways in which the public can learn about 
+the social qualities of different eft arrangements and
+the pace of eft developments are both discussed 
+in the context of social choice. 
+
+cacm august, 1978
+
+kling, r.
+
+electronic funds transfer systems, social impacts
+of computing, privacy, social choice, computer 
+networks, network reliability, 
+************************
+
+************************
+Document:  CACM-3088.html
+************************
+
+
+general equations for idealized cpu-i/o overlap configurations
+
+general equations are derived for estimating
+the maximum possible utilization of main storage 
+partitions, cpu and i/o devices under different conditions
+in an idealized cpu-i/o overlap model of multiprogrammed 
+computer systems.  the equations are directly applicable
+to any configuration consisting  of sets of 
+identical cpu's i/o processors, main storage partitions
+and user tasks.  examples are provided to illustrate 
+the use of the equations to compute effective processing
+time per record and expected timesharing response 
+time under both balanced and unbalanced resource utilization conditions. 
+************************
+
+************************
+Document:  CACM-2194.html
+************************
+************************
+Document:  CACM-2258.html
+************************
+************************
+Document:  CACM-2020.html
+************************
+
+
+the allocation of computer resources-is pricing the answer?
+
+************************
+s-is pricing the answer?
+
+the widespread use of complex third generation computing systems has led to a 
+much broader concern about the means by which the resources of these systems
+are 
+************************
+s of these systems
+are allocated among the user community.  one means that is suggested
+more and more frequently is a pricing procedure.  in this
+paper the manner in which one would like to allocate computing resources
+is considered, and 
+************************
+s
+is considered, and then the extent to which a pricing mechanism fits this mold 
+is discussed.  inasmuch as pricing must serve as a rationing mechanism at 
+times, consideration is given to the means by which prices can be adjusted 
+flexibly in order to make a dynamic allocation of resources.  consideration is 
+************************
+s.  consideration is 
+also given to the means by which users can be insulated from the harmful 
+effects of frequent price fluctuations.  although the subject of pricing has
+been given a lot of attention recently, a number of misconceptions
+persist about its purpose and its operation.  an attempt is made to clarify 
+some of these misunderstandings and to highlight the advantages and 
+disadvantages and to highlight the advantages and disadvantages of pricing. two
+illustrative pricing systems are also discussed in order to demonstrate the 
+applicability of pricing in quite different environments.
+
+cacm august, 1970
+
+nielsen, n. r.
+
+allocation mechanisms, charging, computer pricing,
+costing, flexible pricing, pricing, priority charges,
+resource allocation, user motivation
+
+************************
+
+************************
+Document:  CACM-1677.html
+************************
+
+
+storage organization in programming systems
+
+the system of program and data representation
+that has been in use on the rice university computer 
+for five years is described.  each logical entity in storage
+occupies a block of consecutive memory locations. 
+ each block is labeled by a codeword and may contain
+a program, a data vector, or codewords which in 
+turn label blocks to form arrays.  this storage arrangement
+is discussed with its realized advantages 
+or programming systems: simplicity of programmed addressing,
+flexibility of data 
+************************
+
+************************
+Document:  CACM-1754.html
+************************
+
+
+dynamic storage allocation systems
+
+in many recent computer system designs, hardware
+facilities have been provided for easing the 
+problems of storage allocation.  a method of characterizing
+dynamic storage allocation systems-according 
+to the functional capabilities provided and the underlying
+techniques used-is presented.  the basic purpose 
+of the paper is to provide a useful perspective from
+which the utility of various hardware facilities 
+may be assessed.  a brief survey of storage allocation
+facilities in several representative computer 
+systems is included as an appendix.
+
+cacm may, 1968
+
+randell, b.
+kuehner, c. j.
+
+segmentation, paging, multiprogramming, storage
+allocation, storage management, virtual memories, 
+storage fragmentation, storage hierarchies, addressing mechanisms
+
+4.30 6.20
+
+************************
+
+************************
+Document:  CACM-1938.html
+************************
+
+
+some criteria for time-sharing system performance
+
+time-sharing systems, as defined in this article,
+are those multiaccess systems which permit 
+a terminal user to utilize essentially the full resources
+of the system while 
+************************
+s
+of the system while sharing its time with other 
+terminal users.  it is each terminal user's ability
+to utilize the full resources of the system that 
+************************
+
+************************
+Document:  CACM-2358.html
+************************
+
+
+the multics virtual memory: concepts and design
+
+as experience with use of on-line operating
+systems has grown, the need 
+************************
+ has grown, the need to share information 
+among system users has become increasingly apparent.
+ many contemporary systems permit some degree of 
+sharing.  usually, sharing is accomplished by allowing
+several users to share data via input and output 
+of information stored in files kept in secondary storage.
+ through the use of segmentation, however, 
+multics provides direct hardware addressing by user and
+system programs of all information, independent 
+of its physical storage location.  information is stored
+in segments each of which is potentially sharable 
+and carries its own independent attributes of size and access
+privilege.  here, the design and implementation 
+considerations of segmentation and sharing in multics
+are first discussed under the assumption that all 
+information resides in large, segmented main memory. 
+since the size of main memory on contemporary systems 
+is rather limited, it is then shown how the multics
+software achieves the effect of a large segmented 
+main memory through the use of the honeywell
+645 segmentation and paging hardware.
+
+cacm may, 1972
+
+bensoussan, a.
+clingen, c. t.
+daley, r. c.
+
+operating system, multics, virtual 
+************************
+
+************************
+Document:  CACM-2849.html
+************************
+
+
+ethernet: distributed packet switching for local computer networks
+
+ethernet is a branching 
+************************
+s
+
+ethernet is a branching broadcast communication
+system for carrying digital data packets among 
+locally distributed computing stations. the packet
+transport mechanism provided by ethernet has been 
+used to build systems which can be viewed as either local
+computer networks or loosely coupled 
+************************
+s or loosely coupled multiprocessors. 
+ an ethernet's shared communication facility, its ether,
+is a passive broadcast medium with no central 
+control.  coordination of access to the ether for packet
+broadcasts is distributed among the contending 
+transmitting stations using controlled statistical arbitration.
+ switching of packets to their destinations 
+on the ether is distributed among the receiving stations
+using packet address recognition.  design principles 
+and implementation are described, based on experience
+with an operating ethernet of 100 nodes along a 
+kilometer of coaxial cable.  a model for estimating performance
+under heavy loads and a packet protocol 
+for error controlled communication are included for completeness.
+
+cacm july, 1976
+
+metcalfe, r. m.
+boggs, d. r.
+
+computer networks, packet switching, 
+************************
+
+************************
+Document:  CACM-2499.html
+************************
+
+
+efficient multiprogramming resource allocation and accounting
+
+although sometimes thought of as only a component
+of time-sharing operation, multiprogramming 
+can involve broader questions of resource allocation,
+since fairness is not required to meet a response 
+criterion.  in a multiprogrammed system, it may serve
+maximal resource use to be unfair, for example 
+by holding an input/output channel idle for a program
+while it completes a small amount of processor 
+usage, enabling further use of the channel.  several
+applications of this principle are given, and it 
+is suggested that a multiprogramming executive might
+dynamically adjust its allocation algorithms to 
+gain efficiency.  allocation of resources is closely connected
+
+************************
+ is closely connected
+to accounting for those resources, raising 
+the problems 
+************************
+s, raising 
+the problems of repeatability, minimal uncharged overhead,
+and relative weighting of charges for dependent 
+resources.  since weightings 
+************************
+s.  since weightings may depend on allocation
+algorithms, these are not arbitrary accounting 
+parameters.  often the only repeatable accounting is
+one which omits an extensive overhead will be paid, 
+and should multiprogramming prove efficient, overcharges
+will result.  multiprogramming turns on allocation 
+of the memory resource essential to control of other
+resources.  the general suggestions 
+************************
+
+************************
+Document:  CACM-1735.html
+************************
+
+
+a futures market in computer time
+
+an auction method is described for allocating
+computer time that allows the price of computer 
+time to fluctuate with the demand and the relative priority
+of users to be controlled so that more important 
+projects get better access.  this auction is free of the
+periodic fluctuation in computer use often associated 
+with monthly time allocation schemes.
+
+cacm june, 1968
+
+sutherland, i. e.
+
+computer scheduling, auction, time allocation, operating efficiency
+
+2.40
+
+ca680610 
+************************
+
+************************
+Document:  CACM-2905.html
+************************
+************************
+Document:  CACM-0441.html
+************************
+
+
+topological sorting of large networks
+
+topological sorting 
+************************
+s
+
+topological sorting is a procedure required
+for many problems involving analysis of networks. 
+ an example of one 
+************************
+s. 
+ an example of one such problem is pert.  the present
+paper presents a very general method for obtaining 
+topological order.  it permits treatment of larger networks
+than can be handled 
+************************
+
+************************
+Document:  CACM-2080.html
+************************
+
+
+the nucleus of a multiprogramming system
+
+this paper describes the philosophy and structure of a multiprogramming system 
+that can be extended with a hierarchy of operating systems to suit diverse 
+requirements 
+************************
+ to suit diverse 
+requirements of program scheduling and resource allocation.  the system
+nucleus simulates an environment in which program execution and input/output
+are handled uniformly as parallel, cooperating process
+es.  a fundamental set of primitives allows the dynamic creation and control
+of a hierarchy of processes as well as the communication among them.
+
+cacm april, 1970
+
+hansen, p. b.
+
+multiprogramming, operating systems, parallel processes, 
+************************
+
+************************
+Document:  CACM-2515.html
+************************
+
+
+minimal event-node network of project precedence relations
+
+a procedure for constructing a minimal event-node
+network to represent a set of precedence 
+relations without parallel activities is presented.  a
+minimal event-node network is an event-node network 
+in which both the number of nodes and the number of arcs
+are the minima to preserve the given precedence 
+relations counterexamples are given to show that the
+algorithm presented by a. c. fisher, j. s. liebman, 
+and g. l. nemhauser (1968) produces event-node networks
+which are not minimal. 
+************************
+
+************************
+Document:  CACM-0912.html
+************************
+************************
+Document:  CACM-1811.html
+************************
+
+
+a case study in programming for parallel-processors
+
+an affirmative partial answer is provided to
+the question of whether it is possible to program 
+parallel-processor computing systems to efficiently decrease
+execution time for useful problems.  parallel-processor 
+systems are multiprocessor systems in which several of
+the processors can simultaneously execute separate 
+tasks of a single job, thus cooperating to decrease
+the solution 
+************************
+ to decrease
+the solution time of a computational problem. the 
+processors have independent instruction counters, meaning
+that each processor executes its own task program 
+relatively independently of the other processors.  communication
+between cooperating processors is by 
+means of data in storage shared by all processors.  a
+program for the determination of the distribution 
+of current in an electrical network was written for a
+parallel-processor 
+************************
+
+************************
+Document:  CACM-3158.html
+************************
+
+
+secure personal computing in an insecure network
+
+a method for implementing secure personal computing in a network
+with one or more central facilities is proposed.  the method employs a
+public-key encryption device and hardware keys.  each user is responsible 
+for his own security and need not rely on the security of
+the central facility or the communication links.  a user can safely
+store confidential files in the central facility or transmit confidential 
+data to other users on the network. 
+
+cacm august, 1979
+
+denning, d.
+
+personal computing, security, privacy, networks, public-key encryption
+
+************************
+
+************************
+Document:  CACM-0796.html
+************************
+************************
+Document:  CACM-3083.html
+************************
+************************
+Document:  CACM-2597.html
+************************
+
+
+monitors: an operating system structuring concept
+
+this paper develops brinch-hansen's concept of
+a monitor as a method of structuring an operating 
+system.  it introduces a form of synchronization, describes
+a possible method of implementation in terms 
+of semaphores and gives a suitable proof rule.  illustrative
+examples include a single resource scheduler, 
+a bounded buffer, an alarm clock, a buffer pool, a
+disk head optimizer, and a version of the problem 
+of readers and writers.
+
+cacm october, 1974
+
+hoare, c. a. r.
+
+monitors, operating systems, scheduling, mutual
+
+************************
+
+************************
+Document:  CACM-2949.html
+************************
+
+
+a correctness proof of a topology information
+main tenance protocol for a distributed computer 
+network
+
+in order for the nodes of a distributed computer
+network to communicate, each node must have 
+information about the network's topology.  since nodes
+and links sometimes crash, a scheme is needed 
+to update this information.  one of the major constrain ts
+on such a topology information scheme is that 
+it may not involve a central controller.  the topology
+information protocol that was implemented on the 
+merit computer network is presented and explained; this
+protocol is quite general and could be implemented 
+on any computer network.  it is based on baran's "hot
+potato heuristic routing doctrine."  a correctness 
+proof of this topology information protocol is also presented.
+
+cacm july, 1977
+
+tajibnapis, w. d.
+
+distributed computer network, correctness proofs,
+computer networks, distributed control, network 
+topology, routing problem in networks, distributed operating
+system, store and forward 
+************************
+
+************************
+Document:  CACM-1680.html
+************************
+
+
+a general-purpose display processing and tutorial system
+
+adept (a display-expedited processing and tutorial)
+system is described.  this system was designed 
+to improve man-computer communications by employing
+a display unit to interleave tutoring with other 
+computer operations such as simulation, programming, and
+information retrieval.  it is written in fortran 
+iv (g) for the ibm system/360, model 40, and the ibm 2250
+display unit under operating system/360.  adept 
+is a cataloged program that controls the standard operating
+system by terminating and rescheduling itself 
+automatically, relinquishing computer resources allocated
+to it, and 
+************************
+s allocated
+to it, and surrendering control to the operating 
+system to perform other jobs.  it expands the power
+and flexibility of computer-assisted instruction 
+by making immediately available to students, teachers,
+and other users, the full resources (system-cataloged 
+
+************************
+s (system-cataloged 
+programs) of the operating system.  language processors
+and compilers, simulation models, mathematical 
+solution techniques, stored data, and all other library and
+user programs can be incorporated into instructional 
+material without reprogramming.  illustrations of the various
+applications are presented and their implications 
+are discussed.
+
+cacm october, 1968
+
+engvold, k. j.
+hughes, j. l.
+
+computer-assisted instruction, tutorial systems,
+programming, simulation, 
+************************
+,
+programming, simulation, modeling, information 
+retrieval operating systems, graphics, displays, 
+************************
+
+************************
+Document:  CACM-2988.html
+************************
+
+
+memory management and response time
+
+this paper presents a computationally tractable
+methodology for including accurately the effects 
+of finite memory size and workload memory requirements
+in queueing network models of computer systems. 
+ empirical analyses 
+************************
+. 
+ empirical analyses and analytic studies based on applying
+this methodology to an actual multiaccess 
+in teractive system are reported.  relations between workload
+variables such as memory requirement distribution 
+and job swap time, and performance measures such as response
+time and memory utilization are graphically 
+displayed. a multiphase, analytically soluble model is
+proposed as being broadly applicable to the analysis 
+of in teractive computer systems which use nonpaged memories.
+
+cacm march, 1977
+
+brown, r. m.
+browne, j. c.
+chandy, k. m.
+
+memory management, system performance, queueing
+network models, in teractive 
+************************
+
+************************
+Document:  CACM-1695.html
+************************
+
+
+plexus-an on-line system for modeling neural networks
+
+a description is presented 
+************************
+s
+
+a description is presented of plexus, a system
+which enables a user to construct and specify 
+a neural network, to analyze the output data produced
+by the network, and to store and retrieve networks 
+and data from a library.  the system, operated entirely
+from a digital display unit, interacts directly 
+with the user and permits easy and rapid transitions
+between the various phases of the modeling process. 
+ plexus is designed to complement neurophysiological research
+so that the systematic development of neural 
+models can be coordinated with experimental work.  plexus
+networks are built up from components representing 
+individual neurons, external stimuli, and interconnecting
+fibers, each component being of a relatively 
+detailed nature.  provision is also made for the use of
+experimental data as input to a network.  convenient 
+means for specification and modification of a network and
+extensive error-checking capabilities are provided. 
+data resulting from the simulation of a network may be
+analyzed by a variety of techniques ranging from 
+examinations of the gross characteristics of the data to
+the determination of detailed statistical properties.
+
+cacm september, 1968
+
+dill, j. c.
+randall, d. l.
+richer, i.
+
+biological modeling, data analysis, discrete system
+simulation, library systems, modeling, network 
+
+************************
+, modeling, network 
+simulation, neural networks, neurophysiological
 
 ************************
 
@@ -193,70 +1218,443 @@ Document:  CACM-3177.html
 ************************
 
 
-How to Share a Secret
+how to share a secret
 
-In this paper we show how to divide data D into
-n pieces in such a way that D is easily reconstructable from any
+in this paper we show how to divide data d into
+n pieces in such a way that d is easily reconstructable from any
 k pieces, but even complete knowledge of k - 1 pieces reveals
-olutely no information about D.  This technique enables the construction
-of robust key management <B>schemes for</B> cryptographic systems
-that can function securely and reliably even when misfortunes destroy
-half the pieces and security breaches expose all but one of the
-remaining pieces.
+olutely no information about d.  this technique enables the construction
+of robust key management schemes for cryptographic systems
+that can function securely 
+************************
 
-CACM November, 1979
+************************
+Document:  CACM-0332.html
+************************
+************************
+Document:  CACM-0008.html
+************************
+************************
+Document:  CACM-3040.html
+************************
 
-Shamir, A.
 
-Cryptography, key management, interpolation
+synthesizing constraint expressions
 
-5.39 5.6
+a constraint network representation is presented
+for a combinatorial search problem: finding 
+values for a set of variables subject to a set of constraints.
+ a theory of consistency levels in such 
+networks is formulated, which 
+************************
+ is formulated, which is related to problems
+of backtrack tree search efficiency.  an algorithm 
+is developed that can achieve any level of consistency
+desired, in order to preprocess the problem for 
+subsequent backtrack search, or to function as an alternative
+to backtrack search by explicitly determining 
+all solutions.
 
-CA791105 DB January 23, 1980  11:48 AM
+cacm november, 1978
 
-3038	4	3177
-3111	4	3177
-3177	4	3177
-3021	5	3177
-3177	5	3177
-3177	5	3177
-3177	5	3177
+freuder, e.
+
+backtrack, combinatorial algorithms, constraint
+networks, constraint satisfaction, 
+************************
+
+************************
+Document:  CACM-2437.html
+************************
+************************
+Document:  CACM-2297.html
+************************
+
+
+a model of memory contention in a paging machine
+
+this paper is concerned with certain aspects of contention
+for main memory resources in a multiprogrammed 
+************************
+s in a multiprogrammed 
+computer system operating under demand paging.  in
+the model presented, the number of page-frames of 
+main memory allocated to a problem program varies in
+time.  these changes in memory configuration are 
+represented explicitly in the model, cpu requirements and
+page exception characteristics of program material 
+being described statistically.  expressions for the distribution
+of the number of page-frames allocated 
+to an executing program, the long run expected fraction
+of a program's execution time in a given number 
+of page-frames, and the average execution interval of the
+multiprogrammed load are obtained.  it is pointed 
+out heuristically and demonstrated numerically that
+an increase is obtain able in the average execution 
+interval of the multiprogrammed load over that resulting
+from equal fixed partitioning of main memory.
+
+cacm august, 1972
+
+oden, p. h.
+shedler, g. s.
+
+paging machines, demand paging, operating systems
+studies, queuing analysis, 
+************************
+
+************************
+Document:  CACM-2197.html
+************************
+
+
+the merit of regional computing networks
+
+one of the suggested 
+************************
+s
+
+one of the suggested means for stimulating the
+spread of computing capabilities in institutions 
+of higher learning is through the construction of regional
+computing networks.  one such network 
+************************
+s.  one such network has 
+been constructed in the san francisco bay area by stanford
+university.  this paper reports upon the lessons 
+learned from the operation of the network over the past
+two years.  a major impact of the network was 
+not so much the computer power delivered to the schools
+as the awakening of computing awareness and the 
+fostering of capability development at these schools. the
+expertise and assistance from the central facility
+as well as the sharing of ideas among the participants
+were other important benefits.  both the quality 
+and variety of services provided by the central facility
+were found to play a key role in the effectiveness 
+of the network.  a regional network brings many benefits
+and should not be judged as a purveyor of raw 
+computer power alone.
+
+cacm may, 1971
+
+nielsen, n. r.
+
+computer sharing, computer utility, cooperative networks,
+curriculum development, 
+************************
+,
+curriculum development, educational computing, 
+network computing, regional computing networks,
+remote computing, shared 
+************************
+
+************************
+Document:  CACM-1505.html
+************************
+************************
+Document:  CACM-1846.html
+************************
+
+
+on simulating networks of parallel processes
+
+************************
+s of parallel processes
+in which simultaneous events may occur
+
+some of the problems of simulating discrete
+event systems, particularly computer systems, on 
+a conventional digital computer are dealt with.  the
+systems are assumed to be described as a network 
+of interconnected sequential 
+************************
+
+************************
+Document:  CACM-1611.html
+************************
+
+
+scheduling project networks
+
+some of the basic 
+************************
+s
+
+some of the basic concepts and terminology
+of project networking are developed.  the critical 
+path algorithm incorporated in the c-e-i-r proprietary
+scheduling system ramps (resource allocation and 
+multi-project 
+************************
+
+************************
+Document:  CACM-2501.html
+************************
+************************
+Document:  CACM-2858.html
+************************
+************************
+Document:  CACM-1261.html
+************************
+
+
+modeling and simulation of digital networks
+
+the simulation of 
+************************
+s
+
+the simulation of digital networks on a digital
+computer 
+************************
+s on a digital
+computer provides the engineer with an effective 
+means of analyzing time-quantized logical behavior.  the
+digital network is modeled as a set of time-dependent 
+or time-independent boolean transformations; each transformation
+describing the input-output relationship 
+of a model element comprising the network mode.  the
+simplicity of utilizing the fortran iv programming 
+system as a digital network simulator is discussed an
+illustrated.  this simplicity is derived from a 
+common modeling technique applicable to combinational
+and sequential digital networks and a systematic 
+programming 
+************************
+
+************************
+Document:  CACM-2860.html
+************************
+************************
+Document:  CACM-2274.html
+************************
+
+
+generating english discourse from semantic networks
+
+a system is described 
+************************
+
+************************
+Document:  CACM-1685.html
+************************
+
+
+gan, a system for generating and analyzing activity networks
+
+gan, a system for 
+************************
+s
+
+gan, a system for generating activity networks,
+is designed to save 
+************************
+s,
+is designed to save time in the preparation 
+of activity networks and to deal conveniently 
+************************
+s and to deal conveniently with network
+programs.  a defining description of a programming 
+language designed for generating activity network from
+a set of standard networks is presented.  also, 
+************************
+ is presented.  also, 
+a general idea of a language for performing calculations
+on activity networks (scheduling activity 
+************************
+s (scheduling activity networks) 
+is given.
+
+cacm october, 
+************************
+
+************************
+Document:  CACM-0492.html
+************************
+************************
+Document:  CACM-3133.html
+************************
+
+
+logic and semantic networks
+
+an extended form of 
+************************
+s
+
+an extended form of semantic network is defined, which can
+be regarded as a syntactic variant of the clausal form of logic.
+by virtue of its relationship with logic, the extended
+semantic network is provided with a precise semantics,
+inference rules, and a procedural interpretation.  on
+the other hand, by regarding semantic networks as an 
+abstract data 
+************************
+ as an 
+abstract data structure for the representation of clauses, we provide a
+theorem-prover with a potentially useful indexing scheme and path-following
+strategy for guiding the search for a proof.
+
+cacm march, 1979
+
+deliyanni, a.
+kowalski, r.
+
+logic, semantic networks, theorem-proving, indexing, 
+************************
+
+************************
+Document:  CACM-3117.html
+************************
+
+
+the impact and use of computer technology by the police
+
+over the past decade there has been a significant growth
+in the use of computer technology by u. police departments.  this
+growth, however, has been at a slower rate than predicted in the
+early 1970's.  further, when computer applications extend
+beyond "routine" uses to "nonroutine" efforts, such as resource allocation
+or computer-aided-dispatch systems where the machine begins 
+************************
+
+************************
+Document:  CACM-3110.html
+************************
+************************
+Document:  CACM-0040.html
+************************
+************************
+Document:  CACM-1879.html
+************************
+************************
+Document:  CACM-2776.html
+************************
+
+
+computer networks in higher education: 
+************************
+s in higher education: socio-economic-political factors
+
+this study presents the results of a nationwide
+survey of computer networks in higher education 
+************************
+s in higher education 
+conducted during 1971-73.  five major and 18 minor networks
+were identified.  the 
+************************
+s
+were identified.  the five major networks 
+included: the arpa 
+************************
+s 
+included: the arpa net, the california state college network,
+the university of iowa/iowa state university 
+network, the michigan educational research information triad,
+inc., and the triangle universities computation 
+center network in north carolina. in-depth studies were
+conducted of the latter two nets.  based on the 
+experiences of these operating networks, a number of factors
+
+************************
+, a number of factors
+are identified for consideration in developing 
+networks.  finally, recommendations 
+************************
+s.  finally, recommendations are advanced regarding
+the development of networks in higher education 
+************************
+s in higher education 
+in the future.
+
+cacm april, 1975
+
+chambers, j. a.
+poore, r. v.
+
+networks, higher education
 
 
 ************************
 
 ************************
-Document:  CACM-3141.html
+Document:  CACM-1928.html
 ************************
 
 
-An Improved Algorithm for Decentralized Extrema-Finding
-in Circular Configurations of Processes
+exclusive simulation of activity in digital networks
 
-This note presents an improvement to LeLann's
-algorithm for finding the largest (or smallest) of a set of uniquely
-numbered processes arranged in a circle, in which no central
-controller exists and the number of processes is not known a priori.
-This decentralized algorithm uses a technique of selective
-message extinction in order to achieve an average number of
-message passes of order (n log n) rather than O(n2).  
+a technique for simulating 
+************************
+s
 
-CACM May, 1979
+a technique for simulating the detailed logic
+networks of large and active 
+************************
+s of large and active digital systems 
+is described.  essential objectives sought are improved
+ease and economy in model generation, economy 
+in execution time and space, and a facility for handling
+simultaneous activities.  the main results obtained 
+are a clear and useful separation of structural and behavioral
+model description, a reduction of manual 
+tasks in converting boolean logic into a structural model,
+the elimination of manual processes in achieving 
+exclusive simulation of activity, an event-scheduling
+technique which does not deteriorate in economy
+as the event queue grows in length, and a simulation
+procedure which deals effectively with any mixture 
+of serial and simultaneous activities.  the passage of
+time is simulated in a precise, quantitative fashion 
+and systems to be simulated may be combinations of synchronous
+and asynchronous logic.  certain aspects 
+of the techniques described may be used for the simulation
+of network structures other than digital networks.
 
-Chang, E.
-Roberts, R.
+cacm february, 1969
 
-Decentralized algorithms, distributed systems, <B>operating systems</B>
+************************
+.
 
-4.32 4.35 5.25 5.32
+cacm february, 1969
 
-CA790502 DH June 5, 1979  2:35 PM
+ulrich, e. g.
 
-3141	5	3141
-3141	5	3141
-3141	5	3141
+simulation, logical simulation, digital simulation,
+large systems simulation, network structures, 
+scheduling, 
+************************
+
+************************
+Document:  CACM-2109.html
+************************
+************************
+Document:  CACM-2371.html
+************************
 
 
+a system for interprocess communication
+in a resource sharing computer network
+
+a system of communication 
+************************
+
+
+a system of communication between processes in a
+time-sharing system is described and the communication 
+system is extended so that it may be used between processes
+distributed throughout a computer network. 
+ the hypothetical application of the system to an existing network is discussed.
+
+cacm april, 1972
+
+walden, d. c.
+
+interprocess communication, time-sharing,
+computer networks, resource sharing
+
+3.81 4.39 4.82 
 ************************
 
 ************************
@@ -264,156 +1662,52 @@ Document:  CACM-1751.html
 ************************
 
 
-The Working Set Model for Program Behavior
+the working set model for program behavior
 
-Probably the most basic reason behind the absence
+probably the most basic reason behind the absence
 of a general treatment of resource allocation 
-in modern computer systems is an adequate model for
-program behavior.  In this paper a new model, the 
-"working set model," is developed. The working set
+in modern computer systems is an adequate model 
+************************
+ is an adequate model for
+program behavior.  in this paper a new model, the 
+"working set model," is developed. the working set
 of pages associated with a process, defined to be 
 the collection of its most recently used pages, provides
 knowledge vital to the dynamic management of 
-paged memories.  "Process" and "working set" are shown to
+paged memories.  "process" and "working set" are shown to
 be manifestations of the same ongoing computational 
 activity; then "processor demand" and "memory demand"
 are defined; and resource allocation is formulated 
 as the problem of balancing demands against available equipment.
 
-CACM May, 1968
+cacm may, 1968
 
-Denning, P. J.
+denning, p. j.
 
 general operating system concepts, multiprocessing,
-multiprogramming, <B>operating systems</B>, program 
-behavior, program models, resource allocation, scheduling, storage allocation
+multiprogramming, operating systems, program 
+behavior, 
+************************
 
-4.30 4.32
-
-CA680505 JB February 23, 1978  9:33 AM
-
-1751	4	1751
-1892	4	1751
-2128	4	1751
-2218	4	1751
-1751	5	1751
-1751	5	1751
-1751	5	1751
-1752	5	1751
-1892	5	1751
-1901	5	1751
-2085	5	1751
-2095	5	1751
-2218	5	1751
-2277	5	1751
-2319	5	1751
-2329	5	1751
-2358	5	1751
-2373	5	1751
-2380	5	1751
-2434	5	1751
-2499	5	1751
-2501	5	1751
-2582	5	1751
-2669	5	1751
-2828	5	1751
-2863	5	1751
-2881	5	1751
-2928	5	1751
-2996	5	1751
-3006	5	1751
-3067	5	1751
-168	6	1751
-185	6	1751
-1380	6	1751
-1408	6	1751
-1410	6	1751
-1502	6	1751
-1526	6	1751
-1572	6	1751
-1572	6	1751
-1719	6	1751
-1728	6	1751
-1728	6	1751
-1728	6	1751
-1728	6	1751
-1746	6	1751
-1749	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1751	6	1751
-1753	6	1751
-1754	6	1751
-1754	6	1751
-1754	6	1751
-1752	6	1751
-1752	6	1751
-1810	6	1751
-1810	6	1751
-1879	6	1751
-1879	6	1751
-1884	6	1751
-1884	6	1751
-274	6	1751
-1901	6	1751
-1901	6	1751
-1924	6	1751
-1951	6	1751
-2004	6	1751
-2016	6	1751
-2017	6	1751
-2017	6	1751
-2017	6	1751
-2080	6	1751
-2095	6	1751
-2130	6	1751
-2188	6	1751
-2203	6	1751
-2204	6	1751
-2277	6	1751
-2358	6	1751
-2374	6	1751
-2374	6	1751
-2374	6	1751
-2373	6	1751
-2373	6	1751
-2373	6	1751
-2373	6	1751
-2380	6	1751
-2522	6	1751
-2569	6	1751
-2595	6	1751
-2595	6	1751
-2595	6	1751
-2682	6	1751
-2751	6	1751
-2841	6	1751
-2863	6	1751
-2863	6	1751
-2864	6	1751
-3006	6	1751
+************************
+Document:  CACM-0144.html
+************************
 
 
+do it by the numbers-digital shorthand
+
+present communications systems transmit single
+characters in groups of coded pulses between 
+simple terminal equipments.  since english words form only
+a sparse set of all possible alphabetic combinations, 
+present methods are inefficient when computer systems
+are substituted for these terminals.  using numeric 
+representations of entire words or common phrases (rather
+than character-by-character representations) 
+requires approximately one-third of present transmission
+time.  this saving is reflected in overall costs. 
+ other benefits accrue in code and language translation
+schemes. provision is made for 
 ************************
 
 ************************
@@ -421,48 +1715,30 @@ Document:  CACM-3127.html
 ************************
 
 
-Thoth, a Portable Real-Time Operating System 
+thoth, a portable real-time operating system 
 
-Thoth isa real-time operating system which is designed to be portable
-over a large set of machines.  It is currently running on two minicomputers
-with quite different architectures.  Both the system and application
+thoth isa real-time operating system which is designed to be portable
+over a large set of machines.  it is currently running on two minicomputers
+with quite different architectures.  both the system and application
 programs which use it are written in a high-level language.
-Because the system is implemented by the same software on different
-hardware, it has the same interface to user programs.  Hence,
-application programs which use Thoth are  highly portable.  Thoth
+because the system is implemented by the same software on different
+hardware, it has the same interface to user programs.  hence,
+application programs which use thoth are  highly portable.  thoth
 encourages structuring programs as networks of communicating processes 
+************************
+s of communicating processes 
 by providing efficient interprocess communication primitives.
 
-CACM February, 1979
+cacm february, 1979
 
-Cheriton, D.
-Malcolm, M.
-Melen, L.
-Sager, G.
+cheriton, d.
+malcolm, m.
+melen, l.
+sager, g.
 
-Portability, real time, <B>operating systems</B>, minicomputer
+portability, real time, operating systems, minicomputer
 
-3.80 4.30 4.35
-
-CA790206 DH April 12, 1979  9:10 AM
-
-2319	4	3127
-2378	4	3127
-2320	4	3127
-2632	4	3127
-2738	4	3127
-2740	4	3127
-2868	4	3127
-2928	4	3127
-3127	4	3127
-3127	4	3127
-2080	5	3127
-2277	5	3127
-3127	5	3127
-3127	5	3127
-3127	5	3127
-
-
+3.80 
 ************************
 
 ************************
@@ -470,467 +1746,47 @@ Document:  CACM-3068.html
 ************************
 
 
-A Model for Verification of Data Security in Operating Systems
+a model for verification of data security in operating systems
 
-Program verification applied to kernel architectures
+program verification 
+************************
+
+
+program verification applied to kernel architectures
 forms a promising method for providing 
-uncircumventably secure, shared computer systems.  A
+uncircumventably secure, shared computer systems.  a
 precise definition of data security is developed 
-here in terms of a general model for <B>operating systems</B>.
- This model is suitable as a basis for verifying 
+here in terms of a general model for operating systems.
+ this model 
+************************
+ systems.
+ this model is suitable as a basis for verifying 
 many of those properties of an operating system which
+are necessary 
+************************
+ system which
 are necessary to assure reliable enforcement of 
-security.  The application of this approach to the
-UCLA secure operating system is also discussed. 
+security.  the application of this approach to the
+ucla secure operating system is also discussed. 
 
-CACM September, 1978
+cacm september, 1978
 
-Popek, G..
-Farber, D.
+popek, g..
+farber, d.
 
-Operating systems, security, protection, program verification
-
-4.35 5.24
-
-CA780904 DH February 5, 1979  2:40 PM
-
-2021	4	3068
-2222	4	3068
-2227	4	3068
-2315	4	3068
-2326	4	3068
-2470	4	3068
-2732	4	3068
-2865	4	3068
-2896	4	3068
-2943	4	3068
-3014	4	3068
-3068	4	3068
-3068	4	3068
-3077	4	3068
-3143	4	3068
-1834	5	3068
-2869	5	3068
-3068	5	3068
-3068	5	3068
-3068	5	3068
-3105	5	3068
-1471	6	3068
-2625	6	3068
-2632	6	3068
-2868	6	3068
-2939	6	3068
-3068	6	3068
-
-
+operating systems, security, protection, 
 ************************
 
 ************************
-Document:  CACM-2069.html
+Document:  CACM-1461.html
 ************************
 
 
-Comments on a Paper by Wallace and Mason
+discussion summary on operating systems
 
-CACM April, 1970
+cacm march, 1966
 
-Heess Jr., W. F.
-
-page-on-demand, demand paging, time-sharing multiprogramming,
-Markovian computer models, scheduling strategies,
-<B>operating systems</B>, memory management
-
-2.44 4.32 4.39 6.20 6.21
-
-CA700415 JB February 13, 1978  2:36 PM
-
-2069	5	2069
-2069	5	2069
-2069	5	2069
-
-
-************************
-
-************************
-Document:  CACM-2379.html
-************************
-
-
-The Design of the Venus Operating System
-
-The Venus Operating System is an experimental
-multiprogramming system which supports five or 
-six concurrent users on a small computer.  The system was
-produced to test the effect of machine architecture 
-on complexity of software.  The system is defined by
-a combination of microprograms and software.  The 
-microprogram defines a machine with some unusual architectural
-feature; the software exploits these features 
-to define the operating system as simply as possible.
- In this paper the development of the system is 
-described, with particular emphasis on the principles which guided the design.
-
-CACM March, 1972
-
-Liskov, B. H.
-
-<B>operating systems</B>, system design, levels of abstraction,
-machine architecture, microprogramming, 
-segments, semaphores, multiprogramming, virtual machines,
-processes, process communication, virtual devices, 
-data sharing, resource management, deadlock
-
-4.30 4.32 4.41 6.21
-
-CA720302 JB January 31, 1978  3:16 PM
-
-1828	4	2379
-1854	4	2379
-1877	4	2379
-1960	4	2379
-2150	4	2379
-2228	4	2379
-2280	4	2379
-2280	4	2379
-2317	4	2379
-2319	4	2379
-2377	4	2379
-2342	4	2379
-2376	4	2379
-2379	4	2379
-2379	4	2379
-2379	4	2379
-2424	4	2379
-2482	4	2379
-2482	4	2379
-2482	4	2379
-2500	4	2379
-2618	4	2379
-2632	4	2379
-2704	4	2379
-2723	4	2379
-2738	4	2379
-2740	4	2379
-2740	4	2379
-2741	4	2379
-2851	4	2379
-2867	4	2379
-2920	4	2379
-3184	4	2379
-1749	5	2379
-1877	5	2379
-2228	5	2379
-2379	5	2379
-2379	5	2379
-2379	5	2379
-2704	5	2379
-2867	5	2379
-1247	6	2379
-1552	6	2379
-1749	6	2379
-1749	6	2379
-2247	6	2379
-2356	6	2379
-2379	6	2379
-2379	6	2379
-2673	6	2379
-
-
-************************
-
-************************
-Document:  CACM-1750.html
-************************
-
-
-Considerations in the Design of a Multiple
-Computer System with Extended Core Storage
-
-The use of large quantities of addressable
-(but not executable) fast random access memory to 
-heighten the multiprogramming performance of a multicomputer system
-is discussed.  The general design 
-of the hardware arrangement and the software components
-and functions of such a system are based on a 
-planned configuration of dual CDC 6600's that share one
-million words of extended core storage.  In the 
-generalization of such a design, special emphasis is
-placed on estimating expected gains when compared 
-with the traditional configuration of separate and independent
-computers without extended core storage. 
- An observation is made on the use of conventional, slower
-speed, random access storage devices in place 
-of the faster memory.
-
-CACM May, 1968
-
-Fuchel, K.
-Heller, S.
-
-multiple computer systems, extended core storage,
-multiprogrammed <B>operating systems</B>, multiprocessor 
-operating systems, control data corporation 6600, operating system with ECS
-
-4.30 4.32
-
-CA680506 JB February 23, 1978  9:27 AM
-
-1750	5	1750
-1750	5	1750
-1750	5	1750
-2988	5	1750
-1750	6	1750
-
-
-************************
-
-************************
-Document:  CACM-2297.html
-************************
-
-
-A Model of Memory Contention in a Paging Machine
-
-This paper is concerned with certain aspects of contention
-for main memory resources in a multiprogrammed 
-computer system operating under demand paging.  In
-the model presented, the number of page-frames of 
-main memory allocated to a problem program varies in
-time.  These changes in memory configuration are 
-represented explicitly in the model, CPU requirements and
-page exception characteristics of program material 
-being described statistically.  Expressions for the distribution
-of the number of page-frames allocated 
-to an executing program, the long run expected fraction
-of a program's execution time in a given number 
-of page-frames, and the average execution interval of the
-multiprogrammed load are obtained.  It is pointed 
-out heuristically and demonstrated numerically that
-an increase is obtain able in the average execution 
-interval of the multiprogrammed load over that resulting
-from equal fixed partitioning of main memory.
-
-CACM August, 1972
-
-Oden, P. H.
-Shedler, G. S.
-
-paging machines, demand paging, <B>operating systems</B>
-studies, queuing analysis, memory contention, 
-memory management
-
-4.32
-
-CA720805 JB January 30, 1978  9:50 AM
-
-1879	4	2297
-1884	4	2297
-1892	4	2297
-1901	4	2297
-1924	4	2297
-2095	4	2297
-2095	4	2297
-2218	4	2297
-2277	4	2297
-2297	4	2297
-2297	4	2297
-2365	4	2297
-2374	4	2297
-2526	4	2297
-2667	4	2297
-2668	4	2297
-2862	4	2297
-2863	4	2297
-1728	5	2297
-1754	5	2297
-2297	5	2297
-2297	5	2297
-2297	5	2297
-
-
-************************
-
-
-
-A Model of Memory Contention in a Paging Machine
-
-This paper is concerned with certain aspects of contention
-for main memory <B>resources in</B> a multiprogrammed 
-computer system operating under demand paging.  In
-the model presented, the number of page-frames of 
-main memory allocated to a problem program varies in
-time.  These changes in memory configuration are 
-represented explicitly in the model, CPU requirements and
-page exception characteristics of program material 
-being described statistically.  Expressions for the distribution
-of the number of page-frames allocated 
-to an executing program, the long run expected fraction
-of a program's execution time in a given number 
-of page-frames, and the average execution interval of the
-multiprogrammed load are obtained.  It is pointed 
-out heuristically and demonstrated numerically that
-an increase is obtain able in the average execution 
-interval of the multiprogrammed load over that resulting
-from equal fixed partitioning of main memory.
-
-CACM August, 1972
-
-Oden, P. H.
-Shedler, G. S.
-
-paging machines, demand paging, operating systems
-studies, queuing analysis, memory contention, 
-memory management
-
-4.32
-
-CA720805 JB January 30, 1978  9:50 AM
-
-1879	4	2297
-1884	4	2297
-1892	4	2297
-1901	4	2297
-1924	4	2297
-2095	4	2297
-2095	4	2297
-2218	4	2297
-2277	4	2297
-2297	4	2297
-2297	4	2297
-2365	4	2297
-2374	4	2297
-2526	4	2297
-2667	4	2297
-2668	4	2297
-2862	4	2297
-2863	4	2297
-1728	5	2297
-1754	5	2297
-2297	5	2297
-2297	5	2297
-2297	5	2297
-
-
-************************
-
-************************
-Document:  CACM-2424.html
-************************
-
-
-Dynamic Verification of Operating System Decisions
-
-Dynamic verification of a decision implies
-that every time the decision is made there is a 
-consistency check performed on the decision using independent
-hardware and software.  The dynamic verification 
-of operating system decisions is used on the PRIME system
-being designed and constructed at the University 
-of California, Berkeley.  PRIME is an experimental time-sharing
-which is to have the properties of continuous 
-availability, data privacy, and cost effectiveness.
- The technique of dynamic verification allows the 
-construction of an operating system which does not make certain
-decisions improperly even in the presence 
-of a single hardware or software fault.  Furthermore,
-multiple faults lead to unreliable operation only 
-if the faults happen to reinforce each other.  On PRIME,
-dynamic verification is used to ensure that 
-one user's information cannot become available to another
-user gratuitously even in the presence of a 
-single hardware or software fault.the amount of additional
-hardware and software required for dynamic 
-verification can be modest.
-
-CACM November, 1973
-
-Fabry, R. S.
-
-<B>operating systems</B>, data security, fault tolerance,
-software reliability, data privacy, program 
-verification, modular computer systems
-
-4.32
-
-CA731102 JB January 20, 1978  10:56 AM
-
-1828	4	2424
-1854	4	2424
-1877	4	2424
-1960	4	2424
-2150	4	2424
-2317	4	2424
-2319	4	2424
-2377	4	2424
-2342	4	2424
-2376	4	2424
-2379	4	2424
-2424	4	2424
-2482	4	2424
-2618	4	2424
-2632	4	2424
-2704	4	2424
-2723	4	2424
-2738	4	2424
-2740	4	2424
-2741	4	2424
-2867	4	2424
-3184	4	2424
-1749	5	2424
-2424	5	2424
-2424	5	2424
-2424	5	2424
-
-
-************************
-
-************************
-Document:  CACM-2372.html
-************************
-
-
-On the Implementation of Security Measures in Information Systems
-
-The security of an information system may be
-represented by a model matrix whose elements are 
-decision rules and whose row and column indices are
-users and data items respectively.  A set of four 
-functions is used to access this matrix at translation
-and execution time.  Distinguishing between data 
-dependent and data independent decision rules enables
-one to perform much of the checking of security 
-only once at translation time rather than repeatedly
-at execution time.  The model is used to explain 
-security features of several existing systems, and serves
-as a framework for a proposal for general security 
-system implementation within today's languages and <B>operating systems</B>.
-
-CACM April, 1972
-
-Conway, R. W.
-Maxwell, W. L.
-Morgan, H. L.
-
-security, privacy, access control confidentiality,
-operating systems, access management, data banks, 
-management information systems
-
-3.50 3.73 4.12 4.22 4.39
-
-CA720401 JB January 31, 1978  1:59 PM
-
-1753	4	2372
-2358	4	2372
-2377	4	2372
-2372	4	2372
-2626	4	2372
-2840	4	2372
-1746	5	2372
-2372	5	2372
-2372	5	2372
-2372	5	2372
-
-
+ca660311 
 ************************
 
 ************************
@@ -938,58 +1794,32 @@ Document:  CACM-1752.html
 ************************
 
 
-Resource Management for a Medium Scale Time-Sharing Operating system
+resource management for a medium scale time-sharing operating system
 
-Task scheduling and resource balancing for
+task scheduling 
+************************
+ system
+
+task scheduling and resource balancing for
 a medium size virtual memory paging machine are 
 discussed in relation to a combined batch processing
-and time-sharing environment.  A synopsis is given 
+and time-sharing environment.  a synopsis is given 
 of the task scheduling and paging algorithms that were implemented,
 and the results of comparative simulation 
 are given by tracing the development of the algorithms
-through six predecessor versions.  Throughout 
+through six predecessor versions.  throughout 
 the discussion particular emphasis is placed on balancing
 the system performance relative to the characteristics 
-of all the system resources.  Simulation results relative
+of all the system resources.  simulation results relative
 to alternate hardware characteristics and the 
 effects of program mix and loading variations are also presented.
 
-CACM May, 1968
+cacm may, 1968
 
-Oppenheimer, G.
-Weizer, N.
+oppenheimer, g.
+weizer, n.
 
-time-sharing, <B>operating systems</B>, resource management,
-task scheduling, paging, system simulation, 
-memory management, virtual memories
-
-4.30 4.31 4.32
-
-CA680504 JB February 23, 1978  9:39 AM
-
-1751	5	1752
-1752	5	1752
-1752	5	1752
-1752	5	1752
-1892	5	1752
-2128	5	1752
-2218	5	1752
-1380	6	1752
-1526	6	1752
-1572	6	1752
-1572	6	1752
-1728	6	1752
-1728	6	1752
-1751	6	1752
-1751	6	1752
-1752	6	1752
-1752	6	1752
-1752	6	1752
-1752	6	1752
-1810	6	1752
-1879	6	1752
-2095	6	1752
-
+time-sharing, operating systems, resource management,
 
 ************************
 
@@ -998,293 +1828,331 @@ Document:  CACM-2621.html
 ************************
 
 
-A High Security Log-in Procedure
+a high security log-in procedure
 
-The protection of time sharing systems from
+the protection of time sharing systems from
 unauthorized users is often achieved by the use 
-of passwords.  By using one-way ciphers to code the passwords,
+of passwords.  by using one-way ciphers to code the passwords,
 the risks involved with storing the passwords 
-in the computer can be avoided.  We discuss the selection
+in the computer can be avoided.  we discuss the selection
 of a suitable one-way cipher and suggest that 
 for this purpose polynomials over a prime modulus are
-superior to one-way ciphers derived from Sannon 
+superior to one-way ciphers derived from sannon 
 codes.
 
-CACM August, 1974
+cacm august, 1974
 
-Purdy, G. B.
+purdy, g. b.
 
-<B>operating systems</B>, time sharing systems, security, cryptography
+operating systems, time sharing 
+************************
 
-4.35
+************************
+Document:  CACM-2920.html
+************************
 
-CA740803 JB January 17, 1978  10:10 AM
 
-2621	5	2621
-2621	5	2621
-2621	5	2621
+game interpretation of the deadlock avoidance problem
 
+the deadlock avoidance problem may be defined
+informally as the determination, from some a 
+priori information about the processes, resources, operating
+system, 
+************************
+s, operating
+system, etc., of the "safe situations" which 
+may be realized without endangering the smooth running
+of the system.  when each process specifies its 
+future needs by a flowchart of need-defined steps, a global
+approach to the phenomenon and its in terpretation 
+as a game between the operating system and the processes
+allows formalization of risk and safety concepts. 
+ the bipartite graph representation of this game may
+then be used to construct explicitly the set of safe 
+states and to study their properties.
+
+cacm october, 1977
+
+devillers, r.
+
+operating system, multiprogramming, time-sharing,
+resource allocation, deadlock, 
+************************
+
+************************
+Document:  CACM-2900.html
+************************
+
+
+some theorems to aid in solving the file allocation problem
+
+the file allocation problem-i.e. the problem
+of finding the optimal set of network sites at 
+which to locate copies of a file-is known to be, in general,
+polynomial complete.  heuristics and other 
+aids to finding optimal, or near-optimal, solutions are
+therefore much needed.  in this paper we present 
+three theorems which can be applied a priori to indicate
+that certain sites should (or should not) be 
+included in an optimal allocation.
+
+cacm november, 1977
+
+grapa, e.
+belford, g. g.
+
+file allocation, computer networks, distributed data management
 
 ************************
 
 ************************
-Document:  CACM-2080.html
+Document:  CACM-1247.html
 ************************
 
 
-The Nucleus of a Multiprogramming System
+an operating environment for dynamic-recursive
+computer programming systems
 
-This paper describes the philosophy and structure of a multiprogramming system 
-that can be extended with a hierarchy of <B>operating systems</B> to suit diverse 
-requirements of program scheduling and resource allocation.  The system
-nucleus simulates an environment in which program execution and input/output
-are handled uniformly as parallel, cooperating process
-es.  A fundamental set of primitives allows the dynamic creation and control
-of a hierarchy of processes as well as the communication among them.
+presented in this paper 
+************************
 
-CACM April, 1970
 
-Hansen, P. B.
+presented in this paper is a brief nontechnical
+introduction to oedipus, a computer programming 
+system which can serve as an operating environment for
+dynamic and/or recursive programs and programming 
+systems.  the available services 
+************************
 
-multiprogramming, operating systems, parallel processes, process concept,
-process communication, message buffering, process
-hierarchy, process creation, process removal
+************************
+Document:  CACM-2969.html
+************************
 
-4.30 4.31 4.32 4.41
 
-CA700404 JB February 13, 1978  3:10 PM
+optimal program and data locations in computer networks
 
-1657	4	2080
-2080	4	2080
-2357	4	2080
-2536	4	2080
-1523	5	2080
-2080	5	2080
-2080	5	2080
-2080	5	2080
-2319	5	2080
-2320	5	2080
-2378	5	2080
-2632	5	2080
-2738	5	2080
-2740	5	2080
-2868	5	2080
-3127	5	2080
-1408	6	2080
-1471	6	2080
-1471	6	2080
-1719	6	2080
-1749	6	2080
-1749	6	2080
-1749	6	2080
-1749	6	2080
-1751	6	2080
-1877	6	2080
-2016	6	2080
-2017	6	2080
-2080	6	2080
-2080	6	2080
-2080	6	2080
-2080	6	2080
-2080	6	2080
-2080	6	2080
-2080	6	2080
-2080	6	2080
-2150	6	2080
-2188	6	2080
-2203	6	2080
-2204	6	2080
-2247	6	2080
-2277	6	2080
-2356	6	2080
-2377	6	2080
-2380	6	2080
-2558	6	2080
-2625	6	2080
-2632	6	2080
-2777	6	2080
+an optimization procedure 
+************************
+s
 
+an optimization procedure for the allocation
+of program and data files in a computer network 
+is presented.  this algorithm takes into account the
+dependencies between files and programs such as 
+occur in real heterogeneous computer networks.  insights
+into whether 
+************************
+.  insights
+into whether or not to convert programs from 
+one computer to another can also be gained from the
+model.  a search procedure for the file location 
+problem is described, along with an example
+and a possible application of the model.
+
+cacm may, 1977
+
+morgan, h. l.
+levin, k. d.
+
+computer networks, databases, distributed
 
 ************************
 
 ************************
-Document:  CACM-2111.html
+Document:  CACM-2712.html
 ************************
 
 
-Spelling Correction in Systems Programs
+horner's rule for the evaluation of general closed queueing networks
 
-Several specialized techniques are shown for efficiently
-incorporating spelling correction algorithms in
-to compilers and <B>operating systems</B>.  These include the use of syntax
-and semantics information, the organization of restricted keyword
-and symbol tables, and the consideration of a limited class of spelling
-errors.  Sample 360 coding for performing spelling correction
-is presented.  By using systems which perform spelling correction,
-the number of debugging runs per program has been decreased,
-saving both programmer and machine time.
+the solution of separable 
+************************
+s
 
-CACM February, 1970
+the solution of separable closed queueing networks
+requires the evaluation 
+************************
+s
+requires the evaluation of homogeneous multinomial 
+expressions.  the number of terms in those expressions
+grows combinatorially with the size of the network 
+such that a direct summation may become impractical.  an
+algorithm is given which does not show a combinatorial 
+operation count.  the algorithm is based on a generalization
+of horner's rule for polynomials.  it is 
+also shown how mean queue size and throughput an be obtained
+at negligible extra cost once the normalization 
+constant is evaluated.
 
-Morgan, H. L.
+cacm october, 1975
 
-spelling correction, error correction, debugging, compilers,
-operating systems, diagnostics, error detection, 
-misspelling, lexical analysis systems programming
+reiser, m.
+kobayashi, h.
 
-4.42 4.12 3.0 3.79
-
-CA700204 JB February 14, 1978  10:40 AM
-
-1112	4	2111
-1179	4	2111
-1288	4	2111
-1544	4	2111
-1592	4	2111
-1592	4	2111
-1646	4	2111
-2111	4	2111
-2111	4	2111
-2111	4	2111
-2111	4	2111
-2339	4	2111
-2339	4	2111
-2339	4	2111
-2534	4	2111
-2556	4	2111
-440	4	2111
-2650	4	2111
-1112	5	2111
-1592	5	2111
-2111	5	2111
-2111	5	2111
-2111	5	2111
-2534	5	2111
-2556	5	2111
-2650	5	2111
-2708	5	2111
-2887	5	2111
-619	5	2111
-830	5	2111
-830	6	2111
-830	6	2111
-830	6	2111
-1477	6	2111
-1491	6	2111
-1646	6	2111
-1787	6	2111
-1787	6	2111
-1935	6	2111
-1936	6	2111
-1959	6	2111
-1973	6	2111
-2111	6	2111
-2111	6	2111
-2111	6	2111
-2111	6	2111
-2111	6	2111
-2182	6	2111
-2534	6	2111
-2556	6	2111
-576	6	2111
-680	6	2111
-680	6	2111
-799	6	2111
-
-
+queueing networks, queueing theory horner's 
 ************************
 
 ************************
-Document:  CACM-2522.html
+Document:  CACM-2830.html
+************************
+************************
+Document:  CACM-2128.html
 ************************
 
 
-The Design, Implementation, and Evaluation of a Working Set Dispatcher
+a processor allocation method for time-sharing
 
-The behavior of a computer system is largely
-dependent upon the algorithms employed to allocate 
-the system resources to the processes competing for them.
- Recent research in time-sharing paging systems 
-has developed the working set model for program behavior,
-and are source allocation strategy based on 
-this model has been proposed.  Two implementations
-along these principles have been reported, but it 
-seems that in neither case have further results been
-announced.  This report discusses the design and 
-implementation of a dispatcher based on the working set
-principle, presents data to permit analysis of 
-its behavior, and indicates future directions of research
-on methods of controlling a computer system.
+a scheduling algorithm is proposed which is intended to minimize changes of 
+tasks on processors and thereby reduce over-head.  the algorithm also has
+application to more general resource allocation problems.  it is implemented 
+by means of a method for efficiently handling dynamically changing segmented 
+lists.
 
-CACM April, 1973
+cacm january, 1970
 
-Rodriguez-Rosell, J.
-Dupuy, J. P.
+mullery, a. p.
+driscoll, g. c.
 
-working set, dispatcher, scheduler, time-sharing
-systems, resource allocation, software evaluation, 
-<B>operating systems</B>, supervisory systems
-
-4.31 4.32
-
-CA730406 JB January 24, 1978  9:36 AM
-
-2522	5	2522
-2522	5	2522
-2522	5	2522
-2928	5	2522
-1751	6	2522
-2277	6	2522
-2380	6	2522
-2522	6	2522
-2569	6	2522
-
-
+time sharing, resource allocation, scheduling algorithms,
+monitors, dynamic allocation, processor
+allocation, multiprogramming, multiprocessing, time
+slicing, scheduling, conversational systems, 
+interactive systems 
 ************************
 
+************************
+Document:  CACM-1869.html
+************************
+************************
+Document:  CACM-2991.html
+************************
+************************
+Document:  CACM-3053.html
+************************
 ************************
 Document:  CACM-2798.html
 ************************
 
 
-Analysis of Interleaved Memory Systems Using Blockage Buffers
+analysis of interleaved memory systems using blockage buffers
 
-A model of interleaved memory systems is presented,
-and the analysis of the model by Monte 
-Carlo simulation is discussed.  The simulations investigate
+a model of interleaved memory systems is presented,
+and the analysis of the model by monte 
+carlo simulation is discussed.  the simulations investigate
 the performance of various system structures, 
-i.e. <B>schemes for</B> sending instruction and data requests
-to the memory system.  Performance is measured 
-by determining the distribution of the number of memory
-modules in operation during a memory cycle.  
-An important observation from these investigations is that
-separately grouping instruction and data requests 
-for memory can substantially increase the average number
-of memory modules in operation during a memory 
-cycle.  Results of the simulations and an analytical
-study are displayed for various system structures.
+i.e. schemes for sending instruction 
+************************
 
-CACM February, 1975
+************************
+Document:  CACM-2951.html
+************************
 
-Burnett, G. J.
-Coffman, E. G. Jr.
 
-interleaved memory systems, modular memory systems,
-memory performance analysis, blockage buffer, 
-conflict buffer, simulation, Monte Carolo simulation
+dynamic response time prediction for computer networks
 
-5.5 6.34
+if the ultimate aim 
+************************
+s
 
-CA750201 JB January 12,1978  8:54 AM
+if the ultimate aim of a computing network
+is resource sharing, then the human 
+************************
+ sharing, then the human component as 
+well as the technical component of networking must
+be fully investigated to achieve this goal.  this 
+research is a first step toward assisting the user in participating
+in the vast store of resources available 
+on a network. 
+************************
+s available 
+on a network. analytical, simulation, and statistical performance
+evaluation tools are employed to investigate 
+the feasibility of a dynamic response time monitor
+that is capable of providing comparative response 
+time information for users wishing to process various
+computing applications at some network computing 
+node.  the research clearly reveals that sufficient
+system data are currently obtainable, at least for 
+the five diverse arpa network systems studied in detail,
+to describe and predict the response time for 
+network time-sharing systems as it depends on some
+measure of system activity or load level.
 
-2798	5	2798
-2798	5	2798
-2798	5	2798
-3119	5	2798
-2245	6	2798
-2798	6	2798
-2849	6	2798
-2859	6	2798
+cacm july, 1977
+
+mamrak, s. a.
+
+response time monitor, computer networks, time-sharing
+systems, 
+************************
+, time-sharing
+systems, comparative response time, arpa 
+network, anlytic modeling, simulation, 
+************************
+
+************************
+Document:  CACM-0615.html
+************************
+************************
+Document:  CACM-2625.html
+************************
+
+
+capability-based addressing
+
+various addressing schemes making use of segment
+
+************************
+ making use of segment
+tables are examined.  the inadequacies of 
+these schemes when dealing with shared addresses are
+explained. these inadequacies are traced to the 
+lack of an efficient absolute address for objects in
+these systems.  the direct use of a capability as 
+an address is shown to overcome these difficulties
+because it provides the needed absolute address.  
+implementation of capability-based addressing is discussed.
+ it is predicted that the use of tags to 
+identify capabilities will dominate.  a hardware address
+translation scheme which never requires the 
+modification of the representation of capabilities is
+suggested. the scheme uses a main memory hash table 
+for obtaining a segment's location in main memory given
+its unique code.  the hash table is avoided for
+recently accessed segments by means of a set of associative
+registers.  a computer using capability-based 
+addressing may be substantially superior to present
+systems on the basis of protection, simplicity of 
+programming conventions, and efficient implementation.
+
+cacm july, 1974
+
+fabry, r. s.
+
+addressing, capabilities, addressing hardware,
+protection, protection hardware, shared addresses, 
+information sharing, operating systems, computer
+utility, 
+************************
+
+************************
+Document:  CACM-2095.html
+************************
+
+
+measurements of segment size
+
+distributions of segment sizes measured under routine operating con
+ditions on a computer system which utilizes variable sized segments
+(the burroughs b5500) are discussed.  the most striking feature
+of the measurements is the large number of small segments-about 60
+percent of the segments in use contain less than 40 words.  although
+the results are certainly not installation independent, and although they 
+are particularly influenced by features of the b5500 algol system, they 
+should be relevant to the design of new computer systems,
+especially with respect to the organization of paging schemes.
+
+cacm march, 1970
 
 
 ************************
@@ -1294,429 +2162,58 @@ Document:  CACM-2320.html
 ************************
 
 
-Structured Multiprogramming
+structured multiprogramming
 
-This paper presents a proposal for structured
+this paper presents a proposal for structured
 representation of multiprogramming in a high 
-level language.  The notation used explicitly associates
+level language.  the notation used explicitly associates
 a data structure shared by concurrent processes 
-with operations defined on it.  This clarifies the meaning
+with operations defined on it.  this clarifies the meaning
 of programs and permits a large class of time-dependent 
-errors to be caught at compile time.  A combination of
+errors to be caught at compile time.  a combination of
 critical regions and event variables enables the 
 programmer to control scheduling of resources among
-competing processes to any degree desired.  These 
+competing processes to any degree desired.  these 
 concepts are sufficiently safe to use not only within
-<B>operating systems</B> but also within user programs.
+operating systems but also within user 
+************************
+ but also within user programs.
 
-CACM July, 1972
+cacm july, 1972
 
-Hansen, P. B.
+hansen, p. b.
 
 structured multiprogramming, programming languages,
-operating systems, concurrent processes, shared 
-data, mutual exclusion, critical regions, process
-communication, synchronizing events.
-
-4.2 4.3
-
-CA720708 JB January 30, 1978  2:39 PM
-
-2319	4	2320
-2378	4	2320
-2320	4	2320
-2320	4	2320
-2597	4	2320
-2632	4	2320
-2738	4	2320
-2740	4	2320
-2777	4	2320
-2851	4	2320
-2868	4	2320
-2895	4	2320
-2912	4	2320
-2946	4	2320
-3127	4	2320
-3128	4	2320
-2080	5	2320
-2150	5	2320
-2320	5	2320
-2320	5	2320
-2320	5	2320
-2597	5	2320
-2150	6	2320
-2320	6	2320
-
-
+operating systems, concurrent processes, 
 ************************
 
 ************************
-Document:  CACM-2949.html
+Document:  CACM-2681.html
 ************************
 
 
-A Correctness Proof of a Topology Information
-Main tenance Protocol for a Distributed Computer 
-Network
+dynamic memory repacking
 
-In order for the nodes of a distributed computer
-network to communicate, each node must have 
-information about the network's topology.  Since nodes
-and links sometimes crash, a scheme is needed 
-to update this information.  One of the major constrain ts
-on such a topology information scheme is that 
-it may not involve a central controller.  The Topology
-Information Protocol that was implemented on the 
-MERIT Computer Network is presented and explained; this
-protocol is quite general and could be implemented 
-on any computer network.  It is based on Baran's "Hot
-Potato Heuristic Routing Doctrine."  A correctness 
-proof of this Topology Information Protocol is also presented.
+a probabilistic model of a multiprogramming system
+is exercised in order to determine the conditions 
+under which the dynamic repacking of main memory is beneficial.
+ an expression is derived for the maximum 
+interference that a repacking process may introduce
+before the original performance of the system is 
+degraded.  alternative approaches to repacking are discussed,
+and the operating conditions that lead 
+to improved system throughput through repacking are delineated.
 
-CACM July, 1977
+cacm march, 1974
 
-Tajibnapis, W. D.
+balkovich, e.
+chiu, w.
+presser, l.
+wood, r.
 
-distributed computer network, correctness proofs,
-computer networks, distributed control, network 
-topology, routing problem <B>in network</B>s, distributed operating
-system, store and forward packet switching, 
-store and forward message switching, traffic control
-
-3.81 4.32
-
-CA770703 JB December 28, 1977  11:59 AM
-
-2949	5	2949
-2949	5	2949
-2949	5	2949
-
-
-************************
-
-************************
-Document:  CACM-1680.html
-************************
-
-
-A General-Purpose Display Processing and Tutorial System
-
-ADEPT (A display-Expedited Processing and Tutorial)
-system is described.  This system was designed 
-to improve man-computer communications by employing
-a display unit to interleave tutoring with other 
-computer operations such as simulation, programming, and
-information retrieval.  It is written in FORTRAN 
-IV (G) for the IBM System/360, Model 40, and the IBM 2250
-display Unit under Operating System/360.  Adept 
-is a cataloged program that controls the standard operating
-system by terminating and rescheduling itself 
-automatically, relinquishing computer resources allocated
-to it, and surrendering control to the operating 
-system to perform other jobs.  It expands the power
-and flexibility of computer-assisted instruction 
-by making immediately available to students, teachers,
-and other users, the full resources (system-cataloged 
-programs) of the operating system.  Language processors
-and compilers, simulation models, mathematical 
-solution techniques, stored data, and all other library and
-user programs can be incorporated into instructional 
-material without reprogramming.  Illustrations of the various
-applications are presented and their implications 
-are discussed.
-
-CACM October, 1968
-
-Engvold, K. J.
-Hughes, J. L.
-
-computer-assisted instruction, tutorial systems,
-programming, simulation, modeling, information 
-retrieval <B>operating systems</B>, graphics, displays, man-machine
-interface, on-line computing, graphic programming
-
-1.5 3.3 3.5 3.8 4.0 4.3
-
-CA681007 JB February 21, 1978  3:36 PM
-
-1680	4	1680
-1591	5	1680
-1680	5	1680
-1680	5	1680
-1680	5	1680
-
-
-************************
-
-************************
-Document:  CACM-1747.html
-************************
-
-
-Three Criteria for Designing Computing Systems to Facilitate Debugging
-
-The designer of a computing system should adopt
-explicit criteria for accepting or rejecting 
-proposed system features.  Three possible criteria of this
-kind are input recordability, input specifiability, 
-and asynchronous reproducibility of output.  These criteria
-imply that a user can, if he desires, either 
-know or control all the influences affecting the content
-and extent of his computer's output.  To define 
-the scope of the criteria, the notion of an abstract
-machine of a programming language and the notion 
-of a virtual computer are explained.  Examples of applications
-of the criteria concern the reading of 
-a time-of-day clock,  the synchronization of parallel
-processes, protection in multiprogrammed systems, 
-and the assignment of capability indexes.
-
-CACM May, 1968
-
-Van Horn, E. C.
-
-computer design, computer design criteria, computer
-systems, computer systems design, input equipment, 
-input equipment design, <B>operating systems</B>, operating
-systems design, multiprogramming, multiprogrammed 
-systems, multiprogrammed system design, virtual computers,
-programming languages, programming language 
-design, program semantics, programming language semantics,
-determinism, reproducibility, repeatability, 
-deterministic computers, protection, memory protection,
-information security, information privacy, computing 
-reliability, debugging, program debugging, program testing,
-parallel processing, parallel programming, 
-multiprocessing
-
-2.11 4.12 4.13 4.20 4.30 4.42 4.43 5.24 6.20 6.35
-
-CA680509 JB February 23, 1978  9:06 AM
-
-1458	4	1747
-1523	4	1747
-1603	4	1747
-1698	4	1747
-1747	4	1747
-1748	4	1747
-1854	4	1747
-1877	4	1747
-1960	4	1747
-2377	4	1747
-2378	4	1747
-2497	4	1747
-2558	4	1747
-2625	4	1747
-2632	4	1747
-2840	4	1747
-2941	4	1747
-3105	4	1747
-3144	4	1747
-1471	5	1747
-1747	5	1747
-1747	5	1747
-1747	5	1747
-2151	5	1747
-1653	6	1747
-1747	6	1747
-1860	6	1747
-
-
-************************
-
-************************
-Document:  CACM-2625.html
-************************
-
-
-Capability-Based Addressing
-
-Various addressing schemes making use of segment
-tables are examined.  The inadequacies of 
-these schemes when dealing with shared addresses are
-explained. These inadequacies are traced to the 
-lack of an efficient absolute address for objects in
-these systems.  The direct use of a capability as 
-an address is shown to overcome these difficulties
-because it provides the needed absolute address.  
-Implementation of capability-based addressing is discussed.
- It is predicted that the use of tags to 
-identify capabilities will dominate.  A hardware address
-translation scheme which never requires the 
-modification of the representation of capabilities is
-suggested. The scheme uses a main memory hash table 
-for obtaining a segment's location in main memory given
-its unique code.  The hash table is avoided for
-recently accessed segments by means of a set of associative
-registers.  A computer using capability-based 
-addressing may be substantially superior to present
-systems on the basis of protection, simplicity of 
-programming conventions, and efficient implementation.
-
-CACM July, 1974
-
-Fabry, R. S.
-
-addressing, capabilities, addressing hardware,
-protection, protection hardware, shared addresses, 
-information sharing, <B>operating systems</B>, computer
-utility, segmentation, tagged architecture
-
-4.30 4.32 4.34 6.21
-
-CA740706 JB January 17, 1978  12:39 PM
-
-1458	4	2625
-1523	4	2625
-1603	4	2625
-1698	4	2625
-1747	4	2625
-1748	4	2625
-1854	4	2625
-1877	4	2625
-1960	4	2625
-2317	4	2625
-2358	4	2625
-2377	4	2625
-2377	4	2625
-2378	4	2625
-2497	4	2625
-2558	4	2625
-2625	4	2625
-2625	4	2625
-2625	4	2625
-2625	4	2625
-2626	4	2625
-2632	4	2625
-2669	4	2625
-2840	4	2625
-2922	4	2625
-2941	4	2625
-3081	4	2625
-3101	4	2625
-3105	4	2625
-3112	4	2625
-3144	4	2625
-1471	5	2625
-1753	5	2625
-2358	5	2625
-2438	5	2625
-2625	5	2625
-2625	5	2625
-2625	5	2625
-2626	5	2625
-2868	5	2625
-3105	5	2625
-3144	5	2625
-1471	6	2625
-1471	6	2625
-1746	6	2625
-2080	6	2625
-2298	6	2625
-2358	6	2625
-2377	6	2625
-2377	6	2625
-2380	6	2625
-2491	6	2625
-2558	6	2625
-2597	6	2625
-2624	6	2625
-2625	6	2625
-2625	6	2625
-2625	6	2625
-2625	6	2625
-2629	6	2625
-2632	6	2625
-2632	6	2625
-2632	6	2625
-2868	6	2625
-2939	6	2625
-3068	6	2625
-
-
-************************
-
-************************
-Document:  CACM-2597.html
-************************
-
-
-Monitors: An Operating System Structuring Concept
-
-This paper develops Brinch-Hansen's concept of
-a monitor as a method of structuring an operating 
-system.  It introduces a form of synchronization, describes
-a possible method of implementation in terms 
-of semaphores and gives a suitable proof rule.  Illustrative
-examples include a single resource scheduler, 
-a bounded buffer, an alarm clock, a buffer pool, a
-disk head optimizer, and a version of the problem 
-of readers and writers.
-
-CACM October, 1974
-
-Hoare, C. A. R.
-
-monitors, <B>operating systems</B>, scheduling, mutual
-exclusion, synchronization, system implementation 
-languages, structured multiprogramming
-
-4.31 4.22
-
-CA741001 JB January 16, 1978  1:23 PM
-
-2320	4	2597
-2597	4	2597
-2597	4	2597
-2777	4	2597
-2851	4	2597
-2895	4	2597
-2912	4	2597
-2946	4	2597
-3128	4	2597
-2150	5	2597
-2320	5	2597
-2597	5	2597
-2597	5	2597
-2597	5	2597
-2865	5	2597
-2866	5	2597
-2898	5	2597
-2972	5	2597
-3043	5	2597
-3128	5	2597
-3144	5	2597
-970	6	2597
-1471	6	2597
-1834	6	2597
-2150	6	2597
-2204	6	2597
-2298	6	2597
-2356	6	2597
-2376	6	2597
-2436	6	2597
-2491	6	2597
-2597	6	2597
-2597	6	2597
-2597	6	2597
-2597	6	2597
-2597	6	2597
-2597	6	2597
-2597	6	2597
-2624	6	2597
-2625	6	2597
-2632	6	2597
-2732	6	2597
-2732	6	2597
-2738	6	2597
-2796	6	2597
-2865	6	2597
-2866	6	2597
-2870	6	2597
-2912	6	2597
-2946	6	2597
-3082	6	2597
-
-
+dynamic memory repacking, memory compaction,storage
+fragmentation, multiprogramming system model, 
+probabilistic model, central processor productivity,
+resource utilization, system 
 ************************
 

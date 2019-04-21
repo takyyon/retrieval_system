@@ -1,409 +1,347 @@
-Snippets for the query:  Modelling and simulation in agricultural ecosystems.
+Snippets for the query:  Q51
 ************************
-Total Hits:  6
-************************
-
-************************
-Document:  CACM-1366.html
-************************
-
-
-Computer Simulation-Discussion of the
-Technique and Comparison of Languages 
-
-The purpose of this paper is to present a comparison
-of some computer simulation languages 
-and of some of the involved in comparing software packages
-for digital computers are discussed in Part 
-I.  The issue is obvious: users of digital computers
-must choose from available languages or write their 
-own.  Substantial costs can occur, particularly in training,
-implementation and computer time if an inappropriate 
-language is chosenore and more computer simulation
-languages are being developed: comparisons and 
-evaluations of existing languages are useful for designers
-and implementers as well as users.  The second 
-part is devoted to computer simulation <B>and simulation</B>
-languages.  The computational characteristics of 
-simulation are discussed with  special attention being
-paid to a distinction between continuous and discrete 
-change models.  Part III presents a detailed comparison
-of six simulation languages and packages: SIMSCRIPT, 
-CLP, CSL, GASP, CPSS and SOL.  The characteristics of
-each are summarized in a series of tables.  The 
-implications of this analysis for designers of languages,
-for users, and for implementers are developed. 
- The conclusion of the paper is that the packages now
-available for computer simulation offer features 
-which none of the more general-purpose packages do and
-that analysis of strengths and weaknesses of each 
-suggests ways in which both current and future simulation
-languages and packages can be improved.
-
-CACM October, 1966
-
-Teichroew, D.
-Lubin, J. F.
-
-CA661001 JB March 2, 1978  4:23 PM
-
-1366	5	1366
-1366	5	1366
-1366	5	1366
-1503	5	1366
-1781	5	1366
-1860	5	1366
-2091	5	1366
-123	6	1366
-196	6	1366
-919	6	1366
-990	6	1366
-1007	6	1366
-1046	6	1366
-1131	6	1366
-1139	6	1366
-1140	6	1366
-1149	6	1366
-1198	6	1366
-1215	6	1366
-1223	6	1366
-1265	6	1366
-1303	6	1366
-1323	6	1366
-1358	6	1366
-1366	6	1366
-1366	6	1366
-1366	6	1366
-1366	6	1366
-1389	6	1366
-1421	6	1366
-1421	6	1366
-1460	6	1366
-1462	6	1366
-1463	6	1366
-1467	6	1366
-1468	6	1366
-1477	6	1366
-1477	6	1366
-1491	6	1366
-1491	6	1366
-1496	6	1366
-1496	6	1366
-1531	6	1366
-1535	6	1366
-1565	6	1366
-1601	6	1366
-1602	6	1366
-1613	6	1366
-1614	6	1366
-1626	6	1366
-1626	6	1366
-1641	6	1366
-1641	6	1366
-1785	6	1366
-1786	6	1366
-1787	6	1366
-1788	6	1366
-205	6	1366
-224	6	1366
-249	6	1366
-288	6	1366
-316	6	1366
-378	6	1366
-381	6	1366
-398	6	1366
-11	6	1366
-404	6	1366
-410	6	1366
-463	6	1366
-464	6	1366
-483	6	1366
-3184	6	1366
-3184	6	1366
-3188	6	1366
-584	6	1366
-600	6	1366
-680	6	1366
-691	6	1366
-763	6	1366
-799	6	1366
-
-
+Total Hits:  3
 ************************
 
 ************************
-Document:  CACM-2542.html
+Document:  CACM-2829.html
 ************************
-
-
-A Software Design and Evaluation System
-
-A critical failure of current software system
-design and implementation methodology is that 
-the performance of a proposed design is not evaluated
-before it is actually implemented.  In this paper 
-the reasons for this failure are explored, and a new methodology
-which overcomes many of the difficulties 
-is proposed.  A system which integrates performance evaluation
-with design and implementation is described. 
- This system is based on a simple, high level language
-which is used to describe the evolving system 
-at all stages of its development.  The source language
-description is used as direct input to performance 
-analysis <B>and simulation</B> routines.  Using the performance
-information obtained from these routines as 
-feedback, the problems which adversely affect performance
-are detected early enough so that they can 
-be corrected without costly major reimplementation of the proposed system.
-
-CACM February, 1973
-
-Graham, R. M.
-Clancy, G. J. Jr.
-DeVaney, D. B.
-
-operating system development, language processing
-software evaluation, compilers, system programming, 
-supervisory systems, debugging, program maintenance,
-modeling, system integration, simulation
-
-4.0 4.12 4.22 4.30 4.42 4.43 8.1
-
-CA730206 JB January 24, 1978  2:07 PM
-
-2542	5	2542
-2542	5	2542
-2542	5	2542
-
-
 ************************
-
+Document:  CACM-2344.html
+************************
+************************
+Document:  CACM-2918.html
+************************
+************************
+Document:  CACM-1426.html
+************************
+************************
+Document:  CACM-3107.html
+************************
+************************
+Document:  CACM-2062.html
+************************
+************************
+Document:  CACM-0557.html
+************************
+************************
+Document:  CACM-1288.html
+************************
+************************
+Document:  CACM-0104.html
+************************
 ************************
 Document:  CACM-2859.html
 ************************
-
-
-Interference in Multiprocessor Computer Systems with Interleaved Memory
-
-This paper analyzes the memory interference
-caused by several processors simultaneously using 
-several memory modules.  Exect results are computed for
-a simple model of such a system.   The limiting 
-value is derived for the relative degree of memory interference
-as the system size increases.  The model 
-of the limiting behavior of the system yields approximate
-results for the simple model and also suggests 
-that the results are valid for a much larger class of models,
-including those more nearly like real systems 
-that the simple model are tested against some measurements
-of program behavior <B>and simulation</B>s of systems 
-using memory references from real programs.  The model
-results provide a good indication of the performance 
-that should be expected from real system of this type.
-
-CACM June, 1976
-
-Baskett, F.
-Smith, A. J.
-
-memory, memory interference, multiprocessing,
-interleaved memory, trace driven simulation
-
-4.32 6.21 6.34 8.1
-
-CA760603 JB January 4, 1978  2:19 PM
-
-1668	4	2859
-1669	4	2859
-1679	4	2859
-1728	4	2859
-2859	4	2859
-2859	4	2859
-1525	5	2859
-1676	5	2859
-2859	5	2859
-2859	5	2859
-2859	5	2859
-2918	5	2859
-3119	5	2859
-2245	6	2859
-2798	6	2859
-2849	6	2859
-2859	6	2859
-2859	6	2859
-
-
 ************************
-
+Document:  CACM-1912.html
+************************
+************************
+Document:  CACM-1030.html
+************************
+************************
+Document:  CACM-1591.html
+************************
+************************
+Document:  CACM-3051.html
+************************
+************************
+Document:  CACM-1637.html
+************************
+************************
+Document:  CACM-2542.html
+************************
+************************
+Document:  CACM-2549.html
+************************
+************************
+Document:  CACM-3070.html
+************************
+************************
+Document:  CACM-2890.html
+************************
+************************
+Document:  CACM-2686.html
+************************
+************************
+Document:  CACM-2911.html
+************************
+************************
+Document:  CACM-2936.html
+************************
+************************
+Document:  CACM-3048.html
+************************
+************************
+Document:  CACM-1856.html
+************************
+************************
+Document:  CACM-2767.html
+************************
+************************
+Document:  CACM-1166.html
+************************
+************************
+Document:  CACM-3042.html
+************************
+************************
+Document:  CACM-2749.html
+************************
 ************************
 Document:  CACM-2535.html
 ************************
-
-
-The Effects of Multiplexing on a Computer-Communications System
-
-A study is made of the way in which asynchronous
-time division multiplexing changes the stochastic 
-nature of the arrival process from a user to the computer
-and, consequently, affects the performance 
-of a time-shared computer-communications system.  It is
-concluded that while, for certain values of system 
-parameters, there is noticeable improvement in the
-performance of the computer (model), in the sense 
-that time-shared scheduling delays are reduced, these
-improvements are offset by the transmission delays 
-imposed by multiplexing so that there may be little or
-no change in the computer-communications system 
-performance.  Analytical <B>and simulation</B> results are
-based on the model of the computer-communications 
-system being an M/D/1 queue (the multiplexor) in tandem
-with a single exponential server (the computer). 
- Analytical results include a general description of the
-output process of an M/D/1 queue and the conditions 
-under which this output process is approximately Poisson.
-
-CACM March, 1973
-
-Pack, C. D.
-
-computer communications, time-sharing, multiplexing,
-scheduling algorithms, operating systems
-
-3.80 3.81 6.20
-
-CA730304 JB January 24, 1978  11:13 AM
-
-2535	5	2535
-2535	5	2535
-2535	5	2535
-
-
+************************
+Document:  CACM-1329.html
+************************
+************************
+Document:  CACM-2882.html
+************************
+************************
+Document:  CACM-1366.html
+************************
+************************
+Document:  CACM-2276.html
+************************
+************************
+Document:  CACM-2862.html
+************************
+************************
+Document:  CACM-1716.html
+************************
+************************
+Document:  CACM-1427.html
+************************
+************************
+Document:  CACM-1890.html
+************************
+************************
+Document:  CACM-1811.html
+************************
+************************
+Document:  CACM-2318.html
+************************
+************************
+Document:  CACM-1933.html
+************************
+************************
+Document:  CACM-2057.html
+************************
+************************
+Document:  CACM-2914.html
+************************
+************************
+Document:  CACM-1680.html
+************************
+************************
+Document:  CACM-2105.html
+************************
+************************
+Document:  CACM-2349.html
+************************
+************************
+Document:  CACM-1541.html
+************************
+************************
+Document:  CACM-2955.html
+************************
+************************
+Document:  CACM-2628.html
+************************
+************************
+Document:  CACM-1695.html
+************************
+************************
+Document:  CACM-1518.html
+************************
+************************
+Document:  CACM-1845.html
+************************
+************************
+Document:  CACM-0633.html
+************************
+************************
+Document:  CACM-0757.html
+************************
+************************
+Document:  CACM-2967.html
+************************
+************************
+Document:  CACM-1253.html
+************************
+************************
+Document:  CACM-2233.html
+************************
+************************
+Document:  CACM-2077.html
+************************
+************************
+Document:  CACM-0238.html
+************************
+************************
+Document:  CACM-1812.html
+************************
+************************
+Document:  CACM-1846.html
+************************
+************************
+Document:  CACM-0678.html
+************************
+************************
+Document:  CACM-1261.html
+************************
+************************
+Document:  CACM-2721.html
 ************************
 
+
+the digital simulation of river plankton population dynamics
+
+this paper deals with the development of a
+mathematical model for and the digital simulation 
+in fortran iv of phytoplankton and zooplankton population
+densities in a river using previously developed 
+rate expressions.  in order to study the relationships
+between the ecological mechanisms involved, the 
+simulation parameters were varied illustrating the
+response of the ecosystem to different conditions, 
+including those corresponding to certain types of chemical
+and thermal pollution.  as an investigation 
+of the accuracy of the simulation methods, a simulation
+of the actual population dynamics of asterionella 
+in the columbia river was made based on approximations
+of conditions in that river. although not totally 
+accurate, the simulation was found to predict the general
+annual pattern of plankton growth fairly well 
+and, specifically, revealed the importance of the annual
+velocity cycle in determining such patterns. 
+ in addition, the study demonstrates the usefulness of
+digital simulations in the examinations of certain 
+aquatic ecosystems, as well as in environmental
+
+************************
+, as well as in environmental
+planning involving such examinations.
+
+cacm september, 1975
+
+claudson, r. m.
+
+digital simulation, mathematical modeling, plankton
+population dynamics, phytoplankton, zooplankton, 
+river ecosystems, ecological mechanisms, 
+************************
+, ecological mechanisms, environmental simulation,
+modeling ecosystems, pollution, environmental 
+************************
+
+************************
+Document:  CACM-2106.html
+************************
+************************
+Document:  CACM-1572.html
+************************
+************************
+Document:  CACM-2844.html
+************************
+************************
+Document:  CACM-0643.html
+************************
+************************
+Document:  CACM-2261.html
+************************
+************************
+Document:  CACM-1653.html
+************************
+************************
+Document:  CACM-2569.html
+************************
 ************************
 Document:  CACM-1805.html
 ************************
-
-
-Productivity of Multiprogrammed Computers-Progress
-in Developing an Analytic Prediction Method
-
-Multiprogramming as it is discussed here is
-a mode of computer operation in which two or more
-programs are concurrently in processor memory and proceeding,
-each using the same central processor unit 
-(CPU) and input-output (I/O) channels.  These programs
-are actually proceeding intermittently and singly, 
-according to eligibility (readiness to proceed) and priority.
- It is useful to be able to represent them 
-as proceeding continuously and simultaneously, each
-at an effective rate, which may be a fraction of 
-that which it would enjoy in the absence of the other
-programs.  The effective progress rate of each 
-program is sensitive to many detailed characteristics
-of itself and its co-residents <B>and simulation</B> has 
-been the best available method of predicting it.  This
-paper presents the results of progress in developing 
-an alternative to simulation, a simulation-tested iterative
-computation of these rates under certain 
-situations.  The algorithm is sensitive to most of the
-factors that control the phenomenon, including 
-nonquantitative or topological features of the programs' structures.
-
-CACM December, 1969
-
-Lasser, D. J.
-
-productivity, prediction, multiprogramming, simulation,
-equipment  evaluation, hardware, evaluation, 
-monitor, operating system, system software, supervisors,
-performance, time sharing, time slicing 
-
-2.43 2.44 4.32
-
-CA691207 JB February 15, 1978  2:47 PM
-
-1805	4	1805
-1805	4	1805
-1805	4	1805
-1828	4	1805
-1846	4	1805
-1854	4	1805
-1892	4	1805
-1912	4	1805
-2187	4	1805
-2188	4	1805
-2218	4	1805
-2317	4	1805
-1518	5	1805
-1572	5	1805
-1748	5	1805
-1805	5	1805
-1805	5	1805
-1805	5	1805
-3070	5	1805
-1805	6	1805
-2454	6	1805
-2741	6	1805
-2988	6	1805
-
-
 ************************
-
+Document:  CACM-2262.html
+************************
+************************
+Document:  CACM-2218.html
+************************
+************************
+Document:  CACM-1208.html
+************************
+************************
+Document:  CACM-1728.html
+************************
 ************************
 Document:  CACM-2375.html
 ************************
-
-
-A Comparative Analysis of Disk Scheduling Policies
-
-Five well-known scheduling policies for movable
-head disks are compared using the performance 
-criteria of expected seek time (system oriented)and expected
-waiting time (individual I/O request oriented). 
- Both analytical <B>and simulation</B> results are obtained.
- The variance of waiting time is introduced as 
-another meaningful measure of performance, showing possible
-discrimination against individual requests. 
- Then the choice of a utility function to measure total
-performance including system oriented and individual 
-request oriented measures is described.  Such a function
-allows one to differentiate among the scheduling 
-policies over a wide range of input loading conditions.
- The selection and implementation of a maximum 
-performance two-policy algorithm are discussed.
-
-CACM March, 1972
-
-Teorey, T. J.
-Pinkerton, T. B.
-
-access time, analytical models, auxiliary storage,
-direct access storage, disk analysis, disk scheduling, 
-performance criteria, peripheral memory devices, real-time
-systems, response time, rotational delay, 
-scheduling policies, seek time, simulation, storage
-units, time-sharing systems, waiting time
-
-3.72 4.32 6.34
-
-CA720306JB January 31, 1978  2:38 PM
-
-2375	5	2375
-2375	5	2375
-2375	5	2375
-2628	5	2375
-2891	5	2375
-3072	5	2375
-1713	6	2375
-2219	6	2375
-2245	6	2375
-2375	6	2375
-2375	6	2375
-2375	6	2375
-2496	6	2375
-2628	6	2375
-
-
 ************************
-
+Document:  CACM-1517.html
+************************
+************************
+Document:  CACM-1199.html
+************************
+************************
+Document:  CACM-1711.html
+************************
+************************
+Document:  CACM-1928.html
+************************
+************************
+Document:  CACM-1674.html
+************************
+************************
+Document:  CACM-1870.html
+************************
+************************
+Document:  CACM-2272.html
+************************
+************************
+Document:  CACM-2682.html
+************************
+************************
+Document:  CACM-2742.html
+************************
+************************
+Document:  CACM-2725.html
+************************
+************************
+Document:  CACM-0605.html
+************************
+************************
+Document:  CACM-1752.html
+************************
+************************
+Document:  CACM-2970.html
+************************
+************************
+Document:  CACM-2734.html
+************************
+************************
+Document:  CACM-3061.html
+************************
+************************
+Document:  CACM-1165.html
+************************
+************************
+Document:  CACM-0675.html
+************************
+************************
+Document:  CACM-1435.html
+************************
+************************
+Document:  CACM-1207.html
+************************
+************************
+Document:  CACM-2798.html
+************************
+************************
+Document:  CACM-2951.html
+************************
+************************
+Document:  CACM-3064.html
+************************
+************************
+Document:  CACM-2902.html
+************************
+************************
+Document:  CACM-1894.html
+************************

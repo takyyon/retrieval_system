@@ -22,7 +22,7 @@ class Gram:
         return data
 
     def generate_n_grams(self, folder, gram = 1):
-        content_path = 'files/' + folder + '/' + self.stem_folder + 'document-content/'
+        content_path = self.common.get_doc_content_path(self.stem_folder, folder) + '/'
         gram_path = self.common.get_ngram_path(self.stem_folder, gram, folder) + '/'
         docs = self.file_handling.get_all_files(content_path)
         print('\n' + self.utility.line_break + '\n' +\

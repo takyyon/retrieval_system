@@ -21,7 +21,6 @@ class Query_Expansion:
         self.file_handling = FileHandling()
         self.common = Common()
         self.indexer = Indexer()
-        self.positional_index  = self.indexer.read_index(index_type=True)
 
     def generate_expected_words_for_expansion(self, queries):
         stopWords = self.utility.get_stop_list()
@@ -70,6 +69,9 @@ class Query_Expansion:
             return nltk.stem.WordNetLemmatizer().lemmatize(word)
 
     def expand_queries_using_stemming(self, queries):
+        self.positional_index  = self.indexer.read_index(index_type=True)
+        print('\n' + self.utility.line_break + '\n' +\
+            'Running Query Expansion using Stemming..')
         stem_map = self.generate_expected_words_for_expansion(queries)
         updated_query_map = defaultdict(set)
         for i in range(len(queries)):
@@ -136,7 +138,9 @@ class Query_Expansion:
         return sorted_dict
 
     def expand_queries_using_pseduo_relevance(self, queries):
-        docs = self.common.read_top_documents_for_score()
+        print('\n' + self.utility.line_break + '\n' +\
+            'Running Query Expansion using Pseduo Relevance..')
+        docs = self.common.read_top_documents_for_score(top=40)
         relevant_docs = []
         for record in docs:
             relevant_docs.append((record.values()[0]))

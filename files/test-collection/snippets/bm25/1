@@ -1,437 +1,392 @@
-Snippets for the query:  I am interested in articles written either by Prieve or Udo Pooch Prieve, B. Pooch, U.
+Snippets for the query:  Q1
 ************************
-Total Hits:  9
-************************
-
-************************
-Document:  CACM-1014.html
+Total Hits:  2
 ************************
 
-
-Machine Controls for Analysis of Variance
-
-A major problem in using the analysis of variance,
-as the number of factors increases, is the 
-exponential rise in the number of interactions.  Even
-though the experimenter may not be <B>interested in</B> 
-these interactions it is impossible to ignore them in
-most experimental designs because of the problem 
-of getting error terms.  It is natural therefore to look
-to the computer to handle the bulk of work involved 
-in computing the interactions.  A program device
-to get the computer to do this is described.
-
-CACM August, 1964
-
-Weldon, R. J.
-
-CA640816 JB March 9, 1978  6:37 PM
-
-1014	4	1014
-912	5	1014
-1014	5	1014
-1014	5	1014
-1014	5	1014
-
-
 ************************
-
+Document:  CACM-1974.html
+************************
+************************
+Document:  CACM-2666.html
+************************
+************************
+Document:  CACM-0586.html
+************************
 ************************
 Document:  CACM-1623.html
 ************************
-
-
-An Application of FORMAC
-
-A nonlinear circuit analysis problem is stated
-and the way in which it was solved using FORMAC 
-is indicated.  The solution of the problem using FORMAC
-was notable since several other methods that 
-were tried failed.  The problem is straightforward (although
-untenable by hand) but nevertheless involved 
-an elaborate use of the FORMAC language.  The program
-was fairly large and utilized practically every 
-command.  In particular, it made extensive use of the
-PART command.  Several tricks were necessary in 
-order to circumvent some of the shortcomings of the
-FORMAC system.  This paper is more concerned with 
-the use of programming techniques in FORMAC than with
-the actual engineering problem, although readers 
-may be <B>interested in</B> the problem because it is stated
-in a general (mathematical) sense and could be 
-of interest in areas other than circuit analysis.
-
-CACM March, 1967
-
-Neidleman, L. D.
-
-CA670306 JB February 28, 1978  1:27 PM
-
-1623	5	1623
-1623	5	1623
-1623	5	1623
-
-
 ************************
-
+Document:  CACM-0142.html
 ************************
-Document:  CACM-1397.html
 ************************
-
-
-Proceedings of the ACM Symposium on Symbolic and Algebraic Manipulation
-
-The ACM Symposium on Symbolic and Algebraic
-Manipulation brought together over four hundred 
-people <B>interested in</B> programming languages designed
-for manipulation of algebraic formulas and symbol 
-strings, in their applications, and in algorithms for
-their implementation.  Twenty-eight papers were 
-presented, followed by a lively panel discussion of
-future directions.  Evening meetings were arranged 
-for several interest groups.  The conference was sponsored
-by the ACM Special Interest Committee on Symbolic 
-and Algebraic Manipulation.  The program committee consisted
-of Chairman Jean E. Sammet, Paul Abrahams, 
-Thomas E. Cheatham, Max Goldstein, and Douglas Mcllroy.
- Conference arrangements were made by Lewis C. 
-Clapp, Daniel Bobrow and James H. Griesmer.-Robert W. Floyd, Editor
-
-CACM August, 1966
-
-CA660801 JB March 2, 1978  8:17 PM
-
-1397	4	1397
-2704	4	1397
-1247	5	1397
-1396	5	1397
-1397	5	1397
-1397	5	1397
-1397	5	1397
-964	6	1397
-1028	6	1397
-1029	6	1397
-1083	6	1397
-1132	6	1397
-1214	6	1397
-1278	6	1397
-1334	6	1397
-1365	6	1397
-1386	6	1397
-1387	6	1397
-1388	6	1397
-1392	6	1397
-1393	6	1397
-1394	6	1397
-1395	6	1397
-1396	6	1397
-1397	6	1397
-1496	6	1397
-284	6	1397
-407	6	1397
-3199	6	1397
-3200	6	1397
-3201	6	1397
-3202	6	1397
-3203	6	1397
-3204	6	1397
-561	6	1397
-730	6	1397
-
-
+Document:  CACM-2356.html
 ************************
-
 ************************
-Document:  CACM-3078.html
+Document:  CACM-1138.html
 ************************
-
-
-Analysis of the Availability of Computer
-Systems Using Computer- Aided Algebra
-
-Analytical results, related to the availability
-of a computer system constructed of unreliable 
-processors, are presented in this paper.  These results
-are obtained by using various computer-aided 
-algebraic manipulation techniques.  A major purpose of
-this paper is to demonstrate that the difficulties 
-of obtaining analytical solutions to Markov processes
-can be considerably reduced by the application 
-of symbol manipulation programs.  Since many physical
-systems can be modeled by Markov and semi-Markov 
-processes, the potential range of application of these techniques
-is much wider than the problem of availability 
-analyzed here.
-
-CACM July, 1978
-
-Chattergy, R.
-<B>Pooch, U.</B>
-
-Computer-aided algebra, symbol manipulation, Markov
-process, reliability, redundant structures, 
-on-line computer system.
-
-3.82 5.5 5.7 8.1 8.3
-
-CA780710 DH February 7, 1979 3:37 PM
-
-3078	5	3078
-3078	5	3078
-3078	5	3078
-
-
 ************************
-
+Document:  CACM-3191.html
 ************************
-Document:  CACM-3129.html
 ************************
-
-
-Optimal Storage Allocation for Serial Files
-
-A computer system uses several serial files.  The files reside on a 
-direct-access storage device in which storage space is limited.  Records are 
-added to the files <B>either by</B> jobs in batch processing mode, or by on-line 
-transactions. Each transaction (or job) generates a demand vector which 
-designates the space required in each file for record addition. Whenever one 
-file runs out of space, the system must be reorganized.  This paper considers 
-several criteria for best allocating storage space to the files.
-
-CACM February, 1979
-
-Mendelson, H.
-Pliskin, J.
-Yechiali, U.
-
-Serial files, storage allocation, reorganization, partitioned dataset
-
-3.5 3.7 4.33 4.6
-
-CA790208 DH April 12, 1979  10:34 AM
-
-2816	4	3129
-3129	4	3129
-3129	4	3129
-2493	5	3129
-2816	5	3129
-3129	5	3129
-3129	5	3129
-3129	5	3129
-
-
+Document:  CACM-0942.html
 ************************
-
 ************************
-Document:  CACM-1652.html
+Document:  CACM-1676.html
 ************************
-
-
-A Code for Non-numeric Information Processing
-Applications in Online Systems
-
-A code has been specifically designed to simplify
-the internal information processing operations 
-within an online computer system with respect to non-numeric
-applications, and to maximize the transfer 
-rate of the information channel linking the system and
-the system user.  The code has direct application 
-to problems in area such as information retrieval, document
-classification, computer-aided teaching and 
-text editing.  This code, called IPC (Information Processing
-Code), is an 8-bit code set constructed 
-so that 7, 6, 5 and 4-bit subsets can be easily derived
-from the basic set.  The code set is organized 
-so that simple binary operations can distinguish between
-the numeric alphabetic, special symbol and control 
-character codes.  The number of usable characters within
-the basic set size may be expanded <B>either by</B> 
-use of escape codes included in the set, or by suitable
-interpretation of otherwise unassigned codes 
-on the basis of the requirements of local environments.
-
-CACM January, 1967
-
-Morenoff, E.
-McLean, J. B.
-
-CA670103 JB March 1, 1978  9:05 AM
-
-1652	5	1652
-1652	5	1652
-1652	5	1652
-
-
 ************************
-
+Document:  CACM-2842.html
 ************************
-Document:  CACM-1867.html
 ************************
-
-
-On the Expected Lengths of Sequences Generated
-in Sorting by Replacement Selecting
-
-In the replacement-selecting technique of sorting,
-one is <B>interested in</B> the ratio L(j) of the 
-expected length of the j-th sequence generated by the
-technique to the number of memory cells used.  
-Using complex-variable theory, it is shown that L(j)
--> 2 and that, asymptotically, the average interval 
-between sign changes of L(j)-2 is 2.6662.
-
-CACM July, 1969
-
-Hooker, W. W.
-
-replacement selecting, sorting, sequence lengths,
-asymptotic expected length, recursion relation, 
-generating function, meromorphic function
-
-3.74 5.31
-
-CA690713 JB February 15, 1978  6:37 PM
-
-1867	4	1867
-2272	4	1867
-1638	5	1867
-1867	5	1867
-1867	5	1867
-1867	5	1867
-
-
+Document:  CACM-2645.html
 ************************
-
 ************************
-Document:  CACM-0616.html
+Document:  CACM-1469.html
 ************************
-
-
-An Information Algebra - Phase I Report-Language
-Structure Group of the CODASYL Development Committee
-
-This report represents the results of the
-first phase of the work of the Language Structure 
-Group.  The goal of this work is to arrive at a proper
-structure for a machine-independent problem-defining 
-language, at the systems level of data processing.  The
-report is based, for the most part, on a mathematical 
-model called "An Information Algebra" developed primarily
-by R. Bosak.  It is hoped that this report 
-will be read (a) with avid interest by programming language
-designers and implementors, and all those 
-<B>interested in</B> developing a theoretical approach to data
-processing; (b) with interest and understanding 
-by professional programmers and systems analysts; and (c)
-with appreciation by the businessman-analyst-manager. 
- The authors have not attempted an exhaustive discourse
-in this report.  Rather, they have tried to present 
-a philosophy to the professional people who are vitally
-concerned with providing a working language for 
-the systems analyst's use.  They trust that the ideas
-in this report will stimulate others to think along 
-similar lines.  Questions and comments will be welcomed,
-and can be addressed to any of the members of 
-the Language Structure Group:  Robert Bosak, System
-Development Corporation;  Richard F. Clippinger, 
-Honeywell EDP Division;  Carey Dobbs, Remington Rand
-Univac Division;  Roy Goldfinger (Chairman), IBM 
-Corporation;  Renee B. Jasper, Navy Management Office;
- William Keating, National Cash Register;  George 
-Kendrick, General Electric Company;  Jean E. Sammet, IBM Corporation.
-
-CACM April, 1962
-
-CA620401 JB March 20, 1978  2:40 PM
-
-1135	5	616
-1136	5	616
-2710	5	616
-2765	5	616
-2888	5	616
-2906	5	616
-493	5	616
-616	5	616
-616	5	616
-616	5	616
-729	5	616
-1515	6	616
-288	6	616
-1936	6	616
-1976	6	616
-2046	6	616
-2046	6	616
-2046	6	616
-2451	6	616
-2452	6	616
-2715	6	616
-493	6	616
-616	6	616
-616	6	616
-616	6	616
-616	6	616
-616	6	616
-616	6	616
-616	6	616
-616	6	616
-657	6	616
-
-
 ************************
-
+Document:  CACM-2943.html
+************************
+************************
+Document:  CACM-0460.html
+************************
+************************
+Document:  CACM-1705.html
+************************
+************************
+Document:  CACM-2217.html
+************************
+************************
+Document:  CACM-2519.html
+************************
+************************
+Document:  CACM-2456.html
+************************
+************************
+Document:  CACM-0282.html
+************************
+************************
+Document:  CACM-3160.html
+************************
+************************
+Document:  CACM-1549.html
+************************
+************************
+Document:  CACM-1486.html
+************************
+************************
+Document:  CACM-2863.html
+************************
+************************
+Document:  CACM-1046.html
+************************
+************************
+Document:  CACM-1348.html
+************************
+************************
+Document:  CACM-0728.html
+************************
+************************
+Document:  CACM-1542.html
+************************
+************************
+Document:  CACM-1671.html
+************************
+************************
+Document:  CACM-1564.html
+************************
+************************
+Document:  CACM-1424.html
+************************
+************************
+Document:  CACM-3201.html
+************************
+************************
+Document:  CACM-1591.html
+************************
+************************
+Document:  CACM-0597.html
+************************
+************************
+Document:  CACM-0321.html
+************************
+************************
+Document:  CACM-3204.html
+************************
+************************
+Document:  CACM-1215.html
+************************
+************************
+Document:  CACM-2471.html
+************************
+************************
+Document:  CACM-3202.html
+************************
+************************
+Document:  CACM-2219.html
+************************
+************************
+Document:  CACM-1391.html
+************************
+************************
+Document:  CACM-1334.html
+************************
+************************
+Document:  CACM-1741.html
+************************
+************************
+Document:  CACM-0847.html
+************************
+************************
+Document:  CACM-3199.html
+************************
+************************
+Document:  CACM-1464.html
+************************
+************************
+Document:  CACM-1468.html
+************************
+************************
+Document:  CACM-2092.html
+************************
+************************
+Document:  CACM-1754.html
+************************
+************************
+Document:  CACM-1315.html
+************************
+************************
+Document:  CACM-1523.html
+************************
+************************
+Document:  CACM-2483.html
+************************
+************************
+Document:  CACM-1161.html
+************************
+************************
+Document:  CACM-1427.html
+************************
+************************
+Document:  CACM-1811.html
+************************
+************************
+Document:  CACM-1861.html
+************************
 ************************
 Document:  CACM-2434.html
 ************************
+************************
+Document:  CACM-1183.html
+************************
+************************
+Document:  CACM-2233.html
+************************
 
 
-Using Page Residency To Select the Working Set Parameter
+signature simulation and certain cryptographic codes
 
-Denning's method for selecting the working set
-parameter, which uses interreference intervals, 
-is examined.  Several omissions in his model are noted,
-and new assumptions are introduced to overcome 
-these omissions.  Using this modified model, Dening's results
-on page residency are rederived and reconsidered 
-for selecting the working set parameter.
+three cyphers allegedly authored by thomas
+jefferson beale in 1822 have been the subject of 
+intensive study for over 100 years.  generations of
+cryptanalysts have expended untold man-years, thus 
+far without success, attempting tode code them; vast armies
+of fortune hunters and treasure seekers have 
+devoted herculean labors to digging up the rolling hills
+of virginia trying to locate the promised bonanza. 
+ the history of pertinent activities would fill volumes,
+yet serious students of cryptography have always 
+had nagging doubts about the cyphers' authenticity.
+ it has been alleged that the "known solution" to 
+cypher number two: 115, 73, 24, 818, 37, 52, 49,...("i
+have deposited in the county of bedford about 
+four miles from buford's in an excavation or vault...")
+with the aid of an unsanitized version of the 
+declaration of independence was merely a superb, imaginative,
+and grandiose hoax perpetrated ages ago 
+for whatever reasons.  modern computer technology could
+obviously perform signature analyses the process 
+of encoding itself so as to yield new clues and deeper
+insights into their construction.  for the benefit 
+of the uninitiated, the encoding method used in the
+second cypher employs a specified document whose 
+words are simply numbered consecutively, and first letters
+of these words are sought out at random to 
+match the letters of these words are sought out at random
+to match the letters of the clear text or message. 
+ the sequence of numbers corresponding to these matches
+is then written down as the final code.  while 
+primitive, the process has the advantage of relative
+security until the source document becomes known; 
+at that moment the cypher can be decoded even by second
+graders.  the work now completed with the help 
+of our univac 1108 includes numerous analytical studies
+of the beale cyphers and various types of simulations. 
+ for example, we have turned the entire process of
+simulated encoding by various schemes over to the 
+machine and analyzed the signatures of these synthetic
+codes; we have also encoded various messages by 
+hand, using different texts and a variety of methods to
+obtain their signatures. these simulations provide 
+convincing evidence that the signatures are both process
+and data dependent; they indicate also very 
+strongly that mr. beale's cyphers are for real and that
+it is merely a matter of time before someone 
+finds the correct source document and locates the
+right vault in the common-wealth of virginia.
 
-CACM October, 1973
+cacm january, 1971
 
-<B>Prieve, B.</B> G.
+hammer, c.
 
-working set model, paging, program behavior,program modeling
-
-4.3
-
-CA731006 JB January 20, 1978  11:34 AM
-
-1892	4	2434
-1901	4	2434
-2085	4	2434
-2095	4	2434
-2218	4	2434
-2277	4	2434
-2319	4	2434
-2329	4	2434
-2358	4	2434
-2373	4	2434
-2380	4	2434
-2434	4	2434
-2499	4	2434
-2501	4	2434
-2582	4	2434
-2669	4	2434
-2828	4	2434
-2863	4	2434
-2881	4	2434
-2928	4	2434
-2996	4	2434
-3006	4	2434
-3067	4	2434
-1751	5	2434
-2434	5	2434
-2434	5	2434
-2434	5	2434
-
+thomas jefferson beale, codes, cryptanalysis, cyphers,
+decoding, declaration of independence, encoding, 
+magna carta, pseudotext, signature, simulation
 
 ************************
 
+************************
+Document:  CACM-1939.html
+************************
+************************
+Document:  CACM-1264.html
+************************
+************************
+Document:  CACM-1680.html
+************************
+************************
+Document:  CACM-0616.html
+************************
+************************
+Document:  CACM-2439.html
+************************
+************************
+Document:  CACM-3005.html
+************************
+************************
+Document:  CACM-1439.html
+************************
+************************
+Document:  CACM-1625.html
+************************
+************************
+Document:  CACM-3077.html
+************************
+************************
+Document:  CACM-2096.html
+************************
+************************
+Document:  CACM-1345.html
+************************
+************************
+Document:  CACM-1117.html
+************************
+************************
+Document:  CACM-1168.html
+************************
+************************
+Document:  CACM-2812.html
+************************
+************************
+Document:  CACM-1403.html
+************************
+************************
+Document:  CACM-1854.html
+************************
+
+
+on multiprogramming, machine coding, and computer organization
+
+the author feels that the interrupt feature
+which is available in most modern computers is 
+a potent source of programming pitfalls and errors, and
+that it therefore may heavily contribute to the 
+unreliability of programs making use of it.  a programming
+scheme is presented which avoids the concept 
+of the interrupt and permits the specification of concurrent
+(or pseudoconcurrent) activities in a supposedly 
+more perspicuous manner.  it is intended to serve as
+a basis for the construction of operating systems, 
+which are prime examples of programs with concurrent
+activities.  the scheme includes a set of basic 
+instructions for the generation, termination, and synchronization
+of parallel processes.  a set of routines 
+representing these instructions and thereby simulating a
+hypothetical machine organization has been implemented 
+and test on the ibm system/360.  two programs using these
+instructions, written in pl360, are presented. 
+************************
+
+************************
+Document:  CACM-0492.html
+************************
+************************
+Document:  CACM-2937.html
+************************
+************************
+Document:  CACM-1397.html
+************************
+************************
+Document:  CACM-3080.html
+************************
+************************
+Document:  CACM-2912.html
+************************
+************************
+Document:  CACM-1305.html
+************************
+************************
+Document:  CACM-3127.html
+************************
+************************
+Document:  CACM-2002.html
+************************
+************************
+Document:  CACM-1214.html
+************************
+************************
+Document:  CACM-0397.html
+************************
+************************
+Document:  CACM-1145.html
+************************
+************************
+Document:  CACM-2383.html
+************************
+************************
+Document:  CACM-2317.html
+************************
+************************
+Document:  CACM-1498.html
+************************
+************************
+Document:  CACM-0531.html
+************************
+************************
+Document:  CACM-0435.html
+************************
+************************
+Document:  CACM-2939.html
+************************
+************************
+Document:  CACM-1926.html
+************************
+************************
+Document:  CACM-1503.html
+************************
+************************
+Document:  CACM-1014.html
+************************
+************************
+Document:  CACM-3189.html
+************************
+************************
+Document:  CACM-3078.html
+************************
+************************
+Document:  CACM-1867.html
+************************
+************************
+Document:  CACM-2850.html
+************************
+************************
+Document:  CACM-0971.html
+************************

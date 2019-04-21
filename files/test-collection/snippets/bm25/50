@@ -1,1324 +1,240 @@
-Snippets for the query:  Parallel processors and paging algorithms
+Snippets for the query:  Q50
 ************************
-Total Hits:  26
-************************
-
-************************
-Document:  CACM-2373.html
+Total Hits:  58
 ************************
 
+************************
+Document:  CACM-2664.html
+************************
 
-Properties of the Working-Set Model
 
-A program's working set W(t,T) at time t is
-the set of distinct pages among the T most recently 
-referenced pages.  Relations between the average working-set size,
-the missing-page rate, and the interreference-interval 
-distribution may be derived both from time-average definitions
-and from ensemble-average (statistical) 
-definitions. An efficient algorithm for estimating these
-quantities is given.  The relation to LRU (least 
-recently used) paging is characterized.  The independent-reference
-model, in which page references are 
-statistically independent, is used to assess the effects
-to interpage dependencies on working-set size 
-observations. Under general assumptions, working-set
-size is shown to be normally distributed.
+parallelism in tape-sorting
 
-CACM March, 1972
+two methods for employing parallelism in tape-sorting
+are presented.  method a is the natural 
+way to use parallelism. method b is new.  both approximately
+achieve the goal of reducing the processing 
+time by a divisor which is the number of processors.
 
-Denning, P. J.
-Schwartz, S. C.
-
-working-set model, paging, <B>paging algorithms</B>,
-program behavior, program modeling
-
-4.3
-
-CA720308 JB January 31, 1978  2:07 PM
-
-1604	4	2373
-1892	4	2373
-1901	4	2373
-1951	4	2373
-2085	4	2373
-2095	4	2373
-2218	4	2373
-2218	4	2373
-2277	4	2373
-2319	4	2373
-2329	4	2373
-2358	4	2373
-2373	4	2373
-2373	4	2373
-2373	4	2373
-2373	4	2373
-2373	4	2373
-2380	4	2373
-2434	4	2373
-2499	4	2373
-2450	4	2373
-2501	4	2373
-2582	4	2373
-2669	4	2373
-2828	4	2373
-2863	4	2373
-2881	4	2373
-2894	4	2373
-2928	4	2373
-2996	4	2373
-3006	4	2373
-3006	4	2373
-3067	4	2373
-3067	4	2373
-1410	5	2373
-1751	5	2373
-1810	5	2373
-1951	5	2373
-2373	5	2373
-2373	5	2373
-2373	5	2373
-2374	5	2373
-2380	5	2373
-2450	5	2373
-2595	5	2373
-2996	5	2373
-3006	5	2373
-3067	5	2373
-1728	6	2373
-1751	6	2373
-1751	6	2373
-1751	6	2373
-1751	6	2373
-1884	6	2373
-1901	6	2373
-2374	6	2373
-2374	6	2373
-2374	6	2373
-2373	6	2373
-2373	6	2373
-2373	6	2373
-2373	6	2373
-2373	6	2373
-2373	6	2373
-2373	6	2373
-2595	6	2373
-2595	6	2373
-2595	6	2373
-2682	6	2373
-2863	6	2373
-2864	6	2373
-3006	6	2373
+cacm april, 1974
 
 
 ************************
 
 ************************
-Document:  CACM-2069.html
+Document:  CACM-3097.html
+************************
+************************
+Document:  CACM-2645.html
 ************************
 
 
-Comments on a Paper by Wallace and Mason
+two languages for estimating program efficiency
 
-CACM April, 1970
-
-Heess Jr., W. F.
-
-page-on-demand, dem<B>and paging</B>, time-sharing multiprogramming,
-Markovian computer models, scheduling strategies,
-operating systems, memory management
-
-2.44 4.32 4.39 6.20 6.21
-
-CA700415 JB February 13, 1978  2:36 PM
-
-2069	5	2069
-2069	5	2069
-2069	5	2069
-
-
-************************
-
-************************
-Document:  CACM-3153.html
-************************
-
-
-The Control of Response Times in Multi-Class
-Systems by Memory Allocations 
-
-The possibility of giving different quality of service to jobs of different
-classes by regulating their memory allocation is examined in
-the context of a paged computer system.  Two parameterized algorithms
-which partition the main memory between two classes of jobs are
-considered.  Initially, a closed system consisting of a process
-or <B>and paging</B> and file devices, with fixed numbers of jobs, is studied
-to determine optimal degrees of multiprogramming and the proportion
-of processor time devoted to each class.  Applying a decomposition
-approach and treating the closed system as a single server,
-the response times in an open system with external arrivals are
-studied.  The object is to investigate the effect of the memory
-alocation parameters on the expected response times under the two algorithms.
-Numerical solutions and economical lower bounds for the
-expected response times as functions of the control parameters
-are obtained.  A way of applying the results to systems with more
-than two job classes is indicated.
-
-CACM July, 1979
-
-Hine, J.
-Mitrani, I.
-Tsur, S.
-
-Queueing networks, paging, virtual memory, performance control
-
-4.32 8.1
-
-CA790704 DH August 22, 1979  3:32 PM
-
-3016	4	3153
-3070	4	3153
-3153	4	3153
-3153	4	3153
-2741	5	3153
-2891	5	3153
-3153	5	3153
-3153	5	3153
-3153	5	3153
-
+two languages enabling their users to estimate
+the efficiency of computer programs are presented. 
+ the program whose efficiency one wishes to estimate is written
+in the first language, a go-to-less programming 
+language which includes most of the features of algol
+60.  the second language consists of interactive 
+commands enabling its users to provide additional information
+about the program written in the first 
+language and to output results estimating its efficiency.
+ processors for the two languages are also 
+described.  the first processor is a syntax-directed
+translator which compiles a program into a symbolic 
+formula representing the execution time for that program.
+ the sound processor is a set of procedures 
+for that program.  the second processor is a set of
+procedures for algebraic manipulation which can be 
+called by the user to operate on the formula produced
+by the first processor.  examples of the usage 
+of the two languages are included.  the limitations of
+the present system, its relation to knuth's work 
+on the analysis of algorithms, and some of the directions
 
 ************************
 
 ************************
-Document:  CACM-1924.html
+Document:  CACM-2884.html
+************************
+************************
+Document:  CACM-2692.html
 ************************
 
 
-Organizing Matrices and Matrix Operations for Paged Memory Systems
+reentrant polygon clipping
 
-Matrix representations and operations are examined
-for the purpose of minimizing the page faulting 
-occurring in a paged memory system.  It is shown that
-carefully designed matrix algorithms can lead to 
-enormous savings in the number of page faults occurring
-when only a small part of the total matrix can 
-be in main memory at one time.  Examination of addition,
-multiplication, and inversion algorithms shows 
-that a partitioned matrix representation (i.e. one submatrix
-or partition per page) in most cases induced 
-fewer page faults than a row-by-row representation.
- The number of page-pulls required by these matrix 
-manipulation algorithms is also studied as a function
-of the number of pages of main memory available 
-to the algorithm.
-
-CACM March, 1969
-
-McKellar, A. C.
-Coffman Jr., E. G.
-
-matrix algorithms, array processing, <B>paging algorithms</B>,
-paged memory systems, virtual memory systems, 
-array storage allocation, storage allocation
-
-4.12 4.39 5.14
-
-CA690303 JB February 20, 1978  9:35 AM
-
-1892	4	1924
-1924	4	1924
-2095	4	1924
-2218	4	1924
-2297	4	1924
-2374	4	1924
-2526	4	1924
-2667	4	1924
-2668	4	1924
-2862	4	1924
-2863	4	1924
-1728	5	1924
-1924	5	1924
-1924	5	1924
-1924	5	1924
-2365	5	1924
-2582	5	1924
-3152	5	1924
-987	6	1924
-1751	6	1924
-1754	6	1924
-1924	6	1924
-1924	6	1924
-1924	6	1924
-2017	6	1924
-2130	6	1924
-2362	6	1924
-2365	6	1924
-
-
+a new family of clipping algorithms is described.
+ these algorithms are able to clip polygons 
+against irregular convex plane-faced volumes in three
+dimensions, removing the parts of the polygon which 
+lie outside the volume.  in two dimensions the algorithms
+permit clipping against irregular convex windows. 
+ polygons to be clipped are represented as an ordered
+sequence of vertices without repetition of first 
+and last, in marked contrast to representation as a
+collection of edges as was heretofore the common 
+procedure.  output polygons have an identical format,
+with new vertices introduced in sequence to describe 
+any newly-cut edge or edges.  the algorithms easily handle
+the particularly difficult problem of detecting 
+that a new vertex may be required at a corner of the
+clipping window.  the algorithms described achieve 
+considerable simplicity by clipping separately against
+each clipping plane or window boundary.  code 
+capable of clipping the polygon against a single boundary
+is reentered to clip against subsequent boundaries. 
+ each such reentrant stage of clipping need store only
+two vertex values and may begin its processing 
+as soon as the first output vertex from the proceeding
+stage is ready.  because the same code is reentered 
+for clipping against subsequent boundaries, clipping
+against very complex window shapes is practical. 
+ for perspective applications in three dimentions, a six-plane
+truncated pyramid is chosen as the clipping 
+volume.  the two additional planes parallel to the projection
+screen 
 ************************
 
 ************************
-Document:  CACM-2022.html
+Document:  CACM-3059.html
+************************
+************************
+Document:  CACM-1795.html
+************************
+************************
+Document:  CACM-1665.html
+************************
+************************
+Document:  CACM-3152.html
 ************************
 
 
-Note on an Anomaly in Paging
+storage reorganization techniques for
+matrix computation in a paging environment
 
-CACM July, 1970
-
-Pomeranz,J. E.
-
-paging machines, dem<B>and paging</B>, replacement algorithm
-
-4.30
-
-CA700715 JB February 10, 1978  4:17 PM
-
-2022	4	2022
-2085	4	2022
-3006	4	2022
-1884	5	2022
-2022	5	2022
-2022	5	2022
-2022	5	2022
-
-
+in order to multiply matrices while minimizing
+the number of page fetches required, it is often more efficient to
+reorganize the data into submatrix form and to use block multiplication 
+rather than to use the best known algorithms which leave the
+matrices 
 ************************
 
 ************************
-Document:  CACM-2297.html
+Document:  CACM-2068.html
 ************************
-
-
-A Model of Memory Contention in a Paging Machine
-
-This paper is concerned with certain aspects of contention
-for main memory resources in a multiprogrammed 
-computer system operating under dem<B>and paging</B>.  In
-the model presented, the number of page-frames of 
-main memory allocated to a problem program varies in
-time.  These changes in memory configuration are 
-represented explicitly in the model, CPU requirements and
-page exception characteristics of program material 
-being described statistically.  Expressions for the distribution
-of the number of page-frames allocated 
-to an executing program, the long run expected fraction
-of a program's execution time in a given number 
-of page-frames, and the average execution interval of the
-multiprogrammed load are obtained.  It is pointed 
-out heuristically and demonstrated numerically that
-an increase is obtain able in the average execution 
-interval of the multiprogrammed load over that resulting
-from equal fixed partitioning of main memory.
-
-CACM August, 1972
-
-Oden, P. H.
-Shedler, G. S.
-
-paging machines, demand paging, operating systems
-studies, queuing analysis, memory contention, 
-memory management
-
-4.32
-
-CA720805 JB January 30, 1978  9:50 AM
-
-1879	4	2297
-1884	4	2297
-1892	4	2297
-1901	4	2297
-1924	4	2297
-2095	4	2297
-2095	4	2297
-2218	4	2297
-2277	4	2297
-2297	4	2297
-2297	4	2297
-2365	4	2297
-2374	4	2297
-2526	4	2297
-2667	4	2297
-2668	4	2297
-2862	4	2297
-2863	4	2297
-1728	5	2297
-1754	5	2297
-2297	5	2297
-2297	5	2297
-2297	5	2297
-
-
-************************
-
-************************
-Document:  CACM-2526.html
-************************
-
-
-Asymmetric Memory Hierarchies
-
- A study is presented of some of the system
-implications of memory hierarchies in which the 
-backing or secondary store has a very small read time,
-relative of both the time required for writing 
-and to the read time of conventional backing storage
-devices. Several analytic models are introduced, 
-and it is shown that such hierarchies may operate in
-ways which differ from those of more conventional 
-hierarchies.  In particular, it is shown that it may not
-be necessary to multiprogram in such a situation. 
- In the past, backing storage devices have been roughly
-symmetric with respect to their read and write 
-times.  This situation may not continue, as several
-devices are currently under development which may 
-have a very small read-time/write-time ratio.  This study
-places particular emphasis on one such system-the 
-RCA read/write holographic optical memory.
-
-CACM April, 1973
-
-Williams, J.
-
-asymmetric memory hierarchy, dem<B>and paging</B>, holographic
-optical memory, memory device, memory hierarchy, 
-paging, storage device, storage hierarchy, virtual memory
-
-4.3 4.32 5.2 6.2 6.34
-
-CA730402 JB January 24, 1978  10:15 AM
-
-1892	4	2526
-1924	4	2526
-2095	4	2526
-2218	4	2526
-2297	4	2526
-2374	4	2526
-2526	4	2526
-2667	4	2526
-2668	4	2526
-2862	4	2526
-2863	4	2526
-1728	5	2526
-2526	5	2526
-2526	5	2526
-2526	5	2526
-
-
-************************
-
-************************
-Document:  CACM-2016.html
-************************
-
-
-The Instrumentation of Multics
-
-An array of measuring tools devised to aid in the implementation of a prototype
-computer utility is discussed.  These tools include special hardware
-clocks and data channels, general purpose programmed probing
-and recording tools, and specialized measurement facilities.  Some
-particular measurements of interest in a system which combines demand 
-paging with multiprogramming are described in detail.  Where appropriate, 
-insight into effectiveness (or lack there of) of individual tools is provided.
-
-CACM August, 1970
-
-Gintell, J. W.
-Saltzer, J. H.
-
-instrumentation, performance measurement,
-multiprogramming systems, measuring tools, system analysis, Multics,
-metering, event tracing, dem<B>and paging</B>, script driven
-measurement
-
-2.44 4.32 4.39 4.42
-
-CA700805 JB February 10, 1978  3:43 PM
-
-2016	5	2016
-2016	5	2016
-2016	5	2016
-2193	5	2016
-2319	5	2016
-2894	5	2016
-1408	6	2016
-1719	6	2016
-1749	6	2016
-1751	6	2016
-1951	6	2016
-2016	6	2016
-2016	6	2016
-2016	6	2016
-2017	6	2016
-2080	6	2016
-2188	6	2016
-2203	6	2016
-2204	6	2016
-3186	6	2016
-
-
-************************
-
-************************
-Document:  CACM-2667.html
-************************
-
-
-Execution Characteristics of Programs in a Page-on-Demand System
-
-Data are presented which show the execution characteristics
-of two types of commonly used programs 
-in a large-scale, time-shared computer system.  A software
-monitoring facility built into the supervisor 
-was used for data collection during normal system operation.
- These data were analyzed, and results of 
-this analysis are presented for a Fortran compiler
-and an interactive line file editor.  Probability 
-distribution functions and other data are given for
-such things as CPU intervals, I/O intervals, and 
-the number of such intervals during execution.  Empirical
-distributions are compared with simple theoretical 
-distributions (exponential, hyperexponential, and geometric).
- Other data show paging characteristics 
-of tasks as a function of the number of pages those tasks have in core.
-
-CACM April, 1974
-
-Boyse, J. W.
-
-program behavior, virtual memory, paging, dem<B>and paging</B>,
-software monitor, program execution characteristics, 
-compiler execution behavior, editor execution behavior
-
-4.12 4.19 4.32 4.39 4.9 8.1
-
-CA740403 JB January 18, 1978  10:12 AM
-
-1533	4	2667
-1892	4	2667
-1924	4	2667
-1951	4	2667
-2095	4	2667
-2218	4	2667
-2297	4	2667
-2374	4	2667
-2526	4	2667
-2667	4	2667
-2667	4	2667
-2667	4	2667
-2668	4	2667
-2668	4	2667
-2668	4	2667
-2862	4	2667
-2863	4	2667
-1604	5	2667
-1728	5	2667
-1827	5	2667
-2667	5	2667
-2667	5	2667
-2667	5	2667
-
-
-************************
-
-************************
-Document:  CACM-1810.html
-************************
-
-
-Is Automatic "Folding" of Programs Efficient Enough To Displace Manual?
-
-The operation of "folding" a program into
-the available memory is discussed.  Measurements 
-by Brown et al. and by Nelson on an automatic folding
-mechanism of simple design, a dem<B>and paging</B> unit 
-built at the IBM Research Center by Belady, Nelson,
-O'Neil, and others, permitting its quality to be 
-compared with that of manual folding, are discussed,
-and it is shown that given some care in use the 
-unit performs satisfactorily under the conditions tested,
-even though it is operating across a memory-to-storage 
-interface with a very large speed difference.  The disadvantages
-of prefolding, which is required when 
-the folding is manual, are examined, and a number of
-the important troubles which beset computing today 
-are shown to arise from, or be aggravated by, this
-source.  It is concluded that a folding mechanism 
-will probably become a normal part of most computing systems.
-
-CACM December, 1969
-
-Sayre, D.
-
-paging, automatic paging, demand paging, folding,
-automatic folding, storage hierarchies, memory 
-hierarchies, replacement algorithms, performance, measurement
-
-4.0 4.19 4.39 6.20 6.34
-
-CA691202 JB February 15, 1978  4:33 PM
-
-1810	5	1810
-1810	5	1810
-1810	5	1810
-2218	5	1810
-2373	5	1810
-1380	6	1810
-1410	6	1810
-1572	6	1810
-1728	6	1810
-1751	6	1810
-1751	6	1810
-1752	6	1810
-1810	6	1810
-1810	6	1810
-1879	6	1810
-1951	6	1810
-2095	6	1810
-2374	6	1810
-
-
-************************
-
-************************
-Document:  CACM-1752.html
-************************
-
-
-Resource Management for a Medium Scale Time-Sharing Operating system
-
-Task scheduling and resource balancing for
-a medium size virtual memory paging machine are 
-discussed in relation to a combined batch processing
-and time-sharing environment.  A synopsis is given 
-of the task scheduling and <B>paging algorithms</B> that were implemented,
-and the results of comparative simulation 
-are given by tracing the development of the algorithms
-through six predecessor versions.  Throughout 
-the discussion particular emphasis is placed on balancing
-the system performance relative to the characteristics 
-of all the system resources.  Simulation results relative
-to alternate hardware characteristics and the 
-effects of program mix and loading variations are also presented.
-
-CACM May, 1968
-
-Oppenheimer, G.
-Weizer, N.
-
-time-sharing, operating systems, resource management,
-task scheduling, paging, system simulation, 
-memory management, virtual memories
-
-4.30 4.31 4.32
-
-CA680504 JB February 23, 1978  9:39 AM
-
-1751	5	1752
-1752	5	1752
-1752	5	1752
-1752	5	1752
-1892	5	1752
-2128	5	1752
-2218	5	1752
-1380	6	1752
-1526	6	1752
-1572	6	1752
-1572	6	1752
-1728	6	1752
-1728	6	1752
-1751	6	1752
-1751	6	1752
-1752	6	1752
-1752	6	1752
-1752	6	1752
-1752	6	1752
-1810	6	1752
-1879	6	1752
-2095	6	1752
-
-
-************************
-
-
-
-Resource Management for a Medium Scale Time-Sharing Operating system
-
-Task scheduling and resource balancing for
-a medium size virtual memory paging machine are 
-discussed in relation to a combined batch processing
-and time-sharing environment.  A synopsis is given 
-of the task scheduling <B>and paging</B> algorithms that were implemented,
-and the results of comparative simulation 
-are given by tracing the development of the algorithms
-through six predecessor versions.  Throughout 
-the discussion particular emphasis is placed on balancing
-the system performance relative to the characteristics 
-of all the system resources.  Simulation results relative
-to alternate hardware characteristics and the 
-effects of program mix and loading variations are also presented.
-
-CACM May, 1968
-
-Oppenheimer, G.
-Weizer, N.
-
-time-sharing, operating systems, resource management,
-task scheduling, paging, system simulation, 
-memory management, virtual memories
-
-4.30 4.31 4.32
-
-CA680504 JB February 23, 1978  9:39 AM
-
-1751	5	1752
-1752	5	1752
-1752	5	1752
-1752	5	1752
-1892	5	1752
-2128	5	1752
-2218	5	1752
-1380	6	1752
-1526	6	1752
-1572	6	1752
-1572	6	1752
-1728	6	1752
-1728	6	1752
-1751	6	1752
-1751	6	1752
-1752	6	1752
-1752	6	1752
-1752	6	1752
-1752	6	1752
-1810	6	1752
-1879	6	1752
-2095	6	1752
-
-
-************************
-
 ************************
 Document:  CACM-2863.html
 ************************
 
 
-VMIN-An Optimal Variable-Space Page Replacement Algorithm
+vmin-an optimal variable-space page replacement algorithm
 
-A criterion for comparing variable space page
-replacement algorithms is presented.  An optimum 
-page replacement algorithm, called VMIN, is described and
+a criterion for comparing variable space page
+replacement algorithms is presented.  an optimum 
+page replacement algorithm, called vmin, is described and
 shown to be optimum with respect to this criterion. 
-The results of simulating VMIN, Denning's working set,
+the results of simulating vmin, denning's working set,
 and the page partitioning replacement algorithms 
 on five virtual memory programs are presented to demonstrate
 the improvement possible over the known 
 realizable variable space algorithms.
 
-CACM May, 1976
+cacm may, 1976
 
-Prieve, B. G.
-Fabry, R. S.
+prieve, b. g.
+fabry, r. s.
 
-dem<B>and paging</B>, performance measurement, multilevel
-memory systems, virtual memory, working set, 
-page replacement algorithms, optimal page replacement
-
-4.30 4.32
-
-CA760508 JB January 4, 1978  3:06 PM
-
-1892	4	2863
-1892	4	2863
-1901	4	2863
-1924	4	2863
-2085	4	2863
-2095	4	2863
-2095	4	2863
-2218	4	2863
-2218	4	2863
-2277	4	2863
-2297	4	2863
-2319	4	2863
-2329	4	2863
-2358	4	2863
-2373	4	2863
-2374	4	2863
-2374	4	2863
-2380	4	2863
-2434	4	2863
-2499	4	2863
-2481	4	2863
-2501	4	2863
-2526	4	2863
-2582	4	2863
-2667	4	2863
-2668	4	2863
-2669	4	2863
-2669	4	2863
-2828	4	2863
-2862	4	2863
-2863	4	2863
-2863	4	2863
-2863	4	2863
-2863	4	2863
-2881	4	2863
-2928	4	2863
-2996	4	2863
-3006	4	2863
-3016	4	2863
-3052	4	2863
-3067	4	2863
-3067	4	2863
-1728	5	2863
-1751	5	2863
-1901	5	2863
-2863	5	2863
-2863	5	2863
-2863	5	2863
-2863	5	2863
-3067	5	2863
-1728	6	2863
-1751	6	2863
-1751	6	2863
-1901	6	2863
-2374	6	2863
-2373	6	2863
-2595	6	2863
-2682	6	2863
-2863	6	2863
-2863	6	2863
-2864	6	2863
-3006	6	2863
-
-
+demand paging, performance measurement, 
 ************************
 
 ************************
-Document:  CACM-2277.html
+Document:  CACM-2283.html
+************************
+************************
+Document:  CACM-2872.html
+************************
+************************
+Document:  CACM-0082.html
+************************
+************************
+Document:  CACM-3156.html
 ************************
 
 
-Demand Paging Through Utilization of Working Sets on the MANIAC II
+computing connected components on parallel computers
 
-A hardware implementation on the Maniac II computer
-of the working set model for dem<B>and paging</B>, 
-as introduced by Denning, is discussed.  Characteristics
-of the Maniac II are given, along with a description 
-of the basic demand paging scheme and the associate memory
-which has been added to the Maniac II hardware. 
- Finally, a description of the hardware design for implementation
-of the working set model is discussed 
-and a specification of the actions taken under various
-conditions which may arise during the operation 
-of the full working set model, demand paging system is given.
+we present a parallel algorithm which uses n2 processors to find the connected
 
-CACM October, 1972
+************************
+ to find the connected
+components of an undirected graph with n vertices in time o(log2n).  an
+o(log2n) time bound also can be achieved using only n$n/$log2n)) processors.
+the algorithm can be used to find the transitive closure
+of a symmetric boolean matrix.  we assume that the processors have
+access to a common memory.  simultaneous access to the same location
+is permitted for fetch instructions but not for store instructions.
 
-Morris, J. B.
+cacm august, 1979
 
-demand paging, dynamic storage allocation, Maniac
-II, memory allocation, one-level store, paging, 
-paging associative memory, storage allocation,
-thrashing, virtual memory, working set model
+hirschberg, d.
+chandra, a.
+sarwate, d.
 
-4.30 6.21
-
-CA721001 JB January 27, 1978  4:06 PM
-
-1879	4	2277
-1884	4	2277
-1892	4	2277
-1901	4	2277
-1901	4	2277
-2085	4	2277
-2095	4	2277
-2095	4	2277
-2218	4	2277
-2277	4	2277
-2277	4	2277
-2297	4	2277
-2319	4	2277
-2329	4	2277
-2358	4	2277
-2365	4	2277
-2373	4	2277
-2380	4	2277
-2434	4	2277
-2499	4	2277
-2501	4	2277
-2582	4	2277
-2669	4	2277
-2828	4	2277
-2863	4	2277
-2881	4	2277
-2928	4	2277
-2996	4	2277
-3006	4	2277
-3067	4	2277
-1751	5	2277
-1754	5	2277
-2277	5	2277
-2277	5	2277
-2277	5	2277
-2928	5	2277
-3127	5	2277
-1751	6	2277
-2080	6	2277
-2277	6	2277
-2277	6	2277
-2380	6	2277
-2522	6	2277
-2569	6	2277
-
-
+graph theory, parallel processing, algorithms,
+transitive closure, 
 ************************
 
 ************************
-Document:  CACM-2128.html
+Document:  CACM-2266.html
 ************************
 
 
-A Processor Allocation Method for Time-Sharing
+a highly parallel algorithm for approximating
+all zeros of a polynomial with only real zeros
 
-A scheduling algorithm is proposed which is intended to minimize changes of 
-tasks on <B>processors and</B> thereby reduce over-head.  The algorithm also has
-application to more general resource allocation problems.  It is implemented 
-by means of a method for efficiently handling dynamically changing segmented 
-lists.
+an algorithm is described based on newton's
+method which simultaneously approximates all zeros 
+of a polynomial with only real zeros.  the algorithm, which
+is conceptually suitable for parallel computation, 
+determines its own starting values so that convergence
+to the zeros is guaranteed.  multiple zeros and 
+their multiplicity are readily determined.  at no
+point in the method is polynomial deflation used.
 
-CACM January, 1970
+cacm november, 1972
 
-Mullery, A. P.
-Driscoll, G. C.
+patrick, m. l.
 
-time sharing, resource allocation, scheduling algorithms,
-monitors, dynamic allocation, processor
-allocation, multiprogramming, multiprocessing, time
-slicing, scheduling, conversational systems, 
-interactive systems 
-
-3.80 4.30 4.31 4.32 6.33
-
-CA700103 JB February 14, 1978  2:15 PM
-
-1751	4	2128
-1892	4	2128
-2128	4	2128
-2218	4	2128
-1752	5	2128
-2128	5	2128
-2128	5	2128
-2128	5	2128
-
-
+parallel numerical algorithms, real polynomials,
+real 
 ************************
 
 ************************
-Document:  CACM-1884.html
+Document:  CACM-2137.html
 ************************
-
-
-An Anomaly in Space-Time Characteristics of
-Certain Programs Running in a Paging Machine
-
-The running time of programs in a paging machine
-generally increases as the store in which 
-programs are constrained to run decreases.  Experiments,
-however, have revealed cases in which the reverse 
-is true: a decrease in the size of the store is accompanied
-by a decrease in running time.  An informal 
-discussion of the anomalous behavior is given, and for
-the case of the FIFO replacement algorithm a formal 
-treatment is presented.
-
-CACM June, 1969
-
-Belady, L. A.
-Nelson, R. A.
-Shedler, G. S.
-
-paging machines, dem<B>and paging</B>, replacement algorithm
-
-4.30
-
-CA690609 JB February 17, 1978  9:59 AM
-
-1879	4	1884
-1884	4	1884
-1901	4	1884
-2095	4	1884
-2277	4	1884
-2297	4	1884
-2365	4	1884
-1754	5	1884
-1884	5	1884
-1884	5	1884
-1884	5	1884
-2022	5	1884
-2085	5	1884
-3006	5	1884
-1751	6	1884
-1751	6	1884
-1884	6	1884
-1884	6	1884
-1884	6	1884
-2374	6	1884
-2373	6	1884
-2595	6	1884
-
-
 ************************
-
+Document:  CACM-2896.html
+************************
 ************************
 Document:  CACM-1964.html
 ************************
-
-
-Comment on the Working Set Model for Program Behavior
-
-CACM November, 1970
-
-Bernstein, A.
-
-dem<B>and paging</B>, working set, paging rate, multiprogramming
-
-4.30 4.32
-
-CA701115 JB February 9, 1978  4:23 PM
-
-1964	5	1964
-1964	5	1964
-1964	5	1964
-
-
 ************************
-
+Document:  CACM-2342.html
 ************************
-Document:  CACM-2579.html
+************************
+Document:  CACM-2522.html
 ************************
 
 
-Register Allocation Via Usage Counts
-
-This paper introduces the notion of usage counts,
-shows how usage counts can be developed by 
-algorithms that eliminate redundant computations, and
-describes how usage counts can provide the basis 
-for register allocation.  The paper compares register
-allocation based on usage counts to other commonly 
-used register allocation techniques, and presents evidence
-which shows that the usage count technique 
-is significantly better than these other techniques.
-
-CACM November, 1974
-
-Freiburghouse, R. A.
-
-optimization, redundant computations, common subexpressions,
-register allocation, compilers, programming 
-languages, virtual memory, dem<B>and paging</B>
-
-4.12 4.2 4.39
-
-CA741105 JB January 16, 1978  10:24 AM
-
-1781	4	2579
-1807	4	2579
-2034	4	2579
-2290	4	2579
-2579	4	2579
-2579	4	2579
-2579	4	2579
-2923	4	2579
-2923	4	2579
-2945	4	2579
-1535	5	2579
-1807	5	2579
-1947	5	2579
-2579	5	2579
-2579	5	2579
-2579	5	2579
-
-
-************************
-
-************************
-Document:  CACM-2450.html
-************************
-
-
-Empirical Working Set Behavior
-
-The working set model for program behavior
-has been proposed in recent years as a basis for 
-the design of scheduling <B>and paging</B> algorithms.  Although
-the words "working set" are now commonly encountered 
-in the literature dealing with resource allocation, there
-is a dearth of published data on program measurements, 
-in the hope that workers in the field might find experimental
-evidence upon which to substantiate and 
-base theoretical work.
-
-CACM September, 1973
-
-Rodriguez-Rosell, J.
-
-virtual memory, paging, working set,
-software measurement, program behavior
-
-4.3
-
-CA730905 JB January 23, 1978  9:22 AM
-
-2373	4	2450
-2374	4	2450
-2380	4	2450
-2450	4	2450
-2450	4	2450
-2595	4	2450
-2996	4	2450
-3006	4	2450
-3006	4	2450
-3067	4	2450
-3067	4	2450
-2373	5	2450
-2374	5	2450
-2450	5	2450
-2450	5	2450
-2450	5	2450
-
-
-************************
-
-
-
-Empirical Working Set Behavior
-
-The working set model for program behavior
-has been proposed in recent years as a basis for 
-the design of scheduling and <B>paging algorithms</B>.  Although
-the words "working set" are now commonly encountered 
-in the literature dealing with resource allocation, there
-is a dearth of published data on program measurements, 
-in the hope that workers in the field might find experimental
-evidence upon which to substantiate and 
-base theoretical work.
-
-CACM September, 1973
-
-Rodriguez-Rosell, J.
-
-virtual memory, paging, working set,
-software measurement, program behavior
-
-4.3
-
-CA730905 JB January 23, 1978  9:22 AM
-
-2373	4	2450
-2374	4	2450
-2380	4	2450
-2450	4	2450
-2450	4	2450
-2595	4	2450
-2996	4	2450
-3006	4	2450
-3006	4	2450
-3067	4	2450
-3067	4	2450
-2373	5	2450
-2374	5	2450
-2450	5	2450
-2450	5	2450
-2450	5	2450
-
-
-************************
-
-************************
-Document:  CACM-2668.html
-************************
-
-
-Computation of Page Fault Probability from Program Transition Diagram
-
-An algorithm is given for calculating page fault
-probability in a virtual memory system operating 
-under dem<B>and paging</B> with various memory sizes and replacement
-rules.  A first order Markov model of program 
-behavior is assumed, and a representation of the system
-based on memory states, control states, and memory 
-substates is presented.  The algorithm is general in
-the sense that the page fault probabilities can 
-be calculated for nonpredictive replacement rules applied
-to any program represented by a one-step Markov 
-chain.  A detailed example is given to illustrate the
-algorithm for Random and Least Recently Used (LRU) 
-replacement rules.
-
-CACM April, 1974
-
-Franklin, M. A.
-Gupta, R. K.
-
-virtual memory, demand paging, replacement rule,
-program model, program behavior, Markov model, 
-page fault, page fault probability
-
-4.30 6.20
-
-CA740402 JB January 18, 1978  10:31 AM
-
-1533	4	2668
-1892	4	2668
-1924	4	2668
-1951	4	2668
-2095	4	2668
-2218	4	2668
-2297	4	2668
-2374	4	2668
-2526	4	2668
-2667	4	2668
-2667	4	2668
-2667	4	2668
-2668	4	2668
-2668	4	2668
-2668	4	2668
-2668	4	2668
-2668	4	2668
-2862	4	2668
-2863	4	2668
-1604	5	2668
-1728	5	2668
-1761	5	2668
-1827	5	2668
-2668	5	2668
-2668	5	2668
-2668	5	2668
-2677	5	2668
-
-
-************************
-
-************************
-Document:  CACM-2497.html
-************************
-
-
-Synchronizing Processors with Memory-Content-Generated Interrupts
-
-Implementations of the "Lock-Unlock" method
-of synchronizing processors in a multiprocessor 
-system usually require uninterruptable, memory-pause type instructions.
- An interlock scheme called read-interlock, 
-which does not require memory-pause instructions, has
-been developed for a dual DEC PDP-10 system with 
-real-time requirements.  The read-interlock method does
-require a special"read-interlock" instruction 
-in the repertoire of the <B>processors and</B> a special "read-interlock"
-cycle in the repertoire of the memory 
-modules.  When a processor examines a "lock" (a memory
-location) with a read-interlock instruction, it 
-will be interrupted if the lock was already set; examining
-a lock immediately sets it if it was not already 
-set (this event sequence is a read-interlock cycle). 
-Writing into a lock clears it.  Having the processor 
-interrupted upon encountering a set lock instead of
-branching is advantageous if the branch would have 
-resulted in an effective interrupt.
-
-CACM June, 1973
-
-Hill, J. C.
-
-interrupts,supervisors, monitors, debugging, parallel
-processing, associative memories, microprogramming
-
-4.32 6.29
-
-CA730603 JB January 23, 1978  3:29 PM
-
-1458	4	2497
-1523	4	2497
-1603	4	2497
-1698	4	2497
-1747	4	2497
-1748	4	2497
-1854	4	2497
-1877	4	2497
-1960	4	2497
-2377	4	2497
-2378	4	2497
-2497	4	2497
-2497	4	2497
-2534	4	2497
-2558	4	2497
-2625	4	2497
-2632	4	2497
-2840	4	2497
-2941	4	2497
-3105	4	2497
-3144	4	2497
-1471	5	2497
-2182	5	2497
-2497	5	2497
-2497	5	2497
-2497	5	2497
-
-
-************************
-
-************************
-Document:  CACM-2085.html
-************************
-
-
-Comment on a Paging Anomaly
-
-CACM March, 1970
-
-Dempster, J. R. H.
-
-paging machines, dem<B>and paging</B>, replacement algorithm
-
-4.30
-
-CA700313 JB February 13, 1978  3:39 PM
-
-1892	4	2085
-1901	4	2085
-2022	4	2085
-2085	4	2085
-2085	4	2085
-2095	4	2085
-2218	4	2085
-2277	4	2085
-2319	4	2085
-2329	4	2085
-2358	4	2085
-2373	4	2085
-2380	4	2085
-2434	4	2085
-2499	4	2085
-2501	4	2085
-2582	4	2085
-2669	4	2085
-2828	4	2085
-2863	4	2085
-2881	4	2085
-2928	4	2085
-2996	4	2085
-3006	4	2085
-3006	4	2085
-3067	4	2085
-1751	5	2085
-1884	5	2085
-2085	5	2085
-2085	5	2085
-2085	5	2085
-
-
+the design, implementation, and evaluation of a working set dispatcher
+
+the behavior of a computer system is largely
+dependent upon the algorithms employed to allocate 
+the system resources to the processes competing for them.
+ recent research in time-sharing paging systems 
+has developed 
 ************************
 
 ************************
@@ -1326,270 +242,1017 @@ Document:  CACM-3006.html
 ************************
 
 
-Anomalies with Variable Partition Paging Algorithms
+anomalies with variable partition paging algorithms
 
-Five types of anomalous behavior which may
+five types of anomalous 
+************************
+
+
+five types of anomalous behavior which may
 occur in paged virtual memory operating systems 
-a redefined.  One type of anomaly, for example, concerns
+a redefined.  one type of anomaly, for example, concerns
 the fact that, with certain reference strings 
-<B>and paging</B> algorithms, an increase in mean memory allocation
+and paging algorithms, an increase in mean 
+************************
+, an increase in mean memory allocation
 may result in an increase in fault rate. 
- Two paging algorithms, are examined in terms of their
+ two paging algorithms, are examined in terms 
+************************
+, are examined in terms of their
 anomaly potential, and reference string examples 
-of various anomalies are presented.  Two paging algorithm
+of various anomalies are presented.  two paging algorithm
 properties, the inclusion property and the 
 generalized inclusion property, are discussed and the
 anomaly implications of these properties presented.
 
-CACM March, 1978
+cacm march, 1978
 
-Franklin, M.
-Graham, G.
-Gupta, R.
+franklin, m.
+graham, g.
+gupta, r.
 
 anomaly, memory management, program behavior, stack
-algorithms, virtual memory, working set, page 
+algorithms, virtual memory, working 
+************************
+, virtual memory, working set, page 
 fault frequency, paging algorithms
 
 4.32 4.35 4.6 8.1
 
-CA780307 JB March 28,1978  1:01 PM
-
-1892	4	3006
-1901	4	3006
-2022	4	3006
-2085	4	3006
-2085	4	3006
-2095	4	3006
-2218	4	3006
-2277	4	3006
-2319	4	3006
-2329	4	3006
-2358	4	3006
-2373	4	3006
-2373	4	3006
-2374	4	3006
-2380	4	3006
-2380	4	3006
-2434	4	3006
-2499	4	3006
-2450	4	3006
-2450	4	3006
-2501	4	3006
-2582	4	3006
-2595	4	3006
-2669	4	3006
-2828	4	3006
-2863	4	3006
-2881	4	3006
-2928	4	3006
-2996	4	3006
-2996	4	3006
-2996	4	3006
-3006	4	3006
-3006	4	3006
-3006	4	3006
-3006	4	3006
-3006	4	3006
-3067	4	3006
-3067	4	3006
-3067	4	3006
-3067	4	3006
-1751	5	3006
-1884	5	3006
-2373	5	3006
-2374	5	3006
-2595	5	3006
-3006	5	3006
-3006	5	3006
-3006	5	3006
-3067	5	3006
-1751	6	3006
-2374	6	3006
-2373	6	3006
-2595	6	3006
-2682	6	3006
-2863	6	3006
-2864	6	3006
-3006	6	3006
-
 
 ************************
 
+************************
+Document:  CACM-1302.html
+************************
+************************
+Document:  CACM-2365.html
+************************
 
 
-Anomalies with Variable Partition Paging Algorithms
+matrix computations with fortran and paging
 
-Five types of anomalous behavior which may
-occur in paged virtual memory operating systems 
-a redefined.  One type of anomaly, for example, concerns
-the fact that, with certain reference strings 
-and <B>paging algorithms</B>, an increase in mean memory allocation
-may result in an increase in fault rate. 
- Two paging algorithms, are examined in terms of their
-anomaly potential, and reference string examples 
-of various anomalies are presented.  Two paging algorithm
-properties, the inclusion property and the 
-generalized inclusion property, are discussed and the
-anomaly implications of these properties presented.
+the efficiency of conventional fortran programs
+for matrix computations can often be improved 
+by reversing the order of nested loops.  such modifications
+produce modest savings in many common situations 
+and very significant savings for large problems run
+under an operating system which uses paging.
 
-CACM March, 1978
+cacm april, 1972
 
-Franklin, M.
-Graham, G.
-Gupta, R.
+moler, c. b.
 
-anomaly, memory management, program behavior, stack
-algorithms, virtual memory, working set, page 
-fault frequency, paging algorithms
-
-4.32 4.35 4.6 8.1
-
-CA780307 JB March 28,1978  1:01 PM
-
-1892	4	3006
-1901	4	3006
-2022	4	3006
-2085	4	3006
-2085	4	3006
-2095	4	3006
-2218	4	3006
-2277	4	3006
-2319	4	3006
-2329	4	3006
-2358	4	3006
-2373	4	3006
-2373	4	3006
-2374	4	3006
-2380	4	3006
-2380	4	3006
-2434	4	3006
-2499	4	3006
-2450	4	3006
-2450	4	3006
-2501	4	3006
-2582	4	3006
-2595	4	3006
-2669	4	3006
-2828	4	3006
-2863	4	3006
-2881	4	3006
-2928	4	3006
-2996	4	3006
-2996	4	3006
-2996	4	3006
-3006	4	3006
-3006	4	3006
-3006	4	3006
-3006	4	3006
-3006	4	3006
-3067	4	3006
-3067	4	3006
-3067	4	3006
-3067	4	3006
-1751	5	3006
-1884	5	3006
-2373	5	3006
-2374	5	3006
-2595	5	3006
-3006	5	3006
-3006	5	3006
-3006	5	3006
-3067	5	3006
-1751	6	3006
-2374	6	3006
-2373	6	3006
-2595	6	3006
-2682	6	3006
-2863	6	3006
-2864	6	3006
-3006	6	3006
-
+matrix algorithms, linear equations, fortran,
 
 ************************
 
+************************
+Document:  CACM-0371.html
+************************
+************************
+Document:  CACM-2838.html
+************************
+
+
+analysis of an algorithm for real time garbage collection
+
+a real time garbage collection system avoids
+suspending the operations of a list processor 
+for the long times that garbage collection normally requires
+by performing garbage collection on a second 
+processor in parallel with list processing operations,
+or on a single processor time-shared with them. 
+ algorithms for recovering discarded 
+************************
+ for recovering discarded list structures in
+this manner are presented and analyzed to determine 
+sufficient conditions under which the list processor never
+needs to wait on the collector.  these techniques 
+are shown to require at most twice as much processing
+power as regular garbage collectors, if they are 
+used efficiently.  the average behavior of the program
+is shown to be very nearly equal to the worst-case 
+performance, so that the sufficient conditions are also
+suitable for measuring the typical behavior of 
+the algorithm.
+
+cacm september, 1976
+
+wadler, p. l.
+
+garbage collection, storage reclamation, list
+processing, lisp, time-sharing, multiprocessing, 
+parallel processing, real time, data structures, analysis of algorithms
+
+3.69 3.89 4.19 4.29 
+************************
+
+************************
+Document:  CACM-2627.html
+************************
+************************
+Document:  CACM-2557.html
+************************
+
+
+on the time required for a sequence of matrix products
+
+this paper discusses the multiplication of conformable
+sequences of row vectors, column vectors, 
+and square matrices.  the minimum time required to evaluate
+such products on ordinary serial computers 
+as well as parallel computers is discussed.  algorithms
+are presented which 
+************************
+
+************************
+Document:  CACM-3088.html
+************************
+************************
+Document:  CACM-2700.html
+************************
+************************
+Document:  CACM-1924.html
+************************
+
+
+organizing matrices and matrix operations for paged memory systems
+
+matrix representations and operations are examined
+for the purpose of minimizing the page faulting 
+occurring in a paged memory system.  it is shown that
+carefully designed matrix algorithms can lead to 
+enormous savings in the number of page faults occurring
+when only a small part of the total matrix can 
+be in main memory at one time.  examination of addition,
+multiplication, and inversion algorithms shows 
+that a partitioned matrix representation (i.e. one submatrix
+or partition per page) in most cases induced 
+fewer page faults than a row-by-row representation.
+ the number of page-pulls required by these matrix 
+manipulation algorithms is also studied as a function
+of the number of pages of main memory available 
+to the algorithm.
+
+cacm march, 1969
+
+mckellar, a. c.
+coffman jr., e. g.
+
+matrix algorithms, array processing, paging algorithms,
+paged memory 
+************************
+
+************************
+Document:  CACM-1468.html
+************************
+
+
+syntax-directed interpretation of classes of pictures
+
+a descriptive scheme for classes of pictures based
+on labeling techniques using parallel processing 
+algorithms was proposed by the 
+************************
+
+************************
+Document:  CACM-3075.html
+************************
+
+
+fast parallel sorting algorithms
+
+a parallel bucket-sort 
+************************
+
+
+a parallel bucket-sort algorithm is presented
+that requires time o(log n) and the use of n 
+processors.  the algorithm makes 
+************************
+.  the algorithm makes use of a technique that
+requires more space than the product of processors 
+and time.  a realistic model is used model is used in which
+no memory contention is permitted.  a procedure 
+is also presented to sort n numbers in time o(k log
+n) using n 1 + 1/k processors, for k an arbitrary 
+integer.  the model of computation for this procedure
+permits simultaneous fetches from the same memory 
+location.
+
+cacm august, 1978
+
+hirschberg, d.
+
+parallel processing, sorting, algorithms, bucket sort
+
+3.74 4.34 
+************************
+
+************************
+Document:  CACM-2175.html
+************************
+
+
+subexpression ordering in the execution of arithmetic expressions
+
+an arithmetic expression can often be broken
+down into its component subexpressions.  depending 
+on the hardware environment in which the expression is
+to be executed, these subexpressions can be evaluated 
+in serials, in parallel, or in a combination of these
+modes.  this paper shows that expression execution 
+time can be minimized only if consideration is given to
+the ordering of the subexpressions.  in particular, 
+subexpressions should be executed in order of decreasing
+memory and processor time requirements.  this 
+observation is valid for configurations ranging from
+a uniprocessor with an unbuffered main memory to 
+multiprocessor with a "cache" buffer memory.  if the
+number of subexpressions which can be executed in 
+parallel exceeds the number of available processors,
+then execution of some 
+************************
+
+************************
+Document:  CACM-2017.html
+************************
+************************
+Document:  CACM-2433.html
+************************
+
+
+control structures in illiac iv fortran
+
+as part of an effort to design and implement
+a fortran compiler on the illiac iv, an extended 
+fortran, called ivtran, has been developed.  this language
+provides a means of expressing data and control 
+structures suitable for exploiting illiac iv parallelism.
+ this paper reviews the hardware characteristics 
+of the illiac and singles out unconventional features
+which could be expected to influence language (and 
+compiler) design.  the implications of these features for
+data layout and algorithm structure are discussed, 
+and the conclusion is drawn that data allocation rather than
+code structuring is the crucial illiac optimization 
+problem.  a satisfactory method of data allocation is
+then presented.  language structures to utilize 
+this storage method and express parallel algorithms are described.
+
+cacm 
+************************
+
+************************
+Document:  CACM-1367.html
+************************
+************************
+Document:  CACM-2226.html
+************************
+************************
+Document:  CACM-1825.html
+************************
+************************
+Document:  CACM-1811.html
+************************
+
+
+a case study in programming for parallel-processors
+
+an affirmative partial 
+************************
+
+
+an affirmative partial answer is provided to
+the question of whether it is possible to program 
+parallel-processor computing systems to efficiently decrease
+execution time for useful problems.  parallel-processor 
+systems are multiprocessor systems in which several of
+the processors can simultaneously execute 
+************************
+ can simultaneously execute separate 
+tasks of a single job, thus cooperating to decrease
+the solution time of a computational problem. the 
+processors have independent instruction counters, meaning
+that each processor executes its own task program 
+relatively independently of the other processors.  communication
+between cooperating processors is by 
+means of data in storage shared by all processors.  a
+program for the determination of the distribution 
+of current in an electrical network was written for a
+parallel-processor computing 
+************************
+-processor computing system, and execution 
+of this program was simulated.  the data gathered from
+simulation runs demonstrate the efficient solution 
+of this problem, typical of a large class of important
+problems.  it is shown that, with proper programming, 
+solution time when n processors are applied approaches
+1/n times the solution time for a single processor, 
+while improper programming can actually lead to an increase
+of solution time with the number of processors. 
+ stability of the method of solution was also investigated.
+
+cacm december, 1969
+
+rosenfeld, j. l.
+
+parallel-processor, parallelism, 
+************************
+
+************************
+Document:  CACM-1658.html
+************************
+************************
+Document:  CACM-0950.html
+************************
+
+
+parallel methods for integrating ordinary differential equations
+
+this paper is dedicated to the proposition that,
+in order to take full advantage for real-time 
+computations of highly parallel computers as can be
+expected to be available in the near future, much 
+of numerical analysis will have to be recast in a more
+"parallel" form.  by this is meant that serial 
+algorithms ought to be replaced 
+************************
+
+************************
+Document:  CACM-2895.html
+************************
+************************
+Document:  CACM-2685.html
+************************
+************************
+Document:  CACM-2085.html
+************************
+************************
+Document:  CACM-2914.html
+************************
 ************************
 Document:  CACM-2669.html
 ************************
+************************
+Document:  CACM-0392.html
+************************
+************************
+Document:  CACM-2166.html
+************************
+************************
+Document:  CACM-2973.html
+************************
 
 
-A Simple Linear Model of Demand Paging Performance
+sorting on a mesh-connected parallel computer
 
-Predicting the performance of a proposed automatically
-managed multilevel memory system requires 
-a model of the patterns by which programs refer to the
-information stored in the memory.  Some recent 
-experimental measurements on the Multics virtual memory
-suggest that, for rough approximations, a remarkably 
-simple program reference model will suffice.  The simple
-model combines the effect of the information 
-reference pattern with the effect of the automatic management
-algorithm to produce a single, composite 
-statement: the mean number of memory references between
-paging exceptions increases linearly with the 
-size of the paging memory.  The resulting model is easy
-to manipulate, and is applicable to such diverse 
-problems as choosing an optimum size for a paging memory,
-arranging for reproducible memory usage charges, 
-and estimating the amount of core memory sharing.
+two algorithms are presented for sorting 
+************************
+ are presented for sorting n^2
+elements on an n x n mesh-connected processor 
+array that require o(n) routing and comparison steps.
+ the best previous algorithm takes time o(n log 
+n).  the algorithms of this paper are shown to be optimal
+in time within small constant factors.  extensions 
+to higher-dimensional arrays are also given.
 
-CACM April, 1974
+cacm april, 1977
 
-Saltzer, J. H.
+thompson, c. d.
+kung, h. t.
 
-paging, dem<B>and paging</B>, memory models, program models,
-performance measurement, multilevel memory 
-systems, virtual memory, associative memory, memory usage accounting, Multics
+parallel computer, parallel sorting, 
+************************
 
-3.79 4.30 4.32
+************************
+Document:  CACM-2950.html
+************************
+************************
+Document:  CACM-2865.html
+************************
+************************
+Document:  CACM-2723.html
+************************
 
-CA740401 JB January 18, 1978  10:41 AM
 
-1892	4	2669
-1901	4	2669
-2085	4	2669
-2095	4	2669
-2218	4	2669
-2277	4	2669
-2319	4	2669
-2319	4	2669
-2329	4	2669
-2358	4	2669
-2377	4	2669
-2373	4	2669
-2374	4	2669
-2380	4	2669
-2434	4	2669
-2499	4	2669
-2481	4	2669
-2501	4	2669
-2582	4	2669
-2582	4	2669
-2625	4	2669
-2626	4	2669
-2669	4	2669
-2669	4	2669
-2669	4	2669
-2669	4	2669
-2828	4	2669
-2863	4	2669
-2863	4	2669
-2881	4	2669
-2928	4	2669
-2996	4	2669
-3006	4	2669
-3016	4	2669
-3052	4	2669
-3054	4	2669
-3067	4	2669
-1751	5	2669
-1901	5	2669
-2017	5	2669
-2358	5	2669
-2669	5	2669
-2669	5	2669
-2669	5	2669
+multiprocessing compactifying garbage collection
 
+algorithms for a multiprocessing compactifying
+garbage collector are presented and discussed. 
+ the simple case of two processors, one performing lisp-like
+
+************************
+, one performing lisp-like
+list operations and the other performing 
+garbage collection continuously, is thoroughly examined.
+the necessary capabilities of each processor 
+are defined, as well as interprocessor communication
+and interlocks. complete procedures for garbage 
+collection and for standard list processing primitives
+are presented and thoroughly explained.  particular 
+attention is given to the problems of marking and relocating
+list cells while another processor may be 
+operating on them.  the primary aim throughout is to
+allow the list processor to run unimpeded while 
+the other processor reclaims list storage.  the more
+complex cases involving several list processors 
+and one or more garbage collection processors are also briefly discussed.
+
+cacm september, 1975
+
+steele, g. l. jr.
+
+garbage collection, storage reclamation, reclaimer,
+storage allocation, multiprocessing, synchronization, 
+semaphores, parallel processing, compactification, 
+************************
+
+************************
+Document:  CACM-1753.html
+************************
+************************
+Document:  CACM-0303.html
+************************
+************************
+Document:  CACM-2903.html
+************************
+************************
+Document:  CACM-2570.html
+************************
+
+
+a comparison of list schedules for parallel processing systems
+
+the problem of scheduling two or more processors
+to minimize the execution 
+************************
+
+to minimize the execution time of a program 
+which consists of a set of partially ordered tasks
+is studied.  cases where task execution times are 
+deterministic and others in which execution times are
+random variables are analyzed.  it is shown that 
+different algorithms suggested in the literature vary significantly
+in execution time and that the b-schedule 
+of coffman and graham is near-optimal.  a dynamic programming
+solution for the case in which execution 
+times are random variables is presented.
+
+cacm december, 1974
+
+adam, t. l.
+chandy, k. m.
+dickson, j. r.
+
+parallel processing, precedence 
+************************
+
+************************
+Document:  CACM-2195.html
+************************
+************************
+Document:  CACM-2022.html
+************************
+************************
+Document:  CACM-1601.html
+************************
+
+
+parallel numerical methods for the solution of equations
+
+classical iterative procedures for the numerical
+solution of equations provide at each stage 
+a single new approximation to the root in question.  a
+technique is given for the development of numerical 
+procedures which provide, at each stage, several approximations
+to a solution of an equation.  the s8everal 
+approximations obtained in any iteration are computationally
+independent, making the methods of interest 
+in a parallel processing environment.  convergence is
+insured by extracting the "best information" at 
+each iteration.  several families of numerical procedures
+which use the technique of the procedures in 
+a parallel processing environment are developed and measurements
+of these statistics are reported.  these 
+measurements are interpreted in a parallel processing
+environment.  in such an environment the procedures 
+obtained are superior to standard algorithms.
+
+cacm may, 1967
+
+shedler, 
+************************
+
+************************
+Document:  CACM-2297.html
+************************
+************************
+Document:  CACM-2526.html
+************************
+************************
+Document:  CACM-1846.html
+************************
+************************
+Document:  CACM-1810.html
+************************
+
+
+is automatic "folding" of programs efficient enough to displace manual?
+
+the operation of "folding" a program into
+the available memory is discussed.  measurements 
+by brown et al. and by nelson on an automatic folding
+mechanism of simple design, a demand paging unit 
+built at the ibm research center by belady, nelson,
+o'neil, and others, permitting its quality to be 
+compared with that of manual folding, are discussed,
+and it is shown that given some care in use the 
+unit performs satisfactorily under the conditions tested,
+even though it is operating across a memory-to-storage 
+interface with a very large speed difference.  the disadvantages
+of prefolding, which is required when 
+the folding is manual, are examined, and a number of
+the important troubles which beset computing today 
+are shown to arise from, or be aggravated by, this
+source.  it is concluded that a folding mechanism 
+will probably become a normal part of most computing systems.
+
+cacm december, 1969
+
+sayre, d.
+
+paging, automatic paging, demand paging, folding,
+automatic folding, storage hierarchies, memory 
+hierarchies, replacement algorithms, performance, measurement
 
 ************************
 
+************************
+Document:  CACM-1988.html
+************************
+************************
+Document:  CACM-2450.html
+************************
+
+
+empirical working set behavior
+
+the working set model for program behavior
+has been proposed in recent years as a basis for 
+the design of scheduling and paging algorithms.  although
+the words 
+************************
+
+************************
+Document:  CACM-2851.html
+************************
+************************
+Document:  CACM-2881.html
+************************
+************************
+Document:  CACM-2114.html
+************************
+
+
+a formal system for information retrieval from files
+
+a generalized file structure is provided
+by which the concepts of keyword, index, record, file, directory,
+file structure, directory decoding, and record retrieval are defined
+and from which some of the frequently used file structures such
+as inverted files, index-sequential files, and multilist files are
+derived.  two algorithms which retrieve records from the generalized file 
+structure are presented.
+
+cacm february, 1970
+
+hsiao, d.
+
+attribute-value pair, index, keyword, record, record address,
+k-pointer, k-list, file, directory, generalized file
+structure, inverted file, index-sequential-file, multilist file,
+description, file search, directory search, serial processing of
+lists, prime keyword, parallel processing of lists 
+************************
+
+************************
+Document:  CACM-2497.html
+************************
+
+
+synchronizing processors with memory-content-generated interrupts
+
+implementations of the "lock-unlock" method
+of synchronizing processors in a multiprocessor 
+system usually require uninterruptable, memory-pause type instructions.
+ an interlock scheme called read-interlock, 
+which does not require memory-pause instructions, has
+been developed for a dual dec pdp-10 system with 
+real-time requirements.  the read-interlock method does
+require a special"read-interlock" instruction 
+in the repertoire of the processors and a special "read-interlock"
+cycle in the repertoire of the memory 
+modules.  when a processor examines a "lock" (a memory
+location) with a read-interlock instruction, it 
+will be interrupted if the lock was already set; examining
+a lock immediately sets it if it was not already 
+set (this event sequence is a read-interlock cycle). 
+writing into a lock clears it.  having the processor 
+interrupted upon encountering a set lock instead of
+branching is advantageous if the branch would have 
+resulted in an effective interrupt.
+
+cacm june, 1973
+
+hill, j. c.
+
+interrupts,supervisors, monitors, debugging, parallel
+processing, associative 
+************************
+
+************************
+Document:  CACM-2373.html
+************************
+
+
+properties of the working-set model
+
+a program's working set w(t,t) at time t is
+the set of distinct pages among the t most recently 
+referenced pages.  relations between the average working-set size,
+the missing-page rate, and the interreference-interval 
+distribution may be derived both from time-average definitions
+and from ensemble-average (statistical) 
+definitions. an efficient algorithm for estimating these
+quantities is given.  the relation to lru (least 
+recently used) paging is characterized.  the independent-reference
+model, in which page references are 
+statistically independent, is used to assess the effects
+to interpage dependencies on working-set size 
+observations. under general assumptions, working-set
+size is shown to be normally distributed.
+
+cacm march, 1972
+
+denning, p. j.
+schwartz, s. c.
+
+working-set model, paging, paging algorithms,
+program behavior, program 
+************************
+
+************************
+Document:  CACM-2262.html
+************************
+************************
+Document:  CACM-1923.html
+************************
+************************
+Document:  CACM-2498.html
+************************
+
+
+minimizing wasted space in partitioned segmentation
+
+a paged virtual memory system using a finite
+number of page sizes is considered.  two algorithms 
+for assigning pages to segments are discussed.  both
+of these algorithm are simple to implement.  the 
+problem of choosing the page sizes to minimize the expected
+value of total wasted space in internal fragmentation 
+and in a page table, per segment, is then solved for a
+probability density function of segment size which 
+may be expressed as a convex combination of erlang densities.
+
+cacm june, 1973
+
+gelenbe, e.
+
+dynamic storage allocation, virtual memory, paging,
+multiple page sizes, 
+************************
+
+************************
+Document:  CACM-1884.html
+************************
+************************
+Document:  CACM-1025.html
+************************
+************************
+Document:  CACM-2785.html
+************************
+************************
+Document:  CACM-2069.html
+************************
+************************
+Document:  CACM-3166.html
+************************
+************************
+Document:  CACM-1957.html
+************************
+
+
+the list set generator: a construct for evaluating set expressions
+
+the list set generator is defined and algorithms
+for its use are given.  the list set generator is
+a construct which may be added to a list processing system or any
+system that handles sets.  it efficiently generates the set which
+results from any expression involving sets and set operators.  the
+efficiency derives from evaluating the expression as a whole and
+in parallel, rather than evaluating 
+************************
+
+************************
+Document:  CACM-3153.html
+************************
+
+
+the control of response times in multi-class
+systems by memory allocations 
+
+the possibility of giving different quality of service to jobs of different
+classes by regulating their memory allocation is examined in
+the context of a paged computer system.  two parameterized algorithms
+which partition the main memory between two classes of jobs are
+considered.  initially, a closed system consisting of a process
+or and paging and file devices, with 
+************************
+ and file devices, with fixed numbers of jobs, is studied
+to determine optimal degrees of multiprogramming and the proportion
+of processor time devoted to each class.  applying a decomposition
+approach and treating the closed system as a single server,
+the response times in an open system with external arrivals are
+studied.  the object is to investigate the effect of the memory
+alocation parameters on the expected response times under the two algorithms.
+numerical solutions and economical lower bounds for the
+expected response times as functions of the control parameters
+are obtained.  a way of applying the results to systems with more
+than two job classes is indicated.
+
+cacm july, 1979
+
+hine, j.
+mitrani, i.
+tsur, s.
+
+queueing networks, paging, virtual memory, performance 
+************************
+
+************************
+Document:  CACM-1828.html
+************************
+************************
+Document:  CACM-2740.html
+************************
+
+
+a large semaphore based operating system
+
+the paper describes the internal structure of
+a large operating system as a set of cooperating 
+sequential processes.  the processes synchronize by
+means of semaphores and extended semaphores (queue 
+semaphores).  the number of parallel processes is carefully
+justified, and the various semaphore constructions 
+are explained.  the system is proved to be free of "deadly
+embrace" (deadlock).  the design principle 
+is an alternative to dijkstra's hierarchical structuring
+of operating systems.  the project management 
+and the performance are discussed, too.  the operating
+system is the first large one using the rc 4000 
+multiprogramming system.
+
+cacm july, 1975
+
+lauesen, s.
+
+cooperating processes, operating system, semaphores,
+semaphore applications, queue semaphores, 
+deadlock, deadly embrace, hierarchical structuring, multiprogramming,
+operating system structure, asynchronous 
+structuring, buffering, parallel processes, synchronizing
+primitives, reentrant code, rc 4000, project 
+management, time schedule, debugging, project planning,
+project scheduling, reliability, program proving, 
+coroutines, correctness, program maintenance, software paging
+
+4.30 4.31 4.32 4.42 
+************************
+
+************************
+Document:  CACM-2289.html
+************************
+
+
+cellular arrays for the solution of graph problems
+
+a cellular array is a two-dimensional, checkerboard
+type interconnection of identical modules 
+(or cells), where each cell contains a few bits of
+memory and a small amount of combinational logic, 
+and communicates mainly with its immediate neighbors
+in the array.  the chief computational advantage 
+offered by cellular arrays is the improvement in speed
+achieved by virtue of the possibilities for parallel 
+processing.  in this paper it is shown that cellular
+arrays are inherently well suited for the solution 
+of many graph problems.  for example, the adjacency
+matrix of a graph is easily mapped onto an array; 
+each matrix element is stored in one cell of the array,
+and typical row and column operations are readily 
+implemented by simple cell logic.  a major challenge
+in the effective use of cellular arrays for the 
+solution of graph problems is the determination of algorithms
+that exploit the possibilities 
+************************
+
+that exploit the possibilities for parallelism, 
+especially for problems whose solutions appear to be inherently
+serial.  in particular, several parallelized 
+algorithms are presented for the 
+************************
+ are presented for the solution of certain
+spanning tree, distance, and path problems, with 
+direct applications to wire routing, pert chart analysis,
+and the analysis of many types of networks. 
+ these algorithms exhibit a computation time that in
+many cases grows at a rate not exceeding log2 n, 
+where n is the number of nodes in the graph.  straightforward
+cellular implementations of the well-known 
+serial algorithms for these problems require about n
+steps, and noncellular implementations require from 
+n^2 to n^3 steps.
+
+cacm september, 1972
+
+levitt, k. n.
+kautz, w. h.
+
+graph theory, cellular logic-in-memory arrays,
+parallel processing, special 
+************************
+
+************************
+Document:  CACM-2016.html
+************************
+************************
+Document:  CACM-2667.html
+************************
+************************
+Document:  CACM-1752.html
+************************
+
+
+resource management for a medium scale time-sharing operating system
+
+task scheduling and resource balancing for
+a medium size virtual memory paging machine are 
+discussed in relation to a combined batch processing
+and time-sharing environment.  a synopsis is given 
+of the task scheduling and paging algorithms that were implemented,
+
+************************
+ that were implemented,
+and the results of comparative simulation 
+are given by tracing the development of the algorithms
+through six predecessor versions.  throughout 
+the discussion particular emphasis is placed on balancing
+the system performance relative to the characteristics 
+of all the system resources.  simulation results relative
+to alternate hardware characteristics and the 
+effects of program mix and loading variations are also presented.
+
+cacm may, 1968
+
+oppenheimer, g.
+weizer, n.
+
+time-sharing, operating systems, resource management,
+task scheduling, paging, system simulation, 
+************************
+
+************************
+Document:  CACM-1684.html
+************************
+************************
+Document:  CACM-2277.html
+************************
+************************
+Document:  CACM-2128.html
+************************
+
+
+a processor allocation method for time-sharing
+
+a scheduling algorithm is proposed which is intended to minimize changes of 
+tasks on processors and thereby reduce over-head.  the algorithm also has
+application to more general resource allocation problems.  it is implemented 
+by means of a method for efficiently handling dynamically changing segmented 
+lists.
+
+cacm january, 1970
+
+mullery, a. p.
+driscoll, g. c.
+
+time sharing, resource allocation, scheduling algorithms,
+monitors, dynamic allocation, 
+************************
+
+************************
+Document:  CACM-1158.html
+************************
+************************
+Document:  CACM-1569.html
+************************
+************************
+Document:  CACM-0141.html
+************************
+************************
+Document:  CACM-2579.html
+************************
+
+
+register allocation via usage counts
+
+this paper introduces the notion of usage counts,
+shows how usage counts can be developed by 
+algorithms that eliminate redundant computations, and
+describes how usage counts can provide the basis 
+for register allocation.  the paper compares register
+allocation based on usage counts to other commonly 
+used register allocation techniques, and presents evidence
+which shows that the usage count technique 
+is significantly better than these other techniques.
+
+cacm november, 1974
+
+freiburghouse, r. a.
+
+optimization, redundant computations, common subexpressions,
+register allocation, compilers, programming 
+languages, virtual memory, demand paging
+
+4.12 4.2 4.39
+
+ca741105 
+************************
+
+************************
+Document:  CACM-1728.html
+************************
+
+
+further experimental data on the behavior
+of programs in a paging environment
+
+results are summarized from an empirical study
+directed at the measurement of program operating 
+behavior in those multiprogramming systems in which
+programs are organized into fixed length pages.  
+the data collected from the interpretive execution of
+a number of paged programs are used to describe 
+the frequency of page faults, i.e. the frequency of those
+instants at which an executing program requires 
+a page of data or instructions not in main (core) memory.
+ these data are used also for the evaluation 
+of page replacement algorithms and for assessing the
+
+************************
+
+************************
+Document:  CACM-2714.html
+************************
+
+
+merging with parallel processors
+
+consider two linearly 
+************************
+
+
+consider two linearly ordered sets a, b, |a|=m,
+|b|=n, m<=n, and p, p<=m, parallel processors 
+working synchronously. 
+************************
+ 
+working synchronously.  the paper presents an algorithm
+for merging a and b with the p parallel processors, 
+which requires at 
+************************
+
+************************
+Document:  CACM-1747.html
+************************
+************************
+Document:  CACM-2819.html
+************************
+************************
+Document:  CACM-1262.html
+************************
+************************
+Document:  CACM-2401.html
+************************
