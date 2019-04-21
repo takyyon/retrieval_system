@@ -84,7 +84,7 @@ class Evaluation:
         reciprocal_rank = self.get_reciprocal_rank(relevant_docs, retrieved_docs)
         return (recall, precision, precision_in_5, precision_in_20, average_precision, reciprocal_rank)
 
-    def evaluate_model(self, stem, score, queries, folder):  
+    def evaluate_model(self, stem, score, queries, folder, filter_queries=False, query_expansion=None):  
         print('\n' + self.utility.line_break + '\n' +\
             'Evaluating the model: ' + score + '..')  
         mean_average_precision = 0.0
@@ -105,10 +105,12 @@ class Evaluation:
                 'p_in_5': precision_in_5, 'p_in_20': precision_in_20}
         mean_average_precision /= len(queries)*1.0
         mean_reciprocal_rank /= len(queries)*1.0
-        self.save_evaluation_results(score, folder, query_specific_scores, mean_average_precision, mean_reciprocal_rank)
+        self.save_evaluation_results(score, folder, query_specific_scores,\
+            mean_average_precision, mean_reciprocal_rank, filter_queries=filter_queries, query_expansion=query_expansion)
 
-    def save_evaluation_results(self, score, folder, query_scores, mean_average_precision, mean_reciprocal_rank):
-        evaluation_file_path = self.common.get_evaluation_path(self.stem_folder, folder) + '/' + score
+    def save_evaluation_results(self, score, folder,\
+        query_scores, mean_average_precision, mean_reciprocal_rank, filter_queries=False, query_expansion=None):
+        evaluation_file_path = self.common.get_evaluation_path(self.stem_folder, folder, filter_queries=filter_queries, query_expansion=query_expansion) + '/' + score
         print('\n' + self.utility.line_break + '\n' +\
             'Saving Evaluation scores to ' + evaluation_file_path + '..')
         data = 'Evaluation Scores\n'
@@ -133,3 +135,8 @@ class Evaluation:
         scores = ['bm25', 'binary-independence', 'tf-idf']
         for score in scores:
             self.evaluate_model(stem, score, queries, folder)
+            self.evaluate_model(stem, score, queries, folder, filter_queries=True)
+            self.evaluate_model(stem, score, queries, folder, query_expansion=True)
+            self.evaluate_model(stem, score, queries, folder, query_expansion=False)
+            self.evaluate_model(stem, score, queries, folder, filter_queries=True, query_expansion=True)
+            self.evaluate_model(stem, score, queries, folder, filter_queries=True, query_expansion=False)
