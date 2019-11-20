@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Localization check'
+      - uses: actions/first-interaction@v1
         with:
-          pr-message: 'This is a pr message'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          pr-message: 'Message that will be displayed on users'' first pr'
+
+        
