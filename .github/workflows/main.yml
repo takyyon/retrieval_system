@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Check Localization'
+      - uses: actions/first-interaction@v1
         with:
           pr-message: 'This is a pr message'
