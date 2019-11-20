@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - with:
-          pr-message: 'Your PR contains .md files'
-      
+      - name: 'Check Localization'
+        with:
+          pr-message: 'This is a pr message'
